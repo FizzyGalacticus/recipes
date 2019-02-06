@@ -1,0 +1,10 @@
+{
+  "name": "recipes",
+  "version": "0.0.1",
+  "description": "A great place to store recipes.",
+  "main": "index.js",
+  "repository": "https://github.com/FizzyGalacticus/recipes",
+  "author": "Dustin L. Dodson <Dustinleedodson@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
