@@ -9,6 +9,7 @@
     "private": false,
     "dependencies": {
         "@babel/core": "^7.2.2",
+        "browserify": "^16.2.3",
         "firebase": "^5.8.2",
         "react": "^16.7.0",
         "react-dom": "^16.7.0"
@@ -17,10 +18,12 @@
         "@babel/preset-env": "^7.3.1",
         "@babel/preset-flow": "^7.0.0",
         "@babel/preset-react": "^7.0.0",
+        "babelify": "^10.0.0",
         "gulp": "^4.0.0",
         "gulp-babel": "^8.0.0",
         "gulp-eslint": "^5.0.0",
         "gulp-htmlmin": "^5.0.1",
-        "gulp-uglify": "^3.0.1"
+        "gulp-uglify": "^3.0.1",
+        "vinyl-source-stream": "^2.0.0"
     }
 }

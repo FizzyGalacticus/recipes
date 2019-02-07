@@ -1,14 +1,24 @@
 const { src, dest, watch, parallel, series } = require('gulp');
-const babel = require('gulp-babel');
+const browserify = require('browserify');
+const source = require('vinyl-source-stream');
 const uglify = require('gulp-uglify');
 const htmlmin = require('gulp-htmlmin');
 
-const buildJs = () => {
-    return src('src/app.js')
-        .pipe(babel())
-        .pipe(uglify())
-        .pipe(dest('docs/'));
+const transpile = () => {
+    return browserify('src/app.js')
+        .transform('babelify')
+        .bundle()
+        .pipe(source('app.js'))
+        .pipe(dest('docs/js'));
 };
+
+const minifyJs = () => {
+    return src('docs/js/app.js')
+        .pipe(uglify())
+        .pipe(dest('docs/js'));
+};
+
+const buildJs = series(transpile, minifyJs);
 
 const minHtml = () => {
     return src('src/index.html')

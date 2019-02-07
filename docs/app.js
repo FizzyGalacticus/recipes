@@ -1,1 +1,0 @@
-"use strict";var _react=_interopRequireDefault(require("react")),_reactDom=_interopRequireDefault(require("react-dom"));function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}var app=document.getElementById("app");_reactDom.default.render(_react.default.createElement("div",null,"Hello, world!"),app);
