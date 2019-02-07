@@ -1,10 +1,26 @@
 {
-  "name": "recipes",
-  "version": "0.0.1",
-  "description": "A great place to store recipes.",
-  "main": "index.js",
-  "repository": "https://github.com/FizzyGalacticus/recipes",
-  "author": "Dustin L. Dodson <Dustinleedodson@gmail.com>",
-  "license": "MIT",
-  "private": false
+    "name": "recipes",
+    "version": "0.0.1",
+    "description": "A great place to store recipes.",
+    "main": "index.js",
+    "repository": "https://github.com/FizzyGalacticus/recipes",
+    "author": "Dustin L. Dodson <Dustinleedodson@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+        "@babel/core": "^7.2.2",
+        "firebase": "^5.8.2",
+        "react": "^16.7.0",
+        "react-dom": "^16.7.0"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.3.1",
+        "@babel/preset-flow": "^7.0.0",
+        "@babel/preset-react": "^7.0.0",
+        "gulp": "^4.0.0",
+        "gulp-babel": "^8.0.0",
+        "gulp-eslint": "^5.0.0",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-uglify": "^3.0.1"
+    }
 }
