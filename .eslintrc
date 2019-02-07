@@ -1,0 +1,56 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module",
+		"ecmaFeatures": { "jsx": true }
+	},
+	"plugins": ["react"],
+	"rules": {
+		"comma-dangle": [
+			"error",
+			{
+				"arrays": "always-multiline",
+				"objects": "always-multiline",
+				"imports": "always-multiline",
+				"exports": "always-multiline",
+				"functions": "ignore"
+			}
+		],
+		"indent": [
+			2,
+			"tab",
+			{
+				"MemberExpression": "off"
+			}
+		],
+		"no-tabs": 0,
+		"ignoreComments": 0,
+		"no-console": 1,
+		"curly": [2, "multi-or-nest"],
+		"no-trailing-spaces": [
+			"error",
+			{
+				"skipBlankLines": true
+			}
+		],
+		"brace-style": [
+			2,
+			"stroustrup",
+			{
+				"allowSingleLine": true
+			}
+		],
+		"max-len": [
+			1,
+			{
+				"code": 120
+			}
+		],
+		"new-cap": [
+			1,
+			{
+				"properties": false
+			}
+		]
+	}
+}
