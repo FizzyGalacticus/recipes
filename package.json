@@ -25,7 +25,9 @@
         "gulp-eslint": "^5.0.0",
         "gulp-htmlmin": "^5.0.1",
         "gulp-uglify": "^3.0.1",
+        "opn": "^5.4.0",
         "prettier": "^1.16.4",
+        "simple-server": "^1.1.1",
         "vinyl-source-stream": "^2.0.0"
     }
 }

@@ -4,6 +4,8 @@ const source = require('vinyl-source-stream');
 const uglify = require('gulp-uglify');
 const htmlmin = require('gulp-htmlmin');
 const eslint = require('gulp-eslint');
+const server = require('simple-server');
+const open = require('opn');
 
 const lint = () => {
 	return src('src/**/*.js').pipe(eslint({ fix: true }));
@@ -47,5 +49,8 @@ const watchHtml = watch('src/index.html', minHtml);
 const watchJS = watch('src/app.js', buildJs);
 
 const all = parallel(buildJs, minHtml);
+
+server('docs/', 3001);
+open('http://localhost:3001');
 
 module.exports = { default: all };
