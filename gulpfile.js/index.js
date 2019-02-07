@@ -1,5 +1,7 @@
 const { src, dest, watch, parallel, series } = require('gulp');
 const browserify = require('browserify');
+const watchify = require('watchify');
+const livereactload = require('livereactload');
 const source = require('vinyl-source-stream');
 const uglify = require('gulp-uglify');
 const htmlmin = require('gulp-htmlmin');
@@ -7,13 +9,20 @@ const eslint = require('gulp-eslint');
 const server = require('simple-server');
 const open = require('opn');
 
+const env = process.env.NODE_ENV;
+
+const builder = browserify('src/app.js', {
+	cache: {},
+	packageCache: {},
+	plugin: env === 'dev' ? [livereactload] : undefined,
+}).transform('babelify');
+
 const lint = () => {
 	return src('src/**/*.js').pipe(eslint({ fix: true }));
 };
 
 const transpile = () => {
-	return browserify('src/app.js')
-		.transform('babelify')
+	return builder
 		.bundle()
 		.pipe(source('app.js'))
 		.pipe(dest('docs/js'));
@@ -45,12 +54,23 @@ const minHtml = () => {
 		.pipe(dest('docs/'));
 };
 
-const watchHtml = watch('src/index.html', minHtml);
-const watchJS = watch('src/app.js', buildJs);
+const devMode = () => {
+	if (env === 'dev') {
+		const watchHtml = watch('src/index.html', minHtml);
+		const watchJS = watch('src/app.js', buildJs);
 
-const all = parallel(buildJs, minHtml);
+		server('docs/', 3001);
 
-server('docs/', 3001);
-open('http://localhost:3001');
+		setTimeout(() => {
+			open('http://localhost:3001');
+		}, 3000);
+	}
 
-module.exports = { default: all };
+	return Promise.resolve();
+};
+
+const all = parallel(buildJs, minHtml, devMode);
+
+module.exports = {
+	default: all,
+};
