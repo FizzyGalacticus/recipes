@@ -9,7 +9,9 @@
 	"private": false,
 	"scripts": {
 		"start": "NODE_ENV=dev gulp",
-		"build": "gulp"
+		"build": "gulp",
+		"hideSecrets": "git stash push config/*",
+		"revealSecrets": "git stash pop"
 	},
 	"dependencies": {
 		"@babel/core": "^7.2.2",
@@ -35,6 +37,7 @@
 		"gulp-uglify": "^3.0.1",
 		"livereactload": "^3.4.0",
 		"opn": "^5.4.0",
+		"post-commit": "^0.0.1",
 		"pre-commit": "^1.2.2",
 		"prettier": "^1.16.4",
 		"simple-server": "^1.1.1",
@@ -42,6 +45,10 @@
 		"watchify": "^3.11.0"
 	},
 	"precommit": [
-		"build"
+		"build",
+		"hideSecrets"
+	],
+	"postcommit": [
+		"revealSecrets"
 	]
 }
