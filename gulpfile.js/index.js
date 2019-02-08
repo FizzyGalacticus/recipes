@@ -57,7 +57,7 @@ const minHtml = () => {
 const devMode = () => {
 	if (env === 'dev') {
 		const watchHtml = watch('src/index.html', minHtml);
-		const watchJS = watch('src/app.js', buildJs);
+		const watchJS = watch('src/app.js', transpile);
 
 		server('docs/', 3001);
 
