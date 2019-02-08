@@ -32,9 +32,13 @@
 		"gulp-uglify": "^3.0.1",
 		"livereactload": "^3.4.0",
 		"opn": "^5.4.0",
+		"pre-commit": "^1.2.2",
 		"prettier": "^1.16.4",
 		"simple-server": "^1.1.1",
 		"vinyl-source-stream": "^2.0.0",
 		"watchify": "^3.11.0"
-	}
+	},
+	"precommit": [
+		"build"
+	]
 }
