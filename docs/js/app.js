@@ -774,10 +774,10 @@
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
@@ -804,10 +804,10 @@
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
@@ -893,11 +893,11 @@
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
-      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "../styles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/index.js"
@@ -1087,11 +1087,11 @@
       "brcast": "/home/dustin/CS/recipes/node_modules/brcast/dist/brcast.cjs.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
-      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
@@ -1166,16 +1166,16 @@
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "./createBreakpoints": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createBreakpoints.js",
       "./shadows": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/shadows.js",
-      "./shape": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/shape.js",
       "./spacing": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/spacing.js",
+      "./shape": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/shape.js",
       "./zIndex": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/zIndex.js",
-      "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "deepmerge": "/home/dustin/CS/recipes/node_modules/deepmerge/dist/umd.js",
+      "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "is-plain-object": "/home/dustin/CS/recipes/node_modules/is-plain-object/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "./createMixins": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createMixins.js",
       "./createPalette": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createPalette.js",
       "./createTypography": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createTypography.js",
@@ -1200,9 +1200,9 @@
       "../colors/common": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/common.js",
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "deepmerge": "/home/dustin/CS/recipes/node_modules/deepmerge/dist/umd.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js"
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createPalette.js",
@@ -1372,8 +1372,8 @@
   "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/themeListener.js": [
     "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.CHANNEL = void 0;\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\n// Same value used by react-jss\nvar CHANNEL = '__THEMING__';\nexports.CHANNEL = CHANNEL;\nvar themeListener = {\n  contextTypes: (0, _defineProperty2.default)({}, CHANNEL, function () {}),\n  initial: function initial(context) {\n    if (!context[CHANNEL]) {\n      return null;\n    }\n\n    return context[CHANNEL].getState();\n  },\n  subscribe: function subscribe(context, cb) {\n    if (!context[CHANNEL]) {\n      return null;\n    }\n\n    return context[CHANNEL].subscribe(cb);\n  },\n  unsubscribe: function unsubscribe(context, subscriptionId) {\n    if (context[CHANNEL]) {\n      context[CHANNEL].unsubscribe(subscriptionId);\n    }\n  }\n};\nvar _default = themeListener;\nexports.default = _default;",
     {
-      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js"
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/themeListener.js",
@@ -1406,8 +1406,8 @@
       "./themeListener": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/themeListener.js",
       "./createGenerateClassName": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createGenerateClassName.js",
       "./reactJssContext": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/reactJssContext.js",
-      "./getThemeProps": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/getThemeProps.js",
       "./multiKeyStore": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/multiKeyStore.js",
+      "./getThemeProps": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/getThemeProps.js",
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
@@ -1420,8 +1420,8 @@
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
-      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "./mergeClasses": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/mergeClasses.js",
       "./getStylesCreator": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/getStylesCreator.js",
       "jss": "/home/dustin/CS/recipes/node_modules/jss/lib/index.js"
@@ -1551,8 +1551,8 @@
     {
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js"
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/exactProp.js",
@@ -1911,9 +1911,9 @@
   "/home/dustin/CS/recipes/node_modules/core-js/modules/_export.js": [
     "var global = require('./_global');\nvar core = require('./_core');\nvar hide = require('./_hide');\nvar redefine = require('./_redefine');\nvar ctx = require('./_ctx');\nvar PROTOTYPE = 'prototype';\n\nvar $export = function (type, name, source) {\n  var IS_FORCED = type & $export.F;\n  var IS_GLOBAL = type & $export.G;\n  var IS_STATIC = type & $export.S;\n  var IS_PROTO = type & $export.P;\n  var IS_BIND = type & $export.B;\n  var target = IS_GLOBAL ? global : IS_STATIC ? global[name] || (global[name] = {}) : (global[name] || {})[PROTOTYPE];\n  var exports = IS_GLOBAL ? core : core[name] || (core[name] = {});\n  var expProto = exports[PROTOTYPE] || (exports[PROTOTYPE] = {});\n  var key, own, out, exp;\n  if (IS_GLOBAL) source = name;\n  for (key in source) {\n    // contains in native\n    own = !IS_FORCED && target && target[key] !== undefined;\n    // export native or passed\n    out = (own ? target : source)[key];\n    // bind timers to global for call from export context\n    exp = IS_BIND && own ? ctx(out, global) : IS_PROTO && typeof out == 'function' ? ctx(Function.call, out) : out;\n    // extend global\n    if (target) redefine(target, key, out, type & $export.U);\n    // export\n    if (exports[key] != out) hide(exports, key, exp);\n    if (IS_PROTO && expProto[key] != out) expProto[key] = out;\n  }\n};\nglobal.core = core;\n// type bitmap\n$export.F = 1;   // forced\n$export.G = 2;   // global\n$export.S = 4;   // static\n$export.P = 8;   // proto\n$export.B = 16;  // bind\n$export.W = 32;  // wrap\n$export.U = 64;  // safe\n$export.R = 128; // real proto method for `library`\nmodule.exports = $export;\n",
     {
+      "./_global": "/home/dustin/CS/recipes/node_modules/core-js/modules/_global.js",
       "./_core": "/home/dustin/CS/recipes/node_modules/core-js/modules/_core.js",
       "./_hide": "/home/dustin/CS/recipes/node_modules/core-js/modules/_hide.js",
-      "./_global": "/home/dustin/CS/recipes/node_modules/core-js/modules/_global.js",
       "./_redefine": "/home/dustin/CS/recipes/node_modules/core-js/modules/_redefine.js",
       "./_ctx": "/home/dustin/CS/recipes/node_modules/core-js/modules/_ctx.js"
     },
@@ -2271,8 +2271,8 @@
   "/home/dustin/CS/recipes/node_modules/core-js/modules/_object-keys-internal.js": [
     "var has = require('./_has');\nvar toIObject = require('./_to-iobject');\nvar arrayIndexOf = require('./_array-includes')(false);\nvar IE_PROTO = require('./_shared-key')('IE_PROTO');\n\nmodule.exports = function (object, names) {\n  var O = toIObject(object);\n  var i = 0;\n  var result = [];\n  var key;\n  for (key in O) if (key != IE_PROTO) has(O, key) && result.push(key);\n  // Don't enum bug & hidden keys\n  while (names.length > i) if (has(O, key = names[i++])) {\n    ~arrayIndexOf(result, key) || result.push(key);\n  }\n  return result;\n};\n",
     {
-      "./_has": "/home/dustin/CS/recipes/node_modules/core-js/modules/_has.js",
       "./_to-iobject": "/home/dustin/CS/recipes/node_modules/core-js/modules/_to-iobject.js",
+      "./_has": "/home/dustin/CS/recipes/node_modules/core-js/modules/_has.js",
       "./_shared-key": "/home/dustin/CS/recipes/node_modules/core-js/modules/_shared-key.js",
       "./_array-includes": "/home/dustin/CS/recipes/node_modules/core-js/modules/_array-includes.js"
     },
@@ -2322,8 +2322,8 @@
       "./_global": "/home/dustin/CS/recipes/node_modules/core-js/modules/_global.js",
       "./_hide": "/home/dustin/CS/recipes/node_modules/core-js/modules/_hide.js",
       "./_has": "/home/dustin/CS/recipes/node_modules/core-js/modules/_has.js",
-      "./_core": "/home/dustin/CS/recipes/node_modules/core-js/modules/_core.js",
-      "./_uid": "/home/dustin/CS/recipes/node_modules/core-js/modules/_uid.js"
+      "./_uid": "/home/dustin/CS/recipes/node_modules/core-js/modules/_uid.js",
+      "./_core": "/home/dustin/CS/recipes/node_modules/core-js/modules/_core.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/core-js/modules/_redefine.js",
@@ -2400,8 +2400,8 @@
   "/home/dustin/CS/recipes/node_modules/core-js/modules/_string-repeat.js": [
     "'use strict';\nvar toInteger = require('./_to-integer');\nvar defined = require('./_defined');\n\nmodule.exports = function repeat(count) {\n  var str = String(defined(this));\n  var res = '';\n  var n = toInteger(count);\n  if (n < 0 || n == Infinity) throw RangeError(\"Count can't be negative\");\n  for (;n > 0; (n >>>= 1) && (str += str)) if (n & 1) res += str;\n  return res;\n};\n",
     {
-      "./_defined": "/home/dustin/CS/recipes/node_modules/core-js/modules/_defined.js",
-      "./_to-integer": "/home/dustin/CS/recipes/node_modules/core-js/modules/_to-integer.js"
+      "./_to-integer": "/home/dustin/CS/recipes/node_modules/core-js/modules/_to-integer.js",
+      "./_defined": "/home/dustin/CS/recipes/node_modules/core-js/modules/_defined.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/core-js/modules/_string-repeat.js",
@@ -2634,8 +2634,8 @@
     "// 21.1.3.18 String.prototype.startsWith(searchString [, position ])\n'use strict';\nvar $export = require('./_export');\nvar toLength = require('./_to-length');\nvar context = require('./_string-context');\nvar STARTS_WITH = 'startsWith';\nvar $startsWith = ''[STARTS_WITH];\n\n$export($export.P + $export.F * require('./_fails-is-regexp')(STARTS_WITH), 'String', {\n  startsWith: function startsWith(searchString /* , position = 0 */) {\n    var that = context(this, searchString, STARTS_WITH);\n    var index = toLength(Math.min(arguments.length > 1 ? arguments[1] : undefined, that.length));\n    var search = String(searchString);\n    return $startsWith\n      ? $startsWith.call(that, search, index)\n      : that.slice(index, index + search.length) === search;\n  }\n});\n",
     {
       "./_export": "/home/dustin/CS/recipes/node_modules/core-js/modules/_export.js",
-      "./_to-length": "/home/dustin/CS/recipes/node_modules/core-js/modules/_to-length.js",
       "./_fails-is-regexp": "/home/dustin/CS/recipes/node_modules/core-js/modules/_fails-is-regexp.js",
+      "./_to-length": "/home/dustin/CS/recipes/node_modules/core-js/modules/_to-length.js",
       "./_string-context": "/home/dustin/CS/recipes/node_modules/core-js/modules/_string-context.js"
     },
     {
@@ -2664,8 +2664,8 @@
       "./_shared": "/home/dustin/CS/recipes/node_modules/core-js/modules/_shared.js",
       "./_set-to-string-tag": "/home/dustin/CS/recipes/node_modules/core-js/modules/_set-to-string-tag.js",
       "./_wks": "/home/dustin/CS/recipes/node_modules/core-js/modules/_wks.js",
-      "./_enum-keys": "/home/dustin/CS/recipes/node_modules/core-js/modules/_enum-keys.js",
       "./_wks-define": "/home/dustin/CS/recipes/node_modules/core-js/modules/_wks-define.js",
+      "./_enum-keys": "/home/dustin/CS/recipes/node_modules/core-js/modules/_enum-keys.js",
       "./_an-object": "/home/dustin/CS/recipes/node_modules/core-js/modules/_an-object.js",
       "./_to-primitive": "/home/dustin/CS/recipes/node_modules/core-js/modules/_to-primitive.js",
       "./_object-gopn-ext": "/home/dustin/CS/recipes/node_modules/core-js/modules/_object-gopn-ext.js",
@@ -2714,8 +2714,8 @@
     "var $iterators = require('./es6.array.iterator');\nvar getKeys = require('./_object-keys');\nvar redefine = require('./_redefine');\nvar global = require('./_global');\nvar hide = require('./_hide');\nvar Iterators = require('./_iterators');\nvar wks = require('./_wks');\nvar ITERATOR = wks('iterator');\nvar TO_STRING_TAG = wks('toStringTag');\nvar ArrayValues = Iterators.Array;\n\nvar DOMIterables = {\n  CSSRuleList: true, // TODO: Not spec compliant, should be false.\n  CSSStyleDeclaration: false,\n  CSSValueList: false,\n  ClientRectList: false,\n  DOMRectList: false,\n  DOMStringList: false,\n  DOMTokenList: true,\n  DataTransferItemList: false,\n  FileList: false,\n  HTMLAllCollection: false,\n  HTMLCollection: false,\n  HTMLFormElement: false,\n  HTMLSelectElement: false,\n  MediaList: true, // TODO: Not spec compliant, should be false.\n  MimeTypeArray: false,\n  NamedNodeMap: false,\n  NodeList: true,\n  PaintRequestList: false,\n  Plugin: false,\n  PluginArray: false,\n  SVGLengthList: false,\n  SVGNumberList: false,\n  SVGPathSegList: false,\n  SVGPointList: false,\n  SVGStringList: false,\n  SVGTransformList: false,\n  SourceBufferList: false,\n  StyleSheetList: true, // TODO: Not spec compliant, should be false.\n  TextTrackCueList: false,\n  TextTrackList: false,\n  TouchList: false\n};\n\nfor (var collections = getKeys(DOMIterables), i = 0; i < collections.length; i++) {\n  var NAME = collections[i];\n  var explicit = DOMIterables[NAME];\n  var Collection = global[NAME];\n  var proto = Collection && Collection.prototype;\n  var key;\n  if (proto) {\n    if (!proto[ITERATOR]) hide(proto, ITERATOR, ArrayValues);\n    if (!proto[TO_STRING_TAG]) hide(proto, TO_STRING_TAG, NAME);\n    Iterators[NAME] = ArrayValues;\n    if (explicit) for (key in $iterators) if (!proto[key]) redefine(proto, key, $iterators[key], true);\n  }\n}\n",
     {
       "./_object-keys": "/home/dustin/CS/recipes/node_modules/core-js/modules/_object-keys.js",
-      "./_redefine": "/home/dustin/CS/recipes/node_modules/core-js/modules/_redefine.js",
       "./_global": "/home/dustin/CS/recipes/node_modules/core-js/modules/_global.js",
+      "./_redefine": "/home/dustin/CS/recipes/node_modules/core-js/modules/_redefine.js",
       "./_hide": "/home/dustin/CS/recipes/node_modules/core-js/modules/_hide.js",
       "./_wks": "/home/dustin/CS/recipes/node_modules/core-js/modules/_wks.js",
       "./_iterators": "/home/dustin/CS/recipes/node_modules/core-js/modules/_iterators.js",
@@ -2741,8 +2741,8 @@
   "/home/dustin/CS/recipes/node_modules/css-vendor/lib/index.js": [
     "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.supportedValue = exports.supportedProperty = exports.prefix = undefined;\n\nvar _prefix = require('./prefix');\n\nvar _prefix2 = _interopRequireDefault(_prefix);\n\nvar _supportedProperty = require('./supported-property');\n\nvar _supportedProperty2 = _interopRequireDefault(_supportedProperty);\n\nvar _supportedValue = require('./supported-value');\n\nvar _supportedValue2 = _interopRequireDefault(_supportedValue);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }\n\nexports['default'] = {\n  prefix: _prefix2['default'],\n  supportedProperty: _supportedProperty2['default'],\n  supportedValue: _supportedValue2['default']\n}; /**\n    * CSS Vendor prefix detection and property feature testing.\n    *\n    * @copyright Oleg Slobodskoi 2015\n    * @website https://github.com/jsstyles/css-vendor\n    * @license MIT\n    */\n\nexports.prefix = _prefix2['default'];\nexports.supportedProperty = _supportedProperty2['default'];\nexports.supportedValue = _supportedValue2['default'];",
     {
-      "./supported-property": "/home/dustin/CS/recipes/node_modules/css-vendor/lib/supported-property.js",
       "./prefix": "/home/dustin/CS/recipes/node_modules/css-vendor/lib/prefix.js",
+      "./supported-property": "/home/dustin/CS/recipes/node_modules/css-vendor/lib/supported-property.js",
       "./supported-value": "/home/dustin/CS/recipes/node_modules/css-vendor/lib/supported-value.js"
     },
     {
@@ -2975,8 +2975,8 @@
     {
       "./sheets": "/home/dustin/CS/recipes/node_modules/jss/lib/sheets.js",
       "./rules/StyleRule": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/StyleRule.js",
-      "./utils/createRule": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/createRule.js",
       "./utils/createGenerateClassName": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/createGenerateClassName.js",
+      "./utils/createRule": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/createRule.js",
       "./renderers/VirtualRenderer": "/home/dustin/CS/recipes/node_modules/jss/lib/renderers/VirtualRenderer.js",
       "./StyleSheet": "/home/dustin/CS/recipes/node_modules/jss/lib/StyleSheet.js",
       "./plugins/functions": "/home/dustin/CS/recipes/node_modules/jss/lib/plugins/functions.js",
@@ -3106,8 +3106,8 @@
     "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _SimpleRule = require('../rules/SimpleRule');\n\nvar _SimpleRule2 = _interopRequireDefault(_SimpleRule);\n\nvar _KeyframesRule = require('../rules/KeyframesRule');\n\nvar _KeyframesRule2 = _interopRequireDefault(_KeyframesRule);\n\nvar _ConditionalRule = require('../rules/ConditionalRule');\n\nvar _ConditionalRule2 = _interopRequireDefault(_ConditionalRule);\n\nvar _FontFaceRule = require('../rules/FontFaceRule');\n\nvar _FontFaceRule2 = _interopRequireDefault(_FontFaceRule);\n\nvar _ViewportRule = require('../rules/ViewportRule');\n\nvar _ViewportRule2 = _interopRequireDefault(_ViewportRule);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }\n\nvar classes = {\n  '@charset': _SimpleRule2['default'],\n  '@import': _SimpleRule2['default'],\n  '@namespace': _SimpleRule2['default'],\n  '@keyframes': _KeyframesRule2['default'],\n  '@media': _ConditionalRule2['default'],\n  '@supports': _ConditionalRule2['default'],\n  '@font-face': _FontFaceRule2['default'],\n  '@viewport': _ViewportRule2['default'],\n  '@-ms-viewport': _ViewportRule2['default']\n\n  /**\n   * Generate plugins which will register all rules.\n   */\n};\nvar plugins = Object.keys(classes).map(function (key) {\n  // https://jsperf.com/indexof-vs-substr-vs-regex-at-the-beginning-3\n  var re = new RegExp('^' + key);\n  var RuleClass = classes[key];\n  var onCreateRule = function onCreateRule(name, decl, options) {\n    return re.test(name) ? new RuleClass(name, decl, options) : null;\n  };\n  return { onCreateRule: onCreateRule };\n});\n\nexports['default'] = plugins;",
     {
       "../rules/SimpleRule": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/SimpleRule.js",
-      "../rules/ConditionalRule": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/ConditionalRule.js",
       "../rules/KeyframesRule": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/KeyframesRule.js",
+      "../rules/ConditionalRule": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/ConditionalRule.js",
       "../rules/FontFaceRule": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/FontFaceRule.js",
       "../rules/ViewportRule": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/ViewportRule.js"
     },
@@ -3398,8 +3398,8 @@
     {
       "./_hashDelete": "/home/dustin/CS/recipes/node_modules/lodash/_hashDelete.js",
       "./_hashGet": "/home/dustin/CS/recipes/node_modules/lodash/_hashGet.js",
-      "./_hashSet": "/home/dustin/CS/recipes/node_modules/lodash/_hashSet.js",
       "./_hashHas": "/home/dustin/CS/recipes/node_modules/lodash/_hashHas.js",
+      "./_hashSet": "/home/dustin/CS/recipes/node_modules/lodash/_hashSet.js",
       "./_hashClear": "/home/dustin/CS/recipes/node_modules/lodash/_hashClear.js"
     },
     {
@@ -4247,8 +4247,8 @@
       "./_baseGetTag": "/home/dustin/CS/recipes/node_modules/lodash/_baseGetTag.js",
       "./_toSource": "/home/dustin/CS/recipes/node_modules/lodash/_toSource.js",
       "./_DataView": "/home/dustin/CS/recipes/node_modules/lodash/_DataView.js",
-      "./_Set": "/home/dustin/CS/recipes/node_modules/lodash/_Set.js",
       "./_Promise": "/home/dustin/CS/recipes/node_modules/lodash/_Promise.js",
+      "./_Set": "/home/dustin/CS/recipes/node_modules/lodash/_Set.js",
       "./_WeakMap": "/home/dustin/CS/recipes/node_modules/lodash/_WeakMap.js"
     },
     {
@@ -4372,8 +4372,8 @@
     {
       "./eq": "/home/dustin/CS/recipes/node_modules/lodash/eq.js",
       "./isArrayLike": "/home/dustin/CS/recipes/node_modules/lodash/isArrayLike.js",
-      "./_isIndex": "/home/dustin/CS/recipes/node_modules/lodash/_isIndex.js",
-      "./isObject": "/home/dustin/CS/recipes/node_modules/lodash/isObject.js"
+      "./isObject": "/home/dustin/CS/recipes/node_modules/lodash/isObject.js",
+      "./_isIndex": "/home/dustin/CS/recipes/node_modules/lodash/_isIndex.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isIterateeCall.js",
@@ -5450,8 +5450,8 @@
     {
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
-      "react-lifecycles-compat": "/home/dustin/CS/recipes/node_modules/react-lifecycles-compat/react-lifecycles-compat.cjs.js",
       "react-dom": "/home/dustin/CS/recipes/node_modules/react-dom/index.js",
+      "react-lifecycles-compat": "/home/dustin/CS/recipes/node_modules/react-lifecycles-compat/react-lifecycles-compat.cjs.js",
       "./utils/PropTypes": "/home/dustin/CS/recipes/node_modules/react-transition-group/utils/PropTypes.js"
     },
     {
@@ -5712,7 +5712,7 @@
     }
   ],
   "/home/dustin/CS/recipes/src/components/MenuBar.js": [
-    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _regenerator = _interopRequireDefault(require(\"@babel/runtime/regenerator\"));\n\nvar _asyncToGenerator2 = _interopRequireDefault(require(\"@babel/runtime/helpers/asyncToGenerator\"));\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf2 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _assertThisInitialized2 = _interopRequireDefault(require(\"@babel/runtime/helpers/assertThisInitialized\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _babelTransform = _interopRequireDefault(require(\"livereactload/babel-transform\"));\n\nvar _AppBar = _interopRequireDefault(require(\"@material-ui/core/AppBar\"));\n\nvar _Grid = _interopRequireDefault(require(\"@material-ui/core/Grid\"));\n\nvar _Button = _interopRequireDefault(require(\"@material-ui/core/Button\"));\n\nvar _firebase = require(\"../lib/firebase\");\n\nvar _components = {\n  ButtonAppBar: {\n    displayName: \"ButtonAppBar\"\n  }\n};\n\nvar _livereactloadBabelTransform2 = (0, _babelTransform.default)({\n  filename: \"src/components/MenuBar.js\",\n  components: _components,\n  locals: [],\n  imports: [_react.default]\n});\n\nfunction _wrapComponent(id) {\n  return function (Component) {\n    return _livereactloadBabelTransform2(Component, id);\n  };\n}\n\nvar ButtonAppBar =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inherits2.default)(ButtonAppBar, _React$Component);\n\n  function ButtonAppBar(props) {\n    var _this;\n\n    (0, _classCallCheck2.default)(this, ButtonAppBar);\n    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(ButtonAppBar).call(this, props));\n\n    var auth = _firebase.auth.getAuth();\n\n    _this.state = {\n      auth: auth,\n      loggedIn: auth !== null\n    };\n    _this.login = _this.login.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));\n    return _this;\n  }\n\n  (0, _createClass2.default)(ButtonAppBar, [{\n    key: \"login\",\n    value: function () {\n      var _login = (0, _asyncToGenerator2.default)(\n      /*#__PURE__*/\n      _regenerator.default.mark(function _callee() {\n        return _regenerator.default.wrap(function _callee$(_context) {\n          while (1) {\n            switch (_context.prev = _context.next) {\n              case 0:\n                _context.prev = 0;\n                _context.next = 3;\n                return _firebase.auth.login();\n\n              case 3:\n                this.setState({\n                  loggedIn: true\n                });\n                _context.next = 8;\n                break;\n\n              case 6:\n                _context.prev = 6;\n                _context.t0 = _context[\"catch\"](0);\n\n              case 8:\n              case \"end\":\n                return _context.stop();\n            }\n          }\n        }, _callee, this, [[0, 6]]);\n      }));\n\n      function login() {\n        return _login.apply(this, arguments);\n      }\n\n      return login;\n    }()\n  }, {\n    key: \"render\",\n    value: function render() {\n      return _react.default.createElement(_AppBar.default, {\n        position: \"static\"\n      }, _react.default.createElement(_Grid.default, {\n        container: true\n      }, _react.default.createElement(_Grid.default, {\n        item: true,\n        xs: 11\n      }), _react.default.createElement(_Grid.default, {\n        item: true,\n        xs: 1\n      }, this.state.loggedIn ? _react.default.createElement(_Button.default, {\n        color: \"inherit\"\n      }, \"Logout\") : _react.default.createElement(_Button.default, {\n        color: \"inherit\",\n        onClick: this.login\n      }, \"Login\"))));\n    }\n  }]);\n  return ButtonAppBar;\n}(_react.default.Component);\n\nButtonAppBar = _wrapComponent(\"ButtonAppBar\")(ButtonAppBar);\nvar _default2 = ButtonAppBar;\nexports.default = _default2;\n",
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _regenerator = _interopRequireDefault(require(\"@babel/runtime/regenerator\"));\n\nvar _asyncToGenerator2 = _interopRequireDefault(require(\"@babel/runtime/helpers/asyncToGenerator\"));\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf2 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _assertThisInitialized2 = _interopRequireDefault(require(\"@babel/runtime/helpers/assertThisInitialized\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _babelTransform = _interopRequireDefault(require(\"livereactload/babel-transform\"));\n\nvar _AppBar = _interopRequireDefault(require(\"@material-ui/core/AppBar\"));\n\nvar _Grid = _interopRequireDefault(require(\"@material-ui/core/Grid\"));\n\nvar _Button = _interopRequireDefault(require(\"@material-ui/core/Button\"));\n\nvar _firebase = require(\"../lib/firebase\");\n\nvar _components = {\n  ButtonAppBar: {\n    displayName: \"ButtonAppBar\"\n  }\n};\n\nvar _livereactloadBabelTransform2 = (0, _babelTransform.default)({\n  filename: \"src/components/MenuBar.js\",\n  components: _components,\n  locals: [],\n  imports: [_react.default]\n});\n\nfunction _wrapComponent(id) {\n  return function (Component) {\n    return _livereactloadBabelTransform2(Component, id);\n  };\n}\n\nvar ButtonAppBar =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inherits2.default)(ButtonAppBar, _React$Component);\n\n  function ButtonAppBar(props) {\n    var _this;\n\n    (0, _classCallCheck2.default)(this, ButtonAppBar);\n    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(ButtonAppBar).call(this, props));\n\n    var auth = _firebase.auth.getAuth();\n\n    _this.state = {\n      auth: auth,\n      loggedIn: auth !== null\n    };\n    _this.login = _this.login.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));\n    _this.logout = _this.logout.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));\n    return _this;\n  }\n\n  (0, _createClass2.default)(ButtonAppBar, [{\n    key: \"login\",\n    value: function () {\n      var _login = (0, _asyncToGenerator2.default)(\n      /*#__PURE__*/\n      _regenerator.default.mark(function _callee() {\n        var auth;\n        return _regenerator.default.wrap(function _callee$(_context) {\n          while (1) {\n            switch (_context.prev = _context.next) {\n              case 0:\n                _context.next = 2;\n                return _firebase.auth.login();\n\n              case 2:\n                auth = _context.sent;\n                this.setState({\n                  loggedIn: auth !== null,\n                  auth: auth\n                });\n\n              case 4:\n              case \"end\":\n                return _context.stop();\n            }\n          }\n        }, _callee, this);\n      }));\n\n      function login() {\n        return _login.apply(this, arguments);\n      }\n\n      return login;\n    }()\n  }, {\n    key: \"logout\",\n    value: function () {\n      var _logout = (0, _asyncToGenerator2.default)(\n      /*#__PURE__*/\n      _regenerator.default.mark(function _callee2() {\n        var successful;\n        return _regenerator.default.wrap(function _callee2$(_context2) {\n          while (1) {\n            switch (_context2.prev = _context2.next) {\n              case 0:\n                _context2.next = 2;\n                return _firebase.auth.logout();\n\n              case 2:\n                successful = _context2.sent;\n\n                if (successful) {\n                  this.setState({\n                    loggedIn: false,\n                    auth: null\n                  });\n                }\n\n              case 4:\n              case \"end\":\n                return _context2.stop();\n            }\n          }\n        }, _callee2, this);\n      }));\n\n      function logout() {\n        return _logout.apply(this, arguments);\n      }\n\n      return logout;\n    }()\n  }, {\n    key: \"render\",\n    value: function render() {\n      return _react.default.createElement(_AppBar.default, {\n        position: \"static\"\n      }, _react.default.createElement(_Grid.default, {\n        container: true\n      }, _react.default.createElement(_Grid.default, {\n        item: true,\n        xs: 11\n      }), _react.default.createElement(_Grid.default, {\n        item: true,\n        xs: 1\n      }, this.state.loggedIn ? _react.default.createElement(_Button.default, {\n        color: \"inherit\",\n        onClick: this.logout\n      }, \"Logout\") : _react.default.createElement(_Button.default, {\n        color: \"inherit\",\n        onClick: this.login\n      }, \"Login\"))));\n    }\n  }]);\n  return ButtonAppBar;\n}(_react.default.Component);\n\nButtonAppBar = _wrapComponent(\"ButtonAppBar\")(ButtonAppBar);\nvar _default2 = ButtonAppBar;\nexports.default = _default2;\n",
     {
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "livereactload/babel-transform": "/home/dustin/CS/recipes/node_modules/livereactload/babel-transform.js",
@@ -5732,9 +5732,9 @@
     },
     {
       "id": "/home/dustin/CS/recipes/src/components/MenuBar.js",
-      "hash": "nPdjGQ",
+      "hash": "DfQvrA",
       "browserifyId": 410,
-      "sourcemap": "//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIk1lbnVCYXIuanM/dmVyc2lvbj1uUGRqR1EiXSwibmFtZXMiOlsiQnV0dG9uQXBwQmFyIiwicHJvcHMiLCJhdXRoIiwiZmlyZWJhc2VBdXRoIiwiZ2V0QXV0aCIsInN0YXRlIiwibG9nZ2VkSW4iLCJsb2dpbiIsImJpbmQiLCJzZXRTdGF0ZSIsIlJlYWN0IiwiQ29tcG9uZW50Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBOzs7O0FBRUE7O0FBQ0E7O0FBQ0E7O0FBRUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQUVNQTs7Ozs7QUFDTCx3QkFBWUMsS0FBWixFQUFtQjtBQUFBOztBQUFBO0FBQ2xCLGtIQUFNQSxLQUFOOztBQUVBLFFBQU1DLElBQUksR0FBR0MsZUFBYUMsT0FBYixFQUFiOztBQUVBLFVBQUtDLEtBQUwsR0FBYTtBQUNaSCxNQUFBQSxJQUFJLEVBQUpBLElBRFk7QUFFWkksTUFBQUEsUUFBUSxFQUFFSixJQUFJLEtBQUs7QUFGUCxLQUFiO0FBS0EsVUFBS0ssS0FBTCxHQUFhLE1BQUtBLEtBQUwsQ0FBV0MsSUFBWCxtRkFBYjtBQVZrQjtBQVdsQjs7Ozs7Ozs7Ozs7Ozs7dUJBSU9MLGVBQWFJLEtBQWI7OztBQUNOLHFCQUFLRSxRQUFMLENBQWM7QUFBRUgsa0JBQUFBLFFBQVEsRUFBRTtBQUFaLGlCQUFkOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7NkJBTU87QUFDUixhQUNDLDZCQUFDLGVBQUQ7QUFBUSxRQUFBLFFBQVEsRUFBQztBQUFqQixTQUNDLDZCQUFDLGFBQUQ7QUFBTSxRQUFBLFNBQVM7QUFBZixTQUNDLDZCQUFDLGFBQUQ7QUFBTSxRQUFBLElBQUksTUFBVjtBQUFXLFFBQUEsRUFBRSxFQUFFO0FBQWYsUUFERCxFQUVDLDZCQUFDLGFBQUQ7QUFBTSxRQUFBLElBQUksTUFBVjtBQUFXLFFBQUEsRUFBRSxFQUFFO0FBQWYsU0FDRSxLQUFLRCxLQUFMLENBQVdDLFFBQVgsR0FDQSw2QkFBQyxlQUFEO0FBQVEsUUFBQSxLQUFLLEVBQUM7QUFBZCxrQkFEQSxHQUdBLDZCQUFDLGVBQUQ7QUFBUSxRQUFBLEtBQUssRUFBQyxTQUFkO0FBQXdCLFFBQUEsT0FBTyxFQUFFLEtBQUtDO0FBQXRDLGlCQUpGLENBRkQsQ0FERCxDQUREO0FBaUJBOzs7RUF6Q3lCRyxlQUFNQzs7O2dCQTRDbEJYIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcblxuaW1wb3J0IEFwcEJhciBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9BcHBCYXInO1xuaW1wb3J0IEdyaWQgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvR3JpZCc7XG5pbXBvcnQgQnV0dG9uIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0J1dHRvbic7XG5cbmltcG9ydCB7IGF1dGggYXMgZmlyZWJhc2VBdXRoIH0gZnJvbSAnLi4vbGliL2ZpcmViYXNlJztcblxuY2xhc3MgQnV0dG9uQXBwQmFyIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcblx0Y29uc3RydWN0b3IocHJvcHMpIHtcblx0XHRzdXBlcihwcm9wcyk7XG5cblx0XHRjb25zdCBhdXRoID0gZmlyZWJhc2VBdXRoLmdldEF1dGgoKTtcblxuXHRcdHRoaXMuc3RhdGUgPSB7XG5cdFx0XHRhdXRoLFxuXHRcdFx0bG9nZ2VkSW46IGF1dGggIT09IG51bGwsXG5cdFx0fTtcblxuXHRcdHRoaXMubG9naW4gPSB0aGlzLmxvZ2luLmJpbmQodGhpcyk7XG5cdH1cblxuXHRhc3luYyBsb2dpbigpIHtcblx0XHR0cnkge1xuXHRcdFx0YXdhaXQgZmlyZWJhc2VBdXRoLmxvZ2luKCk7XG5cdFx0XHR0aGlzLnNldFN0YXRlKHsgbG9nZ2VkSW46IHRydWUgfSk7XG5cdFx0fSBjYXRjaCAoZXJyKSB7XG5cdFx0XHQvLyBEbyBub3RoaW5nXG5cdFx0fVxuXHR9XG5cblx0cmVuZGVyKCkge1xuXHRcdHJldHVybiAoXG5cdFx0XHQ8QXBwQmFyIHBvc2l0aW9uPVwic3RhdGljXCI+XG5cdFx0XHRcdDxHcmlkIGNvbnRhaW5lcj5cblx0XHRcdFx0XHQ8R3JpZCBpdGVtIHhzPXsxMX0gLz5cblx0XHRcdFx0XHQ8R3JpZCBpdGVtIHhzPXsxfT5cblx0XHRcdFx0XHRcdHt0aGlzLnN0YXRlLmxvZ2dlZEluID8gKFxuXHRcdFx0XHRcdFx0XHQ8QnV0dG9uIGNvbG9yPVwiaW5oZXJpdFwiPkxvZ291dDwvQnV0dG9uPlxuXHRcdFx0XHRcdFx0KSA6IChcblx0XHRcdFx0XHRcdFx0PEJ1dHRvbiBjb2xvcj1cImluaGVyaXRcIiBvbkNsaWNrPXt0aGlzLmxvZ2lufT5cblx0XHRcdFx0XHRcdFx0XHRMb2dpblxuXHRcdFx0XHRcdFx0XHQ8L0J1dHRvbj5cblx0XHRcdFx0XHRcdCl9XG5cdFx0XHRcdFx0PC9HcmlkPlxuXHRcdFx0XHQ8L0dyaWQ+XG5cdFx0XHRcdHsvKiA8VG9vbGJhciAvPiAqL31cblx0XHRcdDwvQXBwQmFyPlxuXHRcdCk7XG5cdH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgQnV0dG9uQXBwQmFyO1xuIl19"
+      "sourcemap": "//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIk1lbnVCYXIuanM/dmVyc2lvbj1EZlF2ckEiXSwibmFtZXMiOlsiQnV0dG9uQXBwQmFyIiwicHJvcHMiLCJhdXRoIiwiZmlyZWJhc2VBdXRoIiwiZ2V0QXV0aCIsInN0YXRlIiwibG9nZ2VkSW4iLCJsb2dpbiIsImJpbmQiLCJsb2dvdXQiLCJzZXRTdGF0ZSIsInN1Y2Nlc3NmdWwiLCJSZWFjdCIsIkNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTs7OztBQUVBOztBQUNBOztBQUNBOztBQUVBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFFTUE7Ozs7O0FBQ0wsd0JBQVlDLEtBQVosRUFBbUI7QUFBQTs7QUFBQTtBQUNsQixrSEFBTUEsS0FBTjs7QUFFQSxRQUFNQyxJQUFJLEdBQUdDLGVBQWFDLE9BQWIsRUFBYjs7QUFFQSxVQUFLQyxLQUFMLEdBQWE7QUFDWkgsTUFBQUEsSUFBSSxFQUFKQSxJQURZO0FBRVpJLE1BQUFBLFFBQVEsRUFBRUosSUFBSSxLQUFLO0FBRlAsS0FBYjtBQUtBLFVBQUtLLEtBQUwsR0FBYSxNQUFLQSxLQUFMLENBQVdDLElBQVgsbUZBQWI7QUFDQSxVQUFLQyxNQUFMLEdBQWMsTUFBS0EsTUFBTCxDQUFZRCxJQUFaLG1GQUFkO0FBWGtCO0FBWWxCOzs7Ozs7Ozs7Ozs7Ozt1QkFHbUJMLGVBQWFJLEtBQWI7OztBQUFiTCxnQkFBQUE7QUFDTixxQkFBS1EsUUFBTCxDQUFjO0FBQUVKLGtCQUFBQSxRQUFRLEVBQUVKLElBQUksS0FBSyxJQUFyQjtBQUEyQkEsa0JBQUFBLElBQUksRUFBSkE7QUFBM0IsaUJBQWQ7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7dUJBSXlCQyxlQUFhTSxNQUFiOzs7QUFBbkJFLGdCQUFBQTs7QUFFTixvQkFBSUEsVUFBSixFQUFnQjtBQUNmLHVCQUFLRCxRQUFMLENBQWM7QUFBRUosb0JBQUFBLFFBQVEsRUFBRSxLQUFaO0FBQW1CSixvQkFBQUEsSUFBSSxFQUFFO0FBQXpCLG1CQUFkO0FBQ0E7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs2QkFHTztBQUNSLGFBQ0MsNkJBQUMsZUFBRDtBQUFRLFFBQUEsUUFBUSxFQUFDO0FBQWpCLFNBQ0MsNkJBQUMsYUFBRDtBQUFNLFFBQUEsU0FBUztBQUFmLFNBQ0MsNkJBQUMsYUFBRDtBQUFNLFFBQUEsSUFBSSxNQUFWO0FBQVcsUUFBQSxFQUFFLEVBQUU7QUFBZixRQURELEVBRUMsNkJBQUMsYUFBRDtBQUFNLFFBQUEsSUFBSSxNQUFWO0FBQVcsUUFBQSxFQUFFLEVBQUU7QUFBZixTQUNFLEtBQUtHLEtBQUwsQ0FBV0MsUUFBWCxHQUNBLDZCQUFDLGVBQUQ7QUFBUSxRQUFBLEtBQUssRUFBQyxTQUFkO0FBQXdCLFFBQUEsT0FBTyxFQUFFLEtBQUtHO0FBQXRDLGtCQURBLEdBS0EsNkJBQUMsZUFBRDtBQUFRLFFBQUEsS0FBSyxFQUFDLFNBQWQ7QUFBd0IsUUFBQSxPQUFPLEVBQUUsS0FBS0Y7QUFBdEMsaUJBTkYsQ0FGRCxDQURELENBREQ7QUFtQkE7OztFQWhEeUJLLGVBQU1DOzs7Z0JBbURsQmIiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5pbXBvcnQgQXBwQmFyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0FwcEJhcic7XG5pbXBvcnQgR3JpZCBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9HcmlkJztcbmltcG9ydCBCdXR0b24gZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQnV0dG9uJztcblxuaW1wb3J0IHsgYXV0aCBhcyBmaXJlYmFzZUF1dGggfSBmcm9tICcuLi9saWIvZmlyZWJhc2UnO1xuXG5jbGFzcyBCdXR0b25BcHBCYXIgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuXHRjb25zdHJ1Y3Rvcihwcm9wcykge1xuXHRcdHN1cGVyKHByb3BzKTtcblxuXHRcdGNvbnN0IGF1dGggPSBmaXJlYmFzZUF1dGguZ2V0QXV0aCgpO1xuXG5cdFx0dGhpcy5zdGF0ZSA9IHtcblx0XHRcdGF1dGgsXG5cdFx0XHRsb2dnZWRJbjogYXV0aCAhPT0gbnVsbCxcblx0XHR9O1xuXG5cdFx0dGhpcy5sb2dpbiA9IHRoaXMubG9naW4uYmluZCh0aGlzKTtcblx0XHR0aGlzLmxvZ291dCA9IHRoaXMubG9nb3V0LmJpbmQodGhpcyk7XG5cdH1cblxuXHRhc3luYyBsb2dpbigpIHtcblx0XHRjb25zdCBhdXRoID0gYXdhaXQgZmlyZWJhc2VBdXRoLmxvZ2luKCk7XG5cdFx0dGhpcy5zZXRTdGF0ZSh7IGxvZ2dlZEluOiBhdXRoICE9PSBudWxsLCBhdXRoIH0pO1xuXHR9XG5cblx0YXN5bmMgbG9nb3V0KCkge1xuXHRcdGNvbnN0IHN1Y2Nlc3NmdWwgPSBhd2FpdCBmaXJlYmFzZUF1dGgubG9nb3V0KCk7XG5cblx0XHRpZiAoc3VjY2Vzc2Z1bCkge1xuXHRcdFx0dGhpcy5zZXRTdGF0ZSh7IGxvZ2dlZEluOiBmYWxzZSwgYXV0aDogbnVsbCB9KTtcblx0XHR9XG5cdH1cblxuXHRyZW5kZXIoKSB7XG5cdFx0cmV0dXJuIChcblx0XHRcdDxBcHBCYXIgcG9zaXRpb249XCJzdGF0aWNcIj5cblx0XHRcdFx0PEdyaWQgY29udGFpbmVyPlxuXHRcdFx0XHRcdDxHcmlkIGl0ZW0geHM9ezExfSAvPlxuXHRcdFx0XHRcdDxHcmlkIGl0ZW0geHM9ezF9PlxuXHRcdFx0XHRcdFx0e3RoaXMuc3RhdGUubG9nZ2VkSW4gPyAoXG5cdFx0XHRcdFx0XHRcdDxCdXR0b24gY29sb3I9XCJpbmhlcml0XCIgb25DbGljaz17dGhpcy5sb2dvdXR9PlxuXHRcdFx0XHRcdFx0XHRcdExvZ291dFxuXHRcdFx0XHRcdFx0XHQ8L0J1dHRvbj5cblx0XHRcdFx0XHRcdCkgOiAoXG5cdFx0XHRcdFx0XHRcdDxCdXR0b24gY29sb3I9XCJpbmhlcml0XCIgb25DbGljaz17dGhpcy5sb2dpbn0+XG5cdFx0XHRcdFx0XHRcdFx0TG9naW5cblx0XHRcdFx0XHRcdFx0PC9CdXR0b24+XG5cdFx0XHRcdFx0XHQpfVxuXHRcdFx0XHRcdDwvR3JpZD5cblx0XHRcdFx0PC9HcmlkPlxuXHRcdFx0XHR7LyogPFRvb2xiYXIgLz4gKi99XG5cdFx0XHQ8L0FwcEJhcj5cblx0XHQpO1xuXHR9XG59XG5cbmV4cG9ydCBkZWZhdWx0IEJ1dHRvbkFwcEJhcjtcbiJdfQ=="
     }
   ],
   "/home/dustin/CS/recipes/src/components/PageContainer.js": [
@@ -5743,9 +5743,9 @@
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "livereactload/babel-transform": "/home/dustin/CS/recipes/node_modules/livereactload/babel-transform.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
-      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
@@ -5775,8 +5775,9 @@
     }
   ],
   "/home/dustin/CS/recipes/src/lib/firebase/auth.js": [
-    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _regenerator = _interopRequireDefault(require(\"@babel/runtime/regenerator\"));\n\nvar _asyncToGenerator2 = _interopRequireDefault(require(\"@babel/runtime/helpers/asyncToGenerator\"));\n\nvar _auth = _interopRequireDefault(require(\"firebase/auth\"));\n\nvar getAuth = function getAuth() {\n  var auth = localStorage.getItem('auth');\n  return JSON.parse(auth);\n};\n\nvar login =\n/*#__PURE__*/\nfunction () {\n  var _ref = (0, _asyncToGenerator2.default)(\n  /*#__PURE__*/\n  _regenerator.default.mark(function _callee() {\n    var auth, provider;\n    return _regenerator.default.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            auth = getAuth();\n\n            if (!auth) {\n              _context.next = 5;\n              break;\n            }\n\n            return _context.abrupt(\"return\", auth);\n\n          case 5:\n            provider = new _auth.default.GoogleAuthProvider();\n            (0, _auth.default)().useDeviceLanguage();\n            _context.next = 9;\n            return (0, _auth.default)().signInWithPopup(provider);\n\n          case 9:\n            FirebaseAuth = _context.sent;\n\n          case 10:\n            localStorage.setItem('auth', JSON.stringify(auth));\n\n          case 11:\n            return _context.abrupt(\"return\", auth);\n\n          case 12:\n          case \"end\":\n            return _context.stop();\n        }\n      }\n    }, _callee, this);\n  }));\n\n  return function login() {\n    return _ref.apply(this, arguments);\n  };\n}();\n\nvar _default = {\n  login: login,\n  getAuth: getAuth\n};\nexports.default = _default;\n",
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _regenerator = _interopRequireDefault(require(\"@babel/runtime/regenerator\"));\n\nvar _asyncToGenerator2 = _interopRequireDefault(require(\"@babel/runtime/helpers/asyncToGenerator\"));\n\nvar _app = _interopRequireDefault(require(\"firebase/app\"));\n\nrequire(\"firebase/auth\");\n\nvar getAuth = function getAuth() {\n  var auth = localStorage.getItem('auth');\n  return JSON.parse(auth);\n};\n\nvar login =\n/*#__PURE__*/\nfunction () {\n  var _ref = (0, _asyncToGenerator2.default)(\n  /*#__PURE__*/\n  _regenerator.default.mark(function _callee() {\n    var auth, provider;\n    return _regenerator.default.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            auth = getAuth();\n\n            if (!(auth !== null)) {\n              _context.next = 5;\n              break;\n            }\n\n            return _context.abrupt(\"return\", auth);\n\n          case 5:\n            _context.prev = 5;\n            provider = new _app.default.auth.GoogleAuthProvider();\n\n            _app.default.auth().useDeviceLanguage();\n\n            _context.next = 10;\n            return _app.default.auth().signInWithPopup(provider);\n\n          case 10:\n            auth = _context.sent;\n            localStorage.setItem('auth', JSON.stringify(auth));\n            _context.next = 17;\n            break;\n\n          case 14:\n            _context.prev = 14;\n            _context.t0 = _context[\"catch\"](5);\n            console.error(_context.t0); // Do Nothing\n\n          case 17:\n            return _context.abrupt(\"return\", auth);\n\n          case 18:\n          case \"end\":\n            return _context.stop();\n        }\n      }\n    }, _callee, this, [[5, 14]]);\n  }));\n\n  return function login() {\n    return _ref.apply(this, arguments);\n  };\n}();\n\nvar logout =\n/*#__PURE__*/\nfunction () {\n  var _ref2 = (0, _asyncToGenerator2.default)(\n  /*#__PURE__*/\n  _regenerator.default.mark(function _callee2() {\n    var auth;\n    return _regenerator.default.wrap(function _callee2$(_context2) {\n      while (1) {\n        switch (_context2.prev = _context2.next) {\n          case 0:\n            auth = getAuth();\n\n            if (!auth) {\n              _context2.next = 11;\n              break;\n            }\n\n            _context2.prev = 2;\n            _context2.next = 5;\n            return _app.default.auth().signOut();\n\n          case 5:\n            localStorage.removeItem('auth');\n            _context2.next = 11;\n            break;\n\n          case 8:\n            _context2.prev = 8;\n            _context2.t0 = _context2[\"catch\"](2);\n            return _context2.abrupt(\"return\", false);\n\n          case 11:\n            return _context2.abrupt(\"return\", true);\n\n          case 12:\n          case \"end\":\n            return _context2.stop();\n        }\n      }\n    }, _callee2, this, [[2, 8]]);\n  }));\n\n  return function logout() {\n    return _ref2.apply(this, arguments);\n  };\n}();\n\nvar _default = {\n  login: login,\n  logout: logout,\n  getAuth: getAuth\n};\nexports.default = _default;\n",
     {
+      "firebase/app": "/home/dustin/CS/recipes/node_modules/firebase/app/dist/index.cjs.js",
       "@babel/runtime/regenerator": "/home/dustin/CS/recipes/node_modules/@babel/runtime/regenerator/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/asyncToGenerator": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/asyncToGenerator.js",
@@ -5784,9 +5785,9 @@
     },
     {
       "id": "/home/dustin/CS/recipes/src/lib/firebase/auth.js",
-      "hash": "hvuKLA",
+      "hash": "wXQ8Cw",
       "browserifyId": 413,
-      "sourcemap": "//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF1dGguanM/dmVyc2lvbj1odnVLTEEiXSwibmFtZXMiOlsiZ2V0QXV0aCIsImF1dGgiLCJsb2NhbFN0b3JhZ2UiLCJnZXRJdGVtIiwiSlNPTiIsInBhcnNlIiwibG9naW4iLCJwcm92aWRlciIsImZpcmViYXNlQXV0aCIsIkdvb2dsZUF1dGhQcm92aWRlciIsInVzZURldmljZUxhbmd1YWdlIiwic2lnbkluV2l0aFBvcHVwIiwiRmlyZWJhc2VBdXRoIiwic2V0SXRlbSIsInN0cmluZ2lmeSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFFQTs7QUFFQSxJQUFNQSxPQUFPLEdBQUcsU0FBVkEsT0FBVSxHQUEyQjtBQUMxQyxNQUFNQyxJQUFJLEdBQUdDLFlBQVksQ0FBQ0MsT0FBYixDQUFxQixNQUFyQixDQUFiO0FBRUEsU0FBT0MsSUFBSSxDQUFDQyxLQUFMLENBQVdKLElBQVgsQ0FBUDtBQUNBLENBSkQ7O0FBTUEsSUFBTUssS0FBSztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsNEJBQUc7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQ1BMLFlBQUFBLElBRE8sR0FDQUQsT0FBTyxFQURQOztBQUFBLGlCQUdUQyxJQUhTO0FBQUE7QUFBQTtBQUFBOztBQUFBLDZDQUdJQSxJQUhKOztBQUFBO0FBS05NLFlBQUFBLFFBTE0sR0FLSyxJQUFJQyxjQUFhQyxrQkFBakIsRUFMTDtBQU1aLGlDQUFlQyxpQkFBZjtBQU5ZO0FBQUEsbUJBUWUscUJBQWVDLGVBQWYsQ0FBK0JKLFFBQS9CLENBUmY7O0FBQUE7QUFRTkssWUFBQUEsWUFSTTs7QUFBQTtBQVVaVixZQUFBQSxZQUFZLENBQUNXLE9BQWIsQ0FBcUIsTUFBckIsRUFBNkJULElBQUksQ0FBQ1UsU0FBTCxDQUFlYixJQUFmLENBQTdCOztBQVZZO0FBQUEsNkNBYU5BLElBYk07O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsR0FBSDs7QUFBQSxrQkFBTEssS0FBSztBQUFBO0FBQUE7QUFBQSxHQUFYOztlQWdCZTtBQUFFQSxFQUFBQSxLQUFLLEVBQUxBLEtBQUY7QUFBU04sRUFBQUEsT0FBTyxFQUFQQTtBQUFUIiwic291cmNlc0NvbnRlbnQiOlsiLy8gQGZsb3dcblxuaW1wb3J0IGZpcmViYXNlQXV0aCBmcm9tICdmaXJlYmFzZS9hdXRoJztcblxuY29uc3QgZ2V0QXV0aCA9ICgpOiBGaXJlYmFzZUF1dGggfCBudWxsID0+IHtcblx0Y29uc3QgYXV0aCA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdhdXRoJyk7XG5cblx0cmV0dXJuIEpTT04ucGFyc2UoYXV0aCk7XG59O1xuXG5jb25zdCBsb2dpbiA9IGFzeW5jICgpOiBGaXJlYmFzZUF1dGggPT4ge1xuXHRjb25zdCBhdXRoID0gZ2V0QXV0aCgpO1xuXG5cdGlmIChhdXRoKSByZXR1cm4gYXV0aDtcblx0ZWxzZSB7XG5cdFx0Y29uc3QgcHJvdmlkZXIgPSBuZXcgZmlyZWJhc2VBdXRoLkdvb2dsZUF1dGhQcm92aWRlcigpO1xuXHRcdGZpcmViYXNlQXV0aCgpLnVzZURldmljZUxhbmd1YWdlKCk7XG5cblx0XHRhdXRoOiBGaXJlYmFzZUF1dGggPSBhd2FpdCBmaXJlYmFzZUF1dGgoKS5zaWduSW5XaXRoUG9wdXAocHJvdmlkZXIpO1xuXG5cdFx0bG9jYWxTdG9yYWdlLnNldEl0ZW0oJ2F1dGgnLCBKU09OLnN0cmluZ2lmeShhdXRoKSk7XG5cdH1cblxuXHRyZXR1cm4gYXV0aDtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IHsgbG9naW4sIGdldEF1dGggfTtcbiJdfQ=="
+      "sourcemap": "//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF1dGguanM/dmVyc2lvbj13WFE4Q3ciXSwibmFtZXMiOlsiZ2V0QXV0aCIsImF1dGgiLCJsb2NhbFN0b3JhZ2UiLCJnZXRJdGVtIiwiSlNPTiIsInBhcnNlIiwibG9naW4iLCJwcm92aWRlciIsImZpcmViYXNlIiwiR29vZ2xlQXV0aFByb3ZpZGVyIiwidXNlRGV2aWNlTGFuZ3VhZ2UiLCJzaWduSW5XaXRoUG9wdXAiLCJzZXRJdGVtIiwic3RyaW5naWZ5IiwiY29uc29sZSIsImVycm9yIiwibG9nb3V0Iiwic2lnbk91dCIsInJlbW92ZUl0ZW0iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBRUE7O0FBQ0E7O0FBRUEsSUFBTUEsT0FBTyxHQUFHLFNBQVZBLE9BQVUsR0FBMkI7QUFDMUMsTUFBTUMsSUFBSSxHQUFHQyxZQUFZLENBQUNDLE9BQWIsQ0FBcUIsTUFBckIsQ0FBYjtBQUVBLFNBQU9DLElBQUksQ0FBQ0MsS0FBTCxDQUFXSixJQUFYLENBQVA7QUFDQSxDQUpEOztBQU1BLElBQU1LLEtBQUs7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLDRCQUFHO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNUTCxZQUFBQSxJQURTLEdBQ0ZELE9BQU8sRUFETDs7QUFBQSxrQkFHVEMsSUFBSSxLQUFLLElBSEE7QUFBQTtBQUFBO0FBQUE7O0FBQUEsNkNBR2FBLElBSGI7O0FBQUE7QUFBQTtBQU1MTSxZQUFBQSxRQU5LLEdBTU0sSUFBSUMsYUFBU1AsSUFBVCxDQUFjUSxrQkFBbEIsRUFOTjs7QUFPWEQseUJBQVNQLElBQVQsR0FBZ0JTLGlCQUFoQjs7QUFQVztBQUFBLG1CQVNFRixhQUFTUCxJQUFULEdBQWdCVSxlQUFoQixDQUFnQ0osUUFBaEMsQ0FURjs7QUFBQTtBQVNYTixZQUFBQSxJQVRXO0FBV1hDLFlBQUFBLFlBQVksQ0FBQ1UsT0FBYixDQUFxQixNQUFyQixFQUE2QlIsSUFBSSxDQUFDUyxTQUFMLENBQWVaLElBQWYsQ0FBN0I7QUFYVztBQUFBOztBQUFBO0FBQUE7QUFBQTtBQWFYYSxZQUFBQSxPQUFPLENBQUNDLEtBQVIsY0FiVyxDQWNYOztBQWRXO0FBQUEsNkNBa0JOZCxJQWxCTTs7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxHQUFIOztBQUFBLGtCQUFMSyxLQUFLO0FBQUE7QUFBQTtBQUFBLEdBQVg7O0FBcUJBLElBQU1VLE1BQU07QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLDRCQUFHO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNSZixZQUFBQSxJQURRLEdBQ0RELE9BQU8sRUFETjs7QUFBQSxpQkFHVkMsSUFIVTtBQUFBO0FBQUE7QUFBQTs7QUFBQTtBQUFBO0FBQUEsbUJBS05PLGFBQVNQLElBQVQsR0FBZ0JnQixPQUFoQixFQUxNOztBQUFBO0FBTVpmLFlBQUFBLFlBQVksQ0FBQ2dCLFVBQWIsQ0FBd0IsTUFBeEI7QUFOWTtBQUFBOztBQUFBO0FBQUE7QUFBQTtBQUFBLDhDQVFMLEtBUks7O0FBQUE7QUFBQSw4Q0FZUCxJQVpPOztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEdBQUg7O0FBQUEsa0JBQU5GLE1BQU07QUFBQTtBQUFBO0FBQUEsR0FBWjs7ZUFlZTtBQUFFVixFQUFBQSxLQUFLLEVBQUxBLEtBQUY7QUFBU1UsRUFBQUEsTUFBTSxFQUFOQSxNQUFUO0FBQWlCaEIsRUFBQUEsT0FBTyxFQUFQQTtBQUFqQiIsInNvdXJjZXNDb250ZW50IjpbIi8vIEBmbG93XG5cbmltcG9ydCBmaXJlYmFzZSBmcm9tICdmaXJlYmFzZS9hcHAnO1xuaW1wb3J0ICdmaXJlYmFzZS9hdXRoJztcblxuY29uc3QgZ2V0QXV0aCA9ICgpOiBGaXJlYmFzZUF1dGggfCBudWxsID0+IHtcblx0Y29uc3QgYXV0aCA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdhdXRoJyk7XG5cblx0cmV0dXJuIEpTT04ucGFyc2UoYXV0aCk7XG59O1xuXG5jb25zdCBsb2dpbiA9IGFzeW5jICgpOiBGaXJlYmFzZUF1dGggPT4ge1xuXHRsZXQgYXV0aCA9IGdldEF1dGgoKTtcblxuXHRpZiAoYXV0aCAhPT0gbnVsbCkgcmV0dXJuIGF1dGg7XG5cdGVsc2Uge1xuXHRcdHRyeSB7XG5cdFx0XHRjb25zdCBwcm92aWRlciA9IG5ldyBmaXJlYmFzZS5hdXRoLkdvb2dsZUF1dGhQcm92aWRlcigpO1xuXHRcdFx0ZmlyZWJhc2UuYXV0aCgpLnVzZURldmljZUxhbmd1YWdlKCk7XG5cblx0XHRcdGF1dGggPSBhd2FpdCBmaXJlYmFzZS5hdXRoKCkuc2lnbkluV2l0aFBvcHVwKHByb3ZpZGVyKTtcblxuXHRcdFx0bG9jYWxTdG9yYWdlLnNldEl0ZW0oJ2F1dGgnLCBKU09OLnN0cmluZ2lmeShhdXRoKSk7XG5cdFx0fSBjYXRjaCAoZXJyKSB7XG5cdFx0XHRjb25zb2xlLmVycm9yKGVycik7XG5cdFx0XHQvLyBEbyBOb3RoaW5nXG5cdFx0fVxuXHR9XG5cblx0cmV0dXJuIGF1dGg7XG59O1xuXG5jb25zdCBsb2dvdXQgPSBhc3luYyAoKSA9PiB7XG5cdGNvbnN0IGF1dGggPSBnZXRBdXRoKCk7XG5cblx0aWYgKGF1dGgpIHtcblx0XHR0cnkge1xuXHRcdFx0YXdhaXQgZmlyZWJhc2UuYXV0aCgpLnNpZ25PdXQoKTtcblx0XHRcdGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdhdXRoJyk7XG5cdFx0fSBjYXRjaCAoZXJyKSB7XG5cdFx0XHRyZXR1cm4gZmFsc2U7XG5cdFx0fVxuXHR9XG5cblx0cmV0dXJuIHRydWU7XG59O1xuXG5leHBvcnQgZGVmYXVsdCB7IGxvZ2luLCBsb2dvdXQsIGdldEF1dGggfTtcbiJdfQ=="
     }
   ],
   "/home/dustin/CS/recipes/src/lib/firebase/index.js": [

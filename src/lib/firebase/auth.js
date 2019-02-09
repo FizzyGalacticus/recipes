@@ -1,6 +1,7 @@
 // @flow
 
-import firebaseAuth from 'firebase/auth';
+import firebase from 'firebase/app';
+import 'firebase/auth';
 
 const getAuth = (): FirebaseAuth | null => {
 	const auth = localStorage.getItem('auth');
@@ -9,19 +10,39 @@ const getAuth = (): FirebaseAuth | null => {
 };
 
 const login = async (): FirebaseAuth => {
-	const auth = getAuth();
+	let auth = getAuth();
 
-	if (auth) return auth;
+	if (auth !== null) return auth;
 	else {
-		const provider = new firebaseAuth.GoogleAuthProvider();
-		firebaseAuth().useDeviceLanguage();
+		try {
+			const provider = new firebase.auth.GoogleAuthProvider();
+			firebase.auth().useDeviceLanguage();
 
-		auth: FirebaseAuth = await firebaseAuth().signInWithPopup(provider);
+			auth = await firebase.auth().signInWithPopup(provider);
 
-		localStorage.setItem('auth', JSON.stringify(auth));
+			localStorage.setItem('auth', JSON.stringify(auth));
+		} catch (err) {
+			console.error(err);
+			// Do Nothing
+		}
 	}
 
 	return auth;
 };
 
-export default { login, getAuth };
+const logout = async () => {
+	const auth = getAuth();
+
+	if (auth) {
+		try {
+			await firebase.auth().signOut();
+			localStorage.removeItem('auth');
+		} catch (err) {
+			return false;
+		}
+	}
+
+	return true;
+};
+
+export default { login, logout, getAuth };

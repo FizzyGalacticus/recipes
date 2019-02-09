@@ -18,14 +18,19 @@ class ButtonAppBar extends React.Component {
 		};
 
 		this.login = this.login.bind(this);
+		this.logout = this.logout.bind(this);
 	}
 
 	async login() {
-		try {
-			await firebaseAuth.login();
-			this.setState({ loggedIn: true });
-		} catch (err) {
-			// Do nothing
+		const auth = await firebaseAuth.login();
+		this.setState({ loggedIn: auth !== null, auth });
+	}
+
+	async logout() {
+		const successful = await firebaseAuth.logout();
+
+		if (successful) {
+			this.setState({ loggedIn: false, auth: null });
 		}
 	}
 
@@ -36,7 +41,9 @@ class ButtonAppBar extends React.Component {
 					<Grid item xs={11} />
 					<Grid item xs={1}>
 						{this.state.loggedIn ? (
-							<Button color="inherit">Logout</Button>
+							<Button color="inherit" onClick={this.logout}>
+								Logout
+							</Button>
 						) : (
 							<Button color="inherit" onClick={this.login}>
 								Login
