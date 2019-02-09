@@ -12,8 +12,9 @@ const getAuth = (): FirebaseAuth | null => {
 const login = async (): FirebaseAuth => {
 	let auth = getAuth();
 
-	if (auth !== null) return auth;
-	else {
+	if (auth !== null) {
+		return auth;
+	} else {
 		try {
 			const provider = new firebase.auth.GoogleAuthProvider();
 			firebase.auth().useDeviceLanguage();
@@ -22,7 +23,6 @@ const login = async (): FirebaseAuth => {
 
 			localStorage.setItem('auth', JSON.stringify(auth));
 		} catch (err) {
-			console.error(err);
 			// Do Nothing
 		}
 	}

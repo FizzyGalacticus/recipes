@@ -29,9 +29,8 @@ class ButtonAppBar extends React.Component {
 	async logout() {
 		const successful = await firebaseAuth.logout();
 
-		if (successful) {
+		if (successful)
 			this.setState({ loggedIn: false, auth: null });
-		}
 	}
 
 	render() {
