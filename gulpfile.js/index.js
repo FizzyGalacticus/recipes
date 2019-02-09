@@ -13,7 +13,7 @@ const env = process.env.NODE_ENV;
 const builder = browserify('src/index.js', {
 	cache: {},
 	packageCache: {},
-	plugin: env === 'dev' ? [livereactload] : undefined
+	plugin: env === 'dev' ? [livereactload] : undefined,
 }).transform('babelify');
 
 const lint = () => {
@@ -53,7 +53,7 @@ const minHtml = () => {
 				removeComments: true,
 				removeEmptyAttributes: true,
 				removeOptionalTags: true,
-				removeRedundantAttributes: true
+				removeRedundantAttributes: true,
 			})
 		)
 		.pipe(dest('docs/'));
@@ -61,13 +61,13 @@ const minHtml = () => {
 
 const devMode = () => {
 	if (env === 'dev') {
-		const watchHtml = watch('src/index.html', minHtml);
-		const watchJS = watch('src/**/*.js', transpile);
+		watch('src/index.html', minHtml);
+		watch('src/**/*.js', transpile);
 
 		server('docs/', 3001);
 
 		setTimeout(() => {
-			open('http://localhost:3001');
+			console.log('You can view your changes here: http://localhost:3001');
 		}, 3000);
 	}
 
@@ -77,5 +77,5 @@ const devMode = () => {
 const all = parallel(buildJs, minHtml, devMode);
 
 module.exports = {
-	default: all
+	default: all,
 };
