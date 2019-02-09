@@ -601,8 +601,8 @@
   "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/toConsumableArray.js": [
     "var arrayWithoutHoles = require(\"./arrayWithoutHoles\");\n\nvar iterableToArray = require(\"./iterableToArray\");\n\nvar nonIterableSpread = require(\"./nonIterableSpread\");\n\nfunction _toConsumableArray(arr) {\n  return arrayWithoutHoles(arr) || iterableToArray(arr) || nonIterableSpread();\n}\n\nmodule.exports = _toConsumableArray;",
     {
-      "./iterableToArray": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/iterableToArray.js",
       "./arrayWithoutHoles": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js",
+      "./iterableToArray": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/iterableToArray.js",
       "./nonIterableSpread": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/nonIterableSpread.js"
     },
     {
@@ -860,18 +860,18 @@
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
       "./createRippleHandler": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ButtonBase/createRippleHandler.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "react-dom": "/home/dustin/CS/recipes/node_modules/react-dom/index.js",
-      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
-      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "@babel/runtime/helpers/assertThisInitialized": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/assertThisInitialized.js",
@@ -896,12 +896,12 @@
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
-      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "react-transition-group/Transition": "/home/dustin/CS/recipes/node_modules/react-transition-group/Transition.js"
     },
@@ -984,11 +984,11 @@
     {
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
-      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
-      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
@@ -1057,11 +1057,11 @@
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
-      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js"
     },
     {
@@ -1096,8 +1096,8 @@
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js"
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Paper/Paper.js",
@@ -1182,8 +1182,8 @@
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
@@ -1241,9 +1241,9 @@
   "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createMixins.js": [
     "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = createMixins;\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _extends3 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nfunction createMixins(breakpoints, spacing, mixins) {\n  var _toolbar;\n\n  return (0, _extends3.default)({\n    gutters: function gutters() {\n      var styles = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n      return (0, _extends3.default)({\n        paddingLeft: spacing.unit * 2,\n        paddingRight: spacing.unit * 2\n      }, styles, (0, _defineProperty2.default)({}, breakpoints.up('sm'), (0, _extends3.default)({\n        paddingLeft: spacing.unit * 3,\n        paddingRight: spacing.unit * 3\n      }, styles[breakpoints.up('sm')])));\n    },\n    toolbar: (_toolbar = {\n      minHeight: 56\n    }, (0, _defineProperty2.default)(_toolbar, \"\".concat(breakpoints.up('xs'), \" and (orientation: landscape)\"), {\n      minHeight: 48\n    }), (0, _defineProperty2.default)(_toolbar, breakpoints.up('sm'), {\n      minHeight: 64\n    }), _toolbar)\n  }, mixins);\n}",
     {
-      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js"
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createMixins.js",
@@ -1257,17 +1257,17 @@
     {
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "./createBreakpoints": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createBreakpoints.js",
-      "./shadows": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/shadows.js",
       "./shape": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/shape.js",
       "./spacing": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/spacing.js",
+      "./shadows": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/shadows.js",
       "./zIndex": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/zIndex.js",
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "deepmerge": "/home/dustin/CS/recipes/node_modules/deepmerge/dist/umd.js",
       "is-plain-object": "/home/dustin/CS/recipes/node_modules/is-plain-object/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "./createMixins": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createMixins.js",
       "./createPalette": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createPalette.js",
       "./createTypography": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createTypography.js",
@@ -1337,8 +1337,8 @@
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "deepmerge": "/home/dustin/CS/recipes/node_modules/deepmerge/dist/umd.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/typeof": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/typeof.js"
     },
     {
@@ -1401,8 +1401,8 @@
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js"
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/mergeClasses.js",
@@ -1566,8 +1566,8 @@
     {
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/typeof": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/typeof.js"
+      "@babel/runtime/helpers/typeof": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/typeof.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/helpers.js",
@@ -1628,8 +1628,8 @@
     {
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "react-is": "/home/dustin/CS/recipes/node_modules/react-is/index.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/typeof": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/typeof.js"
+      "@babel/runtime/helpers/typeof": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/typeof.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/componentPropType.js",
@@ -1989,8 +1989,8 @@
   "/home/dustin/CS/recipes/node_modules/core-js/modules/_enum-keys.js": [
     "// all enumerable object keys, includes symbols\nvar getKeys = require('./_object-keys');\nvar gOPS = require('./_object-gops');\nvar pIE = require('./_object-pie');\nmodule.exports = function (it) {\n  var result = getKeys(it);\n  var getSymbols = gOPS.f;\n  if (getSymbols) {\n    var symbols = getSymbols(it);\n    var isEnum = pIE.f;\n    var i = 0;\n    var key;\n    while (symbols.length > i) if (isEnum.call(it, key = symbols[i++])) result.push(key);\n  } return result;\n};\n",
     {
-      "./_object-gops": "/home/dustin/CS/recipes/node_modules/core-js/modules/_object-gops.js",
       "./_object-keys": "/home/dustin/CS/recipes/node_modules/core-js/modules/_object-keys.js",
+      "./_object-gops": "/home/dustin/CS/recipes/node_modules/core-js/modules/_object-gops.js",
       "./_object-pie": "/home/dustin/CS/recipes/node_modules/core-js/modules/_object-pie.js"
     },
     {
@@ -2166,12 +2166,12 @@
     "'use strict';\nvar LIBRARY = require('./_library');\nvar $export = require('./_export');\nvar redefine = require('./_redefine');\nvar hide = require('./_hide');\nvar Iterators = require('./_iterators');\nvar $iterCreate = require('./_iter-create');\nvar setToStringTag = require('./_set-to-string-tag');\nvar getPrototypeOf = require('./_object-gpo');\nvar ITERATOR = require('./_wks')('iterator');\nvar BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`\nvar FF_ITERATOR = '@@iterator';\nvar KEYS = 'keys';\nvar VALUES = 'values';\n\nvar returnThis = function () { return this; };\n\nmodule.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCED) {\n  $iterCreate(Constructor, NAME, next);\n  var getMethod = function (kind) {\n    if (!BUGGY && kind in proto) return proto[kind];\n    switch (kind) {\n      case KEYS: return function keys() { return new Constructor(this, kind); };\n      case VALUES: return function values() { return new Constructor(this, kind); };\n    } return function entries() { return new Constructor(this, kind); };\n  };\n  var TAG = NAME + ' Iterator';\n  var DEF_VALUES = DEFAULT == VALUES;\n  var VALUES_BUG = false;\n  var proto = Base.prototype;\n  var $native = proto[ITERATOR] || proto[FF_ITERATOR] || DEFAULT && proto[DEFAULT];\n  var $default = $native || getMethod(DEFAULT);\n  var $entries = DEFAULT ? !DEF_VALUES ? $default : getMethod('entries') : undefined;\n  var $anyNative = NAME == 'Array' ? proto.entries || $native : $native;\n  var methods, key, IteratorPrototype;\n  // Fix native\n  if ($anyNative) {\n    IteratorPrototype = getPrototypeOf($anyNative.call(new Base()));\n    if (IteratorPrototype !== Object.prototype && IteratorPrototype.next) {\n      // Set @@toStringTag to native iterators\n      setToStringTag(IteratorPrototype, TAG, true);\n      // fix for some old engines\n      if (!LIBRARY && typeof IteratorPrototype[ITERATOR] != 'function') hide(IteratorPrototype, ITERATOR, returnThis);\n    }\n  }\n  // fix Array#{values, @@iterator}.name in V8 / FF\n  if (DEF_VALUES && $native && $native.name !== VALUES) {\n    VALUES_BUG = true;\n    $default = function values() { return $native.call(this); };\n  }\n  // Define iterator\n  if ((!LIBRARY || FORCED) && (BUGGY || VALUES_BUG || !proto[ITERATOR])) {\n    hide(proto, ITERATOR, $default);\n  }\n  // Plug for library\n  Iterators[NAME] = $default;\n  Iterators[TAG] = returnThis;\n  if (DEFAULT) {\n    methods = {\n      values: DEF_VALUES ? $default : getMethod(VALUES),\n      keys: IS_SET ? $default : getMethod(KEYS),\n      entries: $entries\n    };\n    if (FORCED) for (key in methods) {\n      if (!(key in proto)) redefine(proto, key, methods[key]);\n    } else $export($export.P + $export.F * (BUGGY || VALUES_BUG), NAME, methods);\n  }\n  return methods;\n};\n",
     {
       "./_library": "/home/dustin/CS/recipes/node_modules/core-js/modules/_library.js",
+      "./_export": "/home/dustin/CS/recipes/node_modules/core-js/modules/_export.js",
       "./_redefine": "/home/dustin/CS/recipes/node_modules/core-js/modules/_redefine.js",
       "./_hide": "/home/dustin/CS/recipes/node_modules/core-js/modules/_hide.js",
       "./_iterators": "/home/dustin/CS/recipes/node_modules/core-js/modules/_iterators.js",
       "./_set-to-string-tag": "/home/dustin/CS/recipes/node_modules/core-js/modules/_set-to-string-tag.js",
       "./_wks": "/home/dustin/CS/recipes/node_modules/core-js/modules/_wks.js",
-      "./_export": "/home/dustin/CS/recipes/node_modules/core-js/modules/_export.js",
       "./_iter-create": "/home/dustin/CS/recipes/node_modules/core-js/modules/_iter-create.js",
       "./_object-gpo": "/home/dustin/CS/recipes/node_modules/core-js/modules/_object-gpo.js"
     },
@@ -2492,8 +2492,8 @@
   "/home/dustin/CS/recipes/node_modules/core-js/modules/_string-repeat.js": [
     "'use strict';\nvar toInteger = require('./_to-integer');\nvar defined = require('./_defined');\n\nmodule.exports = function repeat(count) {\n  var str = String(defined(this));\n  var res = '';\n  var n = toInteger(count);\n  if (n < 0 || n == Infinity) throw RangeError(\"Count can't be negative\");\n  for (;n > 0; (n >>>= 1) && (str += str)) if (n & 1) res += str;\n  return res;\n};\n",
     {
-      "./_to-integer": "/home/dustin/CS/recipes/node_modules/core-js/modules/_to-integer.js",
-      "./_defined": "/home/dustin/CS/recipes/node_modules/core-js/modules/_defined.js"
+      "./_defined": "/home/dustin/CS/recipes/node_modules/core-js/modules/_defined.js",
+      "./_to-integer": "/home/dustin/CS/recipes/node_modules/core-js/modules/_to-integer.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/core-js/modules/_string-repeat.js",
@@ -2741,8 +2741,8 @@
     "'use strict';\n// ECMAScript 6 symbols shim\nvar global = require('./_global');\nvar has = require('./_has');\nvar DESCRIPTORS = require('./_descriptors');\nvar $export = require('./_export');\nvar redefine = require('./_redefine');\nvar META = require('./_meta').KEY;\nvar $fails = require('./_fails');\nvar shared = require('./_shared');\nvar setToStringTag = require('./_set-to-string-tag');\nvar uid = require('./_uid');\nvar wks = require('./_wks');\nvar wksExt = require('./_wks-ext');\nvar wksDefine = require('./_wks-define');\nvar enumKeys = require('./_enum-keys');\nvar isArray = require('./_is-array');\nvar anObject = require('./_an-object');\nvar isObject = require('./_is-object');\nvar toIObject = require('./_to-iobject');\nvar toPrimitive = require('./_to-primitive');\nvar createDesc = require('./_property-desc');\nvar _create = require('./_object-create');\nvar gOPNExt = require('./_object-gopn-ext');\nvar $GOPD = require('./_object-gopd');\nvar $DP = require('./_object-dp');\nvar $keys = require('./_object-keys');\nvar gOPD = $GOPD.f;\nvar dP = $DP.f;\nvar gOPN = gOPNExt.f;\nvar $Symbol = global.Symbol;\nvar $JSON = global.JSON;\nvar _stringify = $JSON && $JSON.stringify;\nvar PROTOTYPE = 'prototype';\nvar HIDDEN = wks('_hidden');\nvar TO_PRIMITIVE = wks('toPrimitive');\nvar isEnum = {}.propertyIsEnumerable;\nvar SymbolRegistry = shared('symbol-registry');\nvar AllSymbols = shared('symbols');\nvar OPSymbols = shared('op-symbols');\nvar ObjectProto = Object[PROTOTYPE];\nvar USE_NATIVE = typeof $Symbol == 'function';\nvar QObject = global.QObject;\n// Don't use setters in Qt Script, https://github.com/zloirock/core-js/issues/173\nvar setter = !QObject || !QObject[PROTOTYPE] || !QObject[PROTOTYPE].findChild;\n\n// fallback for old Android, https://code.google.com/p/v8/issues/detail?id=687\nvar setSymbolDesc = DESCRIPTORS && $fails(function () {\n  return _create(dP({}, 'a', {\n    get: function () { return dP(this, 'a', { value: 7 }).a; }\n  })).a != 7;\n}) ? function (it, key, D) {\n  var protoDesc = gOPD(ObjectProto, key);\n  if (protoDesc) delete ObjectProto[key];\n  dP(it, key, D);\n  if (protoDesc && it !== ObjectProto) dP(ObjectProto, key, protoDesc);\n} : dP;\n\nvar wrap = function (tag) {\n  var sym = AllSymbols[tag] = _create($Symbol[PROTOTYPE]);\n  sym._k = tag;\n  return sym;\n};\n\nvar isSymbol = USE_NATIVE && typeof $Symbol.iterator == 'symbol' ? function (it) {\n  return typeof it == 'symbol';\n} : function (it) {\n  return it instanceof $Symbol;\n};\n\nvar $defineProperty = function defineProperty(it, key, D) {\n  if (it === ObjectProto) $defineProperty(OPSymbols, key, D);\n  anObject(it);\n  key = toPrimitive(key, true);\n  anObject(D);\n  if (has(AllSymbols, key)) {\n    if (!D.enumerable) {\n      if (!has(it, HIDDEN)) dP(it, HIDDEN, createDesc(1, {}));\n      it[HIDDEN][key] = true;\n    } else {\n      if (has(it, HIDDEN) && it[HIDDEN][key]) it[HIDDEN][key] = false;\n      D = _create(D, { enumerable: createDesc(0, false) });\n    } return setSymbolDesc(it, key, D);\n  } return dP(it, key, D);\n};\nvar $defineProperties = function defineProperties(it, P) {\n  anObject(it);\n  var keys = enumKeys(P = toIObject(P));\n  var i = 0;\n  var l = keys.length;\n  var key;\n  while (l > i) $defineProperty(it, key = keys[i++], P[key]);\n  return it;\n};\nvar $create = function create(it, P) {\n  return P === undefined ? _create(it) : $defineProperties(_create(it), P);\n};\nvar $propertyIsEnumerable = function propertyIsEnumerable(key) {\n  var E = isEnum.call(this, key = toPrimitive(key, true));\n  if (this === ObjectProto && has(AllSymbols, key) && !has(OPSymbols, key)) return false;\n  return E || !has(this, key) || !has(AllSymbols, key) || has(this, HIDDEN) && this[HIDDEN][key] ? E : true;\n};\nvar $getOwnPropertyDescriptor = function getOwnPropertyDescriptor(it, key) {\n  it = toIObject(it);\n  key = toPrimitive(key, true);\n  if (it === ObjectProto && has(AllSymbols, key) && !has(OPSymbols, key)) return;\n  var D = gOPD(it, key);\n  if (D && has(AllSymbols, key) && !(has(it, HIDDEN) && it[HIDDEN][key])) D.enumerable = true;\n  return D;\n};\nvar $getOwnPropertyNames = function getOwnPropertyNames(it) {\n  var names = gOPN(toIObject(it));\n  var result = [];\n  var i = 0;\n  var key;\n  while (names.length > i) {\n    if (!has(AllSymbols, key = names[i++]) && key != HIDDEN && key != META) result.push(key);\n  } return result;\n};\nvar $getOwnPropertySymbols = function getOwnPropertySymbols(it) {\n  var IS_OP = it === ObjectProto;\n  var names = gOPN(IS_OP ? OPSymbols : toIObject(it));\n  var result = [];\n  var i = 0;\n  var key;\n  while (names.length > i) {\n    if (has(AllSymbols, key = names[i++]) && (IS_OP ? has(ObjectProto, key) : true)) result.push(AllSymbols[key]);\n  } return result;\n};\n\n// 19.4.1.1 Symbol([description])\nif (!USE_NATIVE) {\n  $Symbol = function Symbol() {\n    if (this instanceof $Symbol) throw TypeError('Symbol is not a constructor!');\n    var tag = uid(arguments.length > 0 ? arguments[0] : undefined);\n    var $set = function (value) {\n      if (this === ObjectProto) $set.call(OPSymbols, value);\n      if (has(this, HIDDEN) && has(this[HIDDEN], tag)) this[HIDDEN][tag] = false;\n      setSymbolDesc(this, tag, createDesc(1, value));\n    };\n    if (DESCRIPTORS && setter) setSymbolDesc(ObjectProto, tag, { configurable: true, set: $set });\n    return wrap(tag);\n  };\n  redefine($Symbol[PROTOTYPE], 'toString', function toString() {\n    return this._k;\n  });\n\n  $GOPD.f = $getOwnPropertyDescriptor;\n  $DP.f = $defineProperty;\n  require('./_object-gopn').f = gOPNExt.f = $getOwnPropertyNames;\n  require('./_object-pie').f = $propertyIsEnumerable;\n  require('./_object-gops').f = $getOwnPropertySymbols;\n\n  if (DESCRIPTORS && !require('./_library')) {\n    redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);\n  }\n\n  wksExt.f = function (name) {\n    return wrap(wks(name));\n  };\n}\n\n$export($export.G + $export.W + $export.F * !USE_NATIVE, { Symbol: $Symbol });\n\nfor (var es6Symbols = (\n  // 19.4.2.2, 19.4.2.3, 19.4.2.4, 19.4.2.6, 19.4.2.8, 19.4.2.9, 19.4.2.10, 19.4.2.11, 19.4.2.12, 19.4.2.13, 19.4.2.14\n  'hasInstance,isConcatSpreadable,iterator,match,replace,search,species,split,toPrimitive,toStringTag,unscopables'\n).split(','), j = 0; es6Symbols.length > j;)wks(es6Symbols[j++]);\n\nfor (var wellKnownSymbols = $keys(wks.store), k = 0; wellKnownSymbols.length > k;) wksDefine(wellKnownSymbols[k++]);\n\n$export($export.S + $export.F * !USE_NATIVE, 'Symbol', {\n  // 19.4.2.1 Symbol.for(key)\n  'for': function (key) {\n    return has(SymbolRegistry, key += '')\n      ? SymbolRegistry[key]\n      : SymbolRegistry[key] = $Symbol(key);\n  },\n  // 19.4.2.5 Symbol.keyFor(sym)\n  keyFor: function keyFor(sym) {\n    if (!isSymbol(sym)) throw TypeError(sym + ' is not a symbol!');\n    for (var key in SymbolRegistry) if (SymbolRegistry[key] === sym) return key;\n  },\n  useSetter: function () { setter = true; },\n  useSimple: function () { setter = false; }\n});\n\n$export($export.S + $export.F * !USE_NATIVE, 'Object', {\n  // 19.1.2.2 Object.create(O [, Properties])\n  create: $create,\n  // 19.1.2.4 Object.defineProperty(O, P, Attributes)\n  defineProperty: $defineProperty,\n  // 19.1.2.3 Object.defineProperties(O, Properties)\n  defineProperties: $defineProperties,\n  // 19.1.2.6 Object.getOwnPropertyDescriptor(O, P)\n  getOwnPropertyDescriptor: $getOwnPropertyDescriptor,\n  // 19.1.2.7 Object.getOwnPropertyNames(O)\n  getOwnPropertyNames: $getOwnPropertyNames,\n  // 19.1.2.8 Object.getOwnPropertySymbols(O)\n  getOwnPropertySymbols: $getOwnPropertySymbols\n});\n\n// 24.3.2 JSON.stringify(value [, replacer [, space]])\n$JSON && $export($export.S + $export.F * (!USE_NATIVE || $fails(function () {\n  var S = $Symbol();\n  // MS Edge converts symbol values to JSON as {}\n  // WebKit converts symbol values to JSON as null\n  // V8 throws on boxed symbols\n  return _stringify([S]) != '[null]' || _stringify({ a: S }) != '{}' || _stringify(Object(S)) != '{}';\n})), 'JSON', {\n  stringify: function stringify(it) {\n    var args = [it];\n    var i = 1;\n    var replacer, $replacer;\n    while (arguments.length > i) args.push(arguments[i++]);\n    $replacer = replacer = args[1];\n    if (!isObject(replacer) && it === undefined || isSymbol(it)) return; // IE8 returns string on undefined\n    if (!isArray(replacer)) replacer = function (key, value) {\n      if (typeof $replacer == 'function') value = $replacer.call(this, key, value);\n      if (!isSymbol(value)) return value;\n    };\n    args[1] = replacer;\n    return _stringify.apply($JSON, args);\n  }\n});\n\n// 19.4.3.4 Symbol.prototype[@@toPrimitive](hint)\n$Symbol[PROTOTYPE][TO_PRIMITIVE] || require('./_hide')($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);\n// 19.4.3.5 Symbol.prototype[@@toStringTag]\nsetToStringTag($Symbol, 'Symbol');\n// 20.2.1.9 Math[@@toStringTag]\nsetToStringTag(Math, 'Math', true);\n// 24.3.3 JSON[@@toStringTag]\nsetToStringTag(global.JSON, 'JSON', true);\n",
     {
       "./_wks-ext": "/home/dustin/CS/recipes/node_modules/core-js/modules/_wks-ext.js",
-      "./_has": "/home/dustin/CS/recipes/node_modules/core-js/modules/_has.js",
       "./_global": "/home/dustin/CS/recipes/node_modules/core-js/modules/_global.js",
+      "./_has": "/home/dustin/CS/recipes/node_modules/core-js/modules/_has.js",
       "./_fails": "/home/dustin/CS/recipes/node_modules/core-js/modules/_fails.js",
       "./_uid": "/home/dustin/CS/recipes/node_modules/core-js/modules/_uid.js",
       "./_is-object": "/home/dustin/CS/recipes/node_modules/core-js/modules/_is-object.js",
@@ -2766,8 +2766,8 @@
       "./_hide": "/home/dustin/CS/recipes/node_modules/core-js/modules/_hide.js",
       "./_is-array": "/home/dustin/CS/recipes/node_modules/core-js/modules/_is-array.js",
       "./_to-iobject": "/home/dustin/CS/recipes/node_modules/core-js/modules/_to-iobject.js",
-      "./_object-gopd": "/home/dustin/CS/recipes/node_modules/core-js/modules/_object-gopd.js",
       "./_object-create": "/home/dustin/CS/recipes/node_modules/core-js/modules/_object-create.js",
+      "./_object-gopd": "/home/dustin/CS/recipes/node_modules/core-js/modules/_object-gopd.js",
       "./_export": "/home/dustin/CS/recipes/node_modules/core-js/modules/_export.js",
       "./_object-keys": "/home/dustin/CS/recipes/node_modules/core-js/modules/_object-keys.js"
     },
@@ -3499,9 +3499,9 @@
     "var listCacheClear = require('./_listCacheClear'),\n    listCacheDelete = require('./_listCacheDelete'),\n    listCacheGet = require('./_listCacheGet'),\n    listCacheHas = require('./_listCacheHas'),\n    listCacheSet = require('./_listCacheSet');\n\n/**\n * Creates an list cache object.\n *\n * @private\n * @constructor\n * @param {Array} [entries] The key-value pairs to cache.\n */\nfunction ListCache(entries) {\n  var index = -1,\n      length = entries == null ? 0 : entries.length;\n\n  this.clear();\n  while (++index < length) {\n    var entry = entries[index];\n    this.set(entry[0], entry[1]);\n  }\n}\n\n// Add methods to `ListCache`.\nListCache.prototype.clear = listCacheClear;\nListCache.prototype['delete'] = listCacheDelete;\nListCache.prototype.get = listCacheGet;\nListCache.prototype.has = listCacheHas;\nListCache.prototype.set = listCacheSet;\n\nmodule.exports = ListCache;\n",
     {
       "./_listCacheClear": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheClear.js",
+      "./_listCacheGet": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheGet.js",
       "./_listCacheHas": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheHas.js",
       "./_listCacheSet": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheSet.js",
-      "./_listCacheGet": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheGet.js",
       "./_listCacheDelete": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheDelete.js"
     },
     {
@@ -3528,8 +3528,8 @@
     "var mapCacheClear = require('./_mapCacheClear'),\n    mapCacheDelete = require('./_mapCacheDelete'),\n    mapCacheGet = require('./_mapCacheGet'),\n    mapCacheHas = require('./_mapCacheHas'),\n    mapCacheSet = require('./_mapCacheSet');\n\n/**\n * Creates a map cache object to store key-value pairs.\n *\n * @private\n * @constructor\n * @param {Array} [entries] The key-value pairs to cache.\n */\nfunction MapCache(entries) {\n  var index = -1,\n      length = entries == null ? 0 : entries.length;\n\n  this.clear();\n  while (++index < length) {\n    var entry = entries[index];\n    this.set(entry[0], entry[1]);\n  }\n}\n\n// Add methods to `MapCache`.\nMapCache.prototype.clear = mapCacheClear;\nMapCache.prototype['delete'] = mapCacheDelete;\nMapCache.prototype.get = mapCacheGet;\nMapCache.prototype.has = mapCacheHas;\nMapCache.prototype.set = mapCacheSet;\n\nmodule.exports = MapCache;\n",
     {
       "./_mapCacheGet": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheGet.js",
-      "./_mapCacheSet": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheSet.js",
       "./_mapCacheHas": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheHas.js",
+      "./_mapCacheSet": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheSet.js",
       "./_mapCacheDelete": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheDelete.js",
       "./_mapCacheClear": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheClear.js"
     },
@@ -3726,8 +3726,8 @@
   "/home/dustin/CS/recipes/node_modules/lodash/_assignValue.js": [
     "var baseAssignValue = require('./_baseAssignValue'),\n    eq = require('./eq');\n\n/** Used for built-in method references. */\nvar objectProto = Object.prototype;\n\n/** Used to check objects for own properties. */\nvar hasOwnProperty = objectProto.hasOwnProperty;\n\n/**\n * Assigns `value` to `key` of `object` if the existing value is not equivalent\n * using [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)\n * for equality comparisons.\n *\n * @private\n * @param {Object} object The object to modify.\n * @param {string} key The key of the property to assign.\n * @param {*} value The value to assign.\n */\nfunction assignValue(object, key, value) {\n  var objValue = object[key];\n  if (!(hasOwnProperty.call(object, key) && eq(objValue, value)) ||\n      (value === undefined && !(key in object))) {\n    baseAssignValue(object, key, value);\n  }\n}\n\nmodule.exports = assignValue;\n",
     {
-      "./_baseAssignValue": "/home/dustin/CS/recipes/node_modules/lodash/_baseAssignValue.js",
-      "./eq": "/home/dustin/CS/recipes/node_modules/lodash/eq.js"
+      "./eq": "/home/dustin/CS/recipes/node_modules/lodash/eq.js",
+      "./_baseAssignValue": "/home/dustin/CS/recipes/node_modules/lodash/_baseAssignValue.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_assignValue.js",
@@ -3816,8 +3816,8 @@
   "/home/dustin/CS/recipes/node_modules/lodash/_baseGetAllKeys.js": [
     "var arrayPush = require('./_arrayPush'),\n    isArray = require('./isArray');\n\n/**\n * The base implementation of `getAllKeys` and `getAllKeysIn` which uses\n * `keysFunc` and `symbolsFunc` to get the enumerable property names and\n * symbols of `object`.\n *\n * @private\n * @param {Object} object The object to query.\n * @param {Function} keysFunc The function to get the keys of `object`.\n * @param {Function} symbolsFunc The function to get the symbols of `object`.\n * @returns {Array} Returns the array of property names and symbols.\n */\nfunction baseGetAllKeys(object, keysFunc, symbolsFunc) {\n  var result = keysFunc(object);\n  return isArray(object) ? result : arrayPush(result, symbolsFunc(object));\n}\n\nmodule.exports = baseGetAllKeys;\n",
     {
-      "./isArray": "/home/dustin/CS/recipes/node_modules/lodash/isArray.js",
-      "./_arrayPush": "/home/dustin/CS/recipes/node_modules/lodash/_arrayPush.js"
+      "./_arrayPush": "/home/dustin/CS/recipes/node_modules/lodash/_arrayPush.js",
+      "./isArray": "/home/dustin/CS/recipes/node_modules/lodash/isArray.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseGetAllKeys.js",
@@ -3867,8 +3867,8 @@
   "/home/dustin/CS/recipes/node_modules/lodash/_baseIsArguments.js": [
     "var baseGetTag = require('./_baseGetTag'),\n    isObjectLike = require('./isObjectLike');\n\n/** `Object#toString` result references. */\nvar argsTag = '[object Arguments]';\n\n/**\n * The base implementation of `_.isArguments`.\n *\n * @private\n * @param {*} value The value to check.\n * @returns {boolean} Returns `true` if `value` is an `arguments` object,\n */\nfunction baseIsArguments(value) {\n  return isObjectLike(value) && baseGetTag(value) == argsTag;\n}\n\nmodule.exports = baseIsArguments;\n",
     {
-      "./_baseGetTag": "/home/dustin/CS/recipes/node_modules/lodash/_baseGetTag.js",
-      "./isObjectLike": "/home/dustin/CS/recipes/node_modules/lodash/isObjectLike.js"
+      "./isObjectLike": "/home/dustin/CS/recipes/node_modules/lodash/isObjectLike.js",
+      "./_baseGetTag": "/home/dustin/CS/recipes/node_modules/lodash/_baseGetTag.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsArguments.js",
@@ -3950,8 +3950,8 @@
   "/home/dustin/CS/recipes/node_modules/lodash/_baseIsTypedArray.js": [
     "var baseGetTag = require('./_baseGetTag'),\n    isLength = require('./isLength'),\n    isObjectLike = require('./isObjectLike');\n\n/** `Object#toString` result references. */\nvar argsTag = '[object Arguments]',\n    arrayTag = '[object Array]',\n    boolTag = '[object Boolean]',\n    dateTag = '[object Date]',\n    errorTag = '[object Error]',\n    funcTag = '[object Function]',\n    mapTag = '[object Map]',\n    numberTag = '[object Number]',\n    objectTag = '[object Object]',\n    regexpTag = '[object RegExp]',\n    setTag = '[object Set]',\n    stringTag = '[object String]',\n    weakMapTag = '[object WeakMap]';\n\nvar arrayBufferTag = '[object ArrayBuffer]',\n    dataViewTag = '[object DataView]',\n    float32Tag = '[object Float32Array]',\n    float64Tag = '[object Float64Array]',\n    int8Tag = '[object Int8Array]',\n    int16Tag = '[object Int16Array]',\n    int32Tag = '[object Int32Array]',\n    uint8Tag = '[object Uint8Array]',\n    uint8ClampedTag = '[object Uint8ClampedArray]',\n    uint16Tag = '[object Uint16Array]',\n    uint32Tag = '[object Uint32Array]';\n\n/** Used to identify `toStringTag` values of typed arrays. */\nvar typedArrayTags = {};\ntypedArrayTags[float32Tag] = typedArrayTags[float64Tag] =\ntypedArrayTags[int8Tag] = typedArrayTags[int16Tag] =\ntypedArrayTags[int32Tag] = typedArrayTags[uint8Tag] =\ntypedArrayTags[uint8ClampedTag] = typedArrayTags[uint16Tag] =\ntypedArrayTags[uint32Tag] = true;\ntypedArrayTags[argsTag] = typedArrayTags[arrayTag] =\ntypedArrayTags[arrayBufferTag] = typedArrayTags[boolTag] =\ntypedArrayTags[dataViewTag] = typedArrayTags[dateTag] =\ntypedArrayTags[errorTag] = typedArrayTags[funcTag] =\ntypedArrayTags[mapTag] = typedArrayTags[numberTag] =\ntypedArrayTags[objectTag] = typedArrayTags[regexpTag] =\ntypedArrayTags[setTag] = typedArrayTags[stringTag] =\ntypedArrayTags[weakMapTag] = false;\n\n/**\n * The base implementation of `_.isTypedArray` without Node.js optimizations.\n *\n * @private\n * @param {*} value The value to check.\n * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.\n */\nfunction baseIsTypedArray(value) {\n  return isObjectLike(value) &&\n    isLength(value.length) && !!typedArrayTags[baseGetTag(value)];\n}\n\nmodule.exports = baseIsTypedArray;\n",
     {
-      "./_baseGetTag": "/home/dustin/CS/recipes/node_modules/lodash/_baseGetTag.js",
       "./isLength": "/home/dustin/CS/recipes/node_modules/lodash/isLength.js",
+      "./_baseGetTag": "/home/dustin/CS/recipes/node_modules/lodash/_baseGetTag.js",
       "./isObjectLike": "/home/dustin/CS/recipes/node_modules/lodash/isObjectLike.js"
     },
     {
@@ -4332,8 +4332,8 @@
       "./_Map": "/home/dustin/CS/recipes/node_modules/lodash/_Map.js",
       "./_baseGetTag": "/home/dustin/CS/recipes/node_modules/lodash/_baseGetTag.js",
       "./_toSource": "/home/dustin/CS/recipes/node_modules/lodash/_toSource.js",
-      "./_Promise": "/home/dustin/CS/recipes/node_modules/lodash/_Promise.js",
       "./_DataView": "/home/dustin/CS/recipes/node_modules/lodash/_DataView.js",
+      "./_Promise": "/home/dustin/CS/recipes/node_modules/lodash/_Promise.js",
       "./_Set": "/home/dustin/CS/recipes/node_modules/lodash/_Set.js",
       "./_WeakMap": "/home/dustin/CS/recipes/node_modules/lodash/_WeakMap.js"
     },
@@ -4916,9 +4916,9 @@
       "./isArrayLike": "/home/dustin/CS/recipes/node_modules/lodash/isArrayLike.js",
       "./keys": "/home/dustin/CS/recipes/node_modules/lodash/keys.js",
       "./_isPrototype": "/home/dustin/CS/recipes/node_modules/lodash/_isPrototype.js",
-      "./_assignValue": "/home/dustin/CS/recipes/node_modules/lodash/_assignValue.js",
+      "./_copyObject": "/home/dustin/CS/recipes/node_modules/lodash/_copyObject.js",
       "./_createAssigner": "/home/dustin/CS/recipes/node_modules/lodash/_createAssigner.js",
-      "./_copyObject": "/home/dustin/CS/recipes/node_modules/lodash/_copyObject.js"
+      "./_assignValue": "/home/dustin/CS/recipes/node_modules/lodash/_assignValue.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/assign.js",
@@ -5702,8 +5702,8 @@
   "/home/dustin/CS/recipes/node_modules/scheduler/tracing.js": [
     "'use strict';\n\nif (\"dev\" === 'production') {\n  module.exports = require('./cjs/scheduler-tracing.production.min.js');\n} else {\n  module.exports = require('./cjs/scheduler-tracing.development.js');\n}\n",
     {
-      "./cjs/scheduler-tracing.production.min.js": "/home/dustin/CS/recipes/node_modules/scheduler/cjs/scheduler-tracing.production.min.js",
-      "./cjs/scheduler-tracing.development.js": "/home/dustin/CS/recipes/node_modules/scheduler/cjs/scheduler-tracing.development.js"
+      "./cjs/scheduler-tracing.development.js": "/home/dustin/CS/recipes/node_modules/scheduler/cjs/scheduler-tracing.development.js",
+      "./cjs/scheduler-tracing.production.min.js": "/home/dustin/CS/recipes/node_modules/scheduler/cjs/scheduler-tracing.production.min.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/scheduler/tracing.js",
@@ -5798,7 +5798,7 @@
     }
   ],
   "/home/dustin/CS/recipes/src/components/MenuBar.js": [
-    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _regenerator = _interopRequireDefault(require(\"@babel/runtime/regenerator\"));\n\nvar _asyncToGenerator2 = _interopRequireDefault(require(\"@babel/runtime/helpers/asyncToGenerator\"));\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf2 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _assertThisInitialized2 = _interopRequireDefault(require(\"@babel/runtime/helpers/assertThisInitialized\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _babelTransform = _interopRequireDefault(require(\"livereactload/babel-transform\"));\n\nvar _AppBar = _interopRequireDefault(require(\"@material-ui/core/AppBar\"));\n\nvar _Grid = _interopRequireDefault(require(\"@material-ui/core/Grid\"));\n\nvar _Button = _interopRequireDefault(require(\"@material-ui/core/Button\"));\n\nvar _firebase = _interopRequireDefault(require(\"../lib/firebase\"));\n\nvar _components = {\n  ButtonAppBar: {\n    displayName: \"ButtonAppBar\"\n  }\n};\n\nvar _livereactloadBabelTransform2 = (0, _babelTransform.default)({\n  filename: \"src/components/MenuBar.js\",\n  components: _components,\n  locals: [],\n  imports: [_react.default]\n});\n\nfunction _wrapComponent(id) {\n  return function (Component) {\n    return _livereactloadBabelTransform2(Component, id);\n  };\n}\n\nvar ButtonAppBar =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inherits2.default)(ButtonAppBar, _React$Component);\n\n  function ButtonAppBar(props) {\n    var _this;\n\n    (0, _classCallCheck2.default)(this, ButtonAppBar);\n    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(ButtonAppBar).call(this, props));\n\n    var auth = _firebase.default.getAuth();\n\n    _this.state = {\n      auth: auth,\n      loggedIn: auth !== null\n    };\n    _this.login = _this.login.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));\n    return _this;\n  }\n\n  (0, _createClass2.default)(ButtonAppBar, [{\n    key: \"login\",\n    value: function () {\n      var _login = (0, _asyncToGenerator2.default)(\n      /*#__PURE__*/\n      _regenerator.default.mark(function _callee() {\n        return _regenerator.default.wrap(function _callee$(_context) {\n          while (1) {\n            switch (_context.prev = _context.next) {\n              case 0:\n                _context.prev = 0;\n                _context.next = 3;\n                return _firebase.default.login();\n\n              case 3:\n                this.setState({\n                  loggedIn: true\n                });\n                _context.next = 8;\n                break;\n\n              case 6:\n                _context.prev = 6;\n                _context.t0 = _context[\"catch\"](0);\n\n              case 8:\n              case \"end\":\n                return _context.stop();\n            }\n          }\n        }, _callee, this, [[0, 6]]);\n      }));\n\n      function login() {\n        return _login.apply(this, arguments);\n      }\n\n      return login;\n    }()\n  }, {\n    key: \"render\",\n    value: function render() {\n      return React.createElement(_AppBar.default, {\n        position: \"static\"\n      }, React.createElement(_Grid.default, {\n        container: true\n      }, React.createElement(_Grid.default, {\n        item: true,\n        xs: 11\n      }), React.createElement(_Grid.default, {\n        item: true,\n        xs: 1\n      }, this.state.loggedIn ? React.createElement(_Button.default, {\n        color: \"inherit\"\n      }, \"Logout\") : React.createElement(_Button.default, {\n        color: \"inherit\",\n        onClick: this.login\n      }, \"Login\"))));\n    }\n  }]);\n  return ButtonAppBar;\n}(React.Component);\n\nButtonAppBar = _wrapComponent(\"ButtonAppBar\")(ButtonAppBar);\nvar _default2 = ButtonAppBar;\nexports.default = _default2;\n",
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _regenerator = _interopRequireDefault(require(\"@babel/runtime/regenerator\"));\n\nvar _asyncToGenerator2 = _interopRequireDefault(require(\"@babel/runtime/helpers/asyncToGenerator\"));\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf2 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _assertThisInitialized2 = _interopRequireDefault(require(\"@babel/runtime/helpers/assertThisInitialized\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _babelTransform = _interopRequireDefault(require(\"livereactload/babel-transform\"));\n\nvar _AppBar = _interopRequireDefault(require(\"@material-ui/core/AppBar\"));\n\nvar _Grid = _interopRequireDefault(require(\"@material-ui/core/Grid\"));\n\nvar _Button = _interopRequireDefault(require(\"@material-ui/core/Button\"));\n\nvar _firebase = _interopRequireDefault(require(\"../lib/firebase\"));\n\nvar _components = {\n  ButtonAppBar: {\n    displayName: \"ButtonAppBar\"\n  }\n};\n\nvar _livereactloadBabelTransform2 = (0, _babelTransform.default)({\n  filename: \"src/components/MenuBar.js\",\n  components: _components,\n  locals: [],\n  imports: [_react.default]\n});\n\nfunction _wrapComponent(id) {\n  return function (Component) {\n    return _livereactloadBabelTransform2(Component, id);\n  };\n}\n\nvar ButtonAppBar =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inherits2.default)(ButtonAppBar, _React$Component);\n\n  function ButtonAppBar(props) {\n    var _this;\n\n    (0, _classCallCheck2.default)(this, ButtonAppBar);\n    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(ButtonAppBar).call(this, props));\n\n    var auth = _firebase.default.getAuth();\n\n    _this.state = {\n      auth: auth,\n      loggedIn: auth !== null\n    };\n    _this.login = _this.login.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));\n    return _this;\n  }\n\n  (0, _createClass2.default)(ButtonAppBar, [{\n    key: \"login\",\n    value: function () {\n      var _login = (0, _asyncToGenerator2.default)(\n      /*#__PURE__*/\n      _regenerator.default.mark(function _callee() {\n        return _regenerator.default.wrap(function _callee$(_context) {\n          while (1) {\n            switch (_context.prev = _context.next) {\n              case 0:\n                _context.prev = 0;\n                _context.next = 3;\n                return _firebase.default.login();\n\n              case 3:\n                this.setState({\n                  loggedIn: true\n                });\n                _context.next = 8;\n                break;\n\n              case 6:\n                _context.prev = 6;\n                _context.t0 = _context[\"catch\"](0);\n\n              case 8:\n              case \"end\":\n                return _context.stop();\n            }\n          }\n        }, _callee, this, [[0, 6]]);\n      }));\n\n      function login() {\n        return _login.apply(this, arguments);\n      }\n\n      return login;\n    }()\n  }, {\n    key: \"render\",\n    value: function render() {\n      return _react.default.createElement(_AppBar.default, {\n        position: \"static\"\n      }, _react.default.createElement(_Grid.default, {\n        container: true\n      }, _react.default.createElement(_Grid.default, {\n        item: true,\n        xs: 11\n      }), _react.default.createElement(_Grid.default, {\n        item: true,\n        xs: 1\n      }, this.state.loggedIn ? _react.default.createElement(_Button.default, {\n        color: \"inherit\"\n      }, \"Logout\") : _react.default.createElement(_Button.default, {\n        color: \"inherit\",\n        onClick: this.login\n      }, \"Login\"))));\n    }\n  }]);\n  return ButtonAppBar;\n}(_react.default.Component);\n\nButtonAppBar = _wrapComponent(\"ButtonAppBar\")(ButtonAppBar);\nvar _default2 = ButtonAppBar;\nexports.default = _default2;\n",
     {
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "livereactload/babel-transform": "/home/dustin/CS/recipes/node_modules/livereactload/babel-transform.js",
@@ -5806,8 +5806,8 @@
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
-      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "@babel/runtime/helpers/assertThisInitialized": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/assertThisInitialized.js",
       "@babel/runtime/helpers/asyncToGenerator": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/asyncToGenerator.js",
       "@babel/runtime/regenerator": "/home/dustin/CS/recipes/node_modules/@babel/runtime/regenerator/index.js",
@@ -5818,9 +5818,9 @@
     },
     {
       "id": "/home/dustin/CS/recipes/src/components/MenuBar.js",
-      "hash": "Rw0WsQ",
+      "hash": "Sglgdg",
       "browserifyId": 416,
-      "sourcemap": "//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIk1lbnVCYXIuanM/dmVyc2lvbj1SdzBXc1EiXSwibmFtZXMiOlsiQnV0dG9uQXBwQmFyIiwicHJvcHMiLCJhdXRoIiwiZmlyZWJhc2UiLCJnZXRBdXRoIiwic3RhdGUiLCJsb2dnZWRJbiIsImxvZ2luIiwiYmluZCIsInNldFN0YXRlIiwiUmVhY3QiLCJDb21wb25lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBOztBQUNBOztBQUNBOztBQUVBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUFFTUE7Ozs7O0FBQ0wsd0JBQVlDLEtBQVosRUFBbUI7QUFBQTs7QUFBQTtBQUNsQixrSEFBTUEsS0FBTjs7QUFFQSxRQUFNQyxJQUFJLEdBQUdDLGtCQUFTQyxPQUFULEVBQWI7O0FBRUEsVUFBS0MsS0FBTCxHQUFhO0FBQ1pILE1BQUFBLElBQUksRUFBSkEsSUFEWTtBQUVaSSxNQUFBQSxRQUFRLEVBQUVKLElBQUksS0FBSztBQUZQLEtBQWI7QUFLQSxVQUFLSyxLQUFMLEdBQWEsTUFBS0EsS0FBTCxDQUFXQyxJQUFYLG1GQUFiO0FBVmtCO0FBV2xCOzs7Ozs7Ozs7Ozs7Ozt1QkFJT0wsa0JBQVNJLEtBQVQ7OztBQUNOLHFCQUFLRSxRQUFMLENBQWM7QUFBRUgsa0JBQUFBLFFBQVEsRUFBRTtBQUFaLGlCQUFkOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7NkJBTU87QUFDUixhQUNDLG9CQUFDLGVBQUQ7QUFBUSxRQUFBLFFBQVEsRUFBQztBQUFqQixTQUNDLG9CQUFDLGFBQUQ7QUFBTSxRQUFBLFNBQVM7QUFBZixTQUNDLG9CQUFDLGFBQUQ7QUFBTSxRQUFBLElBQUksTUFBVjtBQUFXLFFBQUEsRUFBRSxFQUFFO0FBQWYsUUFERCxFQUVDLG9CQUFDLGFBQUQ7QUFBTSxRQUFBLElBQUksTUFBVjtBQUFXLFFBQUEsRUFBRSxFQUFFO0FBQWYsU0FDRSxLQUFLRCxLQUFMLENBQVdDLFFBQVgsR0FDQSxvQkFBQyxlQUFEO0FBQVEsUUFBQSxLQUFLLEVBQUM7QUFBZCxrQkFEQSxHQUdBLG9CQUFDLGVBQUQ7QUFBUSxRQUFBLEtBQUssRUFBQyxTQUFkO0FBQXdCLFFBQUEsT0FBTyxFQUFFLEtBQUtDO0FBQXRDLGlCQUpGLENBRkQsQ0FERCxDQUREO0FBaUJBOzs7RUF6Q3lCRyxLQUFLLENBQUNDOzs7Z0JBNENsQlgiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQXBwQmFyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0FwcEJhcic7XG5pbXBvcnQgR3JpZCBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9HcmlkJztcbmltcG9ydCBCdXR0b24gZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQnV0dG9uJztcblxuaW1wb3J0IGZpcmViYXNlIGZyb20gJy4uL2xpYi9maXJlYmFzZSc7XG5cbmNsYXNzIEJ1dHRvbkFwcEJhciBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG5cdGNvbnN0cnVjdG9yKHByb3BzKSB7XG5cdFx0c3VwZXIocHJvcHMpO1xuXG5cdFx0Y29uc3QgYXV0aCA9IGZpcmViYXNlLmdldEF1dGgoKTtcblxuXHRcdHRoaXMuc3RhdGUgPSB7XG5cdFx0XHRhdXRoLFxuXHRcdFx0bG9nZ2VkSW46IGF1dGggIT09IG51bGwsXG5cdFx0fTtcblxuXHRcdHRoaXMubG9naW4gPSB0aGlzLmxvZ2luLmJpbmQodGhpcyk7XG5cdH1cblxuXHRhc3luYyBsb2dpbigpIHtcblx0XHR0cnkge1xuXHRcdFx0YXdhaXQgZmlyZWJhc2UubG9naW4oKTtcblx0XHRcdHRoaXMuc2V0U3RhdGUoeyBsb2dnZWRJbjogdHJ1ZSB9KTtcblx0XHR9IGNhdGNoIChlcnIpIHtcblx0XHRcdC8vIERvIG5vdGhpbmdcblx0XHR9XG5cdH1cblxuXHRyZW5kZXIoKSB7XG5cdFx0cmV0dXJuIChcblx0XHRcdDxBcHBCYXIgcG9zaXRpb249XCJzdGF0aWNcIj5cblx0XHRcdFx0PEdyaWQgY29udGFpbmVyPlxuXHRcdFx0XHRcdDxHcmlkIGl0ZW0geHM9ezExfSAvPlxuXHRcdFx0XHRcdDxHcmlkIGl0ZW0geHM9ezF9PlxuXHRcdFx0XHRcdFx0e3RoaXMuc3RhdGUubG9nZ2VkSW4gPyAoXG5cdFx0XHRcdFx0XHRcdDxCdXR0b24gY29sb3I9XCJpbmhlcml0XCI+TG9nb3V0PC9CdXR0b24+XG5cdFx0XHRcdFx0XHQpIDogKFxuXHRcdFx0XHRcdFx0XHQ8QnV0dG9uIGNvbG9yPVwiaW5oZXJpdFwiIG9uQ2xpY2s9e3RoaXMubG9naW59PlxuXHRcdFx0XHRcdFx0XHRcdExvZ2luXG5cdFx0XHRcdFx0XHRcdDwvQnV0dG9uPlxuXHRcdFx0XHRcdFx0KX1cblx0XHRcdFx0XHQ8L0dyaWQ+XG5cdFx0XHRcdDwvR3JpZD5cblx0XHRcdFx0ey8qIDxUb29sYmFyIC8+ICovfVxuXHRcdFx0PC9BcHBCYXI+XG5cdFx0KTtcblx0fVxufVxuXG5leHBvcnQgZGVmYXVsdCBCdXR0b25BcHBCYXI7XG4iXX0="
+      "sourcemap": "//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIk1lbnVCYXIuanM/dmVyc2lvbj1TZ2xnZGciXSwibmFtZXMiOlsiQnV0dG9uQXBwQmFyIiwicHJvcHMiLCJhdXRoIiwiZmlyZWJhc2UiLCJnZXRBdXRoIiwic3RhdGUiLCJsb2dnZWRJbiIsImxvZ2luIiwiYmluZCIsInNldFN0YXRlIiwiUmVhY3QiLCJDb21wb25lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7Ozs7QUFFQTs7QUFDQTs7QUFDQTs7QUFFQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBRU1BOzs7OztBQUNMLHdCQUFZQyxLQUFaLEVBQW1CO0FBQUE7O0FBQUE7QUFDbEIsa0hBQU1BLEtBQU47O0FBRUEsUUFBTUMsSUFBSSxHQUFHQyxrQkFBU0MsT0FBVCxFQUFiOztBQUVBLFVBQUtDLEtBQUwsR0FBYTtBQUNaSCxNQUFBQSxJQUFJLEVBQUpBLElBRFk7QUFFWkksTUFBQUEsUUFBUSxFQUFFSixJQUFJLEtBQUs7QUFGUCxLQUFiO0FBS0EsVUFBS0ssS0FBTCxHQUFhLE1BQUtBLEtBQUwsQ0FBV0MsSUFBWCxtRkFBYjtBQVZrQjtBQVdsQjs7Ozs7Ozs7Ozs7Ozs7dUJBSU9MLGtCQUFTSSxLQUFUOzs7QUFDTixxQkFBS0UsUUFBTCxDQUFjO0FBQUVILGtCQUFBQSxRQUFRLEVBQUU7QUFBWixpQkFBZDs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzZCQU1PO0FBQ1IsYUFDQyw2QkFBQyxlQUFEO0FBQVEsUUFBQSxRQUFRLEVBQUM7QUFBakIsU0FDQyw2QkFBQyxhQUFEO0FBQU0sUUFBQSxTQUFTO0FBQWYsU0FDQyw2QkFBQyxhQUFEO0FBQU0sUUFBQSxJQUFJLE1BQVY7QUFBVyxRQUFBLEVBQUUsRUFBRTtBQUFmLFFBREQsRUFFQyw2QkFBQyxhQUFEO0FBQU0sUUFBQSxJQUFJLE1BQVY7QUFBVyxRQUFBLEVBQUUsRUFBRTtBQUFmLFNBQ0UsS0FBS0QsS0FBTCxDQUFXQyxRQUFYLEdBQ0EsNkJBQUMsZUFBRDtBQUFRLFFBQUEsS0FBSyxFQUFDO0FBQWQsa0JBREEsR0FHQSw2QkFBQyxlQUFEO0FBQVEsUUFBQSxLQUFLLEVBQUMsU0FBZDtBQUF3QixRQUFBLE9BQU8sRUFBRSxLQUFLQztBQUF0QyxpQkFKRixDQUZELENBREQsQ0FERDtBQWlCQTs7O0VBekN5QkcsZUFBTUM7OztnQkE0Q2xCWCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmltcG9ydCBBcHBCYXIgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQXBwQmFyJztcbmltcG9ydCBHcmlkIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0dyaWQnO1xuaW1wb3J0IEJ1dHRvbiBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9CdXR0b24nO1xuXG5pbXBvcnQgZmlyZWJhc2UgZnJvbSAnLi4vbGliL2ZpcmViYXNlJztcblxuY2xhc3MgQnV0dG9uQXBwQmFyIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcblx0Y29uc3RydWN0b3IocHJvcHMpIHtcblx0XHRzdXBlcihwcm9wcyk7XG5cblx0XHRjb25zdCBhdXRoID0gZmlyZWJhc2UuZ2V0QXV0aCgpO1xuXG5cdFx0dGhpcy5zdGF0ZSA9IHtcblx0XHRcdGF1dGgsXG5cdFx0XHRsb2dnZWRJbjogYXV0aCAhPT0gbnVsbCxcblx0XHR9O1xuXG5cdFx0dGhpcy5sb2dpbiA9IHRoaXMubG9naW4uYmluZCh0aGlzKTtcblx0fVxuXG5cdGFzeW5jIGxvZ2luKCkge1xuXHRcdHRyeSB7XG5cdFx0XHRhd2FpdCBmaXJlYmFzZS5sb2dpbigpO1xuXHRcdFx0dGhpcy5zZXRTdGF0ZSh7IGxvZ2dlZEluOiB0cnVlIH0pO1xuXHRcdH0gY2F0Y2ggKGVycikge1xuXHRcdFx0Ly8gRG8gbm90aGluZ1xuXHRcdH1cblx0fVxuXG5cdHJlbmRlcigpIHtcblx0XHRyZXR1cm4gKFxuXHRcdFx0PEFwcEJhciBwb3NpdGlvbj1cInN0YXRpY1wiPlxuXHRcdFx0XHQ8R3JpZCBjb250YWluZXI+XG5cdFx0XHRcdFx0PEdyaWQgaXRlbSB4cz17MTF9IC8+XG5cdFx0XHRcdFx0PEdyaWQgaXRlbSB4cz17MX0+XG5cdFx0XHRcdFx0XHR7dGhpcy5zdGF0ZS5sb2dnZWRJbiA/IChcblx0XHRcdFx0XHRcdFx0PEJ1dHRvbiBjb2xvcj1cImluaGVyaXRcIj5Mb2dvdXQ8L0J1dHRvbj5cblx0XHRcdFx0XHRcdCkgOiAoXG5cdFx0XHRcdFx0XHRcdDxCdXR0b24gY29sb3I9XCJpbmhlcml0XCIgb25DbGljaz17dGhpcy5sb2dpbn0+XG5cdFx0XHRcdFx0XHRcdFx0TG9naW5cblx0XHRcdFx0XHRcdFx0PC9CdXR0b24+XG5cdFx0XHRcdFx0XHQpfVxuXHRcdFx0XHRcdDwvR3JpZD5cblx0XHRcdFx0PC9HcmlkPlxuXHRcdFx0XHR7LyogPFRvb2xiYXIgLz4gKi99XG5cdFx0XHQ8L0FwcEJhcj5cblx0XHQpO1xuXHR9XG59XG5cbmV4cG9ydCBkZWZhdWx0IEJ1dHRvbkFwcEJhcjtcbiJdfQ=="
     }
   ],
   "/home/dustin/CS/recipes/src/components/PageContainer.js": [
@@ -5828,11 +5828,11 @@
     {
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "livereactload/babel-transform": "/home/dustin/CS/recipes/node_modules/livereactload/babel-transform.js",
-      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
-      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
       "@material-ui/core/CssBaseline": "/home/dustin/CS/recipes/node_modules/@material-ui/core/CssBaseline/index.js",
@@ -5861,7 +5861,7 @@
     }
   ],
   "/home/dustin/CS/recipes/src/lib/firebase.js": [
-    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _regenerator = _interopRequireDefault(require(\"@babel/runtime/regenerator\"));\n\nvar _asyncToGenerator2 = _interopRequireDefault(require(\"@babel/runtime/helpers/asyncToGenerator\"));\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _firebase = _interopRequireDefault(require(\"firebase\"));\n\nvar _firebase2 = _interopRequireDefault(require(\"../../config/firebase\"));\n\nvar config = (0, _extends2.default)({}, _firebase2.default);\n\n_firebase.default.initializeApp(config);\n\nvar getAuthenticated = function getAuthenticated() {\n  var auth = localStorage.getItem('auth');\n  return auth !== null;\n};\n\nvar getAuth = function getAuth() {\n  var auth = localStorage.getItem('auth');\n  return JSON.parse(auth);\n};\n\nvar login =\n/*#__PURE__*/\nfunction () {\n  var _ref = (0, _asyncToGenerator2.default)(\n  /*#__PURE__*/\n  _regenerator.default.mark(function _callee() {\n    var auth, provider;\n    return _regenerator.default.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            auth = getAuth();\n\n            if (!auth) {\n              _context.next = 5;\n              break;\n            }\n\n            return _context.abrupt(\"return\", auth);\n\n          case 5:\n            provider = new _firebase.default.auth.GoogleAuthProvider();\n\n            _firebase.default.auth().useDeviceLanguage();\n\n            _context.next = 9;\n            return _firebase.default.auth().signInWithPopup(provider);\n\n          case 9:\n            auth = _context.sent;\n\n          case 10:\n            localStorage.setItem('auth', JSON.stringify(auth));\n\n          case 11:\n            return _context.abrupt(\"return\", auth);\n\n          case 12:\n          case \"end\":\n            return _context.stop();\n        }\n      }\n    }, _callee, this);\n  }));\n\n  return function login() {\n    return _ref.apply(this, arguments);\n  };\n}();\n\nvar _default = {\n  firebase: _firebase.default,\n  login: login,\n  getAuthenticated: getAuthenticated,\n  getAuth: getAuth\n};\nexports.default = _default;\n",
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _regenerator = _interopRequireDefault(require(\"@babel/runtime/regenerator\"));\n\nvar _asyncToGenerator2 = _interopRequireDefault(require(\"@babel/runtime/helpers/asyncToGenerator\"));\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _firebase = _interopRequireDefault(require(\"firebase\"));\n\nvar _firebase2 = _interopRequireDefault(require(\"../../config/firebase\"));\n\nvar config = (0, _extends2.default)({}, _firebase2.default);\n\n_firebase.default.initializeApp(config);\n\nvar getAuth = function getAuth() {\n  var auth = localStorage.getItem('auth');\n  return JSON.parse(auth);\n};\n\nvar login =\n/*#__PURE__*/\nfunction () {\n  var _ref = (0, _asyncToGenerator2.default)(\n  /*#__PURE__*/\n  _regenerator.default.mark(function _callee() {\n    var auth, provider;\n    return _regenerator.default.wrap(function _callee$(_context) {\n      while (1) {\n        switch (_context.prev = _context.next) {\n          case 0:\n            auth = getAuth();\n\n            if (!auth) {\n              _context.next = 5;\n              break;\n            }\n\n            return _context.abrupt(\"return\", auth);\n\n          case 5:\n            provider = new _firebase.default.auth.GoogleAuthProvider();\n\n            _firebase.default.auth().useDeviceLanguage();\n\n            _context.next = 9;\n            return _firebase.default.auth().signInWithPopup(provider);\n\n          case 9:\n            FirebaseAuth = _context.sent;\n\n          case 10:\n            localStorage.setItem('auth', JSON.stringify(auth));\n\n          case 11:\n            return _context.abrupt(\"return\", auth);\n\n          case 12:\n          case \"end\":\n            return _context.stop();\n        }\n      }\n    }, _callee, this);\n  }));\n\n  return function login() {\n    return _ref.apply(this, arguments);\n  };\n}();\n\nvar _default = {\n  firebase: _firebase.default,\n  login: login,\n  getAuth: getAuth\n};\nexports.default = _default;\n",
     {
       "../../config/firebase": "/home/dustin/CS/recipes/config/firebase.js",
       "@babel/runtime/regenerator": "/home/dustin/CS/recipes/node_modules/@babel/runtime/regenerator/index.js",
@@ -5872,9 +5872,9 @@
     },
     {
       "id": "/home/dustin/CS/recipes/src/lib/firebase.js",
-      "hash": "yvuCVw",
+      "hash": "akLMTg",
       "browserifyId": 419,
-      "sourcemap": "//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZpcmViYXNlLmpzP3ZlcnNpb249eXZ1Q1Z3Il0sIm5hbWVzIjpbImNvbmZpZyIsImZpcmViYXNlQ29uZmlnIiwiZmlyZWJhc2UiLCJpbml0aWFsaXplQXBwIiwiZ2V0QXV0aGVudGljYXRlZCIsImF1dGgiLCJsb2NhbFN0b3JhZ2UiLCJnZXRJdGVtIiwiZ2V0QXV0aCIsIkpTT04iLCJwYXJzZSIsImxvZ2luIiwicHJvdmlkZXIiLCJHb29nbGVBdXRoUHJvdmlkZXIiLCJ1c2VEZXZpY2VMYW5ndWFnZSIsInNpZ25JbldpdGhQb3B1cCIsInNldEl0ZW0iLCJzdHJpbmdpZnkiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFFQTs7QUFDQTs7SUFFV0Esb0NBQVdDOztBQUV0QkMsa0JBQVNDLGFBQVQsQ0FBdUJILE1BQXZCOztBQUVBLElBQU1JLGdCQUFnQixHQUFHLFNBQW5CQSxnQkFBbUIsR0FBZTtBQUN2QyxNQUFNQyxJQUFJLEdBQUdDLFlBQVksQ0FBQ0MsT0FBYixDQUFxQixNQUFyQixDQUFiO0FBRUEsU0FBT0YsSUFBSSxLQUFLLElBQWhCO0FBQ0EsQ0FKRDs7QUFNQSxJQUFNRyxPQUFPLEdBQUcsU0FBVkEsT0FBVSxHQUFtQjtBQUNsQyxNQUFNSCxJQUFJLEdBQUdDLFlBQVksQ0FBQ0MsT0FBYixDQUFxQixNQUFyQixDQUFiO0FBRUEsU0FBT0UsSUFBSSxDQUFDQyxLQUFMLENBQVdMLElBQVgsQ0FBUDtBQUNBLENBSkQ7O0FBTUEsSUFBTU0sS0FBSztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsNEJBQUc7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQ1ROLFlBQUFBLElBRFMsR0FDRkcsT0FBTyxFQURMOztBQUFBLGlCQUdUSCxJQUhTO0FBQUE7QUFBQTtBQUFBOztBQUFBLDZDQUdJQSxJQUhKOztBQUFBO0FBS05PLFlBQUFBLFFBTE0sR0FLSyxJQUFJVixrQkFBU0csSUFBVCxDQUFjUSxrQkFBbEIsRUFMTDs7QUFNWlgsOEJBQVNHLElBQVQsR0FBZ0JTLGlCQUFoQjs7QUFOWTtBQUFBLG1CQVFPWixrQkFBU0csSUFBVCxHQUFnQlUsZUFBaEIsQ0FBZ0NILFFBQWhDLENBUlA7O0FBQUE7QUFRTlAsWUFBQUEsSUFSTTs7QUFBQTtBQVVaQyxZQUFBQSxZQUFZLENBQUNVLE9BQWIsQ0FBcUIsTUFBckIsRUFBNkJQLElBQUksQ0FBQ1EsU0FBTCxDQUFlWixJQUFmLENBQTdCOztBQVZZO0FBQUEsNkNBYU5BLElBYk07O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsR0FBSDs7QUFBQSxrQkFBTE0sS0FBSztBQUFBO0FBQUE7QUFBQSxHQUFYOztlQWdCZTtBQUFFVCxFQUFBQSxRQUFRLEVBQVJBLGlCQUFGO0FBQVlTLEVBQUFBLEtBQUssRUFBTEEsS0FBWjtBQUFtQlAsRUFBQUEsZ0JBQWdCLEVBQWhCQSxnQkFBbkI7QUFBcUNJLEVBQUFBLE9BQU8sRUFBUEE7QUFBckMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBAZmxvd1xuXG5pbXBvcnQgZmlyZWJhc2UgZnJvbSAnZmlyZWJhc2UnO1xuaW1wb3J0IGZpcmViYXNlQ29uZmlnIGZyb20gJy4uLy4uL2NvbmZpZy9maXJlYmFzZSc7XG5cbmNvbnN0IHsgLi4uY29uZmlnIH0gPSBmaXJlYmFzZUNvbmZpZztcblxuZmlyZWJhc2UuaW5pdGlhbGl6ZUFwcChjb25maWcpO1xuXG5jb25zdCBnZXRBdXRoZW50aWNhdGVkID0gKCk6IGJvb2xlYW4gPT4ge1xuXHRjb25zdCBhdXRoID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ2F1dGgnKTtcblxuXHRyZXR1cm4gYXV0aCAhPT0gbnVsbDtcbn07XG5cbmNvbnN0IGdldEF1dGggPSAoKTogYXV0aCB8IG51bGwgPT4ge1xuXHRjb25zdCBhdXRoID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ2F1dGgnKTtcblxuXHRyZXR1cm4gSlNPTi5wYXJzZShhdXRoKTtcbn07XG5cbmNvbnN0IGxvZ2luID0gYXN5bmMgKCk6IGF1dGggPT4ge1xuXHRsZXQgYXV0aCA9IGdldEF1dGgoKTtcblxuXHRpZiAoYXV0aCkgcmV0dXJuIGF1dGg7XG5cdGVsc2Uge1xuXHRcdGNvbnN0IHByb3ZpZGVyID0gbmV3IGZpcmViYXNlLmF1dGguR29vZ2xlQXV0aFByb3ZpZGVyKCk7XG5cdFx0ZmlyZWJhc2UuYXV0aCgpLnVzZURldmljZUxhbmd1YWdlKCk7XG5cblx0XHRhdXRoOiBhdXRoID0gYXdhaXQgZmlyZWJhc2UuYXV0aCgpLnNpZ25JbldpdGhQb3B1cChwcm92aWRlcik7XG5cblx0XHRsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgnYXV0aCcsIEpTT04uc3RyaW5naWZ5KGF1dGgpKTtcblx0fVxuXG5cdHJldHVybiBhdXRoO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgeyBmaXJlYmFzZSwgbG9naW4sIGdldEF1dGhlbnRpY2F0ZWQsIGdldEF1dGggfTtcbiJdfQ=="
+      "sourcemap": "//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZpcmViYXNlLmpzP3ZlcnNpb249YWtMTVRnIl0sIm5hbWVzIjpbImNvbmZpZyIsImZpcmViYXNlQ29uZmlnIiwiZmlyZWJhc2UiLCJpbml0aWFsaXplQXBwIiwiZ2V0QXV0aCIsImF1dGgiLCJsb2NhbFN0b3JhZ2UiLCJnZXRJdGVtIiwiSlNPTiIsInBhcnNlIiwibG9naW4iLCJwcm92aWRlciIsIkdvb2dsZUF1dGhQcm92aWRlciIsInVzZURldmljZUxhbmd1YWdlIiwic2lnbkluV2l0aFBvcHVwIiwiRmlyZWJhc2VBdXRoIiwic2V0SXRlbSIsInN0cmluZ2lmeSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQUVBOztBQUNBOztJQUVXQSxvQ0FBV0M7O0FBRXRCQyxrQkFBU0MsYUFBVCxDQUF1QkgsTUFBdkI7O0FBRUEsSUFBTUksT0FBTyxHQUFHLFNBQVZBLE9BQVUsR0FBMkI7QUFDMUMsTUFBTUMsSUFBSSxHQUFHQyxZQUFZLENBQUNDLE9BQWIsQ0FBcUIsTUFBckIsQ0FBYjtBQUVBLFNBQU9DLElBQUksQ0FBQ0MsS0FBTCxDQUFXSixJQUFYLENBQVA7QUFDQSxDQUpEOztBQU1BLElBQU1LLEtBQUs7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLDRCQUFHO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNQTCxZQUFBQSxJQURPLEdBQ0FELE9BQU8sRUFEUDs7QUFBQSxpQkFHVEMsSUFIUztBQUFBO0FBQUE7QUFBQTs7QUFBQSw2Q0FHSUEsSUFISjs7QUFBQTtBQUtOTSxZQUFBQSxRQUxNLEdBS0ssSUFBSVQsa0JBQVNHLElBQVQsQ0FBY08sa0JBQWxCLEVBTEw7O0FBTVpWLDhCQUFTRyxJQUFULEdBQWdCUSxpQkFBaEI7O0FBTlk7QUFBQSxtQkFRZVgsa0JBQVNHLElBQVQsR0FBZ0JTLGVBQWhCLENBQWdDSCxRQUFoQyxDQVJmOztBQUFBO0FBUU5JLFlBQUFBLFlBUk07O0FBQUE7QUFVWlQsWUFBQUEsWUFBWSxDQUFDVSxPQUFiLENBQXFCLE1BQXJCLEVBQTZCUixJQUFJLENBQUNTLFNBQUwsQ0FBZVosSUFBZixDQUE3Qjs7QUFWWTtBQUFBLDZDQWFOQSxJQWJNOztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEdBQUg7O0FBQUEsa0JBQUxLLEtBQUs7QUFBQTtBQUFBO0FBQUEsR0FBWDs7ZUFnQmU7QUFBRVIsRUFBQUEsUUFBUSxFQUFSQSxpQkFBRjtBQUFZUSxFQUFBQSxLQUFLLEVBQUxBLEtBQVo7QUFBbUJOLEVBQUFBLE9BQU8sRUFBUEE7QUFBbkIiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBAZmxvd1xuXG5pbXBvcnQgZmlyZWJhc2UgZnJvbSAnZmlyZWJhc2UnO1xuaW1wb3J0IGZpcmViYXNlQ29uZmlnIGZyb20gJy4uLy4uL2NvbmZpZy9maXJlYmFzZSc7XG5cbmNvbnN0IHsgLi4uY29uZmlnIH0gPSBmaXJlYmFzZUNvbmZpZztcblxuZmlyZWJhc2UuaW5pdGlhbGl6ZUFwcChjb25maWcpO1xuXG5jb25zdCBnZXRBdXRoID0gKCk6IEZpcmViYXNlQXV0aCB8IG51bGwgPT4ge1xuXHRjb25zdCBhdXRoID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ2F1dGgnKTtcblxuXHRyZXR1cm4gSlNPTi5wYXJzZShhdXRoKTtcbn07XG5cbmNvbnN0IGxvZ2luID0gYXN5bmMgKCk6IEZpcmViYXNlQXV0aCA9PiB7XG5cdGNvbnN0IGF1dGggPSBnZXRBdXRoKCk7XG5cblx0aWYgKGF1dGgpIHJldHVybiBhdXRoO1xuXHRlbHNlIHtcblx0XHRjb25zdCBwcm92aWRlciA9IG5ldyBmaXJlYmFzZS5hdXRoLkdvb2dsZUF1dGhQcm92aWRlcigpO1xuXHRcdGZpcmViYXNlLmF1dGgoKS51c2VEZXZpY2VMYW5ndWFnZSgpO1xuXG5cdFx0YXV0aDogRmlyZWJhc2VBdXRoID0gYXdhaXQgZmlyZWJhc2UuYXV0aCgpLnNpZ25JbldpdGhQb3B1cChwcm92aWRlcik7XG5cblx0XHRsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgnYXV0aCcsIEpTT04uc3RyaW5naWZ5KGF1dGgpKTtcblx0fVxuXG5cdHJldHVybiBhdXRoO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgeyBmaXJlYmFzZSwgbG9naW4sIGdldEF1dGggfTtcbiJdfQ=="
     }
   ]
 }, [

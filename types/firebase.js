@@ -1,6 +1,6 @@
 // @flow
 
-declare type auth = {
+declare type FirebaseAuth = {
 	additionalUserInfo: {
 		providerId: string,
 		isNewUser: boolean,
@@ -14,15 +14,15 @@ declare type auth = {
 			locale: string,
 			name: string,
 			picture: string,
-			verified_email: boolean
-		}
+			verified_email: boolean,
+		},
 	},
 	credential: {
 		a: any,
 		accessToken: string,
 		idToken: string,
 		providerId: string,
-		signInMethod: string
+		signInMethod: string,
 	},
 	operationType: string,
 	user: {
@@ -38,15 +38,17 @@ declare type auth = {
 		phoneNumber: any,
 		photoURL: string,
 		providerData: [
-			{ uid: string, displayName: string, email: string, phoneNumber: any, photoURL: string, providerId: string }
+			{ uid: string, displayName: string, email: string, phoneNumber: any, photoURL: string, providerId: string },
 		],
 		redirectEventId: any,
 		stsTokenManager: {
 			accessToken: string,
 			apiKey: string,
 			expirationTime: number,
-			refreshToken: string
+			refreshToken: string,
 		},
-		uid: string
-	}
+		uid: string,
+	},
 };
+
+declare type FirebaseId = string;

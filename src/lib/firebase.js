@@ -7,27 +7,21 @@ const { ...config } = firebaseConfig;
 
 firebase.initializeApp(config);
 
-const getAuthenticated = (): boolean => {
-	const auth = localStorage.getItem('auth');
-
-	return auth !== null;
-};
-
-const getAuth = (): auth | null => {
+const getAuth = (): FirebaseAuth | null => {
 	const auth = localStorage.getItem('auth');
 
 	return JSON.parse(auth);
 };
 
-const login = async (): auth => {
-	let auth = getAuth();
+const login = async (): FirebaseAuth => {
+	const auth = getAuth();
 
 	if (auth) return auth;
 	else {
 		const provider = new firebase.auth.GoogleAuthProvider();
 		firebase.auth().useDeviceLanguage();
 
-		auth: auth = await firebase.auth().signInWithPopup(provider);
+		auth: FirebaseAuth = await firebase.auth().signInWithPopup(provider);
 
 		localStorage.setItem('auth', JSON.stringify(auth));
 	}
@@ -35,4 +29,4 @@ const login = async (): auth => {
 	return auth;
 };
 
-export default { firebase, login, getAuthenticated, getAuth };
+export default { firebase, login, getAuth };
