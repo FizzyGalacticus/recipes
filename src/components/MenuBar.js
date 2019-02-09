@@ -35,7 +35,8 @@ class ButtonAppBar extends React.Component {
 		try {
 			await firebase.login();
 			this.setState({ loggedIn: true });
-		} catch (err) {
+		}
+		catch(err) {
 			// Do nothing
 		}
 	}

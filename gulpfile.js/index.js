@@ -1,6 +1,5 @@
 const { src, dest, watch, parallel, series } = require('gulp');
 const browserify = require('browserify');
-const watchify = require('watchify');
 const livereactload = require('livereactload');
 const source = require('vinyl-source-stream');
 const uglify = require('gulp-uglify');
@@ -14,7 +13,7 @@ const env = process.env.NODE_ENV;
 const builder = browserify('src/index.js', {
 	cache: {},
 	packageCache: {},
-	plugin: env === 'dev' ? [livereactload] : undefined,
+	plugin: env === 'dev' ? [livereactload] : undefined
 }).transform('babelify');
 
 const lint = () => {
@@ -24,6 +23,12 @@ const lint = () => {
 const transpile = () => {
 	return builder
 		.bundle()
+		.on('error', function(err) {
+			/* eslint-disable */
+			console.error(err);
+			this.emit('end');
+			/* eslint-enable */
+		})
 		.pipe(source('app.js'))
 		.pipe(dest('docs/js'));
 };
@@ -48,7 +53,7 @@ const minHtml = () => {
 				removeComments: true,
 				removeEmptyAttributes: true,
 				removeOptionalTags: true,
-				removeRedundantAttributes: true,
+				removeRedundantAttributes: true
 			})
 		)
 		.pipe(dest('docs/'));
@@ -72,5 +77,5 @@ const devMode = () => {
 const all = parallel(buildJs, minHtml, devMode);
 
 module.exports = {
-	default: all,
+	default: all
 };

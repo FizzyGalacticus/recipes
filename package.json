@@ -12,7 +12,9 @@
 		"build": "gulp",
 		"hideSecrets": "git stash push config/*",
 		"revealSecrets": "git stash pop",
-		"kill": "sudo kill -9 $(lsof -nP -i4TCP:3001 | grep LISTEN |awk '{print $2}')"
+		"kill": "./killserver.js",
+		"postinstall": "mv node_modules/metro-babel7-plugin-react-transform/src/index.js node_modules/babel-plugin-react-transform/lib/index.js",
+		"lint": "eslint --fix src/**/*.js"
 	},
 	"dependencies": {
 		"@babel/core": "^7.2.2",
@@ -29,9 +31,11 @@
 		"@babel/preset-flow": "^7.0.0",
 		"@babel/preset-react": "^7.0.0",
 		"@babel/runtime": "^7.3.1",
+		"babel-eslint": "^10.0.1",
 		"babel-plugin-react-transform": "^3.0.0",
 		"babel-plugin-transform-object-rest-spread": "^6.26.0",
 		"babelify": "^10.0.0",
+		"eslint-config-google": "^0.12.0",
 		"eslint-plugin-prettier": "^3.0.1",
 		"eslint-plugin-react": "^7.12.4",
 		"gulp": "^4.0.0",
@@ -48,8 +52,8 @@
 		"vinyl-source-stream": "^2.0.0",
 		"watchify": "^3.11.0"
 	},
-	"postinstall": "mv node_modules/metro-babel7-plugin-react-transform/src/index.js node_modules/babel-plugin-react-transform/lib/index.js",
 	"precommit": [
+		"lint",
 		"build",
 		"hideSecrets"
 	],

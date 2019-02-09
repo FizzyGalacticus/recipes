@@ -1,7 +1,7 @@
 import firebase from 'firebase';
 import firebaseConfig from '../../config/firebase';
 
-const { auth, ...config } = firebaseConfig;
+const { ...config } = firebaseConfig;
 
 firebase.initializeApp(config);
 
@@ -12,7 +12,8 @@ const login = async () => {
 
 	try {
 		result = JSON.parse(auth);
-	} catch (err) {
+	}
+	catch(err) {
 		const provider = new firebase.auth.GoogleAuthProvider();
 		firebase.auth().useDeviceLanguage();
 
