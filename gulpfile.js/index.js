@@ -11,7 +11,7 @@ const open = require('opn');
 
 const env = process.env.NODE_ENV;
 
-const builder = browserify('src/index.js', {
+const builder = browserify('src/app.js', {
 	cache: {},
 	packageCache: {},
 	plugin: env === 'dev' ? [livereactload] : undefined,
@@ -57,7 +57,7 @@ const minHtml = () => {
 const devMode = () => {
 	if (env === 'dev') {
 		const watchHtml = watch('src/index.html', minHtml);
-		const watchJS = watch('src/**/*.js', transpile);
+		const watchJS = watch('src/app.js', buildJs);
 
 		server('docs/', 3001);
 

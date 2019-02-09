@@ -1,15 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
-import PageContainer from './components/PageContainer';
+const app = document.getElementById('app');
 
-class App extends React.Component {
-	constructor(props) {
-		super(props);
-	}
-
-	render() {
-		return <PageContainer />;
-	}
-}
-
-export default App;
+ReactDOM.render(<div>Hello, world!</div>, app);
