@@ -2,7 +2,17 @@
 	"parserOptions": {
 		"ecmaVersion": 2018,
 		"sourceType": "module",
-		"ecmaFeatures": { "jsx": true }
+		"ecmaFeatures": {
+			"jsx": true,
+			"forOf": true,
+			"spread": true,
+			"templateStrings": true,
+			"objectLiteralShorthandMethods": true,
+			"objectLiteralShorthandProperties": true,
+			"arrowFunctions": true,
+			"defaultParams": true,
+			"destructuring": true
+		}
 	},
 	"plugins": ["react"],
 	"rules": {
