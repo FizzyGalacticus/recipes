@@ -1,31 +1,18 @@
-import React from 'react';
-
-import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
+import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 
 import firebase from '../lib/firebase';
-
-const styles = {
-	root: {
-		flexGrow: 1,
-	},
-	grow: {
-		flexGrow: 1,
-	},
-	menuButton: {
-		marginLeft: -12,
-		marginRight: 20,
-	},
-};
 
 class ButtonAppBar extends React.Component {
 	constructor(props) {
 		super(props);
 
+		const auth = firebase.getAuth();
+
 		this.state = {
-			loggedIn: firebase.getAuthenticated(),
+			auth,
+			loggedIn: auth !== null,
 		};
 
 		this.login = this.login.bind(this);
@@ -35,19 +22,17 @@ class ButtonAppBar extends React.Component {
 		try {
 			await firebase.login();
 			this.setState({ loggedIn: true });
-		}
-		catch(err) {
+		} catch (err) {
 			// Do nothing
 		}
 	}
 
 	render() {
-		const { classes } = this.props;
-
 		return (
-			<div className={classes.root}>
-				<AppBar position="static">
-					<Toolbar>
+			<AppBar position="static">
+				<Grid container>
+					<Grid item xs={11} />
+					<Grid item xs={1}>
 						{this.state.loggedIn ? (
 							<Button color="inherit">Logout</Button>
 						) : (
@@ -55,11 +40,12 @@ class ButtonAppBar extends React.Component {
 								Login
 							</Button>
 						)}
-					</Toolbar>
-				</AppBar>
-			</div>
+					</Grid>
+				</Grid>
+				{/* <Toolbar /> */}
+			</AppBar>
 		);
 	}
 }
 
-export default withStyles(styles)(ButtonAppBar);
+export default ButtonAppBar;

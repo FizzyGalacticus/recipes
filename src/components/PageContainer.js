@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 import MenuBar from './MenuBar';
 
@@ -8,7 +10,12 @@ class PageContainer extends React.Component {
 	}
 
 	render() {
-		return <MenuBar />;
+		return (
+			<Fragment>
+				<CssBaseline />
+				<MenuBar />
+			</Fragment>
+		);
 	}
 }
 
