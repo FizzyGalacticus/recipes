@@ -38,6 +38,14 @@ class RecipeCreator extends Component<Props, State> {
 		this.saveRecipe = this.saveRecipe.bind(this);
 	}
 
+	static getDerivedStateFromProps(nextProps, prevState) {
+		if (nextProps.recipe.id !== prevState.id)
+			return { ...nextProps.recipe };
+		
+
+		return prevState;
+	}
+
 	handleChange(
 		{
 			target: { name, value },
@@ -96,7 +104,7 @@ class RecipeCreator extends Component<Props, State> {
 						name="name"
 						style={{ margin: 10 }}
 						onChange={this.handleChange}
-						defaultValue={this.state.name}
+						value={this.state.name}
 						variant="outlined"
 						fullWidth
 					/>
@@ -107,7 +115,7 @@ class RecipeCreator extends Component<Props, State> {
 						name="picture"
 						style={{ margin: 10 }}
 						onChange={this.handleChange}
-						defaultValue={this.state.picture}
+						value={this.state.picture}
 						variant="outlined"
 						fullWidth
 					/>
@@ -119,7 +127,7 @@ class RecipeCreator extends Component<Props, State> {
 						name="prepTime"
 						style={{ margin: 10 }}
 						onChange={this.handleChange}
-						defaultValue={this.state.prepTime}
+						value={this.state.prepTime}
 						variant="outlined"
 						fullWidth
 					/>
@@ -130,7 +138,7 @@ class RecipeCreator extends Component<Props, State> {
 						name="totalTime"
 						style={{ margin: 10 }}
 						onChange={this.handleChange}
-						defaultValue={this.state.totalTime}
+						value={this.state.totalTime}
 						variant="outlined"
 						fullWidth
 					/>
@@ -142,7 +150,7 @@ class RecipeCreator extends Component<Props, State> {
 						name="notes"
 						style={{ margin: 10 }}
 						onChange={this.handleChange}
-						defaultValue={this.state.notes}
+						value={this.state.notes}
 						variant="outlined"
 						multiline
 						rows="5"
@@ -156,7 +164,7 @@ class RecipeCreator extends Component<Props, State> {
 						name="serves"
 						style={{ margin: 10 }}
 						onChange={this.handleChange}
-						defaultValue={this.state.serves}
+						value={this.state.serves}
 						variant="outlined"
 					/>
 				</Grid>
@@ -167,7 +175,7 @@ class RecipeCreator extends Component<Props, State> {
 								name="public"
 								style={{ margin: 10 }}
 								onChange={this.handleChange}
-								defaultValue={this.state.public}
+								checked={this.state.public}
 								color={this.state.public ? 'primary' : 'secondary'}
 							/>
 						}
