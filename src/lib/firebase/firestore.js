@@ -41,4 +41,11 @@ const readDocument = createDbIfNotInitialized((key, docKey) => {
 		.get();
 });
 
-export default { create, readCollection, readDocument };
+const updateDocument = createDbIfNotInitialized((key, docKey, value) => {
+	return db
+		.collection(key)
+		.doc(docKey)
+		.set(value);
+});
+
+export default { create, readCollection, readDocument, updateDocument };
