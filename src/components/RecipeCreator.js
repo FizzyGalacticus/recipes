@@ -1,3 +1,5 @@
+// @flow
+
 import React, { Component } from 'react';
 
 import Grid from '@material-ui/core/Grid';
@@ -9,9 +11,17 @@ import Button from '@material-ui/core/Button';
 import { auth, firestore } from '../lib/firebase';
 import { showNotification } from '../lib/notification';
 
-class RecipeCreator extends Component {
+type Props = {
+	recipe?: Recipe,
+};
+
+type State = Recipe;
+
+class RecipeCreator extends Component<Props, State> {
 	constructor(props) {
 		super(props);
+
+		const { recipe: defaultRecipe = {} } = props;
 
 		this.state = {
 			name: '',
@@ -21,6 +31,7 @@ class RecipeCreator extends Component {
 			totalTime: '',
 			serves: '',
 			public: false,
+			...defaultRecipe,
 		};
 
 		this.handleChange = this.handleChange.bind(this);
@@ -39,20 +50,40 @@ class RecipeCreator extends Component {
 
 	async saveRecipe() {
 		const now = new Date();
-		const authorData = auth.getAuth();
+
+		const { id, ...state } = this.state;
 
 		const newRecipe = {
-			...this.state,
+			...state,
 			updatedAt: now,
-			createdAt: now,
-			author: authorData.user.uid,
 		};
 
-		try {
-			await firestore.create('recipes', newRecipe);
-			showNotification({ message: 'Recipe saved successfully!', variant: 'success' });
-		} catch (err) {
-			showNotification({ message: 'Could not save recipe.', variant: 'error' });
+		if (id) {
+			try {
+				await firestore.updateDocument('recipes', id, newRecipe);
+
+				this.setState({ id, ...newRecipe }, () => {
+					showNotification({
+						message: 'Recipe updated successfully!',
+						variant: 'success',
+					});
+				});
+			} catch (err) {
+				showNotification({ message: 'Could not update recipe.', variant: 'error' });
+			}
+		} else {
+			try {
+				newRecipe.createdAt = now;
+				newRecipe.author = auth.getAuth().user.uid;
+
+				const { id } = await firestore.create('recipes', newRecipe);
+
+				this.setState({ id, ...newRecipe }, () => {
+					showNotification({ message: 'Recipe saved successfully!', variant: 'success' });
+				});
+			} catch (err) {
+				showNotification({ message: 'Could not save recipe.', variant: 'error' });
+			}
 		}
 	}
 
@@ -145,7 +176,7 @@ class RecipeCreator extends Component {
 				</Grid>
 				<Grid item xs={1}>
 					<Button color="primary" onClick={this.saveRecipe}>
-						Save
+						{this.state.id ? 'Update' : 'Save'}
 					</Button>
 				</Grid>
 				<Grid item xs={8} />
