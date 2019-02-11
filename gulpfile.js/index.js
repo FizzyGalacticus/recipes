@@ -13,7 +13,7 @@ const env = process.env.NODE_ENV;
 const builder = browserify('src/index.js', {
 	cache: {},
 	packageCache: {},
-	plugin: env === 'dev' ? [livereactload] : undefined
+	plugin: env === 'dev' ? [livereactload] : undefined,
 }).transform('babelify');
 
 const lint = () => {
@@ -53,7 +53,7 @@ const minHtml = () => {
 				removeComments: true,
 				removeEmptyAttributes: true,
 				removeOptionalTags: true,
-				removeRedundantAttributes: true
+				removeRedundantAttributes: true,
 			})
 		)
 		.pipe(dest('docs/'));
@@ -77,5 +77,5 @@ const devMode = () => {
 const all = parallel(buildJs, minHtml, devMode);
 
 module.exports = {
-	default: all
+	default: all,
 };
