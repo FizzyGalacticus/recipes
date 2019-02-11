@@ -61,13 +61,13 @@ const minHtml = () => {
 
 const devMode = () => {
 	if (env === 'dev') {
-		const watchHtml = watch('src/index.html', minHtml);
-		const watchJS = watch('src/**/*.js', transpile);
+		watch('src/index.html', minHtml);
+		watch('src/**/*.js', transpile);
 
 		server('docs/', 3001);
 
 		setTimeout(() => {
-			open('http://localhost:3001');
+			console.log('You can view your changes here: http://localhost:3001');
 		}, 3000);
 	}
 

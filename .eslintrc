@@ -37,8 +37,8 @@
 		],
 		"no-tabs": 0,
 		"ignoreComments": 0,
-		"no-console": 1,
-		"curly": [2, "multi-or-nest"],
+		"no-console": 2,
+		"curly": [2, "multi-or-nest", "consistent"],
 		"no-trailing-spaces": [
 			"error",
 			{
