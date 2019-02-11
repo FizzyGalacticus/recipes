@@ -89,8 +89,8 @@ class RecipeCreator extends Component<Props, State> {
 
 	render() {
 		return (
-			<Grid container spacing={16} justify="center" alignItems="center">
-				<Grid item xs={2}>
+			<Grid container spacing={8} justify="center" alignItems="center">
+				<Grid item xs={6} md={2}>
 					<TextField
 						label="Name"
 						name="name"
@@ -101,7 +101,7 @@ class RecipeCreator extends Component<Props, State> {
 						fullWidth
 					/>
 				</Grid>
-				<Grid item xs={2}>
+				<Grid item xs={6} md={2}>
 					<TextField
 						label="Picture URL"
 						name="picture"
@@ -112,8 +112,8 @@ class RecipeCreator extends Component<Props, State> {
 						fullWidth
 					/>
 				</Grid>
-				<Grid item xs={8} />
-				<Grid item xs={2}>
+				<Grid item xs={12} md={8} />
+				<Grid item xs={6} md={2}>
 					<TextField
 						label="Prep Time"
 						name="prepTime"
@@ -124,7 +124,7 @@ class RecipeCreator extends Component<Props, State> {
 						fullWidth
 					/>
 				</Grid>
-				<Grid item xs={2}>
+				<Grid item xs={6} md={2}>
 					<TextField
 						label="Total Time"
 						name="totalTime"
@@ -135,8 +135,8 @@ class RecipeCreator extends Component<Props, State> {
 						fullWidth
 					/>
 				</Grid>
-				<Grid item xs={8} />
-				<Grid item xs={4}>
+				<Grid item xs={12} md={8} />
+				<Grid item xs={12} md={4}>
 					<TextField
 						label="Notes"
 						name="notes"
@@ -149,8 +149,8 @@ class RecipeCreator extends Component<Props, State> {
 						fullWidth
 					/>
 				</Grid>
-				<Grid item xs={8} />
-				<Grid item xs={2}>
+				<Grid item xs={12} md={8} />
+				<Grid item xs={6} md={2}>
 					<TextField
 						label="Servings"
 						name="serves"
@@ -160,7 +160,7 @@ class RecipeCreator extends Component<Props, State> {
 						variant="outlined"
 					/>
 				</Grid>
-				<Grid item xs={1}>
+				<Grid item md={1}>
 					<FormControlLabel
 						control={
 							<Checkbox
@@ -174,12 +174,12 @@ class RecipeCreator extends Component<Props, State> {
 						label="Public"
 					/>
 				</Grid>
-				<Grid item xs={1}>
+				<Grid item md={1}>
 					<Button color="primary" onClick={this.saveRecipe}>
 						{this.state.id ? 'Update' : 'Save'}
 					</Button>
 				</Grid>
-				<Grid item xs={8} />
+				<Grid item xs={12} md={8} />
 			</Grid>
 		);
 	}
