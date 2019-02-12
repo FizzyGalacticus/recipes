@@ -14,12 +14,6 @@ class PageContainer extends React.Component {
 		this.state = {
 			editingRecipe: {},
 		};
-
-		this.editRecipe = this.editRecipe.bind(this);
-	}
-
-	editRecipe(id, recipe) {
-		this.setState({ editingRecipe: { id, ...recipe } });
 	}
 
 	render() {
@@ -28,7 +22,7 @@ class PageContainer extends React.Component {
 				<CssBaseline />
 				<MenuBar />
 				<RecipeCreator recipe={this.state.editingRecipe} />
-				<MyRecipes recipeSelected={this.editRecipe} />
+				<MyRecipes />
 				<Snackbar />
 			</Fragment>
 		);

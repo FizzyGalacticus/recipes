@@ -1,5 +1,9 @@
 import React from 'react';
 
+import { Provider } from 'react-redux';
+
+import store from './lib/redux/store';
+
 import PageContainer from './components/PageContainer';
 
 class App extends React.Component {
@@ -8,7 +12,11 @@ class App extends React.Component {
 	}
 
 	render() {
-		return <PageContainer />;
+		return (
+			<Provider store={store}>
+				<PageContainer />
+			</Provider>
+		);
 	}
 }
 

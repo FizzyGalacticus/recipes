@@ -16,6 +16,7 @@
 	},
 	"plugins": ["react"],
 	"rules": {
+		"arrow-parens": "off",
 		"keyword-spacing": "off",
 		"object-curly-spacing": "off",
 		"comma-dangle": [

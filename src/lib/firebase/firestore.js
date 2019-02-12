@@ -23,7 +23,7 @@ const create = createDbIfNotInitialized((key, data) => {
 	return db.collection(key).add(data);
 });
 
-const readCollection = createDbIfNotInitialized((key, whereClause) => {
+const readCollection = createDbIfNotInitialized((key: string, whereClause: Array<string>) => {
 	if (whereClause !== undefined) {
 		return db
 			.collection(key)

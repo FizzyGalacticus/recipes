@@ -1,6 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
@@ -8,8 +9,8 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import Button from '@material-ui/core/Button';
 
-import { auth, firestore } from '../lib/firebase';
-import { showNotification } from '../lib/notification';
+import recipeActions from '../lib/redux/actions/recipe';
+import { auth } from '../lib/firebase';
 
 type Props = {
 	recipe?: Recipe,
@@ -39,9 +40,7 @@ class RecipeCreator extends Component<Props, State> {
 	}
 
 	static getDerivedStateFromProps(nextProps, prevState) {
-		if (nextProps.recipe.id !== prevState.id)
-			return { ...nextProps.recipe };
-		
+		if (nextProps.recipe.id !== prevState.id) return { ...nextProps.recipe };
 
 		return prevState;
 	}
@@ -56,7 +55,7 @@ class RecipeCreator extends Component<Props, State> {
 		else this.setState({ public: checkedValue });
 	}
 
-	async saveRecipe() {
+	saveRecipe() {
 		const now = new Date();
 
 		const { id, ...state } = this.state;
@@ -67,31 +66,12 @@ class RecipeCreator extends Component<Props, State> {
 		};
 
 		if (id) {
-			try {
-				await firestore.updateDocument('recipes', id, newRecipe);
-
-				this.setState({ id, ...newRecipe }, () => {
-					showNotification({
-						message: 'Recipe updated successfully!',
-						variant: 'success',
-					});
-				});
-			} catch (err) {
-				showNotification({ message: 'Could not update recipe.', variant: 'error' });
-			}
+			this.props.dispatch(recipeActions.updateRecipe(id, newRecipe));
 		} else {
-			try {
-				newRecipe.createdAt = now;
-				newRecipe.author = auth.getAuth().user.uid;
+			newRecipe.createdAt = now;
+			newRecipe.author = auth.getAuth().user.uid;
 
-				const { id } = await firestore.create('recipes', newRecipe);
-
-				this.setState({ id, ...newRecipe }, () => {
-					showNotification({ message: 'Recipe saved successfully!', variant: 'success' });
-				});
-			} catch (err) {
-				showNotification({ message: 'Could not save recipe.', variant: 'error' });
-			}
+			this.props.dispatch(recipeActions.createRecipe(newRecipe));
 		}
 	}
 
@@ -193,4 +173,10 @@ class RecipeCreator extends Component<Props, State> {
 	}
 }
 
-export default RecipeCreator;
+export default connect(store => {
+	const {
+		recipeReducer: { editingRecipe: recipe },
+	} = store;
+
+	return { recipe };
+})(RecipeCreator);

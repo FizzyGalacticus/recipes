@@ -1,15 +1,18 @@
 // @flow
 
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 import Grid from '@material-ui/core/Grid';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 
-import { auth, firestore } from '../lib/firebase';
+import { auth } from '../lib/firebase';
+
+import recipeActions from '../lib/redux/actions/recipe';
 
 type Props = {
-	recipeSelected: (Recipe.id, Recipe) => void,
+	recipes: Array<Recipe>,
 };
 
 type State = {
@@ -29,15 +32,7 @@ class MyRecipes extends Component<Props, State> {
 		const authUser = auth.getAuth();
 
 		if (authUser) {
-			const { docs } = await firestore.readCollection('recipes', ['author', '==', authUser.user.uid]);
-
-			const recipes = docs.reduce((acc, doc) => {
-				acc[doc.id] = doc.data();
-
-				return acc;
-			}, {});
-
-			this.setState({ recipes });
+			this.props.dispatch(recipeActions.getRecipes(['author', '==', authUser.user.uid]));
 		}
 	}
 
@@ -47,9 +42,15 @@ class MyRecipes extends Component<Props, State> {
 				<Grid item sm={12}>
 					<h1>My Recipes</h1>
 					<List>
-						{Object.entries(this.state.recipes).map(([key, recipe]) => {
+						{Object.entries(this.props.recipes).map(([id, recipe]) => {
 							return (
-								<ListItem key={key} onClick={(e) => this.props.recipeSelected(key, recipe)} button>
+								<ListItem
+									key={id}
+									onClick={e =>
+										this.props.dispatch(recipeActions.setEditingRecipe({ ...recipe, id }))
+									}
+									button
+								>
 									{recipe.name}
 								</ListItem>
 							);
@@ -62,7 +63,13 @@ class MyRecipes extends Component<Props, State> {
 }
 
 MyRecipes.defaultProps = {
-	recipeSelected: () => {},
+	recipes: [],
 };
 
-export default MyRecipes;
+export default connect(state => {
+	const {
+		recipeReducer: { allRecipes },
+	} = state;
+
+	return { recipes: allRecipes };
+})(MyRecipes);

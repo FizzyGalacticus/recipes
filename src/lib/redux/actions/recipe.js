@@ -1,0 +1,54 @@
+// @flow
+
+import {
+	createCreateDocumentAction,
+	createGetCollectionAction,
+	createUpdateDocumentAction,
+	createSetEditingDocumentAction,
+} from '../helpers';
+
+const {
+	CREATE_RECIPES_STARTED,
+	CREATE_RECIPES_SUCCESS,
+	CREATE_RECIPES_FAILURE,
+	createDocument: createRecipe,
+} = createCreateDocumentAction('recipes', {
+	successNotification: 'Recipe created successfully!',
+	errorNotification: err => `Could not retrieve recipes: ${err}`,
+});
+
+const {
+	GET_RECIPES_STARTED,
+	GET_RECIPES_SUCCESS,
+	GET_RECIPES_FAILURE,
+	getCollection: getRecipes,
+} = createGetCollectionAction('recipes', { errorNotification: err => `Could not retrieve recipes: ${err}` });
+
+const {
+	UPDATE_RECIPES_STARTED,
+	UPDATE_RECIPES_SUCCESS,
+	UPDATE_RECIPES_FAILURE,
+	updateDocument: updateRecipe,
+} = createUpdateDocumentAction('recipes', {
+	successNotification: 'Successfully updated recipe!',
+	errorNotification: err => `Could not update recipe: ${err}`,
+});
+
+const { SET_EDITING_RECIPES, setEditingDocument: setEditingRecipe } = createSetEditingDocumentAction('recipes');
+
+export default {
+	CREATE_RECIPES_STARTED,
+	CREATE_RECIPES_SUCCESS,
+	CREATE_RECIPES_FAILURE,
+	createRecipe,
+	GET_RECIPES_STARTED,
+	GET_RECIPES_SUCCESS,
+	GET_RECIPES_FAILURE,
+	getRecipes,
+	UPDATE_RECIPES_STARTED,
+	UPDATE_RECIPES_SUCCESS,
+	UPDATE_RECIPES_FAILURE,
+	updateRecipe,
+	SET_EDITING_RECIPES,
+	setEditingRecipe,
+};
