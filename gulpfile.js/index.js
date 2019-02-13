@@ -6,7 +6,6 @@ const uglify = require('gulp-uglify');
 const htmlmin = require('gulp-htmlmin');
 const eslint = require('gulp-eslint');
 const server = require('simple-server');
-const open = require('opn');
 
 const env = process.env.NODE_ENV;
 
@@ -25,7 +24,7 @@ const transpile = () => {
 		.bundle()
 		.on('error', function(err) {
 			/* eslint-disable */
-			console.error(err);
+			console.error(err.stack);
 			this.emit('end');
 			/* eslint-enable */
 		})
