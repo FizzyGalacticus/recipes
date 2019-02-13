@@ -13,177 +13,80 @@ const createActions = (prefix, name) => {
 	};
 };
 
-export const createCreateDocumentAction = (collectionName, { successNotification, errorNotification } = {}) => {
-	const { actionStarted, actionSuccess, actionFailure } = createActions('create', collectionName);
+const createFirestoreHelper = (
+	fn = Promise.resolve,
+	mode = 'get',
+	{ name = 'helper', responseModifier = response => response } = {}
+) => {
+	return (collectionName, { successNotification, errorNotification } = {}) => {
+		const { actionStarted, actionSuccess, actionFailure } = createActions(mode, collectionName);
 
-	const createDocument = payload => {
-		return dispatch => {
-			dispatch({ type: actionStarted });
+		const helper = (...params) => {
+			return dispatch => {
+				dispatch({ type: actionStarted });
 
-			firestore
-				.create(collectionName, payload)
-				.then(({ id }) => {
-					const response = { ...payload, id };
+				fn(collectionName, ...params)
+					.then(response => {
+						dispatch({
+							type: actionSuccess,
+							response: responseModifier(response, ...params),
+						});
 
-					dispatch({
-						type: actionSuccess,
-						response,
-					});
+						if (successNotification) {
+							let message;
 
-					if (successNotification) {
-						let message;
+							if (typeof successNotification === 'function') {
+								message = successNotification(response);
+							} else {
+								message = successNotification;
+							}
 
-						if (typeof successNotification === 'function') {
-							message = successNotification(response);
-						} else {
-							message = successNotification;
+							showNotification({ message, variant: 'success' });
 						}
+					})
+					.catch(err => {
+						dispatch({
+							type: actionFailure,
+							err,
+						});
 
-						showNotification({ message, variant: 'success' });
-					}
-				})
-				.catch(err => {
-					dispatch({
-						type: actionFailure,
-						err,
-					});
+						if (errorNotification) {
+							let message;
 
-					if (errorNotification) {
-						let message;
+							if (typeof errorNotification === 'function') {
+								message = errorNotification(err);
+							} else {
+								message = errorNotification;
+							}
 
-						if (typeof errorNotification === 'function') {
-							message = errorNotification(err);
-						} else {
-							message = errorNotification;
+							showNotification({ message, variant: 'error' });
 						}
-
-						showNotification({ message, variant: 'error' });
-					}
-				});
+					});
+			};
 		};
-	};
 
-	return {
-		[actionStarted]: actionStarted,
-		[actionSuccess]: actionSuccess,
-		[actionFailure]: actionFailure,
-		createDocument,
+		return {
+			[actionStarted]: actionStarted,
+			[actionSuccess]: actionSuccess,
+			[actionFailure]: actionFailure,
+			[name]: helper,
+		};
 	};
 };
 
-export const createGetCollectionAction = (collectionName, { successNotification, errorNotification } = {}) => {
-	const { actionStarted, actionSuccess, actionFailure } = createActions('get', collectionName);
+export const createCreateDocumentAction = createFirestoreHelper(firestore.create, 'create', {
+	name: 'createDocument',
+	responseModifier: ({ id }, payload) => ({ ...payload, id }),
+});
 
-	const getCollection = whereClause => {
-		return dispatch => {
-			dispatch({ type: actionStarted });
+export const createGetCollectionAction = createFirestoreHelper(firestore.readCollection, 'get', {
+	name: 'getCollection',
+});
 
-			firestore
-				.readCollection(collectionName, whereClause)
-				.then(response => {
-					dispatch({
-						type: actionSuccess,
-						response,
-					});
-
-					if (successNotification) {
-						let message;
-
-						if (typeof successNotification === 'function') {
-							message = successNotification(response);
-						} else {
-							message = successNotification;
-						}
-
-						showNotification({ message, variant: 'success' });
-					}
-				})
-				.catch(err => {
-					dispatch({
-						type: actionFailure,
-						err,
-					});
-
-					if (errorNotification) {
-						let message;
-
-						if (typeof errorNotification === 'function') {
-							message = errorNotification(err);
-						} else {
-							message = errorNotification;
-						}
-
-						showNotification({ message, variant: 'error' });
-					}
-				});
-		};
-	};
-
-	return {
-		[actionStarted]: actionStarted,
-		[actionSuccess]: actionSuccess,
-		[actionFailure]: actionFailure,
-		getCollection,
-	};
-};
-
-export const createUpdateDocumentAction = (collectionName, { successNotification, errorNotification } = {}) => {
-	const { actionStarted, actionSuccess, actionFailure } = createActions('update', collectionName);
-
-	const updateDocument = (key, payload) => {
-		return dispatch => {
-			dispatch({ type: actionStarted });
-
-			firestore
-				.updateDocument(collectionName, key, payload)
-				.then(() => {
-					const response = { ...payload, id: key };
-
-					dispatch({
-						type: actionSuccess,
-						response,
-					});
-
-					if (successNotification) {
-						let message;
-
-						if (typeof successNotification === 'function') {
-							message = successNotification(response);
-						} else {
-							message = successNotification;
-						}
-
-						showNotification({ message, variant: 'success' });
-					}
-				})
-				.catch(err => {
-					dispatch({
-						type: actionFailure,
-						err,
-					});
-
-					if (errorNotification) {
-						let message;
-
-						if (typeof errorNotification === 'function') {
-							message = errorNotification(err);
-						} else {
-							message = errorNotification;
-						}
-
-						showNotification({ message, variant: 'error' });
-					}
-				});
-		};
-	};
-
-	return {
-		[actionStarted]: actionStarted,
-		[actionSuccess]: actionSuccess,
-		[actionFailure]: actionFailure,
-		updateDocument,
-	};
-};
+export const createUpdateDocumentAction = createFirestoreHelper(firestore.updateDocument, 'update', {
+	name: 'updateDocument',
+	responseModifier: (response, key, payload) => ({ ...payload, id: key }),
+});
 
 export const createSetEditingDocumentAction = collectionName => {
 	const type = `SET_EDITING_${collectionName.toUpperCase()}`;

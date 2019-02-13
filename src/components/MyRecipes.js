@@ -31,9 +31,8 @@ class MyRecipes extends Component<Props, State> {
 	async componentDidMount() {
 		const authUser = auth.getAuth();
 
-		if (authUser) {
+		if (authUser)
 			this.props.dispatch(recipeActions.getRecipes(['author', '==', authUser.user.uid]));
-		}
 	}
 
 	render() {
