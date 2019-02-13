@@ -10,8 +10,7 @@
 	"scripts": {
 		"start": "NODE_ENV=dev gulp",
 		"build": "NODE_ENV=production gulp",
-		"hideSecrets": "git stash push config/*",
-		"revealSecrets": "git stash pop",
+		"sync": "git sync && git reset",
 		"kill": "./killserver.js",
 		"postinstall": "cp node_modules/metro-babel7-plugin-react-transform/src/index.js node_modules/babel-plugin-react-transform/lib/index.js",
 		"lint": "eslint --fix src/**/*.js"
