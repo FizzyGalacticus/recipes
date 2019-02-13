@@ -49,8 +49,6 @@ const addFilesToCommit = files => {
 		const files = await getFilesToBeCommitted();
 		const configFiles = await getConfigFilesToBeCommitted();
 
-		console.log(configFiles);
-
 		// Do not commit config files without explictly not running hooks
 		if (configFiles.length) {
 			await resetConfigFiles(configFiles);
