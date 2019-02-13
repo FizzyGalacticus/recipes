@@ -5,6 +5,19 @@ const exec = promisify(require('child_process').exec);
 const os = require('os');
 const path = require('path');
 const writeFile = promisify(require('fs').writeFile);
+const logger = require('node-color-log');
+
+const info = msg => {
+	logger.fontColorLog('blue', msg);
+};
+
+const warn = msg => {
+	logger.fontColorLog('yellow', msg);
+};
+
+const error = msg => {
+	logger.fontColorLog('red', msg);
+};
 
 const getFilesToBeCommitted = async () => {
 	const { stdout: filesStr } = await exec(`git diff --name-only --cached`);
@@ -23,25 +36,25 @@ const writeTempFile = data => {
 };
 
 const resetConfigFiles = files => {
-	console.warn(`You have added config files. Removing from commit: (${files.join(', ')})`);
+	warn(`You have added config files. Removing from commit: (${files.join(', ')})`);
 
 	return Promise.all(files.map(file => exec(`git reset ${file}`)));
 };
 
 const lint = () => {
-	console.log('Linting...');
+	info('Linting...');
 
 	return exec(`yarn lint`);
 };
 
 const build = () => {
-	console.log('Building...');
+	info('Building...');
 
 	return exec(`yarn build`);
 };
 
 const addFilesToCommit = files => {
-	return exec(`git add ${files.join(' ')}`);
+	return exec(`git add docs/js/app.js ${files.join(' ')}`);
 };
 
 (async () => {
@@ -59,7 +72,7 @@ const addFilesToCommit = files => {
 
 		await addFilesToCommit(files.filter(file => !file.includes('config/')));
 	} catch (err) {
-		console.error(err);
+		error(err);
 
 		process.exit(1);
 	}
