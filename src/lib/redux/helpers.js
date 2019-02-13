@@ -1,7 +1,7 @@
 import { firestore } from '../firebase';
 import { showNotification } from '../notification';
 
-const createActions = (prefix, name) => {
+export const createActions = (prefix, name) => {
 	const actionStarted = `${prefix.toUpperCase()}_${name.toUpperCase()}_STARTED`;
 	const actionSuccess = `${prefix.toUpperCase()}_${name.toUpperCase()}_SUCCESS`;
 	const actionFailure = `${prefix.toUpperCase()}_${name.toUpperCase()}_FAILURE`;

@@ -1,36 +1,26 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
 import AppBar from '@material-ui/core/AppBar';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 
-import { auth as firebaseAuth } from '../lib/firebase';
+import authActions from '../lib/redux/actions/auth';
 
 class ButtonAppBar extends React.Component {
 	constructor(props) {
 		super(props);
 
-		const auth = firebaseAuth.getAuth();
-
-		this.state = {
-			auth,
-			loggedIn: auth !== null,
-		};
-
 		this.login = this.login.bind(this);
 		this.logout = this.logout.bind(this);
 	}
 
-	async login() {
-		const auth = await firebaseAuth.login();
-		this.setState({ loggedIn: auth !== null, auth });
+	login() {
+		this.props.dispatch(authActions.login());
 	}
 
-	async logout() {
-		const successful = await firebaseAuth.logout();
-
-		if (successful)
-			this.setState({ loggedIn: false, auth: null });
+	logout() {
+		this.props.dispatch(authActions.logout());
 	}
 
 	render() {
@@ -39,7 +29,7 @@ class ButtonAppBar extends React.Component {
 				<Grid container>
 					<Grid item xs={11} />
 					<Grid item xs={1}>
-						{this.state.loggedIn ? (
+						{this.props.isAuthorized ? (
 							<Button color="inherit" onClick={this.logout}>
 								Logout
 							</Button>
@@ -50,10 +40,15 @@ class ButtonAppBar extends React.Component {
 						)}
 					</Grid>
 				</Grid>
-				{/* <Toolbar /> */}
 			</AppBar>
 		);
 	}
 }
 
-export default ButtonAppBar;
+export default connect(store => {
+	const {
+		authReducer: { isAuthorized, auth },
+	} = store;
+
+	return { isAuthorized, auth };
+})(ButtonAppBar);
