@@ -49,6 +49,6 @@ declare type FirebaseAuth = {
 		},
 		uid: string,
 	},
-};
+} | null;
 
 declare type FirebaseId = string;

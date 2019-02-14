@@ -14,6 +14,14 @@ const {
 
 const auth = getAuth();
 
+type initialState = {
+	auth: FirebaseAuth,
+	isAuthorized: boolean,
+	loggingIn: boolean,
+	loggingOut: boolean,
+	err: any,
+};
+
 const initialState = {
 	auth,
 	isAuthorized: auth !== null,
@@ -22,7 +30,7 @@ const initialState = {
 	err: null,
 };
 
-export default (state = initialState, action) => {
+export default (state: initialState = initialState, action: Action) => {
 	switch (action.type) {
 		case FIREBASE_LOGIN_STARTED:
 			state = {

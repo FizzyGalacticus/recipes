@@ -7,8 +7,6 @@ import Grid from '@material-ui/core/Grid';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 
-import { auth } from '../lib/firebase';
-
 import recipeActions from '../lib/redux/actions/recipe';
 
 type Props = {
@@ -29,10 +27,7 @@ class MyRecipes extends Component<Props, State> {
 	}
 
 	async componentDidMount() {
-		const authUser = auth.getAuth();
-
-		if (authUser)
-			this.props.dispatch(recipeActions.getRecipes(['author', '==', authUser.user.uid]));
+		this.props.dispatch(recipeActions.getMyRecipes());
 	}
 
 	render() {
@@ -67,8 +62,8 @@ MyRecipes.defaultProps = {
 
 export default connect(state => {
 	const {
-		recipeReducer: { allRecipes },
+		recipeReducer: { myRecipes },
 	} = state;
 
-	return { recipes: allRecipes };
+	return { recipes: myRecipes };
 })(MyRecipes);

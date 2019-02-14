@@ -33,7 +33,8 @@
 			2,
 			"tab",
 			{
-				"MemberExpression": "off"
+				"MemberExpression": "off",
+				"SwitchCase": 1
 			}
 		],
 		"no-tabs": 0,

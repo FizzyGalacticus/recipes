@@ -3,13 +3,13 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
-const getAuth = (): FirebaseAuth | null => {
+export const getAuth = (): FirebaseAuth | null => {
 	const auth = localStorage.getItem('auth');
 
 	return JSON.parse(auth);
 };
 
-const login = async (): FirebaseAuth => {
+export const login = async (): FirebaseAuth => {
 	let auth = getAuth();
 
 	if (auth !== null) {
@@ -30,7 +30,7 @@ const login = async (): FirebaseAuth => {
 	return auth;
 };
 
-const logout = async () => {
+export const logout = async () => {
 	const auth = getAuth();
 
 	if (auth) {

@@ -22,24 +22,24 @@ const showMessage = ({ message, duration = 3000, variant = 'info' }) => {
 	let icon;
 
 	switch (variant) {
-	case 'success':
-		backgroundColor = green[600];
-		icon = CheckCircleIcon;
-		break;
-	case 'error':
-	case 'danger':
-		backgroundColor = amber[600];
-		icon = ErrorIcon;
-		break;
-	case 'warn':
-	case 'warning':
-		backgroundColor = orange[600];
-		icon = WarningIcon;
-		break;
-	case 'info':
-	default:
-		backgroundColor = blue[600];
-		icon = InfoIcon;
+		case 'success':
+			backgroundColor = green[600];
+			icon = CheckCircleIcon;
+			break;
+		case 'error':
+		case 'danger':
+			backgroundColor = amber[600];
+			icon = ErrorIcon;
+			break;
+		case 'warn':
+		case 'warning':
+			backgroundColor = orange[600];
+			icon = WarningIcon;
+			break;
+		case 'info':
+		default:
+			backgroundColor = blue[600];
+			icon = InfoIcon;
 	}
 
 	instance.setState({ open: true, message, duration, backgroundColor, icon });

@@ -1,6 +1,7 @@
 // @flow
 
 import recipeActions from '../actions/recipe';
+import { getDocsFromResponse } from '../../firebase/firestore';
 
 const {
 	CREATE_RECIPES_STARTED,
@@ -9,25 +10,38 @@ const {
 	GET_RECIPES_STARTED,
 	GET_RECIPES_SUCCESS,
 	GET_RECIPES_FAILURE,
+	GET_MY_RECIPES_STARTED,
+	GET_MY_RECIPES_SUCCESS,
+	GET_MY_RECIPES_FAILURE,
 	UPDATE_RECIPES_STARTED,
 	UPDATE_RECIPES_SUCCESS,
 	UPDATE_RECIPES_FAILURE,
 	SET_EDITING_RECIPES,
 } = recipeActions;
 
-const initialState = {
+type initialState = {
+	allRecipes: { [string]: Recipe },
+	myRecipes: { [string]: Recipe },
+	viewRecipes: { [string]: Recipe },
+	editingRecipe: Recipe,
+	loadingRecipes: boolean,
+	err: any,
+};
+
+const initialState: initialState = {
 	allRecipes: {},
-	myRecipes: [],
-	viewRecipes: [],
+	myRecipes: {},
+	viewRecipes: {},
 	editingRecipe: {},
 	loadingRecipes: false,
 	err: null,
 };
 
-export default (state = initialState, action) => {
+export default (state = initialState, action: Action) => {
 	switch (action.type) {
 		case CREATE_RECIPES_STARTED:
 		case GET_RECIPES_STARTED:
+		case GET_MY_RECIPES_STARTED:
 		case UPDATE_RECIPES_STARTED:
 			state = {
 				...state,
@@ -35,14 +49,21 @@ export default (state = initialState, action) => {
 			};
 			break;
 		case CREATE_RECIPES_SUCCESS:
-			const { response: newRecipe } = action;
+			const { response: newRecipe, auth } = action;
 
 			const editingRecipe = { ...newRecipe };
+
+			let { myRecipes } = state;
+
+			if (auth && auth.user.uid === newRecipe.author) {
+				myRecipes = { [newRecipe.id]: newRecipe, ...myRecipes };
+			}
 
 			state = {
 				...state,
 				loadingRecipes: false,
 				allRecipes: { [newRecipe.id]: newRecipe, ...state.allRecipes },
+				myRecipes,
 				editingRecipe,
 			};
 			break;
@@ -50,10 +71,14 @@ export default (state = initialState, action) => {
 			state = {
 				...state,
 				loadingRecipes: false,
-				allRecipes: action.response.docs.reduce((acc, doc) => {
-					acc[doc.id] = doc.data();
-					return acc;
-				}, {}),
+				allRecipes: getDocsFromResponse(action.response),
+			};
+			break;
+		case GET_MY_RECIPES_SUCCESS:
+			state = {
+				...state,
+				loadingRecipes: false,
+				myRecipes: getDocsFromResponse(action.response),
 			};
 			break;
 		case UPDATE_RECIPES_SUCCESS:
@@ -71,6 +96,7 @@ export default (state = initialState, action) => {
 			break;
 		case CREATE_RECIPES_FAILURE:
 		case GET_RECIPES_FAILURE:
+		case GET_MY_RECIPES_FAILURE:
 		case UPDATE_RECIPES_FAILURE:
 			state = {
 				...state,

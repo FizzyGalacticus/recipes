@@ -11,19 +11,17 @@ const createDb = () => {
 
 const createDbIfNotInitialized = fn => {
 	return (...params) => {
-		if (!db) {
-			createDb();
-		}
+		if (!db) createDb();
 
 		return fn(...params);
 	};
 };
 
-const create = createDbIfNotInitialized((key, data) => {
+export const create = createDbIfNotInitialized((key, data) => {
 	return db.collection(key).add(data);
 });
 
-const readCollection = createDbIfNotInitialized((key: string, whereClause: Array<string>) => {
+export const readCollection = createDbIfNotInitialized((key: string, whereClause: Array<string>) => {
 	if (whereClause !== undefined) {
 		return db
 			.collection(key)
@@ -34,18 +32,24 @@ const readCollection = createDbIfNotInitialized((key: string, whereClause: Array
 	return db.collection(key).get();
 });
 
-const readDocument = createDbIfNotInitialized((key, docKey) => {
+export const readDocument = createDbIfNotInitialized((key, docKey) => {
 	return db
 		.collection(key)
 		.doc(docKey)
 		.get();
 });
 
-const updateDocument = createDbIfNotInitialized((key, docKey, value) => {
+export const updateDocument = createDbIfNotInitialized((key, docKey, value) => {
 	return db
 		.collection(key)
 		.doc(docKey)
 		.set(value);
 });
 
-export default { create, readCollection, readDocument, updateDocument };
+export const getDocsFromResponse = response =>
+	response.docs.reduce((acc, doc) => {
+		acc[doc.id] = doc.data();
+		return acc;
+	}, {});
+
+export default { create, readCollection, readDocument, updateDocument, getDocsFromResponse };

@@ -1,4 +1,4 @@
-import { firestore } from '../firebase';
+import { firestore, auth } from '../firebase';
 import { showNotification } from '../notification';
 
 export const createActions = (prefix, name) => {
@@ -18,18 +18,22 @@ const createFirestoreHelper = (
 	mode = 'get',
 	{ name = 'helper', responseModifier = response => response } = {}
 ) => {
-	return (collectionName, { successNotification, errorNotification } = {}) => {
-		const { actionStarted, actionSuccess, actionFailure } = createActions(mode, collectionName);
+	return (collectionName, { successNotification, errorNotification, actionType } = {}) => {
+		const { actionStarted, actionSuccess, actionFailure } = createActions(
+			mode,
+			actionType ? actionType : collectionName
+		);
 
 		const helper = (...params) => {
-			return dispatch => {
-				dispatch({ type: actionStarted });
+			return (dispatch: Dispatch) => {
+				dispatch({ type: actionStarted, auth: auth.getAuth() });
 
 				fn(collectionName, ...params)
 					.then(response => {
 						dispatch({
 							type: actionSuccess,
 							response: responseModifier(response, ...params),
+							auth: auth.getAuth(),
 						});
 
 						if (successNotification) {
@@ -47,6 +51,7 @@ const createFirestoreHelper = (
 					.catch(err => {
 						dispatch({
 							type: actionFailure,
+							auth: auth.getAuth(),
 							err,
 						});
 
@@ -93,6 +98,8 @@ export const createSetEditingDocumentAction = collectionName => {
 
 	return {
 		[type]: type,
-		setEditingDocument: payload => dispatch => dispatch({ type, payload }),
+		setEditingDocument: (payload: any) => (dispatch: Dispatch) => dispatch({ type, payload }),
 	};
 };
+
+export const emptyDispatch = () => (dispatch: Dispatch) => {};

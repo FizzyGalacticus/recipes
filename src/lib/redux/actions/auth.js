@@ -29,7 +29,7 @@ const logout = () => dispatch => {
 		.catch(err => dispatch({ type: actionFailure, err }));
 };
 
-const getAuth = auth.getAuth;
+export const getAuth = auth.getAuth;
 
 export default {
 	FIREBASE_LOGIN_STARTED,
