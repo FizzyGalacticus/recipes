@@ -12,7 +12,7 @@ const env = process.env.NODE_ENV;
 const builder = browserify('src/index.js', {
 	cache: {},
 	packageCache: {},
-	plugin: env === 'dev' ? [livereactload] : undefined,
+	plugin: env !== 'production' ? [livereactload] : undefined,
 }).transform('babelify');
 
 const lint = () => {
@@ -61,7 +61,7 @@ const minHtml = () => {
 const devMode = () => {
 	if (env === 'dev') {
 		watch('src/index.html', minHtml);
-		watch('src/**/*.js', transpile);
+		watch('src/**/*.js', series(lint, transpile));
 
 		server('docs/', 3001);
 
