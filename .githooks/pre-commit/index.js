@@ -54,7 +54,7 @@ const build = () => {
 };
 
 const addFilesToCommit = files => {
-	return exec(`git add docs/js/app.js ${files.join(' ')}`);
+	return exec(`git add ${files.join(' ')}`);
 };
 
 (async () => {
