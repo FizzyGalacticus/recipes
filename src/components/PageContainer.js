@@ -5,7 +5,6 @@ import Grid from '@material-ui/core/Grid';
 
 import MenuBar from './MenuBar';
 import Snackbar from './Snackbar';
-import IngredientPicker from './IngredientPicker';
 import RecipeCreator from './RecipeCreator';
 import MyRecipes from './MyRecipes';
 
@@ -27,7 +26,6 @@ class PageContainer extends React.Component {
 						<CssBaseline />
 						<RecipeCreator recipe={this.state.editingRecipe} />
 						<MyRecipes />
-						<IngredientPicker />
 						<Snackbar />
 					</Grid>
 				</Grid>

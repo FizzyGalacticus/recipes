@@ -71,6 +71,10 @@ class IngredientPicker extends Component<Props, State> {
 			state: { selectedItem },
 		} = this;
 
+		if (!selectedItem.name || selectedItem.name.length === 0)
+			return;
+		
+
 		if (!selectedItem.id)
 			this.props.dispatch(ingredientActions.createIngredient({ ...selectedItem, isRecipe: false }));
 		else this.props.onSelect(selectedItem);
@@ -89,7 +93,7 @@ class IngredientPicker extends Component<Props, State> {
 					/>
 				</Grid>
 				<Grid item xs={2} md={1}>
-					<Fab color="primary" aria-label="Add Ingredient" onClick={this.addIngredient}>
+					<Fab color="primary" aria-label="Add Ingredient" onClick={this.addIngredient} size="small">
 						<AddIcon />
 					</Fab>
 				</Grid>
