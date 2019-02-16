@@ -27,8 +27,8 @@ class ButtonAppBar extends React.Component {
 		return (
 			<AppBar position="static">
 				<Grid container>
-					<Grid item xs={11} />
-					<Grid item xs={1}>
+					<Grid item xs={9} sm={10} md={11} />
+					<Grid item xs={3} sm={2} md={1}>
 						{this.props.isAuthorized ? (
 							<Button color="inherit" onClick={this.logout}>
 								Logout

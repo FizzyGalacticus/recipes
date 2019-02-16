@@ -29,6 +29,7 @@ class RecipeCreator extends Component<Props, State> {
 			picture: '',
 			notes: '',
 			prepTime: '',
+			cookTime: '',
 			totalTime: '',
 			serves: '',
 			public: false,
@@ -77,58 +78,80 @@ class RecipeCreator extends Component<Props, State> {
 
 	render() {
 		return (
-			<Grid container spacing={8} justify="center" alignItems="center">
-				<Grid item xs={6} md={2}>
+			<Grid
+				container
+				spacing={8}
+				justify="center"
+				alignItems="center"
+				style={{ width: '95%', margin: 'auto auto' }}
+			>
+				<Grid item xs={12}>
+					<h1>{this.state.id ? 'Update Recipe' : 'Create Recipe'}</h1>
+				</Grid>
+				<Grid item xs={12} sm={4}>
 					<TextField
 						label="Name"
 						name="name"
-						style={{ margin: 10 }}
 						onChange={this.handleChange}
 						value={this.state.name}
 						variant="outlined"
 						fullWidth
 					/>
 				</Grid>
-				<Grid item xs={6} md={2}>
+				<Grid item xs={12} sm={4}>
 					<TextField
 						label="Picture URL"
 						name="picture"
-						style={{ margin: 10 }}
 						onChange={this.handleChange}
 						value={this.state.picture}
 						variant="outlined"
 						fullWidth
 					/>
 				</Grid>
-				<Grid item xs={12} md={8} />
-				<Grid item xs={6} md={2}>
+				<Grid item xs={12} sm={4}>
+					<TextField
+						label="Servings"
+						name="serves"
+						onChange={this.handleChange}
+						value={this.state.serves}
+						variant="outlined"
+						fullWidth
+					/>
+				</Grid>
+				<Grid item xs={12} sm={4}>
 					<TextField
 						label="Prep Time"
 						name="prepTime"
-						style={{ margin: 10 }}
 						onChange={this.handleChange}
 						value={this.state.prepTime}
 						variant="outlined"
 						fullWidth
 					/>
 				</Grid>
-				<Grid item xs={6} md={2}>
+				<Grid item xs={12} sm={4}>
+					<TextField
+						label="Cook Time"
+						name="cookTime"
+						onChange={this.handleChange}
+						value={this.state.cookTime}
+						variant="outlined"
+						fullWidth
+					/>
+				</Grid>
+				<Grid item xs={12} sm={4}>
 					<TextField
 						label="Total Time"
 						name="totalTime"
-						style={{ margin: 10 }}
 						onChange={this.handleChange}
 						value={this.state.totalTime}
 						variant="outlined"
 						fullWidth
 					/>
 				</Grid>
-				<Grid item xs={12} md={8} />
-				<Grid item xs={12} md={4}>
+				<Grid item xs={12}>
 					<TextField
 						label="Notes"
 						name="notes"
-						style={{ margin: 10 }}
 						onChange={this.handleChange}
 						value={this.state.notes}
 						variant="outlined"
@@ -137,18 +160,8 @@ class RecipeCreator extends Component<Props, State> {
 						fullWidth
 					/>
 				</Grid>
-				<Grid item xs={12} md={8} />
-				<Grid item xs={6} md={2}>
-					<TextField
-						label="Servings"
-						name="serves"
-						style={{ margin: 10 }}
-						onChange={this.handleChange}
-						value={this.state.serves}
-						variant="outlined"
-					/>
-				</Grid>
-				<Grid item md={1}>
+				<Grid item xs={3} />
+				<Grid item xs={3}>
 					<FormControlLabel
 						control={
 							<Checkbox
@@ -162,12 +175,12 @@ class RecipeCreator extends Component<Props, State> {
 						label="Public"
 					/>
 				</Grid>
-				<Grid item md={1}>
+				<Grid item xs={3}>
 					<Button color="primary" onClick={this.saveRecipe}>
 						{this.state.id ? 'Update' : 'Save'}
 					</Button>
 				</Grid>
-				<Grid item xs={12} md={8} />
+				<Grid item xs={3} />
 			</Grid>
 		);
 	}

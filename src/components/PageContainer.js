@@ -23,7 +23,7 @@ class PageContainer extends React.Component {
 			<Fragment>
 				<MenuBar />
 				<Grid container justify="center" alignItems="center">
-					<Grid item xs={8}>
+					<Grid item>
 						<CssBaseline />
 						<RecipeCreator recipe={this.state.editingRecipe} />
 						<MyRecipes />

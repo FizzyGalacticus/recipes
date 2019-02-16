@@ -28,6 +28,7 @@ declare type Recipe = {
 	instructions: [RecipeInstruction],
 	notes: string,
 	prepTime: string,
+	cookTime: string,
 	totalTime: string,
 	serves: number,
 	createdAt: date,

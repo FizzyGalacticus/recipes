@@ -78,8 +78,8 @@ class IngredientPicker extends Component<Props, State> {
 
 	render() {
 		return (
-			<Grid container spacing={16}>
-				<Grid item xs={11}>
+			<Grid container spacing={16} justify="center">
+				<Grid item xs={8} md={11}>
 					<Autosuggest
 						label="Ingredients"
 						placeholder="Select an ingredient"
@@ -88,7 +88,7 @@ class IngredientPicker extends Component<Props, State> {
 						getSuggestionValue={this.getIngredientValue}
 					/>
 				</Grid>
-				<Grid item xs={1}>
+				<Grid item xs={2} md={1}>
 					<Fab color="primary" aria-label="Add Ingredient" onClick={this.addIngredient}>
 						<AddIcon />
 					</Fab>

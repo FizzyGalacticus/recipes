@@ -32,9 +32,17 @@ class MyRecipes extends Component<Props, State> {
 
 	render() {
 		return (
-			<Grid container justify="center" alignItems="center">
-				<Grid item sm={12}>
+			<Grid
+				container
+				spacing={8}
+				justify="center"
+				alignItems="center"
+				style={{ width: '95%', margin: 'auto auto' }}
+			>
+				<Grid item xs={12}>
 					<h1>My Recipes</h1>
+				</Grid>
+				<Grid item xs={12}>
 					<List>
 						{Object.entries(this.props.recipes).map(([id, recipe]) => {
 							return (
