@@ -3,10 +3,10 @@ import React, { Fragment } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 
-import MenuBar from './MenuBar';
-import Snackbar from './Snackbar';
-import RecipeCreator from './RecipeCreator';
-import MyRecipes from './MyRecipes';
+import MenuBar from './view/MenuBar';
+import Snackbar from './view/Snackbar';
+import RecipeCreator from './create/Recipe/RecipeCreator';
+import MyRecipes from './pages/MyRecipes';
 
 class PageContainer extends React.Component {
 	constructor(props) {

@@ -13,8 +13,8 @@ import Chip from '@material-ui/core/Chip';
 
 import IngredientPicker from './IngredientPicker';
 
-import recipeActions from '../lib/redux/actions/recipe';
-import { auth } from '../lib/firebase';
+import recipeActions from '../../../lib/redux/actions/recipe';
+import { auth } from '../../../lib/firebase';
 
 type Props = {
 	recipe?: Recipe,

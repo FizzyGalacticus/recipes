@@ -7,9 +7,9 @@ import Grid from '@material-ui/core/Grid';
 import Fab from '@material-ui/core/Fab';
 import AddIcon from '@material-ui/icons/Add';
 
-import Autosuggest from './Autosuggest';
+import Autosuggest from '../Autosuggest';
 
-import ingredientActions from '../lib/redux/actions/ingredient';
+import ingredientActions from '../../../lib/redux/actions/ingredient';
 
 type Props = {
 	ingredients: { [FirebaseId]: RecipeIngredient },
@@ -71,9 +71,7 @@ class IngredientPicker extends Component<Props, State> {
 			state: { selectedItem },
 		} = this;
 
-		if (!selectedItem.name || selectedItem.name.length === 0)
-			return;
-		
+		if (!selectedItem.name || selectedItem.name.length === 0) return;
 
 		if (!selectedItem.id)
 			this.props.dispatch(ingredientActions.createIngredient({ ...selectedItem, isRecipe: false }));

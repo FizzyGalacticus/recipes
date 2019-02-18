@@ -1,1 +1,1 @@
-export { showNotification } from '../components/Snackbar';
+export { showNotification } from '../components/view/Snackbar';

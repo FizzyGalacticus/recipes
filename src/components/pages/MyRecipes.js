@@ -7,7 +7,7 @@ import Grid from '@material-ui/core/Grid';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 
-import recipeActions from '../lib/redux/actions/recipe';
+import recipeActions from '../../lib/redux/actions/recipe';
 
 type Props = {
 	recipes: Array<Recipe>,

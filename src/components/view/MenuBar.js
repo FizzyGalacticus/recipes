@@ -5,7 +5,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 
-import authActions from '../lib/redux/actions/auth';
+import authActions from '../../lib/redux/actions/auth';
 
 class ButtonAppBar extends React.Component {
 	constructor(props) {
