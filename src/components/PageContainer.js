@@ -1,14 +1,15 @@
-import React, { Fragment } from 'react';
+import React, { Component, Fragment } from 'react';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 
-import MenuBar from './view/MenuBar';
-import Snackbar from './view/Snackbar';
-import RecipeCreator from './create/Recipe/RecipeCreator';
-import MyRecipes from './pages/MyRecipes';
+import Routes from '../routes';
 
-class PageContainer extends React.Component {
+import MenuBar from './view/MenuBar';
+import NavDrawer from './view/NavDrawer';
+import Snackbar from './view/Snackbar';
+
+class PageContainer extends Component {
 	constructor(props) {
 		super(props);
 
@@ -20,14 +21,16 @@ class PageContainer extends React.Component {
 	render() {
 		return (
 			<Fragment>
-				<MenuBar />
-				<Grid container justify="center" alignItems="center">
+				<NavDrawer />
+				<Grid container>
+					<Grid item xs={12}>
+						<MenuBar />
+					</Grid>
 					<Grid item>
 						<CssBaseline />
-						<RecipeCreator recipe={this.state.editingRecipe} />
-						<MyRecipes />
-						<Snackbar />
+						<Routes />
 					</Grid>
+					<Snackbar />
 				</Grid>
 			</Fragment>
 		);

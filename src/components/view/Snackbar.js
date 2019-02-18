@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import MUISnackbar from '@material-ui/core/Snackbar';
 import SnackbarContent from '@material-ui/core/SnackbarContent';
@@ -17,7 +17,7 @@ const instance = {
 	setState: () => {},
 };
 
-const showMessage = ({ message, duration = 3000, variant = 'info' }) => {
+export const showNotification = ({ message, duration = 3000, variant = 'info' }) => {
 	let backgroundColor;
 	let icon;
 
@@ -45,7 +45,7 @@ const showMessage = ({ message, duration = 3000, variant = 'info' }) => {
 	instance.setState({ open: true, message, duration, backgroundColor, icon });
 };
 
-class Snackbar extends React.Component {
+export default class Snackbar extends Component {
 	constructor(props) {
 		super(props);
 
@@ -99,6 +99,3 @@ class Snackbar extends React.Component {
 		);
 	}
 }
-
-export const showNotification = showMessage;
-export default Snackbar;

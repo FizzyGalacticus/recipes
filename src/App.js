@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { HashRouter as Router } from 'react-router-dom';
+
 import { Provider } from 'react-redux';
 
 import store from './lib/redux/store';
@@ -13,9 +15,11 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<Provider store={store}>
-				<PageContainer />
-			</Provider>
+			<Router>
+				<Provider store={store}>
+					<PageContainer />
+				</Provider>
+			</Router>
 		);
 	}
 }
