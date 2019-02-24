@@ -18,27 +18,33 @@ import { auth } from '../../../lib/firebase';
 
 type Props = {
 	recipe?: Recipe,
+	author?: string,
 };
 
 type State = Recipe;
+
+const defaultRecipe: State = {
+	id: '',
+	name: '',
+	picture: '',
+	notes: '',
+	prepTime: '',
+	cookTime: '',
+	totalTime: '',
+	serves: '',
+	ingredients: {},
+	public: false,
+};
 
 class RecipeCreator extends Component<Props, State> {
 	constructor(props) {
 		super(props);
 
-		const { recipe: defaultRecipe = {} } = props;
+		const { recipe = {} } = props;
 
 		this.state = {
-			name: '',
-			picture: '',
-			notes: '',
-			prepTime: '',
-			cookTime: '',
-			totalTime: '',
-			serves: '',
-			ingredients: {},
-			public: false,
 			...defaultRecipe,
+			...recipe,
 		};
 
 		this.handleChange = this.handleChange.bind(this);
@@ -48,7 +54,9 @@ class RecipeCreator extends Component<Props, State> {
 	}
 
 	static getDerivedStateFromProps(nextProps: Props, prevState: State) {
-		if (nextProps.recipe.id !== prevState.id) return { ...nextProps.recipe };
+		if (nextProps.recipe.id !== prevState.id) {
+			return { ...defaultRecipe, ...nextProps.recipe };
+		}
 
 		return prevState;
 	}
@@ -91,7 +99,7 @@ class RecipeCreator extends Component<Props, State> {
 			this.props.dispatch(recipeActions.updateRecipe(id, newRecipe));
 		} else {
 			newRecipe.createdAt = now;
-			newRecipe.author = auth.getAuth().user.uid;
+			newRecipe.author = this.props.author ? this.props.author : auth.getAuth().user.uid;
 
 			this.props.dispatch(recipeActions.createRecipe(newRecipe));
 		}

@@ -14,13 +14,14 @@ import MenuBar from './view/MenuBar';
 import NavDrawer from './view/NavDrawer';
 import Snackbar from './view/Snackbar';
 
-class PageContainer extends Component {
+type Props = {
+	isAdmin: boolean,
+	dispatch: Dispatch,
+};
+
+class PageContainer extends Component<Props> {
 	constructor(props) {
 		super(props);
-
-		this.state = {
-			editingRecipe: {},
-		};
 	}
 
 	componentDidMount() {
@@ -37,7 +38,7 @@ class PageContainer extends Component {
 					</Grid>
 					<Grid item>
 						<CssBaseline />
-						<Routes />
+						<Routes isAdmin={this.props.isAdmin} />
 					</Grid>
 					<Snackbar />
 				</Grid>
@@ -46,4 +47,10 @@ class PageContainer extends Component {
 	}
 }
 
-export default connect()(PageContainer);
+export default connect(store => {
+	const {
+		authReducer: { user },
+	} = store;
+
+	return { isAdmin: user ? !!user.isAdmin : false };
+})(PageContainer);
