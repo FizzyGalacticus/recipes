@@ -1,7 +1,12 @@
+// @flow
+
 import React, { Component, Fragment } from 'react';
+import { connect } from 'react-redux';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
+
+import { login } from '../lib/redux/actions/auth';
 
 import Routes from '../routes';
 
@@ -16,6 +21,10 @@ class PageContainer extends Component {
 		this.state = {
 			editingRecipe: {},
 		};
+	}
+
+	componentDidMount() {
+		this.props.dispatch(login(true));
 	}
 
 	render() {
@@ -37,4 +46,4 @@ class PageContainer extends Component {
 	}
 }
 
-export default PageContainer;
+export default connect()(PageContainer);

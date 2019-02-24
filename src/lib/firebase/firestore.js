@@ -3,7 +3,7 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
-let db;
+let db: firebase.firestore.Firestore;
 
 const createDb = () => {
 	db = firebase.firestore();
@@ -17,9 +17,26 @@ const createDbIfNotInitialized = fn => {
 	};
 };
 
-export const create = createDbIfNotInitialized((key, data) => {
-	return db.collection(key).add(data);
+export const set = createDbIfNotInitialized((key, id, data) => {
+	const sanitizedData: object = Object.entries(data).reduce((acc, [key, value]) => {
+		if (value !== undefined) {
+			acc[key] = value;
+		}
+
+		return acc;
+	}, {});
+
+	return db
+		.collection(key)
+		.doc(id)
+		.set(sanitizedData);
 });
+
+export const create = createDbIfNotInitialized(
+	(key: string, data: any): Promise => {
+		return db.collection(key).add(data);
+	}
+);
 
 export const readCollection = createDbIfNotInitialized((key: string, whereClause: Array<string>) => {
 	if (whereClause !== undefined) {
@@ -52,4 +69,4 @@ export const getDocsFromResponse = response =>
 		return acc;
 	}, {});
 
-export default { create, readCollection, readDocument, updateDocument, getDocsFromResponse };
+export default { set, create, readCollection, readDocument, updateDocument, getDocsFromResponse };

@@ -9,13 +9,13 @@ const {
 	FIREBASE_LOGOUT_STARTED,
 	FIREBASE_LOGOUT_SUCCESS,
 	FIREBASE_LOGOUT_FAILURE,
-	getAuth,
+	REQUEST_USER_SUCCESS,
+	REQUEST_USER_FAILURE,
 } = authActions;
-
-const auth = getAuth();
 
 type initialState = {
 	auth: FirebaseAuth,
+	user: Object,
 	isAuthorized: boolean,
 	loggingIn: boolean,
 	loggingOut: boolean,
@@ -23,8 +23,9 @@ type initialState = {
 };
 
 const initialState = {
-	auth,
-	isAuthorized: auth !== null,
+	auth: null,
+	user: null,
+	isAuthorized: false,
 	loggingIn: false,
 	loggingOut: false,
 	err: null,
@@ -42,7 +43,7 @@ export default (state: initialState = initialState, action: Action) => {
 			state = {
 				...state,
 				loggingIn: false,
-				isAuthorized: true,
+				isAuthorized: action.response !== null,
 				auth: action.response,
 			};
 			break;
@@ -71,6 +72,18 @@ export default (state: initialState = initialState, action: Action) => {
 			state = {
 				...state,
 				loggingOut: false,
+				err: action.err,
+			};
+			break;
+		case REQUEST_USER_SUCCESS:
+			state = {
+				...state,
+				user: action.response,
+			};
+			break;
+		case REQUEST_USER_FAILURE:
+			state = {
+				...state,
 				err: action.err,
 			};
 			break;
