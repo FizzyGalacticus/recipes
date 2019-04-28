@@ -22,7 +22,6 @@ const {
 type initialState = {
 	allRecipes: { [string]: Recipe },
 	myRecipes: { [string]: Recipe },
-	viewRecipes: { [string]: Recipe },
 	editingRecipe: Recipe,
 	loadingRecipes: boolean,
 	err: any,
@@ -31,7 +30,6 @@ type initialState = {
 const initialState: initialState = {
 	allRecipes: {},
 	myRecipes: {},
-	viewRecipes: {},
 	editingRecipe: {},
 	loadingRecipes: false,
 	err: null,
@@ -42,13 +40,14 @@ export default (state = initialState, action: Action) => {
 		case CREATE_RECIPES_STARTED:
 		case GET_RECIPES_STARTED:
 		case GET_MY_RECIPES_STARTED:
-		case UPDATE_RECIPES_STARTED:
+		case UPDATE_RECIPES_STARTED: {
 			state = {
 				...state,
 				loadingRecipes: true,
 			};
 			break;
-		case CREATE_RECIPES_SUCCESS:
+		}
+		case CREATE_RECIPES_SUCCESS: {
 			const { response: newRecipe, auth } = action;
 
 			const editingRecipe = { ...newRecipe };
@@ -67,21 +66,27 @@ export default (state = initialState, action: Action) => {
 				editingRecipe,
 			};
 			break;
-		case GET_RECIPES_SUCCESS:
+		}
+		case GET_RECIPES_SUCCESS: {
 			state = {
 				...state,
 				loadingRecipes: false,
 				allRecipes: getDocsFromResponse(action.response),
 			};
 			break;
-		case GET_MY_RECIPES_SUCCESS:
+		}
+		case GET_MY_RECIPES_SUCCESS: {
+			const myRecipes = getDocsFromResponse(action.response);
+
 			state = {
 				...state,
 				loadingRecipes: false,
-				myRecipes: getDocsFromResponse(action.response),
+				allRecipes: { ...state.allRecipes, ...myRecipes },
+				myRecipes: myRecipes,
 			};
 			break;
-		case UPDATE_RECIPES_SUCCESS:
+		}
+		case UPDATE_RECIPES_SUCCESS: {
 			const { response: updatedRecipe } = action;
 
 			state = {
@@ -94,21 +99,25 @@ export default (state = initialState, action: Action) => {
 				},
 			};
 			break;
+		}
 		case CREATE_RECIPES_FAILURE:
 		case GET_RECIPES_FAILURE:
 		case GET_MY_RECIPES_FAILURE:
-		case UPDATE_RECIPES_FAILURE:
+		case UPDATE_RECIPES_FAILURE: {
 			state = {
 				...state,
 				loadingRecipes: false,
 				err: action.err,
 			};
 			break;
-		case SET_EDITING_RECIPES:
+		}
+		case SET_EDITING_RECIPES: {
 			state = {
 				...state,
 				editingRecipe: action.payload,
 			};
+			break;
+		}
 	}
 
 	return state;

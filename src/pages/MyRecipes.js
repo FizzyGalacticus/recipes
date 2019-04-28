@@ -3,6 +3,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
+import { NavLink as Link } from 'react-router-dom';
+
 import Grid from '@material-ui/core/Grid';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
@@ -45,15 +47,12 @@ class MyRecipes extends Component<Props, State> {
 				<Grid item xs={12}>
 					<List>
 						{Object.entries(this.props.recipes).map(([id, recipe]) => {
+							const link = `/me/recipes/${id}`;
 							return (
-								<ListItem
-									key={id}
-									onClick={e =>
-										this.props.dispatch(recipeActions.setEditingRecipe({ ...recipe, id }))
-									}
-									button
-								>
-									{recipe.name}
+								<ListItem key={id}>
+									<Link to={link} href={link}>
+										{recipe.name}
+									</Link>
 								</ListItem>
 							);
 						})}
@@ -68,10 +67,10 @@ MyRecipes.defaultProps = {
 	recipes: [],
 };
 
-export default connect(state => {
+export default connect((state, { location }) => {
 	const {
 		recipeReducer: { myRecipes },
 	} = state;
 
-	return { recipes: myRecipes };
+	return { recipes: myRecipes, location };
 })(MyRecipes);

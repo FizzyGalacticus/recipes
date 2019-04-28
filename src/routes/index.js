@@ -1,13 +1,14 @@
 // @flow
 
-import React, { Fragment } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import React from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
 
 import AdminRoute from './AdminRoute';
 
 /* Pages */
 import Home from '../pages/Home';
 import MyRecipes from '../pages/MyRecipes';
+import Recipe from '../pages/Recipe';
 
 /* Admin Pages */
 import CreateRecipe from '../pages/admin/CreateRecipe';
@@ -23,17 +24,27 @@ type RecipesRoute = {
 export const routes: Array<RecipesRoute> = [
 	{
 		name: 'Home',
-		path: '/',
+		path: '/home',
 		exact: true,
 		icon: null,
 		component: Home,
+		showInNav: true,
+	},
+	{
+		name: 'My Recipe',
+		path: '/me/recipes/:recipeId',
+		exact: true,
+		icon: null,
+		component: Recipe,
+		showInNav: false,
 	},
 	{
 		name: 'My Recipes',
-		path: '/my-recipes',
+		path: '/me/recipes',
 		exact: true,
 		icon: null,
 		component: MyRecipes,
+		showInNav: true,
 	},
 ];
 
@@ -44,19 +55,20 @@ export const adminRoutes: Array<Route> = [
 		exact: true,
 		icon: null,
 		component: CreateRecipe,
+		showInNav: true,
 	},
 ];
 
 export default props => (
-	<Fragment>
-		<Switch>
-			{routes.map(({ component: render, ...route }) => (
-				<Route key={route.path} component={render} {...route} />
-			))}
+	<Switch>
+		{routes.map(({ path, component: Component, ...route }) => (
+			<Route key={path} path={path} component={Component} {...route} />
+		))}
 
-			{adminRoutes.map(({ component: render, ...route }) => (
-				<AdminRoute key={route.path} component={render} {...route} />
-			))}
-		</Switch>
-	</Fragment>
+		{adminRoutes.map(({ path, component: Component, exact, ...route }) => (
+			<AdminRoute key={path} path={path} component={Component} {...route} />
+		))}
+
+		<Redirect from="/" to="/home" exact />
+	</Switch>
 );

@@ -30,36 +30,40 @@ export default connect(state => {
 					</IconButton>
 				</div>
 				<Divider />
-				{routes.map(route => (
-					<ListItem
-						key={route.path}
-						onClick={() => {
-							history.push(route.path);
-							dispatch(toggleNav());
-						}}
-						button
-					>
-						{route.name}
-					</ListItem>
-				))}
+				{routes.map(route =>
+					route.showInNav ? (
+						<ListItem
+							key={route.path}
+							onClick={() => {
+								history.push(route.path);
+								dispatch(toggleNav());
+							}}
+							button
+						>
+							{route.name}
+						</ListItem>
+					) : null
+				)}
 				{isAdmin ? (
 					<Fragment>
 						<Divider />
 						<ListItem>
 							<b>Admin</b>
 						</ListItem>
-						{adminRoutes.map(route => (
-							<ListItem
-								key={route.path}
-								onClick={() => {
-									history.push(route.path);
-									dispatch(toggleNav());
-								}}
-								button
-							>
-								{route.name}
-							</ListItem>
-						))}
+						{adminRoutes.map(route =>
+							route.showInNav ? (
+								<ListItem
+									key={route.path}
+									onClick={() => {
+										history.push(route.path);
+										dispatch(toggleNav());
+									}}
+									button
+								>
+									{route.name}
+								</ListItem>
+							) : null
+						)}
 					</Fragment>
 				) : null}
 			</List>

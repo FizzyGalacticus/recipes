@@ -2,6 +2,7 @@
 
 import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
@@ -47,10 +48,12 @@ class PageContainer extends Component<Props> {
 	}
 }
 
-export default connect(store => {
-	const {
-		authReducer: { user },
-	} = store;
+export default withRouter(
+	connect(store => {
+		const {
+			authReducer: { user },
+		} = store;
 
-	return { isAdmin: user ? !!user.isAdmin : false };
-})(PageContainer);
+		return { isAdmin: user ? !!user.isAdmin : false };
+	})(PageContainer)
+);

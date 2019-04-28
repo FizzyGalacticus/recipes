@@ -10,5 +10,5 @@ export default connect(state => {
 
 	return { isAdmin: user ? !!user.isAdmin : false };
 })(({ isAdmin = false, component: Component, ...rest }) => (
-	<Route {...rest} render={props => (isAdmin ? <Component {...props} /> : <Redirect to="/" />)} />
+	<Route {...rest} children={props => (isAdmin ? <Component {...props} /> : <Redirect to="/" />)} />
 ));
