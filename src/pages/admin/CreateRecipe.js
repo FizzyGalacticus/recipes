@@ -25,15 +25,15 @@ class CreateRecipe extends Component {
 	render() {
 		return (
 			<Grid container direction="column" justify="center" alignItems="center">
-				<Grid item xs={12} md={4}>
+				<Grid item xs={12} md={6}>
 					<Button onClick={this.reset} variant="contained" color="secondary">
 						Reset
 					</Button>
 				</Grid>
-				<Grid item xs={12} md={4}>
+				<Grid item xs={12} md={6}>
 					<Divider />
 				</Grid>
-				<Grid item xs={12} md={4}>
+				<Grid item xs={12} md={6}>
 					<RecipeCreator recipe={this.props.recipe} />
 				</Grid>
 			</Grid>

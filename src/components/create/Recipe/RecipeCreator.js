@@ -71,9 +71,15 @@ class RecipeCreator extends Component<Props, State> {
 		else this.setState({ public: checkedValue });
 	}
 
-	addIngredient({ id }: RecipeIngredient = {}) {
+	addIngredient(
+		{ ingredient: { id } = {}, measurement: { id: measurementId } = {}, amount = 0 } = {
+			ingredient: RecipeIngredient,
+			measurement: IngredientMeasurement,
+			amount: Integer,
+		}
+	) {
 		this.setState({
-			ingredients: { ...this.state.ingredients, [id]: { measurementId: null, amount: 0 } },
+			ingredients: { ...this.state.ingredients, [id]: { measurementId, amount } },
 		});
 	}
 
@@ -177,7 +183,7 @@ class RecipeCreator extends Component<Props, State> {
 						fullWidth
 					/>
 				</Grid>
-				<Grid item xs={12} sm={6}>
+				<Grid item xs={12}>
 					<TextField
 						label="Notes"
 						name="notes"
@@ -189,9 +195,9 @@ class RecipeCreator extends Component<Props, State> {
 						fullWidth
 					/>
 				</Grid>
-				<Grid item xs={12} sm={6}>
+				<Grid item xs={12}>
 					<Grid container>
-						<Grid item>
+						<Grid item xs={12}>
 							<IngredientPicker onSelect={this.addIngredient} />
 						</Grid>
 						<Grid item>
