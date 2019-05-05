@@ -1,9 +1,15 @@
 #!/usr/bin/env node
+// @flow
 
 const spawn = require('child_process').spawn;
 const logger = require('node-color-log');
 
-const exec = (cmdStr, { outputToConsole = false } = {}) => {
+type FileList = Array<string>;
+
+const exec = (
+	cmdStr: string,
+	{ outputToConsole = false }: { outputToConsole?: boolean } = {}
+): Promise<string | undefined> => {
 	return new Promise((resolve, reject) => {
 		const [cmd, ...args] = cmdStr.split(' ');
 		const proc = spawn(cmd, args, { stdio: outputToConsole ? 'inherit' : 'pipe' });
@@ -38,19 +44,19 @@ const exec = (cmdStr, { outputToConsole = false } = {}) => {
 	});
 };
 
-const info = msg => {
+const info = (msg: string) => {
 	logger.fontColorLog('blue', msg);
 };
 
-const warn = msg => {
+const warn = (msg: string) => {
 	logger.fontColorLog('yellow', msg);
 };
 
-const error = msg => {
+const error = (msg: string) => {
 	logger.fontColorLog('red', msg);
 };
 
-const getJavascriptFiles = (files = []) => {
+const getJavascriptFiles = (files: FileList = []) => {
 	return files.filter(file => file.substring(file.length - 3) === '.js');
 };
 
@@ -66,21 +72,17 @@ const getConfigFilesToBeCommitted = async () => {
 	return files.filter(file => file.includes('config/'));
 };
 
-const containsDistFile = (files = []) => {
+const containsDistFile = (files: FileList = []) => {
 	return files.some(file => file.includes('docs/'));
 };
 
-// const writeTempFile = data => {
-// 	return writeFile(path.join(os.tmpdir(), 'recipesprecommit'), JSON.stringify(data));
-// };
-
-const resetConfigFiles = files => {
+const resetConfigFiles = (files: FileList = []) => {
 	warn(`You have added config files. Removing from commit: (${files.join(', ')})`);
 
 	return Promise.all(files.map(file => exec(`git reset ${file}`)));
 };
 
-const lint = (files = []) => {
+const lint = (files: FileList = []) => {
 	info('Linting...');
 
 	const jsFiles = getJavascriptFiles(files);
@@ -96,7 +98,7 @@ const build = () => {
 	return exec(`yarn build`, { outputToConsole: true });
 };
 
-const addFilesToCommit = (files = []) => {
+const addFilesToCommit = (files: FileList = []) => {
 	const filesToAdd = files.filter(file => file !== '');
 	if (!filesToAdd.length) {
 		return Promise.resolve();

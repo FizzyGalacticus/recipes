@@ -48,6 +48,7 @@
 		"eslint-plugin-flowtype": "^3.7.0",
 		"eslint-plugin-prettier": "^3.0.1",
 		"eslint-plugin-react": "^7.12.4",
+		"flow-node": "^1.2.3",
 		"gulp": "^4.0.0",
 		"gulp-eslint": "^5.0.0",
 		"gulp-htmlmin": "^5.0.1",
@@ -63,7 +64,7 @@
 	},
 	"husky": {
 		"hooks": {
-			"pre-commit": "node .githooks/pre-commit/index.js"
+			"pre-commit": "flow-node .githooks/pre-commit/index.js"
 		}
 	}
 }
