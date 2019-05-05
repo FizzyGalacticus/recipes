@@ -1,5 +1,9 @@
+// @flow
+
 import { firestore, auth } from '../firebase';
 import { showNotification } from '../notification';
+
+type NotificationHandler = string | ((response: any) => string);
 
 const cache: { [string]: { response: object, lastRetrieved: Date } } = {};
 
@@ -12,7 +16,7 @@ const withinTenMinutes = (date1: Date, date2: Date) => {
 	return Math.abs(timeOneMillis - timeTwoMillis) <= tenMins;
 };
 
-export const createActions = (prefix, name) => {
+export const createActions = (prefix: string, name: string) => {
 	const actionStarted = `${prefix.toUpperCase()}_${name.toUpperCase()}_STARTED`;
 	const actionSuccess = `${prefix.toUpperCase()}_${name.toUpperCase()}_SUCCESS`;
 	const actionFailure = `${prefix.toUpperCase()}_${name.toUpperCase()}_FAILURE`;
@@ -25,11 +29,26 @@ export const createActions = (prefix, name) => {
 };
 
 const createFirestoreHelper = (
-	fn = Promise.resolve,
-	mode = 'get',
-	{ name = 'helper', responseModifier = response => response, useCache = false } = {}
+	fn: (...params) => Promise<any> = Promise.resolve,
+	mode: string = 'get',
+	{
+		name = 'helper',
+		responseModifier = response => response,
+		useCache = false,
+	}: { name: string, responseModifier: (response: any) => any, useCache: boolean } = {}
 ) => {
-	return (collectionName, { successNotification, errorNotification, actionType } = {}) => {
+	return (
+		collectionName: string,
+		{
+			successNotification,
+			errorNotification,
+			actionType,
+		}: {
+			successNotification?: NotificationHandler,
+			errorNotification?: NotificationHandler,
+			actionType?: string,
+		} = {}
+	) => {
 		const { actionStarted, actionSuccess, actionFailure } = createActions(
 			mode,
 			actionType ? actionType : collectionName
