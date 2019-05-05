@@ -3,6 +3,7 @@
 import {
 	createCreateDocumentAction,
 	createGetCollectionAction,
+	createGetDocumentAction,
 	createUpdateDocumentAction,
 	createSetEditingDocumentAction,
 	emptyDispatch,
@@ -37,6 +38,14 @@ const {
 	actionType: 'my_recipes',
 });
 
+const { GET_RECIPE_STARTED, GET_RECIPE_SUCCESS, GET_RECIPE_FAILURE, getDocument: getRecipe } = createGetDocumentAction(
+	'recipes',
+	{
+		actionType: 'recipe',
+		errorNotification: err => `Could not retrieve recipe: ${err}`,
+	}
+);
+
 const {
 	UPDATE_RECIPES_STARTED,
 	UPDATE_RECIPES_SUCCESS,
@@ -58,6 +67,10 @@ export default {
 	GET_RECIPES_SUCCESS,
 	GET_RECIPES_FAILURE,
 	getRecipes,
+	GET_RECIPE_STARTED,
+	GET_RECIPE_SUCCESS,
+	GET_RECIPE_FAILURE,
+	getRecipe,
 	GET_MY_RECIPES_STARTED,
 	GET_MY_RECIPES_SUCCESS,
 	GET_MY_RECIPES_FAILURE,
