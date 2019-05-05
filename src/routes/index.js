@@ -59,13 +59,13 @@ export const adminRoutes: Array<Route> = [
 	},
 ];
 
-export default props => (
+export default () => (
 	<Switch>
 		{routes.map(({ path, component: Component, ...route }) => (
 			<Route key={path} path={path} component={Component} {...route} />
 		))}
 
-		{adminRoutes.map(({ path, component: Component, exact, ...route }) => (
+		{adminRoutes.map(({ path, component: Component, ...route }) => (
 			<AdminRoute key={path} path={path} component={Component} {...route} />
 		))}
 
