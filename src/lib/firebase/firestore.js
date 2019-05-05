@@ -11,7 +11,9 @@ const createDb = () => {
 
 const createDbIfNotInitialized = fn => {
 	return (...params) => {
-		if (!db) createDb();
+		if (!db) {
+			createDb();
+		}
 
 		return fn(...params);
 	};

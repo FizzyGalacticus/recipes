@@ -50,7 +50,8 @@ class IngredientPicker extends Component<Props, State> {
 	}
 
 	componentDidUpdate(prevProps, prevState) {
-		let selectedIngredient, selectedMeasurement;
+		let selectedIngredient;
+		let selectedMeasurement;
 		let updated = false;
 
 		if (prevProps.ingredients.length !== this.props.ingredients.length && prevState.selectedIngredient.name) {
@@ -87,7 +88,9 @@ class IngredientPicker extends Component<Props, State> {
 			ingredient => ingredient.name.toLowerCase() === newValue.toLowerCase()
 		);
 
-		if (!selectedIngredient) selectedIngredient = { name: newValue };
+		if (!selectedIngredient) {
+			selectedIngredient = { name: newValue };
+		}
 
 		this.setState({ selectedIngredient });
 	}
@@ -101,7 +104,9 @@ class IngredientPicker extends Component<Props, State> {
 			measurement => measurement.name.toLowerCase() === newValue.toLowerCase()
 		);
 
-		if (!selectedMeasurement) selectedMeasurement = { name: newValue };
+		if (!selectedMeasurement) {
+			selectedMeasurement = { name: newValue };
+		}
 
 		this.setState({ selectedMeasurement });
 	}
@@ -193,7 +198,7 @@ IngredientPicker.defaultProps = {
 };
 
 export default connect(state => {
-	let {
+	const {
 		ingredientReducer: { allIngredients },
 		measurementReducer: { allMeasurements },
 	} = state;

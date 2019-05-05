@@ -154,4 +154,4 @@ export const createSetEditingDocumentAction = collectionName => {
 	};
 };
 
-export const emptyDispatch = () => (dispatch: Dispatch) => {};
+export const emptyDispatch = () => (/* dispatch: Dispatch */) => {};

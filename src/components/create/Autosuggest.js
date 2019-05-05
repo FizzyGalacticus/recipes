@@ -142,9 +142,9 @@ class MUIAutosuggest extends React.Component<Props, State> {
 			props: { caseSensitive },
 		} = this;
 
-		if (inputLength === 0)
+		if (inputLength === 0) {
 			return [];
-		
+		}
 
 		const filtered = this.props.suggestions.filter(suggestion => {
 			const value = this.props.getSuggestionValue(suggestion);

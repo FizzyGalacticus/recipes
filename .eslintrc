@@ -18,7 +18,7 @@
 	"rules": {
 		"arrow-parens": "off",
 		"block-scoped-var": 2,
-		"brace-style": 2,
+		"brace-style": "off",
 		"camelcase": [
 			2,
 			{
@@ -55,13 +55,13 @@
 		"eqeqeq": 2,
 		"guard-for-in": 2,
 		"key-spacing": [
-			2,
+			1,
 			{
 				"beforeColon": false,
 				"afterColon": true
 			}
 		],
-		"keyword-spacing": 2,
+		"keyword-spacing": "off",
 		"max-len": [
 			2,
 			120,

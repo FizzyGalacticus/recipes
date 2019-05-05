@@ -9,9 +9,9 @@ const production = process.env.NODE_ENV === 'production';
 
 const middlewares = [thunk];
 
-if (!production)
+if (!production) {
 	middlewares.push(logger);
-
+}
 
 const middleware = applyMiddleware(...middlewares);
 

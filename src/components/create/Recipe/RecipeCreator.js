@@ -16,6 +16,8 @@ import IngredientPicker from './IngredientPicker';
 import recipeActions from '../../../lib/redux/actions/recipe';
 import { auth } from '../../../lib/firebase';
 
+import type { RecipeIngredient, IngredientMeasurement } from '../../../../types/recipe.js';
+
 type Props = {
 	recipe?: Recipe,
 	author?: string,
@@ -67,15 +69,18 @@ class RecipeCreator extends Component<Props, State> {
 		},
 		checkedValue: boolean
 	) {
-		if (checkedValue === undefined) this.setState({ [name]: value });
-		else this.setState({ public: checkedValue });
+		if (checkedValue === undefined) {
+			this.setState({ [name]: value });
+		} else {
+			this.setState({ public: checkedValue });
+		}
 	}
 
 	addIngredient(
 		{ ingredient: { id } = {}, measurement: { id: measurementId } = {}, amount = 0 } = {
 			ingredient: RecipeIngredient,
 			measurement: IngredientMeasurement,
-			amount: Integer,
+			amount: Number,
 		}
 	) {
 		this.setState({
@@ -201,14 +206,14 @@ class RecipeCreator extends Component<Props, State> {
 							<IngredientPicker onSelect={this.addIngredient} />
 						</Grid>
 						<Grid item>
-							{Object.entries(this.state.ingredients).map(([id, ingredient]) => {
+							{Object.entries(this.state.ingredients).map(([id]) => {
 								const fullIngredient = this.props.ingredients[id];
 
 								return fullIngredient ? (
 									<Chip
 										key={id}
 										label={fullIngredient.name}
-										onDelete={(e: any) => this.removeIngredient({ id, ...fullIngredient })}
+										onDelete={() => /* e: any */ this.removeIngredient({ id, ...fullIngredient })}
 										color="primary"
 										variant="outlined"
 									/>

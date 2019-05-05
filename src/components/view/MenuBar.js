@@ -18,7 +18,7 @@ export default connect(store => {
 	} = store;
 
 	return { menuOpen, isAuthorized, auth };
-})(({ dispatch, menuOpen, isAuthorized, auth }) => (
+})(({ dispatch, menuOpen, isAuthorized /* auth */ }) => (
 	<AppBar position="static" style={{ zIndex: 250 }}>
 		<Toolbar>
 			{menuOpen ? null : (
