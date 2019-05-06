@@ -24,8 +24,6 @@ const exec = (
 	{ outputToConsole = false }: { outputToConsole?: boolean } = {}
 ): Promise<string | undefined> => {
 	return new Promise((resolve, reject) => {
-		info(`Running cmd: "${cmdStr}"`);
-
 		const [cmd, ...args] = cmdStr.split(' ');
 		const proc = spawn(cmd, args, { stdio: outputToConsole ? 'inherit' : 'pipe' });
 
