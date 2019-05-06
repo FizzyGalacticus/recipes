@@ -65,9 +65,13 @@ export const updateDocument = createDbIfNotInitialized((key, docKey, value) => {
 		.set(value);
 });
 
+export const getDocFromResponse = doc => {
+	return doc.data();
+};
+
 export const getDocsFromResponse = response =>
 	response.docs.reduce((acc, doc) => {
-		acc[doc.id] = doc.data();
+		acc[doc.id] = getDocFromResponse(doc);
 		return acc;
 	}, {});
 
