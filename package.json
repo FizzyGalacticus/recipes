@@ -15,8 +15,8 @@
 		"postinstall": "cp node_modules/metro-babel7-plugin-react-transform/src/index.js node_modules/babel-plugin-react-transform/lib/index.js",
 		"lint": "eslint --fix src/**/*.js",
 		"lint-files": "eslint --fix",
-		"prettier": "prettier --write src/**/*.js",
-		"prettier-files": "prettier --write"
+		"prettier": "prettier --write --config .prettierrc src/**/*.js",
+		"prettier-files": "prettier --write --config .prettierrc"
 	},
 	"dependencies": {
 		"@babel/core": "^7.2.2",

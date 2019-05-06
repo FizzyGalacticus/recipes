@@ -64,9 +64,39 @@ const getJavascriptFiles = (files: FileList = []) => {
 };
 
 const getFilesToBeCommitted = async () => {
-	const filesStr = await exec(`git diff --name-only --cached`);
+	const filesStr = await exec(`git diff --name-status --cached`);
 
-	return filesStr.split('\n');
+	const filesWithStatus = filesStr.split('\n');
+
+	return filesWithStatus
+		.filter(str => str !== '')
+		.reduce(
+			(acc, fileWithStatusStr) => {
+				const [status, file] = fileWithStatusStr
+					.split('\t')
+					.map(str => str.trim())
+					.filter(str => str !== '');
+
+				switch (status.toUpperCase()) {
+					case 'A':
+						acc.added.push(file);
+						break;
+					case 'M':
+						acc.modified.push(file);
+						break;
+					case 'D':
+						acc.deleted.push(file);
+						break;
+					default:
+						warn(`Received unknown status for git file: ${status}`);
+				}
+
+				acc.all.push(file);
+
+				return acc;
+			},
+			{ added: [], modified: [], deleted: [], all: [] }
+		);
 };
 
 const getConfigFiles = (files: FileList = []) => {
@@ -118,22 +148,22 @@ const addFilesToCommit = (files: FileList = []) => {
 
 (async () => {
 	try {
-		const files = await getFilesToBeCommitted();
-		const configFiles = getConfigFiles(files);
+		const { added, modified, /* deleted, */ all } = await getFilesToBeCommitted();
+		const configFiles = getConfigFiles(all);
 
 		// Do not commit config files without explictly not running hooks
 		if (configFiles.length) {
 			await resetConfigFiles(configFiles);
 		}
 
-		await lint(files);
-		await prettier(files);
+		await lint([...added, ...modified]);
+		await prettier([...added, ...modified]);
 
-		if (containsDistFile(files)) {
+		if (containsDistFile([...added, ...modified])) {
 			await build();
 		}
 
-		await addFilesToCommit(files.filter(file => !file.includes('config/')));
+		await addFilesToCommit(all.filter(file => !file.includes('config/')));
 	} catch (err) {
 		error(err);
 
