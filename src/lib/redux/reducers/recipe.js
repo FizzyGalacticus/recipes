@@ -1,12 +1,15 @@
 // @flow
 
 import recipeActions from '../actions/recipe';
-import { getDocsFromResponse } from '../../firebase/firestore';
+import { getDocFromResponse, getDocsFromResponse } from '../../firebase/firestore';
 
 const {
 	CREATE_RECIPES_STARTED,
 	CREATE_RECIPES_SUCCESS,
 	CREATE_RECIPES_FAILURE,
+	GET_RECIPE_STARTED,
+	GET_RECIPE_SUCCESS,
+	GET_RECIPE_FAILURE,
 	GET_RECIPES_STARTED,
 	GET_RECIPES_SUCCESS,
 	GET_RECIPES_FAILURE,
@@ -38,6 +41,7 @@ const initialState: initialState = {
 export default (state = initialState, action: Action) => {
 	switch (action.type) {
 		case CREATE_RECIPES_STARTED:
+		case GET_RECIPE_STARTED:
 		case GET_RECIPES_STARTED:
 		case GET_MY_RECIPES_STARTED:
 		case UPDATE_RECIPES_STARTED: {
@@ -67,6 +71,15 @@ export default (state = initialState, action: Action) => {
 			};
 			break;
 		}
+		case GET_RECIPE_SUCCESS:
+			const recipe = getDocFromResponse(action.response);
+
+			state = {
+				...state,
+				loadingRecipes: false,
+				allRecipes: { ...state.allRecipes, [recipe.id]: recipe },
+			};
+			break;
 		case GET_RECIPES_SUCCESS: {
 			state = {
 				...state,
@@ -101,6 +114,7 @@ export default (state = initialState, action: Action) => {
 			break;
 		}
 		case CREATE_RECIPES_FAILURE:
+		case GET_RECIPE_FAILURE:
 		case GET_RECIPES_FAILURE:
 		case GET_MY_RECIPES_FAILURE:
 		case UPDATE_RECIPES_FAILURE: {
