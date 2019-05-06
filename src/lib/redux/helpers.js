@@ -138,6 +138,7 @@ export const createGetCollectionAction = createFirestoreHelper(firestore.readCol
 export const createGetDocumentAction = createFirestoreHelper(firestore.readDocument, 'get', {
 	name: 'getDocument',
 	useCache: true,
+	responseModifier: (response, key) => ({ ...response, data: () => ({ ...response.data(), id: key }) }),
 });
 
 export const createUpdateDocumentAction = createFirestoreHelper(firestore.updateDocument, 'update', {
