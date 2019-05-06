@@ -14,7 +14,9 @@
 		"kill": "./killserver.js",
 		"postinstall": "cp node_modules/metro-babel7-plugin-react-transform/src/index.js node_modules/babel-plugin-react-transform/lib/index.js",
 		"lint": "eslint --fix src/**/*.js",
-		"lint-files": "eslint --fix"
+		"lint-files": "eslint --fix",
+		"prettier": "prettier --write src/**/*.js",
+		"prettier-files": "prettier --write"
 	},
 	"dependencies": {
 		"@babel/core": "^7.2.2",
