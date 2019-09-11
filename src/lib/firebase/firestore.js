@@ -34,11 +34,9 @@ export const set = createDbIfNotInitialized((key, id, data) => {
 		.set(sanitizedData);
 });
 
-export const create = createDbIfNotInitialized(
-	(key: string, data: any): Promise => {
-		return db.collection(key).add(data);
-	}
-);
+export const create = createDbIfNotInitialized((key: string, data: any): Promise => {
+	return db.collection(key).add(data);
+});
 
 export const readCollection = createDbIfNotInitialized((key: string, whereClause: Array<string>) => {
 	if (whereClause !== undefined) {

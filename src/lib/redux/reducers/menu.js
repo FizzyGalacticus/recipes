@@ -2,11 +2,11 @@
 
 import { TOGGLE_NAV_MENU } from '../actions/menu';
 
-type initialState = {
+type InitialState = {
 	open: boolean,
 };
 
-const initialState: initialState = {
+const initialState: InitialState = {
 	open: false,
 };
 

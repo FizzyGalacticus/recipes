@@ -16,7 +16,7 @@ const {
 	SET_EDITING_INGREDIENTS,
 } = ingredientActions;
 
-type initialState = {
+type InitialState = {
 	allIngredients: { [string]: RecipeIngredient },
 	viewIngredients: { [string]: RecipeIngredient },
 	editingIngredient: RecipeIngredient,
@@ -24,7 +24,7 @@ type initialState = {
 	err: any,
 };
 
-const initialState: initialState = {
+const initialState: InitialState = {
 	allIngredients: {},
 	viewIngredients: {},
 	editingIngredient: {},

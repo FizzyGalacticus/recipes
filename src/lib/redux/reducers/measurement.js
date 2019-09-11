@@ -16,14 +16,14 @@ const {
 	SET_EDITING_MEASUREMENTS,
 } = measurementActions;
 
-type initialState = {
+type InitialState = {
 	allMeasurements: { [string]: IngredientMeasurement },
 	editingMeasurement: IngredientMeasurement,
 	loadingMeasurements: boolean,
 	err: any,
 };
 
-const initialState: initialState = {
+const initialState: InitialState = {
 	allMeasurements: {},
 	editingMeasurement: {},
 	loadingMeasurements: false,

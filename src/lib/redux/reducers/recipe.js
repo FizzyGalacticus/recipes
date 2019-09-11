@@ -22,7 +22,7 @@ const {
 	SET_EDITING_RECIPES,
 } = recipeActions;
 
-type initialState = {
+type InitialState = {
 	allRecipes: { [string]: Recipe },
 	myRecipes: { [string]: Recipe },
 	editingRecipe: Recipe,
@@ -30,7 +30,7 @@ type initialState = {
 	err: any,
 };
 
-const initialState: initialState = {
+const initialState: InitialState = {
 	allRecipes: {},
 	myRecipes: {},
 	editingRecipe: {},

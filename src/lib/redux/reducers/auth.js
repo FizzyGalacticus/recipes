@@ -13,7 +13,7 @@ const {
 	REQUEST_USER_FAILURE,
 } = authActions;
 
-type initialState = {
+type InitialState = {
 	auth: FirebaseAuth,
 	user: Object,
 	isAuthorized: boolean,
