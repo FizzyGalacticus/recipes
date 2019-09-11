@@ -1,6 +1,6 @@
 // @flow
 
-import React, { Component, Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
@@ -20,33 +20,27 @@ type Props = {
 	dispatch: Dispatch,
 };
 
-class PageContainer extends Component<Props> {
-	constructor(props) {
-		super(props);
-	}
+const PageContainer = ({ dispatch, isAdmin }: Props) => {
+	useEffect(() => {
+		dispatch(login(true));
+	}, []);
 
-	componentDidMount() {
-		this.props.dispatch(login(true));
-	}
-
-	render() {
-		return (
-			<Fragment>
-				<NavDrawer />
-				<Grid container>
-					<Grid item xs={12}>
-						<MenuBar />
-					</Grid>
-					<Grid item>
-						<CssBaseline />
-						<Routes isAdmin={this.props.isAdmin} />
-					</Grid>
-					<Snackbar />
+	return (
+		<Fragment>
+			<NavDrawer />
+			<Grid container>
+				<Grid item xs={12}>
+					<MenuBar />
 				</Grid>
-			</Fragment>
-		);
-	}
-}
+				<Grid item>
+					<CssBaseline />
+					<Routes isAdmin={isAdmin} />
+				</Grid>
+				<Snackbar />
+			</Grid>
+		</Fragment>
+	);
+};
 
 export default withRouter(
 	connect(store => {
