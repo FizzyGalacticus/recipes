@@ -411,13 +411,25 @@
     console.error("LiveReactload ::", msg);
   }
 })({
+  "/home/dustin/CS/recipes/config/api.js": [
+    "(function (process){\n'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = void 0;\nvar _default = {\n  host: process.env.API_HOST || 'http://localhost:3000'\n};\nexports[\"default\"] = _default;\n\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/config/api.js",
+      "hash": "tZ9rHg",
+      "browserifyId": 1,
+      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwaS5qcz92ZXJzaW9uPXRaOXJIZyJdLCJuYW1lcyI6WyJob3N0IiwicHJvY2VzcyIsImVudiIsIkFQSV9IT1NUIl0sIm1hcHBpbmdzIjoiO0FBQUE7Ozs7OztlQUVlO0FBQ2RBLEVBQUFBLElBQUksRUFBRUMsT0FBTyxDQUFDQyxHQUFSLENBQVlDLFFBQVosSUFBd0I7QUFEaEIiLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHN0cmljdCc7XG5cbmV4cG9ydCBkZWZhdWx0IHtcblx0aG9zdDogcHJvY2Vzcy5lbnYuQVBJX0hPU1QgfHwgJ2h0dHA6Ly9sb2NhbGhvc3Q6MzAwMCcsXG59O1xuIl19"
+    }
+  ],
   "/home/dustin/CS/recipes/config/firebase.js": [
     "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = void 0;\nvar _default = {\n  apiKey: 'AIzaSyAR1V84akMiK886wKlB_3QNlxAOOV-FfnQ',\n  authDomain: 'recipes-f6d7a.firebaseapp.com',\n  databaseURL: 'https://recipes-f6d7a.firebaseio.com',\n  projectId: 'recipes-f6d7a',\n  storageBucket: 'recipes-f6d7a.appspot.com',\n  messagingSenderId: '303142854612'\n};\nexports[\"default\"] = _default;\n",
     {},
     {
       "id": "/home/dustin/CS/recipes/config/firebase.js",
       "hash": "yRHZLA",
-      "browserifyId": 1,
+      "browserifyId": 2,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZpcmViYXNlLmpzP3ZlcnNpb249eVJIWkxBIl0sIm5hbWVzIjpbImFwaUtleSIsImF1dGhEb21haW4iLCJkYXRhYmFzZVVSTCIsInByb2plY3RJZCIsInN0b3JhZ2VCdWNrZXQiLCJtZXNzYWdpbmdTZW5kZXJJZCJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztlQUFlO0FBQ2RBLEVBQUFBLE1BQU0sRUFBRSx5Q0FETTtBQUVkQyxFQUFBQSxVQUFVLEVBQUUsK0JBRkU7QUFHZEMsRUFBQUEsV0FBVyxFQUFFLHNDQUhDO0FBSWRDLEVBQUFBLFNBQVMsRUFBRSxlQUpHO0FBS2RDLEVBQUFBLGFBQWEsRUFBRSwyQkFMRDtBQU1kQyxFQUFBQSxpQkFBaUIsRUFBRTtBQU5MIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xuXHRhcGlLZXk6ICdBSXphU3lBUjFWODRha01pSzg4NndLbEJfM1FObHhBT09WLUZmblEnLFxuXHRhdXRoRG9tYWluOiAncmVjaXBlcy1mNmQ3YS5maXJlYmFzZWFwcC5jb20nLFxuXHRkYXRhYmFzZVVSTDogJ2h0dHBzOi8vcmVjaXBlcy1mNmQ3YS5maXJlYmFzZWlvLmNvbScsXG5cdHByb2plY3RJZDogJ3JlY2lwZXMtZjZkN2EnLFxuXHRzdG9yYWdlQnVja2V0OiAncmVjaXBlcy1mNmQ3YS5hcHBzcG90LmNvbScsXG5cdG1lc3NhZ2luZ1NlbmRlcklkOiAnMzAzMTQyODU0NjEyJyxcbn07XG4iXX0="
     }
   ],
@@ -427,7 +439,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/arrayWithHoles.js",
       "hash": "mzS29Q",
-      "browserifyId": 2,
+      "browserifyId": 3,
       "sourcemap": ""
     }
   ],
@@ -437,7 +449,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js",
       "hash": "+ARISQ",
-      "browserifyId": 3,
+      "browserifyId": 4,
       "sourcemap": ""
     }
   ],
@@ -447,7 +459,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/assertThisInitialized.js",
       "hash": "iFeu8g",
-      "browserifyId": 4,
+      "browserifyId": 5,
       "sourcemap": ""
     }
   ],
@@ -457,7 +469,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/asyncToGenerator.js",
       "hash": "zQR6Ig",
-      "browserifyId": 5,
+      "browserifyId": 6,
       "sourcemap": ""
     }
   ],
@@ -467,7 +479,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "hash": "6oYoAQ",
-      "browserifyId": 6,
+      "browserifyId": 7,
       "sourcemap": ""
     }
   ],
@@ -477,7 +489,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "hash": "r1aPYA",
-      "browserifyId": 7,
+      "browserifyId": 8,
       "sourcemap": ""
     }
   ],
@@ -487,7 +499,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "hash": "2p6aGg",
-      "browserifyId": 8,
+      "browserifyId": 9,
       "sourcemap": ""
     }
   ],
@@ -497,7 +509,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "hash": "rDDBew",
-      "browserifyId": 9,
+      "browserifyId": 10,
       "sourcemap": ""
     }
   ],
@@ -507,7 +519,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "hash": "a8LWzQ",
-      "browserifyId": 10,
+      "browserifyId": 11,
       "sourcemap": ""
     }
   ],
@@ -519,7 +531,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "hash": "rvIjOQ",
-      "browserifyId": 11,
+      "browserifyId": 12,
       "sourcemap": ""
     }
   ],
@@ -529,7 +541,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inheritsLoose.js",
       "hash": "4cB/Jg",
-      "browserifyId": 12,
+      "browserifyId": 13,
       "sourcemap": ""
     }
   ],
@@ -539,7 +551,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "hash": "GsNBgQ",
-      "browserifyId": 13,
+      "browserifyId": 14,
       "sourcemap": ""
     }
   ],
@@ -549,7 +561,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
       "hash": "+MY/lA",
-      "browserifyId": 14,
+      "browserifyId": 15,
       "sourcemap": ""
     }
   ],
@@ -559,7 +571,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/iterableToArray.js",
       "hash": "GIi2Lg",
-      "browserifyId": 15,
+      "browserifyId": 16,
       "sourcemap": ""
     }
   ],
@@ -569,7 +581,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
       "hash": "pe6R/Q",
-      "browserifyId": 16,
+      "browserifyId": 17,
       "sourcemap": ""
     }
   ],
@@ -579,7 +591,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/nonIterableRest.js",
       "hash": "51YDIg",
-      "browserifyId": 17,
+      "browserifyId": 18,
       "sourcemap": ""
     }
   ],
@@ -589,7 +601,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/nonIterableSpread.js",
       "hash": "ocB3iA",
-      "browserifyId": 18,
+      "browserifyId": 19,
       "sourcemap": ""
     }
   ],
@@ -601,7 +613,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "hash": "DnSUZA",
-      "browserifyId": 19,
+      "browserifyId": 20,
       "sourcemap": ""
     }
   ],
@@ -611,7 +623,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
       "hash": "CfqwZA",
-      "browserifyId": 20,
+      "browserifyId": 21,
       "sourcemap": ""
     }
   ],
@@ -624,7 +636,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "hash": "BLbBFg",
-      "browserifyId": 21,
+      "browserifyId": 22,
       "sourcemap": ""
     }
   ],
@@ -634,7 +646,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/setPrototypeOf.js",
       "hash": "iAUXHg",
-      "browserifyId": 22,
+      "browserifyId": 23,
       "sourcemap": ""
     }
   ],
@@ -648,7 +660,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/slicedToArray.js",
       "hash": "zj9lqg",
-      "browserifyId": 23,
+      "browserifyId": 24,
       "sourcemap": ""
     }
   ],
@@ -662,7 +674,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/toConsumableArray.js",
       "hash": "Itl1xA",
-      "browserifyId": 24,
+      "browserifyId": 25,
       "sourcemap": ""
     }
   ],
@@ -672,7 +684,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/typeof.js",
       "hash": "BTDVjA",
-      "browserifyId": 25,
+      "browserifyId": 26,
       "sourcemap": ""
     }
   ],
@@ -684,7 +696,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@babel/runtime/regenerator/index.js",
       "hash": "L0dtYQ",
-      "browserifyId": 26,
+      "browserifyId": 27,
       "sourcemap": ""
     }
   ],
@@ -698,7 +710,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@firebase/app/dist/index.cjs.js",
       "hash": "PjF9+g",
-      "browserifyId": 27,
+      "browserifyId": 28,
       "sourcemap": ""
     }
   ],
@@ -710,7 +722,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@firebase/auth/dist/auth.js",
       "hash": "wd26aQ",
-      "browserifyId": 28,
+      "browserifyId": 29,
       "sourcemap": ""
     }
   ],
@@ -727,7 +739,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@firebase/firestore/dist/index.cjs.js",
       "hash": "xD0Dpg",
-      "browserifyId": 29,
+      "browserifyId": 30,
       "sourcemap": ""
     }
   ],
@@ -737,7 +749,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@firebase/logger/dist/index.cjs.js",
       "hash": "A/SRGw",
-      "browserifyId": 30,
+      "browserifyId": 31,
       "sourcemap": ""
     }
   ],
@@ -749,7 +761,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@firebase/util/dist/index.cjs.js",
       "hash": "amlrCg",
-      "browserifyId": 31,
+      "browserifyId": 32,
       "sourcemap": ""
     }
   ],
@@ -759,7 +771,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@firebase/webchannel-wrapper/dist/index.js",
       "hash": "0T1jnw",
-      "browserifyId": 32,
+      "browserifyId": 33,
       "sourcemap": ""
     }
   ],
@@ -773,15 +785,15 @@
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "../utils/helpers": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/helpers.js",
       "../Paper": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Paper/index.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/AppBar/AppBar.js",
       "hash": "IydiVA",
-      "browserifyId": 33,
+      "browserifyId": 34,
       "sourcemap": ""
     }
   ],
@@ -794,7 +806,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/AppBar/index.js",
       "hash": "4gQMsw",
-      "browserifyId": 34,
+      "browserifyId": 35,
       "sourcemap": ""
     }
   ],
@@ -815,7 +827,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Backdrop/Backdrop.js",
       "hash": "F4zfjQ",
-      "browserifyId": 35,
+      "browserifyId": 36,
       "sourcemap": ""
     }
   ],
@@ -828,7 +840,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Backdrop/index.js",
       "hash": "OHEqYQ",
-      "browserifyId": 36,
+      "browserifyId": 37,
       "sourcemap": ""
     }
   ],
@@ -852,7 +864,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Button/Button.js",
       "hash": "zzAYlQ",
-      "browserifyId": 37,
+      "browserifyId": 38,
       "sourcemap": ""
     }
   ],
@@ -865,7 +877,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Button/index.js",
       "hash": "yuaYEw",
-      "browserifyId": 38,
+      "browserifyId": 39,
       "sourcemap": ""
     }
   ],
@@ -880,8 +892,8 @@
       "react-dom": "/home/dustin/CS/recipes/node_modules/react-dom/index.js",
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
@@ -898,7 +910,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ButtonBase/ButtonBase.js",
       "hash": "JAU2WA",
-      "browserifyId": 39,
+      "browserifyId": 40,
       "sourcemap": ""
     }
   ],
@@ -923,7 +935,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ButtonBase/Ripple.js",
       "hash": "LjPEmA",
-      "browserifyId": 40,
+      "browserifyId": 41,
       "sourcemap": ""
     }
   ],
@@ -932,9 +944,9 @@
     {
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
-      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "react-dom": "/home/dustin/CS/recipes/node_modules/react-dom/index.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
@@ -943,8 +955,8 @@
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
-      "@babel/runtime/helpers/assertThisInitialized": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/assertThisInitialized.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
+      "@babel/runtime/helpers/assertThisInitialized": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/assertThisInitialized.js",
       "./Ripple": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ButtonBase/Ripple.js",
       "@babel/runtime/helpers/toConsumableArray": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/toConsumableArray.js",
       "react-transition-group/TransitionGroup": "/home/dustin/CS/recipes/node_modules/react-transition-group/TransitionGroup.js"
@@ -952,7 +964,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ButtonBase/TouchRipple.js",
       "hash": "S/liHw",
-      "browserifyId": 41,
+      "browserifyId": 42,
       "sourcemap": ""
     }
   ],
@@ -962,7 +974,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ButtonBase/createRippleHandler.js",
       "hash": "fXuArQ",
-      "browserifyId": 42,
+      "browserifyId": 43,
       "sourcemap": ""
     }
   ],
@@ -977,7 +989,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ButtonBase/focusVisible.js",
       "hash": "TCrcRg",
-      "browserifyId": 43,
+      "browserifyId": 44,
       "sourcemap": ""
     }
   ],
@@ -990,7 +1002,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ButtonBase/index.js",
       "hash": "PM7Kqg",
-      "browserifyId": 44,
+      "browserifyId": 45,
       "sourcemap": ""
     }
   ],
@@ -1007,15 +1019,15 @@
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
-      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ClickAwayListener/ClickAwayListener.js",
       "hash": "V12AHg",
-      "browserifyId": 45,
+      "browserifyId": 46,
       "sourcemap": ""
     }
   ],
@@ -1028,7 +1040,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ClickAwayListener/index.js",
       "hash": "WO/z9w",
-      "browserifyId": 46,
+      "browserifyId": 47,
       "sourcemap": ""
     }
   ],
@@ -1039,8 +1051,8 @@
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
@@ -1050,7 +1062,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/CssBaseline/CssBaseline.js",
       "hash": "aBZcoA",
-      "browserifyId": 47,
+      "browserifyId": 48,
       "sourcemap": ""
     }
   ],
@@ -1063,7 +1075,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/CssBaseline/index.js",
       "hash": "RTMgsA",
-      "browserifyId": 48,
+      "browserifyId": 49,
       "sourcemap": ""
     }
   ],
@@ -1085,7 +1097,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Divider/Divider.js",
       "hash": "BHkpvw",
-      "browserifyId": 49,
+      "browserifyId": 50,
       "sourcemap": ""
     }
   ],
@@ -1098,7 +1110,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Divider/index.js",
       "hash": "oS6WSw",
-      "browserifyId": 50,
+      "browserifyId": 51,
       "sourcemap": ""
     }
   ],
@@ -1113,13 +1125,13 @@
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
-      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "../Slide": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Slide/index.js",
@@ -1128,7 +1140,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Drawer/Drawer.js",
       "hash": "3Ob7aQ",
-      "browserifyId": 51,
+      "browserifyId": 52,
       "sourcemap": ""
     }
   ],
@@ -1141,7 +1153,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Drawer/index.js",
       "hash": "kBZ9cw",
-      "browserifyId": 52,
+      "browserifyId": 53,
       "sourcemap": ""
     }
   ],
@@ -1167,7 +1179,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Fade/Fade.js",
       "hash": "5oLyVg",
-      "browserifyId": 53,
+      "browserifyId": 54,
       "sourcemap": ""
     }
   ],
@@ -1180,7 +1192,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Fade/index.js",
       "hash": "6Mn5Lg",
-      "browserifyId": 54,
+      "browserifyId": 55,
       "sourcemap": ""
     }
   ],
@@ -1194,8 +1206,8 @@
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "../styles/createBreakpoints": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createBreakpoints.js",
       "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js"
@@ -1203,7 +1215,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Grid/Grid.js",
       "hash": "qP77Sg",
-      "browserifyId": 55,
+      "browserifyId": 56,
       "sourcemap": ""
     }
   ],
@@ -1216,7 +1228,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Grid/index.js",
       "hash": "ECfXWQ",
-      "browserifyId": 56,
+      "browserifyId": 57,
       "sourcemap": ""
     }
   ],
@@ -1240,7 +1252,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/IconButton/IconButton.js",
       "hash": "oM6ZMQ",
-      "browserifyId": 57,
+      "browserifyId": 58,
       "sourcemap": ""
     }
   ],
@@ -1253,7 +1265,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/IconButton/index.js",
       "hash": "pVN8jQ",
-      "browserifyId": 58,
+      "browserifyId": 59,
       "sourcemap": ""
     }
   ],
@@ -1267,15 +1279,15 @@
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "./ListContext": "/home/dustin/CS/recipes/node_modules/@material-ui/core/List/ListContext.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/List/List.js",
       "hash": "sTjIFg",
-      "browserifyId": 59,
+      "browserifyId": 60,
       "sourcemap": ""
     }
   ],
@@ -1288,7 +1300,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/List/ListContext.js",
       "hash": "TYryqA",
-      "browserifyId": 60,
+      "browserifyId": 61,
       "sourcemap": ""
     }
   ],
@@ -1301,7 +1313,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/List/index.js",
       "hash": "DLbCfA",
-      "browserifyId": 61,
+      "browserifyId": 62,
       "sourcemap": ""
     }
   ],
@@ -1325,7 +1337,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ListItem/ListItem.js",
       "hash": "FG+7WA",
-      "browserifyId": 62,
+      "browserifyId": 63,
       "sourcemap": ""
     }
   ],
@@ -1341,7 +1353,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ListItem/MergeListContext.js",
       "hash": "N/DrGA",
-      "browserifyId": 63,
+      "browserifyId": 64,
       "sourcemap": ""
     }
   ],
@@ -1354,7 +1366,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ListItem/index.js",
       "hash": "2ZI8Yg",
-      "browserifyId": 64,
+      "browserifyId": 65,
       "sourcemap": ""
     }
   ],
@@ -1390,7 +1402,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Modal/Modal.js",
       "hash": "ijyJ6g",
-      "browserifyId": 65,
+      "browserifyId": 66,
       "sourcemap": ""
     }
   ],
@@ -1409,7 +1421,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Modal/ModalManager.js",
       "hash": "/ZpIlg",
-      "browserifyId": 66,
+      "browserifyId": 67,
       "sourcemap": ""
     }
   ],
@@ -1423,7 +1435,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Modal/index.js",
       "hash": "yCdngw",
-      "browserifyId": 67,
+      "browserifyId": 68,
       "sourcemap": ""
     }
   ],
@@ -1438,7 +1450,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Modal/isOverflowing.js",
       "hash": "TRwzhA",
-      "browserifyId": 68,
+      "browserifyId": 69,
       "sourcemap": ""
     }
   ],
@@ -1448,7 +1460,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Modal/manageAriaHidden.js",
       "hash": "w9JxHw",
-      "browserifyId": 69,
+      "browserifyId": 70,
       "sourcemap": ""
     }
   ],
@@ -1459,17 +1471,17 @@
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
-      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
-      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/NoSsr/NoSsr.js",
       "hash": "HZySrw",
-      "browserifyId": 70,
+      "browserifyId": 71,
       "sourcemap": ""
     }
   ],
@@ -1482,7 +1494,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/NoSsr/index.js",
       "hash": "pyUwQQ",
-      "browserifyId": 71,
+      "browserifyId": 72,
       "sourcemap": ""
     }
   ],
@@ -1504,7 +1516,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Paper/Paper.js",
       "hash": "pgo4yg",
-      "browserifyId": 72,
+      "browserifyId": 73,
       "sourcemap": ""
     }
   ],
@@ -1517,7 +1529,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Paper/index.js",
       "hash": "2UE99Q",
-      "browserifyId": 73,
+      "browserifyId": 74,
       "sourcemap": ""
     }
   ],
@@ -1540,7 +1552,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Portal/Portal.js",
       "hash": "k3ALMQ",
-      "browserifyId": 74,
+      "browserifyId": 75,
       "sourcemap": ""
     }
   ],
@@ -1553,7 +1565,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Portal/index.js",
       "hash": "jT7MBw",
-      "browserifyId": 75,
+      "browserifyId": 76,
       "sourcemap": ""
     }
   ],
@@ -1576,7 +1588,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/RootRef/RootRef.js",
       "hash": "Nohiiw",
-      "browserifyId": 76,
+      "browserifyId": 77,
       "sourcemap": ""
     }
   ],
@@ -1589,7 +1601,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/RootRef/index.js",
       "hash": "m/nIUw",
-      "browserifyId": 77,
+      "browserifyId": 78,
       "sourcemap": ""
     }
   ],
@@ -1607,8 +1619,8 @@
       "react-event-listener": "/home/dustin/CS/recipes/node_modules/react-event-listener/dist/react-event-listener.cjs.js",
       "debounce": "/home/dustin/CS/recipes/node_modules/debounce/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
@@ -1619,7 +1631,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Slide/Slide.js",
       "hash": "BV3eFQ",
-      "browserifyId": 78,
+      "browserifyId": 79,
       "sourcemap": ""
     }
   ],
@@ -1632,7 +1644,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Slide/index.js",
       "hash": "Il8iuw",
-      "browserifyId": 79,
+      "browserifyId": 80,
       "sourcemap": ""
     }
   ],
@@ -1649,12 +1661,12 @@
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
-      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
@@ -1664,7 +1676,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Snackbar/Snackbar.js",
       "hash": "aewrQw",
-      "browserifyId": 80,
+      "browserifyId": 81,
       "sourcemap": ""
     }
   ],
@@ -1677,7 +1689,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Snackbar/index.js",
       "hash": "/CrN9Q",
-      "browserifyId": 81,
+      "browserifyId": 82,
       "sourcemap": ""
     }
   ],
@@ -1700,7 +1712,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/SnackbarContent/SnackbarContent.js",
       "hash": "b3Gckw",
-      "browserifyId": 82,
+      "browserifyId": 83,
       "sourcemap": ""
     }
   ],
@@ -1713,7 +1725,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/SnackbarContent/index.js",
       "hash": "/7IcEg",
-      "browserifyId": 83,
+      "browserifyId": 84,
       "sourcemap": ""
     }
   ],
@@ -1728,14 +1740,14 @@
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js"
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/SvgIcon/SvgIcon.js",
       "hash": "eeOS+w",
-      "browserifyId": 84,
+      "browserifyId": 85,
       "sourcemap": ""
     }
   ],
@@ -1748,7 +1760,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/SvgIcon/index.js",
       "hash": "J8XTmg",
-      "browserifyId": 85,
+      "browserifyId": 86,
       "sourcemap": ""
     }
   ],
@@ -1758,17 +1770,17 @@
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
-      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Toolbar/Toolbar.js",
       "hash": "LAUIRw",
-      "browserifyId": 86,
+      "browserifyId": 87,
       "sourcemap": ""
     }
   ],
@@ -1781,7 +1793,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Toolbar/index.js",
       "hash": "N8ey5A",
-      "browserifyId": 87,
+      "browserifyId": 88,
       "sourcemap": ""
     }
   ],
@@ -1803,7 +1815,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Typography/Typography.js",
       "hash": "BAGm/w",
-      "browserifyId": 88,
+      "browserifyId": 89,
       "sourcemap": ""
     }
   ],
@@ -1816,7 +1828,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Typography/index.js",
       "hash": "bgwwOg",
-      "browserifyId": 89,
+      "browserifyId": 90,
       "sourcemap": ""
     }
   ],
@@ -1826,7 +1838,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/amber.js",
       "hash": "w1SMLA",
-      "browserifyId": 90,
+      "browserifyId": 91,
       "sourcemap": ""
     }
   ],
@@ -1836,7 +1848,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/blue.js",
       "hash": "768eXQ",
-      "browserifyId": 91,
+      "browserifyId": 92,
       "sourcemap": ""
     }
   ],
@@ -1846,7 +1858,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/common.js",
       "hash": "CHHGcg",
-      "browserifyId": 92,
+      "browserifyId": 93,
       "sourcemap": ""
     }
   ],
@@ -1856,7 +1868,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/green.js",
       "hash": "Ncwl3A",
-      "browserifyId": 93,
+      "browserifyId": 94,
       "sourcemap": ""
     }
   ],
@@ -1866,7 +1878,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/grey.js",
       "hash": "Wp52MQ",
-      "browserifyId": 94,
+      "browserifyId": 95,
       "sourcemap": ""
     }
   ],
@@ -1876,7 +1888,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/indigo.js",
       "hash": "wNo+OA",
-      "browserifyId": 95,
+      "browserifyId": 96,
       "sourcemap": ""
     }
   ],
@@ -1886,7 +1898,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/orange.js",
       "hash": "ZHMo0w",
-      "browserifyId": 96,
+      "browserifyId": 97,
       "sourcemap": ""
     }
   ],
@@ -1896,7 +1908,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/pink.js",
       "hash": "/dxJiw",
-      "browserifyId": 97,
+      "browserifyId": 98,
       "sourcemap": ""
     }
   ],
@@ -1906,7 +1918,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/red.js",
       "hash": "Cyeg1Q",
-      "browserifyId": 98,
+      "browserifyId": 99,
       "sourcemap": ""
     }
   ],
@@ -1918,7 +1930,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "hash": "hWJXBw",
-      "browserifyId": 99,
+      "browserifyId": 100,
       "sourcemap": ""
     }
   ],
@@ -1928,24 +1940,24 @@
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "./themeListener": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/themeListener.js",
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
-      "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "brcast": "/home/dustin/CS/recipes/node_modules/brcast/dist/brcast.cjs.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
-      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
-      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js"
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/MuiThemeProvider.js",
       "hash": "nChW2Q",
-      "browserifyId": 100,
+      "browserifyId": 101,
       "sourcemap": ""
     }
   ],
@@ -1959,7 +1971,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/colorManipulator.js",
       "hash": "3PxGMw",
-      "browserifyId": 101,
+      "browserifyId": 102,
       "sourcemap": ""
     }
   ],
@@ -1973,7 +1985,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createBreakpoints.js",
       "hash": "UTsoEQ",
-      "browserifyId": 102,
+      "browserifyId": 103,
       "sourcemap": ""
     }
   ],
@@ -1987,7 +1999,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createGenerateClassName.js",
       "hash": "z1Q98w",
-      "browserifyId": 103,
+      "browserifyId": 104,
       "sourcemap": ""
     }
   ],
@@ -2001,7 +2013,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createMixins.js",
       "hash": "xL3hPA",
-      "browserifyId": 104,
+      "browserifyId": 105,
       "sourcemap": ""
     }
   ],
@@ -2010,17 +2022,17 @@
     {
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "./createBreakpoints": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createBreakpoints.js",
-      "./shape": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/shape.js",
       "./shadows": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/shadows.js",
+      "./shape": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/shape.js",
       "./spacing": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/spacing.js",
       "./zIndex": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/zIndex.js",
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "deepmerge": "/home/dustin/CS/recipes/node_modules/deepmerge/dist/umd.js",
       "is-plain-object": "/home/dustin/CS/recipes/node_modules/is-plain-object/index.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "./createMixins": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createMixins.js",
       "./createPalette": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createPalette.js",
       "./createTypography": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createTypography.js",
@@ -2029,7 +2041,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createMuiTheme.js",
       "hash": "jFhrMQ",
-      "browserifyId": 105,
+      "browserifyId": 106,
       "sourcemap": ""
     }
   ],
@@ -2039,10 +2051,10 @@
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "./colorManipulator": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/colorManipulator.js",
       "../colors/indigo": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/indigo.js",
-      "../colors/pink": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/pink.js",
       "../colors/grey": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/grey.js",
-      "../colors/common": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/common.js",
+      "../colors/pink": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/pink.js",
       "../colors/red": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/red.js",
+      "../colors/common": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/common.js",
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "deepmerge": "/home/dustin/CS/recipes/node_modules/deepmerge/dist/umd.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
@@ -2052,7 +2064,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createPalette.js",
       "hash": "GO4yUA",
-      "browserifyId": 106,
+      "browserifyId": 107,
       "sourcemap": ""
     }
   ],
@@ -2062,7 +2074,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createStyles.js",
       "hash": "5TGkLQ",
-      "browserifyId": 107,
+      "browserifyId": 108,
       "sourcemap": ""
     }
   ],
@@ -2080,7 +2092,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createTypography.js",
       "hash": "maXVEA",
-      "browserifyId": 108,
+      "browserifyId": 109,
       "sourcemap": ""
     }
   ],
@@ -2097,7 +2109,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/getStylesCreator.js",
       "hash": "tJ88MQ",
-      "browserifyId": 109,
+      "browserifyId": 110,
       "sourcemap": ""
     }
   ],
@@ -2107,7 +2119,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/getThemeProps.js",
       "hash": "uQEgwQ",
-      "browserifyId": 110,
+      "browserifyId": 111,
       "sourcemap": ""
     }
   ],
@@ -2126,7 +2138,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/index.js",
       "hash": "PJAYWA",
-      "browserifyId": 111,
+      "browserifyId": 112,
       "sourcemap": ""
     }
   ],
@@ -2144,7 +2156,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/jssPreset.js",
       "hash": "bJRPDQ",
-      "browserifyId": 112,
+      "browserifyId": 113,
       "sourcemap": ""
     }
   ],
@@ -2160,7 +2172,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/mergeClasses.js",
       "hash": "xJIfoQ",
-      "browserifyId": 113,
+      "browserifyId": 114,
       "sourcemap": ""
     }
   ],
@@ -2170,7 +2182,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/multiKeyStore.js",
       "hash": "VP2bqw",
-      "browserifyId": 114,
+      "browserifyId": 115,
       "sourcemap": ""
     }
   ],
@@ -2180,7 +2192,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/reactJssContext.js",
       "hash": "xZkBgA",
-      "browserifyId": 115,
+      "browserifyId": 116,
       "sourcemap": ""
     }
   ],
@@ -2190,7 +2202,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/shadows.js",
       "hash": "p0eBLg",
-      "browserifyId": 116,
+      "browserifyId": 117,
       "sourcemap": ""
     }
   ],
@@ -2200,7 +2212,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/shape.js",
       "hash": "XulhkQ",
-      "browserifyId": 117,
+      "browserifyId": 118,
       "sourcemap": ""
     }
   ],
@@ -2210,20 +2222,20 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/spacing.js",
       "hash": "AgzMGA",
-      "browserifyId": 118,
+      "browserifyId": 119,
       "sourcemap": ""
     }
   ],
   "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/themeListener.js": [
     "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.CHANNEL = void 0;\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\n// Same value used by react-jss\nvar CHANNEL = '__THEMING__';\nexports.CHANNEL = CHANNEL;\nvar themeListener = {\n  contextTypes: (0, _defineProperty2.default)({}, CHANNEL, function () {}),\n  initial: function initial(context) {\n    if (!context[CHANNEL]) {\n      return null;\n    }\n\n    return context[CHANNEL].getState();\n  },\n  subscribe: function subscribe(context, cb) {\n    if (!context[CHANNEL]) {\n      return null;\n    }\n\n    return context[CHANNEL].subscribe(cb);\n  },\n  unsubscribe: function unsubscribe(context, subscriptionId) {\n    if (context[CHANNEL]) {\n      context[CHANNEL].unsubscribe(subscriptionId);\n    }\n  }\n};\nvar _default = themeListener;\nexports.default = _default;",
     {
-      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js"
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/themeListener.js",
       "hash": "VSc2tw",
-      "browserifyId": 119,
+      "browserifyId": 120,
       "sourcemap": ""
     }
   ],
@@ -2238,7 +2250,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/transitions.js",
       "hash": "HXyDvg",
-      "browserifyId": 120,
+      "browserifyId": 121,
       "sourcemap": ""
     }
   ],
@@ -2254,14 +2266,14 @@
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "hoist-non-react-statics": "/home/dustin/CS/recipes/node_modules/@material-ui/core/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
-      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "./mergeClasses": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/mergeClasses.js",
       "./themeListener": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/themeListener.js",
@@ -2274,7 +2286,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
       "hash": "801ohA",
-      "browserifyId": 121,
+      "browserifyId": 122,
       "sourcemap": ""
     }
   ],
@@ -2291,8 +2303,8 @@
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
-      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js"
@@ -2300,7 +2312,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withTheme.js",
       "hash": "ZXGV0w",
-      "browserifyId": 122,
+      "browserifyId": 123,
       "sourcemap": ""
     }
   ],
@@ -2310,7 +2322,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/zIndex.js",
       "hash": "drf/Uw",
-      "browserifyId": 123,
+      "browserifyId": 124,
       "sourcemap": ""
     }
   ],
@@ -2320,7 +2332,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/transitions/utils.js",
       "hash": "rBL5Fw",
-      "browserifyId": 124,
+      "browserifyId": 125,
       "sourcemap": ""
     }
   ],
@@ -2335,7 +2347,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/helpers.js",
       "hash": "DRZFZw",
-      "browserifyId": 125,
+      "browserifyId": 126,
       "sourcemap": ""
     }
   ],
@@ -2345,7 +2357,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/ownerDocument.js",
       "hash": "G8mnJg",
-      "browserifyId": 126,
+      "browserifyId": 127,
       "sourcemap": ""
     }
   ],
@@ -2358,7 +2370,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/ownerWindow.js",
       "hash": "Ep2pOQ",
-      "browserifyId": 127,
+      "browserifyId": 128,
       "sourcemap": ""
     }
   ],
@@ -2372,7 +2384,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/reactHelpers.js",
       "hash": "SB+wJQ",
-      "browserifyId": 128,
+      "browserifyId": 129,
       "sourcemap": ""
     }
   ],
@@ -2384,7 +2396,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/requirePropFactory.js",
       "hash": "fveuTg",
-      "browserifyId": 129,
+      "browserifyId": 130,
       "sourcemap": ""
     }
   ],
@@ -2398,7 +2410,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/CheckCircle.js",
       "hash": "b7c3tQ",
-      "browserifyId": 130,
+      "browserifyId": 131,
       "sourcemap": ""
     }
   ],
@@ -2412,7 +2424,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/ChevronLeft.js",
       "hash": "kFthPg",
-      "browserifyId": 131,
+      "browserifyId": 132,
       "sourcemap": ""
     }
   ],
@@ -2426,7 +2438,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Close.js",
       "hash": "Oa14mg",
-      "browserifyId": 132,
+      "browserifyId": 133,
       "sourcemap": ""
     }
   ],
@@ -2440,7 +2452,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Error.js",
       "hash": "kpOixQ",
-      "browserifyId": 133,
+      "browserifyId": 134,
       "sourcemap": ""
     }
   ],
@@ -2454,7 +2466,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Info.js",
       "hash": "J+N1wQ",
-      "browserifyId": 134,
+      "browserifyId": 135,
       "sourcemap": ""
     }
   ],
@@ -2468,7 +2480,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Menu.js",
       "hash": "nDbvQQ",
-      "browserifyId": 135,
+      "browserifyId": 136,
       "sourcemap": ""
     }
   ],
@@ -2482,7 +2494,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Warning.js",
       "hash": "gZ3atA",
-      "browserifyId": 136,
+      "browserifyId": 137,
       "sourcemap": ""
     }
   ],
@@ -2497,7 +2509,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/utils/createSvgIcon.js",
       "hash": "egrKHw",
-      "browserifyId": 137,
+      "browserifyId": 138,
       "sourcemap": ""
     }
   ],
@@ -2509,7 +2521,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/chainPropTypes.js",
       "hash": "z+EVww",
-      "browserifyId": 138,
+      "browserifyId": 139,
       "sourcemap": ""
     }
   ],
@@ -2524,7 +2536,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/componentPropType.js",
       "hash": "ExFdHQ",
-      "browserifyId": 139,
+      "browserifyId": 140,
       "sourcemap": ""
     }
   ],
@@ -2539,7 +2551,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/exactProp.js",
       "hash": "wrSg+w",
-      "browserifyId": 140,
+      "browserifyId": 141,
       "sourcemap": ""
     }
   ],
@@ -2549,7 +2561,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/getDisplayName.js",
       "hash": "bUoM1A",
-      "browserifyId": 141,
+      "browserifyId": 142,
       "sourcemap": ""
     }
   ],
@@ -2566,7 +2578,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "hash": "Se3Zdg",
-      "browserifyId": 142,
+      "browserifyId": 143,
       "sourcemap": ""
     }
   ],
@@ -2576,7 +2588,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/ponyfillGlobal.js",
       "hash": "uZpySg",
-      "browserifyId": 143,
+      "browserifyId": 144,
       "sourcemap": ""
     }
   ],
@@ -2586,7 +2598,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/brcast/dist/brcast.cjs.js",
       "hash": "wux0qQ",
-      "browserifyId": 144,
+      "browserifyId": 145,
       "sourcemap": ""
     }
   ],
@@ -2596,7 +2608,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "hash": "98iN7Q",
-      "browserifyId": 145,
+      "browserifyId": 146,
       "sourcemap": ""
     }
   ],
@@ -2606,7 +2618,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/css-vendor/lib/camelize.js",
       "hash": "6Oqplw",
-      "browserifyId": 146,
+      "browserifyId": 147,
       "sourcemap": ""
     }
   ],
@@ -2620,7 +2632,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/css-vendor/lib/index.js",
       "hash": "jIStcQ",
-      "browserifyId": 147,
+      "browserifyId": 148,
       "sourcemap": ""
     }
   ],
@@ -2632,7 +2644,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/css-vendor/lib/prefix.js",
       "hash": "9aKl7Q",
-      "browserifyId": 148,
+      "browserifyId": 149,
       "sourcemap": ""
     }
   ],
@@ -2646,7 +2658,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/css-vendor/lib/supported-property.js",
       "hash": "mQeWqw",
-      "browserifyId": 149,
+      "browserifyId": 150,
       "sourcemap": ""
     }
   ],
@@ -2659,7 +2671,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/css-vendor/lib/supported-value.js",
       "hash": "6+nRbQ",
-      "browserifyId": 150,
+      "browserifyId": 151,
       "sourcemap": ""
     }
   ],
@@ -2669,7 +2681,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/debounce/index.js",
       "hash": "OAQUIQ",
-      "browserifyId": 151,
+      "browserifyId": 152,
       "sourcemap": ""
     }
   ],
@@ -2679,7 +2691,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/deepmerge/dist/umd.js",
       "hash": "ScFmCA",
-      "browserifyId": 152,
+      "browserifyId": 153,
       "sourcemap": ""
     }
   ],
@@ -2689,7 +2701,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/query/isWindow.js",
       "hash": "EP/r9Q",
-      "browserifyId": 153,
+      "browserifyId": 154,
       "sourcemap": ""
     }
   ],
@@ -2702,7 +2714,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/style/getComputedStyle.js",
       "hash": "AD9uqQ",
-      "browserifyId": 154,
+      "browserifyId": 155,
       "sourcemap": ""
     }
   ],
@@ -2720,7 +2732,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/style/index.js",
       "hash": "wcA/RA",
-      "browserifyId": 155,
+      "browserifyId": 156,
       "sourcemap": ""
     }
   ],
@@ -2730,7 +2742,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/style/removeStyle.js",
       "hash": "dcdjDA",
-      "browserifyId": 156,
+      "browserifyId": 157,
       "sourcemap": ""
     }
   ],
@@ -2740,7 +2752,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/transition/isTransform.js",
       "hash": "YCiuwQ",
-      "browserifyId": 157,
+      "browserifyId": 158,
       "sourcemap": ""
     }
   ],
@@ -2753,7 +2765,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/transition/properties.js",
       "hash": "QhezKw",
-      "browserifyId": 158,
+      "browserifyId": 159,
       "sourcemap": ""
     }
   ],
@@ -2763,7 +2775,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/util/camelize.js",
       "hash": "ZQyNJg",
-      "browserifyId": 159,
+      "browserifyId": 160,
       "sourcemap": ""
     }
   ],
@@ -2776,7 +2788,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/util/camelizeStyle.js",
       "hash": "2iO9kg",
-      "browserifyId": 160,
+      "browserifyId": 161,
       "sourcemap": ""
     }
   ],
@@ -2786,7 +2798,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/util/hyphenate.js",
       "hash": "V4LpCA",
-      "browserifyId": 161,
+      "browserifyId": 162,
       "sourcemap": ""
     }
   ],
@@ -2799,7 +2811,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/util/hyphenateStyle.js",
       "hash": "GTLlkA",
-      "browserifyId": 162,
+      "browserifyId": 163,
       "sourcemap": ""
     }
   ],
@@ -2809,7 +2821,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/util/inDOM.js",
       "hash": "K/17rg",
-      "browserifyId": 163,
+      "browserifyId": 164,
       "sourcemap": ""
     }
   ],
@@ -2822,7 +2834,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/util/scrollbarSize.js",
       "hash": "BEJQOw",
-      "browserifyId": 164,
+      "browserifyId": 165,
       "sourcemap": ""
     }
   ],
@@ -2832,7 +2844,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/fbjs/lib/shallowEqual.js",
       "hash": "RQRiEA",
-      "browserifyId": 165,
+      "browserifyId": 166,
       "sourcemap": ""
     }
   ],
@@ -2844,7 +2856,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/firebase/app/dist/index.cjs.js",
       "hash": "hYEDtw",
-      "browserifyId": 166,
+      "browserifyId": 167,
       "sourcemap": ""
     }
   ],
@@ -2856,7 +2868,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/firebase/auth/dist/index.cjs.js",
       "hash": "Ij4Vlw",
-      "browserifyId": 167,
+      "browserifyId": 168,
       "sourcemap": ""
     }
   ],
@@ -2868,37 +2880,37 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/firebase/firestore/dist/index.cjs.js",
       "hash": "PgNi0A",
-      "browserifyId": 168,
+      "browserifyId": 169,
       "sourcemap": ""
     }
   ],
   "/home/dustin/CS/recipes/node_modules/history/cjs/history.js": [
     "'use strict';\n\nObject.defineProperty(exports, '__esModule', { value: true });\n\nfunction _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }\n\nvar resolvePathname = _interopDefault(require('resolve-pathname'));\nvar valueEqual = _interopDefault(require('value-equal'));\nvar warning = _interopDefault(require('tiny-warning'));\nvar invariant = _interopDefault(require('tiny-invariant'));\n\nfunction _extends() {\n  _extends = Object.assign || function (target) {\n    for (var i = 1; i < arguments.length; i++) {\n      var source = arguments[i];\n\n      for (var key in source) {\n        if (Object.prototype.hasOwnProperty.call(source, key)) {\n          target[key] = source[key];\n        }\n      }\n    }\n\n    return target;\n  };\n\n  return _extends.apply(this, arguments);\n}\n\nfunction addLeadingSlash(path) {\n  return path.charAt(0) === '/' ? path : '/' + path;\n}\nfunction stripLeadingSlash(path) {\n  return path.charAt(0) === '/' ? path.substr(1) : path;\n}\nfunction hasBasename(path, prefix) {\n  return new RegExp('^' + prefix + '(\\\\/|\\\\?|#|$)', 'i').test(path);\n}\nfunction stripBasename(path, prefix) {\n  return hasBasename(path, prefix) ? path.substr(prefix.length) : path;\n}\nfunction stripTrailingSlash(path) {\n  return path.charAt(path.length - 1) === '/' ? path.slice(0, -1) : path;\n}\nfunction parsePath(path) {\n  var pathname = path || '/';\n  var search = '';\n  var hash = '';\n  var hashIndex = pathname.indexOf('#');\n\n  if (hashIndex !== -1) {\n    hash = pathname.substr(hashIndex);\n    pathname = pathname.substr(0, hashIndex);\n  }\n\n  var searchIndex = pathname.indexOf('?');\n\n  if (searchIndex !== -1) {\n    search = pathname.substr(searchIndex);\n    pathname = pathname.substr(0, searchIndex);\n  }\n\n  return {\n    pathname: pathname,\n    search: search === '?' ? '' : search,\n    hash: hash === '#' ? '' : hash\n  };\n}\nfunction createPath(location) {\n  var pathname = location.pathname,\n      search = location.search,\n      hash = location.hash;\n  var path = pathname || '/';\n  if (search && search !== '?') path += search.charAt(0) === '?' ? search : \"?\" + search;\n  if (hash && hash !== '#') path += hash.charAt(0) === '#' ? hash : \"#\" + hash;\n  return path;\n}\n\nfunction createLocation(path, state, key, currentLocation) {\n  var location;\n\n  if (typeof path === 'string') {\n    // Two-arg form: push(path, state)\n    location = parsePath(path);\n    location.state = state;\n  } else {\n    // One-arg form: push(location)\n    location = _extends({}, path);\n    if (location.pathname === undefined) location.pathname = '';\n\n    if (location.search) {\n      if (location.search.charAt(0) !== '?') location.search = '?' + location.search;\n    } else {\n      location.search = '';\n    }\n\n    if (location.hash) {\n      if (location.hash.charAt(0) !== '#') location.hash = '#' + location.hash;\n    } else {\n      location.hash = '';\n    }\n\n    if (state !== undefined && location.state === undefined) location.state = state;\n  }\n\n  try {\n    location.pathname = decodeURI(location.pathname);\n  } catch (e) {\n    if (e instanceof URIError) {\n      throw new URIError('Pathname \"' + location.pathname + '\" could not be decoded. ' + 'This is likely caused by an invalid percent-encoding.');\n    } else {\n      throw e;\n    }\n  }\n\n  if (key) location.key = key;\n\n  if (currentLocation) {\n    // Resolve incomplete/relative pathname relative to current location.\n    if (!location.pathname) {\n      location.pathname = currentLocation.pathname;\n    } else if (location.pathname.charAt(0) !== '/') {\n      location.pathname = resolvePathname(location.pathname, currentLocation.pathname);\n    }\n  } else {\n    // When there is no prior location and pathname is empty, set it to /\n    if (!location.pathname) {\n      location.pathname = '/';\n    }\n  }\n\n  return location;\n}\nfunction locationsAreEqual(a, b) {\n  return a.pathname === b.pathname && a.search === b.search && a.hash === b.hash && a.key === b.key && valueEqual(a.state, b.state);\n}\n\nfunction createTransitionManager() {\n  var prompt = null;\n\n  function setPrompt(nextPrompt) {\n    warning(prompt == null, 'A history supports only one prompt at a time');\n    prompt = nextPrompt;\n    return function () {\n      if (prompt === nextPrompt) prompt = null;\n    };\n  }\n\n  function confirmTransitionTo(location, action, getUserConfirmation, callback) {\n    // TODO: If another transition starts while we're still confirming\n    // the previous one, we may end up in a weird state. Figure out the\n    // best way to handle this.\n    if (prompt != null) {\n      var result = typeof prompt === 'function' ? prompt(location, action) : prompt;\n\n      if (typeof result === 'string') {\n        if (typeof getUserConfirmation === 'function') {\n          getUserConfirmation(result, callback);\n        } else {\n          warning(false, 'A history needs a getUserConfirmation function in order to use a prompt message');\n          callback(true);\n        }\n      } else {\n        // Return false from a transition hook to cancel the transition.\n        callback(result !== false);\n      }\n    } else {\n      callback(true);\n    }\n  }\n\n  var listeners = [];\n\n  function appendListener(fn) {\n    var isActive = true;\n\n    function listener() {\n      if (isActive) fn.apply(void 0, arguments);\n    }\n\n    listeners.push(listener);\n    return function () {\n      isActive = false;\n      listeners = listeners.filter(function (item) {\n        return item !== listener;\n      });\n    };\n  }\n\n  function notifyListeners() {\n    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    listeners.forEach(function (listener) {\n      return listener.apply(void 0, args);\n    });\n  }\n\n  return {\n    setPrompt: setPrompt,\n    confirmTransitionTo: confirmTransitionTo,\n    appendListener: appendListener,\n    notifyListeners: notifyListeners\n  };\n}\n\nvar canUseDOM = !!(typeof window !== 'undefined' && window.document && window.document.createElement);\nfunction getConfirmation(message, callback) {\n  callback(window.confirm(message)); // eslint-disable-line no-alert\n}\n/**\n * Returns true if the HTML5 history API is supported. Taken from Modernizr.\n *\n * https://github.com/Modernizr/Modernizr/blob/master/LICENSE\n * https://github.com/Modernizr/Modernizr/blob/master/feature-detects/history.js\n * changed to avoid false negatives for Windows Phones: https://github.com/reactjs/react-router/issues/586\n */\n\nfunction supportsHistory() {\n  var ua = window.navigator.userAgent;\n  if ((ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) && ua.indexOf('Mobile Safari') !== -1 && ua.indexOf('Chrome') === -1 && ua.indexOf('Windows Phone') === -1) return false;\n  return window.history && 'pushState' in window.history;\n}\n/**\n * Returns true if browser fires popstate on hash change.\n * IE10 and IE11 do not.\n */\n\nfunction supportsPopStateOnHashChange() {\n  return window.navigator.userAgent.indexOf('Trident') === -1;\n}\n/**\n * Returns false if using go(n) with hash history causes a full page reload.\n */\n\nfunction supportsGoWithoutReloadUsingHash() {\n  return window.navigator.userAgent.indexOf('Firefox') === -1;\n}\n/**\n * Returns true if a given popstate event is an extraneous WebKit event.\n * Accounts for the fact that Chrome on iOS fires real popstate events\n * containing undefined state when pressing the back button.\n */\n\nfunction isExtraneousPopstateEvent(event) {\n  event.state === undefined && navigator.userAgent.indexOf('CriOS') === -1;\n}\n\nvar PopStateEvent = 'popstate';\nvar HashChangeEvent = 'hashchange';\n\nfunction getHistoryState() {\n  try {\n    return window.history.state || {};\n  } catch (e) {\n    // IE 11 sometimes throws when accessing window.history.state\n    // See https://github.com/ReactTraining/history/pull/289\n    return {};\n  }\n}\n/**\n * Creates a history object that uses the HTML5 history API including\n * pushState, replaceState, and the popstate event.\n */\n\n\nfunction createBrowserHistory(props) {\n  if (props === void 0) {\n    props = {};\n  }\n\n  !canUseDOM ? invariant(false, 'Browser history needs a DOM') : void 0;\n  var globalHistory = window.history;\n  var canUseHistory = supportsHistory();\n  var needsHashChangeListener = !supportsPopStateOnHashChange();\n  var _props = props,\n      _props$forceRefresh = _props.forceRefresh,\n      forceRefresh = _props$forceRefresh === void 0 ? false : _props$forceRefresh,\n      _props$getUserConfirm = _props.getUserConfirmation,\n      getUserConfirmation = _props$getUserConfirm === void 0 ? getConfirmation : _props$getUserConfirm,\n      _props$keyLength = _props.keyLength,\n      keyLength = _props$keyLength === void 0 ? 6 : _props$keyLength;\n  var basename = props.basename ? stripTrailingSlash(addLeadingSlash(props.basename)) : '';\n\n  function getDOMLocation(historyState) {\n    var _ref = historyState || {},\n        key = _ref.key,\n        state = _ref.state;\n\n    var _window$location = window.location,\n        pathname = _window$location.pathname,\n        search = _window$location.search,\n        hash = _window$location.hash;\n    var path = pathname + search + hash;\n    warning(!basename || hasBasename(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path \"' + path + '\" to begin with \"' + basename + '\".');\n    if (basename) path = stripBasename(path, basename);\n    return createLocation(path, state, key);\n  }\n\n  function createKey() {\n    return Math.random().toString(36).substr(2, keyLength);\n  }\n\n  var transitionManager = createTransitionManager();\n\n  function setState(nextState) {\n    _extends(history, nextState);\n\n    history.length = globalHistory.length;\n    transitionManager.notifyListeners(history.location, history.action);\n  }\n\n  function handlePopState(event) {\n    // Ignore extraneous popstate events in WebKit.\n    if (isExtraneousPopstateEvent(event)) return;\n    handlePop(getDOMLocation(event.state));\n  }\n\n  function handleHashChange() {\n    handlePop(getDOMLocation(getHistoryState()));\n  }\n\n  var forceNextPop = false;\n\n  function handlePop(location) {\n    if (forceNextPop) {\n      forceNextPop = false;\n      setState();\n    } else {\n      var action = 'POP';\n      transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {\n        if (ok) {\n          setState({\n            action: action,\n            location: location\n          });\n        } else {\n          revertPop(location);\n        }\n      });\n    }\n  }\n\n  function revertPop(fromLocation) {\n    var toLocation = history.location; // TODO: We could probably make this more reliable by\n    // keeping a list of keys we've seen in sessionStorage.\n    // Instead, we just default to 0 for keys we don't know.\n\n    var toIndex = allKeys.indexOf(toLocation.key);\n    if (toIndex === -1) toIndex = 0;\n    var fromIndex = allKeys.indexOf(fromLocation.key);\n    if (fromIndex === -1) fromIndex = 0;\n    var delta = toIndex - fromIndex;\n\n    if (delta) {\n      forceNextPop = true;\n      go(delta);\n    }\n  }\n\n  var initialLocation = getDOMLocation(getHistoryState());\n  var allKeys = [initialLocation.key]; // Public interface\n\n  function createHref(location) {\n    return basename + createPath(location);\n  }\n\n  function push(path, state) {\n    warning(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to push when the 1st ' + 'argument is a location-like object that already has state; it is ignored');\n    var action = 'PUSH';\n    var location = createLocation(path, state, createKey(), history.location);\n    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {\n      if (!ok) return;\n      var href = createHref(location);\n      var key = location.key,\n          state = location.state;\n\n      if (canUseHistory) {\n        globalHistory.pushState({\n          key: key,\n          state: state\n        }, null, href);\n\n        if (forceRefresh) {\n          window.location.href = href;\n        } else {\n          var prevIndex = allKeys.indexOf(history.location.key);\n          var nextKeys = allKeys.slice(0, prevIndex === -1 ? 0 : prevIndex + 1);\n          nextKeys.push(location.key);\n          allKeys = nextKeys;\n          setState({\n            action: action,\n            location: location\n          });\n        }\n      } else {\n        warning(state === undefined, 'Browser history cannot push state in browsers that do not support HTML5 history');\n        window.location.href = href;\n      }\n    });\n  }\n\n  function replace(path, state) {\n    warning(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to replace when the 1st ' + 'argument is a location-like object that already has state; it is ignored');\n    var action = 'REPLACE';\n    var location = createLocation(path, state, createKey(), history.location);\n    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {\n      if (!ok) return;\n      var href = createHref(location);\n      var key = location.key,\n          state = location.state;\n\n      if (canUseHistory) {\n        globalHistory.replaceState({\n          key: key,\n          state: state\n        }, null, href);\n\n        if (forceRefresh) {\n          window.location.replace(href);\n        } else {\n          var prevIndex = allKeys.indexOf(history.location.key);\n          if (prevIndex !== -1) allKeys[prevIndex] = location.key;\n          setState({\n            action: action,\n            location: location\n          });\n        }\n      } else {\n        warning(state === undefined, 'Browser history cannot replace state in browsers that do not support HTML5 history');\n        window.location.replace(href);\n      }\n    });\n  }\n\n  function go(n) {\n    globalHistory.go(n);\n  }\n\n  function goBack() {\n    go(-1);\n  }\n\n  function goForward() {\n    go(1);\n  }\n\n  var listenerCount = 0;\n\n  function checkDOMListeners(delta) {\n    listenerCount += delta;\n\n    if (listenerCount === 1 && delta === 1) {\n      window.addEventListener(PopStateEvent, handlePopState);\n      if (needsHashChangeListener) window.addEventListener(HashChangeEvent, handleHashChange);\n    } else if (listenerCount === 0) {\n      window.removeEventListener(PopStateEvent, handlePopState);\n      if (needsHashChangeListener) window.removeEventListener(HashChangeEvent, handleHashChange);\n    }\n  }\n\n  var isBlocked = false;\n\n  function block(prompt) {\n    if (prompt === void 0) {\n      prompt = false;\n    }\n\n    var unblock = transitionManager.setPrompt(prompt);\n\n    if (!isBlocked) {\n      checkDOMListeners(1);\n      isBlocked = true;\n    }\n\n    return function () {\n      if (isBlocked) {\n        isBlocked = false;\n        checkDOMListeners(-1);\n      }\n\n      return unblock();\n    };\n  }\n\n  function listen(listener) {\n    var unlisten = transitionManager.appendListener(listener);\n    checkDOMListeners(1);\n    return function () {\n      checkDOMListeners(-1);\n      unlisten();\n    };\n  }\n\n  var history = {\n    length: globalHistory.length,\n    action: 'POP',\n    location: initialLocation,\n    createHref: createHref,\n    push: push,\n    replace: replace,\n    go: go,\n    goBack: goBack,\n    goForward: goForward,\n    block: block,\n    listen: listen\n  };\n  return history;\n}\n\nvar HashChangeEvent$1 = 'hashchange';\nvar HashPathCoders = {\n  hashbang: {\n    encodePath: function encodePath(path) {\n      return path.charAt(0) === '!' ? path : '!/' + stripLeadingSlash(path);\n    },\n    decodePath: function decodePath(path) {\n      return path.charAt(0) === '!' ? path.substr(1) : path;\n    }\n  },\n  noslash: {\n    encodePath: stripLeadingSlash,\n    decodePath: addLeadingSlash\n  },\n  slash: {\n    encodePath: addLeadingSlash,\n    decodePath: addLeadingSlash\n  }\n};\n\nfunction getHashPath() {\n  // We can't use window.location.hash here because it's not\n  // consistent across browsers - Firefox will pre-decode it!\n  var href = window.location.href;\n  var hashIndex = href.indexOf('#');\n  return hashIndex === -1 ? '' : href.substring(hashIndex + 1);\n}\n\nfunction pushHashPath(path) {\n  window.location.hash = path;\n}\n\nfunction replaceHashPath(path) {\n  var hashIndex = window.location.href.indexOf('#');\n  window.location.replace(window.location.href.slice(0, hashIndex >= 0 ? hashIndex : 0) + '#' + path);\n}\n\nfunction createHashHistory(props) {\n  if (props === void 0) {\n    props = {};\n  }\n\n  !canUseDOM ? invariant(false, 'Hash history needs a DOM') : void 0;\n  var globalHistory = window.history;\n  var canGoWithoutReload = supportsGoWithoutReloadUsingHash();\n  var _props = props,\n      _props$getUserConfirm = _props.getUserConfirmation,\n      getUserConfirmation = _props$getUserConfirm === void 0 ? getConfirmation : _props$getUserConfirm,\n      _props$hashType = _props.hashType,\n      hashType = _props$hashType === void 0 ? 'slash' : _props$hashType;\n  var basename = props.basename ? stripTrailingSlash(addLeadingSlash(props.basename)) : '';\n  var _HashPathCoders$hashT = HashPathCoders[hashType],\n      encodePath = _HashPathCoders$hashT.encodePath,\n      decodePath = _HashPathCoders$hashT.decodePath;\n\n  function getDOMLocation() {\n    var path = decodePath(getHashPath());\n    warning(!basename || hasBasename(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path \"' + path + '\" to begin with \"' + basename + '\".');\n    if (basename) path = stripBasename(path, basename);\n    return createLocation(path);\n  }\n\n  var transitionManager = createTransitionManager();\n\n  function setState(nextState) {\n    _extends(history, nextState);\n\n    history.length = globalHistory.length;\n    transitionManager.notifyListeners(history.location, history.action);\n  }\n\n  var forceNextPop = false;\n  var ignorePath = null;\n\n  function handleHashChange() {\n    var path = getHashPath();\n    var encodedPath = encodePath(path);\n\n    if (path !== encodedPath) {\n      // Ensure we always have a properly-encoded hash.\n      replaceHashPath(encodedPath);\n    } else {\n      var location = getDOMLocation();\n      var prevLocation = history.location;\n      if (!forceNextPop && locationsAreEqual(prevLocation, location)) return; // A hashchange doesn't always == location change.\n\n      if (ignorePath === createPath(location)) return; // Ignore this change; we already setState in push/replace.\n\n      ignorePath = null;\n      handlePop(location);\n    }\n  }\n\n  function handlePop(location) {\n    if (forceNextPop) {\n      forceNextPop = false;\n      setState();\n    } else {\n      var action = 'POP';\n      transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {\n        if (ok) {\n          setState({\n            action: action,\n            location: location\n          });\n        } else {\n          revertPop(location);\n        }\n      });\n    }\n  }\n\n  function revertPop(fromLocation) {\n    var toLocation = history.location; // TODO: We could probably make this more reliable by\n    // keeping a list of paths we've seen in sessionStorage.\n    // Instead, we just default to 0 for paths we don't know.\n\n    var toIndex = allPaths.lastIndexOf(createPath(toLocation));\n    if (toIndex === -1) toIndex = 0;\n    var fromIndex = allPaths.lastIndexOf(createPath(fromLocation));\n    if (fromIndex === -1) fromIndex = 0;\n    var delta = toIndex - fromIndex;\n\n    if (delta) {\n      forceNextPop = true;\n      go(delta);\n    }\n  } // Ensure the hash is encoded properly before doing anything else.\n\n\n  var path = getHashPath();\n  var encodedPath = encodePath(path);\n  if (path !== encodedPath) replaceHashPath(encodedPath);\n  var initialLocation = getDOMLocation();\n  var allPaths = [createPath(initialLocation)]; // Public interface\n\n  function createHref(location) {\n    return '#' + encodePath(basename + createPath(location));\n  }\n\n  function push(path, state) {\n    warning(state === undefined, 'Hash history cannot push state; it is ignored');\n    var action = 'PUSH';\n    var location = createLocation(path, undefined, undefined, history.location);\n    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {\n      if (!ok) return;\n      var path = createPath(location);\n      var encodedPath = encodePath(basename + path);\n      var hashChanged = getHashPath() !== encodedPath;\n\n      if (hashChanged) {\n        // We cannot tell if a hashchange was caused by a PUSH, so we'd\n        // rather setState here and ignore the hashchange. The caveat here\n        // is that other hash histories in the page will consider it a POP.\n        ignorePath = path;\n        pushHashPath(encodedPath);\n        var prevIndex = allPaths.lastIndexOf(createPath(history.location));\n        var nextPaths = allPaths.slice(0, prevIndex === -1 ? 0 : prevIndex + 1);\n        nextPaths.push(path);\n        allPaths = nextPaths;\n        setState({\n          action: action,\n          location: location\n        });\n      } else {\n        warning(false, 'Hash history cannot PUSH the same path; a new entry will not be added to the history stack');\n        setState();\n      }\n    });\n  }\n\n  function replace(path, state) {\n    warning(state === undefined, 'Hash history cannot replace state; it is ignored');\n    var action = 'REPLACE';\n    var location = createLocation(path, undefined, undefined, history.location);\n    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {\n      if (!ok) return;\n      var path = createPath(location);\n      var encodedPath = encodePath(basename + path);\n      var hashChanged = getHashPath() !== encodedPath;\n\n      if (hashChanged) {\n        // We cannot tell if a hashchange was caused by a REPLACE, so we'd\n        // rather setState here and ignore the hashchange. The caveat here\n        // is that other hash histories in the page will consider it a POP.\n        ignorePath = path;\n        replaceHashPath(encodedPath);\n      }\n\n      var prevIndex = allPaths.indexOf(createPath(history.location));\n      if (prevIndex !== -1) allPaths[prevIndex] = path;\n      setState({\n        action: action,\n        location: location\n      });\n    });\n  }\n\n  function go(n) {\n    warning(canGoWithoutReload, 'Hash history go(n) causes a full page reload in this browser');\n    globalHistory.go(n);\n  }\n\n  function goBack() {\n    go(-1);\n  }\n\n  function goForward() {\n    go(1);\n  }\n\n  var listenerCount = 0;\n\n  function checkDOMListeners(delta) {\n    listenerCount += delta;\n\n    if (listenerCount === 1 && delta === 1) {\n      window.addEventListener(HashChangeEvent$1, handleHashChange);\n    } else if (listenerCount === 0) {\n      window.removeEventListener(HashChangeEvent$1, handleHashChange);\n    }\n  }\n\n  var isBlocked = false;\n\n  function block(prompt) {\n    if (prompt === void 0) {\n      prompt = false;\n    }\n\n    var unblock = transitionManager.setPrompt(prompt);\n\n    if (!isBlocked) {\n      checkDOMListeners(1);\n      isBlocked = true;\n    }\n\n    return function () {\n      if (isBlocked) {\n        isBlocked = false;\n        checkDOMListeners(-1);\n      }\n\n      return unblock();\n    };\n  }\n\n  function listen(listener) {\n    var unlisten = transitionManager.appendListener(listener);\n    checkDOMListeners(1);\n    return function () {\n      checkDOMListeners(-1);\n      unlisten();\n    };\n  }\n\n  var history = {\n    length: globalHistory.length,\n    action: 'POP',\n    location: initialLocation,\n    createHref: createHref,\n    push: push,\n    replace: replace,\n    go: go,\n    goBack: goBack,\n    goForward: goForward,\n    block: block,\n    listen: listen\n  };\n  return history;\n}\n\nfunction clamp(n, lowerBound, upperBound) {\n  return Math.min(Math.max(n, lowerBound), upperBound);\n}\n/**\n * Creates a history object that stores locations in memory.\n */\n\n\nfunction createMemoryHistory(props) {\n  if (props === void 0) {\n    props = {};\n  }\n\n  var _props = props,\n      getUserConfirmation = _props.getUserConfirmation,\n      _props$initialEntries = _props.initialEntries,\n      initialEntries = _props$initialEntries === void 0 ? ['/'] : _props$initialEntries,\n      _props$initialIndex = _props.initialIndex,\n      initialIndex = _props$initialIndex === void 0 ? 0 : _props$initialIndex,\n      _props$keyLength = _props.keyLength,\n      keyLength = _props$keyLength === void 0 ? 6 : _props$keyLength;\n  var transitionManager = createTransitionManager();\n\n  function setState(nextState) {\n    _extends(history, nextState);\n\n    history.length = history.entries.length;\n    transitionManager.notifyListeners(history.location, history.action);\n  }\n\n  function createKey() {\n    return Math.random().toString(36).substr(2, keyLength);\n  }\n\n  var index = clamp(initialIndex, 0, initialEntries.length - 1);\n  var entries = initialEntries.map(function (entry) {\n    return typeof entry === 'string' ? createLocation(entry, undefined, createKey()) : createLocation(entry, undefined, entry.key || createKey());\n  }); // Public interface\n\n  var createHref = createPath;\n\n  function push(path, state) {\n    warning(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to push when the 1st ' + 'argument is a location-like object that already has state; it is ignored');\n    var action = 'PUSH';\n    var location = createLocation(path, state, createKey(), history.location);\n    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {\n      if (!ok) return;\n      var prevIndex = history.index;\n      var nextIndex = prevIndex + 1;\n      var nextEntries = history.entries.slice(0);\n\n      if (nextEntries.length > nextIndex) {\n        nextEntries.splice(nextIndex, nextEntries.length - nextIndex, location);\n      } else {\n        nextEntries.push(location);\n      }\n\n      setState({\n        action: action,\n        location: location,\n        index: nextIndex,\n        entries: nextEntries\n      });\n    });\n  }\n\n  function replace(path, state) {\n    warning(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to replace when the 1st ' + 'argument is a location-like object that already has state; it is ignored');\n    var action = 'REPLACE';\n    var location = createLocation(path, state, createKey(), history.location);\n    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {\n      if (!ok) return;\n      history.entries[history.index] = location;\n      setState({\n        action: action,\n        location: location\n      });\n    });\n  }\n\n  function go(n) {\n    var nextIndex = clamp(history.index + n, 0, history.entries.length - 1);\n    var action = 'POP';\n    var location = history.entries[nextIndex];\n    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {\n      if (ok) {\n        setState({\n          action: action,\n          location: location,\n          index: nextIndex\n        });\n      } else {\n        // Mimic the behavior of DOM histories by\n        // causing a render after a cancelled POP.\n        setState();\n      }\n    });\n  }\n\n  function goBack() {\n    go(-1);\n  }\n\n  function goForward() {\n    go(1);\n  }\n\n  function canGo(n) {\n    var nextIndex = history.index + n;\n    return nextIndex >= 0 && nextIndex < history.entries.length;\n  }\n\n  function block(prompt) {\n    if (prompt === void 0) {\n      prompt = false;\n    }\n\n    return transitionManager.setPrompt(prompt);\n  }\n\n  function listen(listener) {\n    return transitionManager.appendListener(listener);\n  }\n\n  var history = {\n    length: entries.length,\n    action: 'POP',\n    location: entries[index],\n    index: index,\n    entries: entries,\n    createHref: createHref,\n    push: push,\n    replace: replace,\n    go: go,\n    goBack: goBack,\n    goForward: goForward,\n    canGo: canGo,\n    block: block,\n    listen: listen\n  };\n  return history;\n}\n\nexports.createBrowserHistory = createBrowserHistory;\nexports.createHashHistory = createHashHistory;\nexports.createMemoryHistory = createMemoryHistory;\nexports.createLocation = createLocation;\nexports.locationsAreEqual = locationsAreEqual;\nexports.parsePath = parsePath;\nexports.createPath = createPath;\n",
     {
-      "value-equal": "/home/dustin/CS/recipes/node_modules/value-equal/cjs/index.js",
       "resolve-pathname": "/home/dustin/CS/recipes/node_modules/resolve-pathname/cjs/index.js",
-      "tiny-warning": "/home/dustin/CS/recipes/node_modules/tiny-warning/dist/tiny-warning.cjs.js",
-      "tiny-invariant": "/home/dustin/CS/recipes/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js"
+      "value-equal": "/home/dustin/CS/recipes/node_modules/value-equal/cjs/index.js",
+      "tiny-invariant": "/home/dustin/CS/recipes/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js",
+      "tiny-warning": "/home/dustin/CS/recipes/node_modules/tiny-warning/dist/tiny-warning.cjs.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/history/cjs/history.js",
       "hash": "3/6lEg",
-      "browserifyId": 169,
+      "browserifyId": 170,
       "sourcemap": ""
     }
   ],
   "/home/dustin/CS/recipes/node_modules/history/cjs/history.min.js": [
     "\"use strict\";function _interopDefault(n){return n&&\"object\"==typeof n&&\"default\"in n?n.default:n}Object.defineProperty(exports,\"__esModule\",{value:!0});var resolvePathname=_interopDefault(require(\"resolve-pathname\")),valueEqual=_interopDefault(require(\"value-equal\"));require(\"tiny-warning\");var invariant=_interopDefault(require(\"tiny-invariant\"));function _extends(){return(_extends=Object.assign||function(n){for(var t=1;t<arguments.length;t++){var e=arguments[t];for(var a in e)Object.prototype.hasOwnProperty.call(e,a)&&(n[a]=e[a])}return n}).apply(this,arguments)}function addLeadingSlash(n){return\"/\"===n.charAt(0)?n:\"/\"+n}function stripLeadingSlash(n){return\"/\"===n.charAt(0)?n.substr(1):n}function hasBasename(n,t){return new RegExp(\"^\"+t+\"(\\\\/|\\\\?|#|$)\",\"i\").test(n)}function stripBasename(n,t){return hasBasename(n,t)?n.substr(t.length):n}function stripTrailingSlash(n){return\"/\"===n.charAt(n.length-1)?n.slice(0,-1):n}function parsePath(n){var t=n||\"/\",e=\"\",a=\"\",o=t.indexOf(\"#\");-1!==o&&(a=t.substr(o),t=t.substr(0,o));var r=t.indexOf(\"?\");return-1!==r&&(e=t.substr(r),t=t.substr(0,r)),{pathname:t,search:\"?\"===e?\"\":e,hash:\"#\"===a?\"\":a}}function createPath(n){var t=n.pathname,e=n.search,a=n.hash,o=t||\"/\";return e&&\"?\"!==e&&(o+=\"?\"===e.charAt(0)?e:\"?\"+e),a&&\"#\"!==a&&(o+=\"#\"===a.charAt(0)?a:\"#\"+a),o}function createLocation(n,t,e,a){var o;\"string\"==typeof n?(o=parsePath(n)).state=t:(void 0===(o=_extends({},n)).pathname&&(o.pathname=\"\"),o.search?\"?\"!==o.search.charAt(0)&&(o.search=\"?\"+o.search):o.search=\"\",o.hash?\"#\"!==o.hash.charAt(0)&&(o.hash=\"#\"+o.hash):o.hash=\"\",void 0!==t&&void 0===o.state&&(o.state=t));try{o.pathname=decodeURI(o.pathname)}catch(n){throw n instanceof URIError?new URIError('Pathname \"'+o.pathname+'\" could not be decoded. This is likely caused by an invalid percent-encoding.'):n}return e&&(o.key=e),a?o.pathname?\"/\"!==o.pathname.charAt(0)&&(o.pathname=resolvePathname(o.pathname,a.pathname)):o.pathname=a.pathname:o.pathname||(o.pathname=\"/\"),o}function locationsAreEqual(n,t){return n.pathname===t.pathname&&n.search===t.search&&n.hash===t.hash&&n.key===t.key&&valueEqual(n.state,t.state)}function createTransitionManager(){var r=null;var a=[];return{setPrompt:function(n){return r=n,function(){r===n&&(r=null)}},confirmTransitionTo:function(n,t,e,a){if(null!=r){var o=\"function\"==typeof r?r(n,t):r;\"string\"==typeof o?\"function\"==typeof e?e(o,a):a(!0):a(!1!==o)}else a(!0)},appendListener:function(n){var t=!0;function e(){t&&n.apply(void 0,arguments)}return a.push(e),function(){t=!1,a=a.filter(function(n){return n!==e})}},notifyListeners:function(){for(var n=arguments.length,t=new Array(n),e=0;e<n;e++)t[e]=arguments[e];a.forEach(function(n){return n.apply(void 0,t)})}}}var canUseDOM=!(\"undefined\"==typeof window||!window.document||!window.document.createElement);function getConfirmation(n,t){t(window.confirm(n))}function supportsHistory(){var n=window.navigator.userAgent;return(-1===n.indexOf(\"Android 2.\")&&-1===n.indexOf(\"Android 4.0\")||-1===n.indexOf(\"Mobile Safari\")||-1!==n.indexOf(\"Chrome\")||-1!==n.indexOf(\"Windows Phone\"))&&(window.history&&\"pushState\"in window.history)}function supportsPopStateOnHashChange(){return-1===window.navigator.userAgent.indexOf(\"Trident\")}function supportsGoWithoutReloadUsingHash(){return-1===window.navigator.userAgent.indexOf(\"Firefox\")}function isExtraneousPopstateEvent(n){void 0===n.state&&navigator.userAgent.indexOf(\"CriOS\")}var PopStateEvent=\"popstate\",HashChangeEvent=\"hashchange\";function getHistoryState(){try{return window.history.state||{}}catch(n){return{}}}function createBrowserHistory(n){void 0===n&&(n={}),canUseDOM||invariant(!1);var c=window.history,s=supportsHistory(),t=!supportsPopStateOnHashChange(),e=n,a=e.forceRefresh,h=void 0!==a&&a,o=e.getUserConfirmation,u=void 0===o?getConfirmation:o,r=e.keyLength,i=void 0===r?6:r,f=n.basename?stripTrailingSlash(addLeadingSlash(n.basename)):\"\";function l(n){var t=n||{},e=t.key,a=t.state,o=window.location,r=o.pathname+o.search+o.hash;return f&&(r=stripBasename(r,f)),createLocation(r,a,e)}function d(){return Math.random().toString(36).substr(2,i)}var v=createTransitionManager();function p(n){_extends(T,n),T.length=c.length,v.notifyListeners(T.location,T.action)}function g(n){isExtraneousPopstateEvent(n)||w(l(n.state))}function P(){w(l(getHistoryState()))}var m=!1;function w(t){if(m)m=!1,p();else{v.confirmTransitionTo(t,\"POP\",u,function(n){n?p({action:\"POP\",location:t}):function(n){var t=T.location,e=H.indexOf(t.key);-1===e&&(e=0);var a=H.indexOf(n.key);-1===a&&(a=0);var o=e-a;o&&(m=!0,L(o))}(t)})}}var y=l(getHistoryState()),H=[y.key];function x(n){return f+createPath(n)}function L(n){c.go(n)}var O=0;function E(n){1===(O+=n)&&1===n?(window.addEventListener(PopStateEvent,g),t&&window.addEventListener(HashChangeEvent,P)):0===O&&(window.removeEventListener(PopStateEvent,g),t&&window.removeEventListener(HashChangeEvent,P))}var S=!1;var T={length:c.length,action:\"POP\",location:y,createHref:x,push:function(n,t){var i=createLocation(n,t,d(),T.location);v.confirmTransitionTo(i,\"PUSH\",u,function(n){if(n){var t=x(i),e=i.key,a=i.state;if(s)if(c.pushState({key:e,state:a},null,t),h)window.location.href=t;else{var o=H.indexOf(T.location.key),r=H.slice(0,-1===o?0:o+1);r.push(i.key),H=r,p({action:\"PUSH\",location:i})}else window.location.href=t}})},replace:function(n,t){var r=\"REPLACE\",i=createLocation(n,t,d(),T.location);v.confirmTransitionTo(i,r,u,function(n){if(n){var t=x(i),e=i.key,a=i.state;if(s)if(c.replaceState({key:e,state:a},null,t),h)window.location.replace(t);else{var o=H.indexOf(T.location.key);-1!==o&&(H[o]=i.key),p({action:r,location:i})}else window.location.replace(t)}})},go:L,goBack:function(){L(-1)},goForward:function(){L(1)},block:function(n){void 0===n&&(n=!1);var t=v.setPrompt(n);return S||(E(1),S=!0),function(){return S&&(S=!1,E(-1)),t()}},listen:function(n){var t=v.appendListener(n);return E(1),function(){E(-1),t()}}};return T}var HashChangeEvent$1=\"hashchange\",HashPathCoders={hashbang:{encodePath:function(n){return\"!\"===n.charAt(0)?n:\"!/\"+stripLeadingSlash(n)},decodePath:function(n){return\"!\"===n.charAt(0)?n.substr(1):n}},noslash:{encodePath:stripLeadingSlash,decodePath:addLeadingSlash},slash:{encodePath:addLeadingSlash,decodePath:addLeadingSlash}};function getHashPath(){var n=window.location.href,t=n.indexOf(\"#\");return-1===t?\"\":n.substring(t+1)}function pushHashPath(n){window.location.hash=n}function replaceHashPath(n){var t=window.location.href.indexOf(\"#\");window.location.replace(window.location.href.slice(0,0<=t?t:0)+\"#\"+n)}function createHashHistory(n){void 0===n&&(n={}),canUseDOM||invariant(!1);var t=window.history,e=(supportsGoWithoutReloadUsingHash(),n),a=e.getUserConfirmation,i=void 0===a?getConfirmation:a,o=e.hashType,r=void 0===o?\"slash\":o,c=n.basename?stripTrailingSlash(addLeadingSlash(n.basename)):\"\",s=HashPathCoders[r],h=s.encodePath,u=s.decodePath;function f(){var n=u(getHashPath());return c&&(n=stripBasename(n,c)),createLocation(n)}var l=createTransitionManager();function d(n){_extends(E,n),E.length=t.length,l.notifyListeners(E.location,E.action)}var v=!1,p=null;function g(){var n=getHashPath(),t=h(n);if(n!==t)replaceHashPath(t);else{var e=f(),a=E.location;if(!v&&locationsAreEqual(a,e))return;if(p===createPath(e))return;p=null,function(t){if(v)v=!1,d();else{l.confirmTransitionTo(t,\"POP\",i,function(n){n?d({action:\"POP\",location:t}):function(n){var t=E.location,e=y.lastIndexOf(createPath(t));-1===e&&(e=0);var a=y.lastIndexOf(createPath(n));-1===a&&(a=0);var o=e-a;o&&(v=!0,H(o))}(t)})}}(e)}}var P=getHashPath(),m=h(P);P!==m&&replaceHashPath(m);var w=f(),y=[createPath(w)];function H(n){t.go(n)}var x=0;function L(n){1===(x+=n)&&1===n?window.addEventListener(HashChangeEvent$1,g):0===x&&window.removeEventListener(HashChangeEvent$1,g)}var O=!1;var E={length:t.length,action:\"POP\",location:w,createHref:function(n){return\"#\"+h(c+createPath(n))},push:function(n,t){var r=createLocation(n,void 0,void 0,E.location);l.confirmTransitionTo(r,\"PUSH\",i,function(n){if(n){var t=createPath(r),e=h(c+t);if(getHashPath()!==e){p=t,pushHashPath(e);var a=y.lastIndexOf(createPath(E.location)),o=y.slice(0,-1===a?0:a+1);o.push(t),y=o,d({action:\"PUSH\",location:r})}else d()}})},replace:function(n,t){var o=\"REPLACE\",r=createLocation(n,void 0,void 0,E.location);l.confirmTransitionTo(r,o,i,function(n){if(n){var t=createPath(r),e=h(c+t);getHashPath()!==e&&(p=t,replaceHashPath(e));var a=y.indexOf(createPath(E.location));-1!==a&&(y[a]=t),d({action:o,location:r})}})},go:H,goBack:function(){H(-1)},goForward:function(){H(1)},block:function(n){void 0===n&&(n=!1);var t=l.setPrompt(n);return O||(L(1),O=!0),function(){return O&&(O=!1,L(-1)),t()}},listen:function(n){var t=l.appendListener(n);return L(1),function(){L(-1),t()}}};return E}function clamp(n,t,e){return Math.min(Math.max(n,t),e)}function createMemoryHistory(n){void 0===n&&(n={});var t=n,o=t.getUserConfirmation,e=t.initialEntries,a=void 0===e?[\"/\"]:e,r=t.initialIndex,i=void 0===r?0:r,c=t.keyLength,s=void 0===c?6:c,h=createTransitionManager();function u(n){_extends(g,n),g.length=g.entries.length,h.notifyListeners(g.location,g.action)}function f(){return Math.random().toString(36).substr(2,s)}var l=clamp(i,0,a.length-1),d=a.map(function(n){return createLocation(n,void 0,\"string\"==typeof n?f():n.key||f())}),v=createPath;function p(n){var t=clamp(g.index+n,0,g.entries.length-1),e=g.entries[t];h.confirmTransitionTo(e,\"POP\",o,function(n){n?u({action:\"POP\",location:e,index:t}):u()})}var g={length:d.length,action:\"POP\",location:d[l],index:l,entries:d,createHref:v,push:function(n,t){var a=createLocation(n,t,f(),g.location);h.confirmTransitionTo(a,\"PUSH\",o,function(n){if(n){var t=g.index+1,e=g.entries.slice(0);e.length>t?e.splice(t,e.length-t,a):e.push(a),u({action:\"PUSH\",location:a,index:t,entries:e})}})},replace:function(n,t){var e=\"REPLACE\",a=createLocation(n,t,f(),g.location);h.confirmTransitionTo(a,e,o,function(n){n&&(g.entries[g.index]=a,u({action:e,location:a}))})},go:p,goBack:function(){p(-1)},goForward:function(){p(1)},canGo:function(n){var t=g.index+n;return 0<=t&&t<g.entries.length},block:function(n){return void 0===n&&(n=!1),h.setPrompt(n)},listen:function(n){return h.appendListener(n)}};return g}exports.createBrowserHistory=createBrowserHistory,exports.createHashHistory=createHashHistory,exports.createMemoryHistory=createMemoryHistory,exports.createLocation=createLocation,exports.locationsAreEqual=locationsAreEqual,exports.parsePath=parsePath,exports.createPath=createPath;\n",
     {
-      "resolve-pathname": "/home/dustin/CS/recipes/node_modules/resolve-pathname/cjs/index.js",
       "value-equal": "/home/dustin/CS/recipes/node_modules/value-equal/cjs/index.js",
+      "tiny-invariant": "/home/dustin/CS/recipes/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js",
       "tiny-warning": "/home/dustin/CS/recipes/node_modules/tiny-warning/dist/tiny-warning.cjs.js",
-      "tiny-invariant": "/home/dustin/CS/recipes/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js"
+      "resolve-pathname": "/home/dustin/CS/recipes/node_modules/resolve-pathname/cjs/index.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/history/cjs/history.min.js",
       "hash": "LGhUYQ",
-      "browserifyId": 170,
+      "browserifyId": 171,
       "sourcemap": ""
     }
   ],
@@ -2911,7 +2923,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/history/index.js",
       "hash": "ssyIow",
-      "browserifyId": 171,
+      "browserifyId": 172,
       "sourcemap": ""
     }
   ],
@@ -2921,7 +2933,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "hash": "MWMmrA",
-      "browserifyId": 172,
+      "browserifyId": 173,
       "sourcemap": ""
     }
   ],
@@ -2931,7 +2943,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/hyphenate-style-name/index.cjs.js",
       "hash": "FIpfQA",
-      "browserifyId": 173,
+      "browserifyId": 174,
       "sourcemap": ""
     }
   ],
@@ -2941,7 +2953,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/invariant/browser.js",
       "hash": "eGRVhQ",
-      "browserifyId": 174,
+      "browserifyId": 175,
       "sourcemap": ""
     }
   ],
@@ -2951,7 +2963,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/is-in-browser/dist/index.js",
       "hash": "0h7yCw",
-      "browserifyId": 175,
+      "browserifyId": 176,
       "sourcemap": ""
     }
   ],
@@ -2963,7 +2975,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/is-plain-object/index.js",
       "hash": "Gt0t/g",
-      "browserifyId": 176,
+      "browserifyId": 177,
       "sourcemap": ""
     }
   ],
@@ -2973,7 +2985,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/isobject/index.js",
       "hash": "CCXbqQ",
-      "browserifyId": 177,
+      "browserifyId": 178,
       "sourcemap": ""
     }
   ],
@@ -2985,7 +2997,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-camel-case/lib/index.js",
       "hash": "D51qgg",
-      "browserifyId": 178,
+      "browserifyId": 179,
       "sourcemap": ""
     }
   ],
@@ -2995,7 +3007,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-default-unit/lib/defaultUnits.js",
       "hash": "vHgDeg",
-      "browserifyId": 179,
+      "browserifyId": 180,
       "sourcemap": ""
     }
   ],
@@ -3007,7 +3019,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-default-unit/lib/index.js",
       "hash": "6bpwlA",
-      "browserifyId": 180,
+      "browserifyId": 181,
       "sourcemap": ""
     }
   ],
@@ -3019,7 +3031,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-global/lib/index.js",
       "hash": "hx8jfw",
-      "browserifyId": 181,
+      "browserifyId": 182,
       "sourcemap": ""
     }
   ],
@@ -3031,7 +3043,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-nested/lib/index.js",
       "hash": "Yaepjw",
-      "browserifyId": 182,
+      "browserifyId": 183,
       "sourcemap": ""
     }
   ],
@@ -3041,7 +3053,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-nested/node_modules/warning/browser.js",
       "hash": "WvDTNw",
-      "browserifyId": 183,
+      "browserifyId": 184,
       "sourcemap": ""
     }
   ],
@@ -3051,7 +3063,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-props-sort/lib/index.js",
       "hash": "LNYcdA",
-      "browserifyId": 184,
+      "browserifyId": 185,
       "sourcemap": ""
     }
   ],
@@ -3063,7 +3075,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-vendor-prefixer/lib/index.js",
       "hash": "f3sLfw",
-      "browserifyId": 185,
+      "browserifyId": 186,
       "sourcemap": ""
     }
   ],
@@ -3086,7 +3098,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/Jss.js",
       "hash": "qwwPJA",
-      "browserifyId": 186,
+      "browserifyId": 187,
       "sourcemap": ""
     }
   ],
@@ -3098,7 +3110,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/PluginsRegistry.js",
       "hash": "iKawPA",
-      "browserifyId": 187,
+      "browserifyId": 188,
       "sourcemap": ""
     }
   ],
@@ -3113,7 +3125,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/RuleList.js",
       "hash": "+fwQpw",
-      "browserifyId": 188,
+      "browserifyId": 189,
       "sourcemap": ""
     }
   ],
@@ -3125,7 +3137,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/SheetsManager.js",
       "hash": "drRlog",
-      "browserifyId": 189,
+      "browserifyId": 190,
       "sourcemap": ""
     }
   ],
@@ -3135,7 +3147,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/SheetsRegistry.js",
       "hash": "SX5Grg",
-      "browserifyId": 190,
+      "browserifyId": 191,
       "sourcemap": ""
     }
   ],
@@ -3148,7 +3160,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/StyleSheet.js",
       "hash": "+Bn1HA",
-      "browserifyId": 191,
+      "browserifyId": 192,
       "sourcemap": ""
     }
   ],
@@ -3167,7 +3179,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/index.js",
       "hash": "IvEvLQ",
-      "browserifyId": 192,
+      "browserifyId": 193,
       "sourcemap": ""
     }
   ],
@@ -3181,7 +3193,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/plugins/functions.js",
       "hash": "gs9CWA",
-      "browserifyId": 193,
+      "browserifyId": 194,
       "sourcemap": ""
     }
   ],
@@ -3195,7 +3207,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/plugins/observables.js",
       "hash": "dvtjlQ",
-      "browserifyId": 194,
+      "browserifyId": 195,
       "sourcemap": ""
     }
   ],
@@ -3211,7 +3223,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/plugins/rules.js",
       "hash": "XvDkdQ",
-      "browserifyId": 195,
+      "browserifyId": 196,
       "sourcemap": ""
     }
   ],
@@ -3226,7 +3238,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/renderers/DomRenderer.js",
       "hash": "pvgvNg",
-      "browserifyId": 196,
+      "browserifyId": 197,
       "sourcemap": ""
     }
   ],
@@ -3236,7 +3248,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/renderers/VirtualRenderer.js",
       "hash": "p67EfA",
-      "browserifyId": 197,
+      "browserifyId": 198,
       "sourcemap": ""
     }
   ],
@@ -3248,7 +3260,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/ConditionalRule.js",
       "hash": "du42/w",
-      "browserifyId": 198,
+      "browserifyId": 199,
       "sourcemap": ""
     }
   ],
@@ -3260,7 +3272,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/FontFaceRule.js",
       "hash": "lU3jhQ",
-      "browserifyId": 199,
+      "browserifyId": 200,
       "sourcemap": ""
     }
   ],
@@ -3272,7 +3284,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/KeyframesRule.js",
       "hash": "JazK1A",
-      "browserifyId": 200,
+      "browserifyId": 201,
       "sourcemap": ""
     }
   ],
@@ -3282,7 +3294,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/SimpleRule.js",
       "hash": "5+ywwQ",
-      "browserifyId": 201,
+      "browserifyId": 202,
       "sourcemap": ""
     }
   ],
@@ -3296,7 +3308,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/StyleRule.js",
       "hash": "8XFPlw",
-      "browserifyId": 202,
+      "browserifyId": 203,
       "sourcemap": ""
     }
   ],
@@ -3308,7 +3320,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/ViewportRule.js",
       "hash": "XxfEKg",
-      "browserifyId": 203,
+      "browserifyId": 204,
       "sourcemap": ""
     }
   ],
@@ -3320,7 +3332,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/sheets.js",
       "hash": "bkdUBA",
-      "browserifyId": 204,
+      "browserifyId": 205,
       "sourcemap": ""
     }
   ],
@@ -3332,7 +3344,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/cloneStyle.js",
       "hash": "yJsvaw",
-      "browserifyId": 205,
+      "browserifyId": 206,
       "sourcemap": ""
     }
   ],
@@ -3347,7 +3359,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/createGenerateClassName.js",
       "hash": "I/Mk0A",
-      "browserifyId": 206,
+      "browserifyId": 207,
       "sourcemap": ""
     }
   ],
@@ -3361,7 +3373,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/createRule.js",
       "hash": "wUTcew",
-      "browserifyId": 207,
+      "browserifyId": 208,
       "sourcemap": ""
     }
   ],
@@ -3373,7 +3385,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/escape.js",
       "hash": "XoJE1g",
-      "browserifyId": 208,
+      "browserifyId": 209,
       "sourcemap": ""
     }
   ],
@@ -3383,7 +3395,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/getDynamicStyles.js",
       "hash": "lt+Wsg",
-      "browserifyId": 209,
+      "browserifyId": 210,
       "sourcemap": ""
     }
   ],
@@ -3395,7 +3407,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/isObservable.js",
       "hash": "J9wH0g",
-      "browserifyId": 210,
+      "browserifyId": 211,
       "sourcemap": ""
     }
   ],
@@ -3405,7 +3417,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/linkRule.js",
       "hash": "f+elwg",
-      "browserifyId": 211,
+      "browserifyId": 212,
       "sourcemap": ""
     }
   ],
@@ -3415,7 +3427,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/moduleId.js",
       "hash": "w5Ahbg",
-      "browserifyId": 212,
+      "browserifyId": 213,
       "sourcemap": ""
     }
   ],
@@ -3427,7 +3439,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/toCss.js",
       "hash": "xrqtJA",
-      "browserifyId": 213,
+      "browserifyId": 214,
       "sourcemap": ""
     }
   ],
@@ -3437,7 +3449,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/toCssValue.js",
       "hash": "6s161w",
-      "browserifyId": 214,
+      "browserifyId": 215,
       "sourcemap": ""
     }
   ],
@@ -3449,7 +3461,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/node_modules/warning/browser.js",
       "hash": "v3CRmA",
-      "browserifyId": 215,
+      "browserifyId": 216,
       "sourcemap": ""
     }
   ],
@@ -3461,7 +3473,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/livereactload/babel-transform.js",
       "hash": "utpGnw",
-      "browserifyId": 216,
+      "browserifyId": 217,
       "sourcemap": ""
     }
   ],
@@ -3473,7 +3485,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/livereactload/lib/babel-transform/main.js",
       "hash": "EsZelw",
-      "browserifyId": 217,
+      "browserifyId": 218,
       "sourcemap": ""
     }
   ],
@@ -3486,7 +3498,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_DataView.js",
       "hash": "yvm8yA",
-      "browserifyId": 218,
+      "browserifyId": 219,
       "sourcemap": ""
     }
   ],
@@ -3502,7 +3514,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_Hash.js",
       "hash": "nK+Zng",
-      "browserifyId": 219,
+      "browserifyId": 220,
       "sourcemap": ""
     }
   ],
@@ -3518,7 +3530,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_ListCache.js",
       "hash": "BpYVHg",
-      "browserifyId": 220,
+      "browserifyId": 221,
       "sourcemap": ""
     }
   ],
@@ -3531,15 +3543,15 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_Map.js",
       "hash": "dyIcCg",
-      "browserifyId": 221,
+      "browserifyId": 222,
       "sourcemap": ""
     }
   ],
   "/home/dustin/CS/recipes/node_modules/lodash/_MapCache.js": [
     "var mapCacheClear = require('./_mapCacheClear'),\n    mapCacheDelete = require('./_mapCacheDelete'),\n    mapCacheGet = require('./_mapCacheGet'),\n    mapCacheHas = require('./_mapCacheHas'),\n    mapCacheSet = require('./_mapCacheSet');\n\n/**\n * Creates a map cache object to store key-value pairs.\n *\n * @private\n * @constructor\n * @param {Array} [entries] The key-value pairs to cache.\n */\nfunction MapCache(entries) {\n  var index = -1,\n      length = entries == null ? 0 : entries.length;\n\n  this.clear();\n  while (++index < length) {\n    var entry = entries[index];\n    this.set(entry[0], entry[1]);\n  }\n}\n\n// Add methods to `MapCache`.\nMapCache.prototype.clear = mapCacheClear;\nMapCache.prototype['delete'] = mapCacheDelete;\nMapCache.prototype.get = mapCacheGet;\nMapCache.prototype.has = mapCacheHas;\nMapCache.prototype.set = mapCacheSet;\n\nmodule.exports = MapCache;\n",
     {
-      "./_mapCacheGet": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheGet.js",
       "./_mapCacheHas": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheHas.js",
+      "./_mapCacheGet": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheGet.js",
       "./_mapCacheSet": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheSet.js",
       "./_mapCacheDelete": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheDelete.js",
       "./_mapCacheClear": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheClear.js"
@@ -3547,7 +3559,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_MapCache.js",
       "hash": "j6UPAQ",
-      "browserifyId": 222,
+      "browserifyId": 223,
       "sourcemap": ""
     }
   ],
@@ -3560,7 +3572,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_Promise.js",
       "hash": "Wlmkmw",
-      "browserifyId": 223,
+      "browserifyId": 224,
       "sourcemap": ""
     }
   ],
@@ -3573,7 +3585,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_Set.js",
       "hash": "T2n0Fg",
-      "browserifyId": 224,
+      "browserifyId": 225,
       "sourcemap": ""
     }
   ],
@@ -3587,7 +3599,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_SetCache.js",
       "hash": "2MOD9A",
-      "browserifyId": 225,
+      "browserifyId": 226,
       "sourcemap": ""
     }
   ],
@@ -3604,7 +3616,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_Stack.js",
       "hash": "geilIw",
-      "browserifyId": 226,
+      "browserifyId": 227,
       "sourcemap": ""
     }
   ],
@@ -3616,7 +3628,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_Symbol.js",
       "hash": "NT0oVA",
-      "browserifyId": 227,
+      "browserifyId": 228,
       "sourcemap": ""
     }
   ],
@@ -3628,7 +3640,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_Uint8Array.js",
       "hash": "5aP6jQ",
-      "browserifyId": 228,
+      "browserifyId": 229,
       "sourcemap": ""
     }
   ],
@@ -3641,7 +3653,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_WeakMap.js",
       "hash": "Sb0ROg",
-      "browserifyId": 229,
+      "browserifyId": 230,
       "sourcemap": ""
     }
   ],
@@ -3651,7 +3663,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_apply.js",
       "hash": "IVPOag",
-      "browserifyId": 230,
+      "browserifyId": 231,
       "sourcemap": ""
     }
   ],
@@ -3661,7 +3673,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_arrayFilter.js",
       "hash": "AFdyCg",
-      "browserifyId": 231,
+      "browserifyId": 232,
       "sourcemap": ""
     }
   ],
@@ -3673,7 +3685,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_arrayIncludes.js",
       "hash": "Ox8DIw",
-      "browserifyId": 232,
+      "browserifyId": 233,
       "sourcemap": ""
     }
   ],
@@ -3683,7 +3695,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_arrayIncludesWith.js",
       "hash": "PXk7uw",
-      "browserifyId": 233,
+      "browserifyId": 234,
       "sourcemap": ""
     }
   ],
@@ -3700,7 +3712,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_arrayLikeKeys.js",
       "hash": "ECD0og",
-      "browserifyId": 234,
+      "browserifyId": 235,
       "sourcemap": ""
     }
   ],
@@ -3710,7 +3722,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_arrayMap.js",
       "hash": "Z869JQ",
-      "browserifyId": 235,
+      "browserifyId": 236,
       "sourcemap": ""
     }
   ],
@@ -3720,7 +3732,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_arrayPush.js",
       "hash": "I4PHuw",
-      "browserifyId": 236,
+      "browserifyId": 237,
       "sourcemap": ""
     }
   ],
@@ -3730,7 +3742,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_arraySome.js",
       "hash": "CE1N8g",
-      "browserifyId": 237,
+      "browserifyId": 238,
       "sourcemap": ""
     }
   ],
@@ -3743,7 +3755,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_assignValue.js",
       "hash": "Lo8O5g",
-      "browserifyId": 238,
+      "browserifyId": 239,
       "sourcemap": ""
     }
   ],
@@ -3755,7 +3767,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_assocIndexOf.js",
       "hash": "J3okXQ",
-      "browserifyId": 239,
+      "browserifyId": 240,
       "sourcemap": ""
     }
   ],
@@ -3767,7 +3779,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseAssignValue.js",
       "hash": "b9qlGw",
-      "browserifyId": 240,
+      "browserifyId": 241,
       "sourcemap": ""
     }
   ],
@@ -3784,7 +3796,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseDifference.js",
       "hash": "WET8pw",
-      "browserifyId": 241,
+      "browserifyId": 242,
       "sourcemap": ""
     }
   ],
@@ -3794,7 +3806,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseFindIndex.js",
       "hash": "nlMQjQ",
-      "browserifyId": 242,
+      "browserifyId": 243,
       "sourcemap": ""
     }
   ],
@@ -3807,7 +3819,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseFlatten.js",
       "hash": "6Lpj7g",
-      "browserifyId": 243,
+      "browserifyId": 244,
       "sourcemap": ""
     }
   ],
@@ -3820,7 +3832,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseGet.js",
       "hash": "Hekylw",
-      "browserifyId": 244,
+      "browserifyId": 245,
       "sourcemap": ""
     }
   ],
@@ -3833,7 +3845,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseGetAllKeys.js",
       "hash": "UVCUQA",
-      "browserifyId": 245,
+      "browserifyId": 246,
       "sourcemap": ""
     }
   ],
@@ -3847,7 +3859,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseGetTag.js",
       "hash": "lCYcnA",
-      "browserifyId": 246,
+      "browserifyId": 247,
       "sourcemap": ""
     }
   ],
@@ -3857,7 +3869,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseHasIn.js",
       "hash": "9Q1JlQ",
-      "browserifyId": 247,
+      "browserifyId": 248,
       "sourcemap": ""
     }
   ],
@@ -3871,7 +3883,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIndexOf.js",
       "hash": "kA1YVg",
-      "browserifyId": 248,
+      "browserifyId": 249,
       "sourcemap": ""
     }
   ],
@@ -3884,7 +3896,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsArguments.js",
       "hash": "R9YK1w",
-      "browserifyId": 249,
+      "browserifyId": 250,
       "sourcemap": ""
     }
   ],
@@ -3897,7 +3909,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsEqual.js",
       "hash": "7uo18A",
-      "browserifyId": 250,
+      "browserifyId": 251,
       "sourcemap": ""
     }
   ],
@@ -3916,7 +3928,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsEqualDeep.js",
       "hash": "ySnsPg",
-      "browserifyId": 251,
+      "browserifyId": 252,
       "sourcemap": ""
     }
   ],
@@ -3929,7 +3941,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsMatch.js",
       "hash": "hJxRtA",
-      "browserifyId": 252,
+      "browserifyId": 253,
       "sourcemap": ""
     }
   ],
@@ -3939,7 +3951,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsNaN.js",
       "hash": "p9mNpA",
-      "browserifyId": 253,
+      "browserifyId": 254,
       "sourcemap": ""
     }
   ],
@@ -3954,7 +3966,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsNative.js",
       "hash": "gH9ZUQ",
-      "browserifyId": 254,
+      "browserifyId": 255,
       "sourcemap": ""
     }
   ],
@@ -3968,7 +3980,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsTypedArray.js",
       "hash": "HRVIyw",
-      "browserifyId": 255,
+      "browserifyId": 256,
       "sourcemap": ""
     }
   ],
@@ -3984,7 +3996,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIteratee.js",
       "hash": "9zeU6Q",
-      "browserifyId": 256,
+      "browserifyId": 257,
       "sourcemap": ""
     }
   ],
@@ -3997,7 +4009,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseKeys.js",
       "hash": "TkFfNA",
-      "browserifyId": 257,
+      "browserifyId": 258,
       "sourcemap": ""
     }
   ],
@@ -4011,7 +4023,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseMatches.js",
       "hash": "3S3Bwg",
-      "browserifyId": 258,
+      "browserifyId": 259,
       "sourcemap": ""
     }
   ],
@@ -4021,15 +4033,15 @@
       "./_matchesStrictComparable": "/home/dustin/CS/recipes/node_modules/lodash/_matchesStrictComparable.js",
       "./_isStrictComparable": "/home/dustin/CS/recipes/node_modules/lodash/_isStrictComparable.js",
       "./_toKey": "/home/dustin/CS/recipes/node_modules/lodash/_toKey.js",
-      "./hasIn": "/home/dustin/CS/recipes/node_modules/lodash/hasIn.js",
       "./_isKey": "/home/dustin/CS/recipes/node_modules/lodash/_isKey.js",
+      "./hasIn": "/home/dustin/CS/recipes/node_modules/lodash/hasIn.js",
       "./_baseIsEqual": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsEqual.js",
       "./get": "/home/dustin/CS/recipes/node_modules/lodash/get.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseMatchesProperty.js",
       "hash": "EjLl+Q",
-      "browserifyId": 259,
+      "browserifyId": 260,
       "sourcemap": ""
     }
   ],
@@ -4039,7 +4051,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseProperty.js",
       "hash": "q0ElvQ",
-      "browserifyId": 260,
+      "browserifyId": 261,
       "sourcemap": ""
     }
   ],
@@ -4051,7 +4063,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_basePropertyDeep.js",
       "hash": "ooeL1g",
-      "browserifyId": 261,
+      "browserifyId": 262,
       "sourcemap": ""
     }
   ],
@@ -4065,7 +4077,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseRest.js",
       "hash": "P67bVQ",
-      "browserifyId": 262,
+      "browserifyId": 263,
       "sourcemap": ""
     }
   ],
@@ -4079,7 +4091,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseSetToString.js",
       "hash": "8uPkWA",
-      "browserifyId": 263,
+      "browserifyId": 264,
       "sourcemap": ""
     }
   ],
@@ -4089,7 +4101,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseTimes.js",
       "hash": "DhSYJQ",
-      "browserifyId": 264,
+      "browserifyId": 265,
       "sourcemap": ""
     }
   ],
@@ -4104,7 +4116,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseToString.js",
       "hash": "AkoH9A",
-      "browserifyId": 265,
+      "browserifyId": 266,
       "sourcemap": ""
     }
   ],
@@ -4114,7 +4126,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseUnary.js",
       "hash": "R0nFfg",
-      "browserifyId": 266,
+      "browserifyId": 267,
       "sourcemap": ""
     }
   ],
@@ -4124,7 +4136,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_cacheHas.js",
       "hash": "B8vzRg",
-      "browserifyId": 267,
+      "browserifyId": 268,
       "sourcemap": ""
     }
   ],
@@ -4139,7 +4151,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_castPath.js",
       "hash": "JPpC+g",
-      "browserifyId": 268,
+      "browserifyId": 269,
       "sourcemap": ""
     }
   ],
@@ -4152,7 +4164,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_copyObject.js",
       "hash": "Ek6Lcg",
-      "browserifyId": 269,
+      "browserifyId": 270,
       "sourcemap": ""
     }
   ],
@@ -4164,7 +4176,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_coreJsData.js",
       "hash": "sY3MtA",
-      "browserifyId": 270,
+      "browserifyId": 271,
       "sourcemap": ""
     }
   ],
@@ -4177,7 +4189,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_createAssigner.js",
       "hash": "DW06bQ",
-      "browserifyId": 271,
+      "browserifyId": 272,
       "sourcemap": ""
     }
   ],
@@ -4191,7 +4203,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_createFind.js",
       "hash": "Y/tMcw",
-      "browserifyId": 272,
+      "browserifyId": 273,
       "sourcemap": ""
     }
   ],
@@ -4203,7 +4215,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_defineProperty.js",
       "hash": "fTmCvQ",
-      "browserifyId": 273,
+      "browserifyId": 274,
       "sourcemap": ""
     }
   ],
@@ -4217,7 +4229,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_equalArrays.js",
       "hash": "FBwdxw",
-      "browserifyId": 274,
+      "browserifyId": 275,
       "sourcemap": ""
     }
   ],
@@ -4234,7 +4246,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_equalByTag.js",
       "hash": "ivukbA",
-      "browserifyId": 275,
+      "browserifyId": 276,
       "sourcemap": ""
     }
   ],
@@ -4246,7 +4258,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_equalObjects.js",
       "hash": "iMinlg",
-      "browserifyId": 276,
+      "browserifyId": 277,
       "sourcemap": ""
     }
   ],
@@ -4256,7 +4268,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_freeGlobal.js",
       "hash": "ukr2xw",
-      "browserifyId": 277,
+      "browserifyId": 278,
       "sourcemap": ""
     }
   ],
@@ -4270,7 +4282,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getAllKeys.js",
       "hash": "5vVcbA",
-      "browserifyId": 278,
+      "browserifyId": 279,
       "sourcemap": ""
     }
   ],
@@ -4282,7 +4294,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getMapData.js",
       "hash": "d+YxIg",
-      "browserifyId": 279,
+      "browserifyId": 280,
       "sourcemap": ""
     }
   ],
@@ -4295,7 +4307,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getMatchData.js",
       "hash": "cd3z3w",
-      "browserifyId": 280,
+      "browserifyId": 281,
       "sourcemap": ""
     }
   ],
@@ -4308,7 +4320,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getNative.js",
       "hash": "6l/EjQ",
-      "browserifyId": 281,
+      "browserifyId": 282,
       "sourcemap": ""
     }
   ],
@@ -4320,7 +4332,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getRawTag.js",
       "hash": "BEzLvg",
-      "browserifyId": 282,
+      "browserifyId": 283,
       "sourcemap": ""
     }
   ],
@@ -4333,7 +4345,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getSymbols.js",
       "hash": "IZajUw",
-      "browserifyId": 283,
+      "browserifyId": 284,
       "sourcemap": ""
     }
   ],
@@ -4351,7 +4363,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getTag.js",
       "hash": "76pZKw",
-      "browserifyId": 284,
+      "browserifyId": 285,
       "sourcemap": ""
     }
   ],
@@ -4361,7 +4373,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getValue.js",
       "hash": "ZywnUQ",
-      "browserifyId": 285,
+      "browserifyId": 286,
       "sourcemap": ""
     }
   ],
@@ -4378,7 +4390,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_hasPath.js",
       "hash": "jUXXWw",
-      "browserifyId": 286,
+      "browserifyId": 287,
       "sourcemap": ""
     }
   ],
@@ -4390,7 +4402,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_hashClear.js",
       "hash": "2DYF+g",
-      "browserifyId": 287,
+      "browserifyId": 288,
       "sourcemap": ""
     }
   ],
@@ -4400,7 +4412,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_hashDelete.js",
       "hash": "cz690A",
-      "browserifyId": 288,
+      "browserifyId": 289,
       "sourcemap": ""
     }
   ],
@@ -4412,7 +4424,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_hashGet.js",
       "hash": "zRBjdQ",
-      "browserifyId": 289,
+      "browserifyId": 290,
       "sourcemap": ""
     }
   ],
@@ -4424,7 +4436,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_hashHas.js",
       "hash": "98eyIw",
-      "browserifyId": 290,
+      "browserifyId": 291,
       "sourcemap": ""
     }
   ],
@@ -4436,7 +4448,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_hashSet.js",
       "hash": "9V9dUA",
-      "browserifyId": 291,
+      "browserifyId": 292,
       "sourcemap": ""
     }
   ],
@@ -4450,7 +4462,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isFlattenable.js",
       "hash": "30BnpQ",
-      "browserifyId": 292,
+      "browserifyId": 293,
       "sourcemap": ""
     }
   ],
@@ -4460,22 +4472,22 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isIndex.js",
       "hash": "vRPaZQ",
-      "browserifyId": 293,
+      "browserifyId": 294,
       "sourcemap": ""
     }
   ],
   "/home/dustin/CS/recipes/node_modules/lodash/_isIterateeCall.js": [
     "var eq = require('./eq'),\n    isArrayLike = require('./isArrayLike'),\n    isIndex = require('./_isIndex'),\n    isObject = require('./isObject');\n\n/**\n * Checks if the given arguments are from an iteratee call.\n *\n * @private\n * @param {*} value The potential iteratee value argument.\n * @param {*} index The potential iteratee index or key argument.\n * @param {*} object The potential iteratee object argument.\n * @returns {boolean} Returns `true` if the arguments are from an iteratee call,\n *  else `false`.\n */\nfunction isIterateeCall(value, index, object) {\n  if (!isObject(object)) {\n    return false;\n  }\n  var type = typeof index;\n  if (type == 'number'\n        ? (isArrayLike(object) && isIndex(index, object.length))\n        : (type == 'string' && index in object)\n      ) {\n    return eq(object[index], value);\n  }\n  return false;\n}\n\nmodule.exports = isIterateeCall;\n",
     {
+      "./eq": "/home/dustin/CS/recipes/node_modules/lodash/eq.js",
       "./isArrayLike": "/home/dustin/CS/recipes/node_modules/lodash/isArrayLike.js",
       "./_isIndex": "/home/dustin/CS/recipes/node_modules/lodash/_isIndex.js",
-      "./eq": "/home/dustin/CS/recipes/node_modules/lodash/eq.js",
       "./isObject": "/home/dustin/CS/recipes/node_modules/lodash/isObject.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isIterateeCall.js",
       "hash": "eZpsGg",
-      "browserifyId": 294,
+      "browserifyId": 295,
       "sourcemap": ""
     }
   ],
@@ -4488,7 +4500,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isKey.js",
       "hash": "TpZJ+w",
-      "browserifyId": 295,
+      "browserifyId": 296,
       "sourcemap": ""
     }
   ],
@@ -4498,7 +4510,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isKeyable.js",
       "hash": "8Sn+sw",
-      "browserifyId": 296,
+      "browserifyId": 297,
       "sourcemap": ""
     }
   ],
@@ -4510,7 +4522,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isMasked.js",
       "hash": "z5viBg",
-      "browserifyId": 297,
+      "browserifyId": 298,
       "sourcemap": ""
     }
   ],
@@ -4520,7 +4532,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isPrototype.js",
       "hash": "ugmhLg",
-      "browserifyId": 298,
+      "browserifyId": 299,
       "sourcemap": ""
     }
   ],
@@ -4532,7 +4544,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isStrictComparable.js",
       "hash": "891Kiw",
-      "browserifyId": 299,
+      "browserifyId": 300,
       "sourcemap": ""
     }
   ],
@@ -4542,7 +4554,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheClear.js",
       "hash": "c1psRw",
-      "browserifyId": 300,
+      "browserifyId": 301,
       "sourcemap": ""
     }
   ],
@@ -4554,7 +4566,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheDelete.js",
       "hash": "wlCjmQ",
-      "browserifyId": 301,
+      "browserifyId": 302,
       "sourcemap": ""
     }
   ],
@@ -4566,7 +4578,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheGet.js",
       "hash": "A3cIBQ",
-      "browserifyId": 302,
+      "browserifyId": 303,
       "sourcemap": ""
     }
   ],
@@ -4578,7 +4590,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheHas.js",
       "hash": "LONurA",
-      "browserifyId": 303,
+      "browserifyId": 304,
       "sourcemap": ""
     }
   ],
@@ -4590,7 +4602,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheSet.js",
       "hash": "x9J6jw",
-      "browserifyId": 304,
+      "browserifyId": 305,
       "sourcemap": ""
     }
   ],
@@ -4604,7 +4616,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheClear.js",
       "hash": "rn2xGg",
-      "browserifyId": 305,
+      "browserifyId": 306,
       "sourcemap": ""
     }
   ],
@@ -4616,7 +4628,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheDelete.js",
       "hash": "A1aWqA",
-      "browserifyId": 306,
+      "browserifyId": 307,
       "sourcemap": ""
     }
   ],
@@ -4628,7 +4640,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheGet.js",
       "hash": "ghVB4g",
-      "browserifyId": 307,
+      "browserifyId": 308,
       "sourcemap": ""
     }
   ],
@@ -4640,7 +4652,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheHas.js",
       "hash": "8eiVGg",
-      "browserifyId": 308,
+      "browserifyId": 309,
       "sourcemap": ""
     }
   ],
@@ -4652,7 +4664,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheSet.js",
       "hash": "JvVMOA",
-      "browserifyId": 309,
+      "browserifyId": 310,
       "sourcemap": ""
     }
   ],
@@ -4662,7 +4674,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_mapToArray.js",
       "hash": "uES85A",
-      "browserifyId": 310,
+      "browserifyId": 311,
       "sourcemap": ""
     }
   ],
@@ -4672,7 +4684,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_matchesStrictComparable.js",
       "hash": "YYIqqA",
-      "browserifyId": 311,
+      "browserifyId": 312,
       "sourcemap": ""
     }
   ],
@@ -4684,7 +4696,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_memoizeCapped.js",
       "hash": "0MIwiw",
-      "browserifyId": 312,
+      "browserifyId": 313,
       "sourcemap": ""
     }
   ],
@@ -4696,7 +4708,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_nativeCreate.js",
       "hash": "0xjX7g",
-      "browserifyId": 313,
+      "browserifyId": 314,
       "sourcemap": ""
     }
   ],
@@ -4708,7 +4720,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_nativeKeys.js",
       "hash": "Iz1Wtg",
-      "browserifyId": 314,
+      "browserifyId": 315,
       "sourcemap": ""
     }
   ],
@@ -4720,7 +4732,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_nodeUtil.js",
       "hash": "cOqCTg",
-      "browserifyId": 315,
+      "browserifyId": 316,
       "sourcemap": ""
     }
   ],
@@ -4730,7 +4742,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_objectToString.js",
       "hash": "PYgzDw",
-      "browserifyId": 316,
+      "browserifyId": 317,
       "sourcemap": ""
     }
   ],
@@ -4740,7 +4752,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_overArg.js",
       "hash": "WFZu3w",
-      "browserifyId": 317,
+      "browserifyId": 318,
       "sourcemap": ""
     }
   ],
@@ -4752,7 +4764,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_overRest.js",
       "hash": "foyETg",
-      "browserifyId": 318,
+      "browserifyId": 319,
       "sourcemap": ""
     }
   ],
@@ -4764,7 +4776,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_root.js",
       "hash": "esC0kA",
-      "browserifyId": 319,
+      "browserifyId": 320,
       "sourcemap": ""
     }
   ],
@@ -4774,7 +4786,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_setCacheAdd.js",
       "hash": "Fw/Q6Q",
-      "browserifyId": 320,
+      "browserifyId": 321,
       "sourcemap": ""
     }
   ],
@@ -4784,7 +4796,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_setCacheHas.js",
       "hash": "rxdzxw",
-      "browserifyId": 321,
+      "browserifyId": 322,
       "sourcemap": ""
     }
   ],
@@ -4794,7 +4806,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_setToArray.js",
       "hash": "GUfuig",
-      "browserifyId": 322,
+      "browserifyId": 323,
       "sourcemap": ""
     }
   ],
@@ -4807,7 +4819,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_setToString.js",
       "hash": "DMCYBQ",
-      "browserifyId": 323,
+      "browserifyId": 324,
       "sourcemap": ""
     }
   ],
@@ -4817,7 +4829,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_shortOut.js",
       "hash": "51Xvaw",
-      "browserifyId": 324,
+      "browserifyId": 325,
       "sourcemap": ""
     }
   ],
@@ -4829,7 +4841,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_stackClear.js",
       "hash": "QwExyA",
-      "browserifyId": 325,
+      "browserifyId": 326,
       "sourcemap": ""
     }
   ],
@@ -4839,7 +4851,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_stackDelete.js",
       "hash": "laERhg",
-      "browserifyId": 326,
+      "browserifyId": 327,
       "sourcemap": ""
     }
   ],
@@ -4849,7 +4861,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_stackGet.js",
       "hash": "QhI7Cg",
-      "browserifyId": 327,
+      "browserifyId": 328,
       "sourcemap": ""
     }
   ],
@@ -4859,7 +4871,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_stackHas.js",
       "hash": "exNwOQ",
-      "browserifyId": 328,
+      "browserifyId": 329,
       "sourcemap": ""
     }
   ],
@@ -4873,7 +4885,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_stackSet.js",
       "hash": "9pgEOA",
-      "browserifyId": 329,
+      "browserifyId": 330,
       "sourcemap": ""
     }
   ],
@@ -4883,7 +4895,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_strictIndexOf.js",
       "hash": "MqNQMQ",
-      "browserifyId": 330,
+      "browserifyId": 331,
       "sourcemap": ""
     }
   ],
@@ -4895,7 +4907,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_stringToPath.js",
       "hash": "GyXVxw",
-      "browserifyId": 331,
+      "browserifyId": 332,
       "sourcemap": ""
     }
   ],
@@ -4907,7 +4919,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_toKey.js",
       "hash": "sQEPQQ",
-      "browserifyId": 332,
+      "browserifyId": 333,
       "sourcemap": ""
     }
   ],
@@ -4917,7 +4929,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_toSource.js",
       "hash": "iPbLuw",
-      "browserifyId": 333,
+      "browserifyId": 334,
       "sourcemap": ""
     }
   ],
@@ -4934,7 +4946,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/assign.js",
       "hash": "DreAGg",
-      "browserifyId": 334,
+      "browserifyId": 335,
       "sourcemap": ""
     }
   ],
@@ -4944,7 +4956,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/constant.js",
       "hash": "zrp6oA",
-      "browserifyId": 335,
+      "browserifyId": 336,
       "sourcemap": ""
     }
   ],
@@ -4959,7 +4971,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/difference.js",
       "hash": "HiDEvw",
-      "browserifyId": 336,
+      "browserifyId": 337,
       "sourcemap": ""
     }
   ],
@@ -4969,7 +4981,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/eq.js",
       "hash": "ZpUiqA",
-      "browserifyId": 337,
+      "browserifyId": 338,
       "sourcemap": ""
     }
   ],
@@ -4982,7 +4994,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/find.js",
       "hash": "ZImR3w",
-      "browserifyId": 338,
+      "browserifyId": 339,
       "sourcemap": ""
     }
   ],
@@ -4996,7 +5008,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/findIndex.js",
       "hash": "ypEagw",
-      "browserifyId": 339,
+      "browserifyId": 340,
       "sourcemap": ""
     }
   ],
@@ -5008,7 +5020,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/get.js",
       "hash": "T9TocA",
-      "browserifyId": 340,
+      "browserifyId": 341,
       "sourcemap": ""
     }
   ],
@@ -5021,7 +5033,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/hasIn.js",
       "hash": "dE1b7g",
-      "browserifyId": 341,
+      "browserifyId": 342,
       "sourcemap": ""
     }
   ],
@@ -5031,7 +5043,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/identity.js",
       "hash": "GpYUjw",
-      "browserifyId": 342,
+      "browserifyId": 343,
       "sourcemap": ""
     }
   ],
@@ -5044,7 +5056,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isArguments.js",
       "hash": "RvMahg",
-      "browserifyId": 343,
+      "browserifyId": 344,
       "sourcemap": ""
     }
   ],
@@ -5054,7 +5066,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isArray.js",
       "hash": "ZaaTdA",
-      "browserifyId": 344,
+      "browserifyId": 345,
       "sourcemap": ""
     }
   ],
@@ -5067,7 +5079,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isArrayLike.js",
       "hash": "YXFtFQ",
-      "browserifyId": 345,
+      "browserifyId": 346,
       "sourcemap": ""
     }
   ],
@@ -5080,7 +5092,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isArrayLikeObject.js",
       "hash": "DCwb/A",
-      "browserifyId": 346,
+      "browserifyId": 347,
       "sourcemap": ""
     }
   ],
@@ -5093,7 +5105,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isBuffer.js",
       "hash": "Az9mkg",
-      "browserifyId": 347,
+      "browserifyId": 348,
       "sourcemap": ""
     }
   ],
@@ -5106,7 +5118,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isFunction.js",
       "hash": "9GAhjw",
-      "browserifyId": 348,
+      "browserifyId": 349,
       "sourcemap": ""
     }
   ],
@@ -5116,7 +5128,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isLength.js",
       "hash": "z6X0AQ",
-      "browserifyId": 349,
+      "browserifyId": 350,
       "sourcemap": ""
     }
   ],
@@ -5126,7 +5138,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isObject.js",
       "hash": "THYWYg",
-      "browserifyId": 350,
+      "browserifyId": 351,
       "sourcemap": ""
     }
   ],
@@ -5136,7 +5148,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isObjectLike.js",
       "hash": "mfD7zA",
-      "browserifyId": 351,
+      "browserifyId": 352,
       "sourcemap": ""
     }
   ],
@@ -5149,7 +5161,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isSymbol.js",
       "hash": "4zefgw",
-      "browserifyId": 352,
+      "browserifyId": 353,
       "sourcemap": ""
     }
   ],
@@ -5163,7 +5175,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isTypedArray.js",
       "hash": "B+fWPQ",
-      "browserifyId": 353,
+      "browserifyId": 354,
       "sourcemap": ""
     }
   ],
@@ -5177,7 +5189,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/keys.js",
       "hash": "UJ3i8g",
-      "browserifyId": 354,
+      "browserifyId": 355,
       "sourcemap": ""
     }
   ],
@@ -5189,7 +5201,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/memoize.js",
       "hash": "mkyX6w",
-      "browserifyId": 355,
+      "browserifyId": 356,
       "sourcemap": ""
     }
   ],
@@ -5204,7 +5216,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/property.js",
       "hash": "XP8w6w",
-      "browserifyId": 356,
+      "browserifyId": 357,
       "sourcemap": ""
     }
   ],
@@ -5214,7 +5226,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/stubArray.js",
       "hash": "npB0lA",
-      "browserifyId": 357,
+      "browserifyId": 358,
       "sourcemap": ""
     }
   ],
@@ -5224,7 +5236,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/stubFalse.js",
       "hash": "MsEt/A",
-      "browserifyId": 358,
+      "browserifyId": 359,
       "sourcemap": ""
     }
   ],
@@ -5236,7 +5248,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/toFinite.js",
       "hash": "Z+lJSA",
-      "browserifyId": 359,
+      "browserifyId": 360,
       "sourcemap": ""
     }
   ],
@@ -5248,7 +5260,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/toInteger.js",
       "hash": "l0LAxQ",
-      "browserifyId": 360,
+      "browserifyId": 361,
       "sourcemap": ""
     }
   ],
@@ -5261,7 +5273,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/toNumber.js",
       "hash": "+bvKQg",
-      "browserifyId": 361,
+      "browserifyId": 362,
       "sourcemap": ""
     }
   ],
@@ -5273,7 +5285,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/toString.js",
       "hash": "ymxIXw",
-      "browserifyId": 362,
+      "browserifyId": 363,
       "sourcemap": ""
     }
   ],
@@ -5283,7 +5295,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/object-assign/index.js",
       "hash": "g548Bg",
-      "browserifyId": 363,
+      "browserifyId": 364,
       "sourcemap": ""
     }
   ],
@@ -5295,7 +5307,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/path-to-regexp/index.js",
       "hash": "jmKnRw",
-      "browserifyId": 364,
+      "browserifyId": 365,
       "sourcemap": ""
     }
   ],
@@ -5305,7 +5317,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/path-to-regexp/node_modules/isarray/index.js",
       "hash": "XsC78g",
-      "browserifyId": 365,
+      "browserifyId": 366,
       "sourcemap": ""
     }
   ],
@@ -5315,7 +5327,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "hash": "t8j6/g",
-      "browserifyId": 366,
+      "browserifyId": 367,
       "sourcemap": ""
     }
   ],
@@ -5327,7 +5339,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/prop-types/checkPropTypes.js",
       "hash": "RIi2Fg",
-      "browserifyId": 367,
+      "browserifyId": 368,
       "sourcemap": ""
     }
   ],
@@ -5339,7 +5351,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/prop-types/factoryWithThrowingShims.js",
       "hash": "BP1YTw",
-      "browserifyId": 368,
+      "browserifyId": 369,
       "sourcemap": ""
     }
   ],
@@ -5354,7 +5366,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/prop-types/factoryWithTypeCheckers.js",
       "hash": "61SwTg",
-      "browserifyId": 369,
+      "browserifyId": 370,
       "sourcemap": ""
     }
   ],
@@ -5368,7 +5380,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "hash": "R2eMAw",
-      "browserifyId": 370,
+      "browserifyId": 371,
       "sourcemap": ""
     }
   ],
@@ -5378,7 +5390,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/prop-types/lib/ReactPropTypesSecret.js",
       "hash": "GI9PHQ",
-      "browserifyId": 371,
+      "browserifyId": 372,
       "sourcemap": ""
     }
   ],
@@ -5388,7 +5400,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-deep-force-update/lib/index.js",
       "hash": "Hcv8ug",
-      "browserifyId": 372,
+      "browserifyId": 373,
       "sourcemap": ""
     }
   ],
@@ -5404,7 +5416,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-dom/cjs/react-dom.development.js",
       "hash": "n6QT7w",
-      "browserifyId": 373,
+      "browserifyId": 374,
       "sourcemap": ""
     }
   ],
@@ -5418,7 +5430,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-dom/cjs/react-dom.production.min.js",
       "hash": "sp85Nw",
-      "browserifyId": 374,
+      "browserifyId": 375,
       "sourcemap": ""
     }
   ],
@@ -5431,7 +5443,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-dom/index.js",
       "hash": "a0J+MA",
-      "browserifyId": 375,
+      "browserifyId": 376,
       "sourcemap": ""
     }
   ],
@@ -5454,7 +5466,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-event-listener/dist/react-event-listener.cjs.js",
       "hash": "0TuXVg",
-      "browserifyId": 376,
+      "browserifyId": 377,
       "sourcemap": ""
     }
   ],
@@ -5466,7 +5478,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-is/cjs/react-is.development.js",
       "hash": "L2qwlg",
-      "browserifyId": 377,
+      "browserifyId": 378,
       "sourcemap": ""
     }
   ],
@@ -5476,7 +5488,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-is/cjs/react-is.production.min.js",
       "hash": "qT5oJg",
-      "browserifyId": 378,
+      "browserifyId": 379,
       "sourcemap": ""
     }
   ],
@@ -5490,7 +5502,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-is/index.js",
       "hash": "AkJQhQ",
-      "browserifyId": 379,
+      "browserifyId": 380,
       "sourcemap": ""
     }
   ],
@@ -5500,7 +5512,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-lifecycles-compat/react-lifecycles-compat.cjs.js",
       "hash": "1QHnPA",
-      "browserifyId": 380,
+      "browserifyId": 381,
       "sourcemap": ""
     }
   ],
@@ -5510,7 +5522,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/bindAutoBindMethods.js",
       "hash": "82YT1A",
-      "browserifyId": 381,
+      "browserifyId": 382,
       "sourcemap": ""
     }
   ],
@@ -5518,15 +5530,15 @@
     "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"]) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); } }; }();\n\nexports.default = proxyClass;\nexports.default = createClassProxy;\n\nvar _find = require('lodash/find');\n\nvar _find2 = _interopRequireDefault(_find);\n\nvar _createPrototypeProxy = require('./createPrototypeProxy');\n\nvar _createPrototypeProxy2 = _interopRequireDefault(_createPrototypeProxy);\n\nvar _bindAutoBindMethods = require('./bindAutoBindMethods');\n\nvar _bindAutoBindMethods2 = _interopRequireDefault(_bindAutoBindMethods);\n\nvar _deleteUnknownAutoBindMethods = require('./deleteUnknownAutoBindMethods');\n\nvar _deleteUnknownAutoBindMethods2 = _interopRequireDefault(_deleteUnknownAutoBindMethods);\n\nvar _supportsProtoAssignment = require('./supportsProtoAssignment');\n\nvar _supportsProtoAssignment2 = _interopRequireDefault(_supportsProtoAssignment);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }\n\nvar RESERVED_STATICS = ['length', 'name', 'arguments', 'caller', 'prototype', 'toString'];\n\nfunction isEqualDescriptor(a, b) {\n  if (!a && !b) {\n    return true;\n  }\n  if (!a || !b) {\n    return false;\n  }\n  for (var key in a) {\n    if (a[key] !== b[key]) {\n      return false;\n    }\n  }\n  return true;\n}\n\n// This was originally a WeakMap but we had issues with React Native:\n// https://github.com/gaearon/react-proxy/issues/50#issuecomment-192928066\nvar allProxies = [];\nfunction findProxy(Component) {\n  var pair = (0, _find2.default)(allProxies, function (_ref) {\n    var _ref2 = _slicedToArray(_ref, 1);\n\n    var key = _ref2[0];\n    return key === Component;\n  });\n  return pair ? pair[1] : null;\n}\nfunction addProxy(Component, proxy) {\n  allProxies.push([Component, proxy]);\n}\n\nfunction proxyClass(InitialComponent) {\n  // Prevent double wrapping.\n  // Given a proxy class, return the existing proxy managing it.\n  var existingProxy = findProxy(InitialComponent);\n  if (existingProxy) {\n    return existingProxy;\n  }\n\n  var prototypeProxy = (0, _createPrototypeProxy2.default)();\n  var CurrentComponent = undefined;\n  var ProxyComponent = undefined;\n\n  var staticDescriptors = {};\n  function wasStaticModifiedByUser(key) {\n    // Compare the descriptor with the one we previously set ourselves.\n    var currentDescriptor = Object.getOwnPropertyDescriptor(ProxyComponent, key);\n    return !isEqualDescriptor(staticDescriptors[key], currentDescriptor);\n  }\n\n  function instantiate(factory, context, params) {\n    var component = factory();\n\n    try {\n      return component.apply(context, params);\n    } catch (err) {\n      (function () {\n        // Native ES6 class instantiation\n        var instance = new (Function.prototype.bind.apply(component, [null].concat(_toConsumableArray(params))))();\n\n        Object.keys(instance).forEach(function (key) {\n          if (RESERVED_STATICS.indexOf(key) > -1) {\n            return;\n          }\n          context[key] = instance[key];\n        });\n      })();\n    }\n  }\n\n  try {\n    // Create a proxy constructor with matching name\n    ProxyComponent = new Function('factory', 'instantiate', 'return function ' + (InitialComponent.name || 'ProxyComponent') + '() {\\n         return instantiate(factory, this, arguments);\\n      }')(function () {\n      return CurrentComponent;\n    }, instantiate);\n  } catch (err) {\n    // Some environments may forbid dynamic evaluation\n    ProxyComponent = function ProxyComponent() {\n      return instantiate(function () {\n        return CurrentComponent;\n      }, this, arguments);\n    };\n  }\n\n  // Point proxy constructor to the proxy prototype\n  ProxyComponent.prototype = prototypeProxy.get();\n\n  // Proxy toString() to the current constructor\n  ProxyComponent.toString = function toString() {\n    return CurrentComponent.toString();\n  };\n\n  function update(NextComponent) {\n    if (typeof NextComponent !== 'function') {\n      throw new Error('Expected a constructor.');\n    }\n\n    // Prevent proxy cycles\n    var existingProxy = findProxy(NextComponent);\n    if (existingProxy) {\n      return update(existingProxy.__getCurrent());\n    }\n\n    // Save the next constructor so we call it\n    CurrentComponent = NextComponent;\n\n    // Update the prototype proxy with new methods\n    var mountedInstances = prototypeProxy.update(NextComponent.prototype);\n\n    // Set up the constructor property so accessing the statics work\n    ProxyComponent.prototype.constructor = ProxyComponent;\n\n    // Set up the same prototype for inherited statics\n    ProxyComponent.__proto__ = NextComponent.__proto__;\n\n    // Copy static methods and properties\n    Object.getOwnPropertyNames(NextComponent).forEach(function (key) {\n      if (RESERVED_STATICS.indexOf(key) > -1) {\n        return;\n      }\n\n      var staticDescriptor = _extends({}, Object.getOwnPropertyDescriptor(NextComponent, key), {\n        configurable: true\n      });\n\n      // Copy static unless user has redefined it at runtime\n      if (!wasStaticModifiedByUser(key)) {\n        Object.defineProperty(ProxyComponent, key, staticDescriptor);\n        staticDescriptors[key] = staticDescriptor;\n      }\n    });\n\n    // Remove old static methods and properties\n    Object.getOwnPropertyNames(ProxyComponent).forEach(function (key) {\n      if (RESERVED_STATICS.indexOf(key) > -1) {\n        return;\n      }\n\n      // Skip statics that exist on the next class\n      if (NextComponent.hasOwnProperty(key)) {\n        return;\n      }\n\n      // Skip non-configurable statics\n      var descriptor = Object.getOwnPropertyDescriptor(ProxyComponent, key);\n      if (descriptor && !descriptor.configurable) {\n        return;\n      }\n\n      // Delete static unless user has redefined it at runtime\n      if (!wasStaticModifiedByUser(key)) {\n        delete ProxyComponent[key];\n        delete staticDescriptors[key];\n      }\n    });\n\n    // Try to infer displayName\n    ProxyComponent.displayName = NextComponent.displayName || NextComponent.name;\n\n    // We might have added new methods that need to be auto-bound\n    mountedInstances.forEach(_bindAutoBindMethods2.default);\n    mountedInstances.forEach(_deleteUnknownAutoBindMethods2.default);\n\n    // Let the user take care of redrawing\n    return mountedInstances;\n  };\n\n  function get() {\n    return ProxyComponent;\n  }\n\n  function getCurrent() {\n    return CurrentComponent;\n  }\n\n  update(InitialComponent);\n\n  var proxy = { get: get, update: update };\n  addProxy(ProxyComponent, proxy);\n\n  Object.defineProperty(proxy, '__getCurrent', {\n    configurable: false,\n    writable: false,\n    enumerable: false,\n    value: getCurrent\n  });\n\n  return proxy;\n}\n\nfunction createFallback(Component) {\n  var CurrentComponent = Component;\n\n  return {\n    get: function get() {\n      return CurrentComponent;\n    },\n    update: function update(NextComponent) {\n      CurrentComponent = NextComponent;\n    }\n  };\n}\n\nfunction createClassProxy(Component) {\n  return Component.__proto__ && (0, _supportsProtoAssignment2.default)() ? proxyClass(Component) : createFallback(Component);\n}",
     {
       "./supportsProtoAssignment": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/supportsProtoAssignment.js",
-      "./deleteUnknownAutoBindMethods": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/deleteUnknownAutoBindMethods.js",
       "./bindAutoBindMethods": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/bindAutoBindMethods.js",
+      "./deleteUnknownAutoBindMethods": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/deleteUnknownAutoBindMethods.js",
       "./createPrototypeProxy": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/createPrototypeProxy.js",
       "lodash/find": "/home/dustin/CS/recipes/node_modules/lodash/find.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/createClassProxy.js",
       "hash": "V/nFvA",
-      "browserifyId": 382,
+      "browserifyId": 383,
       "sourcemap": ""
     }
   ],
@@ -5539,7 +5551,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/createPrototypeProxy.js",
       "hash": "TN2BVA",
-      "browserifyId": 383,
+      "browserifyId": 384,
       "sourcemap": ""
     }
   ],
@@ -5549,7 +5561,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/deleteUnknownAutoBindMethods.js",
       "hash": "CkQTAA",
-      "browserifyId": 384,
+      "browserifyId": 385,
       "sourcemap": ""
     }
   ],
@@ -5563,7 +5575,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/index.js",
       "hash": "UHYfzw",
-      "browserifyId": 385,
+      "browserifyId": 386,
       "sourcemap": ""
     }
   ],
@@ -5573,7 +5585,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/supportsProtoAssignment.js",
       "hash": "JevoEA",
-      "browserifyId": 386,
+      "browserifyId": 387,
       "sourcemap": ""
     }
   ],
@@ -5586,7 +5598,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/components/Context.js",
       "hash": "RUxdCQ",
-      "browserifyId": 387,
+      "browserifyId": 388,
       "sourcemap": ""
     }
   ],
@@ -5596,14 +5608,14 @@
       "./Context": "/home/dustin/CS/recipes/node_modules/react-redux/lib/components/Context.js",
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/inheritsLoose": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inheritsLoose.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/components/Provider.js",
       "hash": "XouXmw",
-      "browserifyId": 388,
+      "browserifyId": 389,
       "sourcemap": ""
     }
   ],
@@ -5611,21 +5623,21 @@
     "\"use strict\";\n\nvar _interopRequireWildcard = require(\"@babel/runtime/helpers/interopRequireWildcard\");\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nexports.__esModule = true;\nexports.default = connectAdvanced;\n\nvar _assertThisInitialized2 = _interopRequireDefault(require(\"@babel/runtime/helpers/assertThisInitialized\"));\n\nvar _inheritsLoose2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inheritsLoose\"));\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutPropertiesLoose2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutPropertiesLoose\"));\n\nvar _hoistNonReactStatics = _interopRequireDefault(require(\"hoist-non-react-statics\"));\n\nvar _invariant = _interopRequireDefault(require(\"invariant\"));\n\nvar _react = _interopRequireWildcard(require(\"react\"));\n\nvar _reactIs = require(\"react-is\");\n\nvar _Context = require(\"./Context\");\n\nvar stringifyComponent = function stringifyComponent(Comp) {\n  try {\n    return JSON.stringify(Comp);\n  } catch (err) {\n    return String(Comp);\n  }\n};\n\nfunction connectAdvanced(\n/*\n  selectorFactory is a func that is responsible for returning the selector function used to\n  compute new props from state, props, and dispatch. For example:\n     export default connectAdvanced((dispatch, options) => (state, props) => ({\n      thing: state.things[props.thingId],\n      saveThing: fields => dispatch(actionCreators.saveThing(props.thingId, fields)),\n    }))(YourComponent)\n   Access to dispatch is provided to the factory so selectorFactories can bind actionCreators\n  outside of their selector as an optimization. Options passed to connectAdvanced are passed to\n  the selectorFactory, along with displayName and WrappedComponent, as the second argument.\n   Note that selectorFactory is responsible for all caching/memoization of inbound and outbound\n  props. Do not use connectAdvanced directly without memoizing results between calls to your\n  selector, otherwise the Connect component will re-render on every state or props change.\n*/\nselectorFactory, // options object:\n_ref) {\n  if (_ref === void 0) {\n    _ref = {};\n  }\n\n  var _ref2 = _ref,\n      _ref2$getDisplayName = _ref2.getDisplayName,\n      getDisplayName = _ref2$getDisplayName === void 0 ? function (name) {\n    return \"ConnectAdvanced(\" + name + \")\";\n  } : _ref2$getDisplayName,\n      _ref2$methodName = _ref2.methodName,\n      methodName = _ref2$methodName === void 0 ? 'connectAdvanced' : _ref2$methodName,\n      _ref2$renderCountProp = _ref2.renderCountProp,\n      renderCountProp = _ref2$renderCountProp === void 0 ? undefined : _ref2$renderCountProp,\n      _ref2$shouldHandleSta = _ref2.shouldHandleStateChanges,\n      shouldHandleStateChanges = _ref2$shouldHandleSta === void 0 ? true : _ref2$shouldHandleSta,\n      _ref2$storeKey = _ref2.storeKey,\n      storeKey = _ref2$storeKey === void 0 ? 'store' : _ref2$storeKey,\n      _ref2$withRef = _ref2.withRef,\n      withRef = _ref2$withRef === void 0 ? false : _ref2$withRef,\n      _ref2$forwardRef = _ref2.forwardRef,\n      forwardRef = _ref2$forwardRef === void 0 ? false : _ref2$forwardRef,\n      _ref2$context = _ref2.context,\n      context = _ref2$context === void 0 ? _Context.ReactReduxContext : _ref2$context,\n      connectOptions = (0, _objectWithoutPropertiesLoose2.default)(_ref2, [\"getDisplayName\", \"methodName\", \"renderCountProp\", \"shouldHandleStateChanges\", \"storeKey\", \"withRef\", \"forwardRef\", \"context\"]);\n  (0, _invariant.default)(renderCountProp === undefined, \"renderCountProp is removed. render counting is built into the latest React dev tools profiling extension\");\n  (0, _invariant.default)(!withRef, 'withRef is removed. To access the wrapped instance, use a ref on the connected component');\n  var customStoreWarningMessage = 'To use a custom Redux store for specific components,  create a custom React context with ' + \"React.createContext(), and pass the context object to React Redux's Provider and specific components\" + ' like:  <Provider context={MyContext}><ConnectedComponent context={MyContext} /></Provider>. ' + 'You may also pass a {context : MyContext} option to connect';\n  (0, _invariant.default)(storeKey === 'store', 'storeKey has been removed and does not do anything. ' + customStoreWarningMessage);\n  var Context = context;\n  return function wrapWithConnect(WrappedComponent) {\n    if (\"dev\" !== 'production') {\n      (0, _invariant.default)((0, _reactIs.isValidElementType)(WrappedComponent), \"You must pass a component to the function returned by \" + (methodName + \". Instead received \" + stringifyComponent(WrappedComponent)));\n    }\n\n    var wrappedComponentName = WrappedComponent.displayName || WrappedComponent.name || 'Component';\n    var displayName = getDisplayName(wrappedComponentName);\n    var selectorFactoryOptions = (0, _extends2.default)({}, connectOptions, {\n      getDisplayName: getDisplayName,\n      methodName: methodName,\n      renderCountProp: renderCountProp,\n      shouldHandleStateChanges: shouldHandleStateChanges,\n      storeKey: storeKey,\n      displayName: displayName,\n      wrappedComponentName: wrappedComponentName,\n      WrappedComponent: WrappedComponent\n    });\n    var pure = connectOptions.pure;\n    var OuterBaseComponent = _react.Component;\n\n    if (pure) {\n      OuterBaseComponent = _react.PureComponent;\n    }\n\n    function makeDerivedPropsSelector() {\n      var lastProps;\n      var lastState;\n      var lastDerivedProps;\n      var lastStore;\n      var lastSelectorFactoryOptions;\n      var sourceSelector;\n      return function selectDerivedProps(state, props, store, selectorFactoryOptions) {\n        if (pure && lastProps === props && lastState === state) {\n          return lastDerivedProps;\n        }\n\n        if (store !== lastStore || lastSelectorFactoryOptions !== selectorFactoryOptions) {\n          lastStore = store;\n          lastSelectorFactoryOptions = selectorFactoryOptions;\n          sourceSelector = selectorFactory(store.dispatch, selectorFactoryOptions);\n        }\n\n        lastProps = props;\n        lastState = state;\n        var nextProps = sourceSelector(state, props);\n        lastDerivedProps = nextProps;\n        return lastDerivedProps;\n      };\n    }\n\n    function makeChildElementSelector() {\n      var lastChildProps, lastForwardRef, lastChildElement, lastComponent;\n      return function selectChildElement(WrappedComponent, childProps, forwardRef) {\n        if (childProps !== lastChildProps || forwardRef !== lastForwardRef || lastComponent !== WrappedComponent) {\n          lastChildProps = childProps;\n          lastForwardRef = forwardRef;\n          lastComponent = WrappedComponent;\n          lastChildElement = _react.default.createElement(WrappedComponent, (0, _extends2.default)({}, childProps, {\n            ref: forwardRef\n          }));\n        }\n\n        return lastChildElement;\n      };\n    }\n\n    var Connect =\n    /*#__PURE__*/\n    function (_OuterBaseComponent) {\n      (0, _inheritsLoose2.default)(Connect, _OuterBaseComponent);\n\n      function Connect(props) {\n        var _this;\n\n        _this = _OuterBaseComponent.call(this, props) || this;\n        (0, _invariant.default)(forwardRef ? !props.wrapperProps[storeKey] : !props[storeKey], 'Passing redux store in props has been removed and does not do anything. ' + customStoreWarningMessage);\n        _this.selectDerivedProps = makeDerivedPropsSelector();\n        _this.selectChildElement = makeChildElementSelector();\n        _this.indirectRenderWrappedComponent = _this.indirectRenderWrappedComponent.bind((0, _assertThisInitialized2.default)(_this));\n        return _this;\n      }\n\n      var _proto = Connect.prototype;\n\n      _proto.indirectRenderWrappedComponent = function indirectRenderWrappedComponent(value) {\n        // calling renderWrappedComponent on prototype from indirectRenderWrappedComponent bound to `this`\n        return this.renderWrappedComponent(value);\n      };\n\n      _proto.renderWrappedComponent = function renderWrappedComponent(value) {\n        (0, _invariant.default)(value, \"Could not find \\\"store\\\" in the context of \" + (\"\\\"\" + displayName + \"\\\". Either wrap the root component in a <Provider>, \") + \"or pass a custom React context provider to <Provider> and the corresponding \" + (\"React context consumer to \" + displayName + \" in connect options.\"));\n        var storeState = value.storeState,\n            store = value.store;\n        var wrapperProps = this.props;\n        var forwardedRef;\n\n        if (forwardRef) {\n          wrapperProps = this.props.wrapperProps;\n          forwardedRef = this.props.forwardedRef;\n        }\n\n        var derivedProps = this.selectDerivedProps(storeState, wrapperProps, store, selectorFactoryOptions);\n        return this.selectChildElement(WrappedComponent, derivedProps, forwardedRef);\n      };\n\n      _proto.render = function render() {\n        var ContextToUse = this.props.context && this.props.context.Consumer && (0, _reactIs.isContextConsumer)(_react.default.createElement(this.props.context.Consumer, null)) ? this.props.context : Context;\n        return _react.default.createElement(ContextToUse.Consumer, null, this.indirectRenderWrappedComponent);\n      };\n\n      return Connect;\n    }(OuterBaseComponent);\n\n    Connect.WrappedComponent = WrappedComponent;\n    Connect.displayName = displayName;\n\n    if (forwardRef) {\n      var forwarded = _react.default.forwardRef(function forwardConnectRef(props, ref) {\n        return _react.default.createElement(Connect, {\n          wrapperProps: props,\n          forwardedRef: ref\n        });\n      });\n\n      forwarded.displayName = displayName;\n      forwarded.WrappedComponent = WrappedComponent;\n      return (0, _hoistNonReactStatics.default)(forwarded, WrappedComponent);\n    }\n\n    return (0, _hoistNonReactStatics.default)(Connect, WrappedComponent);\n  };\n}",
     {
       "./Context": "/home/dustin/CS/recipes/node_modules/react-redux/lib/components/Context.js",
-      "invariant": "/home/dustin/CS/recipes/node_modules/invariant/browser.js",
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "invariant": "/home/dustin/CS/recipes/node_modules/invariant/browser.js",
       "react-is": "/home/dustin/CS/recipes/node_modules/react-is/index.js",
       "hoist-non-react-statics": "/home/dustin/CS/recipes/node_modules/react-redux/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/assertThisInitialized": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+      "@babel/runtime/helpers/inheritsLoose": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inheritsLoose.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
-      "@babel/runtime/helpers/objectWithoutPropertiesLoose": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
-      "@babel/runtime/helpers/inheritsLoose": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inheritsLoose.js"
+      "@babel/runtime/helpers/objectWithoutPropertiesLoose": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/components/connectAdvanced.js",
       "hash": "tJ1cFg",
-      "browserifyId": 389,
+      "browserifyId": 390,
       "sourcemap": ""
     }
   ],
@@ -5636,8 +5648,8 @@
       "../utils/shallowEqual": "/home/dustin/CS/recipes/node_modules/react-redux/lib/utils/shallowEqual.js",
       "./mapDispatchToProps": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mapDispatchToProps.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/objectWithoutPropertiesLoose": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutPropertiesLoose": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
       "./mapStateToProps": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mapStateToProps.js",
       "./mergeProps": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mergeProps.js",
       "./selectorFactory": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/selectorFactory.js"
@@ -5645,7 +5657,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/connect.js",
       "hash": "BQGfnQ",
-      "browserifyId": 390,
+      "browserifyId": 391,
       "sourcemap": ""
     }
   ],
@@ -5658,7 +5670,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mapDispatchToProps.js",
       "hash": "chfOfw",
-      "browserifyId": 391,
+      "browserifyId": 392,
       "sourcemap": ""
     }
   ],
@@ -5670,7 +5682,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mapStateToProps.js",
       "hash": "o/0xig",
-      "browserifyId": 392,
+      "browserifyId": 393,
       "sourcemap": ""
     }
   ],
@@ -5684,7 +5696,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mergeProps.js",
       "hash": "EJn4Ng",
-      "browserifyId": 393,
+      "browserifyId": 394,
       "sourcemap": ""
     }
   ],
@@ -5698,7 +5710,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/selectorFactory.js",
       "hash": "ihpUSA",
-      "browserifyId": 394,
+      "browserifyId": 395,
       "sourcemap": ""
     }
   ],
@@ -5711,7 +5723,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/verifySubselectors.js",
       "hash": "tR5BKw",
-      "browserifyId": 395,
+      "browserifyId": 396,
       "sourcemap": ""
     }
   ],
@@ -5724,7 +5736,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/wrapMapToProps.js",
       "hash": "IuBRoA",
-      "browserifyId": 396,
+      "browserifyId": 397,
       "sourcemap": ""
     }
   ],
@@ -5740,7 +5752,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/index.js",
       "hash": "Q2Qmyg",
-      "browserifyId": 397,
+      "browserifyId": 398,
       "sourcemap": ""
     }
   ],
@@ -5750,7 +5762,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/utils/isPlainObject.js",
       "hash": "KEqRDg",
-      "browserifyId": 398,
+      "browserifyId": 399,
       "sourcemap": ""
     }
   ],
@@ -5760,7 +5772,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/utils/shallowEqual.js",
       "hash": "T3K5wg",
-      "browserifyId": 399,
+      "browserifyId": 400,
       "sourcemap": ""
     }
   ],
@@ -5774,7 +5786,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/utils/verifyPlainObject.js",
       "hash": "I570ZA",
-      "browserifyId": 400,
+      "browserifyId": 401,
       "sourcemap": ""
     }
   ],
@@ -5784,7 +5796,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/utils/warning.js",
       "hash": "GH8emw",
-      "browserifyId": 401,
+      "browserifyId": 402,
       "sourcemap": ""
     }
   ],
@@ -5797,7 +5809,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "hash": "DcmCaw",
-      "browserifyId": 402,
+      "browserifyId": 403,
       "sourcemap": ""
     }
   ],
@@ -5813,7 +5825,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/BrowserRouter.js",
       "hash": "OM+vwQ",
-      "browserifyId": 403,
+      "browserifyId": 404,
       "sourcemap": ""
     }
   ],
@@ -5829,7 +5841,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/HashRouter.js",
       "hash": "mF504Q",
-      "browserifyId": 404,
+      "browserifyId": 405,
       "sourcemap": ""
     }
   ],
@@ -5844,7 +5856,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/Link.js",
       "hash": "VN8tjA",
-      "browserifyId": 405,
+      "browserifyId": 406,
       "sourcemap": ""
     }
   ],
@@ -5856,7 +5868,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/MemoryRouter.js",
       "hash": "uGxXig",
-      "browserifyId": 406,
+      "browserifyId": 407,
       "sourcemap": ""
     }
   ],
@@ -5871,7 +5883,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/NavLink.js",
       "hash": "xWaCdA",
-      "browserifyId": 407,
+      "browserifyId": 408,
       "sourcemap": ""
     }
   ],
@@ -5883,7 +5895,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/Prompt.js",
       "hash": "1YR5rQ",
-      "browserifyId": 408,
+      "browserifyId": 409,
       "sourcemap": ""
     }
   ],
@@ -5895,7 +5907,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/Redirect.js",
       "hash": "wRZzyQ",
-      "browserifyId": 409,
+      "browserifyId": 410,
       "sourcemap": ""
     }
   ],
@@ -5907,7 +5919,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/Route.js",
       "hash": "2MCM4g",
-      "browserifyId": 410,
+      "browserifyId": 411,
       "sourcemap": ""
     }
   ],
@@ -5919,7 +5931,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/Router.js",
       "hash": "Rs7aWg",
-      "browserifyId": 411,
+      "browserifyId": 412,
       "sourcemap": ""
     }
   ],
@@ -5931,7 +5943,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/StaticRouter.js",
       "hash": "2YoPrQ",
-      "browserifyId": 412,
+      "browserifyId": 413,
       "sourcemap": ""
     }
   ],
@@ -5943,7 +5955,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/Switch.js",
       "hash": "yW5+9w",
-      "browserifyId": 413,
+      "browserifyId": 414,
       "sourcemap": ""
     }
   ],
@@ -5955,7 +5967,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/generatePath.js",
       "hash": "V1VKQw",
-      "browserifyId": 414,
+      "browserifyId": 415,
       "sourcemap": ""
     }
   ],
@@ -5980,7 +5992,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/index.js",
       "hash": "w1i+lQ",
-      "browserifyId": 415,
+      "browserifyId": 416,
       "sourcemap": ""
     }
   ],
@@ -5992,7 +6004,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/matchPath.js",
       "hash": "pEgBsA",
-      "browserifyId": 416,
+      "browserifyId": 417,
       "sourcemap": ""
     }
   ],
@@ -6004,7 +6016,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/withRouter.js",
       "hash": "mbuVWA",
-      "browserifyId": 417,
+      "browserifyId": 418,
       "sourcemap": ""
     }
   ],
@@ -6020,7 +6032,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/MemoryRouter.js",
       "hash": "X5OXYQ",
-      "browserifyId": 418,
+      "browserifyId": 419,
       "sourcemap": ""
     }
   ],
@@ -6034,7 +6046,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/Prompt.js",
       "hash": "sEgSLQ",
-      "browserifyId": 419,
+      "browserifyId": 420,
       "sourcemap": ""
     }
   ],
@@ -6051,7 +6063,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/Redirect.js",
       "hash": "ib00rA",
-      "browserifyId": 420,
+      "browserifyId": 421,
       "sourcemap": ""
     }
   ],
@@ -6067,7 +6079,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/Route.js",
       "hash": "RItUpw",
-      "browserifyId": 421,
+      "browserifyId": 422,
       "sourcemap": ""
     }
   ],
@@ -6082,7 +6094,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/Router.js",
       "hash": "LZu+Fw",
-      "browserifyId": 422,
+      "browserifyId": 423,
       "sourcemap": ""
     }
   ],
@@ -6099,7 +6111,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/StaticRouter.js",
       "hash": "kEp5RA",
-      "browserifyId": 423,
+      "browserifyId": 424,
       "sourcemap": ""
     }
   ],
@@ -6115,7 +6127,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/Switch.js",
       "hash": "DbxN9A",
-      "browserifyId": 424,
+      "browserifyId": 425,
       "sourcemap": ""
     }
   ],
@@ -6127,7 +6139,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/generatePath.js",
       "hash": "7U1LTA",
-      "browserifyId": 425,
+      "browserifyId": 426,
       "sourcemap": ""
     }
   ],
@@ -6139,7 +6151,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/matchPath.js",
       "hash": "nrWFmw",
-      "browserifyId": 426,
+      "browserifyId": 427,
       "sourcemap": ""
     }
   ],
@@ -6154,7 +6166,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/withRouter.js",
       "hash": "nVLVKw",
-      "browserifyId": 427,
+      "browserifyId": 428,
       "sourcemap": ""
     }
   ],
@@ -6170,7 +6182,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-transition-group/Transition.js",
       "hash": "XfrFrw",
-      "browserifyId": 428,
+      "browserifyId": 429,
       "sourcemap": ""
     }
   ],
@@ -6185,7 +6197,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-transition-group/TransitionGroup.js",
       "hash": "GZ44tw",
-      "browserifyId": 429,
+      "browserifyId": 430,
       "sourcemap": ""
     }
   ],
@@ -6197,7 +6209,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-transition-group/utils/ChildMapping.js",
       "hash": "ItDvhA",
-      "browserifyId": 430,
+      "browserifyId": 431,
       "sourcemap": ""
     }
   ],
@@ -6209,7 +6221,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-transition-group/utils/PropTypes.js",
       "hash": "efiiKg",
-      "browserifyId": 431,
+      "browserifyId": 432,
       "sourcemap": ""
     }
   ],
@@ -6222,7 +6234,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react/cjs/react.development.js",
       "hash": "8mwziw",
-      "browserifyId": 432,
+      "browserifyId": 433,
       "sourcemap": ""
     }
   ],
@@ -6234,7 +6246,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react/cjs/react.production.min.js",
       "hash": "3f30XA",
-      "browserifyId": 433,
+      "browserifyId": 434,
       "sourcemap": ""
     }
   ],
@@ -6247,7 +6259,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "hash": "h2TjeQ",
-      "browserifyId": 434,
+      "browserifyId": 435,
       "sourcemap": ""
     }
   ],
@@ -6257,7 +6269,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/recompose/getDisplayName.js",
       "hash": "DlJH3g",
-      "browserifyId": 435,
+      "browserifyId": 436,
       "sourcemap": ""
     }
   ],
@@ -6274,7 +6286,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/recompose/pure.js",
       "hash": "omMiaA",
-      "browserifyId": 436,
+      "browserifyId": 437,
       "sourcemap": ""
     }
   ],
@@ -6287,7 +6299,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/recompose/setDisplayName.js",
       "hash": "anrxrw",
-      "browserifyId": 437,
+      "browserifyId": 438,
       "sourcemap": ""
     }
   ],
@@ -6297,7 +6309,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/recompose/setStatic.js",
       "hash": "XFORwQ",
-      "browserifyId": 438,
+      "browserifyId": 439,
       "sourcemap": ""
     }
   ],
@@ -6310,7 +6322,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/recompose/shallowEqual.js",
       "hash": "zAVhVw",
-      "browserifyId": 439,
+      "browserifyId": 440,
       "sourcemap": ""
     }
   ],
@@ -6327,7 +6339,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/recompose/shouldUpdate.js",
       "hash": "hakfUQ",
-      "browserifyId": 440,
+      "browserifyId": 441,
       "sourcemap": ""
     }
   ],
@@ -6340,7 +6352,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/recompose/wrapDisplayName.js",
       "hash": "TuduXw",
-      "browserifyId": 441,
+      "browserifyId": 442,
       "sourcemap": ""
     }
   ],
@@ -6350,7 +6362,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/redux-logger/dist/redux-logger.js",
       "hash": "yJtY1Q",
-      "browserifyId": 442,
+      "browserifyId": 443,
       "sourcemap": ""
     }
   ],
@@ -6360,7 +6372,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/redux-thunk/lib/index.js",
       "hash": "uGmRXA",
-      "browserifyId": 443,
+      "browserifyId": 444,
       "sourcemap": ""
     }
   ],
@@ -6372,7 +6384,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/redux/lib/redux.js",
       "hash": "99B9dA",
-      "browserifyId": 444,
+      "browserifyId": 445,
       "sourcemap": ""
     }
   ],
@@ -6382,7 +6394,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/regenerator-runtime/runtime.js",
       "hash": "KxZDzQ",
-      "browserifyId": 445,
+      "browserifyId": 446,
       "sourcemap": ""
     }
   ],
@@ -6392,7 +6404,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/resolve-pathname/cjs/index.js",
       "hash": "Fn9Uiw",
-      "browserifyId": 446,
+      "browserifyId": 447,
       "sourcemap": ""
     }
   ],
@@ -6402,7 +6414,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/scheduler/cjs/scheduler-tracing.development.js",
       "hash": "HC+4qw",
-      "browserifyId": 447,
+      "browserifyId": 448,
       "sourcemap": ""
     }
   ],
@@ -6412,7 +6424,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/scheduler/cjs/scheduler-tracing.production.min.js",
       "hash": "ybJ5CQ",
-      "browserifyId": 448,
+      "browserifyId": 449,
       "sourcemap": ""
     }
   ],
@@ -6422,7 +6434,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/scheduler/cjs/scheduler.development.js",
       "hash": "msKX+g",
-      "browserifyId": 449,
+      "browserifyId": 450,
       "sourcemap": ""
     }
   ],
@@ -6432,7 +6444,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/scheduler/cjs/scheduler.production.min.js",
       "hash": "MtWqFQ",
-      "browserifyId": 450,
+      "browserifyId": 451,
       "sourcemap": ""
     }
   ],
@@ -6445,7 +6457,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/scheduler/index.js",
       "hash": "QjeNAw",
-      "browserifyId": 451,
+      "browserifyId": 452,
       "sourcemap": ""
     }
   ],
@@ -6458,7 +6470,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/scheduler/tracing.js",
       "hash": "F4PkdQ",
-      "browserifyId": 452,
+      "browserifyId": 453,
       "sourcemap": ""
     }
   ],
@@ -6470,7 +6482,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/symbol-observable/lib/index.js",
       "hash": "3OjNcQ",
-      "browserifyId": 453,
+      "browserifyId": 454,
       "sourcemap": ""
     }
   ],
@@ -6480,7 +6492,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/symbol-observable/lib/ponyfill.js",
       "hash": "cYpBQw",
-      "browserifyId": 454,
+      "browserifyId": 455,
       "sourcemap": ""
     }
   ],
@@ -6492,7 +6504,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js",
       "hash": "Qp98OA",
-      "browserifyId": 455,
+      "browserifyId": 456,
       "sourcemap": ""
     }
   ],
@@ -6504,7 +6516,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/tiny-warning/dist/tiny-warning.cjs.js",
       "hash": "/fD4/w",
-      "browserifyId": 456,
+      "browserifyId": 457,
       "sourcemap": ""
     }
   ],
@@ -6514,7 +6526,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/tslib/tslib.js",
       "hash": "0BAyDA",
-      "browserifyId": 457,
+      "browserifyId": 458,
       "sourcemap": ""
     }
   ],
@@ -6524,7 +6536,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/value-equal/cjs/index.js",
       "hash": "6ths3A",
-      "browserifyId": 458,
+      "browserifyId": 459,
       "sourcemap": ""
     }
   ],
@@ -6534,7 +6546,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "hash": "Bgko7Q",
-      "browserifyId": 459,
+      "browserifyId": 460,
       "sourcemap": ""
     }
   ],
@@ -6551,7 +6563,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/App.js",
       "hash": "gBHFow",
-      "browserifyId": 460,
+      "browserifyId": 461,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcz92ZXJzaW9uPWdCSEZvdyJdLCJuYW1lcyI6WyJzdG9yZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztlQUVlO0FBQUEsU0FDZCxnQ0FBQywwQkFBRCxRQUNDLGdDQUFDLG9CQUFEO0FBQVUsSUFBQSxLQUFLLEVBQUVBO0FBQWpCLEtBQ0MsZ0NBQUMseUJBQUQsT0FERCxDQURELENBRGM7QUFBQSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmltcG9ydCB7IEhhc2hSb3V0ZXIgYXMgUm91dGVyIH0gZnJvbSAncmVhY3Qtcm91dGVyLWRvbSc7XG5cbmltcG9ydCB7IFByb3ZpZGVyIH0gZnJvbSAncmVhY3QtcmVkdXgnO1xuXG5pbXBvcnQgc3RvcmUgZnJvbSAnLi9saWIvcmVkdXgvc3RvcmUnO1xuXG5pbXBvcnQgUGFnZUNvbnRhaW5lciBmcm9tICcuL2NvbXBvbmVudHMvUGFnZUNvbnRhaW5lcic7XG5cbmV4cG9ydCBkZWZhdWx0ICgpID0+IChcblx0PFJvdXRlcj5cblx0XHQ8UHJvdmlkZXIgc3RvcmU9e3N0b3JlfT5cblx0XHRcdDxQYWdlQ29udGFpbmVyIC8+XG5cdFx0PC9Qcm92aWRlcj5cblx0PC9Sb3V0ZXI+XG4pO1xuIl19"
     }
   ],
@@ -6574,7 +6586,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/components/PageContainer.js",
       "hash": "8EmrWQ",
-      "browserifyId": 461,
+      "browserifyId": 462,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlBhZ2VDb250YWluZXIuanM/dmVyc2lvbj04RW1yV1EiXSwibmFtZXMiOlsiUGFnZUNvbnRhaW5lciIsImRpc3BhdGNoIiwiaXNBZG1pbiIsInN0b3JlIiwidXNlciIsImF1dGhSZWR1Y2VyIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFFQTs7QUFDQTs7QUFDQTs7QUFFQTs7QUFDQTs7QUFFQTs7QUFFQTs7QUFFQTs7QUFDQTs7QUFDQTs7QUFPQSxJQUFNQSxhQUFhLEdBQUcsU0FBaEJBLGFBQWdCLE9BQWtDO0FBQUEsTUFBL0JDLFFBQStCLFFBQS9CQSxRQUErQjtBQUFBLE1BQXJCQyxPQUFxQixRQUFyQkEsT0FBcUI7QUFDdkQsd0JBQVUsWUFBTTtBQUNmRCxJQUFBQSxRQUFRLENBQUMsaUJBQU0sSUFBTixDQUFELENBQVI7QUFDQSxHQUZELEVBRUcsRUFGSDtBQUlBLFNBQ0MsZ0NBQUMsZUFBRCxRQUNDLGdDQUFDLHFCQUFELE9BREQsRUFFQyxnQ0FBQyxnQkFBRDtBQUFNLElBQUEsU0FBUztBQUFmLEtBQ0MsZ0NBQUMsZ0JBQUQ7QUFBTSxJQUFBLElBQUksTUFBVjtBQUFXLElBQUEsRUFBRSxFQUFFO0FBQWYsS0FDQyxnQ0FBQyxtQkFBRCxPQURELENBREQsRUFJQyxnQ0FBQyxnQkFBRDtBQUFNLElBQUEsSUFBSTtBQUFWLEtBQ0MsZ0NBQUMsdUJBQUQsT0FERCxFQUVDLGdDQUFDLGtCQUFEO0FBQVEsSUFBQSxPQUFPLEVBQUVDO0FBQWpCLElBRkQsQ0FKRCxFQVFDLGdDQUFDLG9CQUFELE9BUkQsQ0FGRCxDQUREO0FBZUEsQ0FwQkQ7O2VBc0JlLGdDQUNkLHlCQUFRLFVBQUFDLEtBQUssRUFBSTtBQUFBLE1BRUFDLElBRkEsR0FHWkQsS0FIWSxDQUVmRSxXQUZlLENBRUFELElBRkE7QUFLaEIsU0FBTztBQUFFRixJQUFBQSxPQUFPLEVBQUVFLElBQUksR0FBRyxDQUFDLENBQUNBLElBQUksQ0FBQ0YsT0FBVixHQUFvQjtBQUFuQyxHQUFQO0FBQ0EsQ0FORCxFQU1HRixhQU5ILENBRGMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBAZmxvd1xuXG5pbXBvcnQgUmVhY3QsIHsgRnJhZ21lbnQsIHVzZUVmZmVjdCB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IGNvbm5lY3QgfSBmcm9tICdyZWFjdC1yZWR1eCc7XG5pbXBvcnQgeyB3aXRoUm91dGVyIH0gZnJvbSAncmVhY3Qtcm91dGVyLWRvbSc7XG5cbmltcG9ydCBDc3NCYXNlbGluZSBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9Dc3NCYXNlbGluZSc7XG5pbXBvcnQgR3JpZCBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9HcmlkJztcblxuaW1wb3J0IHsgbG9naW4gfSBmcm9tICcuLi9saWIvcmVkdXgvYWN0aW9ucy9hdXRoJztcblxuaW1wb3J0IFJvdXRlcyBmcm9tICcuLi9yb3V0ZXMnO1xuXG5pbXBvcnQgTWVudUJhciBmcm9tICcuL3ZpZXcvTWVudUJhcic7XG5pbXBvcnQgTmF2RHJhd2VyIGZyb20gJy4vdmlldy9OYXZEcmF3ZXInO1xuaW1wb3J0IFNuYWNrYmFyIGZyb20gJy4vdmlldy9TbmFja2Jhcic7XG5cbnR5cGUgUHJvcHMgPSB7XG5cdGlzQWRtaW46IGJvb2xlYW4sXG5cdGRpc3BhdGNoOiBEaXNwYXRjaCxcbn07XG5cbmNvbnN0IFBhZ2VDb250YWluZXIgPSAoeyBkaXNwYXRjaCwgaXNBZG1pbiB9OiBQcm9wcykgPT4ge1xuXHR1c2VFZmZlY3QoKCkgPT4ge1xuXHRcdGRpc3BhdGNoKGxvZ2luKHRydWUpKTtcblx0fSwgW10pO1xuXG5cdHJldHVybiAoXG5cdFx0PEZyYWdtZW50PlxuXHRcdFx0PE5hdkRyYXdlciAvPlxuXHRcdFx0PEdyaWQgY29udGFpbmVyPlxuXHRcdFx0XHQ8R3JpZCBpdGVtIHhzPXsxMn0+XG5cdFx0XHRcdFx0PE1lbnVCYXIgLz5cblx0XHRcdFx0PC9HcmlkPlxuXHRcdFx0XHQ8R3JpZCBpdGVtPlxuXHRcdFx0XHRcdDxDc3NCYXNlbGluZSAvPlxuXHRcdFx0XHRcdDxSb3V0ZXMgaXNBZG1pbj17aXNBZG1pbn0gLz5cblx0XHRcdFx0PC9HcmlkPlxuXHRcdFx0XHQ8U25hY2tiYXIgLz5cblx0XHRcdDwvR3JpZD5cblx0XHQ8L0ZyYWdtZW50PlxuXHQpO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgd2l0aFJvdXRlcihcblx0Y29ubmVjdChzdG9yZSA9PiB7XG5cdFx0Y29uc3Qge1xuXHRcdFx0YXV0aFJlZHVjZXI6IHsgdXNlciB9LFxuXHRcdH0gPSBzdG9yZTtcblxuXHRcdHJldHVybiB7IGlzQWRtaW46IHVzZXIgPyAhIXVzZXIuaXNBZG1pbiA6IGZhbHNlIH07XG5cdH0pKFBhZ2VDb250YWluZXIpXG4pO1xuIl19"
     }
   ],
@@ -6588,8 +6600,8 @@
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
       "@material-ui/core/Toolbar": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Toolbar/index.js",
-      "@material-ui/core/IconButton": "/home/dustin/CS/recipes/node_modules/@material-ui/core/IconButton/index.js",
       "@material-ui/core/Typography": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Typography/index.js",
+      "@material-ui/core/IconButton": "/home/dustin/CS/recipes/node_modules/@material-ui/core/IconButton/index.js",
       "@material-ui/core/AppBar": "/home/dustin/CS/recipes/node_modules/@material-ui/core/AppBar/index.js",
       "@material-ui/icons/Menu": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Menu.js",
       "@material-ui/core/Button": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Button/index.js"
@@ -6597,7 +6609,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/components/view/MenuBar.js",
       "hash": "SURGgw",
-      "browserifyId": 462,
+      "browserifyId": 463,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIk1lbnVCYXIuanM/dmVyc2lvbj1TVVJHZ3ciXSwibmFtZXMiOlsiTWVudUJhciIsImRpc3BhdGNoIiwibWVudU9wZW4iLCJpc0F1dGhvcml6ZWQiLCJ0b2dnbGVOYXZDYiIsInRvZ2dsZU5hdiIsImxvZ2luQ2IiLCJhdXRoQWN0aW9ucyIsImxvZ2luIiwibG9nb3V0Q2IiLCJsb2dvdXQiLCJ6SW5kZXgiLCJmbGV4R3JvdyIsInN0b3JlIiwibWVudVJlZHVjZXIiLCJvcGVuIiwiYXV0aFJlZHVjZXIiLCJhdXRoIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFFQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFFQTs7QUFDQTs7QUFFQSxJQUFNQSxPQUFPLEdBQUcsU0FBVkEsT0FBVSxPQUEwQztBQUFBLE1BQXZDQyxRQUF1QyxRQUF2Q0EsUUFBdUM7QUFBQSxNQUE3QkMsUUFBNkIsUUFBN0JBLFFBQTZCO0FBQUEsTUFBbkJDLFlBQW1CLFFBQW5CQSxZQUFtQjtBQUN6RCxNQUFNQyxXQUFXLEdBQUcsd0JBQVk7QUFBQSxXQUFNSCxRQUFRLENBQUMsc0JBQUQsQ0FBZDtBQUFBLEdBQVosRUFBeUMsQ0FBQ0EsUUFBRCxFQUFXSSxlQUFYLENBQXpDLENBQXBCO0FBQ0EsTUFBTUMsT0FBTyxHQUFHLHdCQUFZO0FBQUEsV0FBTUwsUUFBUSxDQUFDTSxpQkFBWUMsS0FBWixFQUFELENBQWQ7QUFBQSxHQUFaLEVBQWlELENBQUNQLFFBQUQsRUFBV00sZ0JBQVgsQ0FBakQsQ0FBaEI7QUFDQSxNQUFNRSxRQUFRLEdBQUcsd0JBQVk7QUFBQSxXQUFNUixRQUFRLENBQUNNLGlCQUFZRyxNQUFaLEVBQUQsQ0FBZDtBQUFBLEdBQVosRUFBa0QsQ0FBQ1QsUUFBRCxFQUFXTSxnQkFBWCxDQUFsRCxDQUFqQjtBQUVBLFNBQ0MsZ0NBQUMsa0JBQUQ7QUFBUSxJQUFBLFFBQVEsRUFBQyxRQUFqQjtBQUEwQixJQUFBLEtBQUssRUFBRTtBQUFFSSxNQUFBQSxNQUFNLEVBQUU7QUFBVjtBQUFqQyxLQUNDLGdDQUFDLG1CQUFELFFBQ0VULFFBQVEsR0FBRyxJQUFILEdBQ1IsZ0NBQUMsc0JBQUQ7QUFBWSxJQUFBLEtBQUssRUFBQyxTQUFsQjtBQUE0QixrQkFBVyxNQUF2QztBQUE4QyxJQUFBLE9BQU8sRUFBRUU7QUFBdkQsS0FDQyxnQ0FBQyxnQkFBRCxPQURELENBRkYsRUFNQyxnQ0FBQyxzQkFBRDtBQUFZLElBQUEsT0FBTyxFQUFDLElBQXBCO0FBQXlCLElBQUEsS0FBSyxFQUFDLFNBQS9CO0FBQXlDLElBQUEsS0FBSyxFQUFFO0FBQUVRLE1BQUFBLFFBQVEsRUFBRTtBQUFaO0FBQWhELGVBTkQsRUFTRVQsWUFBWSxHQUNaLGdDQUFDLGtCQUFEO0FBQVEsSUFBQSxLQUFLLEVBQUMsU0FBZDtBQUF3QixJQUFBLE9BQU8sRUFBRU07QUFBakMsY0FEWSxHQUtaLGdDQUFDLGtCQUFEO0FBQVEsSUFBQSxLQUFLLEVBQUMsU0FBZDtBQUF3QixJQUFBLE9BQU8sRUFBRUg7QUFBakMsYUFkRixDQURELENBREQ7QUF1QkEsQ0E1QkQ7O2VBOEJlLHlCQUFRLFVBQUFPLEtBQUssRUFBSTtBQUFBLE1BRVRYLFFBRlMsR0FJM0JXLEtBSjJCLENBRTlCQyxXQUY4QixDQUVmQyxJQUZlO0FBQUEsMkJBSTNCRixLQUoyQixDQUc5QkcsV0FIOEI7QUFBQSxNQUdmYixZQUhlLHNCQUdmQSxZQUhlO0FBQUEsTUFHRGMsSUFIQyxzQkFHREEsSUFIQztBQU0vQixTQUFPO0FBQUVmLElBQUFBLFFBQVEsRUFBUkEsUUFBRjtBQUFZQyxJQUFBQSxZQUFZLEVBQVpBLFlBQVo7QUFBMEJjLElBQUFBLElBQUksRUFBSkE7QUFBMUIsR0FBUDtBQUNBLENBUGMsRUFPWmpCLE9BUFkiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlQ2FsbGJhY2sgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgeyBjb25uZWN0IH0gZnJvbSAncmVhY3QtcmVkdXgnO1xuXG5pbXBvcnQgQXBwQmFyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0FwcEJhcic7XG5pbXBvcnQgVG9vbGJhciBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9Ub29sYmFyJztcbmltcG9ydCBCdXR0b24gZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQnV0dG9uJztcbmltcG9ydCBJY29uQnV0dG9uIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0ljb25CdXR0b24nO1xuaW1wb3J0IE1lbnVJY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9NZW51JztcbmltcG9ydCBUeXBvZ3JhcGh5IGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL1R5cG9ncmFwaHknO1xuXG5pbXBvcnQgeyB0b2dnbGVOYXYgfSBmcm9tICcuLi8uLi9saWIvcmVkdXgvYWN0aW9ucy9tZW51JztcbmltcG9ydCBhdXRoQWN0aW9ucyBmcm9tICcuLi8uLi9saWIvcmVkdXgvYWN0aW9ucy9hdXRoJztcblxuY29uc3QgTWVudUJhciA9ICh7IGRpc3BhdGNoLCBtZW51T3BlbiwgaXNBdXRob3JpemVkIH0pID0+IHtcblx0Y29uc3QgdG9nZ2xlTmF2Q2IgPSB1c2VDYWxsYmFjaygoKSA9PiBkaXNwYXRjaCh0b2dnbGVOYXYoKSksIFtkaXNwYXRjaCwgdG9nZ2xlTmF2XSk7XG5cdGNvbnN0IGxvZ2luQ2IgPSB1c2VDYWxsYmFjaygoKSA9PiBkaXNwYXRjaChhdXRoQWN0aW9ucy5sb2dpbigpKSwgW2Rpc3BhdGNoLCBhdXRoQWN0aW9uc10pO1xuXHRjb25zdCBsb2dvdXRDYiA9IHVzZUNhbGxiYWNrKCgpID0+IGRpc3BhdGNoKGF1dGhBY3Rpb25zLmxvZ291dCgpKSwgW2Rpc3BhdGNoLCBhdXRoQWN0aW9uc10pO1xuXG5cdHJldHVybiAoXG5cdFx0PEFwcEJhciBwb3NpdGlvbj1cInN0YXRpY1wiIHN0eWxlPXt7IHpJbmRleDogMjUwIH19PlxuXHRcdFx0PFRvb2xiYXI+XG5cdFx0XHRcdHttZW51T3BlbiA/IG51bGwgOiAoXG5cdFx0XHRcdFx0PEljb25CdXR0b24gY29sb3I9XCJpbmhlcml0XCIgYXJpYS1sYWJlbD1cIk1lbnVcIiBvbkNsaWNrPXt0b2dnbGVOYXZDYn0+XG5cdFx0XHRcdFx0XHQ8TWVudUljb24gLz5cblx0XHRcdFx0XHQ8L0ljb25CdXR0b24+XG5cdFx0XHRcdCl9XG5cdFx0XHRcdDxUeXBvZ3JhcGh5IHZhcmlhbnQ9XCJoNlwiIGNvbG9yPVwiaW5oZXJpdFwiIHN0eWxlPXt7IGZsZXhHcm93OiAxIH19PlxuXHRcdFx0XHRcdFJlY2lwZXNcblx0XHRcdFx0PC9UeXBvZ3JhcGh5PlxuXHRcdFx0XHR7aXNBdXRob3JpemVkID8gKFxuXHRcdFx0XHRcdDxCdXR0b24gY29sb3I9XCJpbmhlcml0XCIgb25DbGljaz17bG9nb3V0Q2J9PlxuXHRcdFx0XHRcdFx0TG9nb3V0XG5cdFx0XHRcdFx0PC9CdXR0b24+XG5cdFx0XHRcdCkgOiAoXG5cdFx0XHRcdFx0PEJ1dHRvbiBjb2xvcj1cImluaGVyaXRcIiBvbkNsaWNrPXtsb2dpbkNifT5cblx0XHRcdFx0XHRcdExvZ2luXG5cdFx0XHRcdFx0PC9CdXR0b24+XG5cdFx0XHRcdCl9XG5cdFx0XHQ8L1Rvb2xiYXI+XG5cdFx0PC9BcHBCYXI+XG5cdCk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBjb25uZWN0KHN0b3JlID0+IHtcblx0Y29uc3Qge1xuXHRcdG1lbnVSZWR1Y2VyOiB7IG9wZW46IG1lbnVPcGVuIH0sXG5cdFx0YXV0aFJlZHVjZXI6IHsgaXNBdXRob3JpemVkLCBhdXRoIH0sXG5cdH0gPSBzdG9yZTtcblxuXHRyZXR1cm4geyBtZW51T3BlbiwgaXNBdXRob3JpemVkLCBhdXRoIH07XG59KShNZW51QmFyKTtcbiJdfQ=="
     }
   ],
@@ -6621,7 +6633,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/components/view/NavDrawer.js",
       "hash": "i6HPSA",
-      "browserifyId": 463,
+      "browserifyId": 464,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIk5hdkRyYXdlci5qcz92ZXJzaW9uPWk2SFBTQSJdLCJuYW1lcyI6WyJOYXZEcmF3ZXIiLCJkaXNwYXRjaCIsIm9wZW4iLCJpc0FkbWluIiwiaGlzdG9yeSIsInpJbmRleCIsImRpc3BsYXkiLCJhbGlnbkl0ZW1zIiwicGFkZGluZyIsImp1c3RpZnlDb250ZW50Iiwicm91dGVzIiwibWFwIiwicm91dGUiLCJzaG93SW5OYXYiLCJwYXRoIiwicHVzaCIsIm5hbWUiLCJhZG1pblJvdXRlcyIsInN0YXRlIiwidXNlciIsImF1dGhSZWR1Y2VyIiwibWVudVJlZHVjZXIiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUFBOztBQUNBOztBQUVBOztBQUVBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUVBOztBQUNBOztBQUVBLElBQU1BLFNBQVMsR0FBRyxTQUFaQSxTQUFZO0FBQUEsTUFBR0MsUUFBSCxRQUFHQSxRQUFIO0FBQUEsTUFBYUMsSUFBYixRQUFhQSxJQUFiO0FBQUEsTUFBbUJDLE9BQW5CLFFBQW1CQSxPQUFuQjtBQUFBLE1BQTRCQyxPQUE1QixRQUE0QkEsT0FBNUI7QUFBQSxTQUNqQixnQ0FBQyxrQkFBRDtBQUFRLElBQUEsSUFBSSxFQUFFRixJQUFkO0FBQW9CLElBQUEsTUFBTSxFQUFDLE1BQTNCO0FBQWtDLElBQUEsT0FBTyxFQUFDLFlBQTFDO0FBQXVELElBQUEsS0FBSyxFQUFFO0FBQUVHLE1BQUFBLE1BQU0sRUFBRSxDQUFDO0FBQVg7QUFBOUQsS0FDQyxnQ0FBQyxnQkFBRCxRQUNDO0FBQUssSUFBQSxLQUFLLEVBQUU7QUFBRUMsTUFBQUEsT0FBTyxFQUFFLE1BQVg7QUFBbUJDLE1BQUFBLFVBQVUsRUFBRSxRQUEvQjtBQUF5Q0MsTUFBQUEsT0FBTyxFQUFFLE9BQWxEO0FBQTJEQyxNQUFBQSxjQUFjLEVBQUU7QUFBM0U7QUFBWixLQUNDLGdDQUFDLHNCQUFEO0FBQVksSUFBQSxPQUFPLEVBQUU7QUFBQSxhQUFNUixRQUFRLENBQUMsc0JBQUQsQ0FBZDtBQUFBO0FBQXJCLEtBQ0MsZ0NBQUMsdUJBQUQsT0FERCxDQURELENBREQsRUFNQyxnQ0FBQyxtQkFBRCxPQU5ELEVBT0VTLGVBQU9DLEdBQVAsQ0FBVyxVQUFBQyxLQUFLO0FBQUEsV0FDaEJBLEtBQUssQ0FBQ0MsU0FBTixHQUNDLGdDQUFDLG9CQUFEO0FBQ0MsTUFBQSxHQUFHLEVBQUVELEtBQUssQ0FBQ0UsSUFEWjtBQUVDLE1BQUEsT0FBTyxFQUFFLG1CQUFNO0FBQ2RWLFFBQUFBLE9BQU8sQ0FBQ1csSUFBUixDQUFhSCxLQUFLLENBQUNFLElBQW5CO0FBQ0FiLFFBQUFBLFFBQVEsQ0FBQyxzQkFBRCxDQUFSO0FBQ0EsT0FMRjtBQU1DLE1BQUEsTUFBTTtBQU5QLE9BUUVXLEtBQUssQ0FBQ0ksSUFSUixDQURELEdBV0ksSUFaWTtBQUFBLEdBQWhCLENBUEYsRUFxQkViLE9BQU8sR0FDUCxnQ0FBQyxlQUFELFFBQ0MsZ0NBQUMsbUJBQUQsT0FERCxFQUVDLGdDQUFDLG9CQUFELFFBQ0MsbURBREQsQ0FGRCxFQUtFYyxvQkFBWU4sR0FBWixDQUFnQixVQUFBQyxLQUFLO0FBQUEsV0FDckJBLEtBQUssQ0FBQ0MsU0FBTixHQUNDLGdDQUFDLG9CQUFEO0FBQ0MsTUFBQSxHQUFHLEVBQUVELEtBQUssQ0FBQ0UsSUFEWjtBQUVDLE1BQUEsT0FBTyxFQUFFLG1CQUFNO0FBQ2RWLFFBQUFBLE9BQU8sQ0FBQ1csSUFBUixDQUFhSCxLQUFLLENBQUNFLElBQW5CO0FBQ0FiLFFBQUFBLFFBQVEsQ0FBQyxzQkFBRCxDQUFSO0FBQ0EsT0FMRjtBQU1DLE1BQUEsTUFBTTtBQU5QLE9BUUVXLEtBQUssQ0FBQ0ksSUFSUixDQURELEdBV0ksSUFaaUI7QUFBQSxHQUFyQixDQUxGLENBRE8sR0FxQkosSUExQ0wsQ0FERCxDQURpQjtBQUFBLENBQWxCOztlQWlEZSx5QkFBUSxVQUFBRSxLQUFLLEVBQUk7QUFBQSxNQUVmQyxJQUZlLEdBSTNCRCxLQUoyQixDQUU5QkUsV0FGOEIsQ0FFZkQsSUFGZTtBQUFBLE1BR2ZqQixJQUhlLEdBSTNCZ0IsS0FKMkIsQ0FHOUJHLFdBSDhCLENBR2ZuQixJQUhlO0FBTS9CLFNBQU87QUFBRUEsSUFBQUEsSUFBSSxFQUFKQSxJQUFGO0FBQVFDLElBQUFBLE9BQU8sRUFBRWdCLElBQUksR0FBRyxDQUFDLENBQUNBLElBQUksQ0FBQ2hCLE9BQVYsR0FBb0I7QUFBekMsR0FBUDtBQUNBLENBUGMsRUFPWixnQ0FBV0gsU0FBWCxDQVBZIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IEZyYWdtZW50IH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgY29ubmVjdCB9IGZyb20gJ3JlYWN0LXJlZHV4JztcblxuaW1wb3J0IHsgd2l0aFJvdXRlciB9IGZyb20gJ3JlYWN0LXJvdXRlci1kb20nO1xuXG5pbXBvcnQgRHJhd2VyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0RyYXdlcic7XG5pbXBvcnQgTGlzdCBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9MaXN0JztcbmltcG9ydCBMaXN0SXRlbSBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9MaXN0SXRlbSc7XG5pbXBvcnQgSWNvbkJ1dHRvbiBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9JY29uQnV0dG9uJztcbmltcG9ydCBDaGV2cm9uTGVmdEljb24gZnJvbSAnQG1hdGVyaWFsLXVpL2ljb25zL0NoZXZyb25MZWZ0JztcbmltcG9ydCBEaXZpZGVyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0RpdmlkZXInO1xuXG5pbXBvcnQgeyB0b2dnbGVOYXYgfSBmcm9tICcuLi8uLi9saWIvcmVkdXgvYWN0aW9ucy9tZW51JztcbmltcG9ydCB7IHJvdXRlcywgYWRtaW5Sb3V0ZXMgfSBmcm9tICcuLi8uLi9yb3V0ZXMnO1xuXG5jb25zdCBOYXZEcmF3ZXIgPSAoeyBkaXNwYXRjaCwgb3BlbiwgaXNBZG1pbiwgaGlzdG9yeSB9KSA9PiAoXG5cdDxEcmF3ZXIgb3Blbj17b3Blbn0gYW5jaG9yPVwibGVmdFwiIHZhcmlhbnQ9XCJwZXJzaXN0ZW50XCIgc3R5bGU9e3sgekluZGV4OiAtMSB9fT5cblx0XHQ8TGlzdD5cblx0XHRcdDxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBhbGlnbkl0ZW1zOiAnY2VudGVyJywgcGFkZGluZzogJzAgOHB4JywganVzdGlmeUNvbnRlbnQ6ICdmbGV4LWVuZCcgfX0+XG5cdFx0XHRcdDxJY29uQnV0dG9uIG9uQ2xpY2s9eygpID0+IGRpc3BhdGNoKHRvZ2dsZU5hdigpKX0+XG5cdFx0XHRcdFx0PENoZXZyb25MZWZ0SWNvbiAvPlxuXHRcdFx0XHQ8L0ljb25CdXR0b24+XG5cdFx0XHQ8L2Rpdj5cblx0XHRcdDxEaXZpZGVyIC8+XG5cdFx0XHR7cm91dGVzLm1hcChyb3V0ZSA9PlxuXHRcdFx0XHRyb3V0ZS5zaG93SW5OYXYgPyAoXG5cdFx0XHRcdFx0PExpc3RJdGVtXG5cdFx0XHRcdFx0XHRrZXk9e3JvdXRlLnBhdGh9XG5cdFx0XHRcdFx0XHRvbkNsaWNrPXsoKSA9PiB7XG5cdFx0XHRcdFx0XHRcdGhpc3RvcnkucHVzaChyb3V0ZS5wYXRoKTtcblx0XHRcdFx0XHRcdFx0ZGlzcGF0Y2godG9nZ2xlTmF2KCkpO1xuXHRcdFx0XHRcdFx0fX1cblx0XHRcdFx0XHRcdGJ1dHRvblxuXHRcdFx0XHRcdD5cblx0XHRcdFx0XHRcdHtyb3V0ZS5uYW1lfVxuXHRcdFx0XHRcdDwvTGlzdEl0ZW0+XG5cdFx0XHRcdCkgOiBudWxsXG5cdFx0XHQpfVxuXHRcdFx0e2lzQWRtaW4gPyAoXG5cdFx0XHRcdDxGcmFnbWVudD5cblx0XHRcdFx0XHQ8RGl2aWRlciAvPlxuXHRcdFx0XHRcdDxMaXN0SXRlbT5cblx0XHRcdFx0XHRcdDxiPkFkbWluPC9iPlxuXHRcdFx0XHRcdDwvTGlzdEl0ZW0+XG5cdFx0XHRcdFx0e2FkbWluUm91dGVzLm1hcChyb3V0ZSA9PlxuXHRcdFx0XHRcdFx0cm91dGUuc2hvd0luTmF2ID8gKFxuXHRcdFx0XHRcdFx0XHQ8TGlzdEl0ZW1cblx0XHRcdFx0XHRcdFx0XHRrZXk9e3JvdXRlLnBhdGh9XG5cdFx0XHRcdFx0XHRcdFx0b25DbGljaz17KCkgPT4ge1xuXHRcdFx0XHRcdFx0XHRcdFx0aGlzdG9yeS5wdXNoKHJvdXRlLnBhdGgpO1xuXHRcdFx0XHRcdFx0XHRcdFx0ZGlzcGF0Y2godG9nZ2xlTmF2KCkpO1xuXHRcdFx0XHRcdFx0XHRcdH19XG5cdFx0XHRcdFx0XHRcdFx0YnV0dG9uXG5cdFx0XHRcdFx0XHRcdD5cblx0XHRcdFx0XHRcdFx0XHR7cm91dGUubmFtZX1cblx0XHRcdFx0XHRcdFx0PC9MaXN0SXRlbT5cblx0XHRcdFx0XHRcdCkgOiBudWxsXG5cdFx0XHRcdFx0KX1cblx0XHRcdFx0PC9GcmFnbWVudD5cblx0XHRcdCkgOiBudWxsfVxuXHRcdDwvTGlzdD5cblx0PC9EcmF3ZXI+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBjb25uZWN0KHN0YXRlID0+IHtcblx0Y29uc3Qge1xuXHRcdGF1dGhSZWR1Y2VyOiB7IHVzZXIgfSxcblx0XHRtZW51UmVkdWNlcjogeyBvcGVuIH0sXG5cdH0gPSBzdGF0ZTtcblxuXHRyZXR1cm4geyBvcGVuLCBpc0FkbWluOiB1c2VyID8gISF1c2VyLmlzQWRtaW4gOiBmYWxzZSB9O1xufSkod2l0aFJvdXRlcihOYXZEcmF3ZXIpKTtcbiJdfQ=="
     }
   ],
@@ -6632,16 +6644,16 @@
       "@material-ui/core/IconButton": "/home/dustin/CS/recipes/node_modules/@material-ui/core/IconButton/index.js",
       "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
-      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
-      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "@babel/runtime/helpers/assertThisInitialized": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/assertThisInitialized.js",
       "@material-ui/core/colors/blue": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/blue.js",
       "@material-ui/core/colors/green": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/green.js",
       "@material-ui/core/colors/amber": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/amber.js",
       "@material-ui/core/colors/orange": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/orange.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "@material-ui/icons/Info": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Info.js",
       "@material-ui/icons/CheckCircle": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/CheckCircle.js",
       "@material-ui/icons/Error": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Error.js",
@@ -6654,7 +6666,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/components/view/Snackbar.js",
       "hash": "R54I0w",
-      "browserifyId": 464,
+      "browserifyId": 465,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlNuYWNrYmFyLmpzP3ZlcnNpb249UjU0STB3Il0sIm5hbWVzIjpbImluc3RhbmNlIiwic2V0U3RhdGUiLCJzaG93Tm90aWZpY2F0aW9uIiwibWVzc2FnZSIsImR1cmF0aW9uIiwidmFyaWFudCIsImJhY2tncm91bmRDb2xvciIsImljb24iLCJncmVlbiIsIkNoZWNrQ2lyY2xlSWNvbiIsImFtYmVyIiwiRXJyb3JJY29uIiwib3JhbmdlIiwiV2FybmluZ0ljb24iLCJibHVlIiwiSW5mb0ljb24iLCJvcGVuIiwicHJvcHMiLCJzdGF0ZSIsImJpbmQiLCJoYW5kbGVDbG9zZSIsIkljb24iLCJkaXNwbGF5IiwiYWxpZ25JdGVtcyIsIkNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7Ozs7QUFFQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBRUEsSUFBTUEsUUFBUSxHQUFHO0FBQ2hCQyxFQUFBQSxRQUFRLEVBQUUsb0JBQU0sQ0FBRTtBQURGLENBQWpCOztBQUlPLElBQU1DLGdCQUFnQixHQUFHLFNBQW5CQSxnQkFBbUIsT0FBb0Q7QUFBQSxNQUFqREMsT0FBaUQsUUFBakRBLE9BQWlEO0FBQUEsMkJBQXhDQyxRQUF3QztBQUFBLE1BQXhDQSxRQUF3Qyw4QkFBN0IsSUFBNkI7QUFBQSwwQkFBdkJDLE9BQXVCO0FBQUEsTUFBdkJBLE9BQXVCLDZCQUFiLE1BQWE7QUFDbkYsTUFBSUMsZUFBSjtBQUNBLE1BQUlDLElBQUo7O0FBRUEsVUFBUUYsT0FBUjtBQUNDLFNBQUssU0FBTDtBQUNDQyxNQUFBQSxlQUFlLEdBQUdFLGtCQUFNLEdBQU4sQ0FBbEI7QUFDQUQsTUFBQUEsSUFBSSxHQUFHRSx1QkFBUDtBQUNBOztBQUNELFNBQUssT0FBTDtBQUNBLFNBQUssUUFBTDtBQUNDSCxNQUFBQSxlQUFlLEdBQUdJLGtCQUFNLEdBQU4sQ0FBbEI7QUFDQUgsTUFBQUEsSUFBSSxHQUFHSSxpQkFBUDtBQUNBOztBQUNELFNBQUssTUFBTDtBQUNBLFNBQUssU0FBTDtBQUNDTCxNQUFBQSxlQUFlLEdBQUdNLG1CQUFPLEdBQVAsQ0FBbEI7QUFDQUwsTUFBQUEsSUFBSSxHQUFHTSxtQkFBUDtBQUNBOztBQUNELFNBQUssTUFBTDtBQUNBO0FBQ0NQLE1BQUFBLGVBQWUsR0FBR1EsaUJBQUssR0FBTCxDQUFsQjtBQUNBUCxNQUFBQSxJQUFJLEdBQUdRLGdCQUFQO0FBbEJGOztBQXFCQWYsRUFBQUEsUUFBUSxDQUFDQyxRQUFULENBQWtCO0FBQUVlLElBQUFBLElBQUksRUFBRSxJQUFSO0FBQWNiLElBQUFBLE9BQU8sRUFBUEEsT0FBZDtBQUF1QkMsSUFBQUEsUUFBUSxFQUFSQSxRQUF2QjtBQUFpQ0UsSUFBQUEsZUFBZSxFQUFmQSxlQUFqQztBQUFrREMsSUFBQUEsSUFBSSxFQUFKQTtBQUFsRCxHQUFsQjtBQUNBLENBMUJNOzs7Ozs7Ozs7QUE2Qk4sb0JBQVlVLEtBQVosRUFBbUI7QUFBQTs7QUFBQTtBQUNsQixvSEFBTUEsS0FBTjtBQUVBLFVBQUtDLEtBQUwsR0FBYTtBQUNaRixNQUFBQSxJQUFJLEVBQUUsS0FETTtBQUVaYixNQUFBQSxPQUFPLEVBQUUsOEJBRkc7QUFHWkMsTUFBQUEsUUFBUSxFQUFFLElBSEU7QUFJWkUsTUFBQUEsZUFBZSxFQUFFUSxnQkFKTDtBQUtaUCxNQUFBQSxJQUFJLEVBQUVRO0FBTE0sS0FBYjtBQVFBZixJQUFBQSxRQUFRLENBQUNDLFFBQVQsR0FBb0IsTUFBS0EsUUFBTCxDQUFja0IsSUFBZCxnREFBcEI7QUFFQSxVQUFLQyxXQUFMLEdBQW1CLE1BQUtBLFdBQUwsQ0FBaUJELElBQWpCLGdEQUFuQjtBQWJrQjtBQWNsQjs7OztrQ0FFYTtBQUNiLFdBQUtsQixRQUFMLENBQWM7QUFBRWUsUUFBQUEsSUFBSSxFQUFFO0FBQVIsT0FBZDtBQUNBOzs7NkJBRVE7QUFDUixVQUFNSyxJQUFJLEdBQUcsS0FBS0gsS0FBTCxDQUFXWCxJQUF4QjtBQUVBLGFBQ0MsZ0NBQUMsb0JBQUQ7QUFDQyxRQUFBLElBQUksRUFBRSxLQUFLVyxLQUFMLENBQVdGLElBRGxCO0FBRUMsUUFBQSxnQkFBZ0IsRUFBRSxLQUFLRSxLQUFMLENBQVdkLFFBRjlCO0FBR0MsUUFBQSxPQUFPLEVBQUUsS0FBS2dCLFdBSGY7QUFJQyxRQUFBLE9BQU8sRUFBRSxLQUFLRixLQUFMLENBQVdmO0FBSnJCLFNBTUMsZ0NBQUMsMkJBQUQ7QUFDQyxRQUFBLEtBQUssRUFBRTtBQUFFRyxVQUFBQSxlQUFlLEVBQUUsS0FBS1ksS0FBTCxDQUFXWjtBQUE5QixTQURSO0FBRUMsUUFBQSxPQUFPLEVBQ047QUFDQyxVQUFBLEtBQUssRUFBRTtBQUNOZ0IsWUFBQUEsT0FBTyxFQUFFLE1BREg7QUFFTkMsWUFBQUEsVUFBVSxFQUFFO0FBRk47QUFEUixXQU1FLEtBQUtMLEtBQUwsQ0FBV2YsT0FOYixFQU9DLGdDQUFDLElBQUQ7QUFBTSxVQUFBLEtBQUssRUFBQztBQUFaLFVBUEQsQ0FIRjtBQWFDLFFBQUEsTUFBTSxFQUFFLENBQ1AsZ0NBQUMsc0JBQUQ7QUFBWSxVQUFBLEdBQUcsRUFBQyxPQUFoQjtBQUF3Qix3QkFBVyxPQUFuQztBQUEyQyxVQUFBLEtBQUssRUFBQyxTQUFqRDtBQUEyRCxVQUFBLE9BQU8sRUFBRSxLQUFLaUI7QUFBekUsV0FDQyxnQ0FBQyxpQkFBRCxPQURELENBRE87QUFiVCxRQU5ELENBREQ7QUE0QkE7OztFQXBEb0NJIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0JztcblxuaW1wb3J0IE1VSVNuYWNrYmFyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL1NuYWNrYmFyJztcbmltcG9ydCBTbmFja2JhckNvbnRlbnQgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvU25hY2tiYXJDb250ZW50JztcbmltcG9ydCBibHVlIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL2NvbG9ycy9ibHVlJztcbmltcG9ydCBncmVlbiBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9jb2xvcnMvZ3JlZW4nO1xuaW1wb3J0IGFtYmVyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL2NvbG9ycy9hbWJlcic7XG5pbXBvcnQgb3JhbmdlIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL2NvbG9ycy9vcmFuZ2UnO1xuaW1wb3J0IEluZm9JY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9JbmZvJztcbmltcG9ydCBDaGVja0NpcmNsZUljb24gZnJvbSAnQG1hdGVyaWFsLXVpL2ljb25zL0NoZWNrQ2lyY2xlJztcbmltcG9ydCBFcnJvckljb24gZnJvbSAnQG1hdGVyaWFsLXVpL2ljb25zL0Vycm9yJztcbmltcG9ydCBXYXJuaW5nSWNvbiBmcm9tICdAbWF0ZXJpYWwtdWkvaWNvbnMvV2FybmluZyc7XG5pbXBvcnQgQ2xvc2VJY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9DbG9zZSc7XG5pbXBvcnQgSWNvbkJ1dHRvbiBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9JY29uQnV0dG9uJztcblxuY29uc3QgaW5zdGFuY2UgPSB7XG5cdHNldFN0YXRlOiAoKSA9PiB7fSxcbn07XG5cbmV4cG9ydCBjb25zdCBzaG93Tm90aWZpY2F0aW9uID0gKHsgbWVzc2FnZSwgZHVyYXRpb24gPSAzMDAwLCB2YXJpYW50ID0gJ2luZm8nIH0pID0+IHtcblx0bGV0IGJhY2tncm91bmRDb2xvcjtcblx0bGV0IGljb247XG5cblx0c3dpdGNoICh2YXJpYW50KSB7XG5cdFx0Y2FzZSAnc3VjY2Vzcyc6XG5cdFx0XHRiYWNrZ3JvdW5kQ29sb3IgPSBncmVlbls2MDBdO1xuXHRcdFx0aWNvbiA9IENoZWNrQ2lyY2xlSWNvbjtcblx0XHRcdGJyZWFrO1xuXHRcdGNhc2UgJ2Vycm9yJzpcblx0XHRjYXNlICdkYW5nZXInOlxuXHRcdFx0YmFja2dyb3VuZENvbG9yID0gYW1iZXJbNjAwXTtcblx0XHRcdGljb24gPSBFcnJvckljb247XG5cdFx0XHRicmVhaztcblx0XHRjYXNlICd3YXJuJzpcblx0XHRjYXNlICd3YXJuaW5nJzpcblx0XHRcdGJhY2tncm91bmRDb2xvciA9IG9yYW5nZVs2MDBdO1xuXHRcdFx0aWNvbiA9IFdhcm5pbmdJY29uO1xuXHRcdFx0YnJlYWs7XG5cdFx0Y2FzZSAnaW5mbyc6XG5cdFx0ZGVmYXVsdDpcblx0XHRcdGJhY2tncm91bmRDb2xvciA9IGJsdWVbNjAwXTtcblx0XHRcdGljb24gPSBJbmZvSWNvbjtcblx0fVxuXG5cdGluc3RhbmNlLnNldFN0YXRlKHsgb3BlbjogdHJ1ZSwgbWVzc2FnZSwgZHVyYXRpb24sIGJhY2tncm91bmRDb2xvciwgaWNvbiB9KTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IGNsYXNzIFNuYWNrYmFyIGV4dGVuZHMgQ29tcG9uZW50IHtcblx0Y29uc3RydWN0b3IocHJvcHMpIHtcblx0XHRzdXBlcihwcm9wcyk7XG5cblx0XHR0aGlzLnN0YXRlID0ge1xuXHRcdFx0b3BlbjogZmFsc2UsXG5cdFx0XHRtZXNzYWdlOiAnVGhpcyBpcyB0aGUgZGVmYXVsdCBtZXNzYWdlLicsXG5cdFx0XHRkdXJhdGlvbjogMzAwMCxcblx0XHRcdGJhY2tncm91bmRDb2xvcjogYmx1ZSxcblx0XHRcdGljb246IEluZm9JY29uLFxuXHRcdH07XG5cblx0XHRpbnN0YW5jZS5zZXRTdGF0ZSA9IHRoaXMuc2V0U3RhdGUuYmluZCh0aGlzKTtcblxuXHRcdHRoaXMuaGFuZGxlQ2xvc2UgPSB0aGlzLmhhbmRsZUNsb3NlLmJpbmQodGhpcyk7XG5cdH1cblxuXHRoYW5kbGVDbG9zZSgpIHtcblx0XHR0aGlzLnNldFN0YXRlKHsgb3BlbjogZmFsc2UgfSk7XG5cdH1cblxuXHRyZW5kZXIoKSB7XG5cdFx0Y29uc3QgSWNvbiA9IHRoaXMuc3RhdGUuaWNvbjtcblxuXHRcdHJldHVybiAoXG5cdFx0XHQ8TVVJU25hY2tiYXJcblx0XHRcdFx0b3Blbj17dGhpcy5zdGF0ZS5vcGVufVxuXHRcdFx0XHRhdXRvSGlkZUR1cmF0aW9uPXt0aGlzLnN0YXRlLmR1cmF0aW9ufVxuXHRcdFx0XHRvbkNsb3NlPXt0aGlzLmhhbmRsZUNsb3NlfVxuXHRcdFx0XHRtZXNzYWdlPXt0aGlzLnN0YXRlLm1lc3NhZ2V9XG5cdFx0XHQ+XG5cdFx0XHRcdDxTbmFja2JhckNvbnRlbnRcblx0XHRcdFx0XHRzdHlsZT17eyBiYWNrZ3JvdW5kQ29sb3I6IHRoaXMuc3RhdGUuYmFja2dyb3VuZENvbG9yIH19XG5cdFx0XHRcdFx0bWVzc2FnZT17XG5cdFx0XHRcdFx0XHQ8c3BhblxuXHRcdFx0XHRcdFx0XHRzdHlsZT17e1xuXHRcdFx0XHRcdFx0XHRcdGRpc3BsYXk6ICdmbGV4Jyxcblx0XHRcdFx0XHRcdFx0XHRhbGlnbkl0ZW1zOiAnY2VudGVyJyxcblx0XHRcdFx0XHRcdFx0fX1cblx0XHRcdFx0XHRcdD5cblx0XHRcdFx0XHRcdFx0e3RoaXMuc3RhdGUubWVzc2FnZX1cblx0XHRcdFx0XHRcdFx0PEljb24gY29sb3I9XCJpbmhlcml0XCIgLz5cblx0XHRcdFx0XHRcdDwvc3Bhbj5cblx0XHRcdFx0XHR9XG5cdFx0XHRcdFx0YWN0aW9uPXtbXG5cdFx0XHRcdFx0XHQ8SWNvbkJ1dHRvbiBrZXk9XCJjbG9zZVwiIGFyaWEtbGFiZWw9XCJjbG9zZVwiIGNvbG9yPVwiaW5oZXJpdFwiIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9PlxuXHRcdFx0XHRcdFx0XHQ8Q2xvc2VJY29uIC8+XG5cdFx0XHRcdFx0XHQ8L0ljb25CdXR0b24+LFxuXHRcdFx0XHRcdF19XG5cdFx0XHRcdC8+XG5cdFx0XHQ8L01VSVNuYWNrYmFyPlxuXHRcdCk7XG5cdH1cbn1cbiJdfQ=="
     }
   ],
@@ -6669,7 +6681,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/index.js",
       "hash": "H1jxzg",
-      "browserifyId": 465,
+      "browserifyId": 466,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzP3ZlcnNpb249SDFqeHpnIl0sIm5hbWVzIjpbImFwcCIsImRvY3VtZW50IiwiZ2V0RWxlbWVudEJ5SWQiLCJSZWFjdERPTSIsInJlbmRlciJdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQTs7QUFDQTs7QUFFQTs7QUFFQSxJQUFNQSxHQUFHLEdBQUdDLFFBQVEsQ0FBQ0MsY0FBVCxDQUF3QixLQUF4QixDQUFaOztBQUVBQyxxQkFBU0MsTUFBVCxDQUFnQixnQ0FBQyxlQUFELE9BQWhCLEVBQXlCSixHQUF6QiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgUmVhY3RET00gZnJvbSAncmVhY3QtZG9tJztcblxuaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7XG5cbmNvbnN0IGFwcCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhcHAnKTtcblxuUmVhY3RET00ucmVuZGVyKDxBcHAgLz4sIGFwcCk7XG4iXX0="
     }
   ],
@@ -6687,7 +6699,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/firebase/auth.js",
       "hash": "zxItMA",
-      "browserifyId": 466,
+      "browserifyId": 467,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF1dGguanM/dmVyc2lvbj16eEl0TUEiXSwibmFtZXMiOlsiZ2V0QXV0aCIsImF1dGgiLCJsb2NhbFN0b3JhZ2UiLCJnZXRJdGVtIiwiSlNPTiIsInBhcnNlIiwibG9naW4iLCJzdG9yYWdlT25seSIsInByb3ZpZGVyIiwiZmlyZWJhc2UiLCJHb29nbGVBdXRoUHJvdmlkZXIiLCJ1c2VEZXZpY2VMYW5ndWFnZSIsInNpZ25JbldpdGhQb3B1cCIsInNldEl0ZW0iLCJzdHJpbmdpZnkiLCJsb2dvdXQiLCJzaWduT3V0IiwicmVtb3ZlSXRlbSIsImdldFVzZXIiLCJ1c2VyIiwiZmlyZXN0b3JlIiwicmVhZERvY3VtZW50IiwidWlkIiwiZG9jIiwiZXhpc3RzIiwiZGF0YSIsImFkZGl0aW9uYWxVc2VySW5mbyIsInByb2ZpbGUiLCJuYW1lIiwiZ2VuZGVyIiwicGljdHVyZSIsImVtYWlsIiwibGluayIsInNldCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQUVBOztBQUNBOztBQUVBOzs7Ozs7QUFFTyxJQUFNQSxPQUFPLEdBQUcsU0FBVkEsT0FBVSxHQUEyQjtBQUNqRCxNQUFNQyxJQUFJLEdBQUdDLFlBQVksQ0FBQ0MsT0FBYixDQUFxQixNQUFyQixDQUFiO0FBRUEsU0FBT0MsSUFBSSxDQUFDQyxLQUFMLENBQVdKLElBQVgsQ0FBUDtBQUNBLENBSk07Ozs7QUFNQSxJQUFNSyxLQUFLO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSwrQkFBRztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBT0MsWUFBQUEsV0FBUCwyREFBOEIsS0FBOUI7QUFDaEJOLFlBQUFBLElBRGdCLEdBQ1RELE9BQU8sRUFERTs7QUFBQSxrQkFHaEJDLElBQUksS0FBSyxJQUhPO0FBQUE7QUFBQTtBQUFBOztBQUFBLDZDQUlaQSxJQUpZOztBQUFBO0FBQUEsZ0JBS1JNLFdBTFE7QUFBQTtBQUFBO0FBQUE7O0FBQUE7QUFPWkMsWUFBQUEsUUFQWSxH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TlYsY0FBQUEsR0FBRyxFQUFFckIsSUFBSSxDQUFDa0IsSUFBTCxDQUFVRztBQU5ULGFBQVA7O0FBckJvQjtBQUFBLDhDQWdDZkgsSUFoQ2U7O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsR0FBSDs7QUFBQSxrQkFBUEQsT0FBTztBQUFBO0FBQUE7QUFBQSxHQUFiOzs7ZUFtQ1E7QUFBRVosRUFBQUEsS0FBSyxFQUFMQSxLQUFGO0FBQVNTLEVBQUFBLE1BQU0sRUFBTkEsTUFBVDtBQUFpQmYsRUFBQUEsT0FBTyxFQUFQQSxPQUFqQjtBQUEwQmtCLEVBQUFBLE9BQU8sRUFBUEE7QUFBMUIiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBAZmxvd1xuXG5pbXBvcnQgZmlyZWJhc2UgZnJvbSAnZmlyZWJhc2UvYXBwJztcbmltcG9ydCAnZmlyZWJhc2UvYXV0aCc7XG5cbmltcG9ydCBmaXJlc3RvcmUgZnJvbSAnLi9maXJlc3RvcmUnO1xuXG5leHBvcnQgY29uc3QgZ2V0QXV0aCA9ICgpOiBGaXJlYmFzZUF1dGggfCBudWxsID0+IHtcblx0Y29uc3QgYXV0aCA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdhdXRoJyk7XG5cblx0cmV0dXJuIEpTT04ucGFyc2UoYXV0aCk7XG59O1xuXG5leHBvcnQgY29uc3QgbG9naW4gPSBhc3luYyAoc3RvcmFnZU9ubHk6IGJvb2xlYW4gPSBmYWxzZSk6IEZpcmViYXNlQXV0aCA9PiB7XG5cdGxldCBhdXRoID0gZ2V0QXV0aCgpO1xuXG5cdGlmIChhdXRoICE9PSBudWxsKSB7XG5cdFx0cmV0dXJuIGF1dGg7XG5cdH0gZWxzZSBpZiAoIXN0b3JhZ2VPbmx5KSB7XG5cdFx0dHJ5IHtcblx0XHRcdGNvbnN0IHByb3ZpZGVyID0gbmV3IGZpcmViYXNlLmF1dGguR29vZ2xlQXV0aFByb3ZpZGVyKCk7XG5cdFx0XHRmaXJlYmFzZS5hdXRoKCkudXNlRGV2aWNlTGFuZ3VhZ2UoKTtcblxuXHRcdFx0YXV0aCA9IGF3YWl0IGZpcmViYXNlLmF1dGgoKS5zaWduSW5XaXRoUG9wdXAocHJvdmlkZXIpO1xuXG5cdFx0XHRsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgnYXV0aCcsIEpTT04uc3RyaW5naWZ5KGF1dGgpKTtcblx0XHR9IGNhdGNoIChlcnIpIHtcblx0XHRcdC8vIERvIE5vdGhpbmdcblx0XHR9XG5cdH1cblxuXHRyZXR1cm4gYXV0aDtcbn07XG5cbmV4cG9ydCBjb25zdCBsb2dvdXQgPSBhc3luYyAoKSA9PiB7XG5cdGNvbnN0IGF1dGggPSBnZXRBdXRoKCk7XG5cblx0aWYgKGF1dGgpIHtcblx0XHR0cnkge1xuXHRcdFx0YXdhaXQgZmlyZWJhc2UuYXV0aCgpLnNpZ25PdXQoKTtcblx0XHRcdGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdhdXRoJyk7XG5cdFx0fSBjYXRjaCAoZXJyKSB7XG5cdFx0XHRyZXR1cm4gZmFsc2U7XG5cdFx0fVxuXHR9XG5cblx0cmV0dXJuIHRydWU7XG59O1xuXG5leHBvcnQgY29uc3QgZ2V0VXNlciA9IGFzeW5jICgpID0+IHtcblx0Y29uc3QgYXV0aCA9IGdldEF1dGgoKTtcblx0bGV0IHVzZXIgPSBudWxsO1xuXG5cdGlmIChhdXRoKSB7XG5cdFx0Y29uc3QgZG9jID0gYXdhaXQgZmlyZXN0b3JlLnJlYWREb2N1bWVudCgndXNlcnMnLCBhdXRoLnVzZXIudWlkKTtcblxuXHRcdGlmIChkb2MuZXhpc3RzKSB7XG5cdFx0XHR1c2VyID0ge1xuXHRcdFx0XHQuLi5kb2MuZGF0YSgpLFxuXHRcdFx0XHR1aWQ6IGF1dGgudXNlci51aWQsXG5cdFx0XHR9O1xuXHRcdH0gZWxzZSB7XG5cdFx0XHRjb25zdCB7XG5cdFx0XHRcdGFkZGl0aW9uYWxVc2VySW5mbzoge1xuXHRcdFx0XHRcdHByb2ZpbGU6IHsgbmFtZSwgZ2VuZGVyLCBwaWN0dXJlLCBlbWFpbCwgbGluayB9LFxuXHRcdFx0XHR9LFxuXHRcdFx0fSA9IGF1dGg7XG5cblx0XHRcdGF3YWl0IGZpcmVzdG9yZS5zZXQoJ3VzZXJzJywgYXV0aC51c2VyLnVpZCwgeyBuYW1lLCBnZW5kZXIsIHBpY3R1cmUsIGVtYWlsLCBsaW5rIH0pO1xuXG5cdFx0XHR1c2VyID0ge1xuXHRcdFx0XHRuYW1lLFxuXHRcdFx0XHRnZW5kZXIsXG5cdFx0XHRcdHBpY3R1cmUsXG5cdFx0XHRcdGVtYWlsLFxuXHRcdFx0XHRsaW5rLFxuXHRcdFx0XHR1aWQ6IGF1dGgudXNlci51aWQsXG5cdFx0XHR9O1xuXHRcdH1cblx0fVxuXG5cdHJldHVybiB1c2VyO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgeyBsb2dpbiwgbG9nb3V0LCBnZXRBdXRoLCBnZXRVc2VyIH07XG4iXX0="
     }
   ],
@@ -6702,7 +6714,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/firebase/firestore.js",
       "hash": "NUwKOg",
-      "browserifyId": 467,
+      "browserifyId": 468,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZpcmVzdG9yZS5qcz92ZXJzaW9uPU5Vd0tPZyJdLCJuYW1lcyI6WyJkYiIsImNyZWF0ZURiIiwiZmlyZWJhc2UiLCJmaXJlc3RvcmUiLCJjcmVhdGVEYklmTm90SW5pdGlhbGl6ZWQiLCJmbiIsInNldCIsImtleSIsImlkIiwiZGF0YSIsInNhbml0aXplZERhdGEiLCJPYmplY3QiLCJlbnRyaWVzIiwicmVkdWNlIiwiYWNjIiwidmFsdWUiLCJ1bmRlZmluZWQiLCJjb2xsZWN0aW9uIiwiZG9jIiwicmVhZERvY3VtZW50IiwiZG9jS2V5IiwiZ2V0Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFFQTs7QUFDQTs7QUFFQSxJQUFJQSxFQUFKOztBQUVBLElBQU1DLFFBQVEsR0FBRyxTQUFYQSxRQUFXLEdBQU07QUFDdEJELEVBQUFBLEVBQUUsR0FBR0UsZ0JBQVNDLFNBQVQsRUFBTDtBQUNBLENBRkQ7O0FBSUEsSUFBTUMsd0JBQXdCLEdBQUcsU0FBM0JBLHdCQUEyQixDQUFBQyxFQUFFLEVBQUk7QUFDdEMsU0FBTyxZQUFlO0FBQ3JCLFFBQUksQ0FBQ0wsRUFBTCxFQUFTO0FBQ1JDLE1BQUFBLFFBQVE7QUFDUjs7QUFFRCxXQUFPSSxFQUFFLE1BQUYsbUJBQVA7QUFDQSxHQU5EO0FBT0EsQ0FSRDs7QUFVTyxJQUFNQyxHQUFHLEdBQUdGLHdCQUF3QixDQUFDLFVBQUNHLEdBQUQsRUFBTUMsRUFBTixFQUFVQyxJQUFWLEVBQW1CO0FBQzlELE1BQU1DLGFBQXFCLEdBQUdDLE1BQU0sQ0FBQ0MsT0FBUCxDQUFlSCxJQUFmLEVBQXFCSSxNQUFyQixDQUE0QixVQUFDQyxHQUFELFFBQXVCO0FBQUE7QUFBQSxRQUFoQlAsR0FBZ0I7QUFBQSxRQUFYUSxLQUFXOztBQUNoRixRQUFJQSxLQUFLLEtBQUtDLFNBQWQsRUFBeUI7QUFDeEJGLE1BQUFBLEdBQUcsQ0FBQ1AsR0FBRCxDQUFILEdBQVdRLEtBQVg7QUFDQTs7QUFFRCxXQUFPRCxHQUFQO0FBQ0EsR0FONkIsRUFNM0IsRUFOMkIsQ0FBOUI7QUFRQSxTQUFPZCxFQUFFLENBQ1BpQixVQURLLENBQ01WLEdBRE4sRUFFTFcsR0FGSyxDQUVEVixFQUZDLEVBR0xGLEdBSEssQ0FHREksYUFIQyxDQUFQO0FBSUEsQ0FiMEMsQ0FBcEM7O0FBZUEsSUFBTVMsWUFBWSxHQUFHZix3QkFBd0IsQ0FBQyxVQUFDRyxHQUFELEVBQU1hLE1BQU4sRUFBaUI7QUFDckUsU0FBT3BCLEVBQUUsQ0FDUGlCLFVBREssQ0FDTVYsR0FETixFQUVMVyxHQUZLLENBRURFLE1BRkMsRUFHTEMsR0FISyxFQUFQO0FBSUEsQ0FMbUQsQ0FBN0M7O2VBT1E7QUFBRWYsRUFBQUEsR0FBRyxFQUFIQSxHQUFGO0FBQU9hLEVBQUFBLFlBQVksRUFBWkE7QUFBUCIsInNvdXJjZXNDb250ZW50IjpbIi8vIEBmbG93XG5cbmltcG9ydCBmaXJlYmFzZSBmcm9tICdmaXJlYmFzZS9hcHAnO1xuaW1wb3J0ICdmaXJlYmFzZS9maXJlc3RvcmUnO1xuXG5sZXQgZGI6IGZpcmViYXNlLmZpcmVzdG9yZS5GaXJlc3RvcmU7XG5cbmNvbnN0IGNyZWF0ZURiID0gKCkgPT4ge1xuXHRkYiA9IGZpcmViYXNlLmZpcmVzdG9yZSgpO1xufTtcblxuY29uc3QgY3JlYXRlRGJJZk5vdEluaXRpYWxpemVkID0gZm4gPT4ge1xuXHRyZXR1cm4gKC4uLnBhcmFtcykgPT4ge1xuXHRcdGlmICghZGIpIHtcblx0XHRcdGNyZWF0ZURiKCk7XG5cdFx0fVxuXG5cdFx0cmV0dXJuIGZuKC4uLnBhcmFtcyk7XG5cdH07XG59O1xuXG5leHBvcnQgY29uc3Qgc2V0ID0gY3JlYXRlRGJJZk5vdEluaXRpYWxpemVkKChrZXksIGlkLCBkYXRhKSA9PiB7XG5cdGNvbnN0IHNhbml0aXplZERhdGE6IG9iamVjdCA9IE9iamVjdC5lbnRyaWVzKGRhdGEpLnJlZHVjZSgoYWNjLCBba2V5LCB2YWx1ZV0pID0+IHtcblx0XHRpZiAodmFsdWUgIT09IHVuZGVmaW5lZCkge1xuXHRcdFx0YWNjW2tleV0gPSB2YWx1ZTtcblx0XHR9XG5cblx0XHRyZXR1cm4gYWNjO1xuXHR9LCB7fSk7XG5cblx0cmV0dXJuIGRiXG5cdFx0LmNvbGxlY3Rpb24oa2V5KVxuXHRcdC5kb2MoaWQpXG5cdFx0LnNldChzYW5pdGl6ZWREYXRhKTtcbn0pO1xuXG5leHBvcnQgY29uc3QgcmVhZERvY3VtZW50ID0gY3JlYXRlRGJJZk5vdEluaXRpYWxpemVkKChrZXksIGRvY0tleSkgPT4ge1xuXHRyZXR1cm4gZGJcblx0XHQuY29sbGVjdGlvbihrZXkpXG5cdFx0LmRvYyhkb2NLZXkpXG5cdFx0LmdldCgpO1xufSk7XG5cbmV4cG9ydCBkZWZhdWx0IHsgc2V0LCByZWFkRG9jdW1lbnQgfTtcbiJdfQ=="
     }
   ],
@@ -6718,7 +6730,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/firebase/index.js",
       "hash": "djY10w",
-      "browserifyId": 468,
+      "browserifyId": 469,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzP3ZlcnNpb249ZGpZMTB3Il0sIm5hbWVzIjpbImZpcmViYXNlIiwiaW5pdGlhbGl6ZUFwcCIsImZpcmViYXNlQ29uZmlnIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBRUE7O0FBRUE7O0FBSUE7O0FBQ0E7O0FBSEFBLGdCQUFTQyxhQUFULENBQXVCQyxvQkFBdkI7O2VBSWVGIiwic291cmNlc0NvbnRlbnQiOlsiLy8gQGZsb3dcblxuaW1wb3J0IGZpcmViYXNlIGZyb20gJ2ZpcmViYXNlL2FwcCc7XG5cbmltcG9ydCBmaXJlYmFzZUNvbmZpZyBmcm9tICcuLi8uLi8uLi9jb25maWcvZmlyZWJhc2UnO1xuXG5maXJlYmFzZS5pbml0aWFsaXplQXBwKGZpcmViYXNlQ29uZmlnKTtcblxuZXhwb3J0IHsgZGVmYXVsdCBhcyBhdXRoIH0gZnJvbSAnLi9hdXRoJztcbmV4cG9ydCB7IGRlZmF1bHQgYXMgZmlyZXN0b3JlIH0gZnJvbSAnLi9maXJlc3RvcmUnO1xuZXhwb3J0IGRlZmF1bHQgZmlyZWJhc2U7XG4iXX0="
     }
   ],
@@ -6730,21 +6742,24 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/notification.js",
       "hash": "nI9aKQ",
-      "browserifyId": 469,
+      "browserifyId": 470,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm5vdGlmaWNhdGlvbi5qcz92ZXJzaW9uPW5JOWFLUSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7O0FBQUEiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgeyBzaG93Tm90aWZpY2F0aW9uIH0gZnJvbSAnLi4vY29tcG9uZW50cy92aWV3L1NuYWNrYmFyJztcbiJdfQ=="
     }
   ],
   "/home/dustin/CS/recipes/src/lib/redux/actions/auth.js": [
-    "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = exports.getAuth = exports.logout = exports.FIREBASE_LOGOUT_FAILURE = exports.FIREBASE_LOGOUT_SUCCESS = exports.FIREBASE_LOGOUT_STARTED = exports.login = exports.FIREBASE_LOGIN_FAILURE = exports.FIREBASE_LOGIN_SUCCESS = exports.FIREBASE_LOGIN_STARTED = exports.getUser = exports.REQUEST_USER_FAILURE = exports.REQUEST_USER_SUCCESS = exports.REQUEST_USER_STARTED = void 0;\n\nvar _helpers = require(\"../helpers\");\n\nvar _firebase = require(\"../../firebase\");\n\nvar getUserActions = (0, _helpers.createActions)('request', 'user');\nvar REQUEST_USER_STARTED = getUserActions.actionStarted;\nexports.REQUEST_USER_STARTED = REQUEST_USER_STARTED;\nvar REQUEST_USER_SUCCESS = getUserActions.actionSuccess;\nexports.REQUEST_USER_SUCCESS = REQUEST_USER_SUCCESS;\nvar REQUEST_USER_FAILURE = getUserActions.actionFailure;\nexports.REQUEST_USER_FAILURE = REQUEST_USER_FAILURE;\n\nvar getUser = function getUser() {\n  return function (dispatch) {\n    var actionStarted = getUserActions.actionStarted,\n        actionSuccess = getUserActions.actionSuccess,\n        actionFailure = getUserActions.actionFailure;\n    dispatch({\n      type: actionStarted\n    });\n\n    _firebase.auth.getUser().then(function (user) {\n      return dispatch({\n        type: actionSuccess,\n        response: user\n      });\n    })[\"catch\"](function (err) {\n      return dispatch({\n        type: actionFailure,\n        err: err\n      });\n    });\n  };\n};\n\nexports.getUser = getUser;\nvar loginActions = (0, _helpers.createActions)('firebase', 'login');\nvar FIREBASE_LOGIN_STARTED = loginActions.actionStarted;\nexports.FIREBASE_LOGIN_STARTED = FIREBASE_LOGIN_STARTED;\nvar FIREBASE_LOGIN_SUCCESS = loginActions.actionSuccess;\nexports.FIREBASE_LOGIN_SUCCESS = FIREBASE_LOGIN_SUCCESS;\nvar FIREBASE_LOGIN_FAILURE = loginActions.actionFailure;\nexports.FIREBASE_LOGIN_FAILURE = FIREBASE_LOGIN_FAILURE;\n\nvar login = function login() {\n  var storageOnly = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;\n  return function (dispatch) {\n    var actionStarted = loginActions.actionStarted,\n        actionSuccess = loginActions.actionSuccess,\n        actionFailure = loginActions.actionFailure;\n    dispatch({\n      type: actionStarted\n    });\n\n    _firebase.auth.login(storageOnly).then(function (response) {\n      dispatch({\n        type: actionSuccess,\n        response: response\n      });\n      dispatch(getUser());\n    })[\"catch\"](function (err) {\n      return dispatch({\n        type: actionFailure,\n        err: err\n      });\n    });\n  };\n};\n\nexports.login = login;\nvar logoutActions = (0, _helpers.createActions)('firebase', 'logout');\nvar FIREBASE_LOGOUT_STARTED = logoutActions.actionStarted;\nexports.FIREBASE_LOGOUT_STARTED = FIREBASE_LOGOUT_STARTED;\nvar FIREBASE_LOGOUT_SUCCESS = logoutActions.actionSuccess;\nexports.FIREBASE_LOGOUT_SUCCESS = FIREBASE_LOGOUT_SUCCESS;\nvar FIREBASE_LOGOUT_FAILURE = logoutActions.actionFailure;\nexports.FIREBASE_LOGOUT_FAILURE = FIREBASE_LOGOUT_FAILURE;\n\nvar logout = function logout() {\n  return function (dispatch) {\n    var actionStarted = logoutActions.actionStarted,\n        actionSuccess = logoutActions.actionSuccess,\n        actionFailure = logoutActions.actionFailure;\n    dispatch({\n      type: actionStarted\n    });\n\n    _firebase.auth.logout().then(function (response) {\n      return dispatch({\n        type: actionSuccess,\n        response: response\n      });\n    })[\"catch\"](function (err) {\n      return dispatch({\n        type: actionFailure,\n        err: err\n      });\n    });\n  };\n};\n\nexports.logout = logout;\nvar getAuth = _firebase.auth.getAuth;\nexports.getAuth = getAuth;\nvar _default = {\n  FIREBASE_LOGIN_STARTED: FIREBASE_LOGIN_STARTED,\n  FIREBASE_LOGIN_SUCCESS: FIREBASE_LOGIN_SUCCESS,\n  FIREBASE_LOGIN_FAILURE: FIREBASE_LOGIN_FAILURE,\n  login: login,\n  FIREBASE_LOGOUT_STARTED: FIREBASE_LOGOUT_STARTED,\n  FIREBASE_LOGOUT_SUCCESS: FIREBASE_LOGOUT_SUCCESS,\n  FIREBASE_LOGOUT_FAILURE: FIREBASE_LOGOUT_FAILURE,\n  logout: logout,\n  REQUEST_USER_STARTED: REQUEST_USER_STARTED,\n  REQUEST_USER_SUCCESS: REQUEST_USER_SUCCESS,\n  REQUEST_USER_FAILURE: REQUEST_USER_FAILURE,\n  getUser: getUser,\n  getAuth: getAuth\n};\nexports[\"default\"] = _default;\n",
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = exports.getAuth = exports.logout = exports.FIREBASE_LOGOUT_FAILURE = exports.FIREBASE_LOGOUT_SUCCESS = exports.FIREBASE_LOGOUT_STARTED = exports.login = exports.FIREBASE_LOGIN_FAILURE = exports.FIREBASE_LOGIN_SUCCESS = exports.FIREBASE_LOGIN_STARTED = exports.getUser = exports.REQUEST_USER_FAILURE = exports.REQUEST_USER_SUCCESS = exports.REQUEST_USER_STARTED = void 0;\n\nvar _regenerator = _interopRequireDefault(require(\"@babel/runtime/regenerator\"));\n\nvar _asyncToGenerator2 = _interopRequireDefault(require(\"@babel/runtime/helpers/asyncToGenerator\"));\n\nvar _helpers = require(\"../helpers\");\n\nvar _firebase = require(\"../../firebase\");\n\nvar getUserActions = (0, _helpers.createActionTypes)('request', 'user');\nvar REQUEST_USER_STARTED = getUserActions.actionStarted;\nexports.REQUEST_USER_STARTED = REQUEST_USER_STARTED;\nvar REQUEST_USER_SUCCESS = getUserActions.actionSuccess;\nexports.REQUEST_USER_SUCCESS = REQUEST_USER_SUCCESS;\nvar REQUEST_USER_FAILURE = getUserActions.actionFailure;\nexports.REQUEST_USER_FAILURE = REQUEST_USER_FAILURE;\n\nvar getUser = function getUser() {\n  return (\n    /*#__PURE__*/\n    function () {\n      var _ref = (0, _asyncToGenerator2[\"default\"])(\n      /*#__PURE__*/\n      _regenerator[\"default\"].mark(function _callee(dispatch) {\n        var actionStarted, actionSuccess, actionFailure, user;\n        return _regenerator[\"default\"].wrap(function _callee$(_context) {\n          while (1) {\n            switch (_context.prev = _context.next) {\n              case 0:\n                actionStarted = getUserActions.actionStarted, actionSuccess = getUserActions.actionSuccess, actionFailure = getUserActions.actionFailure;\n                dispatch({\n                  type: actionStarted\n                });\n                _context.prev = 2;\n                _context.next = 5;\n                return _firebase.auth.getUser();\n\n              case 5:\n                user = _context.sent;\n                dispatch({\n                  type: actionSuccess,\n                  response: user\n                });\n                _context.next = 12;\n                break;\n\n              case 9:\n                _context.prev = 9;\n                _context.t0 = _context[\"catch\"](2);\n                dispatch({\n                  type: actionFailure,\n                  err: _context.t0\n                });\n\n              case 12:\n              case \"end\":\n                return _context.stop();\n            }\n          }\n        }, _callee, null, [[2, 9]]);\n      }));\n\n      return function (_x) {\n        return _ref.apply(this, arguments);\n      };\n    }()\n  );\n};\n\nexports.getUser = getUser;\nvar loginActions = (0, _helpers.createActionTypes)('firebase', 'login');\nvar FIREBASE_LOGIN_STARTED = loginActions.actionStarted;\nexports.FIREBASE_LOGIN_STARTED = FIREBASE_LOGIN_STARTED;\nvar FIREBASE_LOGIN_SUCCESS = loginActions.actionSuccess;\nexports.FIREBASE_LOGIN_SUCCESS = FIREBASE_LOGIN_SUCCESS;\nvar FIREBASE_LOGIN_FAILURE = loginActions.actionFailure;\nexports.FIREBASE_LOGIN_FAILURE = FIREBASE_LOGIN_FAILURE;\n\nvar login = function login() {\n  var storageOnly = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;\n  return (\n    /*#__PURE__*/\n    function () {\n      var _ref2 = (0, _asyncToGenerator2[\"default\"])(\n      /*#__PURE__*/\n      _regenerator[\"default\"].mark(function _callee2(dispatch) {\n        var actionStarted, actionSuccess, actionFailure, response;\n        return _regenerator[\"default\"].wrap(function _callee2$(_context2) {\n          while (1) {\n            switch (_context2.prev = _context2.next) {\n              case 0:\n                actionStarted = loginActions.actionStarted, actionSuccess = loginActions.actionSuccess, actionFailure = loginActions.actionFailure;\n                dispatch({\n                  type: actionStarted\n                });\n                _context2.prev = 2;\n                _context2.next = 5;\n                return _firebase.auth.login(storageOnly);\n\n              case 5:\n                response = _context2.sent;\n                dispatch({\n                  type: actionSuccess,\n                  response: response\n                });\n                dispatch(getUser());\n                _context2.next = 13;\n                break;\n\n              case 10:\n                _context2.prev = 10;\n                _context2.t0 = _context2[\"catch\"](2);\n                dispatch({\n                  type: actionFailure,\n                  err: _context2.t0\n                });\n\n              case 13:\n              case \"end\":\n                return _context2.stop();\n            }\n          }\n        }, _callee2, null, [[2, 10]]);\n      }));\n\n      return function (_x2) {\n        return _ref2.apply(this, arguments);\n      };\n    }()\n  );\n};\n\nexports.login = login;\nvar logoutActions = (0, _helpers.createActionTypes)('firebase', 'logout');\nvar FIREBASE_LOGOUT_STARTED = logoutActions.actionStarted;\nexports.FIREBASE_LOGOUT_STARTED = FIREBASE_LOGOUT_STARTED;\nvar FIREBASE_LOGOUT_SUCCESS = logoutActions.actionSuccess;\nexports.FIREBASE_LOGOUT_SUCCESS = FIREBASE_LOGOUT_SUCCESS;\nvar FIREBASE_LOGOUT_FAILURE = logoutActions.actionFailure;\nexports.FIREBASE_LOGOUT_FAILURE = FIREBASE_LOGOUT_FAILURE;\n\nvar logout = function logout() {\n  return (\n    /*#__PURE__*/\n    function () {\n      var _ref3 = (0, _asyncToGenerator2[\"default\"])(\n      /*#__PURE__*/\n      _regenerator[\"default\"].mark(function _callee3(dispatch) {\n        var actionStarted, actionSuccess, actionFailure, response;\n        return _regenerator[\"default\"].wrap(function _callee3$(_context3) {\n          while (1) {\n            switch (_context3.prev = _context3.next) {\n              case 0:\n                actionStarted = logoutActions.actionStarted, actionSuccess = logoutActions.actionSuccess, actionFailure = logoutActions.actionFailure;\n                dispatch({\n                  type: actionStarted\n                });\n                _context3.prev = 2;\n                _context3.next = 5;\n                return _firebase.auth.logout();\n\n              case 5:\n                response = _context3.sent;\n                dispatch({\n                  type: actionSuccess,\n                  response: response\n                });\n                _context3.next = 12;\n                break;\n\n              case 9:\n                _context3.prev = 9;\n                _context3.t0 = _context3[\"catch\"](2);\n                dispatch({\n                  type: actionFailure,\n                  err: _context3.t0\n                });\n\n              case 12:\n              case \"end\":\n                return _context3.stop();\n            }\n          }\n        }, _callee3, null, [[2, 9]]);\n      }));\n\n      return function (_x3) {\n        return _ref3.apply(this, arguments);\n      };\n    }()\n  );\n};\n\nexports.logout = logout;\nvar getAuth = _firebase.auth.getAuth;\nexports.getAuth = getAuth;\nvar _default = {\n  FIREBASE_LOGIN_STARTED: FIREBASE_LOGIN_STARTED,\n  FIREBASE_LOGIN_SUCCESS: FIREBASE_LOGIN_SUCCESS,\n  FIREBASE_LOGIN_FAILURE: FIREBASE_LOGIN_FAILURE,\n  login: login,\n  FIREBASE_LOGOUT_STARTED: FIREBASE_LOGOUT_STARTED,\n  FIREBASE_LOGOUT_SUCCESS: FIREBASE_LOGOUT_SUCCESS,\n  FIREBASE_LOGOUT_FAILURE: FIREBASE_LOGOUT_FAILURE,\n  logout: logout,\n  REQUEST_USER_STARTED: REQUEST_USER_STARTED,\n  REQUEST_USER_SUCCESS: REQUEST_USER_SUCCESS,\n  REQUEST_USER_FAILURE: REQUEST_USER_FAILURE,\n  getUser: getUser,\n  getAuth: getAuth\n};\nexports[\"default\"] = _default;\n",
     {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/asyncToGenerator": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/asyncToGenerator.js",
       "../helpers": "/home/dustin/CS/recipes/src/lib/redux/helpers.js",
+      "@babel/runtime/regenerator": "/home/dustin/CS/recipes/node_modules/@babel/runtime/regenerator/index.js",
       "../../firebase": "/home/dustin/CS/recipes/src/lib/firebase/index.js"
     },
     {
       "id": "/home/dustin/CS/recipes/src/lib/redux/actions/auth.js",
-      "hash": "2YHySA",
-      "browserifyId": 470,
-      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF1dGguanM/dmVyc2lvbj0yWUh5U0EiXSwibmFtZXMiOlsiZ2V0VXNlckFjdGlvbnMiLCJSRVFVRVNUX1VTRVJfU1RBUlRFRCIsImFjdGlvblN0YXJ0ZWQiLCJSRVFVRVNUX1VTRVJfU1VDQ0VTUyIsImFjdGlvblN1Y2Nlc3MiLCJSRVFVRVNUX1VTRVJfRkFJTFVSRSIsImFjdGlvbkZhaWx1cmUiLCJnZXRVc2VyIiwiZGlzcGF0Y2giLCJ0eXBlIiwiYXV0aCIsInRoZW4iLCJ1c2VyIiwicmVzcG9uc2UiLCJlcnIiLCJsb2dpbkFjdGlvbnMiLCJGSVJFQkFTRV9MT0dJTl9TVEFSVEVEIiwiRklSRUJBU0VfTE9HSU5fU1VDQ0VTUyIsIkZJUkVCQVNFX0xPR0lOX0ZBSUxVUkUiLCJsb2dpbiIsInN0b3JhZ2VPbmx5IiwibG9nb3V0QWN0aW9ucyIsIkZJUkVCQVNFX0xPR09VVF9TVEFSVEVEIiwiRklSRUJBU0VfTE9HT1VUX1NVQ0NFU1MiLCJGSVJFQkFTRV9MT0dPVVRfRkFJTFVSRSIsImxvZ291dCIsImdldEF1dGgiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQUE7O0FBQ0E7O0FBRUEsSUFBTUEsY0FBYyxHQUFHLDRCQUFjLFNBQWQsRUFBeUIsTUFBekIsQ0FBdkI7QUFDTyxJQUFNQyxvQkFBb0IsR0FBR0QsY0FBYyxDQUFDRSxhQUE1Qzs7QUFDQSxJQUFNQyxvQkFBb0IsR0FBR0gsY0FBYyxDQUFDSSxhQUE1Qzs7QUFDQSxJQUFNQyxvQkFBb0IsR0FBR0wsY0FBYyxDQUFDTSxhQUE1Qzs7O0FBQ0EsSUFBTUMsT0FBTyxHQUFHLFNBQVZBLE9BQVU7QUFBQSxTQUFNLFVBQUNDLFFBQUQsRUFBd0I7QUFBQSxRQUM1Q04sYUFENEMsR0FDSUYsY0FESixDQUM1Q0UsYUFENEM7QUFBQSxRQUM3QkUsYUFENkIsR0FDSUosY0FESixDQUM3QkksYUFENkI7QUFBQSxRQUNkRSxhQURjLEdBQ0lOLGNBREosQ0FDZE0sYUFEYztBQUdwREUsSUFBQUEsUUFBUSxDQUFDO0FB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QSxLQUZYO0FBR0EsR0FScUI7QUFBQSxDQUFmOzs7QUFVQSxJQUFNWSxPQUFPLEdBQUdoQixlQUFLZ0IsT0FBckI7O2VBRVE7QUFDZFYsRUFBQUEsc0JBQXNCLEVBQXRCQSxzQkFEYztBQUVkQyxFQUFBQSxzQkFBc0IsRUFBdEJBLHNCQUZjO0FBR2RDLEVBQUFBLHNCQUFzQixFQUF0QkEsc0JBSGM7QUFJZEMsRUFBQUEsS0FBSyxFQUFMQSxLQUpjO0FBS2RHLEVBQUFBLHVCQUF1QixFQUF2QkEsdUJBTGM7QUFNZEMsRUFBQUEsdUJBQXVCLEVBQXZCQSx1QkFOYztBQU9kQyxFQUFBQSx1QkFBdUIsRUFBdkJBLHVCQVBjO0FBUWRDLEVBQUFBLE1BQU0sRUFBTkEsTUFSYztBQVNkeEIsRUFBQUEsb0JBQW9CLEVBQXBCQSxvQkFUYztBQVVkRSxFQUFBQSxvQkFBb0IsRUFBcEJBLG9CQVZjO0FBV2RFLEVBQUFBLG9CQUFvQixFQUFwQkEsb0JBWGM7QUFZZEUsRUFBQUEsT0FBTyxFQUFQQSxPQVpjO0FBYWRtQixFQUFBQSxPQUFPLEVBQVBBO0FBYmMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjcmVhdGVBY3Rpb25zIH0gZnJvbSAnLi4vaGVscGVycyc7XG5pbXBvcnQgeyBhdXRoIH0gZnJvbSAnLi4vLi4vZmlyZWJhc2UnO1xuXG5jb25zdCBnZXRVc2VyQWN0aW9ucyA9IGNyZWF0ZUFjdGlvbnMoJ3JlcXVlc3QnLCAndXNlcicpO1xuZXhwb3J0IGNvbnN0IFJFUVVFU1RfVVNFUl9TVEFSVEVEID0gZ2V0VXNlckFjdGlvbnMuYWN0aW9uU3RhcnRlZDtcbmV4cG9ydCBjb25zdCBSRVFVRVNUX1VTRVJfU1VDQ0VTUyA9IGdldFVzZXJBY3Rpb25zLmFjdGlvblN1Y2Nlc3M7XG5leHBvcnQgY29uc3QgUkVRVUVTVF9VU0VSX0ZBSUxVUkUgPSBnZXRVc2VyQWN0aW9ucy5hY3Rpb25GYWlsdXJlO1xuZXhwb3J0IGNvbnN0IGdldFVzZXIgPSAoKSA9PiAoZGlzcGF0Y2g6IERpc3BhdGNoKSA9PiB7XG5cdGNvbnN0IHsgYWN0aW9uU3RhcnRlZCwgYWN0aW9uU3VjY2VzcywgYWN0aW9uRmFpbHVyZSB9ID0gZ2V0VXNlckFjdGlvbnM7XG5cblx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25TdGFydGVkIH0pO1xuXG5cdGF1dGguZ2V0VXNlcigpXG5cdFx0LnRoZW4odXNlciA9PiBkaXNwYXRjaCh7IHR5cGU6IGFjdGlvblN1Y2Nlc3MsIHJlc3BvbnNlOiB1c2VyIH0pKVxuXHRcdC5jYXRjaChlcnIgPT4gZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25GYWlsdXJlLCBlcnIgfSkpO1xufTtcblxuY29uc3QgbG9naW5BY3Rpb25zID0gY3JlYXRlQWN0aW9ucygnZmlyZWJhc2UnLCAnbG9naW4nKTtcbmV4cG9ydCBjb25zdCBGSVJFQkFTRV9MT0dJTl9TVEFSVEVEID0gbG9naW5BY3Rpb25zLmFjdGlvblN0YXJ0ZWQ7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HSU5fU1VDQ0VTUyA9IGxvZ2luQWN0aW9ucy5hY3Rpb25TdWNjZXNzO1xuZXhwb3J0IGNvbnN0IEZJUkVCQVNFX0xPR0lOX0ZBSUxVUkUgPSBsb2dpbkFjdGlvbnMuYWN0aW9uRmFpbHVyZTtcbmV4cG9ydCBjb25zdCBsb2dpbiA9IChzdG9yYWdlT25seTogYm9vbGVhbiA9IGZhbHNlKSA9PiAoZGlzcGF0Y2g6IERpc3BhdGNoKSA9PiB7XG5cdGNvbnN0IHsgYWN0aW9uU3RhcnRlZCwgYWN0aW9uU3VjY2VzcywgYWN0aW9uRmFpbHVyZSB9ID0gbG9naW5BY3Rpb25zO1xuXG5cdGRpc3BhdGNoKHsgdHlwZTogYWN0aW9uU3RhcnRlZCB9KTtcblxuXHRhdXRoLmxvZ2luKHN0b3JhZ2VPbmx5KVxuXHRcdC50aGVuKHJlc3BvbnNlID0+IHtcblx0XHRcdGRpc3BhdGNoKHsgdHlwZTogYWN0aW9uU3VjY2VzcywgcmVzcG9uc2UgfSk7XG5cdFx0XHRkaXNwYXRjaChnZXRVc2VyKCkpO1xuXHRcdH0pXG5cdFx0LmNhdGNoKGVyciA9PiBkaXNwYXRjaCh7IHR5cGU6IGFjdGlvbkZhaWx1cmUsIGVyciB9KSk7XG59O1xuXG5jb25zdCBsb2dvdXRBY3Rpb25zID0gY3JlYXRlQWN0aW9ucygnZmlyZWJhc2UnLCAnbG9nb3V0Jyk7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HT1VUX1NUQVJURUQgPSBsb2dvdXRBY3Rpb25zLmFjdGlvblN0YXJ0ZWQ7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HT1VUX1NVQ0NFU1MgPSBsb2dvdXRBY3Rpb25zLmFjdGlvblN1Y2Nlc3M7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HT1VUX0ZBSUxVUkUgPSBsb2dvdXRBY3Rpb25zLmFjdGlvbkZhaWx1cmU7XG5leHBvcnQgY29uc3QgbG9nb3V0ID0gKCkgPT4gKGRpc3BhdGNoOiBEaXNwYXRjaCkgPT4ge1xuXHRjb25zdCB7IGFjdGlvblN0YXJ0ZWQsIGFjdGlvblN1Y2Nlc3MsIGFjdGlvbkZhaWx1cmUgfSA9IGxvZ291dEFjdGlvbnM7XG5cblx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25TdGFydGVkIH0pO1xuXG5cdGF1dGgubG9nb3V0KClcblx0XHQudGhlbihyZXNwb25zZSA9PiBkaXNwYXRjaCh7IHR5cGU6IGFjdGlvblN1Y2Nlc3MsIHJlc3BvbnNlIH0pKVxuXHRcdC5jYXRjaChlcnIgPT4gZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25GYWlsdXJlLCBlcnIgfSkpO1xufTtcblxuZXhwb3J0IGNvbnN0IGdldEF1dGggPSBhdXRoLmdldEF1dGg7XG5cbmV4cG9ydCBkZWZhdWx0IHtcblx0RklSRUJBU0VfTE9HSU5fU1RBUlRFRCxcblx0RklSRUJBU0VfTE9HSU5fU1VDQ0VTUyxcblx0RklSRUJBU0VfTE9HSU5fRkFJTFVSRSxcblx0bG9naW4sXG5cdEZJUkVCQVNFX0xPR09VVF9TVEFSVEVELFxuXHRGSVJFQkFTRV9MT0dPVVRfU1VDQ0VTUyxcblx0RklSRUJBU0VfTE9HT1VUX0ZBSUxVUkUsXG5cdGxvZ291dCxcblx0UkVRVUVTVF9VU0VSX1NUQVJURUQsXG5cdFJFUVVFU1RfVVNFUl9TVUNDRVNTLFxuXHRSRVFVRVNUX1VTRVJfRkFJTFVSRSxcblx0Z2V0VXNlcixcblx0Z2V0QXV0aCxcbn07XG4iXX0="
+      "hash": "AdzRRg",
+      "browserifyId": 471,
+      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF1dGguanM/dmVyc2lvbj1BZHpSUmciXSwibmFtZXMiOlsiZ2V0VXNlckFjdGlvbnMiLCJSRVFVRVNUX1VTRVJfU1RBUlRFRCIsImFjdGlvblN0YXJ0ZWQiLCJSRVFVRVNUX1VTRVJfU1VDQ0VTUyIsImFjdGlvblN1Y2Nlc3MiLCJSRVFVRVNUX1VTRVJfRkFJTFVSRSIsImFjdGlvbkZhaWx1cmUiLCJnZXRVc2VyIiwiZGlzcGF0Y2giLCJ0eXBlIiwiYXV0aCIsInVzZXIiLCJyZXNwb25zZSIsImVyciIsImxvZ2luQWN0aW9ucyIsIkZJUkVCQVNFX0xPR0lOX1NUQVJURUQiLCJGSVJFQkFTRV9MT0dJTl9TVUNDRVNTIiwiRklSRUJBU0VfTE9HSU5fRkFJTFVSRSIsImxvZ2luIiwic3RvcmFnZU9ubHkiLCJsb2dvdXRBY3Rpb25zIiwiRklSRUJBU0VfTE9HT1VUX1NUQVJURUQiLCJGSVJFQkFTRV9MT0dPVVRfU1VDQ0VTUyIsIkZJUkVCQVNFX0xPR09VVF9GQUlMVVJFIiwibG9nb3V0IiwiZ2V0QXV0aCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFFQSxJQUFNQSxjQUFjLEdBQUcsZ0NBQWtCLFNBQWxCLEVBQTZCLE1BQTdCLENBQXZCO0FBQ08sSUFBTUMsb0JBQW9CLEdBQUdELGNBQWMsQ0FBQ0UsYUFBNUM7O0FBQ0EsSUFBTUMsb0JBQW9CLEdBQUdILGNBQWMsQ0FBQ0ksYUFBNUM7O0FBQ0EsSUFBTUMsb0JBQW9CLEdBQUdMLGNBQWMsQ0FBQ00sYUFBNUM7OztBQUNBLElBQU1DLE9BQU8sR0FBRyxTQUFWQSxPQUFVO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLG1DQUFNLGlCQUFPQyxRQUFQO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNwQk4sZ0JBQUFBLGFBRG9CLEdBQzRCRixjQUQ1QixDQUNwQkUsYUFEb0IsRUFDTEUsYUFESyxHQUM0QkosY0FENUIsQ0FDTEksYUFESyxFQUNVRSxhQURWLEdBQzRCTixj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QUFBUixpQkFBRCxDQUFSO0FBSDJCO0FBQUE7QUFBQSx1QkFNSFEsZUFBS2MsTUFBTCxFQU5HOztBQUFBO0FBTXBCWixnQkFBQUEsUUFOb0I7QUFPMUJKLGdCQUFBQSxRQUFRLENBQUM7QUFBRUMsa0JBQUFBLElBQUksRUFBRUwsYUFBUjtBQUF1QlEsa0JBQUFBLFFBQVEsRUFBUkE7QUFBdkIsaUJBQUQsQ0FBUjtBQVAwQjtBQUFBOztBQUFBO0FBQUE7QUFBQTtBQVMxQkosZ0JBQUFBLFFBQVEsQ0FBQztBQUFFQyxrQkFBQUEsSUFBSSxFQUFFSCxhQUFSO0FBQXVCTyxrQkFBQUEsR0FBRztBQUExQixpQkFBRCxDQUFSOztBQVQwQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxPQUFOOztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxDQUFmOzs7QUFhQSxJQUFNWSxPQUFPLEdBQUdmLGVBQUtlLE9BQXJCOztlQUVRO0FBQ2RWLEVBQUFBLHNCQUFzQixFQUF0QkEsc0JBRGM7QUFFZEMsRUFBQUEsc0JBQXNCLEVBQXRCQSxzQkFGYztBQUdkQyxFQUFBQSxzQkFBc0IsRUFBdEJBLHNCQUhjO0FBSWRDLEVBQUFBLEtBQUssRUFBTEEsS0FKYztBQUtkRyxFQUFBQSx1QkFBdUIsRUFBdkJBLHVCQUxjO0FBTWRDLEVBQUFBLHVCQUF1QixFQUF2QkEsdUJBTmM7QUFPZEMsRUFBQUEsdUJBQXVCLEVBQXZCQSx1QkFQYztBQVFkQyxFQUFBQSxNQUFNLEVBQU5BLE1BUmM7QUFTZHZCLEVBQUFBLG9CQUFvQixFQUFwQkEsb0JBVGM7QUFVZEUsRUFBQUEsb0JBQW9CLEVBQXBCQSxvQkFWYztBQVdkRSxFQUFBQSxvQkFBb0IsRUFBcEJBLG9CQVhjO0FBWWRFLEVBQUFBLE9BQU8sRUFBUEEsT0FaYztBQWFka0IsRUFBQUEsT0FBTyxFQUFQQTtBQWJjIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlQWN0aW9uVHlwZXMgfSBmcm9tICcuLi9oZWxwZXJzJztcbmltcG9ydCB7IGF1dGggfSBmcm9tICcuLi8uLi9maXJlYmFzZSc7XG5cbmNvbnN0IGdldFVzZXJBY3Rpb25zID0gY3JlYXRlQWN0aW9uVHlwZXMoJ3JlcXVlc3QnLCAndXNlcicpO1xuZXhwb3J0IGNvbnN0IFJFUVVFU1RfVVNFUl9TVEFSVEVEID0gZ2V0VXNlckFjdGlvbnMuYWN0aW9uU3RhcnRlZDtcbmV4cG9ydCBjb25zdCBSRVFVRVNUX1VTRVJfU1VDQ0VTUyA9IGdldFVzZXJBY3Rpb25zLmFjdGlvblN1Y2Nlc3M7XG5leHBvcnQgY29uc3QgUkVRVUVTVF9VU0VSX0ZBSUxVUkUgPSBnZXRVc2VyQWN0aW9ucy5hY3Rpb25GYWlsdXJlO1xuZXhwb3J0IGNvbnN0IGdldFVzZXIgPSAoKSA9PiBhc3luYyAoZGlzcGF0Y2g6IERpc3BhdGNoKSA9PiB7XG5cdGNvbnN0IHsgYWN0aW9uU3RhcnRlZCwgYWN0aW9uU3VjY2VzcywgYWN0aW9uRmFpbHVyZSB9ID0gZ2V0VXNlckFjdGlvbnM7XG5cblx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25TdGFydGVkIH0pO1xuXG5cdHRyeSB7XG5cdFx0Y29uc3QgdXNlciA9IGF3YWl0IGF1dGguZ2V0VXNlcigpO1xuXG5cdFx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25TdWNjZXNzLCByZXNwb25zZTogdXNlciB9KTtcblx0fSBjYXRjaCAoZXJyKSB7XG5cdFx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25GYWlsdXJlLCBlcnIgfSk7XG5cdH1cbn07XG5cbmNvbnN0IGxvZ2luQWN0aW9ucyA9IGNyZWF0ZUFjdGlvblR5cGVzKCdmaXJlYmFzZScsICdsb2dpbicpO1xuZXhwb3J0IGNvbnN0IEZJUkVCQVNFX0xPR0lOX1NUQVJURUQgPSBsb2dpbkFjdGlvbnMuYWN0aW9uU3RhcnRlZDtcbmV4cG9ydCBjb25zdCBGSVJFQkFTRV9MT0dJTl9TVUNDRVNTID0gbG9naW5BY3Rpb25zLmFjdGlvblN1Y2Nlc3M7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HSU5fRkFJTFVSRSA9IGxvZ2luQWN0aW9ucy5hY3Rpb25GYWlsdXJlO1xuZXhwb3J0IGNvbnN0IGxvZ2luID0gKHN0b3JhZ2VPbmx5OiBib29sZWFuID0gZmFsc2UpID0+IGFzeW5jIChkaXNwYXRjaDogRGlzcGF0Y2gpID0+IHtcblx0Y29uc3QgeyBhY3Rpb25TdGFydGVkLCBhY3Rpb25TdWNjZXNzLCBhY3Rpb25GYWlsdXJlIH0gPSBsb2dpbkFjdGlvbnM7XG5cblx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25TdGFydGVkIH0pO1xuXG5cdHRyeSB7XG5cdFx0Y29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhdXRoLmxvZ2luKHN0b3JhZ2VPbmx5KTtcblxuXHRcdGRpc3BhdGNoKHsgdHlwZTogYWN0aW9uU3VjY2VzcywgcmVzcG9uc2UgfSk7XG5cdFx0ZGlzcGF0Y2goZ2V0VXNlcigpKTtcblx0fSBjYXRjaCAoZXJyKSB7XG5cdFx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25GYWlsdXJlLCBlcnIgfSk7XG5cdH1cbn07XG5cbmNvbnN0IGxvZ291dEFjdGlvbnMgPSBjcmVhdGVBY3Rpb25UeXBlcygnZmlyZWJhc2UnLCAnbG9nb3V0Jyk7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HT1VUX1NUQVJURUQgPSBsb2dvdXRBY3Rpb25zLmFjdGlvblN0YXJ0ZWQ7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HT1VUX1NVQ0NFU1MgPSBsb2dvdXRBY3Rpb25zLmFjdGlvblN1Y2Nlc3M7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HT1VUX0ZBSUxVUkUgPSBsb2dvdXRBY3Rpb25zLmFjdGlvbkZhaWx1cmU7XG5leHBvcnQgY29uc3QgbG9nb3V0ID0gKCkgPT4gYXN5bmMgKGRpc3BhdGNoOiBEaXNwYXRjaCkgPT4ge1xuXHRjb25zdCB7IGFjdGlvblN0YXJ0ZWQsIGFjdGlvblN1Y2Nlc3MsIGFjdGlvbkZhaWx1cmUgfSA9IGxvZ291dEFjdGlvbnM7XG5cblx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25TdGFydGVkIH0pO1xuXG5cdHRyeSB7XG5cdFx0Y29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhdXRoLmxvZ291dCgpO1xuXHRcdGRpc3BhdGNoKHsgdHlwZTogYWN0aW9uU3VjY2VzcywgcmVzcG9uc2UgfSk7XG5cdH0gY2F0Y2ggKGVycikge1xuXHRcdGRpc3BhdGNoKHsgdHlwZTogYWN0aW9uRmFpbHVyZSwgZXJyIH0pO1xuXHR9XG59O1xuXG5leHBvcnQgY29uc3QgZ2V0QXV0aCA9IGF1dGguZ2V0QXV0aDtcblxuZXhwb3J0IGRlZmF1bHQge1xuXHRGSVJFQkFTRV9MT0dJTl9TVEFSVEVELFxuXHRGSVJFQkFTRV9MT0dJTl9TVUNDRVNTLFxuXHRGSVJFQkFTRV9MT0dJTl9GQUlMVVJFLFxuXHRsb2dpbixcblx0RklSRUJBU0VfTE9HT1VUX1NUQVJURUQsXG5cdEZJUkVCQVNFX0xPR09VVF9TVUNDRVNTLFxuXHRGSVJFQkFTRV9MT0dPVVRfRkFJTFVSRSxcblx0bG9nb3V0LFxuXHRSRVFVRVNUX1VTRVJfU1RBUlRFRCxcblx0UkVRVUVTVF9VU0VSX1NVQ0NFU1MsXG5cdFJFUVVFU1RfVVNFUl9GQUlMVVJFLFxuXHRnZXRVc2VyLFxuXHRnZXRBdXRoLFxufTtcbiJdfQ=="
     }
   ],
   "/home/dustin/CS/recipes/src/lib/redux/actions/menu.js": [
@@ -6753,38 +6768,38 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/redux/actions/menu.js",
       "hash": "Ysip4w",
-      "browserifyId": 471,
+      "browserifyId": 472,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lbnUuanM/dmVyc2lvbj1Zc2lwNHciXSwibmFtZXMiOlsiVE9HR0xFX05BVl9NRU5VIiwidG9nZ2xlTmF2IiwidHlwZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLElBQU1BLGVBQWUsR0FBRyxpQkFBeEI7OztBQUVBLElBQU1DLFNBQVMsR0FBRyxTQUFaQSxTQUFZLEdBQU07QUFDOUIsU0FBTztBQUNOQyxJQUFBQSxJQUFJLEVBQUVGO0FBREEsR0FBUDtBQUdBLENBSk07OztlQU1RO0FBQUVBLEVBQUFBLGVBQWUsRUFBZkEsZUFBRjtBQUFtQkMsRUFBQUEsU0FBUyxFQUFUQTtBQUFuQiIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBUT0dHTEVfTkFWX01FTlUgPSAnVE9HR0xFX05BVl9NRU5VJztcblxuZXhwb3J0IGNvbnN0IHRvZ2dsZU5hdiA9ICgpID0+IHtcblx0cmV0dXJuIHtcblx0XHR0eXBlOiBUT0dHTEVfTkFWX01FTlUsXG5cdH07XG59O1xuXG5leHBvcnQgZGVmYXVsdCB7IFRPR0dMRV9OQVZfTUVOVSwgdG9nZ2xlTmF2IH07XG4iXX0="
     }
   ],
   "/home/dustin/CS/recipes/src/lib/redux/helpers.js": [
-    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.emptyDispatch = exports.createSetEditingDocumentAction = exports.createUpdateDocumentAction = exports.createGetDocumentAction = exports.createGetCollectionAction = exports.createCreateDocumentAction = exports.createActions = void 0;\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _regenerator = _interopRequireDefault(require(\"@babel/runtime/regenerator\"));\n\nvar _asyncToGenerator2 = _interopRequireDefault(require(\"@babel/runtime/helpers/asyncToGenerator\"));\n\nvar _firebase = require(\"../firebase\");\n\nvar _notification = require(\"../notification\");\n\nfunction ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { (0, _defineProperty2[\"default\"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }\n\nvar cache = {};\n\nvar withinTenMinutes = function withinTenMinutes(date1, date2) {\n  var timeOneMillis = date1.getTime();\n  var timeTwoMillis = date2.getTime();\n  var tenMins = 1000 * 60 * 10;\n  return Math.abs(timeOneMillis - timeTwoMillis) <= tenMins;\n};\n\nvar createActions = function createActions(prefix, name) {\n  var actionStarted = \"\".concat(prefix.toUpperCase(), \"_\").concat(name.toUpperCase(), \"_STARTED\");\n  var actionSuccess = \"\".concat(prefix.toUpperCase(), \"_\").concat(name.toUpperCase(), \"_SUCCESS\");\n  var actionFailure = \"\".concat(prefix.toUpperCase(), \"_\").concat(name.toUpperCase(), \"_FAILURE\");\n  return {\n    actionStarted: actionStarted,\n    actionSuccess: actionSuccess,\n    actionFailure: actionFailure\n  };\n};\n\nexports.createActions = createActions;\n\nvar createFirestoreHelper = function createFirestoreHelper() {\n  var fn = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : Promise.resolve;\n  var mode = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'get';\n\n  var _ref = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {},\n      _ref$name = _ref.name,\n      name = _ref$name === void 0 ? 'helper' : _ref$name,\n      _ref$responseModifier = _ref.responseModifier,\n      responseModifier = _ref$responseModifier === void 0 ? function (response) {\n    return response;\n  } : _ref$responseModifier,\n      _ref$useCache = _ref.useCache,\n      useCache = _ref$useCache === void 0 ? false : _ref$useCache;\n\n  return function (collectionName) {\n    var _ref4;\n\n    var _ref2 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},\n        successNotification = _ref2.successNotification,\n        errorNotification = _ref2.errorNotification,\n        actionType = _ref2.actionType;\n\n    var _createActions = createActions(mode, actionType ? actionType : collectionName),\n        actionStarted = _createActions.actionStarted,\n        actionSuccess = _createActions.actionSuccess,\n        actionFailure = _createActions.actionFailure;\n\n    var helper = function helper() {\n      for (var _len = arguments.length, params = new Array(_len), _key = 0; _key < _len; _key++) {\n        params[_key] = arguments[_key];\n      }\n\n      return (\n        /*#__PURE__*/\n        function () {\n          var _ref3 = (0, _asyncToGenerator2[\"default\"])(\n          /*#__PURE__*/\n          _regenerator[\"default\"].mark(function _callee(dispatch) {\n            var response, key, message, _message;\n\n            return _regenerator[\"default\"].wrap(function _callee$(_context) {\n              while (1) {\n                switch (_context.prev = _context.next) {\n                  case 0:\n                    dispatch({\n                      type: actionStarted,\n                      auth: _firebase.auth.getAuth()\n                    });\n                    _context.prev = 1;\n\n                    if (!useCache) {\n                      _context.next = 14;\n                      break;\n                    }\n\n                    key = \"\".concat(collectionName, \"-\").concat(JSON.stringify(params));\n\n                    if (!(cache[key] && withinTenMinutes(cache[key].lastRetrieved, new Date()))) {\n                      _context.next = 8;\n                      break;\n                    }\n\n                    response = cache[key].response;\n                    _context.next = 12;\n                    break;\n\n                  case 8:\n                    _context.next = 10;\n                    return fn.apply(void 0, [collectionName].concat(params));\n\n                  case 10:\n                    response = _context.sent;\n                    cache[key] = {\n                      response: response,\n                      lastRetrieved: new Date()\n                    };\n\n                  case 12:\n                    _context.next = 17;\n                    break;\n\n                  case 14:\n                    _context.next = 16;\n                    return fn.apply(void 0, [collectionName].concat(params));\n\n                  case 16:\n                    response = _context.sent;\n\n                  case 17:\n                    dispatch({\n                      type: actionSuccess,\n                      response: responseModifier.apply(void 0, [response].concat(params)),\n                      auth: _firebase.auth.getAuth()\n                    });\n\n                    if (successNotification) {\n                      if (typeof successNotification === 'function') {\n                        message = successNotification(response);\n                      } else {\n                        message = successNotification;\n                      }\n\n                      (0, _notification.showNotification)({\n                        message: message,\n                        variant: 'success'\n                      });\n                    }\n\n                    _context.next = 25;\n                    break;\n\n                  case 21:\n                    _context.prev = 21;\n                    _context.t0 = _context[\"catch\"](1);\n                    dispatch({\n                      type: actionFailure,\n                      auth: _firebase.auth.getAuth(),\n                      err: _context.t0\n                    });\n\n                    if (errorNotification) {\n                      if (typeof errorNotification === 'function') {\n                        _message = errorNotification(_context.t0);\n                      } else {\n                        _message = errorNotification;\n                      }\n\n                      (0, _notification.showNotification)({\n                        message: _message,\n                        variant: 'error'\n                      });\n                    }\n\n                  case 25:\n                  case \"end\":\n                    return _context.stop();\n                }\n              }\n            }, _callee, null, [[1, 21]]);\n          }));\n\n          return function (_x) {\n            return _ref3.apply(this, arguments);\n          };\n        }()\n      );\n    };\n\n    return _ref4 = {}, (0, _defineProperty2[\"default\"])(_ref4, actionStarted, actionStarted), (0, _defineProperty2[\"default\"])(_ref4, actionSuccess, actionSuccess), (0, _defineProperty2[\"default\"])(_ref4, actionFailure, actionFailure), (0, _defineProperty2[\"default\"])(_ref4, name, helper), _ref4;\n  };\n};\n\nvar createCreateDocumentAction = createFirestoreHelper(_firebase.firestore.create, 'create', {\n  name: 'createDocument',\n  responseModifier: function responseModifier(_ref5, payload) {\n    var id = _ref5.id;\n    return _objectSpread({}, payload, {\n      id: id\n    });\n  }\n});\nexports.createCreateDocumentAction = createCreateDocumentAction;\nvar createGetCollectionAction = createFirestoreHelper(_firebase.firestore.readCollection, 'get', {\n  name: 'getCollection',\n  useCache: true\n});\nexports.createGetCollectionAction = createGetCollectionAction;\nvar createGetDocumentAction = createFirestoreHelper(_firebase.firestore.readDocument, 'get', {\n  name: 'getDocument',\n  useCache: true,\n  responseModifier: function responseModifier(response, key) {\n    return _objectSpread({}, response, {\n      data: function data() {\n        return _objectSpread({}, response.data(), {\n          id: key\n        });\n      }\n    });\n  }\n});\nexports.createGetDocumentAction = createGetDocumentAction;\nvar createUpdateDocumentAction = createFirestoreHelper(_firebase.firestore.updateDocument, 'update', {\n  name: 'updateDocument',\n  responseModifier: function responseModifier(response, key, payload) {\n    return _objectSpread({}, payload, {\n      id: key\n    });\n  }\n});\nexports.createUpdateDocumentAction = createUpdateDocumentAction;\n\nvar createSetEditingDocumentAction = function createSetEditingDocumentAction(collectionName) {\n  var _ref6;\n\n  var type = \"SET_EDITING_\".concat(collectionName.toUpperCase());\n  return _ref6 = {}, (0, _defineProperty2[\"default\"])(_ref6, type, type), (0, _defineProperty2[\"default\"])(_ref6, \"setEditingDocument\", function setEditingDocument(payload) {\n    return function (dispatch) {\n      return dispatch({\n        type: type,\n        payload: payload\n      });\n    };\n  }), _ref6;\n};\n\nexports.createSetEditingDocumentAction = createSetEditingDocumentAction;\n\nvar emptyDispatch = function emptyDispatch() {\n  return function ()\n  /* dispatch: Dispatch */\n  {};\n};\n\nexports.emptyDispatch = emptyDispatch;\n",
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = exports.createActions = exports.createActionTypes = void 0;\n\nvar _regenerator = _interopRequireDefault(require(\"@babel/runtime/regenerator\"));\n\nvar _asyncToGenerator2 = _interopRequireDefault(require(\"@babel/runtime/helpers/asyncToGenerator\"));\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _api = _interopRequireDefault(require(\"../../../config/api\"));\n\nvar _notification = require(\"../notification\");\n\nfunction ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { (0, _defineProperty2[\"default\"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }\n\nvar baseUrl = _api[\"default\"].host;\n\nvar getNotificationMessage = function getNotificationMessage(msg, notif) {\n  return typeof msg === 'function' ? msg(notif) : msg;\n};\n\nvar createActionTypes = function createActionTypes(prefix, name) {\n  var actionStarted = \"\".concat(prefix.toUpperCase(), \"_\").concat(name.toUpperCase(), \"_STARTED\");\n  var actionSuccess = \"\".concat(prefix.toUpperCase(), \"_\").concat(name.toUpperCase(), \"_SUCCESS\");\n  var actionFailure = \"\".concat(prefix.toUpperCase(), \"_\").concat(name.toUpperCase(), \"_FAILURE\");\n  return {\n    actionStarted: actionStarted,\n    actionSuccess: actionSuccess,\n    actionFailure: actionFailure\n  };\n};\n\nexports.createActionTypes = createActionTypes;\n\nvar createActions = function createActions(name) {\n  var _ref = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},\n      successNotification = _ref.successNotification,\n      errorNotification = _ref.errorNotification,\n      _ref$adminActions = _ref.adminActions,\n      adminActions = _ref$adminActions === void 0 ? false : _ref$adminActions;\n\n  var actionTypes = createActionTypes('request', name);\n  return _objectSpread({}, actionTypes, {\n    handler: function handler(endpoint) {\n      var method = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'GET';\n      var payload = arguments.length > 2 ? arguments[2] : undefined;\n      var params = arguments.length > 3 ? arguments[3] : undefined;\n\n      var _ref2 = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {},\n          _ref2$onSuccess = _ref2.onSuccess,\n          onSuccess = _ref2$onSuccess === void 0 ? function () {} : _ref2$onSuccess,\n          _ref2$onError = _ref2.onError,\n          onError = _ref2$onError === void 0 ? function () {} : _ref2$onError;\n\n      return (\n        /*#__PURE__*/\n        function () {\n          var _ref3 = (0, _asyncToGenerator2[\"default\"])(\n          /*#__PURE__*/\n          _regenerator[\"default\"].mark(function _callee(dispatch\n          /* , getState */\n          ) {\n            var options, response, json, status, message, _message, _message2;\n\n            return _regenerator[\"default\"].wrap(function _callee$(_context) {\n              while (1) {\n                switch (_context.prev = _context.next) {\n                  case 0:\n                    dispatch({\n                      type: actionTypes.actionStarted\n                    });\n                    options = {\n                      method: method,\n                      headers: {\n                        Accept: 'application/json',\n                        'Content-Type': 'application/json'\n                      }\n                    };\n\n                    if (payload) {\n                      options.body = JSON.stringify(payload);\n                    }\n\n                    _context.prev = 3;\n                    _context.next = 6;\n                    return fetch(\"\".concat(baseUrl, \"/\").concat(adminActions ? 'admin' : 'web', \"/\").concat(endpoint), options);\n\n                  case 6:\n                    response = _context.sent;\n                    _context.next = 9;\n                    return response.json();\n\n                  case 9:\n                    json = _context.sent;\n                    status = response.status;\n\n                    if (status < 200 || status > 299) {\n                      if (errorNotification) {\n                        message = getNotificationMessage(errorNotification, json);\n                        (0, _notification.showNotification)({\n                          message: message,\n                          variant: 'error'\n                        });\n                      } else {\n                        (0, _notification.showNotification)({\n                          message: json.message,\n                          variant: 'error'\n                        });\n                      }\n\n                      dispatch({\n                        type: actionTypes.actionFailure,\n                        err: json\n                      });\n                      onError(json);\n                    } else {\n                      if (successNotification) {\n                        _message = getNotificationMessage(successNotification, json);\n                        (0, _notification.showNotification)({\n                          message: _message,\n                          variant: 'success'\n                        });\n                      }\n\n                      dispatch({\n                        type: actionTypes.actionSuccess,\n                        json: json\n                      });\n                      onSuccess(json);\n                    }\n\n                    _context.next = 19;\n                    break;\n\n                  case 14:\n                    _context.prev = 14;\n                    _context.t0 = _context[\"catch\"](3);\n\n                    if (errorNotification) {\n                      _message2 = getNotificationMessage(errorNotification, _context.t0);\n                      (0, _notification.showNotification)({\n                        message: _message2,\n                        variant: 'error'\n                      });\n                    }\n\n                    dispatch({\n                      type: actionTypes.actionFailure,\n                      err: _context.t0\n                    });\n                    onError(_context.t0);\n\n                  case 19:\n                  case \"end\":\n                    return _context.stop();\n                }\n              }\n            }, _callee, null, [[3, 14]]);\n          }));\n\n          return function (_x) {\n            return _ref3.apply(this, arguments);\n          };\n        }()\n      );\n    }\n  });\n};\n\nexports.createActions = createActions;\nvar _default = {\n  createActionTypes: createActionTypes,\n  createActions: createActions\n};\nexports[\"default\"] = _default;\n",
     {
-      "../firebase": "/home/dustin/CS/recipes/src/lib/firebase/index.js",
+      "../../../config/api": "/home/dustin/CS/recipes/config/api.js",
       "../notification": "/home/dustin/CS/recipes/src/lib/notification.js",
+      "@babel/runtime/regenerator": "/home/dustin/CS/recipes/node_modules/@babel/runtime/regenerator/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "@babel/runtime/helpers/asyncToGenerator": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/asyncToGenerator.js",
-      "@babel/runtime/regenerator": "/home/dustin/CS/recipes/node_modules/@babel/runtime/regenerator/index.js"
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js"
     },
     {
       "id": "/home/dustin/CS/recipes/src/lib/redux/helpers.js",
-      "hash": "VTRrVw",
-      "browserifyId": 472,
-      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhlbHBlcnMuanM/dmVyc2lvbj1WVFJyVnciXSwibmFtZXMiOlsiY2FjaGUiLCJ3aXRoaW5UZW5NaW51dGVzIiwiZGF0ZTEiLCJkYXRlMiIsInRpbWVPbmVNaWxsaXMiLCJnZXRUaW1lIiwidGltZVR3b01pbGxpcyIsInRlbk1pbnMiLCJNYXRoIiwiYWJzIiwiY3JlYXRlQWN0aW9ucyIsInByZWZpeCIsIm5hbWUiLCJhY3Rpb25TdGFydGVkIiwidG9VcHBlckNhc2UiLCJhY3Rpb25TdWNjZXNzIiwiYWN0aW9uRmFpbHVyZSIsImNyZWF0ZUZpcmVzdG9yZUhlbHBlciIsImZuIiwiUHJvbWlzZSIsInJlc29sdmUiLCJtb2RlIiwicmVzcG9uc2VNb2RpZmllciIsInJlc3BvbnNlIiwidXNlQ2FjaGUiLCJjb2xsZWN0aW9uTmFtZSIsInN1Y2Nlc3NOb3RpZmljYXRpb24iLCJlcnJvck5vdGlmaWNhdGlvbiIsImFjdGlvblR5cGUiLCJoZWxwZXIiLCJwYXJhbXMiLCJkaXNwYXRjaCIsInR5cGUiLCJhdXRoIiwiZ2V0QXV0aCIsImtleSIsIkpTT04iLCJzdHJpbmdpZnkiLCJsYXN0UmV0cmlldmVkIiwiRGF0ZSIsIm1lc3NhZ2UiLCJ2YXJpYW50IiwiZXJyIiwiY3JlYXRlQ3JlYXRlRG9jdW1lbnRBY3Rpb24iLCJmaXJlc3RvcmUiLCJjcmVhdGUiLCJwYXlsb2FkIiwiaWQiLCJjcmVhdGVHZXRDb2xsZWN0aW9uQWN0aW9uIiwicmVhZENvbGxlY3Rpb24iLCJjcmVhdGVHZXREb2N1bWVudEFjdGlvbiIsInJlYWREb2N1bWVudCIsImRhdGEiLCJjcmVhdGVVcGRhdGVEb2N1bWVudEFjdGlvbiIsInVwZGF0ZURvY3VtZW50IiwiY3JlYXRlU2V0RWRpdGluZ0RvY3VtZW50QWN0aW9uIiwiZW1wdHlEaXNwYXRjaCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQUVBOztBQUNBOzs7Ozs7QUFJQSxJQUFNQSxLQUE4RCxHQUFHLEVBQXZFOztBQUVBLElBQU1DLGdC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QXRCIiwic291cmNlc0NvbnRlbnQiOlsiLy8gQGZsb3dcblxuaW1wb3J0IHsgZmlyZXN0b3JlLCBhdXRoIH0gZnJvbSAnLi4vZmlyZWJhc2UnO1xuaW1wb3J0IHsgc2hvd05vdGlmaWNhdGlvbiB9IGZyb20gJy4uL25vdGlmaWNhdGlvbic7XG5cbnR5cGUgTm90aWZpY2F0aW9uSGFuZGxlciA9IHN0cmluZyB8ICgocmVzcG9uc2U6IGFueSkgPT4gc3RyaW5nKTtcblxuY29uc3QgY2FjaGU6IHsgW3N0cmluZ106IHsgcmVzcG9uc2U6IG9iamVjdCwgbGFzdFJldHJpZXZlZDogRGF0ZSB9IH0gPSB7fTtcblxuY29uc3Qgd2l0aGluVGVuTWludXRlcyA9IChkYXRlMTogRGF0ZSwgZGF0ZTI6IERhdGUpID0+IHtcblx0Y29uc3QgdGltZU9uZU1pbGxpcyA9IGRhdGUxLmdldFRpbWUoKTtcblx0Y29uc3QgdGltZVR3b01pbGxpcyA9IGRhdGUyLmdldFRpbWUoKTtcblxuXHRjb25zdCB0ZW5NaW5zID0gMTAwMCAqIDYwICogMTA7XG5cblx0cmV0dXJuIE1hdGguYWJzKHRpbWVPbmVNaWxsaXMgLSB0aW1lVHdvTWlsbGlzKSA8PSB0ZW5NaW5zO1xufTtcblxuZXhwb3J0IGNvbnN0IGNyZWF0ZUFjdGlvbnMgPSAocHJlZml4OiBzdHJpbmcsIG5hbWU6IHN0cmluZykgPT4ge1xuXHRjb25zdCBhY3Rpb25TdGFydGVkID0gYCR7cHJlZml4LnRvVXBwZXJDYXNlKCl9XyR7bmFtZS50b1VwcGVyQ2FzZSgpfV9TVEFSVEVEYDtcblx0Y29uc3QgYWN0aW9uU3VjY2VzcyA9IGAke3ByZWZpeC50b1VwcGVyQ2FzZSgpfV8ke25hbWUudG9VcHBlckNhc2UoKX1fU1VDQ0VTU2A7XG5cdGNvbnN0IGFjdGlvbkZhaWx1cmUgPSBgJHtwcmVmaXgudG9VcHBlckNhc2UoKX1fJHtuYW1lLnRvVXBwZXJDYXNlKCl9X0ZBSUxVUkVgO1xuXG5cdHJldHVybiB7XG5cdFx0YWN0aW9uU3RhcnRlZCxcblx0XHRhY3Rpb25TdWNjZXNzLFxuXHRcdGFjdGlvbkZhaWx1cmUsXG5cdH07XG59O1xuXG5jb25zdCBjcmVhdGVGaXJlc3RvcmVIZWxwZXIgPSAoXG5cdGZuOiAoLi4ucGFyYW1zKSA9PiBQcm9taXNlPGFueT4gPSBQcm9taXNlLnJlc29sdmUsXG5cdG1vZGU6IHN0cmluZyA9ICdnZXQnLFxuXHR7XG5cdFx0bmFtZSA9ICdoZWxwZXInLFxuXHRcdHJlc3BvbnNlTW9kaWZpZXIgPSByZXNwb25zZSA9PiByZXNwb25zZSxcblx0XHR1c2VDYWNoZSA9IGZhbHNlLFxuXHR9OiB7IG5hbWU6IHN0cmluZywgcmVzcG9uc2VNb2RpZmllcjogKHJlc3BvbnNlOiBhbnkpID0+IGFueSwgdXNlQ2FjaGU6IGJvb2xlYW4gfSA9IHt9XG4pID0+IHtcblx0cmV0dXJuIChcblx0XHRjb2xsZWN0aW9uTmFtZTogc3RyaW5nLFxuXHRcdHtcblx0XHRcdHN1Y2Nlc3NOb3RpZmljYXRpb24sXG5cdFx0XHRlcnJvck5vdGlmaWNhdGlvbixcblx0XHRcdGFjdGlvblR5cGUsXG5cdFx0fToge1xuXHRcdFx0c3VjY2Vzc05vdGlmaWNhdGlvbj86IE5vdGlmaWNhdGlvbkhhbmRsZXIsXG5cdFx0XHRlcnJvck5vdGlmaWNhdGlvbj86IE5vdGlmaWNhdGlvbkhhbmRsZXIsXG5cdFx0XHRhY3Rpb25UeXBlPzogc3RyaW5nLFxuXHRcdH0gPSB7fVxuXHQpID0+IHtcblx0XHRjb25zdCB7IGFjdGlvblN0YXJ0ZWQsIGFjdGlvblN1Y2Nlc3MsIGFjdGlvbkZhaWx1cmUgfSA9IGNyZWF0ZUFjdGlvbnMoXG5cdFx0XHRtb2RlLFxuXHRcdFx0YWN0aW9uVHlwZSA/IGFjdGlvblR5cGUgOiBjb2xsZWN0aW9uTmFtZVxuXHRcdCk7XG5cblx0XHRjb25zdCBoZWxwZXIgPSAoLi4ucGFyYW1zKSA9PiB7XG5cdFx0XHRyZXR1cm4gYXN5bmMgKGRpc3BhdGNoOiBEaXNwYXRjaCkgPT4ge1xuXHRcdFx0XHRkaXNwYXRjaCh7IHR5cGU6IGFjdGlvblN0YXJ0ZWQsIGF1dGg6IGF1dGguZ2V0QXV0aCgpIH0pO1xuXG5cdFx0XHRcdGxldCByZXNwb25zZTtcblxuXHRcdFx0XHR0cnkge1xuXHRcdFx0XHRcdGlmICh1c2VDYWNoZSkge1xuXHRcdFx0XHRcdFx0Y29uc3Qga2V5ID0gYCR7Y29sbGVjdGlvbk5hbWV9LSR7SlNPTi5zdHJpbmdpZnkocGFyYW1zKX1gO1xuXG5cdFx0XHRcdFx0XHRpZiAoY2FjaGVba2V5XSAmJiB3aXRoaW5UZW5NaW51dGVzKGNhY2hlW2tleV0ubGFzdFJldHJpZXZlZCwgbmV3IERhdGUoKSkpIHtcblx0XHRcdFx0XHRcdFx0cmVzcG9uc2UgPSBjYWNoZVtrZXldLnJlc3BvbnNlO1xuXHRcdFx0XHRcdFx0fSBlbHNlIHtcblx0XHRcdFx0XHRcdFx0cmVzcG9uc2UgPSBhd2FpdCBmbihjb2xsZWN0aW9uTmFtZSwgLi4ucGFyYW1zKTtcblx0XHRcdFx0XHRcdFx0Y2FjaGVba2V5XSA9IHtcblx0XHRcdFx0XHRcdFx0XHRyZXNwb25zZSxcblx0XHRcdFx0XHRcdFx0XHRsYXN0UmV0cmlldmVkOiBuZXcgRGF0ZSgpLFxuXHRcdFx0XHRcdFx0XHR9O1xuXHRcdFx0XHRcdFx0fVxuXHRcdFx0XHRcdH0gZWxzZSB7XG5cdFx0XHRcdFx0XHRyZXNwb25zZSA9IGF3YWl0IGZuKGNvbGxlY3Rpb25OYW1lLCAuLi5wYXJhbXMpO1xuXHRcdFx0XHRcdH1cblxuXHRcdFx0XHRcdGRpc3BhdGNoKHtcblx0XHRcdFx0XHRcdHR5cGU6IGFjdGlvblN1Y2Nlc3MsXG5cdFx0XHRcdFx0XHRyZXNwb25zZTogcmVzcG9uc2VNb2RpZmllcihyZXNwb25zZSwgLi4ucGFyYW1zKSxcblx0XHRcdFx0XHRcdGF1dGg6IGF1dGguZ2V0QXV0aCgpLFxuXHRcdFx0XHRcdH0pO1xuXG5cdFx0XHRcdFx0aWYgKHN1Y2Nlc3NOb3RpZmljYXRpb24pIHtcblx0XHRcdFx0XHRcdGxldCBtZXNzYWdlO1xuXG5cdFx0XHRcdFx0XHRpZiAodHlwZW9mIHN1Y2Nlc3NOb3RpZmljYXRpb24gPT09ICdmdW5jdGlvbicpIHtcblx0XHRcdFx0XHRcdFx0bWVzc2FnZSA9IHN1Y2Nlc3NOb3RpZmljYXRpb24ocmVzcG9uc2UpO1xuXHRcdFx0XHRcdFx0fSBlbHNlIHtcblx0XHRcdFx0XHRcdFx0bWVzc2FnZSA9IHN1Y2Nlc3NOb3RpZmljYXRpb247XG5cdFx0XHRcdFx0XHR9XG5cblx0XHRcdFx0XHRcdHNob3dOb3RpZmljYXRpb24oeyBtZXNzYWdlLCB2YXJpYW50OiAnc3VjY2VzcycgfSk7XG5cdFx0XHRcdFx0fVxuXHRcdFx0XHR9IGNhdGNoIChlcnIpIHtcblx0XHRcdFx0XHRkaXNwYXRjaCh7XG5cdFx0XHRcdFx0XHR0eXBlOiBhY3Rpb25GYWlsdXJlLFxuXHRcdFx0XHRcdFx0YXV0aDogYXV0aC5nZXRBdXRoKCksXG5cdFx0XHRcdFx0XHRlcnIsXG5cdFx0XHRcdFx0fSk7XG5cblx0XHRcdFx0XHRpZiAoZXJyb3JOb3RpZmljYXRpb24pIHtcblx0XHRcdFx0XHRcdGxldCBtZXNzYWdlO1xuXG5cdFx0XHRcdFx0XHRpZiAodHlwZW9mIGVycm9yTm90aWZpY2F0aW9uID09PSAnZnVuY3Rpb24nKSB7XG5cdFx0XHRcdFx0XHRcdG1lc3NhZ2UgPSBlcnJvck5vdGlmaWNhdGlvbihlcnIpO1xuXHRcdFx0XHRcdFx0fSBlbHNlIHtcblx0XHRcdFx0XHRcdFx0bWVzc2FnZSA9IGVycm9yTm90aWZpY2F0aW9uO1xuXHRcdFx0XHRcdFx0fVxuXG5cdFx0XHRcdFx0XHRzaG93Tm90aWZpY2F0aW9uKHsgbWVzc2FnZSwgdmFyaWFudDogJ2Vycm9yJyB9KTtcblx0XHRcdFx0XHR9XG5cdFx0XHRcdH1cblx0XHRcdH07XG5cdFx0fTtcblxuXHRcdHJldHVybiB7XG5cdFx0XHRbYWN0aW9uU3RhcnRlZF06IGFjdGlvblN0YXJ0ZWQsXG5cdFx0XHRbYWN0aW9uU3VjY2Vzc106IGFjdGlvblN1Y2Nlc3MsXG5cdFx0XHRbYWN0aW9uRmFpbHVyZV06IGFjdGlvbkZhaWx1cmUsXG5cdFx0XHRbbmFtZV06IGhlbHBlcixcblx0XHR9O1xuXHR9O1xufTtcblxuZXhwb3J0IGNvbnN0IGNyZWF0ZUNyZWF0ZURvY3VtZW50QWN0aW9uID0gY3JlYXRlRmlyZXN0b3JlSGVscGVyKGZpcmVzdG9yZS5jcmVhdGUsICdjcmVhdGUnLCB7XG5cdG5hbWU6ICdjcmVhdGVEb2N1bWVudCcsXG5cdHJlc3BvbnNlTW9kaWZpZXI6ICh7IGlkIH0sIHBheWxvYWQpID0+ICh7IC4uLnBheWxvYWQsIGlkIH0pLFxufSk7XG5cbmV4cG9ydCBjb25zdCBjcmVhdGVHZXRDb2xsZWN0aW9uQWN0aW9uID0gY3JlYXRlRmlyZXN0b3JlSGVscGVyKGZpcmVzdG9yZS5yZWFkQ29sbGVjdGlvbiwgJ2dldCcsIHtcblx0bmFtZTogJ2dldENvbGxlY3Rpb24nLFxuXHR1c2VDYWNoZTogdHJ1ZSxcbn0pO1xuXG5leHBvcnQgY29uc3QgY3JlYXRlR2V0RG9jdW1lbnRBY3Rpb24gPSBjcmVhdGVGaXJlc3RvcmVIZWxwZXIoZmlyZXN0b3JlLnJlYWREb2N1bWVudCwgJ2dldCcsIHtcblx0bmFtZTogJ2dldERvY3VtZW50Jyxcblx0dXNlQ2FjaGU6IHRydWUsXG5cdHJlc3BvbnNlTW9kaWZpZXI6IChyZXNwb25zZSwga2V5KSA9PiAoeyAuLi5yZXNwb25zZSwgZGF0YTogKCkgPT4gKHsgLi4ucmVzcG9uc2UuZGF0YSgpLCBpZDoga2V5IH0pIH0pLFxufSk7XG5cbmV4cG9ydCBjb25zdCBjcmVhdGVVcGRhdGVEb2N1bWVudEFjdGlvbiA9IGNyZWF0ZUZpcmVzdG9yZUhlbHBlcihmaXJlc3RvcmUudXBkYXRlRG9jdW1lbnQsICd1cGRhdGUnLCB7XG5cdG5hbWU6ICd1cGRhdGVEb2N1bWVudCcsXG5cdHJlc3BvbnNlTW9kaWZpZXI6IChyZXNwb25zZSwga2V5LCBwYXlsb2FkKSA9PiAoeyAuLi5wYXlsb2FkLCBpZDoga2V5IH0pLFxufSk7XG5cbmV4cG9ydCBjb25zdCBjcmVhdGVTZXRFZGl0aW5nRG9jdW1lbnRBY3Rpb24gPSBjb2xsZWN0aW9uTmFtZSA9PiB7XG5cdGNvbnN0IHR5cGUgPSBgU0VUX0VESVRJTkdfJHtjb2xsZWN0aW9uTmFtZS50b1VwcGVyQ2FzZSgpfWA7XG5cblx0cmV0dXJuIHtcblx0XHRbdHlwZV06IHR5cGUsXG5cdFx0c2V0RWRpdGluZ0RvY3VtZW50OiAocGF5bG9hZDogYW55KSA9PiAoZGlzcGF0Y2g6IERpc3BhdGNoKSA9PiBkaXNwYXRjaCh7IHR5cGUsIHBheWxvYWQgfSksXG5cdH07XG59O1xuXG5leHBvcnQgY29uc3QgZW1wdHlEaXNwYXRjaCA9ICgpID0+ICgvKiBkaXNwYXRjaDogRGlzcGF0Y2ggKi8pID0+IHt9O1xuIl19"
+      "hash": "xJaDiQ",
+      "browserifyId": 473,
+      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhlbHBlcnMuanM/dmVyc2lvbj14SmFEaVEiXSwibmFtZXMiOlsiYmFzZVVybCIsImFwaUNvbmZpZyIsImhvc3QiLCJnZXROb3RpZmljYXRpb25NZXNzYWdlIiwibXNnIiwibm90aWYiLCJjcmVhdGVBY3Rpb25UeXBlcyIsInByZWZpeCIsIm5hbWUiLCJhY3Rpb25TdGFydGVkIiwidG9VcHBlckNhc2UiLCJhY3Rpb25TdWNjZXNzIiwiYWN0aW9uRmFpbHVyZSIsImNyZWF0ZUFjdGlvbnMiLCJzdWNjZXNzTm90aWZpY2F0aW9uIiwiZXJyb3JOb3RpZmljYXRpb24iLCJhZG1pbkFjdGlvbnMiLCJhY3Rpb25UeXBlcyIsImhhbmRsZXIiLCJlbmRwb2ludCIsIm1ldGhvZCIsInBheWxvYWQiLCJwYXJhbXMiLCJvblN1Y2Nlc3MiLCJvbkVycm9yIiwiZGlzcGF0Y2giLCJ0eXBlIiwib3B0aW9ucyIsImhlYWRlcnMiLCJBY2NlcHQiLCJib2R5IiwiSlNPTiIsInN0cmluZ2lmeSIsImZldGNoIiwicmVzcG9uc2UiLCJqc29uIiwic3RhdHVzIiwibWVzc2FnZSIsInZhcmlhbnQiLCJlcnIiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFFQTs7QUFDQTs7Ozs7O0FBRUEsSUFBTUEsT0FBTyxHQUFHQyxnQkFBVUMsSUFBMUI7O0FBRUEsSUFBTUMsc0JBQXNCLEdBQUcsU0FBekJBLHNCQUF5QixDQUFDQyxHQUFELEVBQU1DLEtBQU47QUFBQSxTQUFpQixPQUFPRCxHQUFQLEtBQWUsVUFBZixHQUE0QkEsR0FBRyxDQUFDQyxLQUFELENBQS9CLEdBQXlDRCxHQUExRDtBQUFBLENBQS9COztBQUVPLElBQU1FLGlCQUFpQixHQUFHLFNBQXBCQSxpQkFBb0IsQ0FBQ0MsTUFBRCxFQUFpQkMsSUFBakIsRUFBa0M7QUFDbEUsTUFBTUMsYUFBYSxhQUFNRixNQUFNLENBQUNHLFdBQVAsRUFBTixjQUE4QkYsSUFBSSxDQUFDRSxXQUFMLEVBQTlCLGFBQW5CO0FBQ0EsTUFB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bG93XG5cbmltcG9ydCBhcGlDb25maWcgZnJvbSAnLi4vLi4vLi4vY29uZmlnL2FwaSc7XG5pbXBvcnQgeyBzaG93Tm90aWZpY2F0aW9uIH0gZnJvbSAnLi4vbm90aWZpY2F0aW9uJztcblxuY29uc3QgYmFzZVVybCA9IGFwaUNvbmZpZy5ob3N0O1xuXG5jb25zdCBnZXROb3RpZmljYXRpb25NZXNzYWdlID0gKG1zZywgbm90aWYpID0+ICh0eXBlb2YgbXNnID09PSAnZnVuY3Rpb24nID8gbXNnKG5vdGlmKSA6IG1zZyk7XG5cbmV4cG9ydCBjb25zdCBjcmVhdGVBY3Rpb25UeXBlcyA9IChwcmVmaXg6IHN0cmluZywgbmFtZTogc3RyaW5nKSA9PiB7XG5cdGNvbnN0IGFjdGlvblN0YXJ0ZWQgPSBgJHtwcmVmaXgudG9VcHBlckNhc2UoKX1fJHtuYW1lLnRvVXBwZXJDYXNlKCl9X1NUQVJURURgO1xuXHRjb25zdCBhY3Rpb25TdWNjZXNzID0gYCR7cHJlZml4LnRvVXBwZXJDYXNlKCl9XyR7bmFtZS50b1VwcGVyQ2FzZSgpfV9TVUNDRVNTYDtcblx0Y29uc3QgYWN0aW9uRmFpbHVyZSA9IGAke3ByZWZpeC50b1VwcGVyQ2FzZSgpfV8ke25hbWUudG9VcHBlckNhc2UoKX1fRkFJTFVSRWA7XG5cblx0cmV0dXJuIHtcblx0XHRhY3Rpb25TdGFydGVkLFxuXHRcdGFjdGlvblN1Y2Nlc3MsXG5cdFx0YWN0aW9uRmFpbHVyZSxcblx0fTtcbn07XG5cbmV4cG9ydCBjb25zdCBjcmVhdGVBY3Rpb25zID0gKG5hbWU6IFN0cmluZywgeyBzdWNjZXNzTm90aWZpY2F0aW9uLCBlcnJvck5vdGlmaWNhdGlvbiwgYWRtaW5BY3Rpb25zID0gZmFsc2UgfSA9IHt9KSA9PiB7XG5cdGNvbnN0IGFjdGlvblR5cGVzID0gY3JlYXRlQWN0aW9uVHlwZXMoJ3JlcXVlc3QnLCBuYW1lKTtcblxuXHRyZXR1cm4ge1xuXHRcdC4uLmFjdGlvblR5cGVzLFxuXHRcdGhhbmRsZXI6IChcblx0XHRcdGVuZHBvaW50LFxuXHRcdFx0bWV0aG9kID0gJ0dFVCcsXG5cdFx0XHRwYXlsb2FkLFxuXHRcdFx0cGFyYW1zLFxuXHRcdFx0eyBvblN1Y2Nlc3MgPSAoKSA9PiB7fSwgb25FcnJvciA9ICgpID0+IHt9IH0gPSB7fVxuXHRcdCkgPT4gYXN5bmMgKGRpc3BhdGNoIC8qICwgZ2V0U3RhdGUgKi8pID0+IHtcblx0XHRcdGRpc3BhdGNoKHsgdHlwZTogYWN0aW9uVHlwZXMuYWN0aW9uU3RhcnRlZCB9KTtcblxuXHRcdFx0Y29uc3Qgb3B0aW9ucyA9IHtcblx0XHRcdFx0bWV0aG9kLFxuXHRcdFx0XHRoZWFkZXJzOiB7XG5cdFx0XHRcdFx0QWNjZXB0OiAnYXBwbGljYXRpb24vanNvbicsXG5cdFx0XHRcdFx0J0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyxcblx0XHRcdFx0fSxcblx0XHRcdH07XG5cblx0XHRcdGlmIChwYXlsb2FkKSB7XG5cdFx0XHRcdG9wdGlvbnMuYm9keSA9IEpTT04uc3RyaW5naWZ5KHBheWxvYWQpO1xuXHRcdFx0fVxuXG5cdFx0XHR0cnkge1xuXHRcdFx0XHRjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKGAke2Jhc2VVcmx9LyR7YWRtaW5BY3Rpb25zID8gJ2FkbWluJyA6ICd3ZWInfS8ke2VuZHBvaW50fWAsIG9wdGlvbnMpO1xuXHRcdFx0XHRjb25zdCBqc29uID0gYXdhaXQgcmVzcG9uc2UuanNvbigpO1xuXG5cdFx0XHRcdGNvbnN0IHsgc3RhdHVzIH0gPSByZXNwb25zZTtcblxuXHRcdFx0XHRpZiAoc3RhdHVzIDwgMjAwIHx8IHN0YXR1cyA+IDI5OSkge1xuXHRcdFx0XHRcdGlmIChlcnJvck5vdGlmaWNhdGlvbikge1xuXHRcdFx0XHRcdFx0Y29uc3QgbWVzc2FnZSA9IGdldE5vdGlmaWNhdGlvbk1lc3NhZ2UoZXJyb3JOb3RpZmljYXRpb24sIGpzb24pO1xuXHRcdFx0XHRcdFx0c2hvd05vdGlmaWNhdGlvbih7IG1lc3NhZ2UsIHZhcmlhbnQ6ICdlcnJvcicgfSk7XG5cdFx0XHRcdFx0fSBlbHNlIHtcblx0XHRcdFx0XHRcdHNob3dOb3RpZmljYXRpb24oeyBtZXNzYWdlOiBqc29uLm1lc3NhZ2UsIHZhcmlhbnQ6ICdlcnJvcicgfSk7XG5cdFx0XHRcdFx0fVxuXG5cdFx0XHRcdFx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25UeXBlcy5hY3Rpb25GYWlsdXJlLCBlcnI6IGpzb24gfSk7XG5cblx0XHRcdFx0XHRvbkVycm9yKGpzb24pO1xuXHRcdFx0XHR9IGVsc2Uge1xuXHRcdFx0XHRcdGlmIChzdWNjZXNzTm90aWZpY2F0aW9uKSB7XG5cdFx0XHRcdFx0XHRjb25zdCBtZXNzYWdlID0gZ2V0Tm90aWZpY2F0aW9uTWVzc2FnZShzdWNjZXNzTm90aWZpY2F0aW9uLCBqc29uKTtcblx0XHRcdFx0XHRcdHNob3dOb3RpZmljYXRpb24oeyBtZXNzYWdlLCB2YXJpYW50OiAnc3VjY2VzcycgfSk7XG5cdFx0XHRcdFx0fVxuXG5cdFx0XHRcdFx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25UeXBlcy5hY3Rpb25TdWNjZXNzLCBqc29uIH0pO1xuXG5cdFx0XHRcdFx0b25TdWNjZXNzKGpzb24pO1xuXHRcdFx0XHR9XG5cdFx0XHR9IGNhdGNoIChlcnIpIHtcblx0XHRcdFx0aWYgKGVycm9yTm90aWZpY2F0aW9uKSB7XG5cdFx0XHRcdFx0Y29uc3QgbWVzc2FnZSA9IGdldE5vdGlmaWNhdGlvbk1lc3NhZ2UoZXJyb3JOb3RpZmljYXRpb24sIGVycik7XG5cdFx0XHRcdFx0c2hvd05vdGlmaWNhdGlvbih7IG1lc3NhZ2UsIHZhcmlhbnQ6ICdlcnJvcicgfSk7XG5cdFx0XHRcdH1cblxuXHRcdFx0XHRkaXNwYXRjaCh7IHR5cGU6IGFjdGlvblR5cGVzLmFjdGlvbkZhaWx1cmUsIGVyciB9KTtcblxuXHRcdFx0XHRvbkVycm9yKGVycik7XG5cdFx0XHR9XG5cdFx0fSxcblx0fTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IHsgY3JlYXRlQWN0aW9uVHlwZXMsIGNyZWF0ZUFjdGlvbnMgfTtcbiJdfQ=="
     }
   ],
   "/home/dustin/CS/recipes/src/lib/redux/reducers/auth.js": [
     "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = void 0;\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _auth = _interopRequireDefault(require(\"../actions/auth\"));\n\nfunction ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { (0, _defineProperty2[\"default\"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }\n\nvar FIREBASE_LOGIN_STARTED = _auth[\"default\"].FIREBASE_LOGIN_STARTED,\n    FIREBASE_LOGIN_SUCCESS = _auth[\"default\"].FIREBASE_LOGIN_SUCCESS,\n    FIREBASE_LOGIN_FAILURE = _auth[\"default\"].FIREBASE_LOGIN_FAILURE,\n    FIREBASE_LOGOUT_STARTED = _auth[\"default\"].FIREBASE_LOGOUT_STARTED,\n    FIREBASE_LOGOUT_SUCCESS = _auth[\"default\"].FIREBASE_LOGOUT_SUCCESS,\n    FIREBASE_LOGOUT_FAILURE = _auth[\"default\"].FIREBASE_LOGOUT_FAILURE,\n    REQUEST_USER_SUCCESS = _auth[\"default\"].REQUEST_USER_SUCCESS,\n    REQUEST_USER_FAILURE = _auth[\"default\"].REQUEST_USER_FAILURE;\nvar initialState = {\n  auth: null,\n  user: null,\n  isAuthorized: false,\n  loggingIn: false,\n  loggingOut: false,\n  err: null\n};\n\nvar _default = function _default() {\n  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;\n  var action = arguments.length > 1 ? arguments[1] : undefined;\n\n  switch (action.type) {\n    case FIREBASE_LOGIN_STARTED:\n      state = _objectSpread({}, state, {\n        loggingIn: true\n      });\n      break;\n\n    case FIREBASE_LOGIN_SUCCESS:\n      state = _objectSpread({}, state, {\n        loggingIn: false,\n        isAuthorized: action.response !== null,\n        auth: action.response\n      });\n      break;\n\n    case FIREBASE_LOGIN_FAILURE:\n      state = _objectSpread({}, state, {\n        loggingIn: false,\n        err: action.err\n      });\n      break;\n\n    case FIREBASE_LOGOUT_STARTED:\n      state = _objectSpread({}, state, {\n        loggingOut: true\n      });\n      break;\n\n    case FIREBASE_LOGOUT_SUCCESS:\n      state = _objectSpread({}, state, {\n        loggingOut: false,\n        auth: null,\n        isAuthorized: false\n      });\n      break;\n\n    case FIREBASE_LOGOUT_FAILURE:\n      state = _objectSpread({}, state, {\n        loggingOut: false,\n        err: action.err\n      });\n      break;\n\n    case REQUEST_USER_SUCCESS:\n      state = _objectSpread({}, state, {\n        user: action.response\n      });\n      break;\n\n    case REQUEST_USER_FAILURE:\n      state = _objectSpread({}, state, {\n        err: action.err\n      });\n      break;\n  }\n\n  return state;\n};\n\nexports[\"default\"] = _default;\n",
     {
       "../actions/auth": "/home/dustin/CS/recipes/src/lib/redux/actions/auth.js",
-      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js"
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js"
     },
     {
       "id": "/home/dustin/CS/recipes/src/lib/redux/reducers/auth.js",
       "hash": "RzFdUw",
-      "browserifyId": 473,
+      "browserifyId": 474,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF1dGguanM/dmVyc2lvbj1SekZkVXciXSwibmFtZXMiOlsiRklSRUJBU0VfTE9HSU5fU1RBUlRFRCIsImF1dGhBY3Rpb25zIiwiRklSRUJBU0VfTE9HSU5fU1VDQ0VTUyIsIkZJUkVCQVNFX0xPR0lOX0ZBSUxVUkUiLCJGSVJFQkFTRV9MT0dPVVRfU1RBUlRFRCIsIkZJUkVCQVNFX0xPR09VVF9TVUNDRVNTIiwiRklSRUJBU0VfTE9HT1VUX0ZBSUxVUkUiLCJSRVFVRVNUX1VTRVJfU1VDQ0VTUyIsIlJFUVVFU1RfVVNFUl9GQUlMVVJFIiwiaW5pdGlhbFN0YXRlIiwiYXV0aCIsInVzZXIiLCJpc0F1dGhvcml6ZWQiLCJsb2dnaW5nSW4iLCJsb2dnaW5nT3V0IiwiZXJyIiwic3RhdGUiLCJhY3Rpb24iLCJ0eXBlIiwicmVzcG9uc2UiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUVBOzs7Ozs7SUFHQ0EseUJBUUdDLGlCQVJIRDtJQUNBRSx5QkFPR0QsaUJBUEhDO0lBQ0FDLHlCQU1HRixpQkFOSEU7SUFDQUMsMEJBS0dILGlCQUxIRztJQUNBQywwQkFJR0osaUJBSkhJO0lBQ0FDLDBCQUdHTCxpQkFISEs7SUFDQUMsdUJBRUdOLGlCQUZITTtJQUNBQyx1QkFDR1AsaUJBREhPO0FBWUQsSUFBTUMsWUFBWSxHQUFHO0FBQ3BCQyxFQUFBQSxJQUFJLEVBQUUsSUFEYztBQUVwQkMsRUFBQUEsSUFBSSxFQUFFLElBRmM7QUFHcEJDLEVBQUFBLFlBQVksRUFBRSxLQUhNO0FBSXBCQyxFQUFBQSxTQUFTLEVBQUUsS0FKUztBQUtwQkMsRUFBQUEsVUFBVSxFQUFFLEtBTFE7QUFNcEJDLEVBQUFBLEdBQUcsRUFBRTtBQU5lLENBQXJCOztlQVNlLG9CQUF3RDtBQUFBLE1BQXZEQyxLQUF1RCx1RUFBakNQLFlBQWlDO0FBQUEsTUFBbkJRLE1BQW1COztBQUN0RSxVQUFRQSxNQUFNLENBQUNDLElBQWY7QUFDQyxTQUFLbEIsc0JBQUw7QUFDQ2dCLE1BQUFBLEtBQUsscUJBQ0RBLEtBREM7QUFFSkgsUUFBQUEsU0FBUyxFQUFFO0FBRlAsUUFBTDtBQUlBOztBQUNELFNBQUtYLHNCQUFMO0FBQ0NjLE1BQUFBLEtBQUsscUJBQ0RBLEtBREM7QUFFSkgsUUFBQUEsU0FBUyxFQUFFLEtBRlA7QUFHSkQsUUFBQUEsWUFBWSxFQUFFSyxNQUFNLENBQUNFLFFBQVAsS0FBb0IsSUFIOUI7QUFJSlQsUUFBQUEsSUFBSSxFQUFFTyxNQUFNLENBQUNFO0FBSlQsUUFBTDtBQU1BOztBQUNELFNBQUtoQixzQkFBTDtBQUNDYSxNQUFBQSxLQUFLLHFCQUNEQSxLQURDO0FBRUpILFFBQUFBLFNBQVMsRUFBRSxLQUZQO0FBR0pFLFFBQUFBLEdBQUcsRUFBRUUsTUFBTSxDQUFDRjtBQUhSLFFBQUw7QUFLQTs7QUFDRCxTQUFLWCx1QkFBTDtBQUNDWSxNQUFBQSxLQUFLLHFCQUNEQSxLQURDO0FBRUpGLFFBQUFBLFVBQVUsRUFBRTtBQUZSLFFBQUw7QUFJQTs7QUFDRCxTQUFLVCx1QkFBTDtBQUNDVyxNQUFBQSxLQUFLLHFCQUNEQSxLQURDO0FBRUpGLFFBQUFBLFVBQVUsRUFBRSxLQUZSO0FBR0pKLFFBQUFBLElBQUksRUFBRSxJQUhGO0FBSUpFLFFBQUFBLFlBQVksRUFBRTtBQUpWLFFBQUw7QUFNQTs7QUFDRCxTQUFLTix1QkFBTDtBQUNDVSxNQUFBQSxLQUFLLHFCQUNEQSxLQURDO0FBRUpGLFFBQUFBLFVBQVUsRUFBRSxLQUZSO0FBR0pDLFFBQUFBLEdBQUcsRUFBRUUsTUFBTSxDQUFDRjtBQUhSLFFBQUw7QUFLQTs7QUFDRCxTQUFLUixvQkFBTDtBQUNDUyxNQUFBQSxLQUFLLHFCQUNEQSxLQURDO0FBRUpMLFFBQUFBLElBQUksRUFBRU0sTUFBTSxDQUFDRTtBQUZULFFBQUw7QUFJQTs7QUFDRCxTQUFLWCxvQkFBTDtBQUNDUSxNQUFBQSxLQUFLLHFCQUNEQSxLQURDO0FBRUpELFFBQUFBLEdBQUcsRUFBRUUsTUFBTSxDQUFDRjtBQUZSLFFBQUw7QUFJQTtBQXRERjs7QUF5REEsU0FBT0MsS0FBUDtBQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLy8gQGZsb3dcblxuaW1wb3J0IGF1dGhBY3Rpb25zIGZyb20gJy4uL2FjdGlvbnMvYXV0aCc7XG5cbmNvbnN0IHtcblx0RklSRUJBU0VfTE9HSU5fU1RBUlRFRCxcblx0RklSRUJBU0VfTE9HSU5fU1VDQ0VTUyxcblx0RklSRUJBU0VfTE9HSU5fRkFJTFVSRSxcblx0RklSRUJBU0VfTE9HT1VUX1NUQVJURUQsXG5cdEZJUkVCQVNFX0xPR09VVF9TVUNDRVNTLFxuXHRGSVJFQkFTRV9MT0dPVVRfRkFJTFVSRSxcblx0UkVRVUVTVF9VU0VSX1NVQ0NFU1MsXG5cdFJFUVVFU1RfVVNFUl9GQUlMVVJFLFxufSA9IGF1dGhBY3Rpb25zO1xuXG50eXBlIEluaXRpYWxTdGF0ZSA9IHtcblx0YXV0aDogRmlyZWJhc2VBdXRoLFxuXHR1c2VyOiBPYmplY3QsXG5cdGlzQXV0aG9yaXplZDogYm9vbGVhbixcblx0bG9nZ2luZ0luOiBib29sZWFuLFxuXHRsb2dnaW5nT3V0OiBib29sZWFuLFxuXHRlcnI6IGFueSxcbn07XG5cbmNvbnN0IGluaXRpYWxTdGF0ZSA9IHtcblx0YXV0aDogbnVsbCxcblx0dXNlcjogbnVsbCxcblx0aXNBdXRob3JpemVkOiBmYWxzZSxcblx0bG9nZ2luZ0luOiBmYWxzZSxcblx0bG9nZ2luZ091dDogZmFsc2UsXG5cdGVycjogbnVsbCxcbn07XG5cbmV4cG9ydCBkZWZhdWx0IChzdGF0ZTogaW5pdGlhbFN0YXRlID0gaW5pdGlhbFN0YXRlLCBhY3Rpb246IEFjdGlvbikgPT4ge1xuXHRzd2l0Y2ggKGFjdGlvbi50eXBlKSB7XG5cdFx0Y2FzZSBGSVJFQkFTRV9MT0dJTl9TVEFSVEVEOlxuXHRcdFx0c3RhdGUgPSB7XG5cdFx0XHRcdC4uLnN0YXRlLFxuXHRcdFx0XHRsb2dnaW5nSW46IHRydWUsXG5cdFx0XHR9O1xuXHRcdFx0YnJlYWs7XG5cdFx0Y2FzZSBGSVJFQkFTRV9MT0dJTl9TVUNDRVNTOlxuXHRcdFx0c3RhdGUgPSB7XG5cdFx0XHRcdC4uLnN0YXRlLFxuXHRcdFx0XHRsb2dnaW5nSW46IGZhbHNlLFxuXHRcdFx0XHRpc0F1dGhvcml6ZWQ6IGFjdGlvbi5yZXNwb25zZSAhPT0gbnVsbCxcblx0XHRcdFx0YXV0aDogYWN0aW9uLnJlc3BvbnNlLFxuXHRcdFx0fTtcblx0XHRcdGJyZWFrO1xuXHRcdGNhc2UgRklSRUJBU0VfTE9HSU5fRkFJTFVSRTpcblx0XHRcdHN0YXRlID0ge1xuXHRcdFx0XHQuLi5zdGF0ZSxcblx0XHRcdFx0bG9nZ2luZ0luOiBmYWxzZSxcblx0XHRcdFx0ZXJyOiBhY3Rpb24uZXJyLFxuXHRcdFx0fTtcblx0XHRcdGJyZWFrO1xuXHRcdGNhc2UgRklSRUJBU0VfTE9HT1VUX1NUQVJURUQ6XG5cdFx0XHRzdGF0ZSA9IHtcblx0XHRcdFx0Li4uc3RhdGUsXG5cdFx0XHRcdGxvZ2dpbmdPdXQ6IHRydWUsXG5cdFx0XHR9O1xuXHRcdFx0YnJlYWs7XG5cdFx0Y2FzZSBGSVJFQkFTRV9MT0dPVVRfU1VDQ0VTUzpcblx0XHRcdHN0YXRlID0ge1xuXHRcdFx0XHQuLi5zdGF0ZSxcblx0XHRcdFx0bG9nZ2luZ091dDogZmFsc2UsXG5cdFx0XHRcdGF1dGg6IG51bGwsXG5cdFx0XHRcdGlzQXV0aG9yaXplZDogZmFsc2UsXG5cdFx0XHR9O1xuXHRcdFx0YnJlYWs7XG5cdFx0Y2FzZSBGSVJFQkFTRV9MT0dPVVRfRkFJTFVSRTpcblx0XHRcdHN0YXRlID0ge1xuXHRcdFx0XHQuLi5zdGF0ZSxcblx0XHRcdFx0bG9nZ2luZ091dDogZmFsc2UsXG5cdFx0XHRcdGVycjogYWN0aW9uLmVycixcblx0XHRcdH07XG5cdFx0XHRicmVhaztcblx0XHRjYXNlIFJFUVVFU1RfVVNFUl9TVUNDRVNTOlxuXHRcdFx0c3RhdGUgPSB7XG5cdFx0XHRcdC4uLnN0YXRlLFxuXHRcdFx0XHR1c2VyOiBhY3Rpb24ucmVzcG9uc2UsXG5cdFx0XHR9O1xuXHRcdFx0YnJlYWs7XG5cdFx0Y2FzZSBSRVFVRVNUX1VTRVJfRkFJTFVSRTpcblx0XHRcdHN0YXRlID0ge1xuXHRcdFx0XHQuLi5zdGF0ZSxcblx0XHRcdFx0ZXJyOiBhY3Rpb24uZXJyLFxuXHRcdFx0fTtcblx0XHRcdGJyZWFrO1xuXHR9XG5cblx0cmV0dXJuIHN0YXRlO1xufTtcbiJdfQ=="
     }
   ],
@@ -6799,7 +6814,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/redux/reducers/index.js",
       "hash": "+yz50g",
-      "browserifyId": 474,
+      "browserifyId": 475,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzP3ZlcnNpb249K3l6NTBnIl0sIm5hbWVzIjpbIm1lbnVSZWR1Y2VyIiwiYXV0aFJlZHVjZXIiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBQTs7QUFFQTs7QUFDQTs7ZUFFZSw0QkFBZ0I7QUFDOUJBLEVBQUFBLFdBQVcsRUFBWEEsZ0JBRDhCO0FBRTlCQyxFQUFBQSxXQUFXLEVBQVhBO0FBRjhCLENBQWhCIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY29tYmluZVJlZHVjZXJzIH0gZnJvbSAncmVkdXgnO1xuXG5pbXBvcnQgbWVudVJlZHVjZXIgZnJvbSAnLi9tZW51JztcbmltcG9ydCBhdXRoUmVkdWNlciBmcm9tICcuL2F1dGgnO1xuXG5leHBvcnQgZGVmYXVsdCBjb21iaW5lUmVkdWNlcnMoe1xuXHRtZW51UmVkdWNlcixcblx0YXV0aFJlZHVjZXIsXG59KTtcbiJdfQ=="
     }
   ],
@@ -6811,7 +6826,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/redux/reducers/menu.js",
       "hash": "of85Jg",
-      "browserifyId": 475,
+      "browserifyId": 476,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lbnUuanM/dmVyc2lvbj1vZjg1SmciXSwibmFtZXMiOlsiaW5pdGlhbFN0YXRlIiwib3BlbiIsInN0YXRlIiwiYWN0aW9uIiwidHlwZSIsIlRPR0dMRV9OQVZfTUVOVSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFFQTs7QUFNQSxJQUFNQSxZQUEwQixHQUFHO0FBQ2xDQyxFQUFBQSxJQUFJLEVBQUU7QUFENEIsQ0FBbkM7O2VBSWUsb0JBQTBDO0FBQUEsTUFBekNDLEtBQXlDLHVFQUFqQ0YsWUFBaUM7QUFBQSxNQUFuQkcsTUFBbUI7O0FBQ3hELFVBQVFBLE1BQU0sQ0FBQ0MsSUFBZjtBQUNDLFNBQUtDLHFCQUFMO0FBQ0NILE1BQUFBLEtBQUssR0FBRztBQUNQRCxRQUFBQSxJQUFJLEVBQUUsQ0FBQ0MsS0FBSyxDQUFDRDtBQUROLE9BQVI7QUFHQTtBQUxGOztBQVFBLFNBQU9DLEtBQVA7QUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi8vIEBmbG93XG5cbmltcG9ydCB7IFRPR0dMRV9OQVZfTUVOVSB9IGZyb20gJy4uL2FjdGlvbnMvbWVudSc7XG5cbnR5cGUgSW5pdGlhbFN0YXRlID0ge1xuXHRvcGVuOiBib29sZWFuLFxufTtcblxuY29uc3QgaW5pdGlhbFN0YXRlOiBJbml0aWFsU3RhdGUgPSB7XG5cdG9wZW46IGZhbHNlLFxufTtcblxuZXhwb3J0IGRlZmF1bHQgKHN0YXRlID0gaW5pdGlhbFN0YXRlLCBhY3Rpb246IEFjdGlvbikgPT4ge1xuXHRzd2l0Y2ggKGFjdGlvbi50eXBlKSB7XG5cdFx0Y2FzZSBUT0dHTEVfTkFWX01FTlU6XG5cdFx0XHRzdGF0ZSA9IHtcblx0XHRcdFx0b3BlbjogIXN0YXRlLm9wZW4sXG5cdFx0XHR9O1xuXHRcdFx0YnJlYWs7XG5cdH1cblxuXHRyZXR1cm4gc3RhdGU7XG59O1xuIl19"
     }
   ],
@@ -6828,28 +6843,21 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/redux/store.js",
       "hash": "4zKCyw",
-      "browserifyId": 476,
+      "browserifyId": 477,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0b3JlLmpzP3ZlcnNpb249NHpLQ3l3Il0sIm5hbWVzIjpbInByb2R1Y3Rpb24iLCJwcm9jZXNzIiwiZW52IiwiTk9ERV9FTlYiLCJtaWRkbGV3YXJlcyIsInRodW5rIiwicHVzaCIsImxvZ2dlciIsIm1pZGRsZXdhcmUiLCJhcHBseU1pZGRsZXdhcmUiLCJzdG9yZSIsInJlZHVjZXJzIiwiZGlzcGF0Y2giLCJnZXRTdGF0ZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBOztBQUVBOztBQUNBOztBQUVBOztBQUVBLElBQU1BLFVBQVUsR0FBR0MsT0FBTyxDQUFDQyxHQUFSLENBQVlDLFFBQVosS0FBeUIsWUFBNUM7QUFFQSxJQUFNQyxXQUFXLEdBQUcsQ0FBQ0Msc0JBQUQsQ0FBcEI7O0FBRUEsSUFBSSxDQUFDTCxVQUFMLEVBQWlCO0FBQ2hCSSxFQUFBQSxXQUFXLENBQUNFLElBQVosQ0FBaUJDLHVCQUFqQjtBQUNBOztBQUVELElBQU1DLFVBQVUsR0FBR0MscUNBQW1CTCxXQUFuQixDQUFuQjs7QUFFQSxJQUFNTSxLQUFLLEdBQUcsd0JBQVlDLG9CQUFaLEVBQXNCSCxVQUF0QixDQUFkO0FBRU8sSUFBTUksUUFBUSxHQUFHRixLQUFLLENBQUNFLFFBQXZCOztBQUVBLElBQU1DLFFBQVEsR0FBR0gsS0FBSyxDQUFDRyxRQUF2Qjs7ZUFFUUgiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBhcHBseU1pZGRsZXdhcmUsIGNyZWF0ZVN0b3JlIH0gZnJvbSAncmVkdXgnO1xuXG5pbXBvcnQgdGh1bmsgZnJvbSAncmVkdXgtdGh1bmsnO1xuaW1wb3J0IGxvZ2dlciBmcm9tICdyZWR1eC1sb2dnZXInO1xuXG5pbXBvcnQgcmVkdWNlcnMgZnJvbSAnLi9yZWR1Y2Vycyc7XG5cbmNvbnN0IHByb2R1Y3Rpb24gPSBwcm9jZXNzLmVudi5OT0RFX0VOViA9PT0gJ3Byb2R1Y3Rpb24nO1xuXG5jb25zdCBtaWRkbGV3YXJlcyA9IFt0aHVua107XG5cbmlmICghcHJvZHVjdGlvbikge1xuXHRtaWRkbGV3YXJlcy5wdXNoKGxvZ2dlcik7XG59XG5cbmNvbnN0IG1pZGRsZXdhcmUgPSBhcHBseU1pZGRsZXdhcmUoLi4ubWlkZGxld2FyZXMpO1xuXG5jb25zdCBzdG9yZSA9IGNyZWF0ZVN0b3JlKHJlZHVjZXJzLCBtaWRkbGV3YXJlKTtcblxuZXhwb3J0IGNvbnN0IGRpc3BhdGNoID0gc3RvcmUuZGlzcGF0Y2g7XG5cbmV4cG9ydCBjb25zdCBnZXRTdGF0ZSA9IHN0b3JlLmdldFN0YXRlO1xuXG5leHBvcnQgZGVmYXVsdCBzdG9yZTtcbiJdfQ=="
     }
   ],
   "/home/dustin/CS/recipes/src/pages/Home.js": [
-    "\"use strict\";\n\nvar _interopRequireWildcard = require(\"@babel/runtime/helpers/interopRequireWildcard\");\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = void 0;\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf2 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _react = _interopRequireWildcard(require(\"react\"));\n\nvar _babelTransform = _interopRequireDefault(require(\"livereactload/babel-transform\"));\n\nvar _components = {\n  Home: {\n    displayName: \"Home\"\n  }\n};\n\nvar _livereactloadBabelTransform2 = (0, _babelTransform[\"default\"])({\n  filename: \"src/pages/Home.js\",\n  components: _components,\n  locals: [],\n  imports: [_react[\"default\"]]\n});\n\nfunction _wrapComponent(id) {\n  return function (Component) {\n    return _livereactloadBabelTransform2(Component, id);\n  };\n}\n\nvar Home =\n/*#__PURE__*/\nfunction (_Component) {\n  (0, _inherits2[\"default\"])(Home, _Component);\n\n  function Home(props) {\n    (0, _classCallCheck2[\"default\"])(this, Home);\n    return (0, _possibleConstructorReturn2[\"default\"])(this, (0, _getPrototypeOf2[\"default\"])(Home).call(this, props));\n  }\n\n  (0, _createClass2[\"default\"])(Home, [{\n    key: \"render\",\n    value: function render() {\n      return _react[\"default\"].createElement(\"div\", null, _react[\"default\"].createElement(\"h1\", null, \"Home Page\"));\n    }\n  }]);\n  return Home;\n}(_react.Component);\n\nHome = _wrapComponent(\"Home\")(Home);\nvar _default2 = Home;\nexports[\"default\"] = _default2;\n",
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = void 0;\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar Home = function Home() {\n  return _react[\"default\"].createElement(\"div\", null, _react[\"default\"].createElement(\"h1\", null, \"Home Page\"));\n};\n\nvar _default = Home;\nexports[\"default\"] = _default;\n",
     {
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
-      "livereactload/babel-transform": "/home/dustin/CS/recipes/node_modules/livereactload/babel-transform.js",
-      "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
-      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
-      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
-      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
-      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js"
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js"
     },
     {
       "id": "/home/dustin/CS/recipes/src/pages/Home.js",
-      "hash": "qEKlkg",
-      "browserifyId": 477,
-      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkhvbWUuanM/dmVyc2lvbj1xRUtsa2ciXSwibmFtZXMiOlsiSG9tZSIsInByb3BzIiwiQ29tcG9uZW50Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBRUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBRU1BOzs7OztBQUNMLGdCQUFZQyxLQUFaLEVBQW1CO0FBQUE7QUFBQSwrR0FDWkEsS0FEWTtBQUVsQjs7Ozs2QkFFUTtBQUNSLGFBQ0MsNkNBQ0Msd0RBREQsQ0FERDtBQUtBOzs7RUFYaUJDOzs7Z0JBY0pGIiwic291cmNlc0NvbnRlbnQiOlsiLy8gQGZsb3dcblxuaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0JztcblxuY2xhc3MgSG9tZSBleHRlbmRzIENvbXBvbmVudCB7XG5cdGNvbnN0cnVjdG9yKHByb3BzKSB7XG5cdFx0c3VwZXIocHJvcHMpO1xuXHR9XG5cblx0cmVuZGVyKCkge1xuXHRcdHJldHVybiAoXG5cdFx0XHQ8ZGl2PlxuXHRcdFx0XHQ8aDE+SG9tZSBQYWdlPC9oMT5cblx0XHRcdDwvZGl2PlxuXHRcdCk7XG5cdH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgSG9tZTtcbiJdfQ=="
+      "hash": "HHZg2A",
+      "browserifyId": 478,
+      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkhvbWUuanM/dmVyc2lvbj1ISFpnMkEiXSwibmFtZXMiOlsiSG9tZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUVBOztBQUVBLElBQU1BLElBQUksR0FBRyxTQUFQQSxJQUFPO0FBQUEsU0FDWiw2Q0FDQyx3REFERCxDQURZO0FBQUEsQ0FBYjs7ZUFNZUEiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBAZmxvd1xuXG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5jb25zdCBIb21lID0gKCkgPT4gKFxuXHQ8ZGl2PlxuXHRcdDxoMT5Ib21lIFBhZ2U8L2gxPlxuXHQ8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IEhvbWU7XG4iXX0="
     }
   ],
   "/home/dustin/CS/recipes/src/routes/AdminRoute.js": [
@@ -6865,15 +6873,15 @@
     {
       "id": "/home/dustin/CS/recipes/src/routes/AdminRoute.js",
       "hash": "gKtxXw",
-      "browserifyId": 478,
+      "browserifyId": 479,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFkbWluUm91dGUuanM/dmVyc2lvbj1nS3R4WHciXSwibmFtZXMiOlsiQWRtaW5Sb3V0ZSIsImlzQWRtaW4iLCJDb21wb25lbnQiLCJjb21wb25lbnQiLCJyZXN0IiwicHJvcHMiLCJzdGF0ZSIsInVzZXIiLCJhdXRoUmVkdWNlciJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFFQTs7QUFFQSxJQUFNQSxVQUFVLEdBQUcsU0FBYkEsVUFBYTtBQUFBLDBCQUFHQyxPQUFIO0FBQUEsTUFBR0EsT0FBSCw2QkFBYSxLQUFiO0FBQUEsTUFBK0JDLFNBQS9CLFFBQW9CQyxTQUFwQjtBQUFBLE1BQTZDQyxJQUE3QztBQUFBLFNBQ2xCLGdDQUFDLHFCQUFELGdDQUFXQSxJQUFYO0FBQWlCLElBQUEsUUFBUSxFQUFFLGtCQUFBQyxLQUFLO0FBQUEsYUFBS0osT0FBTyxHQUFHLGdDQUFDLFNBQUQsRUFBZUksS0FBZixDQUFILEdBQThCLGdDQUFDLHdCQUFEO0FBQVUsUUFBQSxFQUFFLEVBQUM7QUFBYixRQUExQztBQUFBO0FBQWhDLEtBRGtCO0FBQUEsQ0FBbkI7O2VBSWUseUJBQVEsVUFBQUMsS0FBSyxFQUFJO0FBQUEsTUFFZkMsSUFGZSxHQUczQkQsS0FIMkIsQ0FFOUJFLFdBRjhCLENBRWZELElBRmU7QUFLL0IsU0FBTztBQUFFTixJQUFBQSxPQUFPLEVBQUVNLElBQUksR0FBRyxDQUFDLENBQUNBLElBQUksQ0FBQ04sT0FBVixHQUFvQjtBQUFuQyxHQUFQO0FBQ0EsQ0FOYyxFQU1aRCxVQU5ZIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IGNvbm5lY3QgfSBmcm9tICdyZWFjdC1yZWR1eCc7XG5cbmltcG9ydCB7IFJvdXRlLCBSZWRpcmVjdCB9IGZyb20gJ3JlYWN0LXJvdXRlci1kb20nO1xuXG5jb25zdCBBZG1pblJvdXRlID0gKHsgaXNBZG1pbiA9IGZhbHNlLCBjb21wb25lbnQ6IENvbXBvbmVudCwgLi4ucmVzdCB9KSA9PiAoXG5cdDxSb3V0ZSB7Li4ucmVzdH0gY2hpbGRyZW49e3Byb3BzID0+IChpc0FkbWluID8gPENvbXBvbmVudCB7Li4ucHJvcHN9IC8+IDogPFJlZGlyZWN0IHRvPVwiL1wiIC8+KX0gLz5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IGNvbm5lY3Qoc3RhdGUgPT4ge1xuXHRjb25zdCB7XG5cdFx0YXV0aFJlZHVjZXI6IHsgdXNlciB9LFxuXHR9ID0gc3RhdGU7XG5cblx0cmV0dXJuIHsgaXNBZG1pbjogdXNlciA/ICEhdXNlci5pc0FkbWluIDogZmFsc2UgfTtcbn0pKEFkbWluUm91dGUpO1xuIl19"
     }
   ],
   "/home/dustin/CS/recipes/src/routes/index.js": [
     "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = exports.adminRoutes = exports.routes = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _reactRouterDom = require(\"react-router-dom\");\n\nvar _AdminRoute = _interopRequireDefault(require(\"./AdminRoute\"));\n\nvar _Home = _interopRequireDefault(require(\"../pages/Home\"));\n\n/* Pages */\nvar routes = [{\n  name: 'Home',\n  path: '/home',\n  exact: true,\n  icon: null,\n  component: _Home[\"default\"],\n  showInNav: true\n}];\nexports.routes = routes;\nvar adminRoutes = [];\nexports.adminRoutes = adminRoutes;\n\nvar _default = function _default() {\n  return _react[\"default\"].createElement(_reactRouterDom.Switch, null, routes.map(function (_ref) {\n    var path = _ref.path,\n        Component = _ref.component,\n        route = (0, _objectWithoutProperties2[\"default\"])(_ref, [\"path\", \"component\"]);\n    return _react[\"default\"].createElement(_reactRouterDom.Route, (0, _extends2[\"default\"])({\n      key: path,\n      path: path,\n      component: Component\n    }, route));\n  }), adminRoutes.map(function (_ref2) {\n    var path = _ref2.path,\n        Component = _ref2.component,\n        route = (0, _objectWithoutProperties2[\"default\"])(_ref2, [\"path\", \"component\"]);\n    return _react[\"default\"].createElement(_AdminRoute[\"default\"], (0, _extends2[\"default\"])({\n      key: path,\n      path: path,\n      component: Component\n    }, route));\n  }), _react[\"default\"].createElement(_reactRouterDom.Redirect, {\n    from: \"/\",\n    to: \"/home\",\n    exact: true\n  }));\n};\n\nexports[\"default\"] = _default;\n",
     {
-      "react-router-dom": "/home/dustin/CS/recipes/node_modules/react-router-dom/index.js",
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "react-router-dom": "/home/dustin/CS/recipes/node_modules/react-router-dom/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
@@ -6883,7 +6891,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/routes/index.js",
       "hash": "PFPwYQ",
-      "browserifyId": 479,
+      "browserifyId": 480,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzP3ZlcnNpb249UEZQd1lRIl0sIm5hbWVzIjpbInJvdXRlcyIsIm5hbWUiLCJwYXRoIiwiZXhhY3QiLCJpY29uIiwiY29tcG9uZW50IiwiSG9tZSIsInNob3dJbk5hdiIsImFkbWluUm91dGVzIiwibWFwIiwiQ29tcG9uZW50Iiwicm91dGUiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBRUE7O0FBQ0E7O0FBRUE7O0FBR0E7O0FBREE7QUFXTyxJQUFNQSxNQUEyQixHQUFHLENBQzFDO0FBQ0NDLEVBQUFBLElBQUksRUFBRSxNQURQO0FBRUNDLEVBQUFBLElBQUksRUFBRSxPQUZQO0FBR0NDLEVBQUFBLEtBQUssRUFBRSxJQUhSO0FBSUNDLEVBQUFBLElBQUksRUFBRSxJQUpQO0FBS0NDLEVBQUFBLFNBQVMsRUFBRUMsZ0JBTFo7QUFNQ0MsRUFBQUEsU0FBUyxFQUFFO0FBTlosQ0FEMEMsQ0FBcEM7O0FBV0EsSUFBTUMsV0FBeUIsR0FBRyxFQUFsQzs7O2VBRVE7QUFBQSxTQUNkLGdDQUFDLHNCQUFELFFBQ0VSLE1BQU0sQ0FBQ1MsR0FBUCxDQUFXO0FBQUEsUUFBR1AsSUFBSCxRQUFHQSxJQUFIO0FBQUEsUUFBb0JRLFNBQXBCLFFBQVNMLFNBQVQ7QUFBQSxRQUFrQ00sS0FBbEM7QUFBQSxXQUNYLGdDQUFDLHFCQUFEO0FBQU8sTUFBQSxHQUFHLEVBQUVULElBQVo7QUFBa0IsTUFBQSxJQUFJLEVBQUVBLElBQXhCO0FBQThCLE1BQUEsU0FBUyxFQUFFUTtBQUF6QyxPQUF3REMsS0FBeEQsRUFEVztBQUFBLEdBQVgsQ0FERixFQUtFSCxXQUFXLENBQUNDLEdBQVosQ0FBZ0I7QUFBQSxRQUFHUCxJQUFILFNBQUdBLElBQUg7QUFBQSxRQUFvQlEsU0FBcEIsU0FBU0wsU0FBVDtBQUFBLFFBQWtDTSxLQUFsQztBQUFBLFdBQ2hCLGdDQUFDLHNCQUFEO0FBQVksTUFBQSxHQUFHLEVBQUVULElBQWpCO0FBQXVCLE1BQUEsSUFBSSxFQUFFQSxJQUE3QjtBQUFtQyxNQUFBLFNBQVMsRUFBRVE7QUFBOUMsT0FBNkRDLEtBQTdELEVBRGdCO0FBQUEsR0FBaEIsQ0FMRixFQVNDLGdDQUFDLHdCQUFEO0FBQVUsSUFBQSxJQUFJLEVBQUMsR0FBZjtBQUFtQixJQUFBLEVBQUUsRUFBQyxPQUF0QjtBQUE4QixJQUFBLEtBQUs7QUFBbkMsSUFURCxDQURjO0FBQUEiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBAZmxvd1xuXG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgU3dpdGNoLCBSb3V0ZSwgUmVkaXJlY3QgfSBmcm9tICdyZWFjdC1yb3V0ZXItZG9tJztcblxuaW1wb3J0IEFkbWluUm91dGUgZnJvbSAnLi9BZG1pblJvdXRlJztcblxuLyogUGFnZXMgKi9cbmltcG9ydCBIb21lIGZyb20gJy4uL3BhZ2VzL0hvbWUnO1xuXG50eXBlIFJlY2lwZXNSb3V0ZSA9IHtcblx0bmFtZTogc3RyaW5nLFxuXHRwYXRoOiBzdHJpbmcsXG5cdGV4YWN0OiBib29sZWFuLFxuXHRpY29uOiBzdHJpbmcsXG5cdGNvbXBvbmVudDogYW55LFxufTtcblxuZXhwb3J0IGNvbnN0IHJvdXRlczogQXJyYXk8UmVjaXBlc1JvdXRlPiA9IFtcblx0e1xuXHRcdG5hbWU6ICdIb21lJyxcblx0XHRwYXRoOiAnL2hvbWUnLFxuXHRcdGV4YWN0OiB0cnVlLFxuXHRcdGljb246IG51bGwsXG5cdFx0Y29tcG9uZW50OiBIb21lLFxuXHRcdHNob3dJbk5hdjogdHJ1ZSxcblx0fSxcbl07XG5cbmV4cG9ydCBjb25zdCBhZG1pblJvdXRlczogQXJyYXk8Um91dGU+ID0gW107XG5cbmV4cG9ydCBkZWZhdWx0ICgpID0+IChcblx0PFN3aXRjaD5cblx0XHR7cm91dGVzLm1hcCgoeyBwYXRoLCBjb21wb25lbnQ6IENvbXBvbmVudCwgLi4ucm91dGUgfSkgPT4gKFxuXHRcdFx0PFJvdXRlIGtleT17cGF0aH0gcGF0aD17cGF0aH0gY29tcG9uZW50PXtDb21wb25lbnR9IHsuLi5yb3V0ZX0gLz5cblx0XHQpKX1cblxuXHRcdHthZG1pblJvdXRlcy5tYXAoKHsgcGF0aCwgY29tcG9uZW50OiBDb21wb25lbnQsIC4uLnJvdXRlIH0pID0+IChcblx0XHRcdDxBZG1pblJvdXRlIGtleT17cGF0aH0gcGF0aD17cGF0aH0gY29tcG9uZW50PXtDb21wb25lbnR9IHsuLi5yb3V0ZX0gLz5cblx0XHQpKX1cblxuXHRcdDxSZWRpcmVjdCBmcm9tPVwiL1wiIHRvPVwiL2hvbWVcIiBleGFjdCAvPlxuXHQ8L1N3aXRjaD5cbik7XG4iXX0="
     }
   ]
