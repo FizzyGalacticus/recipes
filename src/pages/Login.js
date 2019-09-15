@@ -10,7 +10,7 @@ import CardHeader from '@material-ui/core/CardHeader';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
-import { loginUser } from '../lib/redux/actions/auth';
+import { loginUser, registerUser } from '../lib/redux/actions/auth';
 
 const Login = ({ dispatch }) => {
 	const [email, setEmail] = useState('');
@@ -30,7 +30,8 @@ const Login = ({ dispatch }) => {
 		[setPassword]
 	);
 
-	const loginCb = useCallback(() => dispatch(loginUser(email, password)), [dispatch]);
+	const loginCb = useCallback(() => dispatch(loginUser(email, password)), [dispatch, email, password]);
+	const registerCb = useCallback(() => dispatch(registerUser(email, password)), [dispatch, email, password]);
 
 	return (
 		<Grid container justify="center" alignItems="center" style={{ height: '100%' }}>
@@ -47,6 +48,7 @@ const Login = ({ dispatch }) => {
 							value={password}
 							onChange={onPasswordChanged}
 						/>
+						<Button onClick={registerCb}>Register</Button>
 						<Button onClick={loginCb}>Login</Button>
 					</CardContent>
 				</Card>

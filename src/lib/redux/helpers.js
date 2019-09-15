@@ -29,17 +29,21 @@ export const createActions = (name: String, { successNotification, errorNotifica
 			method = 'GET',
 			payload,
 			params,
-			{ onSuccess = () => {}, onError = () => {} } = {}
+			{ onSuccess = () => {}, onError = () => {}, headers = {} } = {}
 		) => async (dispatch /* , getState */) => {
 			dispatch({ type: actionTypes.actionStarted });
 
 			const options = {
 				method,
+				params,
 				headers: {
 					Accept: 'application/json',
 					'Content-Type': 'application/json',
+					...headers,
 				},
 			};
+
+			console.log(options);
 
 			if (payload) {
 				options.body = JSON.stringify(payload);

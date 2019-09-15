@@ -6,7 +6,19 @@ export const loginUserStarted = loginUserAction.actionStarted;
 export const loginUserSuccess = loginUserAction.actionSuccess;
 export const loginUserFailure = loginUserAction.actionFailure;
 export const loginUser = (email, password) =>
-	loginUserAction.handler('login', 'POST', { email, password }, undefined, { onSuccess: console.log });
+	loginUserAction.handler('user/login', 'POST', undefined, undefined, {
+		headers: { authorization: btoa(`${email}:${password}`) },
+		onSuccess: console.log,
+	});
+
+const registerUserAction = createActions('register');
+export const registerUserStarted = registerUserAction.actionStarted;
+export const registerUserSuccess = registerUserAction.actionSuccess;
+export const registerUserFailure = registerUserAction.actionFailure;
+export const registerUser = (email, password) =>
+	registerUserAction.handler('user/register', 'POST', { email, password }, undefined, {
+		onSuccess: res => alert(JSON.stringify(res)),
+	});
 
 const getUserActions = createActionTypes('request', 'user');
 export const REQUEST_USER_STARTED = getUserActions.actionStarted;
