@@ -7,11 +7,6 @@ import AdminRoute from './AdminRoute';
 
 /* Pages */
 import Home from '../pages/Home';
-import MyRecipes from '../pages/MyRecipes';
-import Recipe from '../pages/Recipe';
-
-/* Admin Pages */
-import CreateRecipe from '../pages/admin/CreateRecipe';
 
 type RecipesRoute = {
 	name: string,
@@ -30,34 +25,9 @@ export const routes: Array<RecipesRoute> = [
 		component: Home,
 		showInNav: true,
 	},
-	{
-		name: 'My Recipe',
-		path: '/me/recipes/:recipeId',
-		exact: true,
-		icon: null,
-		component: Recipe,
-		showInNav: false,
-	},
-	{
-		name: 'My Recipes',
-		path: '/me/recipes',
-		exact: true,
-		icon: null,
-		component: MyRecipes,
-		showInNav: true,
-	},
 ];
 
-export const adminRoutes: Array<Route> = [
-	{
-		name: 'Create Recipe',
-		path: '/admin/create-recipe',
-		exact: true,
-		icon: null,
-		component: CreateRecipe,
-		showInNav: true,
-	},
-];
+export const adminRoutes: Array<Route> = [];
 
 export default () => (
 	<Switch>

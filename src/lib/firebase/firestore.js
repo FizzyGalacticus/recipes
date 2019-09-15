@@ -34,21 +34,6 @@ export const set = createDbIfNotInitialized((key, id, data) => {
 		.set(sanitizedData);
 });
 
-export const create = createDbIfNotInitialized((key: string, data: any): Promise => {
-	return db.collection(key).add(data);
-});
-
-export const readCollection = createDbIfNotInitialized((key: string, whereClause: Array<string>) => {
-	if (whereClause !== undefined) {
-		return db
-			.collection(key)
-			.where(...whereClause)
-			.get();
-	}
-
-	return db.collection(key).get();
-});
-
 export const readDocument = createDbIfNotInitialized((key, docKey) => {
 	return db
 		.collection(key)
@@ -56,21 +41,4 @@ export const readDocument = createDbIfNotInitialized((key, docKey) => {
 		.get();
 });
 
-export const updateDocument = createDbIfNotInitialized((key, docKey, value) => {
-	return db
-		.collection(key)
-		.doc(docKey)
-		.set(value);
-});
-
-export const getDocFromResponse = doc => {
-	return doc.data();
-};
-
-export const getDocsFromResponse = response =>
-	response.docs.reduce((acc, doc) => {
-		acc[doc.id] = getDocFromResponse(doc);
-		return acc;
-	}, {});
-
-export default { set, create, readCollection, readDocument, updateDocument, getDocsFromResponse };
+export default { set, readDocument };
