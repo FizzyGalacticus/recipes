@@ -1,5 +1,6 @@
 import React, { useCallback } from 'react';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -11,9 +12,9 @@ import Typography from '@material-ui/core/Typography';
 import { toggleNav } from '../../lib/redux/actions/menu';
 import authActions from '../../lib/redux/actions/auth';
 
-const MenuBar = ({ dispatch, menuOpen, isAuthorized }) => {
+const MenuBar = ({ dispatch, menuOpen, isAuthorized, history }) => {
 	const toggleNavCb = useCallback(() => dispatch(toggleNav()), [dispatch, toggleNav]);
-	const loginCb = useCallback(() => dispatch(authActions.login()), [dispatch, authActions]);
+	const loginCb = useCallback(() => history.push('/login'), [history]);
 	const logoutCb = useCallback(() => dispatch(authActions.logout()), [dispatch, authActions]);
 
 	return (
@@ -41,11 +42,13 @@ const MenuBar = ({ dispatch, menuOpen, isAuthorized }) => {
 	);
 };
 
-export default connect(store => {
-	const {
-		menuReducer: { open: menuOpen },
-		authReducer: { isAuthorized, auth },
-	} = store;
+export default withRouter(
+	connect(store => {
+		const {
+			menuReducer: { open: menuOpen },
+			authReducer: { isAuthorized, auth },
+		} = store;
 
-	return { menuOpen, isAuthorized, auth };
-})(MenuBar);
+		return { menuOpen, isAuthorized, auth };
+	})(MenuBar)
+);

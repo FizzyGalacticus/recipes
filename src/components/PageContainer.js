@@ -28,11 +28,11 @@ const PageContainer = ({ dispatch, isAdmin }: Props) => {
 	return (
 		<Fragment>
 			<NavDrawer />
-			<Grid container>
+			<Grid container style={{ height: '100%' }}>
 				<Grid item xs={12}>
 					<MenuBar />
 				</Grid>
-				<Grid item>
+				<Grid item style={{ height: '100%', width: '100%' }}>
 					<CssBaseline />
 					<Routes isAdmin={isAdmin} />
 				</Grid>

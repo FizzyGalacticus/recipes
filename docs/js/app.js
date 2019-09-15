@@ -820,8 +820,8 @@
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
-      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "../Fade": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Fade/index.js"
     },
     {
@@ -889,8 +889,8 @@
       "./createRippleHandler": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ButtonBase/createRippleHandler.js",
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
-      "react-dom": "/home/dustin/CS/recipes/node_modules/react-dom/index.js",
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "react-dom": "/home/dustin/CS/recipes/node_modules/react-dom/index.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
@@ -898,10 +898,10 @@
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
-      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "@babel/runtime/helpers/assertThisInitialized": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "../utils/ownerWindow": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/ownerWindow.js",
       "./focusVisible": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ButtonBase/focusVisible.js",
       "../NoSsr": "/home/dustin/CS/recipes/node_modules/@material-ui/core/NoSsr/index.js",
@@ -922,13 +922,13 @@
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "react-transition-group/Transition": "/home/dustin/CS/recipes/node_modules/react-transition-group/Transition.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js"
     },
@@ -944,9 +944,9 @@
     {
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "react-dom": "/home/dustin/CS/recipes/node_modules/react-dom/index.js",
-      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
@@ -1006,6 +1006,106 @@
       "sourcemap": ""
     }
   ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/Card/Card.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _Paper = _interopRequireDefault(require(\"../Paper\"));\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\n// @inheritedComponent Paper\nvar styles = {\n  /* Styles applied to the root element. */\n  root: {\n    overflow: 'hidden'\n  }\n};\nexports.styles = styles;\n\nfunction Card(props) {\n  var classes = props.classes,\n      className = props.className,\n      raised = props.raised,\n      other = (0, _objectWithoutProperties2.default)(props, [\"classes\", \"className\", \"raised\"]);\n  return _react.default.createElement(_Paper.default, (0, _extends2.default)({\n    className: (0, _classnames.default)(classes.root, className),\n    elevation: raised ? 8 : 1\n  }, other));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? Card.propTypes = {\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * @ignore\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * If `true`, the card will use raised styling.\n   */\n  raised: _propTypes.default.bool\n} : void 0;\nCard.defaultProps = {\n  raised: false\n};\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiCard'\n})(Card);\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "../Paper": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Paper/index.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Card/Card.js",
+      "hash": "qaNqWw",
+      "browserifyId": 46,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/Card/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _Card.default;\n  }\n});\n\nvar _Card = _interopRequireDefault(require(\"./Card\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./Card": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Card/Card.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Card/index.js",
+      "hash": "U1mxxg",
+      "browserifyId": 47,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/CardContent/CardContent.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar styles = {\n  /* Styles applied to the root element. */\n  root: {\n    padding: 16,\n    '&:last-child': {\n      paddingBottom: 24\n    }\n  }\n};\nexports.styles = styles;\n\nfunction CardContent(props) {\n  var classes = props.classes,\n      className = props.className,\n      Component = props.component,\n      other = (0, _objectWithoutProperties2.default)(props, [\"classes\", \"className\", \"component\"]);\n  return _react.default.createElement(Component, (0, _extends2.default)({\n    className: (0, _classnames.default)(classes.root, className)\n  }, other));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? CardContent.propTypes = {\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * @ignore\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * The component used for the root node.\n   * Either a string to use a DOM element or a component.\n   */\n  component: _utils.componentPropType\n} : void 0;\nCardContent.defaultProps = {\n  component: 'div'\n};\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiCardContent'\n})(CardContent);\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/CardContent/CardContent.js",
+      "hash": "4pHX/A",
+      "browserifyId": 48,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/CardContent/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _CardContent.default;\n  }\n});\n\nvar _CardContent = _interopRequireDefault(require(\"./CardContent\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./CardContent": "/home/dustin/CS/recipes/node_modules/@material-ui/core/CardContent/CardContent.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/CardContent/index.js",
+      "hash": "A75Anw",
+      "browserifyId": 49,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/CardHeader/CardHeader.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar _Typography = _interopRequireDefault(require(\"../Typography\"));\n\nvar styles = {\n  /* Styles applied to the root element. */\n  root: {\n    display: 'flex',\n    alignItems: 'center',\n    padding: 16\n  },\n\n  /* Styles applied to the avatar element. */\n  avatar: {\n    flex: '0 0 auto',\n    marginRight: 16\n  },\n\n  /* Styles applied to the action element. */\n  action: {\n    flex: '0 0 auto',\n    alignSelf: 'flex-start',\n    marginTop: -8,\n    marginRight: -8\n  },\n\n  /* Styles applied to the content wrapper element. */\n  content: {\n    flex: '1 1 auto'\n  },\n\n  /* Styles applied to the title Typography element. */\n  title: {},\n\n  /* Styles applied to the subheader Typography element. */\n  subheader: {}\n};\nexports.styles = styles;\n\nfunction CardHeader(props) {\n  var action = props.action,\n      avatar = props.avatar,\n      classes = props.classes,\n      classNameProp = props.className,\n      Component = props.component,\n      disableTypography = props.disableTypography,\n      subheaderProp = props.subheader,\n      subheaderTypographyProps = props.subheaderTypographyProps,\n      titleProp = props.title,\n      titleTypographyProps = props.titleTypographyProps,\n      other = (0, _objectWithoutProperties2.default)(props, [\"action\", \"avatar\", \"classes\", \"className\", \"component\", \"disableTypography\", \"subheader\", \"subheaderTypographyProps\", \"title\", \"titleTypographyProps\"]);\n  var title = titleProp;\n\n  if (title != null && title.type !== _Typography.default && !disableTypography) {\n    title = _react.default.createElement(_Typography.default, (0, _extends2.default)({\n      variant: avatar ? 'body2' : 'headline',\n      internalDeprecatedVariant: true,\n      className: classes.title,\n      component: \"span\"\n    }, titleTypographyProps), title);\n  }\n\n  var subheader = subheaderProp;\n\n  if (subheader != null && subheader.type !== _Typography.default && !disableTypography) {\n    subheader = _react.default.createElement(_Typography.default, (0, _extends2.default)({\n      variant: avatar ? 'body2' : 'body1',\n      className: classes.subheader,\n      color: \"textSecondary\",\n      component: \"span\"\n    }, subheaderTypographyProps), subheader);\n  }\n\n  return _react.default.createElement(Component, (0, _extends2.default)({\n    className: (0, _classnames.default)(classes.root, classNameProp)\n  }, other), avatar && _react.default.createElement(\"div\", {\n    className: classes.avatar\n  }, avatar), _react.default.createElement(\"div\", {\n    className: classes.content\n  }, title, subheader), action && _react.default.createElement(\"div\", {\n    className: classes.action\n  }, action));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? CardHeader.propTypes = {\n  /**\n   * The action to display in the card header.\n   */\n  action: _propTypes.default.node,\n\n  /**\n   * The Avatar for the Card Header.\n   */\n  avatar: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * @ignore\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * The component used for the root node.\n   * Either a string to use a DOM element or a component.\n   */\n  component: _utils.componentPropType,\n\n  /**\n   * If `true`, the children won't be wrapped by a Typography component.\n   * This can be useful to render an alternative Typography variant by wrapping\n   * the `title` text, and optional `subheader` text\n   * with the Typography component.\n   */\n  disableTypography: _propTypes.default.bool,\n\n  /**\n   * The content of the component.\n   */\n  subheader: _propTypes.default.node,\n\n  /**\n   * These props will be forwarded to the subheader\n   * (as long as disableTypography is not `true`).\n   */\n  subheaderTypographyProps: _propTypes.default.object,\n\n  /**\n   * The content of the Card Title.\n   */\n  title: _propTypes.default.node,\n\n  /**\n   * These props will be forwarded to the title\n   * (as long as disableTypography is not `true`).\n   */\n  titleTypographyProps: _propTypes.default.object\n} : void 0;\nCardHeader.defaultProps = {\n  component: 'div',\n  disableTypography: false\n};\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiCardHeader'\n})(CardHeader);\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "../Typography": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Typography/index.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/CardHeader/CardHeader.js",
+      "hash": "IB5cEw",
+      "browserifyId": 50,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/CardHeader/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _CardHeader.default;\n  }\n});\n\nvar _CardHeader = _interopRequireDefault(require(\"./CardHeader\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./CardHeader": "/home/dustin/CS/recipes/node_modules/@material-ui/core/CardHeader/CardHeader.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/CardHeader/index.js",
+      "hash": "UyGYCg",
+      "browserifyId": 51,
+      "sourcemap": ""
+    }
+  ],
   "/home/dustin/CS/recipes/node_modules/@material-ui/core/ClickAwayListener/ClickAwayListener.js": [
     "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf3 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _reactDom = _interopRequireDefault(require(\"react-dom\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _reactEventListener = _interopRequireDefault(require(\"react-event-listener\"));\n\nvar _ownerDocument = _interopRequireDefault(require(\"../utils/ownerDocument\"));\n\n// @inheritedComponent EventListener\n\n/**\n * Listen for click events that occur somewhere in the document, outside of the element itself.\n * For instance, if you need to hide a menu when people click anywhere else on your page.\n */\nvar ClickAwayListener =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inherits2.default)(ClickAwayListener, _React$Component);\n\n  function ClickAwayListener() {\n    var _getPrototypeOf2;\n\n    var _this;\n\n    (0, _classCallCheck2.default)(this, ClickAwayListener);\n\n    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    _this = (0, _possibleConstructorReturn2.default)(this, (_getPrototypeOf2 = (0, _getPrototypeOf3.default)(ClickAwayListener)).call.apply(_getPrototypeOf2, [this].concat(args)));\n    _this.mounted = false;\n    _this.moved = false;\n\n    _this.handleClickAway = function (event) {\n      // Ignore events that have been `event.preventDefault()` marked.\n      if (event.defaultPrevented) {\n        return;\n      } // IE 11 support, which trigger the handleClickAway even after the unbind\n\n\n      if (!_this.mounted) {\n        return;\n      } // Do not act if user performed touchmove\n\n\n      if (_this.moved) {\n        _this.moved = false;\n        return;\n      } // The child might render null.\n\n\n      if (!_this.node) {\n        return;\n      }\n\n      var doc = (0, _ownerDocument.default)(_this.node);\n\n      if (doc.documentElement && doc.documentElement.contains(event.target) && !_this.node.contains(event.target)) {\n        _this.props.onClickAway(event);\n      }\n    };\n\n    _this.handleTouchMove = function () {\n      _this.moved = true;\n    };\n\n    return _this;\n  }\n\n  (0, _createClass2.default)(ClickAwayListener, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      // Finds the first child when a component returns a fragment.\n      // https://github.com/facebook/react/blob/036ae3c6e2f056adffc31dfb78d1b6f0c63272f0/packages/react-dom/src/__tests__/ReactDOMFiber-test.js#L105\n      this.node = _reactDom.default.findDOMNode(this);\n      this.mounted = true;\n    }\n  }, {\n    key: \"componentWillUnmount\",\n    value: function componentWillUnmount() {\n      this.mounted = false;\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this$props = this.props,\n          children = _this$props.children,\n          mouseEvent = _this$props.mouseEvent,\n          touchEvent = _this$props.touchEvent,\n          onClickAway = _this$props.onClickAway,\n          other = (0, _objectWithoutProperties2.default)(_this$props, [\"children\", \"mouseEvent\", \"touchEvent\", \"onClickAway\"]);\n      var listenerProps = {};\n\n      if (mouseEvent !== false) {\n        listenerProps[mouseEvent] = this.handleClickAway;\n      }\n\n      if (touchEvent !== false) {\n        listenerProps[touchEvent] = this.handleClickAway;\n        listenerProps.onTouchMove = this.handleTouchMove;\n      }\n\n      return _react.default.createElement(_react.default.Fragment, null, children, _react.default.createElement(_reactEventListener.default, (0, _extends2.default)({\n        target: \"document\"\n      }, listenerProps, other)));\n    }\n  }]);\n  return ClickAwayListener;\n}(_react.default.Component);\n\nprocess.env.NODE_ENV !== \"production\" ? ClickAwayListener.propTypes = {\n  /**\n   * The wrapped element.\n   */\n  children: _propTypes.default.element.isRequired,\n\n  /**\n   * The mouse event to listen to. You can disable the listener by providing `false`.\n   */\n  mouseEvent: _propTypes.default.oneOf(['onClick', 'onMouseDown', 'onMouseUp', false]),\n\n  /**\n   * Callback fired when a \"click away\" event is detected.\n   */\n  onClickAway: _propTypes.default.func.isRequired,\n\n  /**\n   * The touch event to listen to. You can disable the listener by providing `false`.\n   */\n  touchEvent: _propTypes.default.oneOf(['onTouchStart', 'onTouchEnd', false])\n} : void 0;\nClickAwayListener.defaultProps = {\n  mouseEvent: 'onMouseUp',\n  touchEvent: 'onTouchEnd'\n};\nvar _default = ClickAwayListener;\nexports.default = _default;\n}).call(this,require('_process'))",
     {
@@ -1021,13 +1121,13 @@
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
-      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
-      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js"
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ClickAwayListener/ClickAwayListener.js",
       "hash": "V12AHg",
-      "browserifyId": 46,
+      "browserifyId": 52,
       "sourcemap": ""
     }
   ],
@@ -1040,7 +1140,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ClickAwayListener/index.js",
       "hash": "WO/z9w",
-      "browserifyId": 47,
+      "browserifyId": 53,
       "sourcemap": ""
     }
   ],
@@ -1051,8 +1151,8 @@
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
@@ -1062,7 +1162,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/CssBaseline/CssBaseline.js",
       "hash": "aBZcoA",
-      "browserifyId": 48,
+      "browserifyId": 54,
       "sourcemap": ""
     }
   ],
@@ -1075,7 +1175,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/CssBaseline/index.js",
       "hash": "RTMgsA",
-      "browserifyId": 49,
+      "browserifyId": 55,
       "sourcemap": ""
     }
   ],
@@ -1097,7 +1197,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Divider/Divider.js",
       "hash": "BHkpvw",
-      "browserifyId": 50,
+      "browserifyId": 56,
       "sourcemap": ""
     }
   ],
@@ -1110,7 +1210,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Divider/index.js",
       "hash": "oS6WSw",
-      "browserifyId": 51,
+      "browserifyId": 57,
       "sourcemap": ""
     }
   ],
@@ -1125,22 +1225,22 @@
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
-      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
-      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "../Slide": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Slide/index.js",
       "../Modal": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Modal/index.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Drawer/Drawer.js",
       "hash": "3Ob7aQ",
-      "browserifyId": 52,
+      "browserifyId": 58,
       "sourcemap": ""
     }
   ],
@@ -1153,7 +1253,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Drawer/index.js",
       "hash": "kBZ9cw",
-      "browserifyId": 53,
+      "browserifyId": 59,
       "sourcemap": ""
     }
   ],
@@ -1179,7 +1279,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Fade/Fade.js",
       "hash": "5oLyVg",
-      "browserifyId": 54,
+      "browserifyId": 60,
       "sourcemap": ""
     }
   ],
@@ -1192,7 +1292,198 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Fade/index.js",
       "hash": "6Mn5Lg",
-      "browserifyId": 55,
+      "browserifyId": 61,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/FilledInput/FilledInput.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _InputBase = _interopRequireDefault(require(\"../InputBase\"));\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\n// @inheritedComponent InputBase\nvar styles = function styles(theme) {\n  var light = theme.palette.type === 'light';\n  var bottomLineColor = light ? 'rgba(0, 0, 0, 0.42)' : 'rgba(255, 255, 255, 0.7)';\n  var backgroundColor = light ? 'rgba(0, 0, 0, 0.09)' : 'rgba(255, 255, 255, 0.09)';\n  return {\n    /* Styles applied to the root element. */\n    root: {\n      position: 'relative',\n      backgroundColor: backgroundColor,\n      borderTopLeftRadius: theme.shape.borderRadius,\n      borderTopRightRadius: theme.shape.borderRadius,\n      transition: theme.transitions.create('background-color', {\n        duration: theme.transitions.duration.shorter,\n        easing: theme.transitions.easing.easeOut\n      }),\n      '&:hover': {\n        backgroundColor: light ? 'rgba(0, 0, 0, 0.13)' : 'rgba(255, 255, 255, 0.13)',\n        // Reset on touch devices, it doesn't add specificity\n        '@media (hover: none)': {\n          backgroundColor: backgroundColor\n        }\n      },\n      '&$focused': {\n        backgroundColor: light ? 'rgba(0, 0, 0, 0.09)' : 'rgba(255, 255, 255, 0.09)'\n      },\n      '&$disabled': {\n        backgroundColor: light ? 'rgba(0, 0, 0, 0.12)' : 'rgba(255, 255, 255, 0.12)'\n      }\n    },\n\n    /* Styles applied to the root element if `disableUnderline={false}`. */\n    underline: {\n      '&:after': {\n        borderBottom: \"2px solid \".concat(theme.palette.primary[light ? 'dark' : 'light']),\n        left: 0,\n        bottom: 0,\n        // Doing the other way around crash on IE 11 \"''\" https://github.com/cssinjs/jss/issues/242\n        content: '\"\"',\n        position: 'absolute',\n        right: 0,\n        transform: 'scaleX(0)',\n        transition: theme.transitions.create('transform', {\n          duration: theme.transitions.duration.shorter,\n          easing: theme.transitions.easing.easeOut\n        }),\n        pointerEvents: 'none' // Transparent to the hover style.\n\n      },\n      '&$focused:after': {\n        transform: 'scaleX(1)'\n      },\n      '&$error:after': {\n        borderBottomColor: theme.palette.error.main,\n        transform: 'scaleX(1)' // error is always underlined in red\n\n      },\n      '&:before': {\n        borderBottom: \"1px solid \".concat(bottomLineColor),\n        left: 0,\n        bottom: 0,\n        // Doing the other way around crash on IE 11 \"''\" https://github.com/cssinjs/jss/issues/242\n        content: '\"\\\\00a0\"',\n        position: 'absolute',\n        right: 0,\n        transition: theme.transitions.create('border-bottom-color', {\n          duration: theme.transitions.duration.shorter\n        }),\n        pointerEvents: 'none' // Transparent to the hover style.\n\n      },\n      '&:hover:not($disabled):not($focused):not($error):before': {\n        borderBottom: \"1px solid \".concat(theme.palette.text.primary)\n      },\n      '&$disabled:before': {\n        borderBottom: \"1px dotted \".concat(bottomLineColor)\n      }\n    },\n\n    /* Styles applied to the root element if the component is focused. */\n    focused: {},\n\n    /* Styles applied to the root element if `disabled={true}`. */\n    disabled: {},\n\n    /* Styles applied to the root element if `startAdornment` is provided. */\n    adornedStart: {\n      paddingLeft: 12\n    },\n\n    /* Styles applied to the root element if `endAdornment` is provided. */\n    adornedEnd: {\n      paddingRight: 12\n    },\n\n    /* Styles applied to the root element if `error={true}`. */\n    error: {},\n\n    /* Styles applied to the root element if `multiline={true}`. */\n    multiline: {\n      padding: '27px 12px 10px',\n      boxSizing: 'border-box' // Prevent padding issue with fullWidth.\n\n    },\n\n    /* Styles applied to the `input` element. */\n    input: {\n      padding: '27px 12px 10px'\n    },\n\n    /* Styles applied to the `input` element if `margin=\"dense\"`. */\n    inputMarginDense: {\n      paddingTop: 24,\n      paddingBottom: 6\n    },\n\n    /* Styles applied to the `input` element if `multiline={true}`. */\n    inputMultiline: {\n      padding: 0\n    },\n\n    /* Styles applied to the `input` element if `startAdornment` is provided. */\n    inputAdornedStart: {\n      paddingLeft: 0\n    },\n\n    /* Styles applied to the `input` element if `endAdornment` is provided. */\n    inputAdornedEnd: {\n      paddingRight: 0\n    }\n  };\n};\n\nexports.styles = styles;\n\nfunction FilledInput(props) {\n  var disableUnderline = props.disableUnderline,\n      classes = props.classes,\n      other = (0, _objectWithoutProperties2.default)(props, [\"disableUnderline\", \"classes\"]);\n  return _react.default.createElement(_InputBase.default, (0, _extends2.default)({\n    classes: (0, _extends2.default)({}, classes, {\n      root: (0, _classnames.default)(classes.root, (0, _defineProperty2.default)({}, classes.underline, !disableUnderline)),\n      underline: null\n    })\n  }, other));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? FilledInput.propTypes = {\n  /**\n   * This property helps users to fill forms faster, especially on mobile devices.\n   * The name can be confusing, as it's more like an autofill.\n   * You can learn more about it here:\n   * https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill\n   */\n  autoComplete: _propTypes.default.string,\n\n  /**\n   * If `true`, the input will be focused during the first mount.\n   */\n  autoFocus: _propTypes.default.bool,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * The CSS class name of the wrapper element.\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * The default input value, useful when not controlling the component.\n   */\n  defaultValue: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object, _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object]))]),\n\n  /**\n   * If `true`, the input will be disabled.\n   */\n  disabled: _propTypes.default.bool,\n\n  /**\n   * If `true`, the input will not have an underline.\n   */\n  disableUnderline: _propTypes.default.bool,\n\n  /**\n   * End `InputAdornment` for this component.\n   */\n  endAdornment: _propTypes.default.node,\n\n  /**\n   * If `true`, the input will indicate an error. This is normally obtained via context from\n   * FormControl.\n   */\n  error: _propTypes.default.bool,\n\n  /**\n   * If `true`, the input will take up the full width of its container.\n   */\n  fullWidth: _propTypes.default.bool,\n\n  /**\n   * The id of the `input` element.\n   */\n  id: _propTypes.default.string,\n\n  /**\n   * The component used for the native input.\n   * Either a string to use a DOM element or a component.\n   */\n  inputComponent: _utils.componentPropType,\n\n  /**\n   * Attributes applied to the `input` element.\n   */\n  inputProps: _propTypes.default.object,\n\n  /**\n   * Use that property to pass a ref callback to the native input component.\n   */\n  inputRef: _propTypes.default.oneOfType([_propTypes.default.func, _propTypes.default.object]),\n\n  /**\n   * If `dense`, will adjust vertical spacing. This is normally obtained via context from\n   * FormControl.\n   */\n  margin: _propTypes.default.oneOf(['dense', 'none']),\n\n  /**\n   * If `true`, a textarea element will be rendered.\n   */\n  multiline: _propTypes.default.bool,\n\n  /**\n   * Name attribute of the `input` element.\n   */\n  name: _propTypes.default.string,\n\n  /**\n   * Callback fired when the value is changed.\n   *\n   * @param {object} event The event source of the callback.\n   * You can pull out the new value by accessing `event.target.value`.\n   */\n  onChange: _propTypes.default.func,\n\n  /**\n   * The short hint displayed in the input before the user enters a value.\n   */\n  placeholder: _propTypes.default.string,\n\n  /**\n   * It prevents the user from changing the value of the field\n   * (not from interacting with the field).\n   */\n  readOnly: _propTypes.default.bool,\n\n  /**\n   * If `true`, the input will be required.\n   */\n  required: _propTypes.default.bool,\n\n  /**\n   * Number of rows to display when multiline option is set to true.\n   */\n  rows: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),\n\n  /**\n   * Maximum number of rows to display when multiline option is set to true.\n   */\n  rowsMax: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),\n\n  /**\n   * Start `InputAdornment` for this component.\n   */\n  startAdornment: _propTypes.default.node,\n\n  /**\n   * Type of the input element. It should be a valid HTML5 input type.\n   */\n  type: _propTypes.default.string,\n\n  /**\n   * The input value, required for a controlled component.\n   */\n  value: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object, _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object]))])\n} : void 0;\n_InputBase.default.defaultProps = {\n  fullWidth: false,\n  inputComponent: 'input',\n  multiline: false,\n  type: 'text'\n};\nFilledInput.muiName = 'Input';\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiFilledInput'\n})(FilledInput);\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "../InputBase": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/index.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FilledInput/FilledInput.js",
+      "hash": "OGgUFw",
+      "browserifyId": 62,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/FilledInput/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _FilledInput.default;\n  }\n});\n\nvar _FilledInput = _interopRequireDefault(require(\"./FilledInput\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./FilledInput": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FilledInput/FilledInput.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FilledInput/index.js",
+      "hash": "C5TmqQ",
+      "browserifyId": 63,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/FormControl.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf2 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _utils2 = require(\"../InputBase/utils\");\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar _helpers = require(\"../utils/helpers\");\n\nvar _reactHelpers = require(\"../utils/reactHelpers\");\n\nvar _FormControlContext = _interopRequireDefault(require(\"./FormControlContext\"));\n\nvar styles = {\n  /* Styles applied to the root element. */\n  root: {\n    display: 'inline-flex',\n    flexDirection: 'column',\n    position: 'relative',\n    // Reset fieldset default style.\n    minWidth: 0,\n    padding: 0,\n    margin: 0,\n    border: 0,\n    verticalAlign: 'top' // Fix alignment issue on Safari.\n\n  },\n\n  /* Styles applied to the root element if `margin=\"normal\"`. */\n  marginNormal: {\n    marginTop: 16,\n    marginBottom: 8\n  },\n\n  /* Styles applied to the root element if `margin=\"dense\"`. */\n  marginDense: {\n    marginTop: 8,\n    marginBottom: 4\n  },\n\n  /* Styles applied to the root element if `fullWidth={true}`. */\n  fullWidth: {\n    width: '100%'\n  }\n};\n/**\n * Provides context such as filled/focused/error/required for form inputs.\n * Relying on the context provides high flexibility and ensures that the state always stays\n * consistent across the children of the `FormControl`.\n * This context is used by the following components:\n *  - FormLabel\n *  - FormHelperText\n *  - Input\n *  - InputLabel\n *\n * ⚠️ Only one input can be used within a FormControl.\n */\n\nexports.styles = styles;\n\nvar FormControl =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inherits2.default)(FormControl, _React$Component);\n  (0, _createClass2.default)(FormControl, null, [{\n    key: \"getDerivedStateFromProps\",\n    value: function getDerivedStateFromProps(props, state) {\n      if (props.disabled && state.focused) {\n        return {\n          focused: false\n        };\n      }\n\n      return null;\n    }\n  }]);\n\n  function FormControl(props) {\n    var _this;\n\n    (0, _classCallCheck2.default)(this, FormControl);\n    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(FormControl).call(this));\n\n    _this.handleFocus = function () {\n      _this.setState(function (state) {\n        return !state.focused ? {\n          focused: true\n        } : null;\n      });\n    };\n\n    _this.handleBlur = function () {\n      _this.setState(function (state) {\n        return state.focused ? {\n          focused: false\n        } : null;\n      });\n    };\n\n    _this.handleDirty = function () {\n      if (!_this.state.filled) {\n        _this.setState({\n          filled: true\n        });\n      }\n    };\n\n    _this.handleClean = function () {\n      if (_this.state.filled) {\n        _this.setState({\n          filled: false\n        });\n      }\n    };\n\n    _this.state = {\n      adornedStart: false,\n      filled: false,\n      focused: false\n    }; // We need to iterate through the children and find the Input in order\n    // to fully support server-side rendering.\n\n    var children = props.children;\n\n    if (children) {\n      _react.default.Children.forEach(children, function (child) {\n        if (!(0, _reactHelpers.isMuiElement)(child, ['Input', 'Select'])) {\n          return;\n        }\n\n        if ((0, _utils2.isFilled)(child.props, true)) {\n          _this.state.filled = true;\n        }\n\n        var input = (0, _reactHelpers.isMuiElement)(child, ['Select']) ? child.props.input : child;\n\n        if (input && (0, _utils2.isAdornedStart)(input.props)) {\n          _this.state.adornedStart = true;\n        }\n      });\n    }\n\n    return _this;\n  }\n\n  (0, _createClass2.default)(FormControl, [{\n    key: \"render\",\n    value: function render() {\n      var _classNames;\n\n      var _this$props = this.props,\n          classes = _this$props.classes,\n          className = _this$props.className,\n          Component = _this$props.component,\n          disabled = _this$props.disabled,\n          error = _this$props.error,\n          fullWidth = _this$props.fullWidth,\n          margin = _this$props.margin,\n          required = _this$props.required,\n          variant = _this$props.variant,\n          other = (0, _objectWithoutProperties2.default)(_this$props, [\"classes\", \"className\", \"component\", \"disabled\", \"error\", \"fullWidth\", \"margin\", \"required\", \"variant\"]);\n      var _this$state = this.state,\n          adornedStart = _this$state.adornedStart,\n          filled = _this$state.filled,\n          focused = _this$state.focused;\n      var childContext = {\n        adornedStart: adornedStart,\n        disabled: disabled,\n        error: error,\n        filled: filled,\n        focused: focused,\n        margin: margin,\n        onBlur: this.handleBlur,\n        onEmpty: this.handleClean,\n        onFilled: this.handleDirty,\n        onFocus: this.handleFocus,\n        required: required,\n        variant: variant\n      };\n      return _react.default.createElement(_FormControlContext.default.Provider, {\n        value: childContext\n      }, _react.default.createElement(Component, (0, _extends2.default)({\n        className: (0, _classnames.default)(classes.root, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes[\"margin\".concat((0, _helpers.capitalize)(margin))], margin !== 'none'), (0, _defineProperty2.default)(_classNames, classes.fullWidth, fullWidth), _classNames), className)\n      }, other)));\n    }\n  }]);\n  return FormControl;\n}(_react.default.Component);\n\nprocess.env.NODE_ENV !== \"production\" ? FormControl.propTypes = {\n  /**\n   * The contents of the form control.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * @ignore\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * The component used for the root node.\n   * Either a string to use a DOM element or a component.\n   */\n  component: _utils.componentPropType,\n\n  /**\n   * If `true`, the label, input and helper text should be displayed in a disabled state.\n   */\n  disabled: _propTypes.default.bool,\n\n  /**\n   * If `true`, the label should be displayed in an error state.\n   */\n  error: _propTypes.default.bool,\n\n  /**\n   * If `true`, the component will take up the full width of its container.\n   */\n  fullWidth: _propTypes.default.bool,\n\n  /**\n   * If `dense` or `normal`, will adjust vertical spacing of this and contained components.\n   */\n  margin: _propTypes.default.oneOf(['none', 'dense', 'normal']),\n\n  /**\n   * If `true`, the label will indicate that the input is required.\n   */\n  required: _propTypes.default.bool,\n\n  /**\n   * The variant to use.\n   */\n  variant: _propTypes.default.oneOf(['standard', 'outlined', 'filled'])\n} : void 0;\nFormControl.defaultProps = {\n  component: 'div',\n  disabled: false,\n  error: false,\n  fullWidth: false,\n  margin: 'none',\n  required: false,\n  variant: 'standard'\n};\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiFormControl'\n})(FormControl);\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "../utils/helpers": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/helpers.js",
+      "../utils/reactHelpers": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/reactHelpers.js",
+      "../InputBase/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/utils.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
+      "./FormControlContext": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/FormControlContext.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/FormControl.js",
+      "hash": "gI277Q",
+      "browserifyId": 64,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/FormControlContext.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\n/**\n * @ignore - internal component.\n */\nvar FormControlContext = _react.default.createContext();\n\nvar _default = FormControlContext;\nexports.default = _default;",
+    {
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/FormControlContext.js",
+      "hash": "VSXapA",
+      "browserifyId": 65,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/formControlState.js": [
+    "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = formControlState;\n\nfunction formControlState(_ref) {\n  var props = _ref.props,\n      states = _ref.states,\n      muiFormControl = _ref.muiFormControl;\n  return states.reduce(function (acc, state) {\n    acc[state] = props[state];\n\n    if (muiFormControl) {\n      if (typeof props[state] === 'undefined') {\n        acc[state] = muiFormControl[state];\n      }\n    }\n\n    return acc;\n  }, {});\n}",
+    {},
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/formControlState.js",
+      "hash": "7JXygw",
+      "browserifyId": 66,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _FormControl.default;\n  }\n});\n\nvar _FormControl = _interopRequireDefault(require(\"./FormControl\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./FormControl": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/FormControl.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/index.js",
+      "hash": "jFwfOQ",
+      "browserifyId": 67,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/withFormControlContext.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = withFormControlContext;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _hoistNonReactStatics = _interopRequireDefault(require(\"hoist-non-react-statics\"));\n\nvar _FormControlContext = _interopRequireDefault(require(\"./FormControlContext\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nfunction withFormControlContext(Component) {\n  var EnhancedComponent = function EnhancedComponent(props) {\n    return _react.default.createElement(_FormControlContext.default.Consumer, null, function (context) {\n      return _react.default.createElement(Component, (0, _extends2.default)({\n        muiFormControl: context\n      }, props));\n    });\n  };\n\n  if (process.env.NODE_ENV !== 'production') {\n    EnhancedComponent.displayName = \"WithFormControlContext(\".concat((0, _utils.getDisplayName)(Component), \")\");\n  }\n\n  (0, _hoistNonReactStatics.default)(EnhancedComponent, Component);\n  return EnhancedComponent;\n}\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "./FormControlContext": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/FormControlContext.js",
+      "hoist-non-react-statics": "/home/dustin/CS/recipes/node_modules/@material-ui/core/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/withFormControlContext.js",
+      "hash": "imfXUg",
+      "browserifyId": 68,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormHelperText/FormHelperText.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _formControlState = _interopRequireDefault(require(\"../FormControl/formControlState\"));\n\nvar _withFormControlContext = _interopRequireDefault(require(\"../FormControl/withFormControlContext\"));\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar styles = function styles(theme) {\n  return {\n    /* Styles applied to the root element. */\n    root: {\n      color: theme.palette.text.secondary,\n      fontFamily: theme.typography.fontFamily,\n      fontSize: theme.typography.pxToRem(12),\n      textAlign: 'left',\n      marginTop: 8,\n      lineHeight: '1em',\n      minHeight: '1em',\n      margin: 0,\n      '&$disabled': {\n        color: theme.palette.text.disabled\n      },\n      '&$error': {\n        color: theme.palette.error.main\n      }\n    },\n\n    /* Styles applied to the root element if `error={true}`. */\n    error: {},\n\n    /* Styles applied to the root element if `disabled={true}`. */\n    disabled: {},\n\n    /* Styles applied to the root element if `margin=\"dense\"`. */\n    marginDense: {\n      marginTop: 4\n    },\n\n    /* Styles applied to the root element if `variant=\"filled\"` or `variant=\"outlined\"`. */\n    contained: {\n      margin: '8px 12px 0'\n    },\n\n    /* Styles applied to the root element if `focused={true}`. */\n    focused: {},\n\n    /* Styles applied to the root element if `filled={true}`. */\n    filled: {},\n\n    /* Styles applied to the root element if `required={true}`. */\n    required: {}\n  };\n};\n\nexports.styles = styles;\n\nfunction FormHelperText(props) {\n  var _classNames;\n\n  var classes = props.classes,\n      classNameProp = props.className,\n      Component = props.component,\n      disabled = props.disabled,\n      error = props.error,\n      filled = props.filled,\n      focused = props.focused,\n      margin = props.margin,\n      muiFormControl = props.muiFormControl,\n      required = props.required,\n      variant = props.variant,\n      other = (0, _objectWithoutProperties2.default)(props, [\"classes\", \"className\", \"component\", \"disabled\", \"error\", \"filled\", \"focused\", \"margin\", \"muiFormControl\", \"required\", \"variant\"]);\n  var fcs = (0, _formControlState.default)({\n    props: props,\n    muiFormControl: muiFormControl,\n    states: ['variant', 'margin', 'disabled', 'error', 'filled', 'focused', 'required']\n  });\n  return _react.default.createElement(Component, (0, _extends2.default)({\n    className: (0, _classnames.default)(classes.root, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.contained, fcs.variant === 'filled' || fcs.variant === 'outlined'), (0, _defineProperty2.default)(_classNames, classes.marginDense, fcs.margin === 'dense'), (0, _defineProperty2.default)(_classNames, classes.disabled, fcs.disabled), (0, _defineProperty2.default)(_classNames, classes.error, fcs.error), (0, _defineProperty2.default)(_classNames, classes.filled, fcs.filled), (0, _defineProperty2.default)(_classNames, classes.focused, fcs.focused), (0, _defineProperty2.default)(_classNames, classes.required, fcs.required), _classNames), classNameProp)\n  }, other));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? FormHelperText.propTypes = {\n  /**\n   * The content of the component.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * @ignore\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * The component used for the root node.\n   * Either a string to use a DOM element or a component.\n   */\n  component: _utils.componentPropType,\n\n  /**\n   * If `true`, the helper text should be displayed in a disabled state.\n   */\n  disabled: _propTypes.default.bool,\n\n  /**\n   * If `true`, helper text should be displayed in an error state.\n   */\n  error: _propTypes.default.bool,\n\n  /**\n   * If `true`, the helper text should use filled classes key.\n   */\n  filled: _propTypes.default.bool,\n\n  /**\n   * If `true`, the helper text should use focused classes key.\n   */\n  focused: _propTypes.default.bool,\n\n  /**\n   * If `dense`, will adjust vertical spacing. This is normally obtained via context from\n   * FormControl.\n   */\n  margin: _propTypes.default.oneOf(['dense']),\n\n  /**\n   * @ignore\n   */\n  muiFormControl: _propTypes.default.object,\n\n  /**\n   * If `true`, the helper text should use required classes key.\n   */\n  required: _propTypes.default.bool,\n\n  /**\n   * The variant to use.\n   */\n  variant: _propTypes.default.oneOf(['standard', 'outlined', 'filled'])\n} : void 0;\nFormHelperText.defaultProps = {\n  component: 'p'\n};\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiFormHelperText'\n})((0, _withFormControlContext.default)(FormHelperText));\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../FormControl/formControlState": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/formControlState.js",
+      "../FormControl/withFormControlContext": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/withFormControlContext.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormHelperText/FormHelperText.js",
+      "hash": "fpcA/g",
+      "browserifyId": 69,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormHelperText/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _FormHelperText.default;\n  }\n});\n\nvar _FormHelperText = _interopRequireDefault(require(\"./FormHelperText\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./FormHelperText": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormHelperText/FormHelperText.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormHelperText/index.js",
+      "hash": "t9HS1w",
+      "browserifyId": 70,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormLabel/FormLabel.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _formControlState = _interopRequireDefault(require(\"../FormControl/formControlState\"));\n\nvar _withFormControlContext = _interopRequireDefault(require(\"../FormControl/withFormControlContext\"));\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar styles = function styles(theme) {\n  return {\n    /* Styles applied to the root element. */\n    root: {\n      fontFamily: theme.typography.fontFamily,\n      color: theme.palette.text.secondary,\n      fontSize: theme.typography.pxToRem(16),\n      lineHeight: 1,\n      padding: 0,\n      '&$focused': {\n        color: theme.palette.primary[theme.palette.type === 'light' ? 'dark' : 'light']\n      },\n      '&$disabled': {\n        color: theme.palette.text.disabled\n      },\n      '&$error': {\n        color: theme.palette.error.main\n      }\n    },\n\n    /* Styles applied to the root element if `focused={true}`. */\n    focused: {},\n\n    /* Styles applied to the root element if `disabled={true}`. */\n    disabled: {},\n\n    /* Styles applied to the root element if `error={true}`. */\n    error: {},\n\n    /* Styles applied to the root element if `filled={true}`. */\n    filled: {},\n\n    /* Styles applied to the root element if `required={true}`. */\n    required: {},\n    asterisk: {\n      '&$error': {\n        color: theme.palette.error.main\n      }\n    }\n  };\n};\n\nexports.styles = styles;\n\nfunction FormLabel(props) {\n  var _classNames;\n\n  var children = props.children,\n      classes = props.classes,\n      classNameProp = props.className,\n      Component = props.component,\n      disabled = props.disabled,\n      error = props.error,\n      filled = props.filled,\n      focused = props.focused,\n      muiFormControl = props.muiFormControl,\n      required = props.required,\n      other = (0, _objectWithoutProperties2.default)(props, [\"children\", \"classes\", \"className\", \"component\", \"disabled\", \"error\", \"filled\", \"focused\", \"muiFormControl\", \"required\"]);\n  var fcs = (0, _formControlState.default)({\n    props: props,\n    muiFormControl: muiFormControl,\n    states: ['required', 'focused', 'disabled', 'error', 'filled']\n  });\n  return _react.default.createElement(Component, (0, _extends2.default)({\n    className: (0, _classnames.default)(classes.root, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.disabled, fcs.disabled), (0, _defineProperty2.default)(_classNames, classes.error, fcs.error), (0, _defineProperty2.default)(_classNames, classes.filled, fcs.filled), (0, _defineProperty2.default)(_classNames, classes.focused, fcs.focused), (0, _defineProperty2.default)(_classNames, classes.required, fcs.required), _classNames), classNameProp)\n  }, other), children, fcs.required && _react.default.createElement(\"span\", {\n    className: (0, _classnames.default)(classes.asterisk, (0, _defineProperty2.default)({}, classes.error, fcs.error))\n  }, \"\\u2009*\"));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? FormLabel.propTypes = {\n  /**\n   * The content of the component.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * @ignore\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * The component used for the root node.\n   * Either a string to use a DOM element or a component.\n   */\n  component: _utils.componentPropType,\n\n  /**\n   * If `true`, the label should be displayed in a disabled state.\n   */\n  disabled: _propTypes.default.bool,\n\n  /**\n   * If `true`, the label should be displayed in an error state.\n   */\n  error: _propTypes.default.bool,\n\n  /**\n   * If `true`, the label should use filled classes key.\n   */\n  filled: _propTypes.default.bool,\n\n  /**\n   * If `true`, the input of this label is focused (used by `FormGroup` components).\n   */\n  focused: _propTypes.default.bool,\n\n  /**\n   * @ignore\n   */\n  muiFormControl: _propTypes.default.object,\n\n  /**\n   * If `true`, the label will indicate that the input is required.\n   */\n  required: _propTypes.default.bool\n} : void 0;\nFormLabel.defaultProps = {\n  component: 'label'\n};\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiFormLabel'\n})((0, _withFormControlContext.default)(FormLabel));\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../FormControl/withFormControlContext": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/withFormControlContext.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "../FormControl/formControlState": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/formControlState.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormLabel/FormLabel.js",
+      "hash": "mDyRig",
+      "browserifyId": 71,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormLabel/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _FormLabel.default;\n  }\n});\n\nvar _FormLabel = _interopRequireDefault(require(\"./FormLabel\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./FormLabel": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormLabel/FormLabel.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormLabel/index.js",
+      "hash": "j72uYA",
+      "browserifyId": 72,
       "sourcemap": ""
     }
   ],
@@ -1215,7 +1506,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Grid/Grid.js",
       "hash": "qP77Sg",
-      "browserifyId": 56,
+      "browserifyId": 73,
       "sourcemap": ""
     }
   ],
@@ -1228,7 +1519,45 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Grid/index.js",
       "hash": "ECfXWQ",
-      "browserifyId": 57,
+      "browserifyId": 74,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/Grow/Grow.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf3 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _Transition = _interopRequireDefault(require(\"react-transition-group/Transition\"));\n\nvar _withTheme = _interopRequireDefault(require(\"../styles/withTheme\"));\n\nvar _utils = require(\"../transitions/utils\");\n\n// @inheritedComponent Transition\nfunction getScale(value) {\n  return \"scale(\".concat(value, \", \").concat(Math.pow(value, 2), \")\");\n}\n\nvar styles = {\n  entering: {\n    opacity: 1,\n    transform: getScale(1)\n  },\n  entered: {\n    opacity: 1,\n    // Use translateZ to scrolling issue on Chrome.\n    transform: \"\".concat(getScale(1), \" translateZ(0)\")\n  }\n};\n/**\n * The Grow transition is used by the [Tooltip](/demos/tooltips/) and\n * [Popover](/utils/popover/) components.\n * It uses [react-transition-group](https://github.com/reactjs/react-transition-group) internally.\n */\n\nvar Grow =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inherits2.default)(Grow, _React$Component);\n\n  function Grow() {\n    var _getPrototypeOf2;\n\n    var _this;\n\n    (0, _classCallCheck2.default)(this, Grow);\n\n    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    _this = (0, _possibleConstructorReturn2.default)(this, (_getPrototypeOf2 = (0, _getPrototypeOf3.default)(Grow)).call.apply(_getPrototypeOf2, [this].concat(args)));\n\n    _this.handleEnter = function (node) {\n      var _this$props = _this.props,\n          theme = _this$props.theme,\n          timeout = _this$props.timeout;\n      (0, _utils.reflow)(node); // So the animation always start from the start.\n\n      var _getTransitionProps = (0, _utils.getTransitionProps)(_this.props, {\n        mode: 'enter'\n      }),\n          transitionDuration = _getTransitionProps.duration,\n          delay = _getTransitionProps.delay;\n\n      var duration = 0;\n\n      if (timeout === 'auto') {\n        duration = theme.transitions.getAutoHeightDuration(node.clientHeight);\n        _this.autoTimeout = duration;\n      } else {\n        duration = transitionDuration;\n      }\n\n      node.style.transition = [theme.transitions.create('opacity', {\n        duration: duration,\n        delay: delay\n      }), theme.transitions.create('transform', {\n        duration: duration * 0.666,\n        delay: delay\n      })].join(',');\n\n      if (_this.props.onEnter) {\n        _this.props.onEnter(node);\n      }\n    };\n\n    _this.handleExit = function (node) {\n      var _this$props2 = _this.props,\n          theme = _this$props2.theme,\n          timeout = _this$props2.timeout;\n      var duration = 0;\n\n      var _getTransitionProps2 = (0, _utils.getTransitionProps)(_this.props, {\n        mode: 'exit'\n      }),\n          transitionDuration = _getTransitionProps2.duration,\n          delay = _getTransitionProps2.delay;\n\n      if (timeout === 'auto') {\n        duration = theme.transitions.getAutoHeightDuration(node.clientHeight);\n        _this.autoTimeout = duration;\n      } else {\n        duration = transitionDuration;\n      }\n\n      node.style.transition = [theme.transitions.create('opacity', {\n        duration: duration,\n        delay: delay\n      }), theme.transitions.create('transform', {\n        duration: duration * 0.666,\n        delay: delay || duration * 0.333\n      })].join(',');\n      node.style.opacity = '0';\n      node.style.transform = getScale(0.75);\n\n      if (_this.props.onExit) {\n        _this.props.onExit(node);\n      }\n    };\n\n    _this.addEndListener = function (_, next) {\n      if (_this.props.timeout === 'auto') {\n        _this.timer = setTimeout(next, _this.autoTimeout || 0);\n      }\n    };\n\n    return _this;\n  }\n\n  (0, _createClass2.default)(Grow, [{\n    key: \"componentWillUnmount\",\n    value: function componentWillUnmount() {\n      clearTimeout(this.timer);\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this$props3 = this.props,\n          children = _this$props3.children,\n          onEnter = _this$props3.onEnter,\n          onExit = _this$props3.onExit,\n          styleProp = _this$props3.style,\n          theme = _this$props3.theme,\n          timeout = _this$props3.timeout,\n          other = (0, _objectWithoutProperties2.default)(_this$props3, [\"children\", \"onEnter\", \"onExit\", \"style\", \"theme\", \"timeout\"]);\n      var style = (0, _extends2.default)({}, styleProp, _react.default.isValidElement(children) ? children.props.style : {});\n      return _react.default.createElement(_Transition.default, (0, _extends2.default)({\n        appear: true,\n        onEnter: this.handleEnter,\n        onExit: this.handleExit,\n        addEndListener: this.addEndListener,\n        timeout: timeout === 'auto' ? null : timeout\n      }, other), function (state, childProps) {\n        return _react.default.cloneElement(children, (0, _extends2.default)({\n          style: (0, _extends2.default)({\n            opacity: 0,\n            transform: getScale(0.75)\n          }, styles[state], style)\n        }, childProps));\n      });\n    }\n  }]);\n  return Grow;\n}(_react.default.Component);\n\nprocess.env.NODE_ENV !== \"production\" ? Grow.propTypes = {\n  /**\n   * A single child content element.\n   */\n  children: _propTypes.default.oneOfType([_propTypes.default.element, _propTypes.default.func]),\n\n  /**\n   * If `true`, show the component; triggers the enter or exit animation.\n   */\n  in: _propTypes.default.bool,\n\n  /**\n   * @ignore\n   */\n  onEnter: _propTypes.default.func,\n\n  /**\n   * @ignore\n   */\n  onExit: _propTypes.default.func,\n\n  /**\n   * @ignore\n   */\n  style: _propTypes.default.object,\n\n  /**\n   * @ignore\n   */\n  theme: _propTypes.default.object.isRequired,\n\n  /**\n   * The duration for the transition, in milliseconds.\n   * You may specify a single timeout for all transitions, or individually with an object.\n   *\n   * Set to 'auto' to automatically calculate transition time based on height.\n   */\n  timeout: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({\n    enter: _propTypes.default.number,\n    exit: _propTypes.default.number\n  }), _propTypes.default.oneOf(['auto'])])\n} : void 0;\nGrow.defaultProps = {\n  timeout: 'auto'\n};\nGrow.muiSupportAuto = true;\n\nvar _default = (0, _withTheme.default)()(Grow);\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../styles/withTheme": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withTheme.js",
+      "../transitions/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/core/transitions/utils.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "react-transition-group/Transition": "/home/dustin/CS/recipes/node_modules/react-transition-group/Transition.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Grow/Grow.js",
+      "hash": "AlKaEQ",
+      "browserifyId": 75,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/Grow/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _Grow.default;\n  }\n});\n\nvar _Grow = _interopRequireDefault(require(\"./Grow\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./Grow": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Grow/Grow.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Grow/index.js",
+      "hash": "ZdxxEQ",
+      "browserifyId": 76,
       "sourcemap": ""
     }
   ],
@@ -1252,7 +1581,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/IconButton/IconButton.js",
       "hash": "oM6ZMQ",
-      "browserifyId": 58,
+      "browserifyId": 77,
       "sourcemap": ""
     }
   ],
@@ -1265,12 +1594,12 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/IconButton/index.js",
       "hash": "pVN8jQ",
-      "browserifyId": 59,
+      "browserifyId": 78,
       "sourcemap": ""
     }
   ],
-  "/home/dustin/CS/recipes/node_modules/@material-ui/core/List/List.js": [
-    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar _ListContext = _interopRequireDefault(require(\"./ListContext\"));\n\nvar styles = {\n  /* Styles applied to the root element. */\n  root: {\n    listStyle: 'none',\n    margin: 0,\n    padding: 0,\n    position: 'relative'\n  },\n\n  /* Styles applied to the root element if `disablePadding={false}`. */\n  padding: {\n    paddingTop: 8,\n    paddingBottom: 8\n  },\n\n  /* Styles applied to the root element if `dense={true}` & `disablePadding={false}`. */\n  dense: {\n    paddingTop: 4,\n    paddingBottom: 4\n  },\n\n  /* Styles applied to the root element if a `subheader` is provided. */\n  subheader: {\n    paddingTop: 0\n  }\n};\nexports.styles = styles;\n\nfunction List(props) {\n  var _classNames;\n\n  var children = props.children,\n      classes = props.classes,\n      className = props.className,\n      Component = props.component,\n      dense = props.dense,\n      disablePadding = props.disablePadding,\n      subheader = props.subheader,\n      other = (0, _objectWithoutProperties2.default)(props, [\"children\", \"classes\", \"className\", \"component\", \"dense\", \"disablePadding\", \"subheader\"]);\n  return _react.default.createElement(Component, (0, _extends2.default)({\n    className: (0, _classnames.default)(classes.root, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.dense, dense && !disablePadding), (0, _defineProperty2.default)(_classNames, classes.padding, !disablePadding), (0, _defineProperty2.default)(_classNames, classes.subheader, subheader), _classNames), className)\n  }, other), _react.default.createElement(_ListContext.default.Provider, {\n    value: {\n      dense: dense\n    }\n  }, subheader, children));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? List.propTypes = {\n  /**\n   * The content of the component.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * @ignore\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * The component used for the root node.\n   * Either a string to use a DOM element or a component.\n   */\n  component: _utils.componentPropType,\n\n  /**\n   * If `true`, compact vertical padding designed for keyboard and mouse input will be used for\n   * the list and list items. The property is available to descendant components as the\n   * `dense` context.\n   */\n  dense: _propTypes.default.bool,\n\n  /**\n   * If `true`, vertical padding will be removed from the list.\n   */\n  disablePadding: _propTypes.default.bool,\n\n  /**\n   * The content of the subheader, normally `ListSubheader`.\n   */\n  subheader: _propTypes.default.node\n} : void 0;\nList.defaultProps = {\n  component: 'ul',\n  dense: false,\n  disablePadding: false\n};\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiList'\n})(List);\n\nexports.default = _default;\n}).call(this,require('_process'))",
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/Input/Input.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _InputBase = _interopRequireDefault(require(\"../InputBase\"));\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\n// @inheritedComponent InputBase\nvar styles = function styles(theme) {\n  var light = theme.palette.type === 'light';\n  var bottomLineColor = light ? 'rgba(0, 0, 0, 0.42)' : 'rgba(255, 255, 255, 0.7)';\n  return {\n    /* Styles applied to the root element. */\n    root: {\n      position: 'relative'\n    },\n\n    /* Styles applied to the root element if the component is a descendant of `FormControl`. */\n    formControl: {\n      'label + &': {\n        marginTop: 16\n      }\n    },\n\n    /* Styles applied to the root element if the component is focused. */\n    focused: {},\n\n    /* Styles applied to the root element if `disabled={true}`. */\n    disabled: {},\n\n    /* Styles applied to the root element if `disableUnderline={false}`. */\n    underline: {\n      '&:after': {\n        borderBottom: \"2px solid \".concat(theme.palette.primary[light ? 'dark' : 'light']),\n        left: 0,\n        bottom: 0,\n        // Doing the other way around crash on IE 11 \"''\" https://github.com/cssinjs/jss/issues/242\n        content: '\"\"',\n        position: 'absolute',\n        right: 0,\n        transform: 'scaleX(0)',\n        transition: theme.transitions.create('transform', {\n          duration: theme.transitions.duration.shorter,\n          easing: theme.transitions.easing.easeOut\n        }),\n        pointerEvents: 'none' // Transparent to the hover style.\n\n      },\n      '&$focused:after': {\n        transform: 'scaleX(1)'\n      },\n      '&$error:after': {\n        borderBottomColor: theme.palette.error.main,\n        transform: 'scaleX(1)' // error is always underlined in red\n\n      },\n      '&:before': {\n        borderBottom: \"1px solid \".concat(bottomLineColor),\n        left: 0,\n        bottom: 0,\n        // Doing the other way around crash on IE 11 \"''\" https://github.com/cssinjs/jss/issues/242\n        content: '\"\\\\00a0\"',\n        position: 'absolute',\n        right: 0,\n        transition: theme.transitions.create('border-bottom-color', {\n          duration: theme.transitions.duration.shorter\n        }),\n        pointerEvents: 'none' // Transparent to the hover style.\n\n      },\n      '&:hover:not($disabled):not($focused):not($error):before': {\n        borderBottom: \"2px solid \".concat(theme.palette.text.primary),\n        // Reset on touch devices, it doesn't add specificity\n        '@media (hover: none)': {\n          borderBottom: \"1px solid \".concat(bottomLineColor)\n        }\n      },\n      '&$disabled:before': {\n        borderBottomStyle: 'dotted'\n      }\n    },\n\n    /* Styles applied to the root element if `error={true}`. */\n    error: {},\n\n    /* Styles applied to the root element if `multiline={true}`. */\n    multiline: {},\n\n    /* Styles applied to the root element if `fullWidth={true}`. */\n    fullWidth: {},\n\n    /* Styles applied to the `input` element. */\n    input: {},\n\n    /* Styles applied to the `input` element if `margin=\"dense\"`. */\n    inputMarginDense: {},\n\n    /* Styles applied to the `input` element if `multiline={true}`. */\n    inputMultiline: {},\n\n    /* Styles applied to the `input` element if `type` is not \"text\"`. */\n    inputType: {},\n\n    /* Styles applied to the `input` element if `type=\"search\"`. */\n    inputTypeSearch: {}\n  };\n};\n\nexports.styles = styles;\n\nfunction Input(props) {\n  var disableUnderline = props.disableUnderline,\n      classes = props.classes,\n      other = (0, _objectWithoutProperties2.default)(props, [\"disableUnderline\", \"classes\"]);\n  return _react.default.createElement(_InputBase.default, (0, _extends2.default)({\n    classes: (0, _extends2.default)({}, classes, {\n      root: (0, _classnames.default)(classes.root, (0, _defineProperty2.default)({}, classes.underline, !disableUnderline)),\n      underline: null\n    })\n  }, other));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? Input.propTypes = {\n  /**\n   * This property helps users to fill forms faster, especially on mobile devices.\n   * The name can be confusing, as it's more like an autofill.\n   * You can learn more about it here:\n   * https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill\n   */\n  autoComplete: _propTypes.default.string,\n\n  /**\n   * If `true`, the input will be focused during the first mount.\n   */\n  autoFocus: _propTypes.default.bool,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * The CSS class name of the wrapper element.\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * The default input value, useful when not controlling the component.\n   */\n  defaultValue: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object, _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object]))]),\n\n  /**\n   * If `true`, the input will be disabled.\n   */\n  disabled: _propTypes.default.bool,\n\n  /**\n   * If `true`, the input will not have an underline.\n   */\n  disableUnderline: _propTypes.default.bool,\n\n  /**\n   * End `InputAdornment` for this component.\n   */\n  endAdornment: _propTypes.default.node,\n\n  /**\n   * If `true`, the input will indicate an error. This is normally obtained via context from\n   * FormControl.\n   */\n  error: _propTypes.default.bool,\n\n  /**\n   * If `true`, the input will take up the full width of its container.\n   */\n  fullWidth: _propTypes.default.bool,\n\n  /**\n   * The id of the `input` element.\n   */\n  id: _propTypes.default.string,\n\n  /**\n   * The component used for the native input.\n   * Either a string to use a DOM element or a component.\n   */\n  inputComponent: _utils.componentPropType,\n\n  /**\n   * Attributes applied to the `input` element.\n   */\n  inputProps: _propTypes.default.object,\n\n  /**\n   * Use that property to pass a ref callback to the native input component.\n   */\n  inputRef: _propTypes.default.oneOfType([_propTypes.default.func, _propTypes.default.object]),\n\n  /**\n   * If `dense`, will adjust vertical spacing. This is normally obtained via context from\n   * FormControl.\n   */\n  margin: _propTypes.default.oneOf(['dense', 'none']),\n\n  /**\n   * If `true`, a textarea element will be rendered.\n   */\n  multiline: _propTypes.default.bool,\n\n  /**\n   * Name attribute of the `input` element.\n   */\n  name: _propTypes.default.string,\n\n  /**\n   * Callback fired when the value is changed.\n   *\n   * @param {object} event The event source of the callback.\n   * You can pull out the new value by accessing `event.target.value`.\n   */\n  onChange: _propTypes.default.func,\n\n  /**\n   * The short hint displayed in the input before the user enters a value.\n   */\n  placeholder: _propTypes.default.string,\n\n  /**\n   * It prevents the user from changing the value of the field\n   * (not from interacting with the field).\n   */\n  readOnly: _propTypes.default.bool,\n\n  /**\n   * If `true`, the input will be required.\n   */\n  required: _propTypes.default.bool,\n\n  /**\n   * Number of rows to display when multiline option is set to true.\n   */\n  rows: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),\n\n  /**\n   * Maximum number of rows to display when multiline option is set to true.\n   */\n  rowsMax: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),\n\n  /**\n   * Start `InputAdornment` for this component.\n   */\n  startAdornment: _propTypes.default.node,\n\n  /**\n   * Type of the input element. It should be a valid HTML5 input type.\n   */\n  type: _propTypes.default.string,\n\n  /**\n   * The input value, required for a controlled component.\n   */\n  value: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object, _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object]))])\n} : void 0;\n_InputBase.default.defaultProps = {\n  fullWidth: false,\n  inputComponent: 'input',\n  multiline: false,\n  type: 'text'\n};\nInput.muiName = 'Input';\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiInput'\n})(Input);\n\nexports.default = _default;\n}).call(this,require('_process'))",
     {
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
@@ -1280,14 +1609,168 @@
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "../InputBase": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/index.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Input/Input.js",
+      "hash": "HySFdw",
+      "browserifyId": 79,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/Input/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _Input.default;\n  }\n});\n\nvar _Input = _interopRequireDefault(require(\"./Input\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./Input": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Input/Input.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Input/index.js",
+      "hash": "YAt0hw",
+      "browserifyId": 80,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/InputBase.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf2 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _warning = _interopRequireDefault(require(\"warning\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _formControlState = _interopRequireDefault(require(\"../FormControl/formControlState\"));\n\nvar _FormControlContext = _interopRequireDefault(require(\"../FormControl/FormControlContext\"));\n\nvar _withFormControlContext = _interopRequireDefault(require(\"../FormControl/withFormControlContext\"));\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar _reactHelpers = require(\"../utils/reactHelpers\");\n\nvar _Textarea = _interopRequireDefault(require(\"./Textarea\"));\n\nvar _utils2 = require(\"./utils\");\n\n/* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */\nvar styles = function styles(theme) {\n  var light = theme.palette.type === 'light';\n  var placeholder = {\n    color: 'currentColor',\n    opacity: light ? 0.42 : 0.5,\n    transition: theme.transitions.create('opacity', {\n      duration: theme.transitions.duration.shorter\n    })\n  };\n  var placeholderHidden = {\n    opacity: 0\n  };\n  var placeholderVisible = {\n    opacity: light ? 0.42 : 0.5\n  };\n  return {\n    /* Styles applied to the root element. */\n    root: {\n      // Mimics the default input display property used by browsers for an input.\n      fontFamily: theme.typography.fontFamily,\n      color: theme.palette.text.primary,\n      fontSize: theme.typography.pxToRem(16),\n      lineHeight: '1.1875em',\n      // Reset (19px), match the native input line-height\n      cursor: 'text',\n      display: 'inline-flex',\n      alignItems: 'center',\n      '&$disabled': {\n        color: theme.palette.text.disabled,\n        cursor: 'default'\n      }\n    },\n\n    /* Styles applied to the root element if the component is a descendant of `FormControl`. */\n    formControl: {},\n\n    /* Styles applied to the root element if the component is focused. */\n    focused: {},\n\n    /* Styles applied to the root element if `disabled={true}`. */\n    disabled: {},\n\n    /* Styles applied to the root element if `startAdornment` is provided. */\n    adornedStart: {},\n\n    /* Styles applied to the root element if `endAdornment` is provided. */\n    adornedEnd: {},\n\n    /* Styles applied to the root element if `error={true}`. */\n    error: {},\n\n    /* Styles applied to the `input` element if `margin=\"dense\"`. */\n    marginDense: {},\n\n    /* Styles applied to the root element if `multiline={true}`. */\n    multiline: {\n      padding: \"\".concat(8 - 2, \"px 0 \").concat(8 - 1, \"px\")\n    },\n\n    /* Styles applied to the root element if `fullWidth={true}`. */\n    fullWidth: {\n      width: '100%'\n    },\n\n    /* Styles applied to the `input` element. */\n    input: {\n      font: 'inherit',\n      color: 'currentColor',\n      padding: \"\".concat(8 - 2, \"px 0 \").concat(8 - 1, \"px\"),\n      border: 0,\n      boxSizing: 'content-box',\n      background: 'none',\n      margin: 0,\n      // Reset for Safari\n      // Remove grey highlight\n      WebkitTapHighlightColor: 'transparent',\n      display: 'block',\n      // Make the flex item shrink with Firefox\n      minWidth: 0,\n      width: '100%',\n      // Fix IE 11 width issue\n      '&::-webkit-input-placeholder': placeholder,\n      '&::-moz-placeholder': placeholder,\n      // Firefox 19+\n      '&:-ms-input-placeholder': placeholder,\n      // IE 11\n      '&::-ms-input-placeholder': placeholder,\n      // Edge\n      '&:focus': {\n        outline: 0\n      },\n      // Reset Firefox invalid required input style\n      '&:invalid': {\n        boxShadow: 'none'\n      },\n      '&::-webkit-search-decoration': {\n        // Remove the padding when type=search.\n        '-webkit-appearance': 'none'\n      },\n      // Show and hide the placeholder logic\n      'label[data-shrink=false] + $formControl &': {\n        '&::-webkit-input-placeholder': placeholderHidden,\n        '&::-moz-placeholder': placeholderHidden,\n        // Firefox 19+\n        '&:-ms-input-placeholder': placeholderHidden,\n        // IE 11\n        '&::-ms-input-placeholder': placeholderHidden,\n        // Edge\n        '&:focus::-webkit-input-placeholder': placeholderVisible,\n        '&:focus::-moz-placeholder': placeholderVisible,\n        // Firefox 19+\n        '&:focus:-ms-input-placeholder': placeholderVisible,\n        // IE 11\n        '&:focus::-ms-input-placeholder': placeholderVisible // Edge\n\n      },\n      '&$disabled': {\n        opacity: 1 // Reset iOS opacity\n\n      }\n    },\n\n    /* Styles applied to the `input` element if `margin=\"dense\"`. */\n    inputMarginDense: {\n      paddingTop: 4 - 1\n    },\n\n    /* Styles applied to the `input` element if `multiline={true}`. */\n    inputMultiline: {\n      resize: 'none',\n      padding: 0\n    },\n\n    /* Styles applied to the `input` element if `type` is not \"text\"`. */\n    inputType: {\n      // type=\"date\" or type=\"time\", etc. have specific styles we need to reset.\n      height: '1.1875em' // Reset (19px), match the native input line-height\n\n    },\n\n    /* Styles applied to the `input` element if `type=\"search\"`. */\n    inputTypeSearch: {\n      // Improve type search style.\n      '-moz-appearance': 'textfield',\n      '-webkit-appearance': 'textfield'\n    },\n\n    /* Styles applied to the `input` element if `startAdornment` is provided. */\n    inputAdornedStart: {},\n\n    /* Styles applied to the `input` element if `endAdornment` is provided. */\n    inputAdornedEnd: {}\n  };\n};\n/**\n * `InputBase` contains as few styles as possible.\n * It aims to be a simple building block for creating an input.\n * It contains a load of style reset and some state logic.\n */\n\n\nexports.styles = styles;\n\nvar InputBase =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inherits2.default)(InputBase, _React$Component);\n  (0, _createClass2.default)(InputBase, null, [{\n    key: \"getDerivedStateFromProps\",\n    value: function getDerivedStateFromProps(props, state) {\n      // The blur won't fire when the disabled state is set on a focused input.\n      // We need to book keep the focused state manually.\n      if (props.disabled && state.focused) {\n        return {\n          focused: false\n        };\n      }\n\n      return null;\n    }\n  }]);\n\n  function InputBase(props) {\n    var _this;\n\n    (0, _classCallCheck2.default)(this, InputBase);\n    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(InputBase).call(this, props));\n    _this.state = {\n      focused: false\n    };\n\n    _this.handleFocus = function (event) {\n      var muiFormControl = _this.props.muiFormControl; // Fix a bug with IE 11 where the focus/blur events are triggered\n      // while the input is disabled.\n\n      if ((0, _formControlState.default)({\n        props: _this.props,\n        muiFormControl: muiFormControl,\n        states: ['disabled']\n      }).disabled) {\n        event.stopPropagation();\n        return;\n      }\n\n      _this.setState({\n        focused: true\n      });\n\n      if (_this.props.onFocus) {\n        _this.props.onFocus(event);\n      }\n\n      if (muiFormControl && muiFormControl.onFocus) {\n        muiFormControl.onFocus(event);\n      }\n    };\n\n    _this.handleBlur = function (event) {\n      _this.setState({\n        focused: false\n      });\n\n      if (_this.props.onBlur) {\n        _this.props.onBlur(event);\n      }\n\n      var muiFormControl = _this.props.muiFormControl;\n\n      if (muiFormControl && muiFormControl.onBlur) {\n        muiFormControl.onBlur(event);\n      }\n    };\n\n    _this.handleChange = function () {\n      if (!_this.isControlled) {\n        _this.checkDirty(_this.inputRef);\n      } // Perform in the willUpdate\n\n\n      if (_this.props.onChange) {\n        var _this$props;\n\n        (_this$props = _this.props).onChange.apply(_this$props, arguments);\n      }\n    };\n\n    _this.handleRefInput = function (ref) {\n      _this.inputRef = ref;\n      process.env.NODE_ENV !== \"production\" ? (0, _warning.default)(!ref || ref instanceof HTMLInputElement || ref.focus, ['Material-UI: you have provided a `inputComponent` to the input component', 'that does not correctly handle the `inputRef` property.', 'Make sure the `inputRef` property is called with a HTMLInputElement.'].join('\\n')) : void 0;\n      var refProp;\n\n      if (_this.props.inputRef) {\n        refProp = _this.props.inputRef;\n      } else if (_this.props.inputProps && _this.props.inputProps.ref) {\n        refProp = _this.props.inputProps.ref;\n      }\n\n      (0, _reactHelpers.setRef)(refProp, ref);\n    };\n\n    _this.handleClick = function (event) {\n      if (_this.inputRef && event.currentTarget === event.target) {\n        _this.inputRef.focus();\n      }\n\n      if (_this.props.onClick) {\n        _this.props.onClick(event);\n      }\n    };\n\n    _this.isControlled = props.value != null;\n\n    if (_this.isControlled) {\n      _this.checkDirty(props);\n    }\n\n    return _this;\n  }\n\n  (0, _createClass2.default)(InputBase, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      if (!this.isControlled) {\n        this.checkDirty(this.inputRef);\n      }\n    }\n  }, {\n    key: \"componentDidUpdate\",\n    value: function componentDidUpdate(prevProps) {\n      // Book keep the focused state.\n      if (!prevProps.disabled && this.props.disabled) {\n        var muiFormControl = this.props.muiFormControl;\n\n        if (muiFormControl && muiFormControl.onBlur) {\n          muiFormControl.onBlur();\n        }\n      }\n\n      if (this.isControlled) {\n        this.checkDirty(this.props);\n      } // else performed in the onChange\n\n    }\n  }, {\n    key: \"checkDirty\",\n    value: function checkDirty(obj) {\n      var muiFormControl = this.props.muiFormControl;\n\n      if ((0, _utils2.isFilled)(obj)) {\n        if (muiFormControl && muiFormControl.onFilled) {\n          muiFormControl.onFilled();\n        }\n\n        if (this.props.onFilled) {\n          this.props.onFilled();\n        }\n\n        return;\n      }\n\n      if (muiFormControl && muiFormControl.onEmpty) {\n        muiFormControl.onEmpty();\n      }\n\n      if (this.props.onEmpty) {\n        this.props.onEmpty();\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _classNames, _classNames2;\n\n      var _this$props2 = this.props,\n          autoComplete = _this$props2.autoComplete,\n          autoFocus = _this$props2.autoFocus,\n          classes = _this$props2.classes,\n          classNameProp = _this$props2.className,\n          defaultValue = _this$props2.defaultValue,\n          disabled = _this$props2.disabled,\n          endAdornment = _this$props2.endAdornment,\n          error = _this$props2.error,\n          fullWidth = _this$props2.fullWidth,\n          id = _this$props2.id,\n          inputComponent = _this$props2.inputComponent,\n          _this$props2$inputPro = _this$props2.inputProps;\n      _this$props2$inputPro = _this$props2$inputPro === void 0 ? {} : _this$props2$inputPro;\n      var inputPropsClassName = _this$props2$inputPro.className,\n          inputPropsProp = (0, _objectWithoutProperties2.default)(_this$props2$inputPro, [\"className\"]),\n          inputRef = _this$props2.inputRef,\n          margin = _this$props2.margin,\n          muiFormControl = _this$props2.muiFormControl,\n          multiline = _this$props2.multiline,\n          name = _this$props2.name,\n          onBlur = _this$props2.onBlur,\n          onChange = _this$props2.onChange,\n          onClick = _this$props2.onClick,\n          onEmpty = _this$props2.onEmpty,\n          onFilled = _this$props2.onFilled,\n          onFocus = _this$props2.onFocus,\n          onKeyDown = _this$props2.onKeyDown,\n          onKeyUp = _this$props2.onKeyUp,\n          placeholder = _this$props2.placeholder,\n          readOnly = _this$props2.readOnly,\n          renderPrefix = _this$props2.renderPrefix,\n          rows = _this$props2.rows,\n          rowsMax = _this$props2.rowsMax,\n          startAdornment = _this$props2.startAdornment,\n          type = _this$props2.type,\n          value = _this$props2.value,\n          other = (0, _objectWithoutProperties2.default)(_this$props2, [\"autoComplete\", \"autoFocus\", \"classes\", \"className\", \"defaultValue\", \"disabled\", \"endAdornment\", \"error\", \"fullWidth\", \"id\", \"inputComponent\", \"inputProps\", \"inputRef\", \"margin\", \"muiFormControl\", \"multiline\", \"name\", \"onBlur\", \"onChange\", \"onClick\", \"onEmpty\", \"onFilled\", \"onFocus\", \"onKeyDown\", \"onKeyUp\", \"placeholder\", \"readOnly\", \"renderPrefix\", \"rows\", \"rowsMax\", \"startAdornment\", \"type\", \"value\"]);\n      var ariaDescribedby = other['aria-describedby'];\n      delete other['aria-describedby'];\n      var fcs = (0, _formControlState.default)({\n        props: this.props,\n        muiFormControl: muiFormControl,\n        states: ['disabled', 'error', 'margin', 'required', 'filled']\n      });\n      var focused = muiFormControl ? muiFormControl.focused : this.state.focused;\n      var className = (0, _classnames.default)(classes.root, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.disabled, fcs.disabled), (0, _defineProperty2.default)(_classNames, classes.error, fcs.error), (0, _defineProperty2.default)(_classNames, classes.fullWidth, fullWidth), (0, _defineProperty2.default)(_classNames, classes.focused, focused), (0, _defineProperty2.default)(_classNames, classes.formControl, muiFormControl), (0, _defineProperty2.default)(_classNames, classes.marginDense, fcs.margin === 'dense'), (0, _defineProperty2.default)(_classNames, classes.multiline, multiline), (0, _defineProperty2.default)(_classNames, classes.adornedStart, startAdornment), (0, _defineProperty2.default)(_classNames, classes.adornedEnd, endAdornment), _classNames), classNameProp);\n      var inputClassName = (0, _classnames.default)(classes.input, (_classNames2 = {}, (0, _defineProperty2.default)(_classNames2, classes.disabled, fcs.disabled), (0, _defineProperty2.default)(_classNames2, classes.inputType, type !== 'text'), (0, _defineProperty2.default)(_classNames2, classes.inputTypeSearch, type === 'search'), (0, _defineProperty2.default)(_classNames2, classes.inputMultiline, multiline), (0, _defineProperty2.default)(_classNames2, classes.inputMarginDense, fcs.margin === 'dense'), (0, _defineProperty2.default)(_classNames2, classes.inputAdornedStart, startAdornment), (0, _defineProperty2.default)(_classNames2, classes.inputAdornedEnd, endAdornment), _classNames2), inputPropsClassName);\n      var InputComponent = inputComponent;\n      var inputProps = (0, _extends2.default)({}, inputPropsProp, {\n        ref: this.handleRefInput\n      });\n\n      if (typeof InputComponent !== 'string') {\n        inputProps = (0, _extends2.default)({\n          // Rename ref to inputRef as we don't know the\n          // provided `inputComponent` structure.\n          inputRef: this.handleRefInput,\n          type: type\n        }, inputProps, {\n          ref: null\n        });\n      } else if (multiline) {\n        if (rows && !rowsMax) {\n          InputComponent = 'textarea';\n        } else {\n          inputProps = (0, _extends2.default)({\n            rowsMax: rowsMax,\n            textareaRef: this.handleRefInput\n          }, inputProps, {\n            ref: null\n          });\n          InputComponent = _Textarea.default;\n        }\n      } else {\n        inputProps = (0, _extends2.default)({\n          type: type\n        }, inputProps);\n      }\n\n      return _react.default.createElement(\"div\", (0, _extends2.default)({\n        className: className,\n        onClick: this.handleClick\n      }, other), renderPrefix ? renderPrefix((0, _extends2.default)({}, fcs, {\n        startAdornment: startAdornment,\n        focused: focused\n      })) : null, startAdornment, _react.default.createElement(_FormControlContext.default.Provider, {\n        value: null\n      }, _react.default.createElement(InputComponent, (0, _extends2.default)({\n        \"aria-invalid\": fcs.error,\n        \"aria-describedby\": ariaDescribedby,\n        autoComplete: autoComplete,\n        autoFocus: autoFocus,\n        className: inputClassName,\n        defaultValue: defaultValue,\n        disabled: fcs.disabled,\n        id: id,\n        name: name,\n        onBlur: this.handleBlur,\n        onChange: this.handleChange,\n        onFocus: this.handleFocus,\n        onKeyDown: onKeyDown,\n        onKeyUp: onKeyUp,\n        placeholder: placeholder,\n        readOnly: readOnly,\n        required: fcs.required,\n        rows: rows,\n        value: value\n      }, inputProps))), endAdornment);\n    }\n  }]);\n  return InputBase;\n}(_react.default.Component);\n\nprocess.env.NODE_ENV !== \"production\" ? InputBase.propTypes = {\n  /**\n   * This property helps users to fill forms faster, especially on mobile devices.\n   * The name can be confusing, as it's more like an autofill.\n   * You can learn more about it here:\n   * https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill\n   */\n  autoComplete: _propTypes.default.string,\n\n  /**\n   * If `true`, the input will be focused during the first mount.\n   */\n  autoFocus: _propTypes.default.bool,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * The CSS class name of the wrapper element.\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * The default input value, useful when not controlling the component.\n   */\n  defaultValue: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object, _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object]))]),\n\n  /**\n   * If `true`, the input will be disabled.\n   */\n  disabled: _propTypes.default.bool,\n\n  /**\n   * End `InputAdornment` for this component.\n   */\n  endAdornment: _propTypes.default.node,\n\n  /**\n   * If `true`, the input will indicate an error. This is normally obtained via context from\n   * FormControl.\n   */\n  error: _propTypes.default.bool,\n\n  /**\n   * If `true`, the input will take up the full width of its container.\n   */\n  fullWidth: _propTypes.default.bool,\n\n  /**\n   * The id of the `input` element.\n   */\n  id: _propTypes.default.string,\n\n  /**\n   * The component used for the native input.\n   * Either a string to use a DOM element or a component.\n   */\n  inputComponent: _utils.componentPropType,\n\n  /**\n   * Attributes applied to the `input` element.\n   */\n  inputProps: _propTypes.default.object,\n\n  /**\n   * Use that property to pass a ref callback to the native input component.\n   */\n  inputRef: _propTypes.default.oneOfType([_propTypes.default.func, _propTypes.default.object]),\n\n  /**\n   * If `dense`, will adjust vertical spacing. This is normally obtained via context from\n   * FormControl.\n   */\n  margin: _propTypes.default.oneOf(['dense', 'none']),\n\n  /**\n   * @ignore\n   */\n  muiFormControl: _propTypes.default.object,\n\n  /**\n   * If `true`, a textarea element will be rendered.\n   */\n  multiline: _propTypes.default.bool,\n\n  /**\n   * Name attribute of the `input` element.\n   */\n  name: _propTypes.default.string,\n\n  /**\n   * @ignore\n   */\n  onBlur: _propTypes.default.func,\n\n  /**\n   * Callback fired when the value is changed.\n   *\n   * @param {object} event The event source of the callback.\n   * You can pull out the new value by accessing `event.target.value`.\n   */\n  onChange: _propTypes.default.func,\n\n  /**\n   * @ignore\n   */\n  onClick: _propTypes.default.func,\n\n  /**\n   * @ignore\n   */\n  onEmpty: _propTypes.default.func,\n\n  /**\n   * @ignore\n   */\n  onFilled: _propTypes.default.func,\n\n  /**\n   * @ignore\n   */\n  onFocus: _propTypes.default.func,\n\n  /**\n   * @ignore\n   */\n  onKeyDown: _propTypes.default.func,\n\n  /**\n   * @ignore\n   */\n  onKeyUp: _propTypes.default.func,\n\n  /**\n   * The short hint displayed in the input before the user enters a value.\n   */\n  placeholder: _propTypes.default.string,\n\n  /**\n   * It prevents the user from changing the value of the field\n   * (not from interacting with the field).\n   */\n  readOnly: _propTypes.default.bool,\n\n  /**\n   * @ignore\n   */\n  renderPrefix: _propTypes.default.func,\n\n  /**\n   * If `true`, the input will be required.\n   */\n  required: _propTypes.default.bool,\n\n  /**\n   * Number of rows to display when multiline option is set to true.\n   */\n  rows: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),\n\n  /**\n   * Maximum number of rows to display when multiline option is set to true.\n   */\n  rowsMax: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),\n\n  /**\n   * Start `InputAdornment` for this component.\n   */\n  startAdornment: _propTypes.default.node,\n\n  /**\n   * Type of the input element. It should be a valid HTML5 input type.\n   */\n  type: _propTypes.default.string,\n\n  /**\n   * The input value, required for a controlled component.\n   */\n  value: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object, _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object]))])\n} : void 0;\nInputBase.defaultProps = {\n  fullWidth: false,\n  inputComponent: 'input',\n  multiline: false,\n  type: 'text'\n};\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiInputBase'\n})((0, _withFormControlContext.default)(InputBase));\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../FormControl/formControlState": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/formControlState.js",
+      "../FormControl/FormControlContext": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/FormControlContext.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "../FormControl/withFormControlContext": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/withFormControlContext.js",
+      "../utils/reactHelpers": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/reactHelpers.js",
+      "./utils": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/utils.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "./Textarea": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/Textarea.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/InputBase.js",
+      "hash": "EmjQ9w",
+      "browserifyId": 81,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/Textarea.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf2 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _debounce = _interopRequireDefault(require(\"debounce\"));\n\nvar _reactEventListener = _interopRequireDefault(require(\"react-event-listener\"));\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar _reactHelpers = require(\"../utils/reactHelpers\");\n\n// < 1kb payload overhead when lodash/debounce is > 3kb.\nvar ROWS_HEIGHT = 19;\nvar styles = {\n  /* Styles applied to the root element. */\n  root: {\n    position: 'relative',\n    // because the shadow has position: 'absolute',\n    width: '100%'\n  },\n  textarea: {\n    width: '100%',\n    height: '100%',\n    resize: 'none',\n    font: 'inherit',\n    padding: 0,\n    cursor: 'inherit',\n    boxSizing: 'border-box',\n    lineHeight: 'inherit',\n    border: 'none',\n    outline: 'none',\n    background: 'transparent'\n  },\n  shadow: {\n    // Overflow also needed to here to remove the extra row\n    // added to textareas in Firefox.\n    overflow: 'hidden',\n    // Visibility needed to hide the extra text area on iPads\n    visibility: 'hidden',\n    position: 'absolute',\n    height: 'auto',\n    whiteSpace: 'pre-wrap'\n  }\n};\n/**\n * @ignore - internal component.\n */\n\nexports.styles = styles;\n\nvar Textarea =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inherits2.default)(Textarea, _React$Component);\n\n  function Textarea(props) {\n    var _this;\n\n    (0, _classCallCheck2.default)(this, Textarea);\n    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Textarea).call(this));\n\n    _this.handleRefInput = function (ref) {\n      _this.inputRef = ref;\n      (0, _reactHelpers.setRef)(_this.props.textareaRef, ref);\n    };\n\n    _this.handleRefSinglelineShadow = function (ref) {\n      _this.singlelineShadowRef = ref;\n    };\n\n    _this.handleRefShadow = function (ref) {\n      _this.shadowRef = ref;\n    };\n\n    _this.handleChange = function (event) {\n      _this.value = event.target.value;\n\n      if (!_this.isControlled) {\n        // The component is not controlled, we need to update the shallow value.\n        _this.shadowRef.value = _this.value;\n\n        _this.syncHeightWithShadow();\n      }\n\n      if (_this.props.onChange) {\n        _this.props.onChange(event);\n      }\n    };\n\n    _this.isControlled = props.value != null; // <Input> expects the components it renders to respond to 'value'\n    // so that it can check whether they are filled.\n\n    _this.value = props.value || props.defaultValue || '';\n    _this.state = {\n      height: Number(props.rows) * ROWS_HEIGHT\n    };\n\n    if (typeof window !== 'undefined') {\n      _this.handleResize = (0, _debounce.default)(function () {\n        _this.syncHeightWithShadow();\n      }, 166); // Corresponds to 10 frames at 60 Hz.\n    }\n\n    return _this;\n  }\n\n  (0, _createClass2.default)(Textarea, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      this.syncHeightWithShadow();\n    }\n  }, {\n    key: \"componentDidUpdate\",\n    value: function componentDidUpdate() {\n      this.syncHeightWithShadow();\n    }\n  }, {\n    key: \"componentWillUnmount\",\n    value: function componentWillUnmount() {\n      this.handleResize.clear();\n    }\n  }, {\n    key: \"syncHeightWithShadow\",\n    value: function syncHeightWithShadow() {\n      var props = this.props; // Guarding for **broken** shallow rendering method that call componentDidMount\n      // but doesn't handle refs correctly.\n      // To remove once the shallow rendering has been fixed.\n\n      if (!this.shadowRef) {\n        return;\n      }\n\n      if (this.isControlled) {\n        // The component is controlled, we need to update the shallow value.\n        this.shadowRef.value = props.value == null ? '' : String(props.value);\n      }\n\n      var lineHeight = this.singlelineShadowRef.scrollHeight; // The Textarea might not be visible (p.ex: display: none).\n      // In this case, the layout values read from the DOM will be 0.\n\n      lineHeight = lineHeight === 0 ? ROWS_HEIGHT : lineHeight;\n      var newHeight = this.shadowRef.scrollHeight; // Guarding for jsdom, where scrollHeight isn't present.\n      // See https://github.com/tmpvar/jsdom/issues/1013\n\n      if (newHeight === undefined) {\n        return;\n      }\n\n      if (Number(props.rowsMax) >= Number(props.rows)) {\n        newHeight = Math.min(Number(props.rowsMax) * lineHeight, newHeight);\n      }\n\n      newHeight = Math.max(newHeight, lineHeight); // Need a large enough different to update the height.\n      // This prevents infinite rendering loop.\n\n      if (Math.abs(this.state.height - newHeight) > 1) {\n        this.setState({\n          height: newHeight\n        });\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this$props = this.props,\n          classes = _this$props.classes,\n          className = _this$props.className,\n          defaultValue = _this$props.defaultValue,\n          onChange = _this$props.onChange,\n          rows = _this$props.rows,\n          rowsMax = _this$props.rowsMax,\n          style = _this$props.style,\n          textareaRef = _this$props.textareaRef,\n          value = _this$props.value,\n          other = (0, _objectWithoutProperties2.default)(_this$props, [\"classes\", \"className\", \"defaultValue\", \"onChange\", \"rows\", \"rowsMax\", \"style\", \"textareaRef\", \"value\"]);\n      return _react.default.createElement(\"div\", {\n        className: classes.root\n      }, _react.default.createElement(_reactEventListener.default, {\n        target: \"window\",\n        onResize: this.handleResize\n      }), _react.default.createElement(\"textarea\", {\n        \"aria-hidden\": \"true\",\n        className: (0, _classnames.default)(classes.textarea, classes.shadow),\n        readOnly: true,\n        ref: this.handleRefSinglelineShadow,\n        rows: \"1\",\n        tabIndex: -1,\n        value: \"\"\n      }), _react.default.createElement(\"textarea\", {\n        \"aria-hidden\": \"true\",\n        className: (0, _classnames.default)(classes.textarea, classes.shadow),\n        defaultValue: defaultValue,\n        readOnly: true,\n        ref: this.handleRefShadow,\n        rows: rows,\n        tabIndex: -1,\n        value: value\n      }), _react.default.createElement(\"textarea\", (0, _extends2.default)({\n        rows: rows,\n        className: (0, _classnames.default)(classes.textarea, className),\n        defaultValue: defaultValue,\n        value: value,\n        onChange: this.handleChange,\n        ref: this.handleRefInput,\n        style: (0, _extends2.default)({\n          height: this.state.height\n        }, style)\n      }, other)));\n    }\n  }]);\n  return Textarea;\n}(_react.default.Component);\n\nprocess.env.NODE_ENV !== \"production\" ? Textarea.propTypes = {\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * @ignore\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * @ignore\n   */\n  defaultValue: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),\n\n  /**\n   * @ignore\n   */\n  disabled: _propTypes.default.bool,\n\n  /**\n   * @ignore\n   */\n  onChange: _propTypes.default.func,\n\n  /**\n   * Number of rows to display when multiline option is set to true.\n   */\n  rows: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),\n\n  /**\n   * Maximum number of rows to display when multiline option is set to true.\n   */\n  rowsMax: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),\n\n  /**\n   * @ignore\n   */\n  style: _propTypes.default.object,\n\n  /**\n   * Use that property to pass a ref callback to the native textarea element.\n   */\n  textareaRef: _propTypes.default.oneOfType([_propTypes.default.func, _propTypes.default.object]),\n\n  /**\n   * @ignore\n   */\n  value: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number])\n} : void 0;\nTextarea.defaultProps = {\n  rows: 1\n};\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiPrivateTextarea'\n})(Textarea);\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "../utils/reactHelpers": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/reactHelpers.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "debounce": "/home/dustin/CS/recipes/node_modules/debounce/index.js",
+      "react-event-listener": "/home/dustin/CS/recipes/node_modules/react-event-listener/dist/react-event-listener.cjs.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/Textarea.js",
+      "hash": "DAvoVw",
+      "browserifyId": 82,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _InputBase.default;\n  }\n});\n\nvar _InputBase = _interopRequireDefault(require(\"./InputBase\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./InputBase": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/InputBase.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/index.js",
+      "hash": "utdeBw",
+      "browserifyId": 83,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/utils.js": [
+    "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.hasValue = hasValue;\nexports.isFilled = isFilled;\nexports.isAdornedStart = isAdornedStart;\n\n// Supports determination of isControlled().\n// Controlled input accepts its current value as a prop.\n//\n// @see https://facebook.github.io/react/docs/forms.html#controlled-components\n// @param value\n// @returns {boolean} true if string (including '') or number (including zero)\nfunction hasValue(value) {\n  return value != null && !(Array.isArray(value) && value.length === 0);\n} // Determine if field is empty or filled.\n// Response determines if label is presented above field or as placeholder.\n//\n// @param obj\n// @param SSR\n// @returns {boolean} False when not present or empty string.\n//                    True when any number or string with length.\n\n\nfunction isFilled(obj) {\n  var SSR = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;\n  return obj && (hasValue(obj.value) && obj.value !== '' || SSR && hasValue(obj.defaultValue) && obj.defaultValue !== '');\n} // Determine if an Input is adorned on start.\n// It's corresponding to the left with LTR.\n//\n// @param obj\n// @returns {boolean} False when no adornments.\n//                    True when adorned at the start.\n\n\nfunction isAdornedStart(obj) {\n  return obj.startAdornment;\n}",
+    {},
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/utils.js",
+      "hash": "+fKHVA",
+      "browserifyId": 84,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputLabel/InputLabel.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _formControlState = _interopRequireDefault(require(\"../FormControl/formControlState\"));\n\nvar _withFormControlContext = _interopRequireDefault(require(\"../FormControl/withFormControlContext\"));\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar _FormLabel = _interopRequireDefault(require(\"../FormLabel\"));\n\n// @inheritedComponent FormLabel\nvar styles = function styles(theme) {\n  return {\n    /* Styles applied to the root element. */\n    root: {\n      transformOrigin: 'top left'\n    },\n\n    /* Styles applied to the root element if `focused={true}`. */\n    focused: {},\n\n    /* Styles applied to the root element if `disabled={true}`. */\n    disabled: {},\n\n    /* Styles applied to the root element if `error={true}`. */\n    error: {},\n\n    /* Styles applied to the root element if `required={true}`. */\n    required: {},\n\n    /* Styles applied to the root element if the component is a descendant of `FormControl`. */\n    formControl: {\n      position: 'absolute',\n      left: 0,\n      top: 0,\n      // slight alteration to spec spacing to match visual spec result\n      transform: 'translate(0, 24px) scale(1)'\n    },\n\n    /* Styles applied to the root element if `margin=\"dense\"`. */\n    marginDense: {\n      // Compensation for the `Input.inputDense` style.\n      transform: 'translate(0, 21px) scale(1)'\n    },\n\n    /* Styles applied to the `input` element if `shrink={true}`. */\n    shrink: {\n      transform: 'translate(0, 1.5px) scale(0.75)',\n      transformOrigin: 'top left'\n    },\n\n    /* Styles applied to the `input` element if `disableAnimation={false}`. */\n    animated: {\n      transition: theme.transitions.create(['color', 'transform'], {\n        duration: theme.transitions.duration.shorter,\n        easing: theme.transitions.easing.easeOut\n      })\n    },\n\n    /* Styles applied to the root element if `variant=\"filled\"`. */\n    filled: {\n      // Chrome's autofill feature gives the input field a yellow background.\n      // Since the input field is behind the label in the HTML tree,\n      // the input field is drawn last and hides the label with an opaque background color.\n      // zIndex: 1 will raise the label above opaque background-colors of input.\n      zIndex: 1,\n      pointerEvents: 'none',\n      transform: 'translate(12px, 20px) scale(1)',\n      '&$marginDense': {\n        transform: 'translate(12px, 17px) scale(1)'\n      },\n      '&$shrink': {\n        transform: 'translate(12px, 10px) scale(0.75)',\n        '&$marginDense': {\n          transform: 'translate(12px, 7px) scale(0.75)'\n        }\n      }\n    },\n\n    /* Styles applied to the root element if `variant=\"outlined\"`. */\n    outlined: {\n      // see comment above on filled.zIndex\n      zIndex: 1,\n      pointerEvents: 'none',\n      transform: 'translate(14px, 20px) scale(1)',\n      '&$marginDense': {\n        transform: 'translate(14px, 17px) scale(1)'\n      },\n      '&$shrink': {\n        transform: 'translate(14px, -6px) scale(0.75)'\n      }\n    }\n  };\n};\n\nexports.styles = styles;\n\nfunction InputLabel(props) {\n  var _classNames;\n\n  var children = props.children,\n      classes = props.classes,\n      classNameProp = props.className,\n      disableAnimation = props.disableAnimation,\n      FormLabelClasses = props.FormLabelClasses,\n      margin = props.margin,\n      muiFormControl = props.muiFormControl,\n      shrinkProp = props.shrink,\n      variant = props.variant,\n      other = (0, _objectWithoutProperties2.default)(props, [\"children\", \"classes\", \"className\", \"disableAnimation\", \"FormLabelClasses\", \"margin\", \"muiFormControl\", \"shrink\", \"variant\"]);\n  var shrink = shrinkProp;\n\n  if (typeof shrink === 'undefined' && muiFormControl) {\n    shrink = muiFormControl.filled || muiFormControl.focused || muiFormControl.adornedStart;\n  }\n\n  var fcs = (0, _formControlState.default)({\n    props: props,\n    muiFormControl: muiFormControl,\n    states: ['margin', 'variant']\n  });\n  var className = (0, _classnames.default)(classes.root, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.formControl, muiFormControl), (0, _defineProperty2.default)(_classNames, classes.animated, !disableAnimation), (0, _defineProperty2.default)(_classNames, classes.shrink, shrink), (0, _defineProperty2.default)(_classNames, classes.marginDense, fcs.margin === 'dense'), (0, _defineProperty2.default)(_classNames, classes.filled, fcs.variant === 'filled'), (0, _defineProperty2.default)(_classNames, classes.outlined, fcs.variant === 'outlined'), _classNames), classNameProp);\n  return _react.default.createElement(_FormLabel.default, (0, _extends2.default)({\n    \"data-shrink\": shrink,\n    className: className,\n    classes: (0, _extends2.default)({\n      focused: classes.focused,\n      disabled: classes.disabled,\n      error: classes.error,\n      required: classes.required\n    }, FormLabelClasses)\n  }, other), children);\n}\n\nprocess.env.NODE_ENV !== \"production\" ? InputLabel.propTypes = {\n  /**\n   * The contents of the `InputLabel`.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * @ignore\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * If `true`, the transition animation is disabled.\n   */\n  disableAnimation: _propTypes.default.bool,\n\n  /**\n   * If `true`, apply disabled class.\n   */\n  disabled: _propTypes.default.bool,\n\n  /**\n   * If `true`, the label will be displayed in an error state.\n   */\n  error: _propTypes.default.bool,\n\n  /**\n   * If `true`, the input of this label is focused.\n   */\n  focused: _propTypes.default.bool,\n\n  /**\n   * `classes` property applied to the [`FormLabel`](/api/form-label/) element.\n   */\n  FormLabelClasses: _propTypes.default.object,\n\n  /**\n   * If `dense`, will adjust vertical spacing. This is normally obtained via context from\n   * FormControl.\n   */\n  margin: _propTypes.default.oneOf(['dense']),\n\n  /**\n   * @ignore\n   */\n  muiFormControl: _propTypes.default.object,\n\n  /**\n   * if `true`, the label will indicate that the input is required.\n   */\n  required: _propTypes.default.bool,\n\n  /**\n   * If `true`, the label is shrunk.\n   */\n  shrink: _propTypes.default.bool,\n\n  /**\n   * The variant to use.\n   */\n  variant: _propTypes.default.oneOf(['standard', 'outlined', 'filled'])\n} : void 0;\nInputLabel.defaultProps = {\n  disableAnimation: false\n};\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiInputLabel'\n})((0, _withFormControlContext.default)(InputLabel));\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "../FormControl/formControlState": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/formControlState.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "../FormControl/withFormControlContext": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/withFormControlContext.js",
+      "../FormLabel": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormLabel/index.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputLabel/InputLabel.js",
+      "hash": "WmTG1Q",
+      "browserifyId": 85,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputLabel/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _InputLabel.default;\n  }\n});\n\nvar _InputLabel = _interopRequireDefault(require(\"./InputLabel\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./InputLabel": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputLabel/InputLabel.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputLabel/index.js",
+      "hash": "v+XC8g",
+      "browserifyId": 86,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/List/List.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar _ListContext = _interopRequireDefault(require(\"./ListContext\"));\n\nvar styles = {\n  /* Styles applied to the root element. */\n  root: {\n    listStyle: 'none',\n    margin: 0,\n    padding: 0,\n    position: 'relative'\n  },\n\n  /* Styles applied to the root element if `disablePadding={false}`. */\n  padding: {\n    paddingTop: 8,\n    paddingBottom: 8\n  },\n\n  /* Styles applied to the root element if `dense={true}` & `disablePadding={false}`. */\n  dense: {\n    paddingTop: 4,\n    paddingBottom: 4\n  },\n\n  /* Styles applied to the root element if a `subheader` is provided. */\n  subheader: {\n    paddingTop: 0\n  }\n};\nexports.styles = styles;\n\nfunction List(props) {\n  var _classNames;\n\n  var children = props.children,\n      classes = props.classes,\n      className = props.className,\n      Component = props.component,\n      dense = props.dense,\n      disablePadding = props.disablePadding,\n      subheader = props.subheader,\n      other = (0, _objectWithoutProperties2.default)(props, [\"children\", \"classes\", \"className\", \"component\", \"dense\", \"disablePadding\", \"subheader\"]);\n  return _react.default.createElement(Component, (0, _extends2.default)({\n    className: (0, _classnames.default)(classes.root, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.dense, dense && !disablePadding), (0, _defineProperty2.default)(_classNames, classes.padding, !disablePadding), (0, _defineProperty2.default)(_classNames, classes.subheader, subheader), _classNames), className)\n  }, other), _react.default.createElement(_ListContext.default.Provider, {\n    value: {\n      dense: dense\n    }\n  }, subheader, children));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? List.propTypes = {\n  /**\n   * The content of the component.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * @ignore\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * The component used for the root node.\n   * Either a string to use a DOM element or a component.\n   */\n  component: _utils.componentPropType,\n\n  /**\n   * If `true`, compact vertical padding designed for keyboard and mouse input will be used for\n   * the list and list items. The property is available to descendant components as the\n   * `dense` context.\n   */\n  dense: _propTypes.default.bool,\n\n  /**\n   * If `true`, vertical padding will be removed from the list.\n   */\n  disablePadding: _propTypes.default.bool,\n\n  /**\n   * The content of the subheader, normally `ListSubheader`.\n   */\n  subheader: _propTypes.default.node\n} : void 0;\nList.defaultProps = {\n  component: 'ul',\n  dense: false,\n  disablePadding: false\n};\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiList'\n})(List);\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "./ListContext": "/home/dustin/CS/recipes/node_modules/@material-ui/core/List/ListContext.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/List/List.js",
       "hash": "sTjIFg",
-      "browserifyId": 60,
+      "browserifyId": 87,
       "sourcemap": ""
     }
   ],
@@ -1300,7 +1783,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/List/ListContext.js",
       "hash": "TYryqA",
-      "browserifyId": 61,
+      "browserifyId": 88,
       "sourcemap": ""
     }
   ],
@@ -1313,7 +1796,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/List/index.js",
       "hash": "DLbCfA",
-      "browserifyId": 62,
+      "browserifyId": 89,
       "sourcemap": ""
     }
   ],
@@ -1327,8 +1810,8 @@
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "../utils/reactHelpers": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/reactHelpers.js",
@@ -1337,7 +1820,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ListItem/ListItem.js",
       "hash": "FG+7WA",
-      "browserifyId": 63,
+      "browserifyId": 90,
       "sourcemap": ""
     }
   ],
@@ -1346,14 +1829,14 @@
     {
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "../List/ListContext": "/home/dustin/CS/recipes/node_modules/@material-ui/core/List/ListContext.js",
-      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ListItem/MergeListContext.js",
       "hash": "N/DrGA",
-      "browserifyId": 64,
+      "browserifyId": 91,
       "sourcemap": ""
     }
   ],
@@ -1366,7 +1849,73 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/ListItem/index.js",
       "hash": "2ZI8Yg",
-      "browserifyId": 65,
+      "browserifyId": 92,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/Menu/Menu.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf3 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _reactDom = _interopRequireDefault(require(\"react-dom\"));\n\nvar _scrollbarSize = _interopRequireDefault(require(\"dom-helpers/util/scrollbarSize\"));\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar _Popover = _interopRequireDefault(require(\"../Popover\"));\n\nvar _MenuList = _interopRequireDefault(require(\"../MenuList\"));\n\n// @inheritedComponent Popover\nvar RTL_ORIGIN = {\n  vertical: 'top',\n  horizontal: 'right'\n};\nvar LTR_ORIGIN = {\n  vertical: 'top',\n  horizontal: 'left'\n};\nvar styles = {\n  /* Styles applied to the `Paper` component. */\n  paper: {\n    // specZ: The maximum height of a simple menu should be one or more rows less than the view\n    // height. This ensures a tapable area outside of the simple menu with which to dismiss\n    // the menu.\n    maxHeight: 'calc(100% - 96px)',\n    // Add iOS momentum scrolling.\n    WebkitOverflowScrolling: 'touch'\n  }\n};\nexports.styles = styles;\n\nvar Menu =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inherits2.default)(Menu, _React$Component);\n\n  function Menu() {\n    var _getPrototypeOf2;\n\n    var _this;\n\n    (0, _classCallCheck2.default)(this, Menu);\n\n    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    _this = (0, _possibleConstructorReturn2.default)(this, (_getPrototypeOf2 = (0, _getPrototypeOf3.default)(Menu)).call.apply(_getPrototypeOf2, [this].concat(args)));\n\n    _this.getContentAnchorEl = function () {\n      if (_this.menuListRef.selectedItemRef) {\n        return _reactDom.default.findDOMNode(_this.menuListRef.selectedItemRef);\n      }\n\n      return _reactDom.default.findDOMNode(_this.menuListRef).firstChild;\n    };\n\n    _this.focus = function () {\n      if (_this.menuListRef && _this.menuListRef.selectedItemRef) {\n        _reactDom.default.findDOMNode(_this.menuListRef.selectedItemRef).focus();\n\n        return;\n      }\n\n      var menuList = _reactDom.default.findDOMNode(_this.menuListRef);\n\n      if (menuList && menuList.firstChild) {\n        menuList.firstChild.focus();\n      }\n    };\n\n    _this.handleMenuListRef = function (ref) {\n      _this.menuListRef = ref;\n    };\n\n    _this.handleEntering = function (element) {\n      var _this$props = _this.props,\n          disableAutoFocusItem = _this$props.disableAutoFocusItem,\n          theme = _this$props.theme;\n\n      var menuList = _reactDom.default.findDOMNode(_this.menuListRef); // Focus so the scroll computation of the Popover works as expected.\n\n\n      if (disableAutoFocusItem !== true) {\n        _this.focus();\n      } // Let's ignore that piece of logic if users are already overriding the width\n      // of the menu.\n\n\n      if (menuList && element.clientHeight < menuList.clientHeight && !menuList.style.width) {\n        var size = \"\".concat((0, _scrollbarSize.default)(), \"px\");\n        menuList.style[theme.direction === 'rtl' ? 'paddingLeft' : 'paddingRight'] = size;\n        menuList.style.width = \"calc(100% + \".concat(size, \")\");\n      }\n\n      if (_this.props.onEntering) {\n        _this.props.onEntering(element);\n      }\n    };\n\n    _this.handleListKeyDown = function (event) {\n      if (event.key === 'Tab') {\n        event.preventDefault();\n\n        if (_this.props.onClose) {\n          _this.props.onClose(event, 'tabKeyDown');\n        }\n      }\n    };\n\n    return _this;\n  }\n\n  (0, _createClass2.default)(Menu, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      if (this.props.open && this.props.disableAutoFocusItem !== true) {\n        this.focus();\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this$props2 = this.props,\n          children = _this$props2.children,\n          classes = _this$props2.classes,\n          disableAutoFocusItem = _this$props2.disableAutoFocusItem,\n          MenuListProps = _this$props2.MenuListProps,\n          onEntering = _this$props2.onEntering,\n          _this$props2$PaperPro = _this$props2.PaperProps,\n          PaperProps = _this$props2$PaperPro === void 0 ? {} : _this$props2$PaperPro,\n          PopoverClasses = _this$props2.PopoverClasses,\n          theme = _this$props2.theme,\n          other = (0, _objectWithoutProperties2.default)(_this$props2, [\"children\", \"classes\", \"disableAutoFocusItem\", \"MenuListProps\", \"onEntering\", \"PaperProps\", \"PopoverClasses\", \"theme\"]);\n      return _react.default.createElement(_Popover.default, (0, _extends2.default)({\n        getContentAnchorEl: this.getContentAnchorEl,\n        classes: PopoverClasses,\n        onEntering: this.handleEntering,\n        anchorOrigin: theme.direction === 'rtl' ? RTL_ORIGIN : LTR_ORIGIN,\n        transformOrigin: theme.direction === 'rtl' ? RTL_ORIGIN : LTR_ORIGIN,\n        PaperProps: (0, _extends2.default)({}, PaperProps, {\n          classes: (0, _extends2.default)({}, PaperProps.classes, {\n            root: classes.paper\n          })\n        })\n      }, other), _react.default.createElement(_MenuList.default, (0, _extends2.default)({\n        onKeyDown: this.handleListKeyDown\n      }, MenuListProps, {\n        ref: this.handleMenuListRef\n      }), children));\n    }\n  }]);\n  return Menu;\n}(_react.default.Component);\n\nprocess.env.NODE_ENV !== \"production\" ? Menu.propTypes = {\n  /**\n   * The DOM element used to set the position of the menu.\n   */\n  anchorEl: _propTypes.default.oneOfType([_propTypes.default.object, _propTypes.default.func]),\n\n  /**\n   * Menu contents, normally `MenuItem`s.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * If `true`, the selected / first menu item will not be auto focused.\n   */\n  disableAutoFocusItem: _propTypes.default.bool,\n\n  /**\n   * Properties applied to the [`MenuList`](/api/menu-list/) element.\n   */\n  MenuListProps: _propTypes.default.object,\n\n  /**\n   * Callback fired when the component requests to be closed.\n   *\n   * @param {object} event The event source of the callback\n   * @param {string} reason Can be:`\"escapeKeyDown\"`, `\"backdropClick\"`, `\"tabKeyDown\"`\n   */\n  onClose: _propTypes.default.func,\n\n  /**\n   * Callback fired before the Menu enters.\n   */\n  onEnter: _propTypes.default.func,\n\n  /**\n   * Callback fired when the Menu has entered.\n   */\n  onEntered: _propTypes.default.func,\n\n  /**\n   * Callback fired when the Menu is entering.\n   */\n  onEntering: _propTypes.default.func,\n\n  /**\n   * Callback fired before the Menu exits.\n   */\n  onExit: _propTypes.default.func,\n\n  /**\n   * Callback fired when the Menu has exited.\n   */\n  onExited: _propTypes.default.func,\n\n  /**\n   * Callback fired when the Menu is exiting.\n   */\n  onExiting: _propTypes.default.func,\n\n  /**\n   * If `true`, the menu is visible.\n   */\n  open: _propTypes.default.bool.isRequired,\n\n  /**\n   * @ignore\n   */\n  PaperProps: _propTypes.default.object,\n\n  /**\n   * `classes` property applied to the [`Popover`](/api/popover/) element.\n   */\n  PopoverClasses: _propTypes.default.object,\n\n  /**\n   * @ignore\n   */\n  theme: _propTypes.default.object.isRequired,\n\n  /**\n   * The length of the transition in `ms`, or 'auto'\n   */\n  transitionDuration: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({\n    enter: _propTypes.default.number,\n    exit: _propTypes.default.number\n  }), _propTypes.default.oneOf(['auto'])])\n} : void 0;\nMenu.defaultProps = {\n  disableAutoFocusItem: false,\n  transitionDuration: 'auto'\n};\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiMenu',\n  withTheme: true\n})(Menu);\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "react-dom": "/home/dustin/CS/recipes/node_modules/react-dom/index.js",
+      "dom-helpers/util/scrollbarSize": "/home/dustin/CS/recipes/node_modules/dom-helpers/util/scrollbarSize.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
+      "../MenuList": "/home/dustin/CS/recipes/node_modules/@material-ui/core/MenuList/index.js",
+      "../Popover": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Popover/index.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Menu/Menu.js",
+      "hash": "MO0qlQ",
+      "browserifyId": 93,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/MenuList/MenuList.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf3 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _reactDom = _interopRequireDefault(require(\"react-dom\"));\n\nvar _warning = _interopRequireDefault(require(\"warning\"));\n\nvar _ownerDocument = _interopRequireDefault(require(\"../utils/ownerDocument\"));\n\nvar _List = _interopRequireDefault(require(\"../List\"));\n\n// @inheritedComponent List\nvar MenuList =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inherits2.default)(MenuList, _React$Component);\n\n  function MenuList() {\n    var _getPrototypeOf2;\n\n    var _this;\n\n    (0, _classCallCheck2.default)(this, MenuList);\n\n    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    _this = (0, _possibleConstructorReturn2.default)(this, (_getPrototypeOf2 = (0, _getPrototypeOf3.default)(MenuList)).call.apply(_getPrototypeOf2, [this].concat(args)));\n    _this.state = {\n      currentTabIndex: null\n    };\n\n    _this.handleBlur = function (event) {\n      _this.blurTimer = setTimeout(function () {\n        if (_this.listRef) {\n          var list = _this.listRef;\n          var currentFocus = (0, _ownerDocument.default)(list).activeElement;\n\n          if (!list.contains(currentFocus)) {\n            _this.resetTabIndex();\n          }\n        }\n      }, 30);\n\n      if (_this.props.onBlur) {\n        _this.props.onBlur(event);\n      }\n    };\n\n    _this.handleKeyDown = function (event) {\n      var list = _this.listRef;\n      var key = event.key;\n      var currentFocus = (0, _ownerDocument.default)(list).activeElement;\n\n      if ((key === 'ArrowUp' || key === 'ArrowDown') && (!currentFocus || currentFocus && !list.contains(currentFocus))) {\n        if (_this.selectedItemRef) {\n          _this.selectedItemRef.focus();\n        } else {\n          list.firstChild.focus();\n        }\n      } else if (key === 'ArrowDown') {\n        event.preventDefault();\n\n        if (currentFocus.nextElementSibling) {\n          currentFocus.nextElementSibling.focus();\n        } else if (!_this.props.disableListWrap) {\n          list.firstChild.focus();\n        }\n      } else if (key === 'ArrowUp') {\n        event.preventDefault();\n\n        if (currentFocus.previousElementSibling) {\n          currentFocus.previousElementSibling.focus();\n        } else if (!_this.props.disableListWrap) {\n          list.lastChild.focus();\n        }\n      } else if (key === 'Home') {\n        event.preventDefault();\n        list.firstChild.focus();\n      } else if (key === 'End') {\n        event.preventDefault();\n        list.lastChild.focus();\n      }\n\n      if (_this.props.onKeyDown) {\n        _this.props.onKeyDown(event);\n      }\n    };\n\n    _this.handleItemFocus = function (event) {\n      var list = _this.listRef;\n\n      if (list) {\n        for (var i = 0; i < list.children.length; i += 1) {\n          if (list.children[i] === event.currentTarget) {\n            _this.setTabIndex(i);\n\n            break;\n          }\n        }\n      }\n    };\n\n    return _this;\n  }\n\n  (0, _createClass2.default)(MenuList, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      this.resetTabIndex();\n    }\n  }, {\n    key: \"componentWillUnmount\",\n    value: function componentWillUnmount() {\n      clearTimeout(this.blurTimer);\n    }\n  }, {\n    key: \"setTabIndex\",\n    value: function setTabIndex(index) {\n      this.setState({\n        currentTabIndex: index\n      });\n    }\n  }, {\n    key: \"focus\",\n    value: function focus() {\n      var currentTabIndex = this.state.currentTabIndex;\n      var list = this.listRef;\n\n      if (!list || !list.children || !list.firstChild) {\n        return;\n      }\n\n      if (currentTabIndex && currentTabIndex >= 0) {\n        list.children[currentTabIndex].focus();\n      } else {\n        list.firstChild.focus();\n      }\n    }\n  }, {\n    key: \"resetTabIndex\",\n    value: function resetTabIndex() {\n      var list = this.listRef;\n      var currentFocus = (0, _ownerDocument.default)(list).activeElement;\n      var items = [];\n\n      for (var i = 0; i < list.children.length; i += 1) {\n        items.push(list.children[i]);\n      }\n\n      var currentFocusIndex = items.indexOf(currentFocus);\n\n      if (currentFocusIndex !== -1) {\n        return this.setTabIndex(currentFocusIndex);\n      }\n\n      if (this.selectedItemRef) {\n        return this.setTabIndex(items.indexOf(this.selectedItemRef));\n      }\n\n      return this.setTabIndex(0);\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this2 = this;\n\n      var _this$props = this.props,\n          children = _this$props.children,\n          className = _this$props.className,\n          onBlur = _this$props.onBlur,\n          onKeyDown = _this$props.onKeyDown,\n          disableListWrap = _this$props.disableListWrap,\n          other = (0, _objectWithoutProperties2.default)(_this$props, [\"children\", \"className\", \"onBlur\", \"onKeyDown\", \"disableListWrap\"]);\n      return _react.default.createElement(_List.default, (0, _extends2.default)({\n        role: \"menu\",\n        ref: function ref(_ref) {\n          _this2.listRef = _reactDom.default.findDOMNode(_ref);\n        },\n        className: className,\n        onKeyDown: this.handleKeyDown,\n        onBlur: this.handleBlur\n      }, other), _react.default.Children.map(children, function (child, index) {\n        if (!_react.default.isValidElement(child)) {\n          return null;\n        }\n\n        process.env.NODE_ENV !== \"production\" ? (0, _warning.default)(child.type !== _react.default.Fragment, [\"Material-UI: the MenuList component doesn't accept a Fragment as a child.\", 'Consider providing an array instead.'].join('\\n')) : void 0;\n        return _react.default.cloneElement(child, {\n          tabIndex: index === _this2.state.currentTabIndex ? 0 : -1,\n          ref: child.props.selected ? function (ref) {\n            _this2.selectedItemRef = _reactDom.default.findDOMNode(ref);\n          } : undefined,\n          onFocus: _this2.handleItemFocus\n        });\n      }));\n    }\n  }]);\n  return MenuList;\n}(_react.default.Component);\n\nprocess.env.NODE_ENV !== \"production\" ? MenuList.propTypes = {\n  /**\n   * MenuList contents, normally `MenuItem`s.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * @ignore\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * If `true`, the menu items will not wrap focus.\n   */\n  disableListWrap: _propTypes.default.bool,\n\n  /**\n   * @ignore\n   */\n  onBlur: _propTypes.default.func,\n\n  /**\n   * @ignore\n   */\n  onKeyDown: _propTypes.default.func\n} : void 0;\nMenuList.defaultProps = {\n  disableListWrap: false\n};\nvar _default = MenuList;\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../utils/ownerDocument": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/ownerDocument.js",
+      "../List": "/home/dustin/CS/recipes/node_modules/@material-ui/core/List/index.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "react-dom": "/home/dustin/CS/recipes/node_modules/react-dom/index.js",
+      "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/MenuList/MenuList.js",
+      "hash": "lrFjmQ",
+      "browserifyId": 94,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/MenuList/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _MenuList.default;\n  }\n});\n\nvar _MenuList = _interopRequireDefault(require(\"./MenuList\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./MenuList": "/home/dustin/CS/recipes/node_modules/@material-ui/core/MenuList/MenuList.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/MenuList/index.js",
+      "hash": "AHRntw",
+      "browserifyId": 95,
       "sourcemap": ""
     }
   ],
@@ -1402,7 +1951,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Modal/Modal.js",
       "hash": "ijyJ6g",
-      "browserifyId": 66,
+      "browserifyId": 96,
       "sourcemap": ""
     }
   ],
@@ -1421,7 +1970,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Modal/ModalManager.js",
       "hash": "/ZpIlg",
-      "browserifyId": 67,
+      "browserifyId": 97,
       "sourcemap": ""
     }
   ],
@@ -1435,7 +1984,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Modal/index.js",
       "hash": "yCdngw",
-      "browserifyId": 68,
+      "browserifyId": 98,
       "sourcemap": ""
     }
   ],
@@ -1450,7 +1999,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Modal/isOverflowing.js",
       "hash": "TRwzhA",
-      "browserifyId": 69,
+      "browserifyId": 99,
       "sourcemap": ""
     }
   ],
@@ -1460,7 +2009,51 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Modal/manageAriaHidden.js",
       "hash": "w9JxHw",
-      "browserifyId": 70,
+      "browserifyId": 100,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/NativeSelect/NativeSelect.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _NativeSelectInput = _interopRequireDefault(require(\"./NativeSelectInput\"));\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar _formControlState = _interopRequireDefault(require(\"../FormControl/formControlState\"));\n\nvar _withFormControlContext = _interopRequireDefault(require(\"../FormControl/withFormControlContext\"));\n\nvar _ArrowDropDown = _interopRequireDefault(require(\"../internal/svg-icons/ArrowDropDown\"));\n\nvar _Input = _interopRequireDefault(require(\"../Input\"));\n\n// @inheritedComponent Input\nvar styles = function styles(theme) {\n  return {\n    /* Styles applied to the `Input` component `root` class. */\n    root: {\n      position: 'relative',\n      width: '100%'\n    },\n\n    /* Styles applied to the `Input` component `select` class. */\n    select: {\n      '-moz-appearance': 'none',\n      // Reset\n      '-webkit-appearance': 'none',\n      // Reset\n      // When interacting quickly, the text can end up selected.\n      // Native select can't be selected either.\n      userSelect: 'none',\n      paddingRight: 32,\n      borderRadius: 0,\n      // Reset\n      height: '1.1875em',\n      // Reset (19px), match the native input line-height\n      width: 'calc(100% - 32px)',\n      minWidth: 16,\n      // So it doesn't collapse.\n      cursor: 'pointer',\n      '&:focus': {\n        // Show that it's not an text input\n        backgroundColor: theme.palette.type === 'light' ? 'rgba(0, 0, 0, 0.05)' : 'rgba(255, 255, 255, 0.05)',\n        borderRadius: 0 // Reset Chrome style\n\n      },\n      // Remove IE 11 arrow\n      '&::-ms-expand': {\n        display: 'none'\n      },\n      '&$disabled': {\n        cursor: 'default'\n      },\n      '&[multiple]': {\n        height: 'auto'\n      },\n      '&:not([multiple]) option, &:not([multiple]) optgroup': {\n        backgroundColor: theme.palette.background.paper\n      }\n    },\n\n    /* Styles applied to the `Input` component if `variant=\"filled\"`. */\n    filled: {\n      width: 'calc(100% - 44px)'\n    },\n\n    /* Styles applied to the `Input` component if `variant=\"outlined\"`. */\n    outlined: {\n      width: 'calc(100% - 46px)',\n      borderRadius: theme.shape.borderRadius\n    },\n\n    /* Styles applied to the `Input` component `selectMenu` class. */\n    selectMenu: {\n      width: 'auto',\n      // Fix Safari textOverflow\n      height: 'auto',\n      // Reset\n      textOverflow: 'ellipsis',\n      whiteSpace: 'nowrap',\n      overflow: 'hidden',\n      minHeight: '1.1875em' // Reset (19px), match the native input line-height\n\n    },\n\n    /* Styles applied to the `Input` component `disabled` class. */\n    disabled: {},\n\n    /* Styles applied to the `Input` component `icon` class. */\n    icon: {\n      // We use a position absolute over a flexbox in order to forward the pointer events\n      // to the input.\n      position: 'absolute',\n      right: 0,\n      top: 'calc(50% - 12px)',\n      // Center vertically\n      color: theme.palette.action.active,\n      'pointer-events': 'none' // Don't block pointer events on the select under the icon.\n\n    }\n  };\n};\n/**\n * An alternative to `<Select native />` with a much smaller bundle size footprint.\n */\n\n\nexports.styles = styles;\n\nfunction NativeSelect(props) {\n  var children = props.children,\n      classes = props.classes,\n      IconComponent = props.IconComponent,\n      input = props.input,\n      inputProps = props.inputProps,\n      muiFormControl = props.muiFormControl,\n      variant = props.variant,\n      other = (0, _objectWithoutProperties2.default)(props, [\"children\", \"classes\", \"IconComponent\", \"input\", \"inputProps\", \"muiFormControl\", \"variant\"]);\n  var fcs = (0, _formControlState.default)({\n    props: props,\n    muiFormControl: muiFormControl,\n    states: ['variant']\n  });\n  return _react.default.cloneElement(input, (0, _extends2.default)({\n    // Most of the logic is implemented in `NativeSelectInput`.\n    // The `Select` component is a simple API wrapper to expose something better to play with.\n    inputComponent: _NativeSelectInput.default,\n    inputProps: (0, _extends2.default)({\n      children: children,\n      classes: classes,\n      IconComponent: IconComponent,\n      variant: fcs.variant,\n      type: undefined\n    }, inputProps, input ? input.props.inputProps : {})\n  }, other));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? NativeSelect.propTypes = {\n  /**\n   * The option elements to populate the select with.\n   * Can be some `<option>` elements.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * The icon that displays the arrow.\n   */\n  IconComponent: _utils.componentPropType,\n\n  /**\n   * An `Input` element; does not have to be a material-ui specific `Input`.\n   */\n  input: _propTypes.default.element,\n\n  /**\n   * Attributes applied to the `select` element.\n   */\n  inputProps: _propTypes.default.object,\n\n  /**\n   * @ignore\n   */\n  muiFormControl: _propTypes.default.object,\n\n  /**\n   * Callback function fired when a menu item is selected.\n   *\n   * @param {object} event The event source of the callback.\n   * You can pull out the new value by accessing `event.target.value`.\n   */\n  onChange: _propTypes.default.func,\n\n  /**\n   * The input value.\n   */\n  value: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool]))]),\n\n  /**\n   * The variant to use.\n   */\n  variant: _propTypes.default.oneOf(['standard', 'outlined', 'filled'])\n} : void 0;\nNativeSelect.defaultProps = {\n  IconComponent: _ArrowDropDown.default,\n  input: _react.default.createElement(_Input.default, null)\n};\nNativeSelect.muiName = 'Select';\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiNativeSelect'\n})((0, _withFormControlContext.default)(NativeSelect));\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "./NativeSelectInput": "/home/dustin/CS/recipes/node_modules/@material-ui/core/NativeSelect/NativeSelectInput.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "../FormControl/formControlState": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/formControlState.js",
+      "../FormControl/withFormControlContext": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/withFormControlContext.js",
+      "../internal/svg-icons/ArrowDropDown": "/home/dustin/CS/recipes/node_modules/@material-ui/core/internal/svg-icons/ArrowDropDown.js",
+      "../Input": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Input/index.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/NativeSelect/NativeSelect.js",
+      "hash": "IM2pYQ",
+      "browserifyId": 101,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/NativeSelect/NativeSelectInput.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\n/**\n * @ignore - internal component.\n */\nfunction NativeSelectInput(props) {\n  var _classNames;\n\n  var children = props.children,\n      classes = props.classes,\n      className = props.className,\n      disabled = props.disabled,\n      IconComponent = props.IconComponent,\n      inputRef = props.inputRef,\n      name = props.name,\n      onChange = props.onChange,\n      value = props.value,\n      variant = props.variant,\n      other = (0, _objectWithoutProperties2.default)(props, [\"children\", \"classes\", \"className\", \"disabled\", \"IconComponent\", \"inputRef\", \"name\", \"onChange\", \"value\", \"variant\"]);\n  return _react.default.createElement(\"div\", {\n    className: classes.root\n  }, _react.default.createElement(\"select\", (0, _extends2.default)({\n    className: (0, _classnames.default)(classes.select, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.filled, variant === 'filled'), (0, _defineProperty2.default)(_classNames, classes.outlined, variant === 'outlined'), (0, _defineProperty2.default)(_classNames, classes.disabled, disabled), _classNames), className),\n    name: name,\n    disabled: disabled,\n    onChange: onChange,\n    value: value,\n    ref: inputRef\n  }, other), children), _react.default.createElement(IconComponent, {\n    className: classes.icon\n  }));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? NativeSelectInput.propTypes = {\n  /**\n   * The option elements to populate the select with.\n   * Can be some `<option>` elements.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * The CSS class name of the select element.\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * If `true`, the select will be disabled.\n   */\n  disabled: _propTypes.default.bool,\n\n  /**\n   * The icon that displays the arrow.\n   */\n  IconComponent: _utils.componentPropType,\n\n  /**\n   * Use that property to pass a ref callback to the native select element.\n   */\n  inputRef: _propTypes.default.oneOfType([_propTypes.default.func, _propTypes.default.object]),\n\n  /**\n   * Name attribute of the `select` or hidden `input` element.\n   */\n  name: _propTypes.default.string,\n\n  /**\n   * Callback function fired when a menu item is selected.\n   *\n   * @param {object} event The event source of the callback.\n   * You can pull out the new value by accessing `event.target.value`.\n   */\n  onChange: _propTypes.default.func,\n\n  /**\n   * The input value.\n   */\n  value: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool]))]),\n\n  /**\n   * The variant to use.\n   */\n  variant: _propTypes.default.oneOf(['standard', 'outlined', 'filled'])\n} : void 0;\nvar _default = NativeSelectInput;\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/NativeSelect/NativeSelectInput.js",
+      "hash": "rffgYg",
+      "browserifyId": 102,
       "sourcemap": ""
     }
   ],
@@ -1481,7 +2074,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/NoSsr/NoSsr.js",
       "hash": "HZySrw",
-      "browserifyId": 71,
+      "browserifyId": 103,
       "sourcemap": ""
     }
   ],
@@ -1494,7 +2087,63 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/NoSsr/index.js",
       "hash": "pyUwQQ",
-      "browserifyId": 72,
+      "browserifyId": 104,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/OutlinedInput/NotchedOutline.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _extends3 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _styles = require(\"../styles\");\n\nvar _helpers = require(\"../utils/helpers\");\n\nvar styles = function styles(theme) {\n  var align = theme.direction === 'rtl' ? 'right' : 'left';\n  return {\n    /* Styles applied to the root element. */\n    root: {\n      position: 'absolute',\n      bottom: 0,\n      right: 0,\n      top: -5,\n      left: 0,\n      margin: 0,\n      padding: 0,\n      pointerEvents: 'none',\n      borderRadius: theme.shape.borderRadius,\n      borderStyle: 'solid',\n      borderWidth: 1,\n      // Match the Input Label\n      transition: theme.transitions.create([\"padding-\".concat(align), 'border-color', 'border-width'], {\n        duration: theme.transitions.duration.shorter,\n        easing: theme.transitions.easing.easeOut\n      })\n    },\n\n    /* Styles applied to the legend element. */\n    legend: {\n      textAlign: 'left',\n      padding: 0,\n      lineHeight: '11px',\n      transition: theme.transitions.create('width', {\n        duration: theme.transitions.duration.shorter,\n        easing: theme.transitions.easing.easeOut\n      })\n    }\n  };\n};\n/**\n * @ignore - internal component.\n */\n\n\nexports.styles = styles;\n\nfunction NotchedOutline(props) {\n  var children = props.children,\n      classes = props.classes,\n      className = props.className,\n      labelWidthProp = props.labelWidth,\n      notched = props.notched,\n      style = props.style,\n      theme = props.theme,\n      other = (0, _objectWithoutProperties2.default)(props, [\"children\", \"classes\", \"className\", \"labelWidth\", \"notched\", \"style\", \"theme\"]);\n  var align = theme.direction === 'rtl' ? 'right' : 'left';\n  var labelWidth = labelWidthProp > 0 ? labelWidthProp * 0.75 + 8 : 0;\n  return _react.default.createElement(\"fieldset\", (0, _extends3.default)({\n    \"aria-hidden\": true,\n    style: (0, _extends3.default)((0, _defineProperty2.default)({}, \"padding\".concat((0, _helpers.capitalize)(align)), 8 + (notched ? 0 : labelWidth / 2)), style),\n    className: (0, _classnames.default)(classes.root, className)\n  }, other), _react.default.createElement(\"legend\", {\n    className: classes.legend,\n    style: {\n      // IE 11: fieldset with legend does not render\n      // a border radius. This maintains consistency\n      // by always having a legend rendered\n      width: notched ? labelWidth : 0.01\n    }\n  }, _react.default.createElement(\"span\", {\n    dangerouslySetInnerHTML: {\n      __html: '&#8203;'\n    }\n  })));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? NotchedOutline.propTypes = {\n  /**\n   * The content of the component.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object,\n\n  /**\n   * @ignore\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * The width of the legend.\n   */\n  labelWidth: _propTypes.default.number.isRequired,\n\n  /**\n   * If `true`, the outline is notched to accommodate the label.\n   */\n  notched: _propTypes.default.bool.isRequired,\n\n  /**\n   * @ignore\n   */\n  style: _propTypes.default.object,\n\n  /**\n   * @ignore\n   */\n  theme: _propTypes.default.object\n} : void 0;\n\nvar _default = (0, _styles.withStyles)(styles, {\n  name: 'MuiPrivateNotchedOutline',\n  withTheme: true\n})(NotchedOutline);\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../utils/helpers": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/helpers.js",
+      "../styles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/index.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/OutlinedInput/NotchedOutline.js",
+      "hash": "dWzm6w",
+      "browserifyId": 105,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/OutlinedInput/OutlinedInput.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _InputBase = _interopRequireDefault(require(\"../InputBase\"));\n\nvar _NotchedOutline = _interopRequireDefault(require(\"./NotchedOutline\"));\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\n// @inheritedComponent InputBase\nvar styles = function styles(theme) {\n  var borderColor = theme.palette.type === 'light' ? 'rgba(0, 0, 0, 0.23)' : 'rgba(255, 255, 255, 0.23)';\n  return {\n    /* Styles applied to the root element. */\n    root: {\n      position: 'relative',\n      '& $notchedOutline': {\n        borderColor: borderColor\n      },\n      '&:hover:not($disabled):not($focused):not($error) $notchedOutline': {\n        borderColor: theme.palette.text.primary,\n        // Reset on touch devices, it doesn't add specificity\n        '@media (hover: none)': {\n          borderColor: borderColor\n        }\n      },\n      '&$focused $notchedOutline': {\n        borderColor: theme.palette.primary.main,\n        borderWidth: 2\n      },\n      '&$error $notchedOutline': {\n        borderColor: theme.palette.error.main\n      },\n      '&$disabled $notchedOutline': {\n        borderColor: theme.palette.action.disabled\n      }\n    },\n\n    /* Styles applied to the root element if the component is focused. */\n    focused: {},\n\n    /* Styles applied to the root element if `disabled={true}`. */\n    disabled: {},\n\n    /* Styles applied to the root element if `startAdornment` is provided. */\n    adornedStart: {\n      paddingLeft: 14\n    },\n\n    /* Styles applied to the root element if `endAdornment` is provided. */\n    adornedEnd: {\n      paddingRight: 14\n    },\n\n    /* Styles applied to the root element if `error={true}`. */\n    error: {},\n\n    /* Styles applied to the root element if `multiline={true}`. */\n    multiline: {\n      padding: '18.5px 14px',\n      boxSizing: 'border-box' // Prevent padding issue with fullWidth.\n\n    },\n\n    /* Styles applied to the `NotchedOutline` element. */\n    notchedOutline: {},\n\n    /* Styles applied to the `input` element. */\n    input: {\n      padding: '18.5px 14px'\n    },\n\n    /* Styles applied to the `input` element if `margin=\"dense\"`. */\n    inputMarginDense: {\n      paddingTop: 15,\n      paddingBottom: 15\n    },\n\n    /* Styles applied to the `input` element if `multiline={true}`. */\n    inputMultiline: {\n      padding: 0\n    },\n\n    /* Styles applied to the `input` element if `startAdornment` is provided. */\n    inputAdornedStart: {\n      paddingLeft: 0\n    },\n\n    /* Styles applied to the `input` element if `endAdornment` is provided. */\n    inputAdornedEnd: {\n      paddingRight: 0\n    }\n  };\n};\n\nexports.styles = styles;\n\nfunction OutlinedInput(props) {\n  var classes = props.classes,\n      labelWidth = props.labelWidth,\n      notched = props.notched,\n      other = (0, _objectWithoutProperties2.default)(props, [\"classes\", \"labelWidth\", \"notched\"]);\n  return _react.default.createElement(_InputBase.default, (0, _extends2.default)({\n    renderPrefix: function renderPrefix(state) {\n      return _react.default.createElement(_NotchedOutline.default, {\n        className: classes.notchedOutline,\n        labelWidth: labelWidth,\n        notched: typeof notched !== 'undefined' ? notched : Boolean(state.startAdornment || state.filled || state.focused)\n      });\n    },\n    classes: (0, _extends2.default)({}, classes, {\n      root: (0, _classnames.default)(classes.root, classes.underline),\n      notchedOutline: null\n    })\n  }, other));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? OutlinedInput.propTypes = {\n  /**\n   * This property helps users to fill forms faster, especially on mobile devices.\n   * The name can be confusing, as it's more like an autofill.\n   * You can learn more about it here:\n   * https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill\n   */\n  autoComplete: _propTypes.default.string,\n\n  /**\n   * If `true`, the input will be focused during the first mount.\n   */\n  autoFocus: _propTypes.default.bool,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * The CSS class name of the wrapper element.\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * The default input value, useful when not controlling the component.\n   */\n  defaultValue: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object, _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object]))]),\n\n  /**\n   * If `true`, the input will be disabled.\n   */\n  disabled: _propTypes.default.bool,\n\n  /**\n   * End `InputAdornment` for this component.\n   */\n  endAdornment: _propTypes.default.node,\n\n  /**\n   * If `true`, the input will indicate an error. This is normally obtained via context from\n   * FormControl.\n   */\n  error: _propTypes.default.bool,\n\n  /**\n   * If `true`, the input will take up the full width of its container.\n   */\n  fullWidth: _propTypes.default.bool,\n\n  /**\n   * The id of the `input` element.\n   */\n  id: _propTypes.default.string,\n\n  /**\n   * The component used for the native input.\n   * Either a string to use a DOM element or a component.\n   */\n  inputComponent: _utils.componentPropType,\n\n  /**\n   * Attributes applied to the `input` element.\n   */\n  inputProps: _propTypes.default.object,\n\n  /**\n   * Use that property to pass a ref callback to the native input component.\n   */\n  inputRef: _propTypes.default.oneOfType([_propTypes.default.func, _propTypes.default.object]),\n\n  /**\n   * The width of the legend.\n   */\n  labelWidth: _propTypes.default.number.isRequired,\n\n  /**\n   * If `dense`, will adjust vertical spacing. This is normally obtained via context from\n   * FormControl.\n   */\n  margin: _propTypes.default.oneOf(['dense', 'none']),\n\n  /**\n   * If `true`, a textarea element will be rendered.\n   */\n  multiline: _propTypes.default.bool,\n\n  /**\n   * Name attribute of the `input` element.\n   */\n  name: _propTypes.default.string,\n\n  /**\n   * If `true`, the outline is notched to accommodate the label.\n   */\n  notched: _propTypes.default.bool,\n\n  /**\n   * Callback fired when the value is changed.\n   *\n   * @param {object} event The event source of the callback.\n   * You can pull out the new value by accessing `event.target.value`.\n   */\n  onChange: _propTypes.default.func,\n\n  /**\n   * The short hint displayed in the input before the user enters a value.\n   */\n  placeholder: _propTypes.default.string,\n\n  /**\n   * It prevents the user from changing the value of the field\n   * (not from interacting with the field).\n   */\n  readOnly: _propTypes.default.bool,\n\n  /**\n   * If `true`, the input will be required.\n   */\n  required: _propTypes.default.bool,\n\n  /**\n   * Number of rows to display when multiline option is set to true.\n   */\n  rows: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),\n\n  /**\n   * Maximum number of rows to display when multiline option is set to true.\n   */\n  rowsMax: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),\n\n  /**\n   * Start `InputAdornment` for this component.\n   */\n  startAdornment: _propTypes.default.node,\n\n  /**\n   * Type of the input element. It should be a valid HTML5 input type.\n   */\n  type: _propTypes.default.string,\n\n  /**\n   * The input value, required for a controlled component.\n   */\n  value: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object, _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object]))])\n} : void 0;\n_InputBase.default.defaultProps = {\n  fullWidth: false,\n  inputComponent: 'input',\n  multiline: false,\n  type: 'text'\n};\nOutlinedInput.muiName = 'Input';\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiOutlinedInput'\n})(OutlinedInput);\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "../InputBase": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/index.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./NotchedOutline": "/home/dustin/CS/recipes/node_modules/@material-ui/core/OutlinedInput/NotchedOutline.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/OutlinedInput/OutlinedInput.js",
+      "hash": "rzRkkw",
+      "browserifyId": 106,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/OutlinedInput/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _OutlinedInput.default;\n  }\n});\n\nvar _OutlinedInput = _interopRequireDefault(require(\"./OutlinedInput\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./OutlinedInput": "/home/dustin/CS/recipes/node_modules/@material-ui/core/OutlinedInput/OutlinedInput.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/OutlinedInput/index.js",
+      "hash": "qooybQ",
+      "browserifyId": 107,
       "sourcemap": ""
     }
   ],
@@ -1516,7 +2165,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Paper/Paper.js",
       "hash": "pgo4yg",
-      "browserifyId": 73,
+      "browserifyId": 108,
       "sourcemap": ""
     }
   ],
@@ -1529,7 +2178,54 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Paper/index.js",
       "hash": "2UE99Q",
-      "browserifyId": 74,
+      "browserifyId": 109,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/Popover/Popover.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf2 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _reactDom = _interopRequireDefault(require(\"react-dom\"));\n\nvar _warning = _interopRequireDefault(require(\"warning\"));\n\nvar _debounce = _interopRequireDefault(require(\"debounce\"));\n\nvar _reactEventListener = _interopRequireDefault(require(\"react-event-listener\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _ownerDocument = _interopRequireDefault(require(\"../utils/ownerDocument\"));\n\nvar _ownerWindow = _interopRequireDefault(require(\"../utils/ownerWindow\"));\n\nvar _helpers = require(\"../utils/helpers\");\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar _Modal = _interopRequireDefault(require(\"../Modal\"));\n\nvar _Grow = _interopRequireDefault(require(\"../Grow\"));\n\nvar _Paper = _interopRequireDefault(require(\"../Paper\"));\n\n// @inheritedComponent Modal\n// < 1kb payload overhead when lodash/debounce is > 3kb.\nfunction getOffsetTop(rect, vertical) {\n  var offset = 0;\n\n  if (typeof vertical === 'number') {\n    offset = vertical;\n  } else if (vertical === 'center') {\n    offset = rect.height / 2;\n  } else if (vertical === 'bottom') {\n    offset = rect.height;\n  }\n\n  return offset;\n}\n\nfunction getOffsetLeft(rect, horizontal) {\n  var offset = 0;\n\n  if (typeof horizontal === 'number') {\n    offset = horizontal;\n  } else if (horizontal === 'center') {\n    offset = rect.width / 2;\n  } else if (horizontal === 'right') {\n    offset = rect.width;\n  }\n\n  return offset;\n}\n\nfunction getTransformOriginValue(transformOrigin) {\n  return [transformOrigin.horizontal, transformOrigin.vertical].map(function (n) {\n    return typeof n === 'number' ? \"\".concat(n, \"px\") : n;\n  }).join(' ');\n} // Sum the scrollTop between two elements.\n\n\nfunction getScrollParent(parent, child) {\n  var element = child;\n  var scrollTop = 0;\n\n  while (element && element !== parent) {\n    element = element.parentNode;\n    scrollTop += element.scrollTop;\n  }\n\n  return scrollTop;\n}\n\nfunction getAnchorEl(anchorEl) {\n  return typeof anchorEl === 'function' ? anchorEl() : anchorEl;\n}\n\nvar styles = {\n  /* Styles applied to the `Paper` component. */\n  paper: {\n    position: 'absolute',\n    overflowY: 'auto',\n    overflowX: 'hidden',\n    // So we see the popover when it's empty.\n    // It's most likely on issue on userland.\n    minWidth: 16,\n    minHeight: 16,\n    maxWidth: 'calc(100% - 32px)',\n    maxHeight: 'calc(100% - 32px)',\n    // We disable the focus ring for mouse, touch and keyboard users.\n    outline: 'none'\n  }\n};\nexports.styles = styles;\n\nvar Popover =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inherits2.default)(Popover, _React$Component);\n\n  function Popover() {\n    var _this;\n\n    (0, _classCallCheck2.default)(this, Popover);\n    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Popover).call(this));\n    _this.handleGetOffsetTop = getOffsetTop;\n    _this.handleGetOffsetLeft = getOffsetLeft;\n\n    _this.componentWillUnmount = function () {\n      _this.handleResize.clear();\n    };\n\n    _this.setPositioningStyles = function (element) {\n      var positioning = _this.getPositioningStyle(element);\n\n      if (positioning.top !== null) {\n        element.style.top = positioning.top;\n      }\n\n      if (positioning.left !== null) {\n        element.style.left = positioning.left;\n      }\n\n      element.style.transformOrigin = positioning.transformOrigin;\n    };\n\n    _this.getPositioningStyle = function (element) {\n      var _this$props = _this.props,\n          anchorEl = _this$props.anchorEl,\n          anchorReference = _this$props.anchorReference,\n          marginThreshold = _this$props.marginThreshold; // Check if the parent has requested anchoring on an inner content node\n\n      var contentAnchorOffset = _this.getContentAnchorOffset(element);\n\n      var elemRect = {\n        width: element.offsetWidth,\n        height: element.offsetHeight\n      }; // Get the transform origin point on the element itself\n\n      var transformOrigin = _this.getTransformOrigin(elemRect, contentAnchorOffset);\n\n      if (anchorReference === 'none') {\n        return {\n          top: null,\n          left: null,\n          transformOrigin: getTransformOriginValue(transformOrigin)\n        };\n      } // Get the offset of of the anchoring element\n\n\n      var anchorOffset = _this.getAnchorOffset(contentAnchorOffset); // Calculate element positioning\n\n\n      var top = anchorOffset.top - transformOrigin.vertical;\n      var left = anchorOffset.left - transformOrigin.horizontal;\n      var bottom = top + elemRect.height;\n      var right = left + elemRect.width; // Use the parent window of the anchorEl if provided\n\n      var containerWindow = (0, _ownerWindow.default)(getAnchorEl(anchorEl)); // Window thresholds taking required margin into account\n\n      var heightThreshold = containerWindow.innerHeight - marginThreshold;\n      var widthThreshold = containerWindow.innerWidth - marginThreshold; // Check if the vertical axis needs shifting\n\n      if (top < marginThreshold) {\n        var diff = top - marginThreshold;\n        top -= diff;\n        transformOrigin.vertical += diff;\n      } else if (bottom > heightThreshold) {\n        var _diff = bottom - heightThreshold;\n\n        top -= _diff;\n        transformOrigin.vertical += _diff;\n      }\n\n      process.env.NODE_ENV !== \"production\" ? (0, _warning.default)(elemRect.height < heightThreshold || !elemRect.height || !heightThreshold, ['Material-UI: the popover component is too tall.', \"Some part of it can not be seen on the screen (\".concat(elemRect.height - heightThreshold, \"px).\"), 'Please consider adding a `max-height` to improve the user-experience.'].join('\\n')) : void 0; // Check if the horizontal axis needs shifting\n\n      if (left < marginThreshold) {\n        var _diff2 = left - marginThreshold;\n\n        left -= _diff2;\n        transformOrigin.horizontal += _diff2;\n      } else if (right > widthThreshold) {\n        var _diff3 = right - widthThreshold;\n\n        left -= _diff3;\n        transformOrigin.horizontal += _diff3;\n      }\n\n      return {\n        top: \"\".concat(top, \"px\"),\n        left: \"\".concat(left, \"px\"),\n        transformOrigin: getTransformOriginValue(transformOrigin)\n      };\n    };\n\n    _this.handleEntering = function (element) {\n      if (_this.props.onEntering) {\n        _this.props.onEntering(element);\n      }\n\n      _this.setPositioningStyles(element);\n    };\n\n    if (typeof window !== 'undefined') {\n      _this.handleResize = (0, _debounce.default)(function () {\n        // Because we debounce the event, the open property might no longer be true\n        // when the callback resolves.\n        if (!_this.props.open) {\n          return;\n        }\n\n        _this.setPositioningStyles(_this.paperRef);\n      }, 166); // Corresponds to 10 frames at 60 Hz.\n    }\n\n    return _this;\n  }\n\n  (0, _createClass2.default)(Popover, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      if (this.props.action) {\n        this.props.action({\n          updatePosition: this.handleResize\n        });\n      }\n    }\n  }, {\n    key: \"getAnchorOffset\",\n    // Returns the top/left offset of the position\n    // to attach to on the anchor element (or body if none is provided)\n    value: function getAnchorOffset(contentAnchorOffset) {\n      var _this$props2 = this.props,\n          anchorEl = _this$props2.anchorEl,\n          anchorOrigin = _this$props2.anchorOrigin,\n          anchorReference = _this$props2.anchorReference,\n          anchorPosition = _this$props2.anchorPosition;\n\n      if (anchorReference === 'anchorPosition') {\n        process.env.NODE_ENV !== \"production\" ? (0, _warning.default)(anchorPosition, 'Material-UI: you need to provide a `anchorPosition` property when using ' + '<Popover anchorReference=\"anchorPosition\" />.') : void 0;\n        return anchorPosition;\n      } // If an anchor element wasn't provided, just use the parent body element of this Popover\n\n\n      var anchorElement = getAnchorEl(anchorEl) || (0, _ownerDocument.default)(this.paperRef).body;\n      var anchorRect = anchorElement.getBoundingClientRect();\n      var anchorVertical = contentAnchorOffset === 0 ? anchorOrigin.vertical : 'center';\n      return {\n        top: anchorRect.top + this.handleGetOffsetTop(anchorRect, anchorVertical),\n        left: anchorRect.left + this.handleGetOffsetLeft(anchorRect, anchorOrigin.horizontal)\n      };\n    } // Returns the vertical offset of inner content to anchor the transform on if provided\n\n  }, {\n    key: \"getContentAnchorOffset\",\n    value: function getContentAnchorOffset(element) {\n      var _this$props3 = this.props,\n          getContentAnchorEl = _this$props3.getContentAnchorEl,\n          anchorReference = _this$props3.anchorReference;\n      var contentAnchorOffset = 0;\n\n      if (getContentAnchorEl && anchorReference === 'anchorEl') {\n        var contentAnchorEl = getContentAnchorEl(element);\n\n        if (contentAnchorEl && element.contains(contentAnchorEl)) {\n          var scrollTop = getScrollParent(element, contentAnchorEl);\n          contentAnchorOffset = contentAnchorEl.offsetTop + contentAnchorEl.clientHeight / 2 - scrollTop || 0;\n        } // != the default value\n\n\n        process.env.NODE_ENV !== \"production\" ? (0, _warning.default)(this.props.anchorOrigin.vertical === 'top', ['Material-UI: you can not change the default `anchorOrigin.vertical` value ', 'when also providing the `getContentAnchorEl` property to the popover component.', 'Only use one of the two properties.', 'Set `getContentAnchorEl` to `null | undefined`' + ' or leave `anchorOrigin.vertical` unchanged.'].join('\\n')) : void 0;\n      }\n\n      return contentAnchorOffset;\n    } // Return the base transform origin using the element\n    // and taking the content anchor offset into account if in use\n\n  }, {\n    key: \"getTransformOrigin\",\n    value: function getTransformOrigin(elemRect) {\n      var contentAnchorOffset = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;\n      var transformOrigin = this.props.transformOrigin;\n      return {\n        vertical: this.handleGetOffsetTop(elemRect, transformOrigin.vertical) + contentAnchorOffset,\n        horizontal: this.handleGetOffsetLeft(elemRect, transformOrigin.horizontal)\n      };\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this2 = this;\n\n      var _this$props4 = this.props,\n          action = _this$props4.action,\n          anchorEl = _this$props4.anchorEl,\n          anchorOrigin = _this$props4.anchorOrigin,\n          anchorPosition = _this$props4.anchorPosition,\n          anchorReference = _this$props4.anchorReference,\n          children = _this$props4.children,\n          classes = _this$props4.classes,\n          containerProp = _this$props4.container,\n          elevation = _this$props4.elevation,\n          getContentAnchorEl = _this$props4.getContentAnchorEl,\n          marginThreshold = _this$props4.marginThreshold,\n          ModalClasses = _this$props4.ModalClasses,\n          onEnter = _this$props4.onEnter,\n          onEntered = _this$props4.onEntered,\n          onEntering = _this$props4.onEntering,\n          onExit = _this$props4.onExit,\n          onExited = _this$props4.onExited,\n          onExiting = _this$props4.onExiting,\n          open = _this$props4.open,\n          PaperProps = _this$props4.PaperProps,\n          role = _this$props4.role,\n          transformOrigin = _this$props4.transformOrigin,\n          TransitionComponent = _this$props4.TransitionComponent,\n          transitionDurationProp = _this$props4.transitionDuration,\n          _this$props4$Transiti = _this$props4.TransitionProps,\n          TransitionProps = _this$props4$Transiti === void 0 ? {} : _this$props4$Transiti,\n          other = (0, _objectWithoutProperties2.default)(_this$props4, [\"action\", \"anchorEl\", \"anchorOrigin\", \"anchorPosition\", \"anchorReference\", \"children\", \"classes\", \"container\", \"elevation\", \"getContentAnchorEl\", \"marginThreshold\", \"ModalClasses\", \"onEnter\", \"onEntered\", \"onEntering\", \"onExit\", \"onExited\", \"onExiting\", \"open\", \"PaperProps\", \"role\", \"transformOrigin\", \"TransitionComponent\", \"transitionDuration\", \"TransitionProps\"]);\n      var transitionDuration = transitionDurationProp;\n\n      if (transitionDurationProp === 'auto' && !TransitionComponent.muiSupportAuto) {\n        transitionDuration = undefined;\n      } // If the container prop is provided, use that\n      // If the anchorEl prop is provided, use its parent body element as the container\n      // If neither are provided let the Modal take care of choosing the container\n\n\n      var container = containerProp || (anchorEl ? (0, _ownerDocument.default)(getAnchorEl(anchorEl)).body : undefined);\n      return _react.default.createElement(_Modal.default, (0, _extends2.default)({\n        classes: ModalClasses,\n        container: container,\n        open: open,\n        BackdropProps: {\n          invisible: true\n        }\n      }, other), _react.default.createElement(TransitionComponent, (0, _extends2.default)({\n        appear: true,\n        in: open,\n        onEnter: onEnter,\n        onEntered: onEntered,\n        onExit: onExit,\n        onExited: onExited,\n        onExiting: onExiting,\n        role: role,\n        timeout: transitionDuration\n      }, TransitionProps, {\n        onEntering: (0, _helpers.createChainedFunction)(this.handleEntering, TransitionProps.onEntering)\n      }), _react.default.createElement(_Paper.default, (0, _extends2.default)({\n        className: classes.paper,\n        elevation: elevation,\n        ref: function ref(_ref) {\n          _this2.paperRef = _reactDom.default.findDOMNode(_ref);\n        }\n      }, PaperProps), _react.default.createElement(_reactEventListener.default, {\n        target: \"window\",\n        onResize: this.handleResize\n      }), children)));\n    }\n  }]);\n  return Popover;\n}(_react.default.Component);\n\nprocess.env.NODE_ENV !== \"production\" ? Popover.propTypes = {\n  /**\n   * This is callback property. It's called by the component on mount.\n   * This is useful when you want to trigger an action programmatically.\n   * It currently only supports updatePosition() action.\n   *\n   * @param {object} actions This object contains all possible actions\n   * that can be triggered programmatically.\n   */\n  action: _propTypes.default.func,\n\n  /**\n   * This is the DOM element, or a function that returns the DOM element,\n   * that may be used to set the position of the popover.\n   */\n  anchorEl: _propTypes.default.oneOfType([_propTypes.default.object, _propTypes.default.func]),\n\n  /**\n   * This is the point on the anchor where the popover's\n   * `anchorEl` will attach to. This is not used when the\n   * anchorReference is 'anchorPosition'.\n   *\n   * Options:\n   * vertical: [top, center, bottom];\n   * horizontal: [left, center, right].\n   */\n  anchorOrigin: _propTypes.default.shape({\n    horizontal: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.oneOf(['left', 'center', 'right'])]).isRequired,\n    vertical: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.oneOf(['top', 'center', 'bottom'])]).isRequired\n  }),\n\n  /**\n   * This is the position that may be used\n   * to set the position of the popover.\n   * The coordinates are relative to\n   * the application's client area.\n   */\n  anchorPosition: _propTypes.default.shape({\n    left: _propTypes.default.number.isRequired,\n    top: _propTypes.default.number.isRequired\n  }),\n\n  /*\n   * This determines which anchor prop to refer to to set\n   * the position of the popover.\n   */\n  anchorReference: _propTypes.default.oneOf(['anchorEl', 'anchorPosition', 'none']),\n\n  /**\n   * The content of the component.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * A node, component instance, or function that returns either.\n   * The `container` will passed to the Modal component.\n   * By default, it uses the body of the anchorEl's top-level document object,\n   * so it's simply `document.body` most of the time.\n   */\n  container: _propTypes.default.oneOfType([_propTypes.default.object, _propTypes.default.func]),\n\n  /**\n   * The elevation of the popover.\n   */\n  elevation: _propTypes.default.number,\n\n  /**\n   * This function is called in order to retrieve the content anchor element.\n   * It's the opposite of the `anchorEl` property.\n   * The content anchor element should be an element inside the popover.\n   * It's used to correctly scroll and set the position of the popover.\n   * The positioning strategy tries to make the content anchor element just above the\n   * anchor element.\n   */\n  getContentAnchorEl: _propTypes.default.func,\n\n  /**\n   * Specifies how close to the edge of the window the popover can appear.\n   */\n  marginThreshold: _propTypes.default.number,\n\n  /**\n   * `classes` property applied to the [`Modal`](/api/modal/) element.\n   */\n  ModalClasses: _propTypes.default.object,\n\n  /**\n   * Callback fired when the component requests to be closed.\n   *\n   * @param {object} event The event source of the callback.\n   * @param {string} reason Can be:`\"escapeKeyDown\"`, `\"backdropClick\"`\n   */\n  onClose: _propTypes.default.func,\n\n  /**\n   * Callback fired before the component is entering.\n   */\n  onEnter: _propTypes.default.func,\n\n  /**\n   * Callback fired when the component has entered.\n   */\n  onEntered: _propTypes.default.func,\n\n  /**\n   * Callback fired when the component is entering.\n   */\n  onEntering: _propTypes.default.func,\n\n  /**\n   * Callback fired before the component is exiting.\n   */\n  onExit: _propTypes.default.func,\n\n  /**\n   * Callback fired when the component has exited.\n   */\n  onExited: _propTypes.default.func,\n\n  /**\n   * Callback fired when the component is exiting.\n   */\n  onExiting: _propTypes.default.func,\n\n  /**\n   * If `true`, the popover is visible.\n   */\n  open: _propTypes.default.bool.isRequired,\n\n  /**\n   * Properties applied to the [`Paper`](/api/paper/) element.\n   */\n  PaperProps: _propTypes.default.object,\n\n  /**\n   * @ignore\n   */\n  role: _propTypes.default.string,\n\n  /**\n   * This is the point on the popover which\n   * will attach to the anchor's origin.\n   *\n   * Options:\n   * vertical: [top, center, bottom, x(px)];\n   * horizontal: [left, center, right, x(px)].\n   */\n  transformOrigin: _propTypes.default.shape({\n    horizontal: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.oneOf(['left', 'center', 'right'])]).isRequired,\n    vertical: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.oneOf(['top', 'center', 'bottom'])]).isRequired\n  }),\n\n  /**\n   * The component used for the transition.\n   */\n  TransitionComponent: _utils.componentPropType,\n\n  /**\n   * Set to 'auto' to automatically calculate transition time based on height.\n   */\n  transitionDuration: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({\n    enter: _propTypes.default.number,\n    exit: _propTypes.default.number\n  }), _propTypes.default.oneOf(['auto'])]),\n\n  /**\n   * Properties applied to the `Transition` element.\n   */\n  TransitionProps: _propTypes.default.object\n} : void 0;\nPopover.defaultProps = {\n  anchorReference: 'anchorEl',\n  anchorOrigin: {\n    vertical: 'top',\n    horizontal: 'left'\n  },\n  elevation: 8,\n  marginThreshold: 16,\n  transformOrigin: {\n    vertical: 'top',\n    horizontal: 'left'\n  },\n  TransitionComponent: _Grow.default,\n  transitionDuration: 'auto'\n};\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiPopover'\n})(Popover);\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../utils/ownerDocument": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/ownerDocument.js",
+      "../utils/ownerWindow": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/ownerWindow.js",
+      "../utils/helpers": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/helpers.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "../Modal": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Modal/index.js",
+      "../Paper": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Paper/index.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "react-dom": "/home/dustin/CS/recipes/node_modules/react-dom/index.js",
+      "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
+      "debounce": "/home/dustin/CS/recipes/node_modules/debounce/index.js",
+      "react-event-listener": "/home/dustin/CS/recipes/node_modules/react-event-listener/dist/react-event-listener.cjs.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
+      "../Grow": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Grow/index.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Popover/Popover.js",
+      "hash": "9F/v6A",
+      "browserifyId": 110,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/Popover/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _Popover.default;\n  }\n});\n\nvar _Popover = _interopRequireDefault(require(\"./Popover\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./Popover": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Popover/Popover.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Popover/index.js",
+      "hash": "R1Y02g",
+      "browserifyId": 111,
       "sourcemap": ""
     }
   ],
@@ -1552,7 +2248,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Portal/Portal.js",
       "hash": "k3ALMQ",
-      "browserifyId": 75,
+      "browserifyId": 112,
       "sourcemap": ""
     }
   ],
@@ -1565,7 +2261,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Portal/index.js",
       "hash": "jT7MBw",
-      "browserifyId": 76,
+      "browserifyId": 113,
       "sourcemap": ""
     }
   ],
@@ -1588,7 +2284,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/RootRef/RootRef.js",
       "hash": "Nohiiw",
-      "browserifyId": 77,
+      "browserifyId": 114,
       "sourcemap": ""
     }
   ],
@@ -1601,7 +2297,78 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/RootRef/index.js",
       "hash": "m/nIUw",
-      "browserifyId": 78,
+      "browserifyId": 115,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/Select/Select.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _SelectInput = _interopRequireDefault(require(\"./SelectInput\"));\n\nvar _formControlState = _interopRequireDefault(require(\"../FormControl/formControlState\"));\n\nvar _withFormControlContext = _interopRequireDefault(require(\"../FormControl/withFormControlContext\"));\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar _mergeClasses = _interopRequireDefault(require(\"../styles/mergeClasses\"));\n\nvar _ArrowDropDown = _interopRequireDefault(require(\"../internal/svg-icons/ArrowDropDown\"));\n\nvar _Input = _interopRequireDefault(require(\"../Input\"));\n\nvar _NativeSelect = require(\"../NativeSelect/NativeSelect\");\n\nvar _NativeSelectInput = _interopRequireDefault(require(\"../NativeSelect/NativeSelectInput\"));\n\n// @inheritedComponent Input\n// To replace with InputBase in v4\nvar styles = _NativeSelect.styles;\nexports.styles = styles;\n\nfunction Select(props) {\n  var autoWidth = props.autoWidth,\n      children = props.children,\n      classes = props.classes,\n      displayEmpty = props.displayEmpty,\n      IconComponent = props.IconComponent,\n      input = props.input,\n      inputProps = props.inputProps,\n      MenuProps = props.MenuProps,\n      muiFormControl = props.muiFormControl,\n      multiple = props.multiple,\n      native = props.native,\n      onClose = props.onClose,\n      onOpen = props.onOpen,\n      open = props.open,\n      renderValue = props.renderValue,\n      SelectDisplayProps = props.SelectDisplayProps,\n      variant = props.variant,\n      other = (0, _objectWithoutProperties2.default)(props, [\"autoWidth\", \"children\", \"classes\", \"displayEmpty\", \"IconComponent\", \"input\", \"inputProps\", \"MenuProps\", \"muiFormControl\", \"multiple\", \"native\", \"onClose\", \"onOpen\", \"open\", \"renderValue\", \"SelectDisplayProps\", \"variant\"]);\n  var inputComponent = native ? _NativeSelectInput.default : _SelectInput.default;\n  var fcs = (0, _formControlState.default)({\n    props: props,\n    muiFormControl: muiFormControl,\n    states: ['variant']\n  });\n  return _react.default.cloneElement(input, (0, _extends2.default)({\n    // Most of the logic is implemented in `SelectInput`.\n    // The `Select` component is a simple API wrapper to expose something better to play with.\n    inputComponent: inputComponent,\n    inputProps: (0, _extends2.default)({\n      children: children,\n      IconComponent: IconComponent,\n      variant: fcs.variant,\n      type: undefined,\n      // We render a select. We can ignore the type provided by the `Input`.\n      multiple: multiple\n    }, native ? {} : {\n      autoWidth: autoWidth,\n      displayEmpty: displayEmpty,\n      MenuProps: MenuProps,\n      onClose: onClose,\n      onOpen: onOpen,\n      open: open,\n      renderValue: renderValue,\n      SelectDisplayProps: SelectDisplayProps\n    }, inputProps, {\n      classes: inputProps ? (0, _mergeClasses.default)({\n        baseClasses: classes,\n        newClasses: inputProps.classes,\n        Component: Select\n      }) : classes\n    }, input ? input.props.inputProps : {})\n  }, other));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? Select.propTypes = {\n  /**\n   * If true, the width of the popover will automatically be set according to the items inside the\n   * menu, otherwise it will be at least the width of the select input.\n   */\n  autoWidth: _propTypes.default.bool,\n\n  /**\n   * The option elements to populate the select with.\n   * Can be some `MenuItem` when `native` is false and `option` when `native` is true.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * If `true`, the selected item is displayed even if its value is empty.\n   * You can only use it when the `native` property is `false` (default).\n   */\n  displayEmpty: _propTypes.default.bool,\n\n  /**\n   * The icon that displays the arrow.\n   */\n  IconComponent: _utils.componentPropType,\n\n  /**\n   * An `Input` element; does not have to be a material-ui specific `Input`.\n   */\n  input: _propTypes.default.element,\n\n  /**\n   * Attributes applied to the `input` element.\n   * When `native` is `true`, the attributes are applied on the `select` element.\n   */\n  inputProps: _propTypes.default.object,\n\n  /**\n   * Properties applied to the [`Menu`](/api/menu/) element.\n   */\n  MenuProps: _propTypes.default.object,\n\n  /**\n   * If true, `value` must be an array and the menu will support multiple selections.\n   */\n  multiple: _propTypes.default.bool,\n\n  /**\n   * If `true`, the component will be using a native `select` element.\n   */\n  native: _propTypes.default.bool,\n\n  /**\n   * Callback function fired when a menu item is selected.\n   *\n   * @param {object} event The event source of the callback.\n   * You can pull out the new value by accessing `event.target.value`.\n   * @param {object} [child] The react element that was selected when `native` is `false` (default).\n   */\n  onChange: _propTypes.default.func,\n\n  /**\n   * Callback fired when the component requests to be closed.\n   * Use in controlled mode (see open).\n   *\n   * @param {object} event The event source of the callback\n   */\n  onClose: _propTypes.default.func,\n\n  /**\n   * Callback fired when the component requests to be opened.\n   * Use in controlled mode (see open).\n   *\n   * @param {object} event The event source of the callback\n   */\n  onOpen: _propTypes.default.func,\n\n  /**\n   * Control `select` open state.\n   * You can only use it when the `native` property is `false` (default).\n   */\n  open: _propTypes.default.bool,\n\n  /**\n   * Render the selected value.\n   * You can only use it when the `native` property is `false` (default).\n   *\n   * @param {*} value The `value` provided to the component.\n   * @returns {ReactElement}\n   */\n  renderValue: _propTypes.default.func,\n\n  /**\n   * Properties applied to the clickable div element.\n   */\n  SelectDisplayProps: _propTypes.default.object,\n\n  /**\n   * The input value.\n   * This property is required when the `native` property is `false` (default).\n   */\n  value: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object, _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object]))]),\n\n  /**\n   * The variant to use.\n   */\n  variant: _propTypes.default.oneOf(['standard', 'outlined', 'filled'])\n} : void 0;\nSelect.defaultProps = {\n  autoWidth: false,\n  displayEmpty: false,\n  IconComponent: _ArrowDropDown.default,\n  input: _react.default.createElement(_Input.default, null),\n  multiple: false,\n  native: false\n};\nSelect.muiName = 'Select';\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiSelect'\n})((0, _withFormControlContext.default)(Select));\n\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../FormControl/formControlState": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/formControlState.js",
+      "../FormControl/withFormControlContext": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/withFormControlContext.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
+      "../styles/mergeClasses": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/mergeClasses.js",
+      "../Input": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Input/index.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "../NativeSelect/NativeSelectInput": "/home/dustin/CS/recipes/node_modules/@material-ui/core/NativeSelect/NativeSelectInput.js",
+      "../NativeSelect/NativeSelect": "/home/dustin/CS/recipes/node_modules/@material-ui/core/NativeSelect/NativeSelect.js",
+      "../internal/svg-icons/ArrowDropDown": "/home/dustin/CS/recipes/node_modules/@material-ui/core/internal/svg-icons/ArrowDropDown.js",
+      "./SelectInput": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Select/SelectInput.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Select/Select.js",
+      "hash": "WAMkNw",
+      "browserifyId": 116,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/Select/SelectInput.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _toConsumableArray2 = _interopRequireDefault(require(\"@babel/runtime/helpers/toConsumableArray\"));\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf2 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _typeof2 = _interopRequireDefault(require(\"@babel/runtime/helpers/typeof\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _warning = _interopRequireDefault(require(\"warning\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _Menu = _interopRequireDefault(require(\"../Menu/Menu\"));\n\nvar _utils2 = require(\"../InputBase/utils\");\n\nvar _reactHelpers = require(\"../utils/reactHelpers\");\n\nfunction areEqualValues(a, b) {\n  if ((0, _typeof2.default)(b) === 'object' && b !== null) {\n    return a === b;\n  }\n\n  return String(a) === String(b);\n}\n/**\n * @ignore - internal component.\n */\n\n\nvar SelectInput =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inherits2.default)(SelectInput, _React$Component);\n\n  function SelectInput(props) {\n    var _this;\n\n    (0, _classCallCheck2.default)(this, SelectInput);\n    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(SelectInput).call(this));\n    _this.ignoreNextBlur = false;\n\n    _this.update = function (_ref) {\n      var event = _ref.event,\n          open = _ref.open;\n\n      if (_this.isOpenControlled) {\n        if (open) {\n          _this.props.onOpen(event);\n        } else {\n          _this.props.onClose(event);\n        }\n\n        return;\n      }\n\n      _this.setState({\n        // Perform the layout computation outside of the render method.\n        menuMinWidth: _this.props.autoWidth ? null : _this.displayRef.clientWidth,\n        open: open\n      });\n    };\n\n    _this.handleClick = function (event) {\n      // Opening the menu is going to blur the. It will be focused back when closed.\n      _this.ignoreNextBlur = true;\n\n      _this.update({\n        open: true,\n        event: event\n      });\n    };\n\n    _this.handleClose = function (event) {\n      _this.update({\n        open: false,\n        event: event\n      });\n    };\n\n    _this.handleItemClick = function (child) {\n      return function (event) {\n        if (!_this.props.multiple) {\n          _this.update({\n            open: false,\n            event: event\n          });\n        }\n\n        var _this$props = _this.props,\n            onChange = _this$props.onChange,\n            name = _this$props.name;\n\n        if (onChange) {\n          var value;\n\n          if (_this.props.multiple) {\n            value = Array.isArray(_this.props.value) ? (0, _toConsumableArray2.default)(_this.props.value) : [];\n            var itemIndex = value.indexOf(child.props.value);\n\n            if (itemIndex === -1) {\n              value.push(child.props.value);\n            } else {\n              value.splice(itemIndex, 1);\n            }\n          } else {\n            value = child.props.value;\n          }\n\n          event.persist();\n          event.target = {\n            value: value,\n            name: name\n          };\n          onChange(event, child);\n        }\n      };\n    };\n\n    _this.handleBlur = function (event) {\n      if (_this.ignoreNextBlur === true) {\n        // The parent components are relying on the bubbling of the event.\n        event.stopPropagation();\n        _this.ignoreNextBlur = false;\n        return;\n      }\n\n      if (_this.props.onBlur) {\n        var _this$props2 = _this.props,\n            value = _this$props2.value,\n            name = _this$props2.name;\n        event.persist();\n        event.target = {\n          value: value,\n          name: name\n        };\n\n        _this.props.onBlur(event);\n      }\n    };\n\n    _this.handleKeyDown = function (event) {\n      if (_this.props.readOnly) {\n        return;\n      }\n\n      if ([' ', 'ArrowUp', 'ArrowDown', // The native select doesn't respond to enter on MacOS, but it's recommended by\n      // https://www.w3.org/TR/wai-aria-practices/examples/listbox/listbox-collapsible.html\n      'Enter'].indexOf(event.key) !== -1) {\n        event.preventDefault(); // Opening the menu is going to blur the. It will be focused back when closed.\n\n        _this.ignoreNextBlur = true;\n\n        _this.update({\n          open: true,\n          event: event\n        });\n      }\n    };\n\n    _this.handleDisplayRef = function (ref) {\n      _this.displayRef = ref;\n    };\n\n    _this.handleInputRef = function (ref) {\n      var inputRef = _this.props.inputRef;\n\n      if (!inputRef) {\n        return;\n      }\n\n      var nodeProxy = {\n        node: ref,\n        // By pass the native input as we expose a rich object (array).\n        value: _this.props.value,\n        focus: function focus() {\n          _this.displayRef.focus();\n        }\n      };\n      (0, _reactHelpers.setRef)(inputRef, nodeProxy);\n    };\n\n    _this.isOpenControlled = props.open !== undefined;\n    _this.state = {\n      menuMinWidth: null,\n      open: false\n    };\n    return _this;\n  }\n\n  (0, _createClass2.default)(SelectInput, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      if (this.isOpenControlled && this.props.open) {\n        // Focus the display node so the focus is restored on this element once\n        // the menu is closed.\n        this.displayRef.focus(); // Rerender with the resolve `displayRef` reference.\n\n        this.forceUpdate();\n      }\n\n      if (this.props.autoFocus) {\n        this.displayRef.focus();\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this2 = this,\n          _classNames;\n\n      var _this$props3 = this.props,\n          autoWidth = _this$props3.autoWidth,\n          children = _this$props3.children,\n          classes = _this$props3.classes,\n          className = _this$props3.className,\n          disabled = _this$props3.disabled,\n          displayEmpty = _this$props3.displayEmpty,\n          IconComponent = _this$props3.IconComponent,\n          inputRef = _this$props3.inputRef,\n          _this$props3$MenuProp = _this$props3.MenuProps,\n          MenuProps = _this$props3$MenuProp === void 0 ? {} : _this$props3$MenuProp,\n          multiple = _this$props3.multiple,\n          name = _this$props3.name,\n          onBlur = _this$props3.onBlur,\n          onChange = _this$props3.onChange,\n          onClose = _this$props3.onClose,\n          onFocus = _this$props3.onFocus,\n          onOpen = _this$props3.onOpen,\n          openProp = _this$props3.open,\n          readOnly = _this$props3.readOnly,\n          renderValue = _this$props3.renderValue,\n          required = _this$props3.required,\n          SelectDisplayProps = _this$props3.SelectDisplayProps,\n          tabIndexProp = _this$props3.tabIndex,\n          _this$props3$type = _this$props3.type,\n          type = _this$props3$type === void 0 ? 'hidden' : _this$props3$type,\n          value = _this$props3.value,\n          variant = _this$props3.variant,\n          other = (0, _objectWithoutProperties2.default)(_this$props3, [\"autoWidth\", \"children\", \"classes\", \"className\", \"disabled\", \"displayEmpty\", \"IconComponent\", \"inputRef\", \"MenuProps\", \"multiple\", \"name\", \"onBlur\", \"onChange\", \"onClose\", \"onFocus\", \"onOpen\", \"open\", \"readOnly\", \"renderValue\", \"required\", \"SelectDisplayProps\", \"tabIndex\", \"type\", \"value\", \"variant\"]);\n      var open = this.isOpenControlled && this.displayRef ? openProp : this.state.open;\n      delete other['aria-invalid'];\n      var display;\n      var displaySingle = '';\n      var displayMultiple = [];\n      var computeDisplay = false; // No need to display any value if the field is empty.\n\n      if ((0, _utils2.isFilled)(this.props) || displayEmpty) {\n        if (renderValue) {\n          display = renderValue(value);\n        } else {\n          computeDisplay = true;\n        }\n      }\n\n      var items = _react.default.Children.map(children, function (child) {\n        if (!_react.default.isValidElement(child)) {\n          return null;\n        }\n\n        process.env.NODE_ENV !== \"production\" ? (0, _warning.default)(child.type !== _react.default.Fragment, [\"Material-UI: the Select component doesn't accept a Fragment as a child.\", 'Consider providing an array instead.'].join('\\n')) : void 0;\n        var selected;\n\n        if (multiple) {\n          if (!Array.isArray(value)) {\n            throw new Error('Material-UI: the `value` property must be an array ' + 'when using the `Select` component with `multiple`.');\n          }\n\n          selected = value.some(function (v) {\n            return areEqualValues(v, child.props.value);\n          });\n\n          if (selected && computeDisplay) {\n            displayMultiple.push(child.props.children);\n          }\n        } else {\n          selected = areEqualValues(value, child.props.value);\n\n          if (selected && computeDisplay) {\n            displaySingle = child.props.children;\n          }\n        }\n\n        return _react.default.cloneElement(child, {\n          onClick: _this2.handleItemClick(child),\n          role: 'option',\n          selected: selected,\n          value: undefined,\n          // The value is most likely not a valid HTML attribute.\n          'data-value': child.props.value // Instead, we provide it as a data attribute.\n\n        });\n      });\n\n      if (computeDisplay) {\n        display = multiple ? displayMultiple.join(', ') : displaySingle;\n      } // Avoid performing a layout computation in the render method.\n\n\n      var menuMinWidth = this.state.menuMinWidth;\n\n      if (!autoWidth && this.isOpenControlled && this.displayRef) {\n        menuMinWidth = this.displayRef.clientWidth;\n      }\n\n      var tabIndex;\n\n      if (typeof tabIndexProp !== 'undefined') {\n        tabIndex = tabIndexProp;\n      } else {\n        tabIndex = disabled ? null : 0;\n      }\n\n      return _react.default.createElement(\"div\", {\n        className: classes.root\n      }, _react.default.createElement(\"div\", (0, _extends2.default)({\n        className: (0, _classnames.default)(classes.select, classes.selectMenu, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes.disabled, disabled), (0, _defineProperty2.default)(_classNames, classes.filled, variant === 'filled'), (0, _defineProperty2.default)(_classNames, classes.outlined, variant === 'outlined'), _classNames), className),\n        ref: this.handleDisplayRef,\n        \"aria-pressed\": open ? 'true' : 'false',\n        tabIndex: tabIndex,\n        role: \"button\",\n        \"aria-owns\": open ? \"menu-\".concat(name || '') : undefined,\n        \"aria-haspopup\": \"true\",\n        onKeyDown: this.handleKeyDown,\n        onBlur: this.handleBlur,\n        onClick: disabled || readOnly ? null : this.handleClick,\n        onFocus: onFocus // The id can help with end-to-end testing automation.\n        ,\n        id: name ? \"select-\".concat(name) : undefined\n      }, SelectDisplayProps), display || _react.default.createElement(\"span\", {\n        dangerouslySetInnerHTML: {\n          __html: '&#8203;'\n        }\n      })), _react.default.createElement(\"input\", (0, _extends2.default)({\n        value: Array.isArray(value) ? value.join(',') : value,\n        name: name,\n        ref: this.handleInputRef,\n        type: type\n      }, other)), _react.default.createElement(IconComponent, {\n        className: classes.icon\n      }), _react.default.createElement(_Menu.default, (0, _extends2.default)({\n        id: \"menu-\".concat(name || ''),\n        anchorEl: this.displayRef,\n        open: open,\n        onClose: this.handleClose\n      }, MenuProps, {\n        MenuListProps: (0, _extends2.default)({\n          role: 'listbox',\n          disableListWrap: true\n        }, MenuProps.MenuListProps),\n        PaperProps: (0, _extends2.default)({}, MenuProps.PaperProps, {\n          style: (0, _extends2.default)({\n            minWidth: menuMinWidth\n          }, MenuProps.PaperProps != null ? MenuProps.PaperProps.style : null)\n        })\n      }), items));\n    }\n  }]);\n  return SelectInput;\n}(_react.default.Component);\n\nprocess.env.NODE_ENV !== \"production\" ? SelectInput.propTypes = {\n  /**\n   * @ignore\n   */\n  autoFocus: _propTypes.default.bool,\n\n  /**\n   * If true, the width of the popover will automatically be set according to the items inside the\n   * menu, otherwise it will be at least the width of the select input.\n   */\n  autoWidth: _propTypes.default.bool,\n\n  /**\n   * The option elements to populate the select with.\n   * Can be some `<MenuItem>` elements.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * The CSS class name of the select element.\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * If `true`, the select will be disabled.\n   */\n  disabled: _propTypes.default.bool,\n\n  /**\n   * If `true`, the selected item is displayed even if its value is empty.\n   */\n  displayEmpty: _propTypes.default.bool,\n\n  /**\n   * The icon that displays the arrow.\n   */\n  IconComponent: _utils.componentPropType,\n\n  /**\n   * Use that property to pass a ref callback to the native select element.\n   */\n  inputRef: _propTypes.default.oneOfType([_propTypes.default.func, _propTypes.default.object]),\n\n  /**\n   * Properties applied to the [`Menu`](/api/menu/) element.\n   */\n  MenuProps: _propTypes.default.object,\n\n  /**\n   * If true, `value` must be an array and the menu will support multiple selections.\n   */\n  multiple: _propTypes.default.bool,\n\n  /**\n   * Name attribute of the `select` or hidden `input` element.\n   */\n  name: _propTypes.default.string,\n\n  /**\n   * @ignore\n   */\n  onBlur: _propTypes.default.func,\n\n  /**\n   * Callback function fired when a menu item is selected.\n   *\n   * @param {object} event The event source of the callback.\n   * You can pull out the new value by accessing `event.target.value`.\n   * @param {object} [child] The react element that was selected.\n   */\n  onChange: _propTypes.default.func,\n\n  /**\n   * Callback fired when the component requests to be closed.\n   * Use in controlled mode (see open).\n   *\n   * @param {object} event The event source of the callback\n   */\n  onClose: _propTypes.default.func,\n\n  /**\n   * @ignore\n   */\n  onFocus: _propTypes.default.func,\n\n  /**\n   * Callback fired when the component requests to be opened.\n   * Use in controlled mode (see open).\n   *\n   * @param {object} event The event source of the callback\n   */\n  onOpen: _propTypes.default.func,\n\n  /**\n   * Control `select` open state.\n   */\n  open: _propTypes.default.bool,\n\n  /**\n   * @ignore\n   */\n  readOnly: _propTypes.default.bool,\n\n  /**\n   * Render the selected value.\n   *\n   * @param {*} value The `value` provided to the component.\n   * @returns {ReactElement}\n   */\n  renderValue: _propTypes.default.func,\n\n  /**\n   * @ignore\n   */\n  required: _propTypes.default.bool,\n\n  /**\n   * Properties applied to the clickable div element.\n   */\n  SelectDisplayProps: _propTypes.default.object,\n\n  /**\n   * @ignore\n   */\n  tabIndex: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.string]),\n\n  /**\n   * @ignore\n   */\n  type: _propTypes.default.string,\n\n  /**\n   * The input value.\n   */\n  value: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object, _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.object]))]).isRequired,\n\n  /**\n   * The variant to use.\n   */\n  variant: _propTypes.default.oneOf(['standard', 'outlined', 'filled'])\n} : void 0;\nvar _default = SelectInput;\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "../InputBase/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputBase/utils.js",
+      "../utils/reactHelpers": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/reactHelpers.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
+      "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
+      "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/toConsumableArray": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/toConsumableArray.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
+      "@babel/runtime/helpers/typeof": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/typeof.js",
+      "../Menu/Menu": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Menu/Menu.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Select/SelectInput.js",
+      "hash": "U431Mg",
+      "browserifyId": 117,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/Select/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _Select.default;\n  }\n});\n\nvar _Select = _interopRequireDefault(require(\"./Select\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./Select": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Select/Select.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Select/index.js",
+      "hash": "ih4SFg",
+      "browserifyId": 118,
       "sourcemap": ""
     }
   ],
@@ -1619,8 +2386,8 @@
       "react-event-listener": "/home/dustin/CS/recipes/node_modules/react-event-listener/dist/react-event-listener.cjs.js",
       "debounce": "/home/dustin/CS/recipes/node_modules/debounce/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
@@ -1631,7 +2398,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Slide/Slide.js",
       "hash": "BV3eFQ",
-      "browserifyId": 79,
+      "browserifyId": 119,
       "sourcemap": ""
     }
   ],
@@ -1644,7 +2411,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Slide/index.js",
       "hash": "Il8iuw",
-      "browserifyId": 80,
+      "browserifyId": 120,
       "sourcemap": ""
     }
   ],
@@ -1661,9 +2428,9 @@
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
@@ -1676,7 +2443,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Snackbar/Snackbar.js",
       "hash": "aewrQw",
-      "browserifyId": 81,
+      "browserifyId": 121,
       "sourcemap": ""
     }
   ],
@@ -1689,7 +2456,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Snackbar/index.js",
       "hash": "/CrN9Q",
-      "browserifyId": 82,
+      "browserifyId": 122,
       "sourcemap": ""
     }
   ],
@@ -1704,15 +2471,15 @@
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
-      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js"
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/SnackbarContent/SnackbarContent.js",
       "hash": "b3Gckw",
-      "browserifyId": 83,
+      "browserifyId": 123,
       "sourcemap": ""
     }
   ],
@@ -1725,7 +2492,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/SnackbarContent/index.js",
       "hash": "/7IcEg",
-      "browserifyId": 84,
+      "browserifyId": 124,
       "sourcemap": ""
     }
   ],
@@ -1747,7 +2514,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/SvgIcon/SvgIcon.js",
       "hash": "eeOS+w",
-      "browserifyId": 85,
+      "browserifyId": 125,
       "sourcemap": ""
     }
   ],
@@ -1760,7 +2527,51 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/SvgIcon/index.js",
       "hash": "J8XTmg",
-      "browserifyId": 86,
+      "browserifyId": 126,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/TextField/TextField.js": [
+    "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _classCallCheck2 = _interopRequireDefault(require(\"@babel/runtime/helpers/classCallCheck\"));\n\nvar _createClass2 = _interopRequireDefault(require(\"@babel/runtime/helpers/createClass\"));\n\nvar _possibleConstructorReturn2 = _interopRequireDefault(require(\"@babel/runtime/helpers/possibleConstructorReturn\"));\n\nvar _getPrototypeOf2 = _interopRequireDefault(require(\"@babel/runtime/helpers/getPrototypeOf\"));\n\nvar _inherits2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inherits\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _reactDom = _interopRequireDefault(require(\"react-dom\"));\n\nvar _warning = _interopRequireDefault(require(\"warning\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _Input = _interopRequireDefault(require(\"../Input\"));\n\nvar _FilledInput = _interopRequireDefault(require(\"../FilledInput\"));\n\nvar _OutlinedInput = _interopRequireDefault(require(\"../OutlinedInput\"));\n\nvar _InputLabel = _interopRequireDefault(require(\"../InputLabel\"));\n\nvar _FormControl = _interopRequireDefault(require(\"../FormControl\"));\n\nvar _FormHelperText = _interopRequireDefault(require(\"../FormHelperText\"));\n\nvar _Select = _interopRequireDefault(require(\"../Select\"));\n\n// @inheritedComponent FormControl\nvar variantComponent = {\n  standard: _Input.default,\n  filled: _FilledInput.default,\n  outlined: _OutlinedInput.default\n};\n/**\n * The `TextField` is a convenience wrapper for the most common cases (80%).\n * It cannot be all things to all people, otherwise the API would grow out of control.\n *\n * ## Advanced Configuration\n *\n * It's important to understand that the text field is a simple abstraction\n * on top of the following components:\n * - [FormControl](/api/form-control/)\n * - [InputLabel](/api/input-label/)\n * - [Input](/api/input/)\n * - [FormHelperText](/api/form-helper-text/)\n *\n * If you wish to alter the properties applied to the native input, you can do so as follows:\n *\n * ```jsx\n * const inputProps = {\n *   step: 300,\n * };\n *\n * return <TextField id=\"time\" type=\"time\" inputProps={inputProps} />;\n * ```\n *\n * For advanced cases, please look at the source of TextField by clicking on the\n * \"Edit this page\" button above. Consider either:\n * - using the upper case props for passing values directly to the components\n * - using the underlying components directly as shown in the demos\n */\n\nvar TextField =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inherits2.default)(TextField, _React$Component);\n\n  function TextField(props) {\n    var _this;\n\n    (0, _classCallCheck2.default)(this, TextField);\n    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(TextField).call(this, props));\n    _this.labelRef = _react.default.createRef();\n    return _this;\n  }\n\n  (0, _createClass2.default)(TextField, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      if (this.props.variant === 'outlined') {\n        this.labelNode = _reactDom.default.findDOMNode(this.labelRef.current);\n        this.forceUpdate();\n      }\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var _this$props = this.props,\n          autoComplete = _this$props.autoComplete,\n          autoFocus = _this$props.autoFocus,\n          children = _this$props.children,\n          className = _this$props.className,\n          defaultValue = _this$props.defaultValue,\n          error = _this$props.error,\n          FormHelperTextProps = _this$props.FormHelperTextProps,\n          fullWidth = _this$props.fullWidth,\n          helperText = _this$props.helperText,\n          id = _this$props.id,\n          InputLabelProps = _this$props.InputLabelProps,\n          inputProps = _this$props.inputProps,\n          InputProps = _this$props.InputProps,\n          inputRef = _this$props.inputRef,\n          label = _this$props.label,\n          multiline = _this$props.multiline,\n          name = _this$props.name,\n          onBlur = _this$props.onBlur,\n          onChange = _this$props.onChange,\n          onFocus = _this$props.onFocus,\n          placeholder = _this$props.placeholder,\n          required = _this$props.required,\n          rows = _this$props.rows,\n          rowsMax = _this$props.rowsMax,\n          select = _this$props.select,\n          SelectProps = _this$props.SelectProps,\n          type = _this$props.type,\n          value = _this$props.value,\n          variant = _this$props.variant,\n          other = (0, _objectWithoutProperties2.default)(_this$props, [\"autoComplete\", \"autoFocus\", \"children\", \"className\", \"defaultValue\", \"error\", \"FormHelperTextProps\", \"fullWidth\", \"helperText\", \"id\", \"InputLabelProps\", \"inputProps\", \"InputProps\", \"inputRef\", \"label\", \"multiline\", \"name\", \"onBlur\", \"onChange\", \"onFocus\", \"placeholder\", \"required\", \"rows\", \"rowsMax\", \"select\", \"SelectProps\", \"type\", \"value\", \"variant\"]);\n      process.env.NODE_ENV !== \"production\" ? (0, _warning.default)(!select || Boolean(children), 'Material-UI: `children` must be passed when using the `TextField` component with `select`.') : void 0;\n      var InputMore = {};\n\n      if (variant === 'outlined') {\n        if (InputLabelProps && typeof InputLabelProps.shrink !== 'undefined') {\n          InputMore.notched = InputLabelProps.shrink;\n        }\n\n        InputMore.labelWidth = this.labelNode && this.labelNode.offsetWidth || 0;\n      }\n\n      var helperTextId = helperText && id ? \"\".concat(id, \"-helper-text\") : undefined;\n      var InputComponent = variantComponent[variant];\n\n      var InputElement = _react.default.createElement(InputComponent, (0, _extends2.default)({\n        \"aria-describedby\": helperTextId,\n        autoComplete: autoComplete,\n        autoFocus: autoFocus,\n        defaultValue: defaultValue,\n        fullWidth: fullWidth,\n        multiline: multiline,\n        name: name,\n        rows: rows,\n        rowsMax: rowsMax,\n        type: type,\n        value: value,\n        id: id,\n        inputRef: inputRef,\n        onBlur: onBlur,\n        onChange: onChange,\n        onFocus: onFocus,\n        placeholder: placeholder,\n        inputProps: inputProps\n      }, InputMore, InputProps));\n\n      return _react.default.createElement(_FormControl.default, (0, _extends2.default)({\n        className: className,\n        error: error,\n        fullWidth: fullWidth,\n        required: required,\n        variant: variant\n      }, other), label && _react.default.createElement(_InputLabel.default, (0, _extends2.default)({\n        htmlFor: id,\n        ref: this.labelRef\n      }, InputLabelProps), label), select ? _react.default.createElement(_Select.default, (0, _extends2.default)({\n        \"aria-describedby\": helperTextId,\n        value: value,\n        input: InputElement\n      }, SelectProps), children) : InputElement, helperText && _react.default.createElement(_FormHelperText.default, (0, _extends2.default)({\n        id: helperTextId\n      }, FormHelperTextProps), helperText));\n    }\n  }]);\n  return TextField;\n}(_react.default.Component);\n\nprocess.env.NODE_ENV !== \"production\" ? TextField.propTypes = {\n  /**\n   * This property helps users to fill forms faster, especially on mobile devices.\n   * The name can be confusing, as it's more like an autofill.\n   * You can learn more about it here:\n   * https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill\n   */\n  autoComplete: _propTypes.default.string,\n\n  /**\n   * If `true`, the input will be focused during the first mount.\n   */\n  autoFocus: _propTypes.default.bool,\n\n  /**\n   * @ignore\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * @ignore\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * The default value of the `Input` element.\n   */\n  defaultValue: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),\n\n  /**\n   * If `true`, the input will be disabled.\n   */\n  disabled: _propTypes.default.bool,\n\n  /**\n   * If `true`, the label will be displayed in an error state.\n   */\n  error: _propTypes.default.bool,\n\n  /**\n   * Properties applied to the [`FormHelperText`](/api/form-helper-text/) element.\n   */\n  FormHelperTextProps: _propTypes.default.object,\n\n  /**\n   * If `true`, the input will take up the full width of its container.\n   */\n  fullWidth: _propTypes.default.bool,\n\n  /**\n   * The helper text content.\n   */\n  helperText: _propTypes.default.node,\n\n  /**\n   * The id of the `input` element.\n   * Use this property to make `label` and `helperText` accessible for screen readers.\n   */\n  id: _propTypes.default.string,\n\n  /**\n   * Properties applied to the [`InputLabel`](/api/input-label/) element.\n   */\n  InputLabelProps: _propTypes.default.object,\n\n  /**\n   * Properties applied to the `Input` element.\n   */\n  InputProps: _propTypes.default.object,\n\n  /**\n   * Attributes applied to the native `input` element.\n   */\n  inputProps: _propTypes.default.object,\n\n  /**\n   * Use this property to pass a ref callback to the native input component.\n   */\n  inputRef: _propTypes.default.oneOfType([_propTypes.default.func, _propTypes.default.object]),\n\n  /**\n   * The label content.\n   */\n  label: _propTypes.default.node,\n\n  /**\n   * If `dense` or `normal`, will adjust vertical spacing of this and contained components.\n   */\n  margin: _propTypes.default.oneOf(['none', 'dense', 'normal']),\n\n  /**\n   * If `true`, a textarea element will be rendered instead of an input.\n   */\n  multiline: _propTypes.default.bool,\n\n  /**\n   * Name attribute of the `input` element.\n   */\n  name: _propTypes.default.string,\n\n  /**\n   * @ignore\n   */\n  onBlur: _propTypes.default.func,\n\n  /**\n   * Callback fired when the value is changed.\n   *\n   * @param {object} event The event source of the callback.\n   * You can pull out the new value by accessing `event.target.value`.\n   */\n  onChange: _propTypes.default.func,\n\n  /**\n   * @ignore\n   */\n  onFocus: _propTypes.default.func,\n\n  /**\n   * The short hint displayed in the input before the user enters a value.\n   */\n  placeholder: _propTypes.default.string,\n\n  /**\n   * If `true`, the label is displayed as required and the input will be required.\n   */\n  required: _propTypes.default.bool,\n\n  /**\n   * Number of rows to display when multiline option is set to true.\n   */\n  rows: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),\n\n  /**\n   * Maximum number of rows to display when multiline option is set to true.\n   */\n  rowsMax: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number]),\n\n  /**\n   * Render a `Select` element while passing the `Input` element to `Select` as `input` parameter.\n   * If this option is set you must pass the options of the select as children.\n   */\n  select: _propTypes.default.bool,\n\n  /**\n   * Properties applied to the [`Select`](/api/select/) element.\n   */\n  SelectProps: _propTypes.default.object,\n\n  /**\n   * Type attribute of the `Input` element. It should be a valid HTML5 input type.\n   */\n  type: _propTypes.default.string,\n\n  /**\n   * The value of the `Input` element, required for a controlled component.\n   */\n  value: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool, _propTypes.default.arrayOf(_propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.number, _propTypes.default.bool]))]),\n\n  /**\n   * The variant to use.\n   */\n  variant: _propTypes.default.oneOf(['standard', 'outlined', 'filled'])\n} : void 0;\nTextField.defaultProps = {\n  required: false,\n  select: false,\n  variant: 'standard'\n};\nvar _default = TextField;\nexports.default = _default;\n}).call(this,require('_process'))",
+    {
+      "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "react-dom": "/home/dustin/CS/recipes/node_modules/react-dom/index.js",
+      "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
+      "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
+      "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "../FilledInput": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FilledInput/index.js",
+      "../FormHelperText": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormHelperText/index.js",
+      "../OutlinedInput": "/home/dustin/CS/recipes/node_modules/@material-ui/core/OutlinedInput/index.js",
+      "../FormControl": "/home/dustin/CS/recipes/node_modules/@material-ui/core/FormControl/index.js",
+      "../InputLabel": "/home/dustin/CS/recipes/node_modules/@material-ui/core/InputLabel/index.js",
+      "../Input": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Input/index.js",
+      "../Select": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Select/index.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/TextField/TextField.js",
+      "hash": "93TDYQ",
+      "browserifyId": 127,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/TextField/index.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nObject.defineProperty(exports, \"default\", {\n  enumerable: true,\n  get: function get() {\n    return _TextField.default;\n  }\n});\n\nvar _TextField = _interopRequireDefault(require(\"./TextField\"));",
+    {
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "./TextField": "/home/dustin/CS/recipes/node_modules/@material-ui/core/TextField/TextField.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/TextField/index.js",
+      "hash": "48Ps7A",
+      "browserifyId": 128,
       "sourcemap": ""
     }
   ],
@@ -1780,7 +2591,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Toolbar/Toolbar.js",
       "hash": "LAUIRw",
-      "browserifyId": 87,
+      "browserifyId": 129,
       "sourcemap": ""
     }
   ],
@@ -1793,7 +2604,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Toolbar/index.js",
       "hash": "N8ey5A",
-      "browserifyId": 88,
+      "browserifyId": 130,
       "sourcemap": ""
     }
   ],
@@ -1801,8 +2612,8 @@
     "(function (process){\n\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = exports.styles = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _propTypes = _interopRequireDefault(require(\"prop-types\"));\n\nvar _classnames = _interopRequireDefault(require(\"classnames\"));\n\nvar _utils = require(\"@material-ui/utils\");\n\nvar _withStyles = _interopRequireDefault(require(\"../styles/withStyles\"));\n\nvar _helpers = require(\"../utils/helpers\");\n\nvar styles = function styles(theme) {\n  return {\n    /* Styles applied to the root element. */\n    root: {\n      display: 'block',\n      margin: 0\n    },\n\n    /* Styles applied to the root element if `variant=\"display4\"`. */\n    display4: theme.typography.display4,\n\n    /* Styles applied to the root element if `variant=\"display3\"`. */\n    display3: theme.typography.display3,\n\n    /* Styles applied to the root element if `variant=\"display2\"`. */\n    display2: theme.typography.display2,\n\n    /* Styles applied to the root element if `variant=\"display1\"`. */\n    display1: theme.typography.display1,\n\n    /* Styles applied to the root element if `variant=\"headline\"`. */\n    headline: theme.typography.headline,\n\n    /* Styles applied to the root element if `variant=\"title\"`. */\n    title: theme.typography.title,\n\n    /* Styles applied to the root element if `variant=\"subheading\"`. */\n    subheading: theme.typography.subheading,\n\n    /* Styles applied to the root element if `variant=\"body2\"`. */\n    body2: theme.typography.body2,\n\n    /* Styles applied to the root element if `variant=\"body1\"`. */\n    body1: theme.typography.body1,\n\n    /* Styles applied to the root element if `variant=\"caption\"`. */\n    caption: theme.typography.caption,\n\n    /* Styles applied to the root element if `variant=\"button\"`. */\n    button: theme.typography.button,\n\n    /* Styles applied to the root element if `variant=\"h1\"`. */\n    h1: theme.typography.h1,\n\n    /* Styles applied to the root element if `variant=\"h2\"`. */\n    h2: theme.typography.h2,\n\n    /* Styles applied to the root element if `variant=\"h3\"`. */\n    h3: theme.typography.h3,\n\n    /* Styles applied to the root element if `variant=\"h4\"`. */\n    h4: theme.typography.h4,\n\n    /* Styles applied to the root element if `variant=\"h5\"`. */\n    h5: theme.typography.h5,\n\n    /* Styles applied to the root element if `variant=\"h6\"`. */\n    h6: theme.typography.h6,\n\n    /* Styles applied to the root element if `variant=\"subtitle1\"`. */\n    subtitle1: theme.typography.subtitle1,\n\n    /* Styles applied to the root element if `variant=\"subtitle2\"`. */\n    subtitle2: theme.typography.subtitle2,\n\n    /* Styles applied to the root element if `variant=\"overline\"`. */\n    overline: theme.typography.overline,\n\n    /* Styles applied to the root element if `variant=\"srOnly\"`. Only accessible to screen readers. */\n    srOnly: {\n      position: 'absolute',\n      height: 1,\n      width: 1,\n      overflow: 'hidden'\n    },\n\n    /* Styles applied to the root element if `align=\"left\"`. */\n    alignLeft: {\n      textAlign: 'left'\n    },\n\n    /* Styles applied to the root element if `align=\"center\"`. */\n    alignCenter: {\n      textAlign: 'center'\n    },\n\n    /* Styles applied to the root element if `align=\"right\"`. */\n    alignRight: {\n      textAlign: 'right'\n    },\n\n    /* Styles applied to the root element if `align=\"justify\"`. */\n    alignJustify: {\n      textAlign: 'justify'\n    },\n\n    /* Styles applied to the root element if `align=\"nowrap\"`. */\n    noWrap: {\n      overflow: 'hidden',\n      textOverflow: 'ellipsis',\n      whiteSpace: 'nowrap'\n    },\n\n    /* Styles applied to the root element if `gutterBottom={true}`. */\n    gutterBottom: {\n      marginBottom: '0.35em'\n    },\n\n    /* Styles applied to the root element if `paragraph={true}`. */\n    paragraph: {\n      marginBottom: 16\n    },\n\n    /* Styles applied to the root element if `color=\"inherit\"`. */\n    colorInherit: {\n      color: 'inherit'\n    },\n\n    /* Styles applied to the root element if `color=\"primary\"`. */\n    colorPrimary: {\n      color: theme.palette.primary.main\n    },\n\n    /* Styles applied to the root element if `color=\"secondary\"`. */\n    colorSecondary: {\n      color: theme.palette.secondary.main\n    },\n\n    /* Styles applied to the root element if `color=\"textPrimary\"`. */\n    colorTextPrimary: {\n      color: theme.palette.text.primary\n    },\n\n    /* Styles applied to the root element if `color=\"textSecondary\"`. */\n    colorTextSecondary: {\n      color: theme.palette.text.secondary\n    },\n\n    /* Styles applied to the root element if `color=\"error\"`. */\n    colorError: {\n      color: theme.palette.error.main\n    },\n\n    /* Styles applied to the root element if `inline={true}`. */\n    inline: {\n      display: 'inline'\n    }\n  };\n};\n\nexports.styles = styles;\nvar nextVariants = {\n  display4: 'h1',\n  display3: 'h2',\n  display2: 'h3',\n  display1: 'h4',\n  headline: 'h5',\n  title: 'h6',\n  subheading: 'subtitle1'\n};\n\nfunction getVariant(theme, variantProp) {\n  var typography = theme.typography;\n  var variant = variantProp;\n\n  if (!variant) {\n    variant = typography.useNextVariants ? 'body2' : 'body1';\n  } // complete v2 switch\n\n\n  if (typography.useNextVariants) {\n    variant = nextVariants[variant] || variant;\n  }\n\n  return variant;\n}\n\nvar defaultHeadlineMapping = {\n  h1: 'h1',\n  h2: 'h2',\n  h3: 'h3',\n  h4: 'h4',\n  h5: 'h5',\n  h6: 'h6',\n  subtitle1: 'h6',\n  subtitle2: 'h6',\n  body1: 'p',\n  body2: 'p',\n  // deprecated\n  display4: 'h1',\n  display3: 'h1',\n  display2: 'h1',\n  display1: 'h1',\n  headline: 'h1',\n  title: 'h2',\n  subheading: 'h3'\n};\n\nfunction Typography(props) {\n  var _classNames;\n\n  var align = props.align,\n      classes = props.classes,\n      classNameProp = props.className,\n      color = props.color,\n      componentProp = props.component,\n      gutterBottom = props.gutterBottom,\n      headlineMapping = props.headlineMapping,\n      inline = props.inline,\n      internalDeprecatedVariant = props.internalDeprecatedVariant,\n      noWrap = props.noWrap,\n      paragraph = props.paragraph,\n      theme = props.theme,\n      variantProp = props.variant,\n      other = (0, _objectWithoutProperties2.default)(props, [\"align\", \"classes\", \"className\", \"color\", \"component\", \"gutterBottom\", \"headlineMapping\", \"inline\", \"internalDeprecatedVariant\", \"noWrap\", \"paragraph\", \"theme\", \"variant\"]);\n  var variant = getVariant(theme, variantProp);\n  var className = (0, _classnames.default)(classes.root, (_classNames = {}, (0, _defineProperty2.default)(_classNames, classes[variant], variant !== 'inherit'), (0, _defineProperty2.default)(_classNames, classes[\"color\".concat((0, _helpers.capitalize)(color))], color !== 'default'), (0, _defineProperty2.default)(_classNames, classes.noWrap, noWrap), (0, _defineProperty2.default)(_classNames, classes.gutterBottom, gutterBottom), (0, _defineProperty2.default)(_classNames, classes.paragraph, paragraph), (0, _defineProperty2.default)(_classNames, classes[\"align\".concat((0, _helpers.capitalize)(align))], align !== 'inherit'), (0, _defineProperty2.default)(_classNames, classes.inline, inline), _classNames), classNameProp);\n  var Component = componentProp || (paragraph ? 'p' : headlineMapping[variant] || defaultHeadlineMapping[variant]) || 'span';\n  return _react.default.createElement(Component, (0, _extends2.default)({\n    className: className\n  }, other));\n}\n\nprocess.env.NODE_ENV !== \"production\" ? Typography.propTypes = {\n  /**\n   * Set the text-align on the component.\n   */\n  align: _propTypes.default.oneOf(['inherit', 'left', 'center', 'right', 'justify']),\n\n  /**\n   * The content of the component.\n   */\n  children: _propTypes.default.node,\n\n  /**\n   * Override or extend the styles applied to the component.\n   * See [CSS API](#css-api) below for more details.\n   */\n  classes: _propTypes.default.object.isRequired,\n\n  /**\n   * @ignore\n   */\n  className: _propTypes.default.string,\n\n  /**\n   * The color of the component. It supports those theme colors that make sense for this component.\n   */\n  color: _propTypes.default.oneOf(['default', 'error', 'inherit', 'primary', 'secondary', 'textPrimary', 'textSecondary']),\n\n  /**\n   * The component used for the root node.\n   * Either a string to use a DOM element or a component.\n   * By default, it maps the variant to a good default headline component.\n   */\n  component: _utils.componentPropType,\n\n  /**\n   * If `true`, the text will have a bottom margin.\n   */\n  gutterBottom: _propTypes.default.bool,\n\n  /**\n   * We are empirically mapping the variant property to a range of different DOM element types.\n   * For instance, subtitle1 to `<h6>`.\n   * If you wish to change that mapping, you can provide your own.\n   * Alternatively, you can use the `component` property.\n   * The default mapping is the following:\n   */\n  headlineMapping: _propTypes.default.object,\n\n  /**\n   *  Controls whether the Typography is inline or not.\n   */\n  inline: _propTypes.default.bool,\n\n  /**\n   * A deprecated variant is used from an internal component. Users don't need\n   * a deprecation warning here if they switched to the v2 theme. They already\n   * get the mapping that will be applied in the next major release.\n   *\n   * @internal\n   */\n  internalDeprecatedVariant: _propTypes.default.bool,\n\n  /**\n   * If `true`, the text will not wrap, but instead will truncate with an ellipsis.\n   */\n  noWrap: _propTypes.default.bool,\n\n  /**\n   * If `true`, the text will have a bottom margin.\n   */\n  paragraph: _propTypes.default.bool,\n\n  /**\n   * @ignore\n   */\n  theme: _propTypes.default.object.isRequired,\n\n  /**\n   * Applies the theme typography styles.\n   * Use `body1` as the default value with the legacy implementation and `body2` with the new one.\n   */\n  variant: (0, _utils.chainPropTypes)(_propTypes.default.oneOf(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'subtitle1', 'subtitle2', 'body1', 'body2', 'caption', 'button', 'overline', 'srOnly', 'inherit', // deprecated\n  'display4', 'display3', 'display2', 'display1', 'headline', 'title', 'subheading']), function (props) {\n    var deprecatedVariants = ['display4', 'display3', 'display2', 'display1', 'headline', 'title', 'subheading'];\n\n    if (props.theme.typography.useNextVariants && !props.internalDeprecatedVariant && deprecatedVariants.indexOf(props.variant) !== -1) {\n      return new Error('Material-UI: you are using a deprecated typography variant: ' + \"`\".concat(props.variant, \"` that will be removed in the next major release.\\n\") + 'Please read the migration guide under https://material-ui.com/style/typography#migration-to-typography-v2.');\n    }\n\n    return null;\n  })\n} : void 0;\nTypography.defaultProps = {\n  align: 'inherit',\n  color: 'default',\n  gutterBottom: false,\n  headlineMapping: defaultHeadlineMapping,\n  inline: false,\n  noWrap: false,\n  paragraph: false\n};\n\nvar _default = (0, _withStyles.default)(styles, {\n  name: 'MuiTypography',\n  withTheme: true\n})(Typography);\n\nexports.default = _default;\n}).call(this,require('_process'))",
     {
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
-      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
       "../utils/helpers": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/helpers.js",
+      "../styles/withStyles": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "classnames": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
@@ -1815,7 +2626,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Typography/Typography.js",
       "hash": "BAGm/w",
-      "browserifyId": 89,
+      "browserifyId": 131,
       "sourcemap": ""
     }
   ],
@@ -1828,7 +2639,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Typography/index.js",
       "hash": "bgwwOg",
-      "browserifyId": 90,
+      "browserifyId": 132,
       "sourcemap": ""
     }
   ],
@@ -1838,7 +2649,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/amber.js",
       "hash": "w1SMLA",
-      "browserifyId": 91,
+      "browserifyId": 133,
       "sourcemap": ""
     }
   ],
@@ -1848,7 +2659,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/blue.js",
       "hash": "768eXQ",
-      "browserifyId": 92,
+      "browserifyId": 134,
       "sourcemap": ""
     }
   ],
@@ -1858,7 +2669,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/common.js",
       "hash": "CHHGcg",
-      "browserifyId": 93,
+      "browserifyId": 135,
       "sourcemap": ""
     }
   ],
@@ -1868,7 +2679,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/green.js",
       "hash": "Ncwl3A",
-      "browserifyId": 94,
+      "browserifyId": 136,
       "sourcemap": ""
     }
   ],
@@ -1878,7 +2689,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/grey.js",
       "hash": "Wp52MQ",
-      "browserifyId": 95,
+      "browserifyId": 137,
       "sourcemap": ""
     }
   ],
@@ -1888,7 +2699,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/indigo.js",
       "hash": "wNo+OA",
-      "browserifyId": 96,
+      "browserifyId": 138,
       "sourcemap": ""
     }
   ],
@@ -1898,7 +2709,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/orange.js",
       "hash": "ZHMo0w",
-      "browserifyId": 97,
+      "browserifyId": 139,
       "sourcemap": ""
     }
   ],
@@ -1908,7 +2719,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/pink.js",
       "hash": "/dxJiw",
-      "browserifyId": 98,
+      "browserifyId": 140,
       "sourcemap": ""
     }
   ],
@@ -1918,7 +2729,22 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/red.js",
       "hash": "Cyeg1Q",
-      "browserifyId": 99,
+      "browserifyId": 141,
+      "sourcemap": ""
+    }
+  ],
+  "/home/dustin/CS/recipes/node_modules/@material-ui/core/internal/svg-icons/ArrowDropDown.js": [
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = void 0;\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _pure = _interopRequireDefault(require(\"recompose/pure\"));\n\nvar _SvgIcon = _interopRequireDefault(require(\"../../SvgIcon\"));\n\nvar _ref = _react.default.createElement(\"path\", {\n  d: \"M7 10l5 5 5-5z\"\n});\n\n/**\n * @ignore - internal component.\n */\nvar ArrowDropDown = function ArrowDropDown(props) {\n  return _react.default.createElement(_SvgIcon.default, props, _ref);\n};\n\nArrowDropDown = (0, _pure.default)(ArrowDropDown);\nArrowDropDown.muiName = 'SvgIcon';\nvar _default = ArrowDropDown;\nexports.default = _default;",
+    {
+      "../../SvgIcon": "/home/dustin/CS/recipes/node_modules/@material-ui/core/SvgIcon/index.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "recompose/pure": "/home/dustin/CS/recipes/node_modules/recompose/pure.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/internal/svg-icons/ArrowDropDown.js",
+      "hash": "65Cxwg",
+      "browserifyId": 142,
       "sourcemap": ""
     }
   ],
@@ -1930,7 +2756,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "hash": "hWJXBw",
-      "browserifyId": 100,
+      "browserifyId": 143,
       "sourcemap": ""
     }
   ],
@@ -1944,20 +2770,20 @@
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "brcast": "/home/dustin/CS/recipes/node_modules/brcast/dist/brcast.cjs.js",
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
-      "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
-      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
-      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
-      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js"
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/MuiThemeProvider.js",
       "hash": "nChW2Q",
-      "browserifyId": 101,
+      "browserifyId": 144,
       "sourcemap": ""
     }
   ],
@@ -1971,7 +2797,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/colorManipulator.js",
       "hash": "3PxGMw",
-      "browserifyId": 102,
+      "browserifyId": 145,
       "sourcemap": ""
     }
   ],
@@ -1979,13 +2805,13 @@
     "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = createBreakpoints;\nexports.keys = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\n// Sorted ASC by size. That's important.\n// It can't be configured as it's used statically for propTypes.\nvar keys = ['xs', 'sm', 'md', 'lg', 'xl']; // Keep in mind that @media is inclusive by the CSS specification.\n\nexports.keys = keys;\n\nfunction createBreakpoints(breakpoints) {\n  var _breakpoints$values = breakpoints.values,\n      values = _breakpoints$values === void 0 ? {\n    xs: 0,\n    sm: 600,\n    md: 960,\n    lg: 1280,\n    xl: 1920\n  } : _breakpoints$values,\n      _breakpoints$unit = breakpoints.unit,\n      unit = _breakpoints$unit === void 0 ? 'px' : _breakpoints$unit,\n      _breakpoints$step = breakpoints.step,\n      step = _breakpoints$step === void 0 ? 5 : _breakpoints$step,\n      other = (0, _objectWithoutProperties2.default)(breakpoints, [\"values\", \"unit\", \"step\"]);\n\n  function up(key) {\n    var value = typeof values[key] === 'number' ? values[key] : key;\n    return \"@media (min-width:\".concat(value).concat(unit, \")\");\n  }\n\n  function down(key) {\n    var endIndex = keys.indexOf(key) + 1;\n    var upperbound = values[keys[endIndex]];\n\n    if (endIndex === keys.length) {\n      // xl down applies to all sizes\n      return up('xs');\n    }\n\n    var value = typeof upperbound === 'number' && endIndex > 0 ? upperbound : key;\n    return \"@media (max-width:\".concat(value - step / 100).concat(unit, \")\");\n  }\n\n  function between(start, end) {\n    var endIndex = keys.indexOf(end) + 1;\n\n    if (endIndex === keys.length) {\n      return up(start);\n    }\n\n    return \"@media (min-width:\".concat(values[start]).concat(unit, \") and \") + \"(max-width:\".concat(values[keys[endIndex]] - step / 100).concat(unit, \")\");\n  }\n\n  function only(key) {\n    return between(key, key);\n  }\n\n  function width(key) {\n    return values[key];\n  }\n\n  return (0, _extends2.default)({\n    keys: keys,\n    values: values,\n    up: up,\n    down: down,\n    between: between,\n    only: only,\n    width: width\n  }, other);\n}",
     {
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createBreakpoints.js",
       "hash": "UTsoEQ",
-      "browserifyId": 103,
+      "browserifyId": 146,
       "sourcemap": ""
     }
   ],
@@ -1999,7 +2825,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createGenerateClassName.js",
       "hash": "z1Q98w",
-      "browserifyId": 104,
+      "browserifyId": 147,
       "sourcemap": ""
     }
   ],
@@ -2007,13 +2833,13 @@
     "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = createMixins;\n\nvar _defineProperty2 = _interopRequireDefault(require(\"@babel/runtime/helpers/defineProperty\"));\n\nvar _extends3 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nfunction createMixins(breakpoints, spacing, mixins) {\n  var _toolbar;\n\n  return (0, _extends3.default)({\n    gutters: function gutters() {\n      var styles = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n      return (0, _extends3.default)({\n        paddingLeft: spacing.unit * 2,\n        paddingRight: spacing.unit * 2\n      }, styles, (0, _defineProperty2.default)({}, breakpoints.up('sm'), (0, _extends3.default)({\n        paddingLeft: spacing.unit * 3,\n        paddingRight: spacing.unit * 3\n      }, styles[breakpoints.up('sm')])));\n    },\n    toolbar: (_toolbar = {\n      minHeight: 56\n    }, (0, _defineProperty2.default)(_toolbar, \"\".concat(breakpoints.up('xs'), \" and (orientation: landscape)\"), {\n      minHeight: 48\n    }), (0, _defineProperty2.default)(_toolbar, breakpoints.up('sm'), {\n      minHeight: 64\n    }), _toolbar)\n  }, mixins);\n}",
     {
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
-      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js"
+      "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createMixins.js",
       "hash": "xL3hPA",
-      "browserifyId": 105,
+      "browserifyId": 148,
       "sourcemap": ""
     }
   ],
@@ -2029,10 +2855,10 @@
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "deepmerge": "/home/dustin/CS/recipes/node_modules/deepmerge/dist/umd.js",
       "is-plain-object": "/home/dustin/CS/recipes/node_modules/is-plain-object/index.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "./createMixins": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createMixins.js",
       "./createPalette": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createPalette.js",
       "./createTypography": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createTypography.js",
@@ -2041,7 +2867,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createMuiTheme.js",
       "hash": "jFhrMQ",
-      "browserifyId": 106,
+      "browserifyId": 149,
       "sourcemap": ""
     }
   ],
@@ -2051,20 +2877,20 @@
       "_process": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "./colorManipulator": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/colorManipulator.js",
       "../colors/indigo": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/indigo.js",
-      "../colors/grey": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/grey.js",
       "../colors/pink": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/pink.js",
+      "../colors/grey": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/grey.js",
       "../colors/red": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/red.js",
       "../colors/common": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/common.js",
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "deepmerge": "/home/dustin/CS/recipes/node_modules/deepmerge/dist/umd.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createPalette.js",
       "hash": "GO4yUA",
-      "browserifyId": 107,
+      "browserifyId": 150,
       "sourcemap": ""
     }
   ],
@@ -2074,7 +2900,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createStyles.js",
       "hash": "5TGkLQ",
-      "browserifyId": 108,
+      "browserifyId": 151,
       "sourcemap": ""
     }
   ],
@@ -2092,7 +2918,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/createTypography.js",
       "hash": "maXVEA",
-      "browserifyId": 109,
+      "browserifyId": 152,
       "sourcemap": ""
     }
   ],
@@ -2109,7 +2935,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/getStylesCreator.js",
       "hash": "tJ88MQ",
-      "browserifyId": 110,
+      "browserifyId": 153,
       "sourcemap": ""
     }
   ],
@@ -2119,7 +2945,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/getThemeProps.js",
       "hash": "uQEgwQ",
-      "browserifyId": 111,
+      "browserifyId": 154,
       "sourcemap": ""
     }
   ],
@@ -2138,7 +2964,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/index.js",
       "hash": "PJAYWA",
-      "browserifyId": 112,
+      "browserifyId": 155,
       "sourcemap": ""
     }
   ],
@@ -2156,7 +2982,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/jssPreset.js",
       "hash": "bJRPDQ",
-      "browserifyId": 113,
+      "browserifyId": 156,
       "sourcemap": ""
     }
   ],
@@ -2172,7 +2998,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/mergeClasses.js",
       "hash": "xJIfoQ",
-      "browserifyId": 114,
+      "browserifyId": 157,
       "sourcemap": ""
     }
   ],
@@ -2182,7 +3008,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/multiKeyStore.js",
       "hash": "VP2bqw",
-      "browserifyId": 115,
+      "browserifyId": 158,
       "sourcemap": ""
     }
   ],
@@ -2192,7 +3018,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/reactJssContext.js",
       "hash": "xZkBgA",
-      "browserifyId": 116,
+      "browserifyId": 159,
       "sourcemap": ""
     }
   ],
@@ -2202,7 +3028,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/shadows.js",
       "hash": "p0eBLg",
-      "browserifyId": 117,
+      "browserifyId": 160,
       "sourcemap": ""
     }
   ],
@@ -2212,7 +3038,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/shape.js",
       "hash": "XulhkQ",
-      "browserifyId": 118,
+      "browserifyId": 161,
       "sourcemap": ""
     }
   ],
@@ -2222,7 +3048,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/spacing.js",
       "hash": "AgzMGA",
-      "browserifyId": 119,
+      "browserifyId": 162,
       "sourcemap": ""
     }
   ],
@@ -2235,7 +3061,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/themeListener.js",
       "hash": "VSc2tw",
-      "browserifyId": 120,
+      "browserifyId": 163,
       "sourcemap": ""
     }
   ],
@@ -2250,7 +3076,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/transitions.js",
       "hash": "HXyDvg",
-      "browserifyId": 121,
+      "browserifyId": 164,
       "sourcemap": ""
     }
   ],
@@ -2268,12 +3094,12 @@
       "hoist-non-react-statics": "/home/dustin/CS/recipes/node_modules/@material-ui/core/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
-      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
-      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
-      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "./mergeClasses": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/mergeClasses.js",
       "./themeListener": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/themeListener.js",
@@ -2286,7 +3112,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withStyles.js",
       "hash": "801ohA",
-      "browserifyId": 122,
+      "browserifyId": 165,
       "sourcemap": ""
     }
   ],
@@ -2302,17 +3128,17 @@
       "@material-ui/utils": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
-      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/withTheme.js",
       "hash": "ZXGV0w",
-      "browserifyId": 123,
+      "browserifyId": 166,
       "sourcemap": ""
     }
   ],
@@ -2322,7 +3148,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/styles/zIndex.js",
       "hash": "drf/Uw",
-      "browserifyId": 124,
+      "browserifyId": 167,
       "sourcemap": ""
     }
   ],
@@ -2332,7 +3158,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/transitions/utils.js",
       "hash": "rBL5Fw",
-      "browserifyId": 125,
+      "browserifyId": 168,
       "sourcemap": ""
     }
   ],
@@ -2347,7 +3173,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/helpers.js",
       "hash": "DRZFZw",
-      "browserifyId": 126,
+      "browserifyId": 169,
       "sourcemap": ""
     }
   ],
@@ -2357,7 +3183,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/ownerDocument.js",
       "hash": "G8mnJg",
-      "browserifyId": 127,
+      "browserifyId": 170,
       "sourcemap": ""
     }
   ],
@@ -2370,7 +3196,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/ownerWindow.js",
       "hash": "Ep2pOQ",
-      "browserifyId": 128,
+      "browserifyId": 171,
       "sourcemap": ""
     }
   ],
@@ -2384,7 +3210,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/reactHelpers.js",
       "hash": "SB+wJQ",
-      "browserifyId": 129,
+      "browserifyId": 172,
       "sourcemap": ""
     }
   ],
@@ -2396,7 +3222,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/core/utils/requirePropFactory.js",
       "hash": "fveuTg",
-      "browserifyId": 130,
+      "browserifyId": 173,
       "sourcemap": ""
     }
   ],
@@ -2410,7 +3236,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/CheckCircle.js",
       "hash": "b7c3tQ",
-      "browserifyId": 131,
+      "browserifyId": 174,
       "sourcemap": ""
     }
   ],
@@ -2424,7 +3250,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/ChevronLeft.js",
       "hash": "kFthPg",
-      "browserifyId": 132,
+      "browserifyId": 175,
       "sourcemap": ""
     }
   ],
@@ -2438,7 +3264,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Close.js",
       "hash": "Oa14mg",
-      "browserifyId": 133,
+      "browserifyId": 176,
       "sourcemap": ""
     }
   ],
@@ -2452,7 +3278,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Error.js",
       "hash": "kpOixQ",
-      "browserifyId": 134,
+      "browserifyId": 177,
       "sourcemap": ""
     }
   ],
@@ -2466,7 +3292,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Info.js",
       "hash": "J+N1wQ",
-      "browserifyId": 135,
+      "browserifyId": 178,
       "sourcemap": ""
     }
   ],
@@ -2480,7 +3306,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Menu.js",
       "hash": "nDbvQQ",
-      "browserifyId": 136,
+      "browserifyId": 179,
       "sourcemap": ""
     }
   ],
@@ -2494,7 +3320,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Warning.js",
       "hash": "gZ3atA",
-      "browserifyId": 137,
+      "browserifyId": 180,
       "sourcemap": ""
     }
   ],
@@ -2509,7 +3335,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/utils/createSvgIcon.js",
       "hash": "egrKHw",
-      "browserifyId": 138,
+      "browserifyId": 181,
       "sourcemap": ""
     }
   ],
@@ -2521,7 +3347,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/chainPropTypes.js",
       "hash": "z+EVww",
-      "browserifyId": 139,
+      "browserifyId": 182,
       "sourcemap": ""
     }
   ],
@@ -2536,7 +3362,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/componentPropType.js",
       "hash": "ExFdHQ",
-      "browserifyId": 140,
+      "browserifyId": 183,
       "sourcemap": ""
     }
   ],
@@ -2551,7 +3377,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/exactProp.js",
       "hash": "wrSg+w",
-      "browserifyId": 141,
+      "browserifyId": 184,
       "sourcemap": ""
     }
   ],
@@ -2561,7 +3387,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/getDisplayName.js",
       "hash": "bUoM1A",
-      "browserifyId": 142,
+      "browserifyId": 185,
       "sourcemap": ""
     }
   ],
@@ -2578,7 +3404,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/index.js",
       "hash": "Se3Zdg",
-      "browserifyId": 143,
+      "browserifyId": 186,
       "sourcemap": ""
     }
   ],
@@ -2588,7 +3414,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/@material-ui/utils/ponyfillGlobal.js",
       "hash": "uZpySg",
-      "browserifyId": 144,
+      "browserifyId": 187,
       "sourcemap": ""
     }
   ],
@@ -2598,7 +3424,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/brcast/dist/brcast.cjs.js",
       "hash": "wux0qQ",
-      "browserifyId": 145,
+      "browserifyId": 188,
       "sourcemap": ""
     }
   ],
@@ -2608,7 +3434,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/classnames/index.js",
       "hash": "98iN7Q",
-      "browserifyId": 146,
+      "browserifyId": 189,
       "sourcemap": ""
     }
   ],
@@ -2618,7 +3444,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/css-vendor/lib/camelize.js",
       "hash": "6Oqplw",
-      "browserifyId": 147,
+      "browserifyId": 190,
       "sourcemap": ""
     }
   ],
@@ -2632,7 +3458,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/css-vendor/lib/index.js",
       "hash": "jIStcQ",
-      "browserifyId": 148,
+      "browserifyId": 191,
       "sourcemap": ""
     }
   ],
@@ -2644,7 +3470,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/css-vendor/lib/prefix.js",
       "hash": "9aKl7Q",
-      "browserifyId": 149,
+      "browserifyId": 192,
       "sourcemap": ""
     }
   ],
@@ -2658,7 +3484,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/css-vendor/lib/supported-property.js",
       "hash": "mQeWqw",
-      "browserifyId": 150,
+      "browserifyId": 193,
       "sourcemap": ""
     }
   ],
@@ -2671,7 +3497,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/css-vendor/lib/supported-value.js",
       "hash": "6+nRbQ",
-      "browserifyId": 151,
+      "browserifyId": 194,
       "sourcemap": ""
     }
   ],
@@ -2681,7 +3507,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/debounce/index.js",
       "hash": "OAQUIQ",
-      "browserifyId": 152,
+      "browserifyId": 195,
       "sourcemap": ""
     }
   ],
@@ -2691,7 +3517,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/deepmerge/dist/umd.js",
       "hash": "ScFmCA",
-      "browserifyId": 153,
+      "browserifyId": 196,
       "sourcemap": ""
     }
   ],
@@ -2701,7 +3527,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/query/isWindow.js",
       "hash": "EP/r9Q",
-      "browserifyId": 154,
+      "browserifyId": 197,
       "sourcemap": ""
     }
   ],
@@ -2714,7 +3540,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/style/getComputedStyle.js",
       "hash": "AD9uqQ",
-      "browserifyId": 155,
+      "browserifyId": 198,
       "sourcemap": ""
     }
   ],
@@ -2732,7 +3558,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/style/index.js",
       "hash": "wcA/RA",
-      "browserifyId": 156,
+      "browserifyId": 199,
       "sourcemap": ""
     }
   ],
@@ -2742,7 +3568,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/style/removeStyle.js",
       "hash": "dcdjDA",
-      "browserifyId": 157,
+      "browserifyId": 200,
       "sourcemap": ""
     }
   ],
@@ -2752,7 +3578,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/transition/isTransform.js",
       "hash": "YCiuwQ",
-      "browserifyId": 158,
+      "browserifyId": 201,
       "sourcemap": ""
     }
   ],
@@ -2765,7 +3591,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/transition/properties.js",
       "hash": "QhezKw",
-      "browserifyId": 159,
+      "browserifyId": 202,
       "sourcemap": ""
     }
   ],
@@ -2775,7 +3601,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/util/camelize.js",
       "hash": "ZQyNJg",
-      "browserifyId": 160,
+      "browserifyId": 203,
       "sourcemap": ""
     }
   ],
@@ -2788,7 +3614,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/util/camelizeStyle.js",
       "hash": "2iO9kg",
-      "browserifyId": 161,
+      "browserifyId": 204,
       "sourcemap": ""
     }
   ],
@@ -2798,7 +3624,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/util/hyphenate.js",
       "hash": "V4LpCA",
-      "browserifyId": 162,
+      "browserifyId": 205,
       "sourcemap": ""
     }
   ],
@@ -2811,7 +3637,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/util/hyphenateStyle.js",
       "hash": "GTLlkA",
-      "browserifyId": 163,
+      "browserifyId": 206,
       "sourcemap": ""
     }
   ],
@@ -2821,7 +3647,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/util/inDOM.js",
       "hash": "K/17rg",
-      "browserifyId": 164,
+      "browserifyId": 207,
       "sourcemap": ""
     }
   ],
@@ -2834,7 +3660,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/dom-helpers/util/scrollbarSize.js",
       "hash": "BEJQOw",
-      "browserifyId": 165,
+      "browserifyId": 208,
       "sourcemap": ""
     }
   ],
@@ -2844,7 +3670,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/fbjs/lib/shallowEqual.js",
       "hash": "RQRiEA",
-      "browserifyId": 166,
+      "browserifyId": 209,
       "sourcemap": ""
     }
   ],
@@ -2856,7 +3682,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/firebase/app/dist/index.cjs.js",
       "hash": "hYEDtw",
-      "browserifyId": 167,
+      "browserifyId": 210,
       "sourcemap": ""
     }
   ],
@@ -2868,7 +3694,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/firebase/auth/dist/index.cjs.js",
       "hash": "Ij4Vlw",
-      "browserifyId": 168,
+      "browserifyId": 211,
       "sourcemap": ""
     }
   ],
@@ -2880,7 +3706,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/firebase/firestore/dist/index.cjs.js",
       "hash": "PgNi0A",
-      "browserifyId": 169,
+      "browserifyId": 212,
       "sourcemap": ""
     }
   ],
@@ -2889,41 +3715,41 @@
     {
       "resolve-pathname": "/home/dustin/CS/recipes/node_modules/resolve-pathname/cjs/index.js",
       "value-equal": "/home/dustin/CS/recipes/node_modules/value-equal/cjs/index.js",
-      "tiny-invariant": "/home/dustin/CS/recipes/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js",
-      "tiny-warning": "/home/dustin/CS/recipes/node_modules/tiny-warning/dist/tiny-warning.cjs.js"
+      "tiny-warning": "/home/dustin/CS/recipes/node_modules/tiny-warning/dist/tiny-warning.cjs.js",
+      "tiny-invariant": "/home/dustin/CS/recipes/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/history/cjs/history.js",
       "hash": "3/6lEg",
-      "browserifyId": 170,
+      "browserifyId": 213,
       "sourcemap": ""
     }
   ],
   "/home/dustin/CS/recipes/node_modules/history/cjs/history.min.js": [
     "\"use strict\";function _interopDefault(n){return n&&\"object\"==typeof n&&\"default\"in n?n.default:n}Object.defineProperty(exports,\"__esModule\",{value:!0});var resolvePathname=_interopDefault(require(\"resolve-pathname\")),valueEqual=_interopDefault(require(\"value-equal\"));require(\"tiny-warning\");var invariant=_interopDefault(require(\"tiny-invariant\"));function _extends(){return(_extends=Object.assign||function(n){for(var t=1;t<arguments.length;t++){var e=arguments[t];for(var a in e)Object.prototype.hasOwnProperty.call(e,a)&&(n[a]=e[a])}return n}).apply(this,arguments)}function addLeadingSlash(n){return\"/\"===n.charAt(0)?n:\"/\"+n}function stripLeadingSlash(n){return\"/\"===n.charAt(0)?n.substr(1):n}function hasBasename(n,t){return new RegExp(\"^\"+t+\"(\\\\/|\\\\?|#|$)\",\"i\").test(n)}function stripBasename(n,t){return hasBasename(n,t)?n.substr(t.length):n}function stripTrailingSlash(n){return\"/\"===n.charAt(n.length-1)?n.slice(0,-1):n}function parsePath(n){var t=n||\"/\",e=\"\",a=\"\",o=t.indexOf(\"#\");-1!==o&&(a=t.substr(o),t=t.substr(0,o));var r=t.indexOf(\"?\");return-1!==r&&(e=t.substr(r),t=t.substr(0,r)),{pathname:t,search:\"?\"===e?\"\":e,hash:\"#\"===a?\"\":a}}function createPath(n){var t=n.pathname,e=n.search,a=n.hash,o=t||\"/\";return e&&\"?\"!==e&&(o+=\"?\"===e.charAt(0)?e:\"?\"+e),a&&\"#\"!==a&&(o+=\"#\"===a.charAt(0)?a:\"#\"+a),o}function createLocation(n,t,e,a){var o;\"string\"==typeof n?(o=parsePath(n)).state=t:(void 0===(o=_extends({},n)).pathname&&(o.pathname=\"\"),o.search?\"?\"!==o.search.charAt(0)&&(o.search=\"?\"+o.search):o.search=\"\",o.hash?\"#\"!==o.hash.charAt(0)&&(o.hash=\"#\"+o.hash):o.hash=\"\",void 0!==t&&void 0===o.state&&(o.state=t));try{o.pathname=decodeURI(o.pathname)}catch(n){throw n instanceof URIError?new URIError('Pathname \"'+o.pathname+'\" could not be decoded. This is likely caused by an invalid percent-encoding.'):n}return e&&(o.key=e),a?o.pathname?\"/\"!==o.pathname.charAt(0)&&(o.pathname=resolvePathname(o.pathname,a.pathname)):o.pathname=a.pathname:o.pathname||(o.pathname=\"/\"),o}function locationsAreEqual(n,t){return n.pathname===t.pathname&&n.search===t.search&&n.hash===t.hash&&n.key===t.key&&valueEqual(n.state,t.state)}function createTransitionManager(){var r=null;var a=[];return{setPrompt:function(n){return r=n,function(){r===n&&(r=null)}},confirmTransitionTo:function(n,t,e,a){if(null!=r){var o=\"function\"==typeof r?r(n,t):r;\"string\"==typeof o?\"function\"==typeof e?e(o,a):a(!0):a(!1!==o)}else a(!0)},appendListener:function(n){var t=!0;function e(){t&&n.apply(void 0,arguments)}return a.push(e),function(){t=!1,a=a.filter(function(n){return n!==e})}},notifyListeners:function(){for(var n=arguments.length,t=new Array(n),e=0;e<n;e++)t[e]=arguments[e];a.forEach(function(n){return n.apply(void 0,t)})}}}var canUseDOM=!(\"undefined\"==typeof window||!window.document||!window.document.createElement);function getConfirmation(n,t){t(window.confirm(n))}function supportsHistory(){var n=window.navigator.userAgent;return(-1===n.indexOf(\"Android 2.\")&&-1===n.indexOf(\"Android 4.0\")||-1===n.indexOf(\"Mobile Safari\")||-1!==n.indexOf(\"Chrome\")||-1!==n.indexOf(\"Windows Phone\"))&&(window.history&&\"pushState\"in window.history)}function supportsPopStateOnHashChange(){return-1===window.navigator.userAgent.indexOf(\"Trident\")}function supportsGoWithoutReloadUsingHash(){return-1===window.navigator.userAgent.indexOf(\"Firefox\")}function isExtraneousPopstateEvent(n){void 0===n.state&&navigator.userAgent.indexOf(\"CriOS\")}var PopStateEvent=\"popstate\",HashChangeEvent=\"hashchange\";function getHistoryState(){try{return window.history.state||{}}catch(n){return{}}}function createBrowserHistory(n){void 0===n&&(n={}),canUseDOM||invariant(!1);var c=window.history,s=supportsHistory(),t=!supportsPopStateOnHashChange(),e=n,a=e.forceRefresh,h=void 0!==a&&a,o=e.getUserConfirmation,u=void 0===o?getConfirmation:o,r=e.keyLength,i=void 0===r?6:r,f=n.basename?stripTrailingSlash(addLeadingSlash(n.basename)):\"\";function l(n){var t=n||{},e=t.key,a=t.state,o=window.location,r=o.pathname+o.search+o.hash;return f&&(r=stripBasename(r,f)),createLocation(r,a,e)}function d(){return Math.random().toString(36).substr(2,i)}var v=createTransitionManager();function p(n){_extends(T,n),T.length=c.length,v.notifyListeners(T.location,T.action)}function g(n){isExtraneousPopstateEvent(n)||w(l(n.state))}function P(){w(l(getHistoryState()))}var m=!1;function w(t){if(m)m=!1,p();else{v.confirmTransitionTo(t,\"POP\",u,function(n){n?p({action:\"POP\",location:t}):function(n){var t=T.location,e=H.indexOf(t.key);-1===e&&(e=0);var a=H.indexOf(n.key);-1===a&&(a=0);var o=e-a;o&&(m=!0,L(o))}(t)})}}var y=l(getHistoryState()),H=[y.key];function x(n){return f+createPath(n)}function L(n){c.go(n)}var O=0;function E(n){1===(O+=n)&&1===n?(window.addEventListener(PopStateEvent,g),t&&window.addEventListener(HashChangeEvent,P)):0===O&&(window.removeEventListener(PopStateEvent,g),t&&window.removeEventListener(HashChangeEvent,P))}var S=!1;var T={length:c.length,action:\"POP\",location:y,createHref:x,push:function(n,t){var i=createLocation(n,t,d(),T.location);v.confirmTransitionTo(i,\"PUSH\",u,function(n){if(n){var t=x(i),e=i.key,a=i.state;if(s)if(c.pushState({key:e,state:a},null,t),h)window.location.href=t;else{var o=H.indexOf(T.location.key),r=H.slice(0,-1===o?0:o+1);r.push(i.key),H=r,p({action:\"PUSH\",location:i})}else window.location.href=t}})},replace:function(n,t){var r=\"REPLACE\",i=createLocation(n,t,d(),T.location);v.confirmTransitionTo(i,r,u,function(n){if(n){var t=x(i),e=i.key,a=i.state;if(s)if(c.replaceState({key:e,state:a},null,t),h)window.location.replace(t);else{var o=H.indexOf(T.location.key);-1!==o&&(H[o]=i.key),p({action:r,location:i})}else window.location.replace(t)}})},go:L,goBack:function(){L(-1)},goForward:function(){L(1)},block:function(n){void 0===n&&(n=!1);var t=v.setPrompt(n);return S||(E(1),S=!0),function(){return S&&(S=!1,E(-1)),t()}},listen:function(n){var t=v.appendListener(n);return E(1),function(){E(-1),t()}}};return T}var HashChangeEvent$1=\"hashchange\",HashPathCoders={hashbang:{encodePath:function(n){return\"!\"===n.charAt(0)?n:\"!/\"+stripLeadingSlash(n)},decodePath:function(n){return\"!\"===n.charAt(0)?n.substr(1):n}},noslash:{encodePath:stripLeadingSlash,decodePath:addLeadingSlash},slash:{encodePath:addLeadingSlash,decodePath:addLeadingSlash}};function getHashPath(){var n=window.location.href,t=n.indexOf(\"#\");return-1===t?\"\":n.substring(t+1)}function pushHashPath(n){window.location.hash=n}function replaceHashPath(n){var t=window.location.href.indexOf(\"#\");window.location.replace(window.location.href.slice(0,0<=t?t:0)+\"#\"+n)}function createHashHistory(n){void 0===n&&(n={}),canUseDOM||invariant(!1);var t=window.history,e=(supportsGoWithoutReloadUsingHash(),n),a=e.getUserConfirmation,i=void 0===a?getConfirmation:a,o=e.hashType,r=void 0===o?\"slash\":o,c=n.basename?stripTrailingSlash(addLeadingSlash(n.basename)):\"\",s=HashPathCoders[r],h=s.encodePath,u=s.decodePath;function f(){var n=u(getHashPath());return c&&(n=stripBasename(n,c)),createLocation(n)}var l=createTransitionManager();function d(n){_extends(E,n),E.length=t.length,l.notifyListeners(E.location,E.action)}var v=!1,p=null;function g(){var n=getHashPath(),t=h(n);if(n!==t)replaceHashPath(t);else{var e=f(),a=E.location;if(!v&&locationsAreEqual(a,e))return;if(p===createPath(e))return;p=null,function(t){if(v)v=!1,d();else{l.confirmTransitionTo(t,\"POP\",i,function(n){n?d({action:\"POP\",location:t}):function(n){var t=E.location,e=y.lastIndexOf(createPath(t));-1===e&&(e=0);var a=y.lastIndexOf(createPath(n));-1===a&&(a=0);var o=e-a;o&&(v=!0,H(o))}(t)})}}(e)}}var P=getHashPath(),m=h(P);P!==m&&replaceHashPath(m);var w=f(),y=[createPath(w)];function H(n){t.go(n)}var x=0;function L(n){1===(x+=n)&&1===n?window.addEventListener(HashChangeEvent$1,g):0===x&&window.removeEventListener(HashChangeEvent$1,g)}var O=!1;var E={length:t.length,action:\"POP\",location:w,createHref:function(n){return\"#\"+h(c+createPath(n))},push:function(n,t){var r=createLocation(n,void 0,void 0,E.location);l.confirmTransitionTo(r,\"PUSH\",i,function(n){if(n){var t=createPath(r),e=h(c+t);if(getHashPath()!==e){p=t,pushHashPath(e);var a=y.lastIndexOf(createPath(E.location)),o=y.slice(0,-1===a?0:a+1);o.push(t),y=o,d({action:\"PUSH\",location:r})}else d()}})},replace:function(n,t){var o=\"REPLACE\",r=createLocation(n,void 0,void 0,E.location);l.confirmTransitionTo(r,o,i,function(n){if(n){var t=createPath(r),e=h(c+t);getHashPath()!==e&&(p=t,replaceHashPath(e));var a=y.indexOf(createPath(E.location));-1!==a&&(y[a]=t),d({action:o,location:r})}})},go:H,goBack:function(){H(-1)},goForward:function(){H(1)},block:function(n){void 0===n&&(n=!1);var t=l.setPrompt(n);return O||(L(1),O=!0),function(){return O&&(O=!1,L(-1)),t()}},listen:function(n){var t=l.appendListener(n);return L(1),function(){L(-1),t()}}};return E}function clamp(n,t,e){return Math.min(Math.max(n,t),e)}function createMemoryHistory(n){void 0===n&&(n={});var t=n,o=t.getUserConfirmation,e=t.initialEntries,a=void 0===e?[\"/\"]:e,r=t.initialIndex,i=void 0===r?0:r,c=t.keyLength,s=void 0===c?6:c,h=createTransitionManager();function u(n){_extends(g,n),g.length=g.entries.length,h.notifyListeners(g.location,g.action)}function f(){return Math.random().toString(36).substr(2,s)}var l=clamp(i,0,a.length-1),d=a.map(function(n){return createLocation(n,void 0,\"string\"==typeof n?f():n.key||f())}),v=createPath;function p(n){var t=clamp(g.index+n,0,g.entries.length-1),e=g.entries[t];h.confirmTransitionTo(e,\"POP\",o,function(n){n?u({action:\"POP\",location:e,index:t}):u()})}var g={length:d.length,action:\"POP\",location:d[l],index:l,entries:d,createHref:v,push:function(n,t){var a=createLocation(n,t,f(),g.location);h.confirmTransitionTo(a,\"PUSH\",o,function(n){if(n){var t=g.index+1,e=g.entries.slice(0);e.length>t?e.splice(t,e.length-t,a):e.push(a),u({action:\"PUSH\",location:a,index:t,entries:e})}})},replace:function(n,t){var e=\"REPLACE\",a=createLocation(n,t,f(),g.location);h.confirmTransitionTo(a,e,o,function(n){n&&(g.entries[g.index]=a,u({action:e,location:a}))})},go:p,goBack:function(){p(-1)},goForward:function(){p(1)},canGo:function(n){var t=g.index+n;return 0<=t&&t<g.entries.length},block:function(n){return void 0===n&&(n=!1),h.setPrompt(n)},listen:function(n){return h.appendListener(n)}};return g}exports.createBrowserHistory=createBrowserHistory,exports.createHashHistory=createHashHistory,exports.createMemoryHistory=createMemoryHistory,exports.createLocation=createLocation,exports.locationsAreEqual=locationsAreEqual,exports.parsePath=parsePath,exports.createPath=createPath;\n",
     {
+      "resolve-pathname": "/home/dustin/CS/recipes/node_modules/resolve-pathname/cjs/index.js",
       "value-equal": "/home/dustin/CS/recipes/node_modules/value-equal/cjs/index.js",
-      "tiny-invariant": "/home/dustin/CS/recipes/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js",
       "tiny-warning": "/home/dustin/CS/recipes/node_modules/tiny-warning/dist/tiny-warning.cjs.js",
-      "resolve-pathname": "/home/dustin/CS/recipes/node_modules/resolve-pathname/cjs/index.js"
+      "tiny-invariant": "/home/dustin/CS/recipes/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/history/cjs/history.min.js",
       "hash": "LGhUYQ",
-      "browserifyId": 171,
+      "browserifyId": 214,
       "sourcemap": ""
     }
   ],
   "/home/dustin/CS/recipes/node_modules/history/index.js": [
     "'use strict';\n\nif (\"dev\" === 'production') {\n  module.exports = require('./cjs/history.min.js');\n} else {\n  module.exports = require('./cjs/history.js');\n}\n",
     {
-      "./cjs/history.min.js": "/home/dustin/CS/recipes/node_modules/history/cjs/history.min.js",
-      "./cjs/history.js": "/home/dustin/CS/recipes/node_modules/history/cjs/history.js"
+      "./cjs/history.js": "/home/dustin/CS/recipes/node_modules/history/cjs/history.js",
+      "./cjs/history.min.js": "/home/dustin/CS/recipes/node_modules/history/cjs/history.min.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/history/index.js",
       "hash": "ssyIow",
-      "browserifyId": 172,
+      "browserifyId": 215,
       "sourcemap": ""
     }
   ],
@@ -2933,7 +3759,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "hash": "MWMmrA",
-      "browserifyId": 173,
+      "browserifyId": 216,
       "sourcemap": ""
     }
   ],
@@ -2943,7 +3769,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/hyphenate-style-name/index.cjs.js",
       "hash": "FIpfQA",
-      "browserifyId": 174,
+      "browserifyId": 217,
       "sourcemap": ""
     }
   ],
@@ -2953,7 +3779,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/invariant/browser.js",
       "hash": "eGRVhQ",
-      "browserifyId": 175,
+      "browserifyId": 218,
       "sourcemap": ""
     }
   ],
@@ -2963,7 +3789,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/is-in-browser/dist/index.js",
       "hash": "0h7yCw",
-      "browserifyId": 176,
+      "browserifyId": 219,
       "sourcemap": ""
     }
   ],
@@ -2975,7 +3801,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/is-plain-object/index.js",
       "hash": "Gt0t/g",
-      "browserifyId": 177,
+      "browserifyId": 220,
       "sourcemap": ""
     }
   ],
@@ -2985,7 +3811,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/isobject/index.js",
       "hash": "CCXbqQ",
-      "browserifyId": 178,
+      "browserifyId": 221,
       "sourcemap": ""
     }
   ],
@@ -2997,7 +3823,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-camel-case/lib/index.js",
       "hash": "D51qgg",
-      "browserifyId": 179,
+      "browserifyId": 222,
       "sourcemap": ""
     }
   ],
@@ -3007,7 +3833,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-default-unit/lib/defaultUnits.js",
       "hash": "vHgDeg",
-      "browserifyId": 180,
+      "browserifyId": 223,
       "sourcemap": ""
     }
   ],
@@ -3019,7 +3845,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-default-unit/lib/index.js",
       "hash": "6bpwlA",
-      "browserifyId": 181,
+      "browserifyId": 224,
       "sourcemap": ""
     }
   ],
@@ -3031,7 +3857,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-global/lib/index.js",
       "hash": "hx8jfw",
-      "browserifyId": 182,
+      "browserifyId": 225,
       "sourcemap": ""
     }
   ],
@@ -3043,7 +3869,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-nested/lib/index.js",
       "hash": "Yaepjw",
-      "browserifyId": 183,
+      "browserifyId": 226,
       "sourcemap": ""
     }
   ],
@@ -3053,7 +3879,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-nested/node_modules/warning/browser.js",
       "hash": "WvDTNw",
-      "browserifyId": 184,
+      "browserifyId": 227,
       "sourcemap": ""
     }
   ],
@@ -3063,7 +3889,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-props-sort/lib/index.js",
       "hash": "LNYcdA",
-      "browserifyId": 185,
+      "browserifyId": 228,
       "sourcemap": ""
     }
   ],
@@ -3075,7 +3901,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss-vendor-prefixer/lib/index.js",
       "hash": "f3sLfw",
-      "browserifyId": 186,
+      "browserifyId": 229,
       "sourcemap": ""
     }
   ],
@@ -3098,7 +3924,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/Jss.js",
       "hash": "qwwPJA",
-      "browserifyId": 187,
+      "browserifyId": 230,
       "sourcemap": ""
     }
   ],
@@ -3110,7 +3936,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/PluginsRegistry.js",
       "hash": "iKawPA",
-      "browserifyId": 188,
+      "browserifyId": 231,
       "sourcemap": ""
     }
   ],
@@ -3125,7 +3951,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/RuleList.js",
       "hash": "+fwQpw",
-      "browserifyId": 189,
+      "browserifyId": 232,
       "sourcemap": ""
     }
   ],
@@ -3137,7 +3963,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/SheetsManager.js",
       "hash": "drRlog",
-      "browserifyId": 190,
+      "browserifyId": 233,
       "sourcemap": ""
     }
   ],
@@ -3147,7 +3973,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/SheetsRegistry.js",
       "hash": "SX5Grg",
-      "browserifyId": 191,
+      "browserifyId": 234,
       "sourcemap": ""
     }
   ],
@@ -3160,7 +3986,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/StyleSheet.js",
       "hash": "+Bn1HA",
-      "browserifyId": 192,
+      "browserifyId": 235,
       "sourcemap": ""
     }
   ],
@@ -3179,7 +4005,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/index.js",
       "hash": "IvEvLQ",
-      "browserifyId": 193,
+      "browserifyId": 236,
       "sourcemap": ""
     }
   ],
@@ -3193,7 +4019,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/plugins/functions.js",
       "hash": "gs9CWA",
-      "browserifyId": 194,
+      "browserifyId": 237,
       "sourcemap": ""
     }
   ],
@@ -3207,7 +4033,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/plugins/observables.js",
       "hash": "dvtjlQ",
-      "browserifyId": 195,
+      "browserifyId": 238,
       "sourcemap": ""
     }
   ],
@@ -3223,7 +4049,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/plugins/rules.js",
       "hash": "XvDkdQ",
-      "browserifyId": 196,
+      "browserifyId": 239,
       "sourcemap": ""
     }
   ],
@@ -3238,7 +4064,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/renderers/DomRenderer.js",
       "hash": "pvgvNg",
-      "browserifyId": 197,
+      "browserifyId": 240,
       "sourcemap": ""
     }
   ],
@@ -3248,7 +4074,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/renderers/VirtualRenderer.js",
       "hash": "p67EfA",
-      "browserifyId": 198,
+      "browserifyId": 241,
       "sourcemap": ""
     }
   ],
@@ -3260,7 +4086,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/ConditionalRule.js",
       "hash": "du42/w",
-      "browserifyId": 199,
+      "browserifyId": 242,
       "sourcemap": ""
     }
   ],
@@ -3272,7 +4098,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/FontFaceRule.js",
       "hash": "lU3jhQ",
-      "browserifyId": 200,
+      "browserifyId": 243,
       "sourcemap": ""
     }
   ],
@@ -3284,7 +4110,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/KeyframesRule.js",
       "hash": "JazK1A",
-      "browserifyId": 201,
+      "browserifyId": 244,
       "sourcemap": ""
     }
   ],
@@ -3294,7 +4120,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/SimpleRule.js",
       "hash": "5+ywwQ",
-      "browserifyId": 202,
+      "browserifyId": 245,
       "sourcemap": ""
     }
   ],
@@ -3308,7 +4134,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/StyleRule.js",
       "hash": "8XFPlw",
-      "browserifyId": 203,
+      "browserifyId": 246,
       "sourcemap": ""
     }
   ],
@@ -3320,7 +4146,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/rules/ViewportRule.js",
       "hash": "XxfEKg",
-      "browserifyId": 204,
+      "browserifyId": 247,
       "sourcemap": ""
     }
   ],
@@ -3332,7 +4158,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/sheets.js",
       "hash": "bkdUBA",
-      "browserifyId": 205,
+      "browserifyId": 248,
       "sourcemap": ""
     }
   ],
@@ -3344,7 +4170,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/cloneStyle.js",
       "hash": "yJsvaw",
-      "browserifyId": 206,
+      "browserifyId": 249,
       "sourcemap": ""
     }
   ],
@@ -3359,7 +4185,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/createGenerateClassName.js",
       "hash": "I/Mk0A",
-      "browserifyId": 207,
+      "browserifyId": 250,
       "sourcemap": ""
     }
   ],
@@ -3373,7 +4199,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/createRule.js",
       "hash": "wUTcew",
-      "browserifyId": 208,
+      "browserifyId": 251,
       "sourcemap": ""
     }
   ],
@@ -3385,7 +4211,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/escape.js",
       "hash": "XoJE1g",
-      "browserifyId": 209,
+      "browserifyId": 252,
       "sourcemap": ""
     }
   ],
@@ -3395,7 +4221,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/getDynamicStyles.js",
       "hash": "lt+Wsg",
-      "browserifyId": 210,
+      "browserifyId": 253,
       "sourcemap": ""
     }
   ],
@@ -3407,7 +4233,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/isObservable.js",
       "hash": "J9wH0g",
-      "browserifyId": 211,
+      "browserifyId": 254,
       "sourcemap": ""
     }
   ],
@@ -3417,7 +4243,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/linkRule.js",
       "hash": "f+elwg",
-      "browserifyId": 212,
+      "browserifyId": 255,
       "sourcemap": ""
     }
   ],
@@ -3427,7 +4253,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/moduleId.js",
       "hash": "w5Ahbg",
-      "browserifyId": 213,
+      "browserifyId": 256,
       "sourcemap": ""
     }
   ],
@@ -3439,7 +4265,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/toCss.js",
       "hash": "xrqtJA",
-      "browserifyId": 214,
+      "browserifyId": 257,
       "sourcemap": ""
     }
   ],
@@ -3449,7 +4275,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/lib/utils/toCssValue.js",
       "hash": "6s161w",
-      "browserifyId": 215,
+      "browserifyId": 258,
       "sourcemap": ""
     }
   ],
@@ -3461,7 +4287,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/jss/node_modules/warning/browser.js",
       "hash": "v3CRmA",
-      "browserifyId": 216,
+      "browserifyId": 259,
       "sourcemap": ""
     }
   ],
@@ -3473,7 +4299,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/livereactload/babel-transform.js",
       "hash": "utpGnw",
-      "browserifyId": 217,
+      "browserifyId": 260,
       "sourcemap": ""
     }
   ],
@@ -3485,7 +4311,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/livereactload/lib/babel-transform/main.js",
       "hash": "EsZelw",
-      "browserifyId": 218,
+      "browserifyId": 261,
       "sourcemap": ""
     }
   ],
@@ -3498,7 +4324,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_DataView.js",
       "hash": "yvm8yA",
-      "browserifyId": 219,
+      "browserifyId": 262,
       "sourcemap": ""
     }
   ],
@@ -3514,7 +4340,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_Hash.js",
       "hash": "nK+Zng",
-      "browserifyId": 220,
+      "browserifyId": 263,
       "sourcemap": ""
     }
   ],
@@ -3530,7 +4356,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_ListCache.js",
       "hash": "BpYVHg",
-      "browserifyId": 221,
+      "browserifyId": 264,
       "sourcemap": ""
     }
   ],
@@ -3543,15 +4369,15 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_Map.js",
       "hash": "dyIcCg",
-      "browserifyId": 222,
+      "browserifyId": 265,
       "sourcemap": ""
     }
   ],
   "/home/dustin/CS/recipes/node_modules/lodash/_MapCache.js": [
     "var mapCacheClear = require('./_mapCacheClear'),\n    mapCacheDelete = require('./_mapCacheDelete'),\n    mapCacheGet = require('./_mapCacheGet'),\n    mapCacheHas = require('./_mapCacheHas'),\n    mapCacheSet = require('./_mapCacheSet');\n\n/**\n * Creates a map cache object to store key-value pairs.\n *\n * @private\n * @constructor\n * @param {Array} [entries] The key-value pairs to cache.\n */\nfunction MapCache(entries) {\n  var index = -1,\n      length = entries == null ? 0 : entries.length;\n\n  this.clear();\n  while (++index < length) {\n    var entry = entries[index];\n    this.set(entry[0], entry[1]);\n  }\n}\n\n// Add methods to `MapCache`.\nMapCache.prototype.clear = mapCacheClear;\nMapCache.prototype['delete'] = mapCacheDelete;\nMapCache.prototype.get = mapCacheGet;\nMapCache.prototype.has = mapCacheHas;\nMapCache.prototype.set = mapCacheSet;\n\nmodule.exports = MapCache;\n",
     {
-      "./_mapCacheHas": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheHas.js",
       "./_mapCacheGet": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheGet.js",
+      "./_mapCacheHas": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheHas.js",
       "./_mapCacheSet": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheSet.js",
       "./_mapCacheDelete": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheDelete.js",
       "./_mapCacheClear": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheClear.js"
@@ -3559,7 +4385,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_MapCache.js",
       "hash": "j6UPAQ",
-      "browserifyId": 223,
+      "browserifyId": 266,
       "sourcemap": ""
     }
   ],
@@ -3572,7 +4398,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_Promise.js",
       "hash": "Wlmkmw",
-      "browserifyId": 224,
+      "browserifyId": 267,
       "sourcemap": ""
     }
   ],
@@ -3585,7 +4411,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_Set.js",
       "hash": "T2n0Fg",
-      "browserifyId": 225,
+      "browserifyId": 268,
       "sourcemap": ""
     }
   ],
@@ -3599,7 +4425,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_SetCache.js",
       "hash": "2MOD9A",
-      "browserifyId": 226,
+      "browserifyId": 269,
       "sourcemap": ""
     }
   ],
@@ -3616,7 +4442,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_Stack.js",
       "hash": "geilIw",
-      "browserifyId": 227,
+      "browserifyId": 270,
       "sourcemap": ""
     }
   ],
@@ -3628,7 +4454,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_Symbol.js",
       "hash": "NT0oVA",
-      "browserifyId": 228,
+      "browserifyId": 271,
       "sourcemap": ""
     }
   ],
@@ -3640,7 +4466,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_Uint8Array.js",
       "hash": "5aP6jQ",
-      "browserifyId": 229,
+      "browserifyId": 272,
       "sourcemap": ""
     }
   ],
@@ -3653,7 +4479,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_WeakMap.js",
       "hash": "Sb0ROg",
-      "browserifyId": 230,
+      "browserifyId": 273,
       "sourcemap": ""
     }
   ],
@@ -3663,7 +4489,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_apply.js",
       "hash": "IVPOag",
-      "browserifyId": 231,
+      "browserifyId": 274,
       "sourcemap": ""
     }
   ],
@@ -3673,7 +4499,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_arrayFilter.js",
       "hash": "AFdyCg",
-      "browserifyId": 232,
+      "browserifyId": 275,
       "sourcemap": ""
     }
   ],
@@ -3685,7 +4511,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_arrayIncludes.js",
       "hash": "Ox8DIw",
-      "browserifyId": 233,
+      "browserifyId": 276,
       "sourcemap": ""
     }
   ],
@@ -3695,7 +4521,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_arrayIncludesWith.js",
       "hash": "PXk7uw",
-      "browserifyId": 234,
+      "browserifyId": 277,
       "sourcemap": ""
     }
   ],
@@ -3712,7 +4538,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_arrayLikeKeys.js",
       "hash": "ECD0og",
-      "browserifyId": 235,
+      "browserifyId": 278,
       "sourcemap": ""
     }
   ],
@@ -3722,7 +4548,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_arrayMap.js",
       "hash": "Z869JQ",
-      "browserifyId": 236,
+      "browserifyId": 279,
       "sourcemap": ""
     }
   ],
@@ -3732,7 +4558,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_arrayPush.js",
       "hash": "I4PHuw",
-      "browserifyId": 237,
+      "browserifyId": 280,
       "sourcemap": ""
     }
   ],
@@ -3742,7 +4568,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_arraySome.js",
       "hash": "CE1N8g",
-      "browserifyId": 238,
+      "browserifyId": 281,
       "sourcemap": ""
     }
   ],
@@ -3755,7 +4581,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_assignValue.js",
       "hash": "Lo8O5g",
-      "browserifyId": 239,
+      "browserifyId": 282,
       "sourcemap": ""
     }
   ],
@@ -3767,7 +4593,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_assocIndexOf.js",
       "hash": "J3okXQ",
-      "browserifyId": 240,
+      "browserifyId": 283,
       "sourcemap": ""
     }
   ],
@@ -3779,7 +4605,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseAssignValue.js",
       "hash": "b9qlGw",
-      "browserifyId": 241,
+      "browserifyId": 284,
       "sourcemap": ""
     }
   ],
@@ -3796,7 +4622,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseDifference.js",
       "hash": "WET8pw",
-      "browserifyId": 242,
+      "browserifyId": 285,
       "sourcemap": ""
     }
   ],
@@ -3806,7 +4632,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseFindIndex.js",
       "hash": "nlMQjQ",
-      "browserifyId": 243,
+      "browserifyId": 286,
       "sourcemap": ""
     }
   ],
@@ -3819,7 +4645,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseFlatten.js",
       "hash": "6Lpj7g",
-      "browserifyId": 244,
+      "browserifyId": 287,
       "sourcemap": ""
     }
   ],
@@ -3832,7 +4658,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseGet.js",
       "hash": "Hekylw",
-      "browserifyId": 245,
+      "browserifyId": 288,
       "sourcemap": ""
     }
   ],
@@ -3845,7 +4671,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseGetAllKeys.js",
       "hash": "UVCUQA",
-      "browserifyId": 246,
+      "browserifyId": 289,
       "sourcemap": ""
     }
   ],
@@ -3859,7 +4685,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseGetTag.js",
       "hash": "lCYcnA",
-      "browserifyId": 247,
+      "browserifyId": 290,
       "sourcemap": ""
     }
   ],
@@ -3869,7 +4695,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseHasIn.js",
       "hash": "9Q1JlQ",
-      "browserifyId": 248,
+      "browserifyId": 291,
       "sourcemap": ""
     }
   ],
@@ -3883,7 +4709,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIndexOf.js",
       "hash": "kA1YVg",
-      "browserifyId": 249,
+      "browserifyId": 292,
       "sourcemap": ""
     }
   ],
@@ -3896,7 +4722,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsArguments.js",
       "hash": "R9YK1w",
-      "browserifyId": 250,
+      "browserifyId": 293,
       "sourcemap": ""
     }
   ],
@@ -3909,7 +4735,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsEqual.js",
       "hash": "7uo18A",
-      "browserifyId": 251,
+      "browserifyId": 294,
       "sourcemap": ""
     }
   ],
@@ -3928,7 +4754,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsEqualDeep.js",
       "hash": "ySnsPg",
-      "browserifyId": 252,
+      "browserifyId": 295,
       "sourcemap": ""
     }
   ],
@@ -3941,7 +4767,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsMatch.js",
       "hash": "hJxRtA",
-      "browserifyId": 253,
+      "browserifyId": 296,
       "sourcemap": ""
     }
   ],
@@ -3951,7 +4777,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsNaN.js",
       "hash": "p9mNpA",
-      "browserifyId": 254,
+      "browserifyId": 297,
       "sourcemap": ""
     }
   ],
@@ -3966,7 +4792,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsNative.js",
       "hash": "gH9ZUQ",
-      "browserifyId": 255,
+      "browserifyId": 298,
       "sourcemap": ""
     }
   ],
@@ -3980,7 +4806,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsTypedArray.js",
       "hash": "HRVIyw",
-      "browserifyId": 256,
+      "browserifyId": 299,
       "sourcemap": ""
     }
   ],
@@ -3996,7 +4822,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseIteratee.js",
       "hash": "9zeU6Q",
-      "browserifyId": 257,
+      "browserifyId": 300,
       "sourcemap": ""
     }
   ],
@@ -4009,7 +4835,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseKeys.js",
       "hash": "TkFfNA",
-      "browserifyId": 258,
+      "browserifyId": 301,
       "sourcemap": ""
     }
   ],
@@ -4023,7 +4849,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseMatches.js",
       "hash": "3S3Bwg",
-      "browserifyId": 259,
+      "browserifyId": 302,
       "sourcemap": ""
     }
   ],
@@ -4033,15 +4859,15 @@
       "./_matchesStrictComparable": "/home/dustin/CS/recipes/node_modules/lodash/_matchesStrictComparable.js",
       "./_isStrictComparable": "/home/dustin/CS/recipes/node_modules/lodash/_isStrictComparable.js",
       "./_toKey": "/home/dustin/CS/recipes/node_modules/lodash/_toKey.js",
-      "./_isKey": "/home/dustin/CS/recipes/node_modules/lodash/_isKey.js",
       "./hasIn": "/home/dustin/CS/recipes/node_modules/lodash/hasIn.js",
+      "./_isKey": "/home/dustin/CS/recipes/node_modules/lodash/_isKey.js",
       "./_baseIsEqual": "/home/dustin/CS/recipes/node_modules/lodash/_baseIsEqual.js",
       "./get": "/home/dustin/CS/recipes/node_modules/lodash/get.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseMatchesProperty.js",
       "hash": "EjLl+Q",
-      "browserifyId": 260,
+      "browserifyId": 303,
       "sourcemap": ""
     }
   ],
@@ -4051,7 +4877,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseProperty.js",
       "hash": "q0ElvQ",
-      "browserifyId": 261,
+      "browserifyId": 304,
       "sourcemap": ""
     }
   ],
@@ -4063,7 +4889,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_basePropertyDeep.js",
       "hash": "ooeL1g",
-      "browserifyId": 262,
+      "browserifyId": 305,
       "sourcemap": ""
     }
   ],
@@ -4077,7 +4903,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseRest.js",
       "hash": "P67bVQ",
-      "browserifyId": 263,
+      "browserifyId": 306,
       "sourcemap": ""
     }
   ],
@@ -4091,7 +4917,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseSetToString.js",
       "hash": "8uPkWA",
-      "browserifyId": 264,
+      "browserifyId": 307,
       "sourcemap": ""
     }
   ],
@@ -4101,7 +4927,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseTimes.js",
       "hash": "DhSYJQ",
-      "browserifyId": 265,
+      "browserifyId": 308,
       "sourcemap": ""
     }
   ],
@@ -4116,7 +4942,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseToString.js",
       "hash": "AkoH9A",
-      "browserifyId": 266,
+      "browserifyId": 309,
       "sourcemap": ""
     }
   ],
@@ -4126,7 +4952,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_baseUnary.js",
       "hash": "R0nFfg",
-      "browserifyId": 267,
+      "browserifyId": 310,
       "sourcemap": ""
     }
   ],
@@ -4136,7 +4962,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_cacheHas.js",
       "hash": "B8vzRg",
-      "browserifyId": 268,
+      "browserifyId": 311,
       "sourcemap": ""
     }
   ],
@@ -4151,7 +4977,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_castPath.js",
       "hash": "JPpC+g",
-      "browserifyId": 269,
+      "browserifyId": 312,
       "sourcemap": ""
     }
   ],
@@ -4164,7 +4990,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_copyObject.js",
       "hash": "Ek6Lcg",
-      "browserifyId": 270,
+      "browserifyId": 313,
       "sourcemap": ""
     }
   ],
@@ -4176,7 +5002,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_coreJsData.js",
       "hash": "sY3MtA",
-      "browserifyId": 271,
+      "browserifyId": 314,
       "sourcemap": ""
     }
   ],
@@ -4189,7 +5015,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_createAssigner.js",
       "hash": "DW06bQ",
-      "browserifyId": 272,
+      "browserifyId": 315,
       "sourcemap": ""
     }
   ],
@@ -4203,7 +5029,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_createFind.js",
       "hash": "Y/tMcw",
-      "browserifyId": 273,
+      "browserifyId": 316,
       "sourcemap": ""
     }
   ],
@@ -4215,7 +5041,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_defineProperty.js",
       "hash": "fTmCvQ",
-      "browserifyId": 274,
+      "browserifyId": 317,
       "sourcemap": ""
     }
   ],
@@ -4229,7 +5055,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_equalArrays.js",
       "hash": "FBwdxw",
-      "browserifyId": 275,
+      "browserifyId": 318,
       "sourcemap": ""
     }
   ],
@@ -4246,7 +5072,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_equalByTag.js",
       "hash": "ivukbA",
-      "browserifyId": 276,
+      "browserifyId": 319,
       "sourcemap": ""
     }
   ],
@@ -4258,7 +5084,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_equalObjects.js",
       "hash": "iMinlg",
-      "browserifyId": 277,
+      "browserifyId": 320,
       "sourcemap": ""
     }
   ],
@@ -4268,7 +5094,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_freeGlobal.js",
       "hash": "ukr2xw",
-      "browserifyId": 278,
+      "browserifyId": 321,
       "sourcemap": ""
     }
   ],
@@ -4282,7 +5108,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getAllKeys.js",
       "hash": "5vVcbA",
-      "browserifyId": 279,
+      "browserifyId": 322,
       "sourcemap": ""
     }
   ],
@@ -4294,7 +5120,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getMapData.js",
       "hash": "d+YxIg",
-      "browserifyId": 280,
+      "browserifyId": 323,
       "sourcemap": ""
     }
   ],
@@ -4307,7 +5133,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getMatchData.js",
       "hash": "cd3z3w",
-      "browserifyId": 281,
+      "browserifyId": 324,
       "sourcemap": ""
     }
   ],
@@ -4320,7 +5146,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getNative.js",
       "hash": "6l/EjQ",
-      "browserifyId": 282,
+      "browserifyId": 325,
       "sourcemap": ""
     }
   ],
@@ -4332,7 +5158,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getRawTag.js",
       "hash": "BEzLvg",
-      "browserifyId": 283,
+      "browserifyId": 326,
       "sourcemap": ""
     }
   ],
@@ -4345,7 +5171,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getSymbols.js",
       "hash": "IZajUw",
-      "browserifyId": 284,
+      "browserifyId": 327,
       "sourcemap": ""
     }
   ],
@@ -4363,7 +5189,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getTag.js",
       "hash": "76pZKw",
-      "browserifyId": 285,
+      "browserifyId": 328,
       "sourcemap": ""
     }
   ],
@@ -4373,7 +5199,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_getValue.js",
       "hash": "ZywnUQ",
-      "browserifyId": 286,
+      "browserifyId": 329,
       "sourcemap": ""
     }
   ],
@@ -4390,7 +5216,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_hasPath.js",
       "hash": "jUXXWw",
-      "browserifyId": 287,
+      "browserifyId": 330,
       "sourcemap": ""
     }
   ],
@@ -4402,7 +5228,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_hashClear.js",
       "hash": "2DYF+g",
-      "browserifyId": 288,
+      "browserifyId": 331,
       "sourcemap": ""
     }
   ],
@@ -4412,7 +5238,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_hashDelete.js",
       "hash": "cz690A",
-      "browserifyId": 289,
+      "browserifyId": 332,
       "sourcemap": ""
     }
   ],
@@ -4424,7 +5250,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_hashGet.js",
       "hash": "zRBjdQ",
-      "browserifyId": 290,
+      "browserifyId": 333,
       "sourcemap": ""
     }
   ],
@@ -4436,7 +5262,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_hashHas.js",
       "hash": "98eyIw",
-      "browserifyId": 291,
+      "browserifyId": 334,
       "sourcemap": ""
     }
   ],
@@ -4448,7 +5274,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_hashSet.js",
       "hash": "9V9dUA",
-      "browserifyId": 292,
+      "browserifyId": 335,
       "sourcemap": ""
     }
   ],
@@ -4462,7 +5288,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isFlattenable.js",
       "hash": "30BnpQ",
-      "browserifyId": 293,
+      "browserifyId": 336,
       "sourcemap": ""
     }
   ],
@@ -4472,22 +5298,22 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isIndex.js",
       "hash": "vRPaZQ",
-      "browserifyId": 294,
+      "browserifyId": 337,
       "sourcemap": ""
     }
   ],
   "/home/dustin/CS/recipes/node_modules/lodash/_isIterateeCall.js": [
     "var eq = require('./eq'),\n    isArrayLike = require('./isArrayLike'),\n    isIndex = require('./_isIndex'),\n    isObject = require('./isObject');\n\n/**\n * Checks if the given arguments are from an iteratee call.\n *\n * @private\n * @param {*} value The potential iteratee value argument.\n * @param {*} index The potential iteratee index or key argument.\n * @param {*} object The potential iteratee object argument.\n * @returns {boolean} Returns `true` if the arguments are from an iteratee call,\n *  else `false`.\n */\nfunction isIterateeCall(value, index, object) {\n  if (!isObject(object)) {\n    return false;\n  }\n  var type = typeof index;\n  if (type == 'number'\n        ? (isArrayLike(object) && isIndex(index, object.length))\n        : (type == 'string' && index in object)\n      ) {\n    return eq(object[index], value);\n  }\n  return false;\n}\n\nmodule.exports = isIterateeCall;\n",
     {
-      "./eq": "/home/dustin/CS/recipes/node_modules/lodash/eq.js",
-      "./isArrayLike": "/home/dustin/CS/recipes/node_modules/lodash/isArrayLike.js",
       "./_isIndex": "/home/dustin/CS/recipes/node_modules/lodash/_isIndex.js",
+      "./isArrayLike": "/home/dustin/CS/recipes/node_modules/lodash/isArrayLike.js",
+      "./eq": "/home/dustin/CS/recipes/node_modules/lodash/eq.js",
       "./isObject": "/home/dustin/CS/recipes/node_modules/lodash/isObject.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isIterateeCall.js",
       "hash": "eZpsGg",
-      "browserifyId": 295,
+      "browserifyId": 338,
       "sourcemap": ""
     }
   ],
@@ -4500,7 +5326,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isKey.js",
       "hash": "TpZJ+w",
-      "browserifyId": 296,
+      "browserifyId": 339,
       "sourcemap": ""
     }
   ],
@@ -4510,7 +5336,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isKeyable.js",
       "hash": "8Sn+sw",
-      "browserifyId": 297,
+      "browserifyId": 340,
       "sourcemap": ""
     }
   ],
@@ -4522,7 +5348,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isMasked.js",
       "hash": "z5viBg",
-      "browserifyId": 298,
+      "browserifyId": 341,
       "sourcemap": ""
     }
   ],
@@ -4532,7 +5358,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isPrototype.js",
       "hash": "ugmhLg",
-      "browserifyId": 299,
+      "browserifyId": 342,
       "sourcemap": ""
     }
   ],
@@ -4544,7 +5370,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_isStrictComparable.js",
       "hash": "891Kiw",
-      "browserifyId": 300,
+      "browserifyId": 343,
       "sourcemap": ""
     }
   ],
@@ -4554,7 +5380,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheClear.js",
       "hash": "c1psRw",
-      "browserifyId": 301,
+      "browserifyId": 344,
       "sourcemap": ""
     }
   ],
@@ -4566,7 +5392,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheDelete.js",
       "hash": "wlCjmQ",
-      "browserifyId": 302,
+      "browserifyId": 345,
       "sourcemap": ""
     }
   ],
@@ -4578,7 +5404,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheGet.js",
       "hash": "A3cIBQ",
-      "browserifyId": 303,
+      "browserifyId": 346,
       "sourcemap": ""
     }
   ],
@@ -4590,7 +5416,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheHas.js",
       "hash": "LONurA",
-      "browserifyId": 304,
+      "browserifyId": 347,
       "sourcemap": ""
     }
   ],
@@ -4602,7 +5428,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_listCacheSet.js",
       "hash": "x9J6jw",
-      "browserifyId": 305,
+      "browserifyId": 348,
       "sourcemap": ""
     }
   ],
@@ -4616,7 +5442,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheClear.js",
       "hash": "rn2xGg",
-      "browserifyId": 306,
+      "browserifyId": 349,
       "sourcemap": ""
     }
   ],
@@ -4628,7 +5454,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheDelete.js",
       "hash": "A1aWqA",
-      "browserifyId": 307,
+      "browserifyId": 350,
       "sourcemap": ""
     }
   ],
@@ -4640,7 +5466,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheGet.js",
       "hash": "ghVB4g",
-      "browserifyId": 308,
+      "browserifyId": 351,
       "sourcemap": ""
     }
   ],
@@ -4652,7 +5478,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheHas.js",
       "hash": "8eiVGg",
-      "browserifyId": 309,
+      "browserifyId": 352,
       "sourcemap": ""
     }
   ],
@@ -4664,7 +5490,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_mapCacheSet.js",
       "hash": "JvVMOA",
-      "browserifyId": 310,
+      "browserifyId": 353,
       "sourcemap": ""
     }
   ],
@@ -4674,7 +5500,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_mapToArray.js",
       "hash": "uES85A",
-      "browserifyId": 311,
+      "browserifyId": 354,
       "sourcemap": ""
     }
   ],
@@ -4684,7 +5510,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_matchesStrictComparable.js",
       "hash": "YYIqqA",
-      "browserifyId": 312,
+      "browserifyId": 355,
       "sourcemap": ""
     }
   ],
@@ -4696,7 +5522,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_memoizeCapped.js",
       "hash": "0MIwiw",
-      "browserifyId": 313,
+      "browserifyId": 356,
       "sourcemap": ""
     }
   ],
@@ -4708,7 +5534,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_nativeCreate.js",
       "hash": "0xjX7g",
-      "browserifyId": 314,
+      "browserifyId": 357,
       "sourcemap": ""
     }
   ],
@@ -4720,7 +5546,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_nativeKeys.js",
       "hash": "Iz1Wtg",
-      "browserifyId": 315,
+      "browserifyId": 358,
       "sourcemap": ""
     }
   ],
@@ -4732,7 +5558,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_nodeUtil.js",
       "hash": "cOqCTg",
-      "browserifyId": 316,
+      "browserifyId": 359,
       "sourcemap": ""
     }
   ],
@@ -4742,7 +5568,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_objectToString.js",
       "hash": "PYgzDw",
-      "browserifyId": 317,
+      "browserifyId": 360,
       "sourcemap": ""
     }
   ],
@@ -4752,7 +5578,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_overArg.js",
       "hash": "WFZu3w",
-      "browserifyId": 318,
+      "browserifyId": 361,
       "sourcemap": ""
     }
   ],
@@ -4764,7 +5590,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_overRest.js",
       "hash": "foyETg",
-      "browserifyId": 319,
+      "browserifyId": 362,
       "sourcemap": ""
     }
   ],
@@ -4776,7 +5602,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_root.js",
       "hash": "esC0kA",
-      "browserifyId": 320,
+      "browserifyId": 363,
       "sourcemap": ""
     }
   ],
@@ -4786,7 +5612,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_setCacheAdd.js",
       "hash": "Fw/Q6Q",
-      "browserifyId": 321,
+      "browserifyId": 364,
       "sourcemap": ""
     }
   ],
@@ -4796,7 +5622,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_setCacheHas.js",
       "hash": "rxdzxw",
-      "browserifyId": 322,
+      "browserifyId": 365,
       "sourcemap": ""
     }
   ],
@@ -4806,7 +5632,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_setToArray.js",
       "hash": "GUfuig",
-      "browserifyId": 323,
+      "browserifyId": 366,
       "sourcemap": ""
     }
   ],
@@ -4819,7 +5645,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_setToString.js",
       "hash": "DMCYBQ",
-      "browserifyId": 324,
+      "browserifyId": 367,
       "sourcemap": ""
     }
   ],
@@ -4829,7 +5655,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_shortOut.js",
       "hash": "51Xvaw",
-      "browserifyId": 325,
+      "browserifyId": 368,
       "sourcemap": ""
     }
   ],
@@ -4841,7 +5667,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_stackClear.js",
       "hash": "QwExyA",
-      "browserifyId": 326,
+      "browserifyId": 369,
       "sourcemap": ""
     }
   ],
@@ -4851,7 +5677,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_stackDelete.js",
       "hash": "laERhg",
-      "browserifyId": 327,
+      "browserifyId": 370,
       "sourcemap": ""
     }
   ],
@@ -4861,7 +5687,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_stackGet.js",
       "hash": "QhI7Cg",
-      "browserifyId": 328,
+      "browserifyId": 371,
       "sourcemap": ""
     }
   ],
@@ -4871,7 +5697,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_stackHas.js",
       "hash": "exNwOQ",
-      "browserifyId": 329,
+      "browserifyId": 372,
       "sourcemap": ""
     }
   ],
@@ -4885,7 +5711,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_stackSet.js",
       "hash": "9pgEOA",
-      "browserifyId": 330,
+      "browserifyId": 373,
       "sourcemap": ""
     }
   ],
@@ -4895,7 +5721,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_strictIndexOf.js",
       "hash": "MqNQMQ",
-      "browserifyId": 331,
+      "browserifyId": 374,
       "sourcemap": ""
     }
   ],
@@ -4907,7 +5733,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_stringToPath.js",
       "hash": "GyXVxw",
-      "browserifyId": 332,
+      "browserifyId": 375,
       "sourcemap": ""
     }
   ],
@@ -4919,7 +5745,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_toKey.js",
       "hash": "sQEPQQ",
-      "browserifyId": 333,
+      "browserifyId": 376,
       "sourcemap": ""
     }
   ],
@@ -4929,7 +5755,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/_toSource.js",
       "hash": "iPbLuw",
-      "browserifyId": 334,
+      "browserifyId": 377,
       "sourcemap": ""
     }
   ],
@@ -4946,7 +5772,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/assign.js",
       "hash": "DreAGg",
-      "browserifyId": 335,
+      "browserifyId": 378,
       "sourcemap": ""
     }
   ],
@@ -4956,7 +5782,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/constant.js",
       "hash": "zrp6oA",
-      "browserifyId": 336,
+      "browserifyId": 379,
       "sourcemap": ""
     }
   ],
@@ -4971,7 +5797,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/difference.js",
       "hash": "HiDEvw",
-      "browserifyId": 337,
+      "browserifyId": 380,
       "sourcemap": ""
     }
   ],
@@ -4981,7 +5807,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/eq.js",
       "hash": "ZpUiqA",
-      "browserifyId": 338,
+      "browserifyId": 381,
       "sourcemap": ""
     }
   ],
@@ -4994,7 +5820,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/find.js",
       "hash": "ZImR3w",
-      "browserifyId": 339,
+      "browserifyId": 382,
       "sourcemap": ""
     }
   ],
@@ -5008,7 +5834,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/findIndex.js",
       "hash": "ypEagw",
-      "browserifyId": 340,
+      "browserifyId": 383,
       "sourcemap": ""
     }
   ],
@@ -5020,7 +5846,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/get.js",
       "hash": "T9TocA",
-      "browserifyId": 341,
+      "browserifyId": 384,
       "sourcemap": ""
     }
   ],
@@ -5033,7 +5859,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/hasIn.js",
       "hash": "dE1b7g",
-      "browserifyId": 342,
+      "browserifyId": 385,
       "sourcemap": ""
     }
   ],
@@ -5043,7 +5869,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/identity.js",
       "hash": "GpYUjw",
-      "browserifyId": 343,
+      "browserifyId": 386,
       "sourcemap": ""
     }
   ],
@@ -5056,7 +5882,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isArguments.js",
       "hash": "RvMahg",
-      "browserifyId": 344,
+      "browserifyId": 387,
       "sourcemap": ""
     }
   ],
@@ -5066,7 +5892,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isArray.js",
       "hash": "ZaaTdA",
-      "browserifyId": 345,
+      "browserifyId": 388,
       "sourcemap": ""
     }
   ],
@@ -5079,7 +5905,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isArrayLike.js",
       "hash": "YXFtFQ",
-      "browserifyId": 346,
+      "browserifyId": 389,
       "sourcemap": ""
     }
   ],
@@ -5092,7 +5918,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isArrayLikeObject.js",
       "hash": "DCwb/A",
-      "browserifyId": 347,
+      "browserifyId": 390,
       "sourcemap": ""
     }
   ],
@@ -5105,7 +5931,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isBuffer.js",
       "hash": "Az9mkg",
-      "browserifyId": 348,
+      "browserifyId": 391,
       "sourcemap": ""
     }
   ],
@@ -5118,7 +5944,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isFunction.js",
       "hash": "9GAhjw",
-      "browserifyId": 349,
+      "browserifyId": 392,
       "sourcemap": ""
     }
   ],
@@ -5128,7 +5954,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isLength.js",
       "hash": "z6X0AQ",
-      "browserifyId": 350,
+      "browserifyId": 393,
       "sourcemap": ""
     }
   ],
@@ -5138,7 +5964,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isObject.js",
       "hash": "THYWYg",
-      "browserifyId": 351,
+      "browserifyId": 394,
       "sourcemap": ""
     }
   ],
@@ -5148,7 +5974,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isObjectLike.js",
       "hash": "mfD7zA",
-      "browserifyId": 352,
+      "browserifyId": 395,
       "sourcemap": ""
     }
   ],
@@ -5161,7 +5987,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isSymbol.js",
       "hash": "4zefgw",
-      "browserifyId": 353,
+      "browserifyId": 396,
       "sourcemap": ""
     }
   ],
@@ -5175,7 +6001,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/isTypedArray.js",
       "hash": "B+fWPQ",
-      "browserifyId": 354,
+      "browserifyId": 397,
       "sourcemap": ""
     }
   ],
@@ -5189,7 +6015,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/keys.js",
       "hash": "UJ3i8g",
-      "browserifyId": 355,
+      "browserifyId": 398,
       "sourcemap": ""
     }
   ],
@@ -5201,7 +6027,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/memoize.js",
       "hash": "mkyX6w",
-      "browserifyId": 356,
+      "browserifyId": 399,
       "sourcemap": ""
     }
   ],
@@ -5216,7 +6042,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/property.js",
       "hash": "XP8w6w",
-      "browserifyId": 357,
+      "browserifyId": 400,
       "sourcemap": ""
     }
   ],
@@ -5226,7 +6052,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/stubArray.js",
       "hash": "npB0lA",
-      "browserifyId": 358,
+      "browserifyId": 401,
       "sourcemap": ""
     }
   ],
@@ -5236,7 +6062,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/stubFalse.js",
       "hash": "MsEt/A",
-      "browserifyId": 359,
+      "browserifyId": 402,
       "sourcemap": ""
     }
   ],
@@ -5248,7 +6074,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/toFinite.js",
       "hash": "Z+lJSA",
-      "browserifyId": 360,
+      "browserifyId": 403,
       "sourcemap": ""
     }
   ],
@@ -5260,7 +6086,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/toInteger.js",
       "hash": "l0LAxQ",
-      "browserifyId": 361,
+      "browserifyId": 404,
       "sourcemap": ""
     }
   ],
@@ -5273,7 +6099,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/toNumber.js",
       "hash": "+bvKQg",
-      "browserifyId": 362,
+      "browserifyId": 405,
       "sourcemap": ""
     }
   ],
@@ -5285,7 +6111,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/lodash/toString.js",
       "hash": "ymxIXw",
-      "browserifyId": 363,
+      "browserifyId": 406,
       "sourcemap": ""
     }
   ],
@@ -5295,7 +6121,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/object-assign/index.js",
       "hash": "g548Bg",
-      "browserifyId": 364,
+      "browserifyId": 407,
       "sourcemap": ""
     }
   ],
@@ -5307,7 +6133,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/path-to-regexp/index.js",
       "hash": "jmKnRw",
-      "browserifyId": 365,
+      "browserifyId": 408,
       "sourcemap": ""
     }
   ],
@@ -5317,7 +6143,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/path-to-regexp/node_modules/isarray/index.js",
       "hash": "XsC78g",
-      "browserifyId": 366,
+      "browserifyId": 409,
       "sourcemap": ""
     }
   ],
@@ -5327,7 +6153,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/process/browser.js",
       "hash": "t8j6/g",
-      "browserifyId": 367,
+      "browserifyId": 410,
       "sourcemap": ""
     }
   ],
@@ -5339,7 +6165,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/prop-types/checkPropTypes.js",
       "hash": "RIi2Fg",
-      "browserifyId": 368,
+      "browserifyId": 411,
       "sourcemap": ""
     }
   ],
@@ -5351,7 +6177,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/prop-types/factoryWithThrowingShims.js",
       "hash": "BP1YTw",
-      "browserifyId": 369,
+      "browserifyId": 412,
       "sourcemap": ""
     }
   ],
@@ -5366,7 +6192,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/prop-types/factoryWithTypeCheckers.js",
       "hash": "61SwTg",
-      "browserifyId": 370,
+      "browserifyId": 413,
       "sourcemap": ""
     }
   ],
@@ -5380,7 +6206,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "hash": "R2eMAw",
-      "browserifyId": 371,
+      "browserifyId": 414,
       "sourcemap": ""
     }
   ],
@@ -5390,7 +6216,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/prop-types/lib/ReactPropTypesSecret.js",
       "hash": "GI9PHQ",
-      "browserifyId": 372,
+      "browserifyId": 415,
       "sourcemap": ""
     }
   ],
@@ -5400,7 +6226,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-deep-force-update/lib/index.js",
       "hash": "Hcv8ug",
-      "browserifyId": 373,
+      "browserifyId": 416,
       "sourcemap": ""
     }
   ],
@@ -5416,7 +6242,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-dom/cjs/react-dom.development.js",
       "hash": "n6QT7w",
-      "browserifyId": 374,
+      "browserifyId": 417,
       "sourcemap": ""
     }
   ],
@@ -5430,7 +6256,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-dom/cjs/react-dom.production.min.js",
       "hash": "sp85Nw",
-      "browserifyId": 375,
+      "browserifyId": 418,
       "sourcemap": ""
     }
   ],
@@ -5443,7 +6269,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-dom/index.js",
       "hash": "a0J+MA",
-      "browserifyId": 376,
+      "browserifyId": 419,
       "sourcemap": ""
     }
   ],
@@ -5454,8 +6280,8 @@
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
-      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
+      "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
@@ -5466,7 +6292,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-event-listener/dist/react-event-listener.cjs.js",
       "hash": "0TuXVg",
-      "browserifyId": 377,
+      "browserifyId": 420,
       "sourcemap": ""
     }
   ],
@@ -5478,7 +6304,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-is/cjs/react-is.development.js",
       "hash": "L2qwlg",
-      "browserifyId": 378,
+      "browserifyId": 421,
       "sourcemap": ""
     }
   ],
@@ -5488,7 +6314,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-is/cjs/react-is.production.min.js",
       "hash": "qT5oJg",
-      "browserifyId": 379,
+      "browserifyId": 422,
       "sourcemap": ""
     }
   ],
@@ -5502,7 +6328,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-is/index.js",
       "hash": "AkJQhQ",
-      "browserifyId": 380,
+      "browserifyId": 423,
       "sourcemap": ""
     }
   ],
@@ -5512,7 +6338,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-lifecycles-compat/react-lifecycles-compat.cjs.js",
       "hash": "1QHnPA",
-      "browserifyId": 381,
+      "browserifyId": 424,
       "sourcemap": ""
     }
   ],
@@ -5522,7 +6348,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/bindAutoBindMethods.js",
       "hash": "82YT1A",
-      "browserifyId": 382,
+      "browserifyId": 425,
       "sourcemap": ""
     }
   ],
@@ -5538,7 +6364,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/createClassProxy.js",
       "hash": "V/nFvA",
-      "browserifyId": 383,
+      "browserifyId": 426,
       "sourcemap": ""
     }
   ],
@@ -5551,7 +6377,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/createPrototypeProxy.js",
       "hash": "TN2BVA",
-      "browserifyId": 384,
+      "browserifyId": 427,
       "sourcemap": ""
     }
   ],
@@ -5561,7 +6387,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/deleteUnknownAutoBindMethods.js",
       "hash": "CkQTAA",
-      "browserifyId": 385,
+      "browserifyId": 428,
       "sourcemap": ""
     }
   ],
@@ -5575,7 +6401,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/index.js",
       "hash": "UHYfzw",
-      "browserifyId": 386,
+      "browserifyId": 429,
       "sourcemap": ""
     }
   ],
@@ -5585,7 +6411,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-proxy/modules/supportsProtoAssignment.js",
       "hash": "JevoEA",
-      "browserifyId": 387,
+      "browserifyId": 430,
       "sourcemap": ""
     }
   ],
@@ -5598,7 +6424,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/components/Context.js",
       "hash": "RUxdCQ",
-      "browserifyId": 388,
+      "browserifyId": 431,
       "sourcemap": ""
     }
   ],
@@ -5615,7 +6441,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/components/Provider.js",
       "hash": "XouXmw",
-      "browserifyId": 389,
+      "browserifyId": 432,
       "sourcemap": ""
     }
   ],
@@ -5623,8 +6449,8 @@
     "\"use strict\";\n\nvar _interopRequireWildcard = require(\"@babel/runtime/helpers/interopRequireWildcard\");\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nexports.__esModule = true;\nexports.default = connectAdvanced;\n\nvar _assertThisInitialized2 = _interopRequireDefault(require(\"@babel/runtime/helpers/assertThisInitialized\"));\n\nvar _inheritsLoose2 = _interopRequireDefault(require(\"@babel/runtime/helpers/inheritsLoose\"));\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutPropertiesLoose2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutPropertiesLoose\"));\n\nvar _hoistNonReactStatics = _interopRequireDefault(require(\"hoist-non-react-statics\"));\n\nvar _invariant = _interopRequireDefault(require(\"invariant\"));\n\nvar _react = _interopRequireWildcard(require(\"react\"));\n\nvar _reactIs = require(\"react-is\");\n\nvar _Context = require(\"./Context\");\n\nvar stringifyComponent = function stringifyComponent(Comp) {\n  try {\n    return JSON.stringify(Comp);\n  } catch (err) {\n    return String(Comp);\n  }\n};\n\nfunction connectAdvanced(\n/*\n  selectorFactory is a func that is responsible for returning the selector function used to\n  compute new props from state, props, and dispatch. For example:\n     export default connectAdvanced((dispatch, options) => (state, props) => ({\n      thing: state.things[props.thingId],\n      saveThing: fields => dispatch(actionCreators.saveThing(props.thingId, fields)),\n    }))(YourComponent)\n   Access to dispatch is provided to the factory so selectorFactories can bind actionCreators\n  outside of their selector as an optimization. Options passed to connectAdvanced are passed to\n  the selectorFactory, along with displayName and WrappedComponent, as the second argument.\n   Note that selectorFactory is responsible for all caching/memoization of inbound and outbound\n  props. Do not use connectAdvanced directly without memoizing results between calls to your\n  selector, otherwise the Connect component will re-render on every state or props change.\n*/\nselectorFactory, // options object:\n_ref) {\n  if (_ref === void 0) {\n    _ref = {};\n  }\n\n  var _ref2 = _ref,\n      _ref2$getDisplayName = _ref2.getDisplayName,\n      getDisplayName = _ref2$getDisplayName === void 0 ? function (name) {\n    return \"ConnectAdvanced(\" + name + \")\";\n  } : _ref2$getDisplayName,\n      _ref2$methodName = _ref2.methodName,\n      methodName = _ref2$methodName === void 0 ? 'connectAdvanced' : _ref2$methodName,\n      _ref2$renderCountProp = _ref2.renderCountProp,\n      renderCountProp = _ref2$renderCountProp === void 0 ? undefined : _ref2$renderCountProp,\n      _ref2$shouldHandleSta = _ref2.shouldHandleStateChanges,\n      shouldHandleStateChanges = _ref2$shouldHandleSta === void 0 ? true : _ref2$shouldHandleSta,\n      _ref2$storeKey = _ref2.storeKey,\n      storeKey = _ref2$storeKey === void 0 ? 'store' : _ref2$storeKey,\n      _ref2$withRef = _ref2.withRef,\n      withRef = _ref2$withRef === void 0 ? false : _ref2$withRef,\n      _ref2$forwardRef = _ref2.forwardRef,\n      forwardRef = _ref2$forwardRef === void 0 ? false : _ref2$forwardRef,\n      _ref2$context = _ref2.context,\n      context = _ref2$context === void 0 ? _Context.ReactReduxContext : _ref2$context,\n      connectOptions = (0, _objectWithoutPropertiesLoose2.default)(_ref2, [\"getDisplayName\", \"methodName\", \"renderCountProp\", \"shouldHandleStateChanges\", \"storeKey\", \"withRef\", \"forwardRef\", \"context\"]);\n  (0, _invariant.default)(renderCountProp === undefined, \"renderCountProp is removed. render counting is built into the latest React dev tools profiling extension\");\n  (0, _invariant.default)(!withRef, 'withRef is removed. To access the wrapped instance, use a ref on the connected component');\n  var customStoreWarningMessage = 'To use a custom Redux store for specific components,  create a custom React context with ' + \"React.createContext(), and pass the context object to React Redux's Provider and specific components\" + ' like:  <Provider context={MyContext}><ConnectedComponent context={MyContext} /></Provider>. ' + 'You may also pass a {context : MyContext} option to connect';\n  (0, _invariant.default)(storeKey === 'store', 'storeKey has been removed and does not do anything. ' + customStoreWarningMessage);\n  var Context = context;\n  return function wrapWithConnect(WrappedComponent) {\n    if (\"dev\" !== 'production') {\n      (0, _invariant.default)((0, _reactIs.isValidElementType)(WrappedComponent), \"You must pass a component to the function returned by \" + (methodName + \". Instead received \" + stringifyComponent(WrappedComponent)));\n    }\n\n    var wrappedComponentName = WrappedComponent.displayName || WrappedComponent.name || 'Component';\n    var displayName = getDisplayName(wrappedComponentName);\n    var selectorFactoryOptions = (0, _extends2.default)({}, connectOptions, {\n      getDisplayName: getDisplayName,\n      methodName: methodName,\n      renderCountProp: renderCountProp,\n      shouldHandleStateChanges: shouldHandleStateChanges,\n      storeKey: storeKey,\n      displayName: displayName,\n      wrappedComponentName: wrappedComponentName,\n      WrappedComponent: WrappedComponent\n    });\n    var pure = connectOptions.pure;\n    var OuterBaseComponent = _react.Component;\n\n    if (pure) {\n      OuterBaseComponent = _react.PureComponent;\n    }\n\n    function makeDerivedPropsSelector() {\n      var lastProps;\n      var lastState;\n      var lastDerivedProps;\n      var lastStore;\n      var lastSelectorFactoryOptions;\n      var sourceSelector;\n      return function selectDerivedProps(state, props, store, selectorFactoryOptions) {\n        if (pure && lastProps === props && lastState === state) {\n          return lastDerivedProps;\n        }\n\n        if (store !== lastStore || lastSelectorFactoryOptions !== selectorFactoryOptions) {\n          lastStore = store;\n          lastSelectorFactoryOptions = selectorFactoryOptions;\n          sourceSelector = selectorFactory(store.dispatch, selectorFactoryOptions);\n        }\n\n        lastProps = props;\n        lastState = state;\n        var nextProps = sourceSelector(state, props);\n        lastDerivedProps = nextProps;\n        return lastDerivedProps;\n      };\n    }\n\n    function makeChildElementSelector() {\n      var lastChildProps, lastForwardRef, lastChildElement, lastComponent;\n      return function selectChildElement(WrappedComponent, childProps, forwardRef) {\n        if (childProps !== lastChildProps || forwardRef !== lastForwardRef || lastComponent !== WrappedComponent) {\n          lastChildProps = childProps;\n          lastForwardRef = forwardRef;\n          lastComponent = WrappedComponent;\n          lastChildElement = _react.default.createElement(WrappedComponent, (0, _extends2.default)({}, childProps, {\n            ref: forwardRef\n          }));\n        }\n\n        return lastChildElement;\n      };\n    }\n\n    var Connect =\n    /*#__PURE__*/\n    function (_OuterBaseComponent) {\n      (0, _inheritsLoose2.default)(Connect, _OuterBaseComponent);\n\n      function Connect(props) {\n        var _this;\n\n        _this = _OuterBaseComponent.call(this, props) || this;\n        (0, _invariant.default)(forwardRef ? !props.wrapperProps[storeKey] : !props[storeKey], 'Passing redux store in props has been removed and does not do anything. ' + customStoreWarningMessage);\n        _this.selectDerivedProps = makeDerivedPropsSelector();\n        _this.selectChildElement = makeChildElementSelector();\n        _this.indirectRenderWrappedComponent = _this.indirectRenderWrappedComponent.bind((0, _assertThisInitialized2.default)(_this));\n        return _this;\n      }\n\n      var _proto = Connect.prototype;\n\n      _proto.indirectRenderWrappedComponent = function indirectRenderWrappedComponent(value) {\n        // calling renderWrappedComponent on prototype from indirectRenderWrappedComponent bound to `this`\n        return this.renderWrappedComponent(value);\n      };\n\n      _proto.renderWrappedComponent = function renderWrappedComponent(value) {\n        (0, _invariant.default)(value, \"Could not find \\\"store\\\" in the context of \" + (\"\\\"\" + displayName + \"\\\". Either wrap the root component in a <Provider>, \") + \"or pass a custom React context provider to <Provider> and the corresponding \" + (\"React context consumer to \" + displayName + \" in connect options.\"));\n        var storeState = value.storeState,\n            store = value.store;\n        var wrapperProps = this.props;\n        var forwardedRef;\n\n        if (forwardRef) {\n          wrapperProps = this.props.wrapperProps;\n          forwardedRef = this.props.forwardedRef;\n        }\n\n        var derivedProps = this.selectDerivedProps(storeState, wrapperProps, store, selectorFactoryOptions);\n        return this.selectChildElement(WrappedComponent, derivedProps, forwardedRef);\n      };\n\n      _proto.render = function render() {\n        var ContextToUse = this.props.context && this.props.context.Consumer && (0, _reactIs.isContextConsumer)(_react.default.createElement(this.props.context.Consumer, null)) ? this.props.context : Context;\n        return _react.default.createElement(ContextToUse.Consumer, null, this.indirectRenderWrappedComponent);\n      };\n\n      return Connect;\n    }(OuterBaseComponent);\n\n    Connect.WrappedComponent = WrappedComponent;\n    Connect.displayName = displayName;\n\n    if (forwardRef) {\n      var forwarded = _react.default.forwardRef(function forwardConnectRef(props, ref) {\n        return _react.default.createElement(Connect, {\n          wrapperProps: props,\n          forwardedRef: ref\n        });\n      });\n\n      forwarded.displayName = displayName;\n      forwarded.WrappedComponent = WrappedComponent;\n      return (0, _hoistNonReactStatics.default)(forwarded, WrappedComponent);\n    }\n\n    return (0, _hoistNonReactStatics.default)(Connect, WrappedComponent);\n  };\n}",
     {
       "./Context": "/home/dustin/CS/recipes/node_modules/react-redux/lib/components/Context.js",
-      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "invariant": "/home/dustin/CS/recipes/node_modules/invariant/browser.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "react-is": "/home/dustin/CS/recipes/node_modules/react-is/index.js",
       "hoist-non-react-statics": "/home/dustin/CS/recipes/node_modules/react-redux/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
@@ -5637,7 +6463,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/components/connectAdvanced.js",
       "hash": "tJ1cFg",
-      "browserifyId": 390,
+      "browserifyId": 433,
       "sourcemap": ""
     }
   ],
@@ -5646,31 +6472,31 @@
     {
       "../components/connectAdvanced": "/home/dustin/CS/recipes/node_modules/react-redux/lib/components/connectAdvanced.js",
       "../utils/shallowEqual": "/home/dustin/CS/recipes/node_modules/react-redux/lib/utils/shallowEqual.js",
-      "./mapDispatchToProps": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mapDispatchToProps.js",
+      "./mapStateToProps": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mapStateToProps.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/objectWithoutPropertiesLoose": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
-      "./mapStateToProps": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mapStateToProps.js",
+      "./mapDispatchToProps": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mapDispatchToProps.js",
       "./mergeProps": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mergeProps.js",
       "./selectorFactory": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/selectorFactory.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/connect.js",
       "hash": "BQGfnQ",
-      "browserifyId": 391,
+      "browserifyId": 434,
       "sourcemap": ""
     }
   ],
   "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mapDispatchToProps.js": [
     "\"use strict\";\n\nexports.__esModule = true;\nexports.whenMapDispatchToPropsIsFunction = whenMapDispatchToPropsIsFunction;\nexports.whenMapDispatchToPropsIsMissing = whenMapDispatchToPropsIsMissing;\nexports.whenMapDispatchToPropsIsObject = whenMapDispatchToPropsIsObject;\nexports.default = void 0;\n\nvar _redux = require(\"redux\");\n\nvar _wrapMapToProps = require(\"./wrapMapToProps\");\n\nfunction whenMapDispatchToPropsIsFunction(mapDispatchToProps) {\n  return typeof mapDispatchToProps === 'function' ? (0, _wrapMapToProps.wrapMapToPropsFunc)(mapDispatchToProps, 'mapDispatchToProps') : undefined;\n}\n\nfunction whenMapDispatchToPropsIsMissing(mapDispatchToProps) {\n  return !mapDispatchToProps ? (0, _wrapMapToProps.wrapMapToPropsConstant)(function (dispatch) {\n    return {\n      dispatch: dispatch\n    };\n  }) : undefined;\n}\n\nfunction whenMapDispatchToPropsIsObject(mapDispatchToProps) {\n  return mapDispatchToProps && typeof mapDispatchToProps === 'object' ? (0, _wrapMapToProps.wrapMapToPropsConstant)(function (dispatch) {\n    return (0, _redux.bindActionCreators)(mapDispatchToProps, dispatch);\n  }) : undefined;\n}\n\nvar _default = [whenMapDispatchToPropsIsFunction, whenMapDispatchToPropsIsMissing, whenMapDispatchToPropsIsObject];\nexports.default = _default;",
     {
-      "./wrapMapToProps": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/wrapMapToProps.js",
-      "redux": "/home/dustin/CS/recipes/node_modules/redux/lib/redux.js"
+      "redux": "/home/dustin/CS/recipes/node_modules/redux/lib/redux.js",
+      "./wrapMapToProps": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/wrapMapToProps.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mapDispatchToProps.js",
       "hash": "chfOfw",
-      "browserifyId": 392,
+      "browserifyId": 435,
       "sourcemap": ""
     }
   ],
@@ -5682,7 +6508,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mapStateToProps.js",
       "hash": "o/0xig",
-      "browserifyId": 393,
+      "browserifyId": 436,
       "sourcemap": ""
     }
   ],
@@ -5696,21 +6522,21 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/mergeProps.js",
       "hash": "EJn4Ng",
-      "browserifyId": 394,
+      "browserifyId": 437,
       "sourcemap": ""
     }
   ],
   "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/selectorFactory.js": [
     "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nexports.__esModule = true;\nexports.impureFinalPropsSelectorFactory = impureFinalPropsSelectorFactory;\nexports.pureFinalPropsSelectorFactory = pureFinalPropsSelectorFactory;\nexports.default = finalPropsSelectorFactory;\n\nvar _objectWithoutPropertiesLoose2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutPropertiesLoose\"));\n\nvar _verifySubselectors = _interopRequireDefault(require(\"./verifySubselectors\"));\n\nfunction impureFinalPropsSelectorFactory(mapStateToProps, mapDispatchToProps, mergeProps, dispatch) {\n  return function impureFinalPropsSelector(state, ownProps) {\n    return mergeProps(mapStateToProps(state, ownProps), mapDispatchToProps(dispatch, ownProps), ownProps);\n  };\n}\n\nfunction pureFinalPropsSelectorFactory(mapStateToProps, mapDispatchToProps, mergeProps, dispatch, _ref) {\n  var areStatesEqual = _ref.areStatesEqual,\n      areOwnPropsEqual = _ref.areOwnPropsEqual,\n      areStatePropsEqual = _ref.areStatePropsEqual;\n  var hasRunAtLeastOnce = false;\n  var state;\n  var ownProps;\n  var stateProps;\n  var dispatchProps;\n  var mergedProps;\n\n  function handleFirstCall(firstState, firstOwnProps) {\n    state = firstState;\n    ownProps = firstOwnProps;\n    stateProps = mapStateToProps(state, ownProps);\n    dispatchProps = mapDispatchToProps(dispatch, ownProps);\n    mergedProps = mergeProps(stateProps, dispatchProps, ownProps);\n    hasRunAtLeastOnce = true;\n    return mergedProps;\n  }\n\n  function handleNewPropsAndNewState() {\n    stateProps = mapStateToProps(state, ownProps);\n    if (mapDispatchToProps.dependsOnOwnProps) dispatchProps = mapDispatchToProps(dispatch, ownProps);\n    mergedProps = mergeProps(stateProps, dispatchProps, ownProps);\n    return mergedProps;\n  }\n\n  function handleNewProps() {\n    if (mapStateToProps.dependsOnOwnProps) stateProps = mapStateToProps(state, ownProps);\n    if (mapDispatchToProps.dependsOnOwnProps) dispatchProps = mapDispatchToProps(dispatch, ownProps);\n    mergedProps = mergeProps(stateProps, dispatchProps, ownProps);\n    return mergedProps;\n  }\n\n  function handleNewState() {\n    var nextStateProps = mapStateToProps(state, ownProps);\n    var statePropsChanged = !areStatePropsEqual(nextStateProps, stateProps);\n    stateProps = nextStateProps;\n    if (statePropsChanged) mergedProps = mergeProps(stateProps, dispatchProps, ownProps);\n    return mergedProps;\n  }\n\n  function handleSubsequentCalls(nextState, nextOwnProps) {\n    var propsChanged = !areOwnPropsEqual(nextOwnProps, ownProps);\n    var stateChanged = !areStatesEqual(nextState, state);\n    state = nextState;\n    ownProps = nextOwnProps;\n    if (propsChanged && stateChanged) return handleNewPropsAndNewState();\n    if (propsChanged) return handleNewProps();\n    if (stateChanged) return handleNewState();\n    return mergedProps;\n  }\n\n  return function pureFinalPropsSelector(nextState, nextOwnProps) {\n    return hasRunAtLeastOnce ? handleSubsequentCalls(nextState, nextOwnProps) : handleFirstCall(nextState, nextOwnProps);\n  };\n} // TODO: Add more comments\n// If pure is true, the selector returned by selectorFactory will memoize its results,\n// allowing connectAdvanced's shouldComponentUpdate to return false if final\n// props have not changed. If false, the selector will always return a new\n// object and shouldComponentUpdate will always return true.\n\n\nfunction finalPropsSelectorFactory(dispatch, _ref2) {\n  var initMapStateToProps = _ref2.initMapStateToProps,\n      initMapDispatchToProps = _ref2.initMapDispatchToProps,\n      initMergeProps = _ref2.initMergeProps,\n      options = (0, _objectWithoutPropertiesLoose2.default)(_ref2, [\"initMapStateToProps\", \"initMapDispatchToProps\", \"initMergeProps\"]);\n  var mapStateToProps = initMapStateToProps(dispatch, options);\n  var mapDispatchToProps = initMapDispatchToProps(dispatch, options);\n  var mergeProps = initMergeProps(dispatch, options);\n\n  if (\"dev\" !== 'production') {\n    (0, _verifySubselectors.default)(mapStateToProps, mapDispatchToProps, mergeProps, options.displayName);\n  }\n\n  var selectorFactory = options.pure ? pureFinalPropsSelectorFactory : impureFinalPropsSelectorFactory;\n  return selectorFactory(mapStateToProps, mapDispatchToProps, mergeProps, dispatch, options);\n}",
     {
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/objectWithoutPropertiesLoose": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "./verifySubselectors": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/verifySubselectors.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/selectorFactory.js",
       "hash": "ihpUSA",
-      "browserifyId": 395,
+      "browserifyId": 438,
       "sourcemap": ""
     }
   ],
@@ -5723,7 +6549,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/verifySubselectors.js",
       "hash": "tR5BKw",
-      "browserifyId": 396,
+      "browserifyId": 439,
       "sourcemap": ""
     }
   ],
@@ -5736,7 +6562,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/connect/wrapMapToProps.js",
       "hash": "IuBRoA",
-      "browserifyId": 397,
+      "browserifyId": 440,
       "sourcemap": ""
     }
   ],
@@ -5752,7 +6578,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/index.js",
       "hash": "Q2Qmyg",
-      "browserifyId": 398,
+      "browserifyId": 441,
       "sourcemap": ""
     }
   ],
@@ -5762,7 +6588,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/utils/isPlainObject.js",
       "hash": "KEqRDg",
-      "browserifyId": 399,
+      "browserifyId": 442,
       "sourcemap": ""
     }
   ],
@@ -5772,7 +6598,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/utils/shallowEqual.js",
       "hash": "T3K5wg",
-      "browserifyId": 400,
+      "browserifyId": 443,
       "sourcemap": ""
     }
   ],
@@ -5786,7 +6612,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/utils/verifyPlainObject.js",
       "hash": "I570ZA",
-      "browserifyId": 401,
+      "browserifyId": 444,
       "sourcemap": ""
     }
   ],
@@ -5796,7 +6622,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/lib/utils/warning.js",
       "hash": "GH8emw",
-      "browserifyId": 402,
+      "browserifyId": 445,
       "sourcemap": ""
     }
   ],
@@ -5809,7 +6635,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-redux/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "hash": "DcmCaw",
-      "browserifyId": 403,
+      "browserifyId": 446,
       "sourcemap": ""
     }
   ],
@@ -5825,7 +6651,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/BrowserRouter.js",
       "hash": "OM+vwQ",
-      "browserifyId": 404,
+      "browserifyId": 447,
       "sourcemap": ""
     }
   ],
@@ -5833,15 +6659,15 @@
     "\"use strict\";\n\nexports.__esModule = true;\n\nvar _warning = require(\"warning\");\n\nvar _warning2 = _interopRequireDefault(_warning);\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require(\"prop-types\");\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _history = require(\"history\");\n\nvar _Router = require(\"./Router\");\n\nvar _Router2 = _interopRequireDefault(_Router);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\n/**\n * The public API for a <Router> that uses window.location.hash.\n */\nvar HashRouter = function (_React$Component) {\n  _inherits(HashRouter, _React$Component);\n\n  function HashRouter() {\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, HashRouter);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.history = (0, _history.createHashHistory)(_this.props), _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  HashRouter.prototype.componentWillMount = function componentWillMount() {\n    (0, _warning2.default)(!this.props.history, \"<HashRouter> ignores the history prop. To use a custom history, \" + \"use `import { Router }` instead of `import { HashRouter as Router }`.\");\n  };\n\n  HashRouter.prototype.render = function render() {\n    return _react2.default.createElement(_Router2.default, { history: this.history, children: this.props.children });\n  };\n\n  return HashRouter;\n}(_react2.default.Component);\n\nHashRouter.propTypes = {\n  basename: _propTypes2.default.string,\n  getUserConfirmation: _propTypes2.default.func,\n  hashType: _propTypes2.default.oneOf([\"hashbang\", \"noslash\", \"slash\"]),\n  children: _propTypes2.default.node\n};\nexports.default = HashRouter;",
     {
       "./Router": "/home/dustin/CS/recipes/node_modules/react-router-dom/Router.js",
-      "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
       "history": "/home/dustin/CS/recipes/node_modules/history/index.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/HashRouter.js",
       "hash": "mF504Q",
-      "browserifyId": 405,
+      "browserifyId": 448,
       "sourcemap": ""
     }
   ],
@@ -5856,7 +6682,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/Link.js",
       "hash": "VN8tjA",
-      "browserifyId": 406,
+      "browserifyId": 449,
       "sourcemap": ""
     }
   ],
@@ -5868,7 +6694,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/MemoryRouter.js",
       "hash": "uGxXig",
-      "browserifyId": 407,
+      "browserifyId": 450,
       "sourcemap": ""
     }
   ],
@@ -5883,7 +6709,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/NavLink.js",
       "hash": "xWaCdA",
-      "browserifyId": 408,
+      "browserifyId": 451,
       "sourcemap": ""
     }
   ],
@@ -5895,7 +6721,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/Prompt.js",
       "hash": "1YR5rQ",
-      "browserifyId": 409,
+      "browserifyId": 452,
       "sourcemap": ""
     }
   ],
@@ -5907,7 +6733,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/Redirect.js",
       "hash": "wRZzyQ",
-      "browserifyId": 410,
+      "browserifyId": 453,
       "sourcemap": ""
     }
   ],
@@ -5919,7 +6745,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/Route.js",
       "hash": "2MCM4g",
-      "browserifyId": 411,
+      "browserifyId": 454,
       "sourcemap": ""
     }
   ],
@@ -5931,7 +6757,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/Router.js",
       "hash": "Rs7aWg",
-      "browserifyId": 412,
+      "browserifyId": 455,
       "sourcemap": ""
     }
   ],
@@ -5943,7 +6769,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/StaticRouter.js",
       "hash": "2YoPrQ",
-      "browserifyId": 413,
+      "browserifyId": 456,
       "sourcemap": ""
     }
   ],
@@ -5955,7 +6781,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/Switch.js",
       "hash": "yW5+9w",
-      "browserifyId": 414,
+      "browserifyId": 457,
       "sourcemap": ""
     }
   ],
@@ -5967,7 +6793,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/generatePath.js",
       "hash": "V1VKQw",
-      "browserifyId": 415,
+      "browserifyId": 458,
       "sourcemap": ""
     }
   ],
@@ -5992,7 +6818,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/index.js",
       "hash": "w1i+lQ",
-      "browserifyId": 416,
+      "browserifyId": 459,
       "sourcemap": ""
     }
   ],
@@ -6004,7 +6830,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/matchPath.js",
       "hash": "pEgBsA",
-      "browserifyId": 417,
+      "browserifyId": 460,
       "sourcemap": ""
     }
   ],
@@ -6016,7 +6842,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router-dom/withRouter.js",
       "hash": "mbuVWA",
-      "browserifyId": 418,
+      "browserifyId": 461,
       "sourcemap": ""
     }
   ],
@@ -6025,28 +6851,28 @@
     {
       "./Router": "/home/dustin/CS/recipes/node_modules/react-router/Router.js",
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
-      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "history": "/home/dustin/CS/recipes/node_modules/history/index.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/MemoryRouter.js",
       "hash": "X5OXYQ",
-      "browserifyId": 419,
+      "browserifyId": 462,
       "sourcemap": ""
     }
   ],
   "/home/dustin/CS/recipes/node_modules/react-router/Prompt.js": [
     "\"use strict\";\n\nexports.__esModule = true;\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require(\"prop-types\");\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _invariant = require(\"invariant\");\n\nvar _invariant2 = _interopRequireDefault(_invariant);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\n/**\n * The public API for prompting the user before navigating away\n * from a screen with a component.\n */\nvar Prompt = function (_React$Component) {\n  _inherits(Prompt, _React$Component);\n\n  function Prompt() {\n    _classCallCheck(this, Prompt);\n\n    return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));\n  }\n\n  Prompt.prototype.enable = function enable(message) {\n    if (this.unblock) this.unblock();\n\n    this.unblock = this.context.router.history.block(message);\n  };\n\n  Prompt.prototype.disable = function disable() {\n    if (this.unblock) {\n      this.unblock();\n      this.unblock = null;\n    }\n  };\n\n  Prompt.prototype.componentWillMount = function componentWillMount() {\n    (0, _invariant2.default)(this.context.router, \"You should not use <Prompt> outside a <Router>\");\n\n    if (this.props.when) this.enable(this.props.message);\n  };\n\n  Prompt.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {\n    if (nextProps.when) {\n      if (!this.props.when || this.props.message !== nextProps.message) this.enable(nextProps.message);\n    } else {\n      this.disable();\n    }\n  };\n\n  Prompt.prototype.componentWillUnmount = function componentWillUnmount() {\n    this.disable();\n  };\n\n  Prompt.prototype.render = function render() {\n    return null;\n  };\n\n  return Prompt;\n}(_react2.default.Component);\n\nPrompt.propTypes = {\n  when: _propTypes2.default.bool,\n  message: _propTypes2.default.oneOfType([_propTypes2.default.func, _propTypes2.default.string]).isRequired\n};\nPrompt.defaultProps = {\n  when: true\n};\nPrompt.contextTypes = {\n  router: _propTypes2.default.shape({\n    history: _propTypes2.default.shape({\n      block: _propTypes2.default.func.isRequired\n    }).isRequired\n  }).isRequired\n};\nexports.default = Prompt;",
     {
-      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
-      "invariant": "/home/dustin/CS/recipes/node_modules/invariant/browser.js"
+      "invariant": "/home/dustin/CS/recipes/node_modules/invariant/browser.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js"
     },
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/Prompt.js",
       "hash": "sEgSLQ",
-      "browserifyId": 420,
+      "browserifyId": 463,
       "sourcemap": ""
     }
   ],
@@ -6054,8 +6880,8 @@
     "\"use strict\";\n\nexports.__esModule = true;\n\nvar _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require(\"prop-types\");\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _warning = require(\"warning\");\n\nvar _warning2 = _interopRequireDefault(_warning);\n\nvar _invariant = require(\"invariant\");\n\nvar _invariant2 = _interopRequireDefault(_invariant);\n\nvar _history = require(\"history\");\n\nvar _generatePath = require(\"./generatePath\");\n\nvar _generatePath2 = _interopRequireDefault(_generatePath);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\n/**\n * The public API for updating the location programmatically\n * with a component.\n */\nvar Redirect = function (_React$Component) {\n  _inherits(Redirect, _React$Component);\n\n  function Redirect() {\n    _classCallCheck(this, Redirect);\n\n    return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));\n  }\n\n  Redirect.prototype.isStatic = function isStatic() {\n    return this.context.router && this.context.router.staticContext;\n  };\n\n  Redirect.prototype.componentWillMount = function componentWillMount() {\n    (0, _invariant2.default)(this.context.router, \"You should not use <Redirect> outside a <Router>\");\n\n    if (this.isStatic()) this.perform();\n  };\n\n  Redirect.prototype.componentDidMount = function componentDidMount() {\n    if (!this.isStatic()) this.perform();\n  };\n\n  Redirect.prototype.componentDidUpdate = function componentDidUpdate(prevProps) {\n    var prevTo = (0, _history.createLocation)(prevProps.to);\n    var nextTo = (0, _history.createLocation)(this.props.to);\n\n    if ((0, _history.locationsAreEqual)(prevTo, nextTo)) {\n      (0, _warning2.default)(false, \"You tried to redirect to the same route you're currently on: \" + (\"\\\"\" + nextTo.pathname + nextTo.search + \"\\\"\"));\n      return;\n    }\n\n    this.perform();\n  };\n\n  Redirect.prototype.computeTo = function computeTo(_ref) {\n    var computedMatch = _ref.computedMatch,\n        to = _ref.to;\n\n    if (computedMatch) {\n      if (typeof to === \"string\") {\n        return (0, _generatePath2.default)(to, computedMatch.params);\n      } else {\n        return _extends({}, to, {\n          pathname: (0, _generatePath2.default)(to.pathname, computedMatch.params)\n        });\n      }\n    }\n\n    return to;\n  };\n\n  Redirect.prototype.perform = function perform() {\n    var history = this.context.router.history;\n    var push = this.props.push;\n\n    var to = this.computeTo(this.props);\n\n    if (push) {\n      history.push(to);\n    } else {\n      history.replace(to);\n    }\n  };\n\n  Redirect.prototype.render = function render() {\n    return null;\n  };\n\n  return Redirect;\n}(_react2.default.Component);\n\nRedirect.propTypes = {\n  computedMatch: _propTypes2.default.object, // private, from <Switch>\n  push: _propTypes2.default.bool,\n  from: _propTypes2.default.string,\n  to: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.object]).isRequired\n};\nRedirect.defaultProps = {\n  push: false\n};\nRedirect.contextTypes = {\n  router: _propTypes2.default.shape({\n    history: _propTypes2.default.shape({\n      push: _propTypes2.default.func.isRequired,\n      replace: _propTypes2.default.func.isRequired\n    }).isRequired,\n    staticContext: _propTypes2.default.object\n  }).isRequired\n};\nexports.default = Redirect;",
     {
       "./generatePath": "/home/dustin/CS/recipes/node_modules/react-router/generatePath.js",
-      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "prop-types": "/home/dustin/CS/recipes/node_modules/prop-types/index.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "warning": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "invariant": "/home/dustin/CS/recipes/node_modules/invariant/browser.js",
       "history": "/home/dustin/CS/recipes/node_modules/history/index.js"
@@ -6063,7 +6889,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/Redirect.js",
       "hash": "ib00rA",
-      "browserifyId": 421,
+      "browserifyId": 464,
       "sourcemap": ""
     }
   ],
@@ -6079,7 +6905,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/Route.js",
       "hash": "RItUpw",
-      "browserifyId": 422,
+      "browserifyId": 465,
       "sourcemap": ""
     }
   ],
@@ -6094,7 +6920,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/Router.js",
       "hash": "LZu+Fw",
-      "browserifyId": 423,
+      "browserifyId": 466,
       "sourcemap": ""
     }
   ],
@@ -6111,7 +6937,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/StaticRouter.js",
       "hash": "kEp5RA",
-      "browserifyId": 424,
+      "browserifyId": 467,
       "sourcemap": ""
     }
   ],
@@ -6127,7 +6953,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/Switch.js",
       "hash": "DbxN9A",
-      "browserifyId": 425,
+      "browserifyId": 468,
       "sourcemap": ""
     }
   ],
@@ -6139,7 +6965,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/generatePath.js",
       "hash": "7U1LTA",
-      "browserifyId": 426,
+      "browserifyId": 469,
       "sourcemap": ""
     }
   ],
@@ -6151,7 +6977,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/matchPath.js",
       "hash": "nrWFmw",
-      "browserifyId": 427,
+      "browserifyId": 470,
       "sourcemap": ""
     }
   ],
@@ -6166,7 +6992,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-router/withRouter.js",
       "hash": "nVLVKw",
-      "browserifyId": 428,
+      "browserifyId": 471,
       "sourcemap": ""
     }
   ],
@@ -6182,7 +7008,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-transition-group/Transition.js",
       "hash": "XfrFrw",
-      "browserifyId": 429,
+      "browserifyId": 472,
       "sourcemap": ""
     }
   ],
@@ -6197,7 +7023,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-transition-group/TransitionGroup.js",
       "hash": "GZ44tw",
-      "browserifyId": 430,
+      "browserifyId": 473,
       "sourcemap": ""
     }
   ],
@@ -6209,7 +7035,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-transition-group/utils/ChildMapping.js",
       "hash": "ItDvhA",
-      "browserifyId": 431,
+      "browserifyId": 474,
       "sourcemap": ""
     }
   ],
@@ -6221,7 +7047,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react-transition-group/utils/PropTypes.js",
       "hash": "efiiKg",
-      "browserifyId": 432,
+      "browserifyId": 475,
       "sourcemap": ""
     }
   ],
@@ -6234,7 +7060,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react/cjs/react.development.js",
       "hash": "8mwziw",
-      "browserifyId": 433,
+      "browserifyId": 476,
       "sourcemap": ""
     }
   ],
@@ -6246,7 +7072,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react/cjs/react.production.min.js",
       "hash": "3f30XA",
-      "browserifyId": 434,
+      "browserifyId": 477,
       "sourcemap": ""
     }
   ],
@@ -6259,7 +7085,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "hash": "h2TjeQ",
-      "browserifyId": 435,
+      "browserifyId": 478,
       "sourcemap": ""
     }
   ],
@@ -6269,7 +7095,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/recompose/getDisplayName.js",
       "hash": "DlJH3g",
-      "browserifyId": 436,
+      "browserifyId": 479,
       "sourcemap": ""
     }
   ],
@@ -6286,7 +7112,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/recompose/pure.js",
       "hash": "omMiaA",
-      "browserifyId": 437,
+      "browserifyId": 480,
       "sourcemap": ""
     }
   ],
@@ -6299,7 +7125,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/recompose/setDisplayName.js",
       "hash": "anrxrw",
-      "browserifyId": 438,
+      "browserifyId": 481,
       "sourcemap": ""
     }
   ],
@@ -6309,7 +7135,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/recompose/setStatic.js",
       "hash": "XFORwQ",
-      "browserifyId": 439,
+      "browserifyId": 482,
       "sourcemap": ""
     }
   ],
@@ -6322,7 +7148,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/recompose/shallowEqual.js",
       "hash": "zAVhVw",
-      "browserifyId": 440,
+      "browserifyId": 483,
       "sourcemap": ""
     }
   ],
@@ -6339,7 +7165,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/recompose/shouldUpdate.js",
       "hash": "hakfUQ",
-      "browserifyId": 441,
+      "browserifyId": 484,
       "sourcemap": ""
     }
   ],
@@ -6352,7 +7178,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/recompose/wrapDisplayName.js",
       "hash": "TuduXw",
-      "browserifyId": 442,
+      "browserifyId": 485,
       "sourcemap": ""
     }
   ],
@@ -6362,7 +7188,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/redux-logger/dist/redux-logger.js",
       "hash": "yJtY1Q",
-      "browserifyId": 443,
+      "browserifyId": 486,
       "sourcemap": ""
     }
   ],
@@ -6372,7 +7198,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/redux-thunk/lib/index.js",
       "hash": "uGmRXA",
-      "browserifyId": 444,
+      "browserifyId": 487,
       "sourcemap": ""
     }
   ],
@@ -6384,7 +7210,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/redux/lib/redux.js",
       "hash": "99B9dA",
-      "browserifyId": 445,
+      "browserifyId": 488,
       "sourcemap": ""
     }
   ],
@@ -6394,7 +7220,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/regenerator-runtime/runtime.js",
       "hash": "KxZDzQ",
-      "browserifyId": 446,
+      "browserifyId": 489,
       "sourcemap": ""
     }
   ],
@@ -6404,7 +7230,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/resolve-pathname/cjs/index.js",
       "hash": "Fn9Uiw",
-      "browserifyId": 447,
+      "browserifyId": 490,
       "sourcemap": ""
     }
   ],
@@ -6414,7 +7240,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/scheduler/cjs/scheduler-tracing.development.js",
       "hash": "HC+4qw",
-      "browserifyId": 448,
+      "browserifyId": 491,
       "sourcemap": ""
     }
   ],
@@ -6424,7 +7250,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/scheduler/cjs/scheduler-tracing.production.min.js",
       "hash": "ybJ5CQ",
-      "browserifyId": 449,
+      "browserifyId": 492,
       "sourcemap": ""
     }
   ],
@@ -6434,7 +7260,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/scheduler/cjs/scheduler.development.js",
       "hash": "msKX+g",
-      "browserifyId": 450,
+      "browserifyId": 493,
       "sourcemap": ""
     }
   ],
@@ -6444,7 +7270,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/scheduler/cjs/scheduler.production.min.js",
       "hash": "MtWqFQ",
-      "browserifyId": 451,
+      "browserifyId": 494,
       "sourcemap": ""
     }
   ],
@@ -6457,7 +7283,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/scheduler/index.js",
       "hash": "QjeNAw",
-      "browserifyId": 452,
+      "browserifyId": 495,
       "sourcemap": ""
     }
   ],
@@ -6470,7 +7296,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/scheduler/tracing.js",
       "hash": "F4PkdQ",
-      "browserifyId": 453,
+      "browserifyId": 496,
       "sourcemap": ""
     }
   ],
@@ -6482,7 +7308,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/symbol-observable/lib/index.js",
       "hash": "3OjNcQ",
-      "browserifyId": 454,
+      "browserifyId": 497,
       "sourcemap": ""
     }
   ],
@@ -6492,7 +7318,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/symbol-observable/lib/ponyfill.js",
       "hash": "cYpBQw",
-      "browserifyId": 455,
+      "browserifyId": 498,
       "sourcemap": ""
     }
   ],
@@ -6504,7 +7330,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js",
       "hash": "Qp98OA",
-      "browserifyId": 456,
+      "browserifyId": 499,
       "sourcemap": ""
     }
   ],
@@ -6516,7 +7342,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/tiny-warning/dist/tiny-warning.cjs.js",
       "hash": "/fD4/w",
-      "browserifyId": 457,
+      "browserifyId": 500,
       "sourcemap": ""
     }
   ],
@@ -6526,7 +7352,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/tslib/tslib.js",
       "hash": "0BAyDA",
-      "browserifyId": 458,
+      "browserifyId": 501,
       "sourcemap": ""
     }
   ],
@@ -6536,7 +7362,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/value-equal/cjs/index.js",
       "hash": "6ths3A",
-      "browserifyId": 459,
+      "browserifyId": 502,
       "sourcemap": ""
     }
   ],
@@ -6546,7 +7372,7 @@
     {
       "id": "/home/dustin/CS/recipes/node_modules/warning/warning.js",
       "hash": "Bgko7Q",
-      "browserifyId": 460,
+      "browserifyId": 503,
       "sourcemap": ""
     }
   ],
@@ -6563,54 +7389,55 @@
     {
       "id": "/home/dustin/CS/recipes/src/App.js",
       "hash": "gBHFow",
-      "browserifyId": 461,
+      "browserifyId": 504,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcz92ZXJzaW9uPWdCSEZvdyJdLCJuYW1lcyI6WyJzdG9yZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztlQUVlO0FBQUEsU0FDZCxnQ0FBQywwQkFBRCxRQUNDLGdDQUFDLG9CQUFEO0FBQVUsSUFBQSxLQUFLLEVBQUVBO0FBQWpCLEtBQ0MsZ0NBQUMseUJBQUQsT0FERCxDQURELENBRGM7QUFBQSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmltcG9ydCB7IEhhc2hSb3V0ZXIgYXMgUm91dGVyIH0gZnJvbSAncmVhY3Qtcm91dGVyLWRvbSc7XG5cbmltcG9ydCB7IFByb3ZpZGVyIH0gZnJvbSAncmVhY3QtcmVkdXgnO1xuXG5pbXBvcnQgc3RvcmUgZnJvbSAnLi9saWIvcmVkdXgvc3RvcmUnO1xuXG5pbXBvcnQgUGFnZUNvbnRhaW5lciBmcm9tICcuL2NvbXBvbmVudHMvUGFnZUNvbnRhaW5lcic7XG5cbmV4cG9ydCBkZWZhdWx0ICgpID0+IChcblx0PFJvdXRlcj5cblx0XHQ8UHJvdmlkZXIgc3RvcmU9e3N0b3JlfT5cblx0XHRcdDxQYWdlQ29udGFpbmVyIC8+XG5cdFx0PC9Qcm92aWRlcj5cblx0PC9Sb3V0ZXI+XG4pO1xuIl19"
     }
   ],
   "/home/dustin/CS/recipes/src/components/PageContainer.js": [
-    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nvar _interopRequireWildcard = require(\"@babel/runtime/helpers/interopRequireWildcard\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = void 0;\n\nvar _react = _interopRequireWildcard(require(\"react\"));\n\nvar _reactRedux = require(\"react-redux\");\n\nvar _reactRouterDom = require(\"react-router-dom\");\n\nvar _CssBaseline = _interopRequireDefault(require(\"@material-ui/core/CssBaseline\"));\n\nvar _Grid = _interopRequireDefault(require(\"@material-ui/core/Grid\"));\n\nvar _auth = require(\"../lib/redux/actions/auth\");\n\nvar _routes = _interopRequireDefault(require(\"../routes\"));\n\nvar _MenuBar = _interopRequireDefault(require(\"./view/MenuBar\"));\n\nvar _NavDrawer = _interopRequireDefault(require(\"./view/NavDrawer\"));\n\nvar _Snackbar = _interopRequireDefault(require(\"./view/Snackbar\"));\n\nvar PageContainer = function PageContainer(_ref) {\n  var dispatch = _ref.dispatch,\n      isAdmin = _ref.isAdmin;\n  (0, _react.useEffect)(function () {\n    dispatch((0, _auth.login)(true));\n  }, []);\n  return _react[\"default\"].createElement(_react.Fragment, null, _react[\"default\"].createElement(_NavDrawer[\"default\"], null), _react[\"default\"].createElement(_Grid[\"default\"], {\n    container: true\n  }, _react[\"default\"].createElement(_Grid[\"default\"], {\n    item: true,\n    xs: 12\n  }, _react[\"default\"].createElement(_MenuBar[\"default\"], null)), _react[\"default\"].createElement(_Grid[\"default\"], {\n    item: true\n  }, _react[\"default\"].createElement(_CssBaseline[\"default\"], null), _react[\"default\"].createElement(_routes[\"default\"], {\n    isAdmin: isAdmin\n  })), _react[\"default\"].createElement(_Snackbar[\"default\"], null)));\n};\n\nvar _default = (0, _reactRouterDom.withRouter)((0, _reactRedux.connect)(function (store) {\n  var user = store.authReducer.user;\n  return {\n    isAdmin: user ? !!user.isAdmin : false\n  };\n})(PageContainer));\n\nexports[\"default\"] = _default;\n",
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nvar _interopRequireWildcard = require(\"@babel/runtime/helpers/interopRequireWildcard\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = void 0;\n\nvar _react = _interopRequireWildcard(require(\"react\"));\n\nvar _reactRedux = require(\"react-redux\");\n\nvar _reactRouterDom = require(\"react-router-dom\");\n\nvar _CssBaseline = _interopRequireDefault(require(\"@material-ui/core/CssBaseline\"));\n\nvar _Grid = _interopRequireDefault(require(\"@material-ui/core/Grid\"));\n\nvar _auth = require(\"../lib/redux/actions/auth\");\n\nvar _routes = _interopRequireDefault(require(\"../routes\"));\n\nvar _MenuBar = _interopRequireDefault(require(\"./view/MenuBar\"));\n\nvar _NavDrawer = _interopRequireDefault(require(\"./view/NavDrawer\"));\n\nvar _Snackbar = _interopRequireDefault(require(\"./view/Snackbar\"));\n\nvar PageContainer = function PageContainer(_ref) {\n  var dispatch = _ref.dispatch,\n      isAdmin = _ref.isAdmin;\n  (0, _react.useEffect)(function () {\n    dispatch((0, _auth.login)(true));\n  }, []);\n  return _react[\"default\"].createElement(_react.Fragment, null, _react[\"default\"].createElement(_NavDrawer[\"default\"], null), _react[\"default\"].createElement(_Grid[\"default\"], {\n    container: true,\n    style: {\n      height: '100%'\n    }\n  }, _react[\"default\"].createElement(_Grid[\"default\"], {\n    item: true,\n    xs: 12\n  }, _react[\"default\"].createElement(_MenuBar[\"default\"], null)), _react[\"default\"].createElement(_Grid[\"default\"], {\n    item: true,\n    style: {\n      height: '100%',\n      width: '100%'\n    }\n  }, _react[\"default\"].createElement(_CssBaseline[\"default\"], null), _react[\"default\"].createElement(_routes[\"default\"], {\n    isAdmin: isAdmin\n  })), _react[\"default\"].createElement(_Snackbar[\"default\"], null)));\n};\n\nvar _default = (0, _reactRouterDom.withRouter)((0, _reactRedux.connect)(function (store) {\n  var user = store.authReducer.user;\n  return {\n    isAdmin: user ? !!user.isAdmin : false\n  };\n})(PageContainer));\n\nexports[\"default\"] = _default;\n",
     {
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "react-router-dom": "/home/dustin/CS/recipes/node_modules/react-router-dom/index.js",
       "react-redux": "/home/dustin/CS/recipes/node_modules/react-redux/lib/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
-      "../routes": "/home/dustin/CS/recipes/src/routes/index.js",
       "@material-ui/core/CssBaseline": "/home/dustin/CS/recipes/node_modules/@material-ui/core/CssBaseline/index.js",
       "@material-ui/core/Grid": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Grid/index.js",
       "../lib/redux/actions/auth": "/home/dustin/CS/recipes/src/lib/redux/actions/auth.js",
       "./view/NavDrawer": "/home/dustin/CS/recipes/src/components/view/NavDrawer.js",
       "./view/MenuBar": "/home/dustin/CS/recipes/src/components/view/MenuBar.js",
-      "./view/Snackbar": "/home/dustin/CS/recipes/src/components/view/Snackbar.js"
+      "./view/Snackbar": "/home/dustin/CS/recipes/src/components/view/Snackbar.js",
+      "../routes": "/home/dustin/CS/recipes/src/routes/index.js"
     },
     {
       "id": "/home/dustin/CS/recipes/src/components/PageContainer.js",
-      "hash": "8EmrWQ",
-      "browserifyId": 462,
-      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlBhZ2VDb250YWluZXIuanM/dmVyc2lvbj04RW1yV1EiXSwibmFtZXMiOlsiUGFnZUNvbnRhaW5lciIsImRpc3BhdGNoIiwiaXNBZG1pbiIsInN0b3JlIiwidXNlciIsImF1dGhSZWR1Y2VyIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFFQTs7QUFDQTs7QUFDQTs7QUFFQTs7QUFDQTs7QUFFQTs7QUFFQTs7QUFFQTs7QUFDQTs7QUFDQTs7QUFPQSxJQUFNQSxhQUFhLEdBQUcsU0FBaEJBLGFBQWdCLE9BQWtDO0FBQUEsTUFBL0JDLFFBQStCLFFBQS9CQSxRQUErQjtBQUFBLE1BQXJCQyxPQUFxQixRQUFyQkEsT0FBcUI7QUFDdkQsd0JBQVUsWUFBTTtBQUNmRCxJQUFBQSxRQUFRLENBQUMsaUJBQU0sSUFBTixDQUFELENBQVI7QUFDQSxHQUZELEVBRUcsRUFGSDtBQUlBLFNBQ0MsZ0NBQUMsZUFBRCxRQUNDLGdDQUFDLHFCQUFELE9BREQsRUFFQyxnQ0FBQyxnQkFBRDtBQUFNLElBQUEsU0FBUztBQUFmLEtBQ0MsZ0NBQUMsZ0JBQUQ7QUFBTSxJQUFBLElBQUksTUFBVjtBQUFXLElBQUEsRUFBRSxFQUFFO0FBQWYsS0FDQyxnQ0FBQyxtQkFBRCxPQURELENBREQsRUFJQyxnQ0FBQyxnQkFBRDtBQUFNLElBQUEsSUFBSTtBQUFWLEtBQ0MsZ0NBQUMsdUJBQUQsT0FERCxFQUVDLGdDQUFDLGtCQUFEO0FBQVEsSUFBQSxPQUFPLEVBQUVDO0FBQWpCLElBRkQsQ0FKRCxFQVFDLGdDQUFDLG9CQUFELE9BUkQsQ0FGRCxDQUREO0FBZUEsQ0FwQkQ7O2VBc0JlLGdDQUNkLHlCQUFRLFVBQUFDLEtBQUssRUFBSTtBQUFBLE1BRUFDLElBRkEsR0FHWkQsS0FIWSxDQUVmRSxXQUZlLENBRUFELElBRkE7QUFLaEIsU0FBTztBQUFFRixJQUFBQSxPQUFPLEVBQUVFLElBQUksR0FBRyxDQUFDLENBQUNBLElBQUksQ0FBQ0YsT0FBVixHQUFvQjtBQUFuQyxHQUFQO0FBQ0EsQ0FORCxFQU1HRixhQU5ILENBRGMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBAZmxvd1xuXG5pbXBvcnQgUmVhY3QsIHsgRnJhZ21lbnQsIHVzZUVmZmVjdCB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IGNvbm5lY3QgfSBmcm9tICdyZWFjdC1yZWR1eCc7XG5pbXBvcnQgeyB3aXRoUm91dGVyIH0gZnJvbSAncmVhY3Qtcm91dGVyLWRvbSc7XG5cbmltcG9ydCBDc3NCYXNlbGluZSBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9Dc3NCYXNlbGluZSc7XG5pbXBvcnQgR3JpZCBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9HcmlkJztcblxuaW1wb3J0IHsgbG9naW4gfSBmcm9tICcuLi9saWIvcmVkdXgvYWN0aW9ucy9hdXRoJztcblxuaW1wb3J0IFJvdXRlcyBmcm9tICcuLi9yb3V0ZXMnO1xuXG5pbXBvcnQgTWVudUJhciBmcm9tICcuL3ZpZXcvTWVudUJhcic7XG5pbXBvcnQgTmF2RHJhd2VyIGZyb20gJy4vdmlldy9OYXZEcmF3ZXInO1xuaW1wb3J0IFNuYWNrYmFyIGZyb20gJy4vdmlldy9TbmFja2Jhcic7XG5cbnR5cGUgUHJvcHMgPSB7XG5cdGlzQWRtaW46IGJvb2xlYW4sXG5cdGRpc3BhdGNoOiBEaXNwYXRjaCxcbn07XG5cbmNvbnN0IFBhZ2VDb250YWluZXIgPSAoeyBkaXNwYXRjaCwgaXNBZG1pbiB9OiBQcm9wcykgPT4ge1xuXHR1c2VFZmZlY3QoKCkgPT4ge1xuXHRcdGRpc3BhdGNoKGxvZ2luKHRydWUpKTtcblx0fSwgW10pO1xuXG5cdHJldHVybiAoXG5cdFx0PEZyYWdtZW50PlxuXHRcdFx0PE5hdkRyYXdlciAvPlxuXHRcdFx0PEdyaWQgY29udGFpbmVyPlxuXHRcdFx0XHQ8R3JpZCBpdGVtIHhzPXsxMn0+XG5cdFx0XHRcdFx0PE1lbnVCYXIgLz5cblx0XHRcdFx0PC9HcmlkPlxuXHRcdFx0XHQ8R3JpZCBpdGVtPlxuXHRcdFx0XHRcdDxDc3NCYXNlbGluZSAvPlxuXHRcdFx0XHRcdDxSb3V0ZXMgaXNBZG1pbj17aXNBZG1pbn0gLz5cblx0XHRcdFx0PC9HcmlkPlxuXHRcdFx0XHQ8U25hY2tiYXIgLz5cblx0XHRcdDwvR3JpZD5cblx0XHQ8L0ZyYWdtZW50PlxuXHQpO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgd2l0aFJvdXRlcihcblx0Y29ubmVjdChzdG9yZSA9PiB7XG5cdFx0Y29uc3Qge1xuXHRcdFx0YXV0aFJlZHVjZXI6IHsgdXNlciB9LFxuXHRcdH0gPSBzdG9yZTtcblxuXHRcdHJldHVybiB7IGlzQWRtaW46IHVzZXIgPyAhIXVzZXIuaXNBZG1pbiA6IGZhbHNlIH07XG5cdH0pKFBhZ2VDb250YWluZXIpXG4pO1xuIl19"
+      "hash": "BvxJUg",
+      "browserifyId": 505,
+      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlBhZ2VDb250YWluZXIuanM/dmVyc2lvbj1CdnhKVWciXSwibmFtZXMiOlsiUGFnZUNvbnRhaW5lciIsImRpc3BhdGNoIiwiaXNBZG1pbiIsImhlaWdodCIsIndpZHRoIiwic3RvcmUiLCJ1c2VyIiwiYXV0aFJlZHVjZXIiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUVBOztBQUNBOztBQUNBOztBQUVBOztBQUNBOztBQUVBOztBQUVBOztBQUVBOztBQUNBOztBQUNBOztBQU9BLElBQU1BLGFBQWEsR0FBRyxTQUFoQkEsYUFBZ0IsT0FBa0M7QUFBQSxNQUEvQkMsUUFBK0IsUUFBL0JBLFFBQStCO0FBQUEsTUFBckJDLE9BQXFCLFFBQXJCQSxPQUFxQjtBQUN2RCx3QkFBVSxZQUFNO0FBQ2ZELElBQUFBLFFBQVEsQ0FBQyxpQkFBTSxJQUFOLENBQUQsQ0FBUjtBQUNBLEdBRkQsRUFFRyxFQUZIO0FBSUEsU0FDQyxnQ0FBQyxlQUFELFFBQ0MsZ0NBQUMscUJBQUQsT0FERCxFQUVDLGdDQUFDLGdCQUFEO0FBQU0sSUFBQSxTQUFTLE1BQWY7QUFBZ0IsSUFBQSxLQUFLLEVBQUU7QUFBRUUsTUFBQUEsTUFBTSxFQUFFO0FBQVY7QUFBdkIsS0FDQyxnQ0FBQyxnQkFBRDtBQUFNLElBQUEsSUFBSSxNQUFWO0FBQVcsSUFBQSxFQUFFLEVBQUU7QUFBZixLQUNDLGdDQUFDLG1CQUFELE9BREQsQ0FERCxFQUlDLGdDQUFDLGdCQUFEO0FBQU0sSUFBQSxJQUFJLE1BQVY7QUFBVyxJQUFBLEtBQUssRUFBRTtBQUFFQSxNQUFBQSxNQUFNLEVBQUUsTUFBVjtBQUFrQkMsTUFBQUEsS0FBSyxFQUFFO0FBQXpCO0FBQWxCLEtBQ0MsZ0NBQUMsdUJBQUQsT0FERCxFQUVDLGdDQUFDLGtCQUFEO0FBQVEsSUFBQSxPQUFPLEVBQUVGO0FBQWpCLElBRkQsQ0FKRCxFQVFDLGdDQUFDLG9CQUFELE9BUkQsQ0FGRCxDQUREO0FBZUEsQ0FwQkQ7O2VBc0JlLGdDQUNkLHlCQUFRLFVBQUFHLEtBQUssRUFBSTtBQUFBLE1BRUFDLElBRkEsR0FHWkQsS0FIWSxDQUVmRSxXQUZlLENBRUFELElBRkE7QUFLaEIsU0FBTztBQUFFSixJQUFBQSxPQUFPLEVBQUVJLElBQUksR0FBRyxDQUFDLENBQUNBLElBQUksQ0FBQ0osT0FBVixHQUFvQjtBQUFuQyxHQUFQO0FBQ0EsQ0FORCxFQU1HRixhQU5ILENBRGMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBAZmxvd1xuXG5pbXBvcnQgUmVhY3QsIHsgRnJhZ21lbnQsIHVzZUVmZmVjdCB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IGNvbm5lY3QgfSBmcm9tICdyZWFjdC1yZWR1eCc7XG5pbXBvcnQgeyB3aXRoUm91dGVyIH0gZnJvbSAncmVhY3Qtcm91dGVyLWRvbSc7XG5cbmltcG9ydCBDc3NCYXNlbGluZSBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9Dc3NCYXNlbGluZSc7XG5pbXBvcnQgR3JpZCBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9HcmlkJztcblxuaW1wb3J0IHsgbG9naW4gfSBmcm9tICcuLi9saWIvcmVkdXgvYWN0aW9ucy9hdXRoJztcblxuaW1wb3J0IFJvdXRlcyBmcm9tICcuLi9yb3V0ZXMnO1xuXG5pbXBvcnQgTWVudUJhciBmcm9tICcuL3ZpZXcvTWVudUJhcic7XG5pbXBvcnQgTmF2RHJhd2VyIGZyb20gJy4vdmlldy9OYXZEcmF3ZXInO1xuaW1wb3J0IFNuYWNrYmFyIGZyb20gJy4vdmlldy9TbmFja2Jhcic7XG5cbnR5cGUgUHJvcHMgPSB7XG5cdGlzQWRtaW46IGJvb2xlYW4sXG5cdGRpc3BhdGNoOiBEaXNwYXRjaCxcbn07XG5cbmNvbnN0IFBhZ2VDb250YWluZXIgPSAoeyBkaXNwYXRjaCwgaXNBZG1pbiB9OiBQcm9wcykgPT4ge1xuXHR1c2VFZmZlY3QoKCkgPT4ge1xuXHRcdGRpc3BhdGNoKGxvZ2luKHRydWUpKTtcblx0fSwgW10pO1xuXG5cdHJldHVybiAoXG5cdFx0PEZyYWdtZW50PlxuXHRcdFx0PE5hdkRyYXdlciAvPlxuXHRcdFx0PEdyaWQgY29udGFpbmVyIHN0eWxlPXt7IGhlaWdodDogJzEwMCUnIH19PlxuXHRcdFx0XHQ8R3JpZCBpdGVtIHhzPXsxMn0+XG5cdFx0XHRcdFx0PE1lbnVCYXIgLz5cblx0XHRcdFx0PC9HcmlkPlxuXHRcdFx0XHQ8R3JpZCBpdGVtIHN0eWxlPXt7IGhlaWdodDogJzEwMCUnLCB3aWR0aDogJzEwMCUnIH19PlxuXHRcdFx0XHRcdDxDc3NCYXNlbGluZSAvPlxuXHRcdFx0XHRcdDxSb3V0ZXMgaXNBZG1pbj17aXNBZG1pbn0gLz5cblx0XHRcdFx0PC9HcmlkPlxuXHRcdFx0XHQ8U25hY2tiYXIgLz5cblx0XHRcdDwvR3JpZD5cblx0XHQ8L0ZyYWdtZW50PlxuXHQpO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgd2l0aFJvdXRlcihcblx0Y29ubmVjdChzdG9yZSA9PiB7XG5cdFx0Y29uc3Qge1xuXHRcdFx0YXV0aFJlZHVjZXI6IHsgdXNlciB9LFxuXHRcdH0gPSBzdG9yZTtcblxuXHRcdHJldHVybiB7IGlzQWRtaW46IHVzZXIgPyAhIXVzZXIuaXNBZG1pbiA6IGZhbHNlIH07XG5cdH0pKFBhZ2VDb250YWluZXIpXG4pO1xuIl19"
     }
   ],
   "/home/dustin/CS/recipes/src/components/view/MenuBar.js": [
-    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nvar _interopRequireWildcard = require(\"@babel/runtime/helpers/interopRequireWildcard\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = void 0;\n\nvar _react = _interopRequireWildcard(require(\"react\"));\n\nvar _reactRedux = require(\"react-redux\");\n\nvar _AppBar = _interopRequireDefault(require(\"@material-ui/core/AppBar\"));\n\nvar _Toolbar = _interopRequireDefault(require(\"@material-ui/core/Toolbar\"));\n\nvar _Button = _interopRequireDefault(require(\"@material-ui/core/Button\"));\n\nvar _IconButton = _interopRequireDefault(require(\"@material-ui/core/IconButton\"));\n\nvar _Menu = _interopRequireDefault(require(\"@material-ui/icons/Menu\"));\n\nvar _Typography = _interopRequireDefault(require(\"@material-ui/core/Typography\"));\n\nvar _menu = require(\"../../lib/redux/actions/menu\");\n\nvar _auth = _interopRequireDefault(require(\"../../lib/redux/actions/auth\"));\n\nvar MenuBar = function MenuBar(_ref) {\n  var dispatch = _ref.dispatch,\n      menuOpen = _ref.menuOpen,\n      isAuthorized = _ref.isAuthorized;\n  var toggleNavCb = (0, _react.useCallback)(function () {\n    return dispatch((0, _menu.toggleNav)());\n  }, [dispatch, _menu.toggleNav]);\n  var loginCb = (0, _react.useCallback)(function () {\n    return dispatch(_auth[\"default\"].login());\n  }, [dispatch, _auth[\"default\"]]);\n  var logoutCb = (0, _react.useCallback)(function () {\n    return dispatch(_auth[\"default\"].logout());\n  }, [dispatch, _auth[\"default\"]]);\n  return _react[\"default\"].createElement(_AppBar[\"default\"], {\n    position: \"static\",\n    style: {\n      zIndex: 250\n    }\n  }, _react[\"default\"].createElement(_Toolbar[\"default\"], null, menuOpen ? null : _react[\"default\"].createElement(_IconButton[\"default\"], {\n    color: \"inherit\",\n    \"aria-label\": \"Menu\",\n    onClick: toggleNavCb\n  }, _react[\"default\"].createElement(_Menu[\"default\"], null)), _react[\"default\"].createElement(_Typography[\"default\"], {\n    variant: \"h6\",\n    color: \"inherit\",\n    style: {\n      flexGrow: 1\n    }\n  }, \"Recipes\"), isAuthorized ? _react[\"default\"].createElement(_Button[\"default\"], {\n    color: \"inherit\",\n    onClick: logoutCb\n  }, \"Logout\") : _react[\"default\"].createElement(_Button[\"default\"], {\n    color: \"inherit\",\n    onClick: loginCb\n  }, \"Login\")));\n};\n\nvar _default = (0, _reactRedux.connect)(function (store) {\n  var menuOpen = store.menuReducer.open,\n      _store$authReducer = store.authReducer,\n      isAuthorized = _store$authReducer.isAuthorized,\n      auth = _store$authReducer.auth;\n  return {\n    menuOpen: menuOpen,\n    isAuthorized: isAuthorized,\n    auth: auth\n  };\n})(MenuBar);\n\nexports[\"default\"] = _default;\n",
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nvar _interopRequireWildcard = require(\"@babel/runtime/helpers/interopRequireWildcard\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = void 0;\n\nvar _react = _interopRequireWildcard(require(\"react\"));\n\nvar _reactRedux = require(\"react-redux\");\n\nvar _reactRouterDom = require(\"react-router-dom\");\n\nvar _AppBar = _interopRequireDefault(require(\"@material-ui/core/AppBar\"));\n\nvar _Toolbar = _interopRequireDefault(require(\"@material-ui/core/Toolbar\"));\n\nvar _Button = _interopRequireDefault(require(\"@material-ui/core/Button\"));\n\nvar _IconButton = _interopRequireDefault(require(\"@material-ui/core/IconButton\"));\n\nvar _Menu = _interopRequireDefault(require(\"@material-ui/icons/Menu\"));\n\nvar _Typography = _interopRequireDefault(require(\"@material-ui/core/Typography\"));\n\nvar _menu = require(\"../../lib/redux/actions/menu\");\n\nvar _auth = _interopRequireDefault(require(\"../../lib/redux/actions/auth\"));\n\nvar MenuBar = function MenuBar(_ref) {\n  var dispatch = _ref.dispatch,\n      menuOpen = _ref.menuOpen,\n      isAuthorized = _ref.isAuthorized,\n      history = _ref.history;\n  var toggleNavCb = (0, _react.useCallback)(function () {\n    return dispatch((0, _menu.toggleNav)());\n  }, [dispatch, _menu.toggleNav]);\n  var loginCb = (0, _react.useCallback)(function () {\n    return history.push('/login');\n  }, [history]);\n  var logoutCb = (0, _react.useCallback)(function () {\n    return dispatch(_auth[\"default\"].logout());\n  }, [dispatch, _auth[\"default\"]]);\n  return _react[\"default\"].createElement(_AppBar[\"default\"], {\n    position: \"static\",\n    style: {\n      zIndex: 250\n    }\n  }, _react[\"default\"].createElement(_Toolbar[\"default\"], null, menuOpen ? null : _react[\"default\"].createElement(_IconButton[\"default\"], {\n    color: \"inherit\",\n    \"aria-label\": \"Menu\",\n    onClick: toggleNavCb\n  }, _react[\"default\"].createElement(_Menu[\"default\"], null)), _react[\"default\"].createElement(_Typography[\"default\"], {\n    variant: \"h6\",\n    color: \"inherit\",\n    style: {\n      flexGrow: 1\n    }\n  }, \"Recipes\"), isAuthorized ? _react[\"default\"].createElement(_Button[\"default\"], {\n    color: \"inherit\",\n    onClick: logoutCb\n  }, \"Logout\") : _react[\"default\"].createElement(_Button[\"default\"], {\n    color: \"inherit\",\n    onClick: loginCb\n  }, \"Login\")));\n};\n\nvar _default = (0, _reactRouterDom.withRouter)((0, _reactRedux.connect)(function (store) {\n  var menuOpen = store.menuReducer.open,\n      _store$authReducer = store.authReducer,\n      isAuthorized = _store$authReducer.isAuthorized,\n      auth = _store$authReducer.auth;\n  return {\n    menuOpen: menuOpen,\n    isAuthorized: isAuthorized,\n    auth: auth\n  };\n})(MenuBar));\n\nexports[\"default\"] = _default;\n",
     {
       "../../lib/redux/actions/auth": "/home/dustin/CS/recipes/src/lib/redux/actions/auth.js",
       "../../lib/redux/actions/menu": "/home/dustin/CS/recipes/src/lib/redux/actions/menu.js",
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "react-router-dom": "/home/dustin/CS/recipes/node_modules/react-router-dom/index.js",
       "react-redux": "/home/dustin/CS/recipes/node_modules/react-redux/lib/index.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
       "@material-ui/core/Toolbar": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Toolbar/index.js",
-      "@material-ui/core/Typography": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Typography/index.js",
       "@material-ui/core/IconButton": "/home/dustin/CS/recipes/node_modules/@material-ui/core/IconButton/index.js",
+      "@material-ui/core/Typography": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Typography/index.js",
       "@material-ui/core/AppBar": "/home/dustin/CS/recipes/node_modules/@material-ui/core/AppBar/index.js",
       "@material-ui/icons/Menu": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Menu.js",
       "@material-ui/core/Button": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Button/index.js"
     },
     {
       "id": "/home/dustin/CS/recipes/src/components/view/MenuBar.js",
-      "hash": "SURGgw",
-      "browserifyId": 463,
-      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIk1lbnVCYXIuanM/dmVyc2lvbj1TVVJHZ3ciXSwibmFtZXMiOlsiTWVudUJhciIsImRpc3BhdGNoIiwibWVudU9wZW4iLCJpc0F1dGhvcml6ZWQiLCJ0b2dnbGVOYXZDYiIsInRvZ2dsZU5hdiIsImxvZ2luQ2IiLCJhdXRoQWN0aW9ucyIsImxvZ2luIiwibG9nb3V0Q2IiLCJsb2dvdXQiLCJ6SW5kZXgiLCJmbGV4R3JvdyIsInN0b3JlIiwibWVudVJlZHVjZXIiLCJvcGVuIiwiYXV0aFJlZHVjZXIiLCJhdXRoIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFFQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFFQTs7QUFDQTs7QUFFQSxJQUFNQSxPQUFPLEdBQUcsU0FBVkEsT0FBVSxPQUEwQztBQUFBLE1BQXZDQyxRQUF1QyxRQUF2Q0EsUUFBdUM7QUFBQSxNQUE3QkMsUUFBNkIsUUFBN0JBLFFBQTZCO0FBQUEsTUFBbkJDLFlBQW1CLFFBQW5CQSxZQUFtQjtBQUN6RCxNQUFNQyxXQUFXLEdBQUcsd0JBQVk7QUFBQSxXQUFNSCxRQUFRLENBQUMsc0JBQUQsQ0FBZDtBQUFBLEdBQVosRUFBeUMsQ0FBQ0EsUUFBRCxFQUFXSSxlQUFYLENBQXpDLENBQXBCO0FBQ0EsTUFBTUMsT0FBTyxHQUFHLHdCQUFZO0FBQUEsV0FBTUwsUUFBUSxDQUFDTSxpQkFBWUMsS0FBWixFQUFELENBQWQ7QUFBQSxHQUFaLEVBQWlELENBQUNQLFFBQUQsRUFBV00sZ0JBQVgsQ0FBakQsQ0FBaEI7QUFDQSxNQUFNRSxRQUFRLEdBQUcsd0JBQVk7QUFBQSxXQUFNUixRQUFRLENBQUNNLGlCQUFZRyxNQUFaLEVBQUQsQ0FBZDtBQUFBLEdBQVosRUFBa0QsQ0FBQ1QsUUFBRCxFQUFXTSxnQkFBWCxDQUFsRCxDQUFqQjtBQUVBLFNBQ0MsZ0NBQUMsa0JBQUQ7QUFBUSxJQUFBLFFBQVEsRUFBQyxRQUFqQjtBQUEwQixJQUFBLEtBQUssRUFBRTtBQUFFSSxNQUFBQSxNQUFNLEVBQUU7QUFBVjtBQUFqQyxLQUNDLGdDQUFDLG1CQUFELFFBQ0VULFFBQVEsR0FBRyxJQUFILEdBQ1IsZ0NBQUMsc0JBQUQ7QUFBWSxJQUFBLEtBQUssRUFBQyxTQUFsQjtBQUE0QixrQkFBVyxNQUF2QztBQUE4QyxJQUFBLE9BQU8sRUFBRUU7QUFBdkQsS0FDQyxnQ0FBQyxnQkFBRCxPQURELENBRkYsRUFNQyxnQ0FBQyxzQkFBRDtBQUFZLElBQUEsT0FBTyxFQUFDLElBQXBCO0FBQXlCLElBQUEsS0FBSyxFQUFDLFNBQS9CO0FBQXlDLElBQUEsS0FBSyxFQUFFO0FBQUVRLE1BQUFBLFFBQVEsRUFBRTtBQUFaO0FBQWhELGVBTkQsRUFTRVQsWUFBWSxHQUNaLGdDQUFDLGtCQUFEO0FBQVEsSUFBQSxLQUFLLEVBQUMsU0FBZDtBQUF3QixJQUFBLE9BQU8sRUFBRU07QUFBakMsY0FEWSxHQUtaLGdDQUFDLGtCQUFEO0FBQVEsSUFBQSxLQUFLLEVBQUMsU0FBZDtBQUF3QixJQUFBLE9BQU8sRUFBRUg7QUFBakMsYUFkRixDQURELENBREQ7QUF1QkEsQ0E1QkQ7O2VBOEJlLHlCQUFRLFVBQUFPLEtBQUssRUFBSTtBQUFBLE1BRVRYLFFBRlMsR0FJM0JXLEtBSjJCLENBRTlCQyxXQUY4QixDQUVmQyxJQUZlO0FBQUEsMkJBSTNCRixLQUoyQixDQUc5QkcsV0FIOEI7QUFBQSxNQUdmYixZQUhlLHNCQUdmQSxZQUhlO0FBQUEsTUFHRGMsSUFIQyxzQkFHREEsSUFIQztBQU0vQixTQUFPO0FBQUVmLElBQUFBLFFBQVEsRUFBUkEsUUFBRjtBQUFZQyxJQUFBQSxZQUFZLEVBQVpBLFlBQVo7QUFBMEJjLElBQUFBLElBQUksRUFBSkE7QUFBMUIsR0FBUDtBQUNBLENBUGMsRUFPWmpCLE9BUFkiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlQ2FsbGJhY2sgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgeyBjb25uZWN0IH0gZnJvbSAncmVhY3QtcmVkdXgnO1xuXG5pbXBvcnQgQXBwQmFyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0FwcEJhcic7XG5pbXBvcnQgVG9vbGJhciBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9Ub29sYmFyJztcbmltcG9ydCBCdXR0b24gZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQnV0dG9uJztcbmltcG9ydCBJY29uQnV0dG9uIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0ljb25CdXR0b24nO1xuaW1wb3J0IE1lbnVJY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9NZW51JztcbmltcG9ydCBUeXBvZ3JhcGh5IGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL1R5cG9ncmFwaHknO1xuXG5pbXBvcnQgeyB0b2dnbGVOYXYgfSBmcm9tICcuLi8uLi9saWIvcmVkdXgvYWN0aW9ucy9tZW51JztcbmltcG9ydCBhdXRoQWN0aW9ucyBmcm9tICcuLi8uLi9saWIvcmVkdXgvYWN0aW9ucy9hdXRoJztcblxuY29uc3QgTWVudUJhciA9ICh7IGRpc3BhdGNoLCBtZW51T3BlbiwgaXNBdXRob3JpemVkIH0pID0+IHtcblx0Y29uc3QgdG9nZ2xlTmF2Q2IgPSB1c2VDYWxsYmFjaygoKSA9PiBkaXNwYXRjaCh0b2dnbGVOYXYoKSksIFtkaXNwYXRjaCwgdG9nZ2xlTmF2XSk7XG5cdGNvbnN0IGxvZ2luQ2IgPSB1c2VDYWxsYmFjaygoKSA9PiBkaXNwYXRjaChhdXRoQWN0aW9ucy5sb2dpbigpKSwgW2Rpc3BhdGNoLCBhdXRoQWN0aW9uc10pO1xuXHRjb25zdCBsb2dvdXRDYiA9IHVzZUNhbGxiYWNrKCgpID0+IGRpc3BhdGNoKGF1dGhBY3Rpb25zLmxvZ291dCgpKSwgW2Rpc3BhdGNoLCBhdXRoQWN0aW9uc10pO1xuXG5cdHJldHVybiAoXG5cdFx0PEFwcEJhciBwb3NpdGlvbj1cInN0YXRpY1wiIHN0eWxlPXt7IHpJbmRleDogMjUwIH19PlxuXHRcdFx0PFRvb2xiYXI+XG5cdFx0XHRcdHttZW51T3BlbiA/IG51bGwgOiAoXG5cdFx0XHRcdFx0PEljb25CdXR0b24gY29sb3I9XCJpbmhlcml0XCIgYXJpYS1sYWJlbD1cIk1lbnVcIiBvbkNsaWNrPXt0b2dnbGVOYXZDYn0+XG5cdFx0XHRcdFx0XHQ8TWVudUljb24gLz5cblx0XHRcdFx0XHQ8L0ljb25CdXR0b24+XG5cdFx0XHRcdCl9XG5cdFx0XHRcdDxUeXBvZ3JhcGh5IHZhcmlhbnQ9XCJoNlwiIGNvbG9yPVwiaW5oZXJpdFwiIHN0eWxlPXt7IGZsZXhHcm93OiAxIH19PlxuXHRcdFx0XHRcdFJlY2lwZXNcblx0XHRcdFx0PC9UeXBvZ3JhcGh5PlxuXHRcdFx0XHR7aXNBdXRob3JpemVkID8gKFxuXHRcdFx0XHRcdDxCdXR0b24gY29sb3I9XCJpbmhlcml0XCIgb25DbGljaz17bG9nb3V0Q2J9PlxuXHRcdFx0XHRcdFx0TG9nb3V0XG5cdFx0XHRcdFx0PC9CdXR0b24+XG5cdFx0XHRcdCkgOiAoXG5cdFx0XHRcdFx0PEJ1dHRvbiBjb2xvcj1cImluaGVyaXRcIiBvbkNsaWNrPXtsb2dpbkNifT5cblx0XHRcdFx0XHRcdExvZ2luXG5cdFx0XHRcdFx0PC9CdXR0b24+XG5cdFx0XHRcdCl9XG5cdFx0XHQ8L1Rvb2xiYXI+XG5cdFx0PC9BcHBCYXI+XG5cdCk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBjb25uZWN0KHN0b3JlID0+IHtcblx0Y29uc3Qge1xuXHRcdG1lbnVSZWR1Y2VyOiB7IG9wZW46IG1lbnVPcGVuIH0sXG5cdFx0YXV0aFJlZHVjZXI6IHsgaXNBdXRob3JpemVkLCBhdXRoIH0sXG5cdH0gPSBzdG9yZTtcblxuXHRyZXR1cm4geyBtZW51T3BlbiwgaXNBdXRob3JpemVkLCBhdXRoIH07XG59KShNZW51QmFyKTtcbiJdfQ=="
+      "hash": "mIDBBg",
+      "browserifyId": 506,
+      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIk1lbnVCYXIuanM/dmVyc2lvbj1tSURCQmciXSwibmFtZXMiOlsiTWVudUJhciIsImRpc3BhdGNoIiwibWVudU9wZW4iLCJpc0F1dGhvcml6ZWQiLCJoaXN0b3J5IiwidG9nZ2xlTmF2Q2IiLCJ0b2dnbGVOYXYiLCJsb2dpbkNiIiwicHVzaCIsImxvZ291dENiIiwiYXV0aEFjdGlvbnMiLCJsb2dvdXQiLCJ6SW5kZXgiLCJmbGV4R3JvdyIsInN0b3JlIiwibWVudVJlZHVjZXIiLCJvcGVuIiwiYXV0aFJlZHVjZXIiLCJhdXRoIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFDQTs7QUFFQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFFQTs7QUFDQTs7QUFFQSxJQUFNQSxPQUFPLEdBQUcsU0FBVkEsT0FBVSxPQUFtRDtBQUFBLE1BQWhEQyxRQUFnRCxRQUFoREEsUUFBZ0Q7QUFBQSxNQUF0Q0MsUUFBc0MsUUFBdENBLFFBQXNDO0FBQUEsTUFBNUJDLFlBQTRCLFFBQTVCQSxZQUE0QjtBQUFBLE1BQWRDLE9BQWMsUUFBZEEsT0FBYztBQUNsRSxNQUFNQyxXQUFXLEdBQUcsd0JBQVk7QUFBQSxXQUFNSixRQUFRLENBQUMsc0JBQUQsQ0FBZDtBQUFBLEdBQVosRUFBeUMsQ0FBQ0EsUUFBRCxFQUFXSyxlQUFYLENBQXpDLENBQXBCO0FBQ0EsTUFBTUMsT0FBTyxHQUFHLHdCQUFZO0FBQUEsV0FBTUgsT0FBTyxDQUFDSSxJQUFSLENBQWEsUUFBYixDQUFOO0FBQUEsR0FBWixFQUEwQyxDQUFDSixPQUFELENBQTFDLENBQWhCO0FBQ0EsTUFBTUssUUFBUSxHQUFHLHdCQUFZO0FBQUEsV0FBTVIsUUFBUSxDQUFDUyxpQkFBWUMsTUFBWixFQUFELENBQWQ7QUFBQSxHQUFaLEVBQWtELENBQUNWLFFBQUQsRUFBV1MsZ0JBQVgsQ0FBbEQsQ0FBakI7QUFFQSxTQUNDLGdDQUFDLGtCQUFEO0FBQVEsSUFBQSxRQUFRLEVBQUMsUUFBakI7QUFBMEIsSUFBQSxLQUFLLEVBQUU7QUFBRUUsTUFBQUEsTUFBTSxFQUFFO0FBQVY7QUFBakMsS0FDQyxnQ0FBQyxtQkFBRCxRQUNFVixRQUFRLEdBQUcsSUFBSCxHQUNSLGdDQUFDLHNCQUFEO0FBQVksSUFBQSxLQUFLLEVBQUMsU0FBbEI7QUFBNEIsa0JBQVcsTUFBdkM7QUFBOEMsSUFBQSxPQUFPLEVBQUVHO0FBQXZELEtBQ0MsZ0NBQUMsZ0JBQUQsT0FERCxDQUZGLEVBTUMsZ0NBQUMsc0JBQUQ7QUFBWSxJQUFBLE9BQU8sRUFBQyxJQUFwQjtBQUF5QixJQUFBLEtBQUssRUFBQyxTQUEvQjtBQUF5QyxJQUFBLEtBQUssRUFBRTtBQUFFUSxNQUFBQSxRQUFRLEVBQUU7QUFBWjtBQUFoRCxlQU5ELEVBU0VWLFlBQVksR0FDWixnQ0FBQyxrQkFBRDtBQUFRLElBQUEsS0FBSyxFQUFDLFNBQWQ7QUFBd0IsSUFBQSxPQUFPLEVBQUVNO0FBQWpDLGNBRFksR0FLWixnQ0FBQyxrQkFBRDtBQUFRLElBQUEsS0FBSyxFQUFDLFNBQWQ7QUFBd0IsSUFBQSxPQUFPLEVBQUVGO0FBQWpDLGFBZEYsQ0FERCxDQUREO0FBdUJBLENBNUJEOztlQThCZSxnQ0FDZCx5QkFBUSxVQUFBTyxLQUFLLEVBQUk7QUFBQSxNQUVNWixRQUZOLEdBSVpZLEtBSlksQ0FFZkMsV0FGZSxDQUVBQyxJQUZBO0FBQUEsMkJBSVpGLEtBSlksQ0FHZkcsV0FIZTtBQUFBLE1BR0FkLFlBSEEsc0JBR0FBLFlBSEE7QUFBQSxNQUdjZSxJQUhkLHNCQUdjQSxJQUhkO0FBTWhCLFNBQU87QUFBRWhCLElBQUFBLFFBQVEsRUFBUkEsUUFBRjtBQUFZQyxJQUFBQSxZQUFZLEVBQVpBLFlBQVo7QUFBMEJlLElBQUFBLElBQUksRUFBSkE7QUFBMUIsR0FBUDtBQUNBLENBUEQsRUFPR2xCLE9BUEgsQ0FEYyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyB1c2VDYWxsYmFjayB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IGNvbm5lY3QgfSBmcm9tICdyZWFjdC1yZWR1eCc7XG5pbXBvcnQgeyB3aXRoUm91dGVyIH0gZnJvbSAncmVhY3Qtcm91dGVyLWRvbSc7XG5cbmltcG9ydCBBcHBCYXIgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQXBwQmFyJztcbmltcG9ydCBUb29sYmFyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL1Rvb2xiYXInO1xuaW1wb3J0IEJ1dHRvbiBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9CdXR0b24nO1xuaW1wb3J0IEljb25CdXR0b24gZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvSWNvbkJ1dHRvbic7XG5pbXBvcnQgTWVudUljb24gZnJvbSAnQG1hdGVyaWFsLXVpL2ljb25zL01lbnUnO1xuaW1wb3J0IFR5cG9ncmFwaHkgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvVHlwb2dyYXBoeSc7XG5cbmltcG9ydCB7IHRvZ2dsZU5hdiB9IGZyb20gJy4uLy4uL2xpYi9yZWR1eC9hY3Rpb25zL21lbnUnO1xuaW1wb3J0IGF1dGhBY3Rpb25zIGZyb20gJy4uLy4uL2xpYi9yZWR1eC9hY3Rpb25zL2F1dGgnO1xuXG5jb25zdCBNZW51QmFyID0gKHsgZGlzcGF0Y2gsIG1lbnVPcGVuLCBpc0F1dGhvcml6ZWQsIGhpc3RvcnkgfSkgPT4ge1xuXHRjb25zdCB0b2dnbGVOYXZDYiA9IHVzZUNhbGxiYWNrKCgpID0+IGRpc3BhdGNoKHRvZ2dsZU5hdigpKSwgW2Rpc3BhdGNoLCB0b2dnbGVOYXZdKTtcblx0Y29uc3QgbG9naW5DYiA9IHVzZUNhbGxiYWNrKCgpID0+IGhpc3RvcnkucHVzaCgnL2xvZ2luJyksIFtoaXN0b3J5XSk7XG5cdGNvbnN0IGxvZ291dENiID0gdXNlQ2FsbGJhY2soKCkgPT4gZGlzcGF0Y2goYXV0aEFjdGlvbnMubG9nb3V0KCkpLCBbZGlzcGF0Y2gsIGF1dGhBY3Rpb25zXSk7XG5cblx0cmV0dXJuIChcblx0XHQ8QXBwQmFyIHBvc2l0aW9uPVwic3RhdGljXCIgc3R5bGU9e3sgekluZGV4OiAyNTAgfX0+XG5cdFx0XHQ8VG9vbGJhcj5cblx0XHRcdFx0e21lbnVPcGVuID8gbnVsbCA6IChcblx0XHRcdFx0XHQ8SWNvbkJ1dHRvbiBjb2xvcj1cImluaGVyaXRcIiBhcmlhLWxhYmVsPVwiTWVudVwiIG9uQ2xpY2s9e3RvZ2dsZU5hdkNifT5cblx0XHRcdFx0XHRcdDxNZW51SWNvbiAvPlxuXHRcdFx0XHRcdDwvSWNvbkJ1dHRvbj5cblx0XHRcdFx0KX1cblx0XHRcdFx0PFR5cG9ncmFwaHkgdmFyaWFudD1cImg2XCIgY29sb3I9XCJpbmhlcml0XCIgc3R5bGU9e3sgZmxleEdyb3c6IDEgfX0+XG5cdFx0XHRcdFx0UmVjaXBlc1xuXHRcdFx0XHQ8L1R5cG9ncmFwaHk+XG5cdFx0XHRcdHtpc0F1dGhvcml6ZWQgPyAoXG5cdFx0XHRcdFx0PEJ1dHRvbiBjb2xvcj1cImluaGVyaXRcIiBvbkNsaWNrPXtsb2dvdXRDYn0+XG5cdFx0XHRcdFx0XHRMb2dvdXRcblx0XHRcdFx0XHQ8L0J1dHRvbj5cblx0XHRcdFx0KSA6IChcblx0XHRcdFx0XHQ8QnV0dG9uIGNvbG9yPVwiaW5oZXJpdFwiIG9uQ2xpY2s9e2xvZ2luQ2J9PlxuXHRcdFx0XHRcdFx0TG9naW5cblx0XHRcdFx0XHQ8L0J1dHRvbj5cblx0XHRcdFx0KX1cblx0XHRcdDwvVG9vbGJhcj5cblx0XHQ8L0FwcEJhcj5cblx0KTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IHdpdGhSb3V0ZXIoXG5cdGNvbm5lY3Qoc3RvcmUgPT4ge1xuXHRcdGNvbnN0IHtcblx0XHRcdG1lbnVSZWR1Y2VyOiB7IG9wZW46IG1lbnVPcGVuIH0sXG5cdFx0XHRhdXRoUmVkdWNlcjogeyBpc0F1dGhvcml6ZWQsIGF1dGggfSxcblx0XHR9ID0gc3RvcmU7XG5cblx0XHRyZXR1cm4geyBtZW51T3BlbiwgaXNBdXRob3JpemVkLCBhdXRoIH07XG5cdH0pKE1lbnVCYXIpXG4pO1xuIl19"
     }
   ],
   "/home/dustin/CS/recipes/src/components/view/NavDrawer.js": [
@@ -6622,8 +7449,8 @@
       "react-router-dom": "/home/dustin/CS/recipes/node_modules/react-router-dom/index.js",
       "react-redux": "/home/dustin/CS/recipes/node_modules/react-redux/lib/index.js",
       "@material-ui/core/IconButton": "/home/dustin/CS/recipes/node_modules/@material-ui/core/IconButton/index.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@material-ui/icons/ChevronLeft": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/ChevronLeft.js",
       "@material-ui/core/Divider": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Divider/index.js",
       "@material-ui/core/List": "/home/dustin/CS/recipes/node_modules/@material-ui/core/List/index.js",
@@ -6633,7 +7460,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/components/view/NavDrawer.js",
       "hash": "i6HPSA",
-      "browserifyId": 464,
+      "browserifyId": 507,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIk5hdkRyYXdlci5qcz92ZXJzaW9uPWk2SFBTQSJdLCJuYW1lcyI6WyJOYXZEcmF3ZXIiLCJkaXNwYXRjaCIsIm9wZW4iLCJpc0FkbWluIiwiaGlzdG9yeSIsInpJbmRleCIsImRpc3BsYXkiLCJhbGlnbkl0ZW1zIiwicGFkZGluZyIsImp1c3RpZnlDb250ZW50Iiwicm91dGVzIiwibWFwIiwicm91dGUiLCJzaG93SW5OYXYiLCJwYXRoIiwicHVzaCIsIm5hbWUiLCJhZG1pblJvdXRlcyIsInN0YXRlIiwidXNlciIsImF1dGhSZWR1Y2VyIiwibWVudVJlZHVjZXIiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUFBOztBQUNBOztBQUVBOztBQUVBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUVBOztBQUNBOztBQUVBLElBQU1BLFNBQVMsR0FBRyxTQUFaQSxTQUFZO0FBQUEsTUFBR0MsUUFBSCxRQUFHQSxRQUFIO0FBQUEsTUFBYUMsSUFBYixRQUFhQSxJQUFiO0FBQUEsTUFBbUJDLE9BQW5CLFFBQW1CQSxPQUFuQjtBQUFBLE1BQTRCQyxPQUE1QixRQUE0QkEsT0FBNUI7QUFBQSxTQUNqQixnQ0FBQyxrQkFBRDtBQUFRLElBQUEsSUFBSSxFQUFFRixJQUFkO0FBQW9CLElBQUEsTUFBTSxFQUFDLE1BQTNCO0FBQWtDLElBQUEsT0FBTyxFQUFDLFlBQTFDO0FBQXVELElBQUEsS0FBSyxFQUFFO0FBQUVHLE1BQUFBLE1BQU0sRUFBRSxDQUFDO0FBQVg7QUFBOUQsS0FDQyxnQ0FBQyxnQkFBRCxRQUNDO0FBQUssSUFBQSxLQUFLLEVBQUU7QUFBRUMsTUFBQUEsT0FBTyxFQUFFLE1BQVg7QUFBbUJDLE1BQUFBLFVBQVUsRUFBRSxRQUEvQjtBQUF5Q0MsTUFBQUEsT0FBTyxFQUFFLE9BQWxEO0FBQTJEQyxNQUFBQSxjQUFjLEVBQUU7QUFBM0U7QUFBWixLQUNDLGdDQUFDLHNCQUFEO0FBQVksSUFBQSxPQUFPLEVBQUU7QUFBQSxhQUFNUixRQUFRLENBQUMsc0JBQUQsQ0FBZDtBQUFBO0FBQXJCLEtBQ0MsZ0NBQUMsdUJBQUQsT0FERCxDQURELENBREQsRUFNQyxnQ0FBQyxtQkFBRCxPQU5ELEVBT0VTLGVBQU9DLEdBQVAsQ0FBVyxVQUFBQyxLQUFLO0FBQUEsV0FDaEJBLEtBQUssQ0FBQ0MsU0FBTixHQUNDLGdDQUFDLG9CQUFEO0FBQ0MsTUFBQSxHQUFHLEVBQUVELEtBQUssQ0FBQ0UsSUFEWjtBQUVDLE1BQUEsT0FBTyxFQUFFLG1CQUFNO0FBQ2RWLFFBQUFBLE9BQU8sQ0FBQ1csSUFBUixDQUFhSCxLQUFLLENBQUNFLElBQW5CO0FBQ0FiLFFBQUFBLFFBQVEsQ0FBQyxzQkFBRCxDQUFSO0FBQ0EsT0FMRjtBQU1DLE1BQUEsTUFBTTtBQU5QLE9BUUVXLEtBQUssQ0FBQ0ksSUFSUixDQURELEdBV0ksSUFaWTtBQUFBLEdBQWhCLENBUEYsRUFxQkViLE9BQU8sR0FDUCxnQ0FBQyxlQUFELFFBQ0MsZ0NBQUMsbUJBQUQsT0FERCxFQUVDLGdDQUFDLG9CQUFELFFBQ0MsbURBREQsQ0FGRCxFQUtFYyxvQkFBWU4sR0FBWixDQUFnQixVQUFBQyxLQUFLO0FBQUEsV0FDckJBLEtBQUssQ0FBQ0MsU0FBTixHQUNDLGdDQUFDLG9CQUFEO0FBQ0MsTUFBQSxHQUFHLEVBQUVELEtBQUssQ0FBQ0UsSUFEWjtBQUVDLE1BQUEsT0FBTyxFQUFFLG1CQUFNO0FBQ2RWLFFBQUFBLE9BQU8sQ0FBQ1csSUFBUixDQUFhSCxLQUFLLENBQUNFLElBQW5CO0FBQ0FiLFFBQUFBLFFBQVEsQ0FBQyxzQkFBRCxDQUFSO0FBQ0EsT0FMRjtBQU1DLE1BQUEsTUFBTTtBQU5QLE9BUUVXLEtBQUssQ0FBQ0ksSUFSUixDQURELEdBV0ksSUFaaUI7QUFBQSxHQUFyQixDQUxGLENBRE8sR0FxQkosSUExQ0wsQ0FERCxDQURpQjtBQUFBLENBQWxCOztlQWlEZSx5QkFBUSxVQUFBRSxLQUFLLEVBQUk7QUFBQSxNQUVmQyxJQUZlLEdBSTNCRCxLQUoyQixDQUU5QkUsV0FGOEIsQ0FFZkQsSUFGZTtBQUFBLE1BR2ZqQixJQUhlLEdBSTNCZ0IsS0FKMkIsQ0FHOUJHLFdBSDhCLENBR2ZuQixJQUhlO0FBTS9CLFNBQU87QUFBRUEsSUFBQUEsSUFBSSxFQUFKQSxJQUFGO0FBQVFDLElBQUFBLE9BQU8sRUFBRWdCLElBQUksR0FBRyxDQUFDLENBQUNBLElBQUksQ0FBQ2hCLE9BQVYsR0FBb0I7QUFBekMsR0FBUDtBQUNBLENBUGMsRUFPWixnQ0FBV0gsU0FBWCxDQVBZIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IEZyYWdtZW50IH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgY29ubmVjdCB9IGZyb20gJ3JlYWN0LXJlZHV4JztcblxuaW1wb3J0IHsgd2l0aFJvdXRlciB9IGZyb20gJ3JlYWN0LXJvdXRlci1kb20nO1xuXG5pbXBvcnQgRHJhd2VyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0RyYXdlcic7XG5pbXBvcnQgTGlzdCBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9MaXN0JztcbmltcG9ydCBMaXN0SXRlbSBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9MaXN0SXRlbSc7XG5pbXBvcnQgSWNvbkJ1dHRvbiBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9JY29uQnV0dG9uJztcbmltcG9ydCBDaGV2cm9uTGVmdEljb24gZnJvbSAnQG1hdGVyaWFsLXVpL2ljb25zL0NoZXZyb25MZWZ0JztcbmltcG9ydCBEaXZpZGVyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0RpdmlkZXInO1xuXG5pbXBvcnQgeyB0b2dnbGVOYXYgfSBmcm9tICcuLi8uLi9saWIvcmVkdXgvYWN0aW9ucy9tZW51JztcbmltcG9ydCB7IHJvdXRlcywgYWRtaW5Sb3V0ZXMgfSBmcm9tICcuLi8uLi9yb3V0ZXMnO1xuXG5jb25zdCBOYXZEcmF3ZXIgPSAoeyBkaXNwYXRjaCwgb3BlbiwgaXNBZG1pbiwgaGlzdG9yeSB9KSA9PiAoXG5cdDxEcmF3ZXIgb3Blbj17b3Blbn0gYW5jaG9yPVwibGVmdFwiIHZhcmlhbnQ9XCJwZXJzaXN0ZW50XCIgc3R5bGU9e3sgekluZGV4OiAtMSB9fT5cblx0XHQ8TGlzdD5cblx0XHRcdDxkaXYgc3R5bGU9e3sgZGlzcGxheTogJ2ZsZXgnLCBhbGlnbkl0ZW1zOiAnY2VudGVyJywgcGFkZGluZzogJzAgOHB4JywganVzdGlmeUNvbnRlbnQ6ICdmbGV4LWVuZCcgfX0+XG5cdFx0XHRcdDxJY29uQnV0dG9uIG9uQ2xpY2s9eygpID0+IGRpc3BhdGNoKHRvZ2dsZU5hdigpKX0+XG5cdFx0XHRcdFx0PENoZXZyb25MZWZ0SWNvbiAvPlxuXHRcdFx0XHQ8L0ljb25CdXR0b24+XG5cdFx0XHQ8L2Rpdj5cblx0XHRcdDxEaXZpZGVyIC8+XG5cdFx0XHR7cm91dGVzLm1hcChyb3V0ZSA9PlxuXHRcdFx0XHRyb3V0ZS5zaG93SW5OYXYgPyAoXG5cdFx0XHRcdFx0PExpc3RJdGVtXG5cdFx0XHRcdFx0XHRrZXk9e3JvdXRlLnBhdGh9XG5cdFx0XHRcdFx0XHRvbkNsaWNrPXsoKSA9PiB7XG5cdFx0XHRcdFx0XHRcdGhpc3RvcnkucHVzaChyb3V0ZS5wYXRoKTtcblx0XHRcdFx0XHRcdFx0ZGlzcGF0Y2godG9nZ2xlTmF2KCkpO1xuXHRcdFx0XHRcdFx0fX1cblx0XHRcdFx0XHRcdGJ1dHRvblxuXHRcdFx0XHRcdD5cblx0XHRcdFx0XHRcdHtyb3V0ZS5uYW1lfVxuXHRcdFx0XHRcdDwvTGlzdEl0ZW0+XG5cdFx0XHRcdCkgOiBudWxsXG5cdFx0XHQpfVxuXHRcdFx0e2lzQWRtaW4gPyAoXG5cdFx0XHRcdDxGcmFnbWVudD5cblx0XHRcdFx0XHQ8RGl2aWRlciAvPlxuXHRcdFx0XHRcdDxMaXN0SXRlbT5cblx0XHRcdFx0XHRcdDxiPkFkbWluPC9iPlxuXHRcdFx0XHRcdDwvTGlzdEl0ZW0+XG5cdFx0XHRcdFx0e2FkbWluUm91dGVzLm1hcChyb3V0ZSA9PlxuXHRcdFx0XHRcdFx0cm91dGUuc2hvd0luTmF2ID8gKFxuXHRcdFx0XHRcdFx0XHQ8TGlzdEl0ZW1cblx0XHRcdFx0XHRcdFx0XHRrZXk9e3JvdXRlLnBhdGh9XG5cdFx0XHRcdFx0XHRcdFx0b25DbGljaz17KCkgPT4ge1xuXHRcdFx0XHRcdFx0XHRcdFx0aGlzdG9yeS5wdXNoKHJvdXRlLnBhdGgpO1xuXHRcdFx0XHRcdFx0XHRcdFx0ZGlzcGF0Y2godG9nZ2xlTmF2KCkpO1xuXHRcdFx0XHRcdFx0XHRcdH19XG5cdFx0XHRcdFx0XHRcdFx0YnV0dG9uXG5cdFx0XHRcdFx0XHRcdD5cblx0XHRcdFx0XHRcdFx0XHR7cm91dGUubmFtZX1cblx0XHRcdFx0XHRcdFx0PC9MaXN0SXRlbT5cblx0XHRcdFx0XHRcdCkgOiBudWxsXG5cdFx0XHRcdFx0KX1cblx0XHRcdFx0PC9GcmFnbWVudD5cblx0XHRcdCkgOiBudWxsfVxuXHRcdDwvTGlzdD5cblx0PC9EcmF3ZXI+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBjb25uZWN0KHN0YXRlID0+IHtcblx0Y29uc3Qge1xuXHRcdGF1dGhSZWR1Y2VyOiB7IHVzZXIgfSxcblx0XHRtZW51UmVkdWNlcjogeyBvcGVuIH0sXG5cdH0gPSBzdGF0ZTtcblxuXHRyZXR1cm4geyBvcGVuLCBpc0FkbWluOiB1c2VyID8gISF1c2VyLmlzQWRtaW4gOiBmYWxzZSB9O1xufSkod2l0aFJvdXRlcihOYXZEcmF3ZXIpKTtcbiJdfQ=="
     }
   ],
@@ -6644,19 +7471,19 @@
       "@material-ui/core/IconButton": "/home/dustin/CS/recipes/node_modules/@material-ui/core/IconButton/index.js",
       "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/classCallCheck": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "@babel/runtime/helpers/createClass": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/createClass.js",
       "@babel/runtime/helpers/getPrototypeOf": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "@babel/runtime/helpers/assertThisInitialized": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/assertThisInitialized.js",
       "@material-ui/core/colors/blue": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/blue.js",
-      "@material-ui/core/colors/green": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/green.js",
       "@material-ui/core/colors/amber": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/amber.js",
+      "@material-ui/core/colors/green": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/green.js",
       "@material-ui/core/colors/orange": "/home/dustin/CS/recipes/node_modules/@material-ui/core/colors/orange.js",
       "@babel/runtime/helpers/possibleConstructorReturn": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "@babel/runtime/helpers/inherits": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/inherits.js",
       "@material-ui/icons/Info": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Info.js",
-      "@material-ui/icons/CheckCircle": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/CheckCircle.js",
       "@material-ui/icons/Error": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Error.js",
+      "@material-ui/icons/CheckCircle": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/CheckCircle.js",
       "@material-ui/icons/Warning": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Warning.js",
       "@material-ui/icons/Close": "/home/dustin/CS/recipes/node_modules/@material-ui/icons/Close.js",
       "@material-ui/core/SnackbarContent": "/home/dustin/CS/recipes/node_modules/@material-ui/core/SnackbarContent/index.js",
@@ -6666,7 +7493,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/components/view/Snackbar.js",
       "hash": "R54I0w",
-      "browserifyId": 465,
+      "browserifyId": 508,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlNuYWNrYmFyLmpzP3ZlcnNpb249UjU0STB3Il0sIm5hbWVzIjpbImluc3RhbmNlIiwic2V0U3RhdGUiLCJzaG93Tm90aWZpY2F0aW9uIiwibWVzc2FnZSIsImR1cmF0aW9uIiwidmFyaWFudCIsImJhY2tncm91bmRDb2xvciIsImljb24iLCJncmVlbiIsIkNoZWNrQ2lyY2xlSWNvbiIsImFtYmVyIiwiRXJyb3JJY29uIiwib3JhbmdlIiwiV2FybmluZ0ljb24iLCJibHVlIiwiSW5mb0ljb24iLCJvcGVuIiwicHJvcHMiLCJzdGF0ZSIsImJpbmQiLCJoYW5kbGVDbG9zZSIsIkljb24iLCJkaXNwbGF5IiwiYWxpZ25JdGVtcyIsIkNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7Ozs7QUFFQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBRUEsSUFBTUEsUUFBUSxHQUFHO0FBQ2hCQyxFQUFBQSxRQUFRLEVBQUUsb0JBQU0sQ0FBRTtBQURGLENBQWpCOztBQUlPLElBQU1DLGdCQUFnQixHQUFHLFNBQW5CQSxnQkFBbUIsT0FBb0Q7QUFBQSxNQUFqREMsT0FBaUQsUUFBakRBLE9BQWlEO0FBQUEsMkJBQXhDQyxRQUF3QztBQUFBLE1BQXhDQSxRQUF3Qyw4QkFBN0IsSUFBNkI7QUFBQSwwQkFBdkJDLE9BQXVCO0FBQUEsTUFBdkJBLE9BQXVCLDZCQUFiLE1BQWE7QUFDbkYsTUFBSUMsZUFBSjtBQUNBLE1BQUlDLElBQUo7O0FBRUEsVUFBUUYsT0FBUjtBQUNDLFNBQUssU0FBTDtBQUNDQyxNQUFBQSxlQUFlLEdBQUdFLGtCQUFNLEdBQU4sQ0FBbEI7QUFDQUQsTUFBQUEsSUFBSSxHQUFHRSx1QkFBUDtBQUNBOztBQUNELFNBQUssT0FBTDtBQUNBLFNBQUssUUFBTDtBQUNDSCxNQUFBQSxlQUFlLEdBQUdJLGtCQUFNLEdBQU4sQ0FBbEI7QUFDQUgsTUFBQUEsSUFBSSxHQUFHSSxpQkFBUDtBQUNBOztBQUNELFNBQUssTUFBTDtBQUNBLFNBQUssU0FBTDtBQUNDTCxNQUFBQSxlQUFlLEdBQUdNLG1CQUFPLEdBQVAsQ0FBbEI7QUFDQUwsTUFBQUEsSUFBSSxHQUFHTSxtQkFBUDtBQUNBOztBQUNELFNBQUssTUFBTDtBQUNBO0FBQ0NQLE1BQUFBLGVBQWUsR0FBR1EsaUJBQUssR0FBTCxDQUFsQjtBQUNBUCxNQUFBQSxJQUFJLEdBQUdRLGdCQUFQO0FBbEJGOztBQXFCQWYsRUFBQUEsUUFBUSxDQUFDQyxRQUFULENBQWtCO0FBQUVlLElBQUFBLElBQUksRUFBRSxJQUFSO0FBQWNiLElBQUFBLE9BQU8sRUFBUEEsT0FBZDtBQUF1QkMsSUFBQUEsUUFBUSxFQUFSQSxRQUF2QjtBQUFpQ0UsSUFBQUEsZUFBZSxFQUFmQSxlQUFqQztBQUFrREMsSUFBQUEsSUFBSSxFQUFKQTtBQUFsRCxHQUFsQjtBQUNBLENBMUJNOzs7Ozs7Ozs7QUE2Qk4sb0JBQVlVLEtBQVosRUFBbUI7QUFBQTs7QUFBQTtBQUNsQixvSEFBTUEsS0FBTjtBQUVBLFVBQUtDLEtBQUwsR0FBYTtBQUNaRixNQUFBQSxJQUFJLEVBQUUsS0FETTtBQUVaYixNQUFBQSxPQUFPLEVBQUUsOEJBRkc7QUFHWkMsTUFBQUEsUUFBUSxFQUFFLElBSEU7QUFJWkUsTUFBQUEsZUFBZSxFQUFFUSxnQkFKTDtBQUtaUCxNQUFBQSxJQUFJLEVBQUVRO0FBTE0sS0FBYjtBQVFBZixJQUFBQSxRQUFRLENBQUNDLFFBQVQsR0FBb0IsTUFBS0EsUUFBTCxDQUFja0IsSUFBZCxnREFBcEI7QUFFQSxVQUFLQyxXQUFMLEdBQW1CLE1BQUtBLFdBQUwsQ0FBaUJELElBQWpCLGdEQUFuQjtBQWJrQjtBQWNsQjs7OztrQ0FFYTtBQUNiLFdBQUtsQixRQUFMLENBQWM7QUFBRWUsUUFBQUEsSUFBSSxFQUFFO0FBQVIsT0FBZDtBQUNBOzs7NkJBRVE7QUFDUixVQUFNSyxJQUFJLEdBQUcsS0FBS0gsS0FBTCxDQUFXWCxJQUF4QjtBQUVBLGFBQ0MsZ0NBQUMsb0JBQUQ7QUFDQyxRQUFBLElBQUksRUFBRSxLQUFLVyxLQUFMLENBQVdGLElBRGxCO0FBRUMsUUFBQSxnQkFBZ0IsRUFBRSxLQUFLRSxLQUFMLENBQVdkLFFBRjlCO0FBR0MsUUFBQSxPQUFPLEVBQUUsS0FBS2dCLFdBSGY7QUFJQyxRQUFBLE9BQU8sRUFBRSxLQUFLRixLQUFMLENBQVdmO0FBSnJCLFNBTUMsZ0NBQUMsMkJBQUQ7QUFDQyxRQUFBLEtBQUssRUFBRTtBQUFFRyxVQUFBQSxlQUFlLEVBQUUsS0FBS1ksS0FBTCxDQUFXWjtBQUE5QixTQURSO0FBRUMsUUFBQSxPQUFPLEVBQ047QUFDQyxVQUFBLEtBQUssRUFBRTtBQUNOZ0IsWUFBQUEsT0FBTyxFQUFFLE1BREg7QUFFTkMsWUFBQUEsVUFBVSxFQUFFO0FBRk47QUFEUixXQU1FLEtBQUtMLEtBQUwsQ0FBV2YsT0FOYixFQU9DLGdDQUFDLElBQUQ7QUFBTSxVQUFBLEtBQUssRUFBQztBQUFaLFVBUEQsQ0FIRjtBQWFDLFFBQUEsTUFBTSxFQUFFLENBQ1AsZ0NBQUMsc0JBQUQ7QUFBWSxVQUFBLEdBQUcsRUFBQyxPQUFoQjtBQUF3Qix3QkFBVyxPQUFuQztBQUEyQyxVQUFBLEtBQUssRUFBQyxTQUFqRDtBQUEyRCxVQUFBLE9BQU8sRUFBRSxLQUFLaUI7QUFBekUsV0FDQyxnQ0FBQyxpQkFBRCxPQURELENBRE87QUFiVCxRQU5ELENBREQ7QUE0QkE7OztFQXBEb0NJIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0JztcblxuaW1wb3J0IE1VSVNuYWNrYmFyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL1NuYWNrYmFyJztcbmltcG9ydCBTbmFja2JhckNvbnRlbnQgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvU25hY2tiYXJDb250ZW50JztcbmltcG9ydCBibHVlIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL2NvbG9ycy9ibHVlJztcbmltcG9ydCBncmVlbiBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9jb2xvcnMvZ3JlZW4nO1xuaW1wb3J0IGFtYmVyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL2NvbG9ycy9hbWJlcic7XG5pbXBvcnQgb3JhbmdlIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL2NvbG9ycy9vcmFuZ2UnO1xuaW1wb3J0IEluZm9JY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9JbmZvJztcbmltcG9ydCBDaGVja0NpcmNsZUljb24gZnJvbSAnQG1hdGVyaWFsLXVpL2ljb25zL0NoZWNrQ2lyY2xlJztcbmltcG9ydCBFcnJvckljb24gZnJvbSAnQG1hdGVyaWFsLXVpL2ljb25zL0Vycm9yJztcbmltcG9ydCBXYXJuaW5nSWNvbiBmcm9tICdAbWF0ZXJpYWwtdWkvaWNvbnMvV2FybmluZyc7XG5pbXBvcnQgQ2xvc2VJY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9DbG9zZSc7XG5pbXBvcnQgSWNvbkJ1dHRvbiBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9JY29uQnV0dG9uJztcblxuY29uc3QgaW5zdGFuY2UgPSB7XG5cdHNldFN0YXRlOiAoKSA9PiB7fSxcbn07XG5cbmV4cG9ydCBjb25zdCBzaG93Tm90aWZpY2F0aW9uID0gKHsgbWVzc2FnZSwgZHVyYXRpb24gPSAzMDAwLCB2YXJpYW50ID0gJ2luZm8nIH0pID0+IHtcblx0bGV0IGJhY2tncm91bmRDb2xvcjtcblx0bGV0IGljb247XG5cblx0c3dpdGNoICh2YXJpYW50KSB7XG5cdFx0Y2FzZSAnc3VjY2Vzcyc6XG5cdFx0XHRiYWNrZ3JvdW5kQ29sb3IgPSBncmVlbls2MDBdO1xuXHRcdFx0aWNvbiA9IENoZWNrQ2lyY2xlSWNvbjtcblx0XHRcdGJyZWFrO1xuXHRcdGNhc2UgJ2Vycm9yJzpcblx0XHRjYXNlICdkYW5nZXInOlxuXHRcdFx0YmFja2dyb3VuZENvbG9yID0gYW1iZXJbNjAwXTtcblx0XHRcdGljb24gPSBFcnJvckljb247XG5cdFx0XHRicmVhaztcblx0XHRjYXNlICd3YXJuJzpcblx0XHRjYXNlICd3YXJuaW5nJzpcblx0XHRcdGJhY2tncm91bmRDb2xvciA9IG9yYW5nZVs2MDBdO1xuXHRcdFx0aWNvbiA9IFdhcm5pbmdJY29uO1xuXHRcdFx0YnJlYWs7XG5cdFx0Y2FzZSAnaW5mbyc6XG5cdFx0ZGVmYXVsdDpcblx0XHRcdGJhY2tncm91bmRDb2xvciA9IGJsdWVbNjAwXTtcblx0XHRcdGljb24gPSBJbmZvSWNvbjtcblx0fVxuXG5cdGluc3RhbmNlLnNldFN0YXRlKHsgb3BlbjogdHJ1ZSwgbWVzc2FnZSwgZHVyYXRpb24sIGJhY2tncm91bmRDb2xvciwgaWNvbiB9KTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IGNsYXNzIFNuYWNrYmFyIGV4dGVuZHMgQ29tcG9uZW50IHtcblx0Y29uc3RydWN0b3IocHJvcHMpIHtcblx0XHRzdXBlcihwcm9wcyk7XG5cblx0XHR0aGlzLnN0YXRlID0ge1xuXHRcdFx0b3BlbjogZmFsc2UsXG5cdFx0XHRtZXNzYWdlOiAnVGhpcyBpcyB0aGUgZGVmYXVsdCBtZXNzYWdlLicsXG5cdFx0XHRkdXJhdGlvbjogMzAwMCxcblx0XHRcdGJhY2tncm91bmRDb2xvcjogYmx1ZSxcblx0XHRcdGljb246IEluZm9JY29uLFxuXHRcdH07XG5cblx0XHRpbnN0YW5jZS5zZXRTdGF0ZSA9IHRoaXMuc2V0U3RhdGUuYmluZCh0aGlzKTtcblxuXHRcdHRoaXMuaGFuZGxlQ2xvc2UgPSB0aGlzLmhhbmRsZUNsb3NlLmJpbmQodGhpcyk7XG5cdH1cblxuXHRoYW5kbGVDbG9zZSgpIHtcblx0XHR0aGlzLnNldFN0YXRlKHsgb3BlbjogZmFsc2UgfSk7XG5cdH1cblxuXHRyZW5kZXIoKSB7XG5cdFx0Y29uc3QgSWNvbiA9IHRoaXMuc3RhdGUuaWNvbjtcblxuXHRcdHJldHVybiAoXG5cdFx0XHQ8TVVJU25hY2tiYXJcblx0XHRcdFx0b3Blbj17dGhpcy5zdGF0ZS5vcGVufVxuXHRcdFx0XHRhdXRvSGlkZUR1cmF0aW9uPXt0aGlzLnN0YXRlLmR1cmF0aW9ufVxuXHRcdFx0XHRvbkNsb3NlPXt0aGlzLmhhbmRsZUNsb3NlfVxuXHRcdFx0XHRtZXNzYWdlPXt0aGlzLnN0YXRlLm1lc3NhZ2V9XG5cdFx0XHQ+XG5cdFx0XHRcdDxTbmFja2JhckNvbnRlbnRcblx0XHRcdFx0XHRzdHlsZT17eyBiYWNrZ3JvdW5kQ29sb3I6IHRoaXMuc3RhdGUuYmFja2dyb3VuZENvbG9yIH19XG5cdFx0XHRcdFx0bWVzc2FnZT17XG5cdFx0XHRcdFx0XHQ8c3BhblxuXHRcdFx0XHRcdFx0XHRzdHlsZT17e1xuXHRcdFx0XHRcdFx0XHRcdGRpc3BsYXk6ICdmbGV4Jyxcblx0XHRcdFx0XHRcdFx0XHRhbGlnbkl0ZW1zOiAnY2VudGVyJyxcblx0XHRcdFx0XHRcdFx0fX1cblx0XHRcdFx0XHRcdD5cblx0XHRcdFx0XHRcdFx0e3RoaXMuc3RhdGUubWVzc2FnZX1cblx0XHRcdFx0XHRcdFx0PEljb24gY29sb3I9XCJpbmhlcml0XCIgLz5cblx0XHRcdFx0XHRcdDwvc3Bhbj5cblx0XHRcdFx0XHR9XG5cdFx0XHRcdFx0YWN0aW9uPXtbXG5cdFx0XHRcdFx0XHQ8SWNvbkJ1dHRvbiBrZXk9XCJjbG9zZVwiIGFyaWEtbGFiZWw9XCJjbG9zZVwiIGNvbG9yPVwiaW5oZXJpdFwiIG9uQ2xpY2s9e3RoaXMuaGFuZGxlQ2xvc2V9PlxuXHRcdFx0XHRcdFx0XHQ8Q2xvc2VJY29uIC8+XG5cdFx0XHRcdFx0XHQ8L0ljb25CdXR0b24+LFxuXHRcdFx0XHRcdF19XG5cdFx0XHRcdC8+XG5cdFx0XHQ8L01VSVNuYWNrYmFyPlxuXHRcdCk7XG5cdH1cbn1cbiJdfQ=="
     }
   ],
@@ -6681,7 +7508,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/index.js",
       "hash": "H1jxzg",
-      "browserifyId": 466,
+      "browserifyId": 509,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzP3ZlcnNpb249SDFqeHpnIl0sIm5hbWVzIjpbImFwcCIsImRvY3VtZW50IiwiZ2V0RWxlbWVudEJ5SWQiLCJSZWFjdERPTSIsInJlbmRlciJdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQTs7QUFDQTs7QUFFQTs7QUFFQSxJQUFNQSxHQUFHLEdBQUdDLFFBQVEsQ0FBQ0MsY0FBVCxDQUF3QixLQUF4QixDQUFaOztBQUVBQyxxQkFBU0MsTUFBVCxDQUFnQixnQ0FBQyxlQUFELE9BQWhCLEVBQXlCSixHQUF6QiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgUmVhY3RET00gZnJvbSAncmVhY3QtZG9tJztcblxuaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7XG5cbmNvbnN0IGFwcCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhcHAnKTtcblxuUmVhY3RET00ucmVuZGVyKDxBcHAgLz4sIGFwcCk7XG4iXX0="
     }
   ],
@@ -6691,15 +7518,15 @@
       "./firestore": "/home/dustin/CS/recipes/src/lib/firebase/firestore.js",
       "firebase/app": "/home/dustin/CS/recipes/node_modules/firebase/app/dist/index.cjs.js",
       "@babel/runtime/regenerator": "/home/dustin/CS/recipes/node_modules/@babel/runtime/regenerator/index.js",
-      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/defineProperty": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/asyncToGenerator": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/asyncToGenerator.js",
       "firebase/auth": "/home/dustin/CS/recipes/node_modules/firebase/auth/dist/index.cjs.js"
     },
     {
       "id": "/home/dustin/CS/recipes/src/lib/firebase/auth.js",
       "hash": "zxItMA",
-      "browserifyId": 467,
+      "browserifyId": 510,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF1dGguanM/dmVyc2lvbj16eEl0TUEiXSwibmFtZXMiOlsiZ2V0QXV0aCIsImF1dGgiLCJsb2NhbFN0b3JhZ2UiLCJnZXRJdGVtIiwiSlNPTiIsInBhcnNlIiwibG9naW4iLCJzdG9yYWdlT25seSIsInByb3ZpZGVyIiwiZmlyZWJhc2UiLCJHb29nbGVBdXRoUHJvdmlkZXIiLCJ1c2VEZXZpY2VMYW5ndWFnZSIsInNpZ25JbldpdGhQb3B1cCIsInNldEl0ZW0iLCJzdHJpbmdpZnkiLCJsb2dvdXQiLCJzaWduT3V0IiwicmVtb3ZlSXRlbSIsImdldFVzZXIiLCJ1c2VyIiwiZmlyZXN0b3JlIiwicmVhZERvY3VtZW50IiwidWlkIiwiZG9jIiwiZXhpc3RzIiwiZGF0YSIsImFkZGl0aW9uYWxVc2VySW5mbyIsInByb2ZpbGUiLCJuYW1lIiwiZ2VuZGVyIiwicGljdHVyZSIsImVtYWlsIiwibGluayIsInNldCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQUVBOztBQUNBOztBQUVBOzs7Ozs7QUFFTyxJQUFNQSxPQUFPLEdBQUcsU0FBVkEsT0FBVSxHQUEyQjtBQUNqRCxNQUFNQyxJQUFJLEdBQUdDLFlBQVksQ0FBQ0MsT0FBYixDQUFxQixNQUFyQixDQUFiO0FBRUEsU0FBT0MsSUFBSSxDQUFDQyxLQUFMLENBQVdKLElBQVgsQ0FBUDtBQUNBLENBSk07Ozs7QUFNQSxJQUFNSyxLQUFLO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSwrQkFBRztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBT0MsWUFBQUEsV0FBUCwyREFBOEIsS0FBOUI7QUFDaEJOLFlBQUFBLElBRGdCLEdBQ1RELE9BQU8sRUFERTs7QUFBQSxrQkFHaEJDLElBQUksS0FBSyxJQUhPO0FBQUE7QUFBQTtBQUFBOztBQUFBLDZDQUlaQSxJQUpZOztBQUFBO0FBQUEsZ0JBS1JNLFdBTFE7QUFBQTtBQUFBO0FBQUE7O0FBQUE7QUFPWkMsWUFBQUEsUUFQWSxHQU9ELElBQUlDLGdCQUFTUixJQUFULENBQWNTLGtCQUFsQixFQVBDOztBQVFsQkQsNEJBQVNSLElBQVQsR0FBZ0JVLGlCQUFoQjs7QUFSa0I7QUFBQSxtQkFVTEYsZ0JBQVNSLElBQVQsR0FBZ0JXLGVBQWhCLENBQWdDSixRQUFoQyxDQVZLOztBQUFBO0FBVWxCUCxZQUFBQSxJQVZrQjtBQVlsQkMsWUFBQUEsWUFBWSxDQUFDVyxPQUFiLENBQXFCLE1BQXJCLEVBQTZCVCxJQUFJLENBQUNVLFNBQUwsQ0FBZWIsSUFBZixDQUE3QjtBQVprQjtBQUFBOztBQUFBO0FBQUE7QUFBQTs7QUFBQTtBQUFBLDZDQWtCYkEsSUFsQmE7O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsR0FBSDs7QUFBQSxrQkFBTEssS0FBSztBQUFBO0FBQUE7QUFBQSxHQUFYOzs7O0FBcUJBLElBQU1TLE1BQU07QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLCtCQUFHO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNmZCxZQUFBQSxJQURlLEdBQ1JELE9BQU8sRUFEQzs7QUFBQSxpQkFHakJDLElBSGlCO0FBQUE7QUFBQTtBQUFBOztBQUFBO0FBQUE7QUFBQSxtQkFLYlEsZ0JBQVNSLElBQVQsR0FBZ0JlLE9BQWhCLEVBTGE7O0FBQUE7QUFNbkJkLFlBQUFBLFlBQVksQ0FBQ2UsVUFBYixDQUF3QixNQUF4QjtBQU5tQjtBQUFBOztBQUFBO0FBQUE7QUFBQTtBQUFBLDhDQVFaLEtBUlk7O0FBQUE7QUFBQSw4Q0FZZCxJQVpjOztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEdBQUg7O0FBQUEsa0JBQU5GLE1BQU07QUFBQTtBQUFBO0FBQUEsR0FBWjs7OztBQWVBLElBQU1HLE9BQU87QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLCtCQUFHO0FBQUE7O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDaEJqQixZQUFBQSxJQURnQixHQUNURCxPQUFPLEVBREU7QUFFbEJtQixZQUFBQSxJQUZrQixHQUVYLElBRlc7O0FBQUEsaUJBSWxCbEIsSUFKa0I7QUFBQTtBQUFBO0FBQUE7O0FBQUE7QUFBQSxtQkFLSG1CLHNCQUFVQyxZQUFWLENBQXVCLE9BQXZCLEVBQWdDcEIsSUFBSSxDQUFDa0IsSUFBTCxDQUFVRyxHQUExQyxDQUxHOztBQUFBO0FBS2ZDLFlBQUFBLEdBTGU7O0FBQUEsaUJBT2pCQSxHQUFHLENBQUNDLE1BUGE7QUFBQTtBQUFBO0FBQUE7O0FBUXBCTCxZQUFBQSxJQUFJLHFCQUNBSSxHQUFHLENBQUNFLElBQUosRUFEQTtBQUVISCxjQUFBQSxHQUFHLEVBQUVyQixJQUFJLENBQUNrQixJQUFMLENBQVVHO0FBRlosY0FBSjtBQVJvQjtBQUFBOztBQUFBO0FBQUEsb0NBaUJoQnJCLElBakJnQixDQWNuQnlCLGtCQWRtQixDQWVsQkMsT0Fma0IsRUFlUEMsSUFmTyx5QkFlUEEsSUFmTyxFQWVEQyxNQWZDLHlCQWVEQSxNQWZDLEVBZU9DLE9BZlAseUJBZU9BLE9BZlAsRUFlZ0JDLEtBZmhCLHlCQWVnQkEsS0FmaEIsRUFldUJDLElBZnZCLHlCQWV1QkEsSUFmdkI7QUFBQTtBQUFBLG1CQW1CZFosc0JBQVVhLEdBQVYsQ0FBYyxPQUFkLEVBQXVCaEMsSUFBSSxDQUFDa0IsSUFBTCxDQUFVRyxHQUFqQyxFQUFzQztBQUFFTSxjQUFBQSxJQUFJLEVBQUpBLElBQUY7QUFBUUMsY0FBQUEsTUFBTSxFQUFOQSxNQUFSO0FBQWdCQyxjQUFBQSxPQUFPLEVBQVBBLE9BQWhCO0FBQXlCQyxjQUFBQSxLQUFLLEVBQUxBLEtBQXpCO0FBQWdDQyxjQUFBQSxJQUFJLEVBQUpBO0FBQWhDLGFBQXRDLENBbkJjOztBQUFBO0FBcUJwQmIsWUFBQUEsSUFBSSxHQUFHO0FBQ05TLGNBQUFBLElBQUksRUFBSkEsSUFETTtBQUVOQyxjQUFBQSxNQUFNLEVBQU5BLE1BRk07QUFHTkMsY0FBQUEsT0FBTyxFQUFQQSxPQUhNO0FBSU5DLGNBQUFBLEtBQUssRUFBTEEsS0FKTTtBQUtOQyxjQUFBQSxJQUFJLEVBQUpBLElBTE07QUFNTlYsY0FBQUEsR0FBRyxFQUFFckIsSUFBSSxDQUFDa0IsSUFBTCxDQUFVRztBQU5ULGFBQVA7O0FBckJvQjtBQUFBLDhDQWdDZkgsSUFoQ2U7O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsR0FBSDs7QUFBQSxrQkFBUEQsT0FBTztBQUFBO0FBQUE7QUFBQSxHQUFiOzs7ZUFtQ1E7QUFBRVosRUFBQUEsS0FBSyxFQUFMQSxLQUFGO0FBQVNTLEVBQUFBLE1BQU0sRUFBTkEsTUFBVDtBQUFpQmYsRUFBQUEsT0FBTyxFQUFQQSxPQUFqQjtBQUEwQmtCLEVBQUFBLE9BQU8sRUFBUEE7QUFBMUIiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBAZmxvd1xuXG5pbXBvcnQgZmlyZWJhc2UgZnJvbSAnZmlyZWJhc2UvYXBwJztcbmltcG9ydCAnZmlyZWJhc2UvYXV0aCc7XG5cbmltcG9ydCBmaXJlc3RvcmUgZnJvbSAnLi9maXJlc3RvcmUnO1xuXG5leHBvcnQgY29uc3QgZ2V0QXV0aCA9ICgpOiBGaXJlYmFzZUF1dGggfCBudWxsID0+IHtcblx0Y29uc3QgYXV0aCA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdhdXRoJyk7XG5cblx0cmV0dXJuIEpTT04ucGFyc2UoYXV0aCk7XG59O1xuXG5leHBvcnQgY29uc3QgbG9naW4gPSBhc3luYyAoc3RvcmFnZU9ubHk6IGJvb2xlYW4gPSBmYWxzZSk6IEZpcmViYXNlQXV0aCA9PiB7XG5cdGxldCBhdXRoID0gZ2V0QXV0aCgpO1xuXG5cdGlmIChhdXRoICE9PSBudWxsKSB7XG5cdFx0cmV0dXJuIGF1dGg7XG5cdH0gZWxzZSBpZiAoIXN0b3JhZ2VPbmx5KSB7XG5cdFx0dHJ5IHtcblx0XHRcdGNvbnN0IHByb3ZpZGVyID0gbmV3IGZpcmViYXNlLmF1dGguR29vZ2xlQXV0aFByb3ZpZGVyKCk7XG5cdFx0XHRmaXJlYmFzZS5hdXRoKCkudXNlRGV2aWNlTGFuZ3VhZ2UoKTtcblxuXHRcdFx0YXV0aCA9IGF3YWl0IGZpcmViYXNlLmF1dGgoKS5zaWduSW5XaXRoUG9wdXAocHJvdmlkZXIpO1xuXG5cdFx0XHRsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgnYXV0aCcsIEpTT04uc3RyaW5naWZ5KGF1dGgpKTtcblx0XHR9IGNhdGNoIChlcnIpIHtcblx0XHRcdC8vIERvIE5vdGhpbmdcblx0XHR9XG5cdH1cblxuXHRyZXR1cm4gYXV0aDtcbn07XG5cbmV4cG9ydCBjb25zdCBsb2dvdXQgPSBhc3luYyAoKSA9PiB7XG5cdGNvbnN0IGF1dGggPSBnZXRBdXRoKCk7XG5cblx0aWYgKGF1dGgpIHtcblx0XHR0cnkge1xuXHRcdFx0YXdhaXQgZmlyZWJhc2UuYXV0aCgpLnNpZ25PdXQoKTtcblx0XHRcdGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdhdXRoJyk7XG5cdFx0fSBjYXRjaCAoZXJyKSB7XG5cdFx0XHRyZXR1cm4gZmFsc2U7XG5cdFx0fVxuXHR9XG5cblx0cmV0dXJuIHRydWU7XG59O1xuXG5leHBvcnQgY29uc3QgZ2V0VXNlciA9IGFzeW5jICgpID0+IHtcblx0Y29uc3QgYXV0aCA9IGdldEF1dGgoKTtcblx0bGV0IHVzZXIgPSBudWxsO1xuXG5cdGlmIChhdXRoKSB7XG5cdFx0Y29uc3QgZG9jID0gYXdhaXQgZmlyZXN0b3JlLnJlYWREb2N1bWVudCgndXNlcnMnLCBhdXRoLnVzZXIudWlkKTtcblxuXHRcdGlmIChkb2MuZXhpc3RzKSB7XG5cdFx0XHR1c2VyID0ge1xuXHRcdFx0XHQuLi5kb2MuZGF0YSgpLFxuXHRcdFx0XHR1aWQ6IGF1dGgudXNlci51aWQsXG5cdFx0XHR9O1xuXHRcdH0gZWxzZSB7XG5cdFx0XHRjb25zdCB7XG5cdFx0XHRcdGFkZGl0aW9uYWxVc2VySW5mbzoge1xuXHRcdFx0XHRcdHByb2ZpbGU6IHsgbmFtZSwgZ2VuZGVyLCBwaWN0dXJlLCBlbWFpbCwgbGluayB9LFxuXHRcdFx0XHR9LFxuXHRcdFx0fSA9IGF1dGg7XG5cblx0XHRcdGF3YWl0IGZpcmVzdG9yZS5zZXQoJ3VzZXJzJywgYXV0aC51c2VyLnVpZCwgeyBuYW1lLCBnZW5kZXIsIHBpY3R1cmUsIGVtYWlsLCBsaW5rIH0pO1xuXG5cdFx0XHR1c2VyID0ge1xuXHRcdFx0XHRuYW1lLFxuXHRcdFx0XHRnZW5kZXIsXG5cdFx0XHRcdHBpY3R1cmUsXG5cdFx0XHRcdGVtYWlsLFxuXHRcdFx0XHRsaW5rLFxuXHRcdFx0XHR1aWQ6IGF1dGgudXNlci51aWQsXG5cdFx0XHR9O1xuXHRcdH1cblx0fVxuXG5cdHJldHVybiB1c2VyO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgeyBsb2dpbiwgbG9nb3V0LCBnZXRBdXRoLCBnZXRVc2VyIH07XG4iXX0="
     }
   ],
@@ -6714,7 +7541,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/firebase/firestore.js",
       "hash": "NUwKOg",
-      "browserifyId": 468,
+      "browserifyId": 511,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZpcmVzdG9yZS5qcz92ZXJzaW9uPU5Vd0tPZyJdLCJuYW1lcyI6WyJkYiIsImNyZWF0ZURiIiwiZmlyZWJhc2UiLCJmaXJlc3RvcmUiLCJjcmVhdGVEYklmTm90SW5pdGlhbGl6ZWQiLCJmbiIsInNldCIsImtleSIsImlkIiwiZGF0YSIsInNhbml0aXplZERhdGEiLCJPYmplY3QiLCJlbnRyaWVzIiwicmVkdWNlIiwiYWNjIiwidmFsdWUiLCJ1bmRlZmluZWQiLCJjb2xsZWN0aW9uIiwiZG9jIiwicmVhZERvY3VtZW50IiwiZG9jS2V5IiwiZ2V0Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFFQTs7QUFDQTs7QUFFQSxJQUFJQSxFQUFKOztBQUVBLElBQU1DLFFBQVEsR0FBRyxTQUFYQSxRQUFXLEdBQU07QUFDdEJELEVBQUFBLEVBQUUsR0FBR0UsZ0JBQVNDLFNBQVQsRUFBTDtBQUNBLENBRkQ7O0FBSUEsSUFBTUMsd0JBQXdCLEdBQUcsU0FBM0JBLHdCQUEyQixDQUFBQyxFQUFFLEVBQUk7QUFDdEMsU0FBTyxZQUFlO0FBQ3JCLFFBQUksQ0FBQ0wsRUFBTCxFQUFTO0FBQ1JDLE1BQUFBLFFBQVE7QUFDUjs7QUFFRCxXQUFPSSxFQUFFLE1BQUYsbUJBQVA7QUFDQSxHQU5EO0FBT0EsQ0FSRDs7QUFVTyxJQUFNQyxHQUFHLEdBQUdGLHdCQUF3QixDQUFDLFVBQUNHLEdBQUQsRUFBTUMsRUFBTixFQUFVQyxJQUFWLEVBQW1CO0FBQzlELE1BQU1DLGFBQXFCLEdBQUdDLE1BQU0sQ0FBQ0MsT0FBUCxDQUFlSCxJQUFmLEVBQXFCSSxNQUFyQixDQUE0QixVQUFDQyxHQUFELFFBQXVCO0FBQUE7QUFBQSxRQUFoQlAsR0FBZ0I7QUFBQSxRQUFYUSxLQUFXOztBQUNoRixRQUFJQSxLQUFLLEtBQUtDLFNBQWQsRUFBeUI7QUFDeEJGLE1BQUFBLEdBQUcsQ0FBQ1AsR0FBRCxDQUFILEdBQVdRLEtBQVg7QUFDQTs7QUFFRCxXQUFPRCxHQUFQO0FBQ0EsR0FONkIsRUFNM0IsRUFOMkIsQ0FBOUI7QUFRQSxTQUFPZCxFQUFFLENBQ1BpQixVQURLLENBQ01WLEdBRE4sRUFFTFcsR0FGSyxDQUVEVixFQUZDLEVBR0xGLEdBSEssQ0FHREksYUFIQyxDQUFQO0FBSUEsQ0FiMEMsQ0FBcEM7O0FBZUEsSUFBTVMsWUFBWSxHQUFHZix3QkFBd0IsQ0FBQyxVQUFDRyxHQUFELEVBQU1hLE1BQU4sRUFBaUI7QUFDckUsU0FBT3BCLEVBQUUsQ0FDUGlCLFVBREssQ0FDTVYsR0FETixFQUVMVyxHQUZLLENBRURFLE1BRkMsRUFHTEMsR0FISyxFQUFQO0FBSUEsQ0FMbUQsQ0FBN0M7O2VBT1E7QUFBRWYsRUFBQUEsR0FBRyxFQUFIQSxHQUFGO0FBQU9hLEVBQUFBLFlBQVksRUFBWkE7QUFBUCIsInNvdXJjZXNDb250ZW50IjpbIi8vIEBmbG93XG5cbmltcG9ydCBmaXJlYmFzZSBmcm9tICdmaXJlYmFzZS9hcHAnO1xuaW1wb3J0ICdmaXJlYmFzZS9maXJlc3RvcmUnO1xuXG5sZXQgZGI6IGZpcmViYXNlLmZpcmVzdG9yZS5GaXJlc3RvcmU7XG5cbmNvbnN0IGNyZWF0ZURiID0gKCkgPT4ge1xuXHRkYiA9IGZpcmViYXNlLmZpcmVzdG9yZSgpO1xufTtcblxuY29uc3QgY3JlYXRlRGJJZk5vdEluaXRpYWxpemVkID0gZm4gPT4ge1xuXHRyZXR1cm4gKC4uLnBhcmFtcykgPT4ge1xuXHRcdGlmICghZGIpIHtcblx0XHRcdGNyZWF0ZURiKCk7XG5cdFx0fVxuXG5cdFx0cmV0dXJuIGZuKC4uLnBhcmFtcyk7XG5cdH07XG59O1xuXG5leHBvcnQgY29uc3Qgc2V0ID0gY3JlYXRlRGJJZk5vdEluaXRpYWxpemVkKChrZXksIGlkLCBkYXRhKSA9PiB7XG5cdGNvbnN0IHNhbml0aXplZERhdGE6IG9iamVjdCA9IE9iamVjdC5lbnRyaWVzKGRhdGEpLnJlZHVjZSgoYWNjLCBba2V5LCB2YWx1ZV0pID0+IHtcblx0XHRpZiAodmFsdWUgIT09IHVuZGVmaW5lZCkge1xuXHRcdFx0YWNjW2tleV0gPSB2YWx1ZTtcblx0XHR9XG5cblx0XHRyZXR1cm4gYWNjO1xuXHR9LCB7fSk7XG5cblx0cmV0dXJuIGRiXG5cdFx0LmNvbGxlY3Rpb24oa2V5KVxuXHRcdC5kb2MoaWQpXG5cdFx0LnNldChzYW5pdGl6ZWREYXRhKTtcbn0pO1xuXG5leHBvcnQgY29uc3QgcmVhZERvY3VtZW50ID0gY3JlYXRlRGJJZk5vdEluaXRpYWxpemVkKChrZXksIGRvY0tleSkgPT4ge1xuXHRyZXR1cm4gZGJcblx0XHQuY29sbGVjdGlvbihrZXkpXG5cdFx0LmRvYyhkb2NLZXkpXG5cdFx0LmdldCgpO1xufSk7XG5cbmV4cG9ydCBkZWZhdWx0IHsgc2V0LCByZWFkRG9jdW1lbnQgfTtcbiJdfQ=="
     }
   ],
@@ -6730,7 +7557,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/firebase/index.js",
       "hash": "djY10w",
-      "browserifyId": 469,
+      "browserifyId": 512,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzP3ZlcnNpb249ZGpZMTB3Il0sIm5hbWVzIjpbImZpcmViYXNlIiwiaW5pdGlhbGl6ZUFwcCIsImZpcmViYXNlQ29uZmlnIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBRUE7O0FBRUE7O0FBSUE7O0FBQ0E7O0FBSEFBLGdCQUFTQyxhQUFULENBQXVCQyxvQkFBdkI7O2VBSWVGIiwic291cmNlc0NvbnRlbnQiOlsiLy8gQGZsb3dcblxuaW1wb3J0IGZpcmViYXNlIGZyb20gJ2ZpcmViYXNlL2FwcCc7XG5cbmltcG9ydCBmaXJlYmFzZUNvbmZpZyBmcm9tICcuLi8uLi8uLi9jb25maWcvZmlyZWJhc2UnO1xuXG5maXJlYmFzZS5pbml0aWFsaXplQXBwKGZpcmViYXNlQ29uZmlnKTtcblxuZXhwb3J0IHsgZGVmYXVsdCBhcyBhdXRoIH0gZnJvbSAnLi9hdXRoJztcbmV4cG9ydCB7IGRlZmF1bHQgYXMgZmlyZXN0b3JlIH0gZnJvbSAnLi9maXJlc3RvcmUnO1xuZXhwb3J0IGRlZmF1bHQgZmlyZWJhc2U7XG4iXX0="
     }
   ],
@@ -6742,12 +7569,12 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/notification.js",
       "hash": "nI9aKQ",
-      "browserifyId": 470,
+      "browserifyId": 513,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm5vdGlmaWNhdGlvbi5qcz92ZXJzaW9uPW5JOWFLUSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7O0FBQUEiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgeyBzaG93Tm90aWZpY2F0aW9uIH0gZnJvbSAnLi4vY29tcG9uZW50cy92aWV3L1NuYWNrYmFyJztcbiJdfQ=="
     }
   ],
   "/home/dustin/CS/recipes/src/lib/redux/actions/auth.js": [
-    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = exports.getAuth = exports.logout = exports.FIREBASE_LOGOUT_FAILURE = exports.FIREBASE_LOGOUT_SUCCESS = exports.FIREBASE_LOGOUT_STARTED = exports.login = exports.FIREBASE_LOGIN_FAILURE = exports.FIREBASE_LOGIN_SUCCESS = exports.FIREBASE_LOGIN_STARTED = exports.getUser = exports.REQUEST_USER_FAILURE = exports.REQUEST_USER_SUCCESS = exports.REQUEST_USER_STARTED = void 0;\n\nvar _regenerator = _interopRequireDefault(require(\"@babel/runtime/regenerator\"));\n\nvar _asyncToGenerator2 = _interopRequireDefault(require(\"@babel/runtime/helpers/asyncToGenerator\"));\n\nvar _helpers = require(\"../helpers\");\n\nvar _firebase = require(\"../../firebase\");\n\nvar getUserActions = (0, _helpers.createActionTypes)('request', 'user');\nvar REQUEST_USER_STARTED = getUserActions.actionStarted;\nexports.REQUEST_USER_STARTED = REQUEST_USER_STARTED;\nvar REQUEST_USER_SUCCESS = getUserActions.actionSuccess;\nexports.REQUEST_USER_SUCCESS = REQUEST_USER_SUCCESS;\nvar REQUEST_USER_FAILURE = getUserActions.actionFailure;\nexports.REQUEST_USER_FAILURE = REQUEST_USER_FAILURE;\n\nvar getUser = function getUser() {\n  return (\n    /*#__PURE__*/\n    function () {\n      var _ref = (0, _asyncToGenerator2[\"default\"])(\n      /*#__PURE__*/\n      _regenerator[\"default\"].mark(function _callee(dispatch) {\n        var actionStarted, actionSuccess, actionFailure, user;\n        return _regenerator[\"default\"].wrap(function _callee$(_context) {\n          while (1) {\n            switch (_context.prev = _context.next) {\n              case 0:\n                actionStarted = getUserActions.actionStarted, actionSuccess = getUserActions.actionSuccess, actionFailure = getUserActions.actionFailure;\n                dispatch({\n                  type: actionStarted\n                });\n                _context.prev = 2;\n                _context.next = 5;\n                return _firebase.auth.getUser();\n\n              case 5:\n                user = _context.sent;\n                dispatch({\n                  type: actionSuccess,\n                  response: user\n                });\n                _context.next = 12;\n                break;\n\n              case 9:\n                _context.prev = 9;\n                _context.t0 = _context[\"catch\"](2);\n                dispatch({\n                  type: actionFailure,\n                  err: _context.t0\n                });\n\n              case 12:\n              case \"end\":\n                return _context.stop();\n            }\n          }\n        }, _callee, null, [[2, 9]]);\n      }));\n\n      return function (_x) {\n        return _ref.apply(this, arguments);\n      };\n    }()\n  );\n};\n\nexports.getUser = getUser;\nvar loginActions = (0, _helpers.createActionTypes)('firebase', 'login');\nvar FIREBASE_LOGIN_STARTED = loginActions.actionStarted;\nexports.FIREBASE_LOGIN_STARTED = FIREBASE_LOGIN_STARTED;\nvar FIREBASE_LOGIN_SUCCESS = loginActions.actionSuccess;\nexports.FIREBASE_LOGIN_SUCCESS = FIREBASE_LOGIN_SUCCESS;\nvar FIREBASE_LOGIN_FAILURE = loginActions.actionFailure;\nexports.FIREBASE_LOGIN_FAILURE = FIREBASE_LOGIN_FAILURE;\n\nvar login = function login() {\n  var storageOnly = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;\n  return (\n    /*#__PURE__*/\n    function () {\n      var _ref2 = (0, _asyncToGenerator2[\"default\"])(\n      /*#__PURE__*/\n      _regenerator[\"default\"].mark(function _callee2(dispatch) {\n        var actionStarted, actionSuccess, actionFailure, response;\n        return _regenerator[\"default\"].wrap(function _callee2$(_context2) {\n          while (1) {\n            switch (_context2.prev = _context2.next) {\n              case 0:\n                actionStarted = loginActions.actionStarted, actionSuccess = loginActions.actionSuccess, actionFailure = loginActions.actionFailure;\n                dispatch({\n                  type: actionStarted\n                });\n                _context2.prev = 2;\n                _context2.next = 5;\n                return _firebase.auth.login(storageOnly);\n\n              case 5:\n                response = _context2.sent;\n                dispatch({\n                  type: actionSuccess,\n                  response: response\n                });\n                dispatch(getUser());\n                _context2.next = 13;\n                break;\n\n              case 10:\n                _context2.prev = 10;\n                _context2.t0 = _context2[\"catch\"](2);\n                dispatch({\n                  type: actionFailure,\n                  err: _context2.t0\n                });\n\n              case 13:\n              case \"end\":\n                return _context2.stop();\n            }\n          }\n        }, _callee2, null, [[2, 10]]);\n      }));\n\n      return function (_x2) {\n        return _ref2.apply(this, arguments);\n      };\n    }()\n  );\n};\n\nexports.login = login;\nvar logoutActions = (0, _helpers.createActionTypes)('firebase', 'logout');\nvar FIREBASE_LOGOUT_STARTED = logoutActions.actionStarted;\nexports.FIREBASE_LOGOUT_STARTED = FIREBASE_LOGOUT_STARTED;\nvar FIREBASE_LOGOUT_SUCCESS = logoutActions.actionSuccess;\nexports.FIREBASE_LOGOUT_SUCCESS = FIREBASE_LOGOUT_SUCCESS;\nvar FIREBASE_LOGOUT_FAILURE = logoutActions.actionFailure;\nexports.FIREBASE_LOGOUT_FAILURE = FIREBASE_LOGOUT_FAILURE;\n\nvar logout = function logout() {\n  return (\n    /*#__PURE__*/\n    function () {\n      var _ref3 = (0, _asyncToGenerator2[\"default\"])(\n      /*#__PURE__*/\n      _regenerator[\"default\"].mark(function _callee3(dispatch) {\n        var actionStarted, actionSuccess, actionFailure, response;\n        return _regenerator[\"default\"].wrap(function _callee3$(_context3) {\n          while (1) {\n            switch (_context3.prev = _context3.next) {\n              case 0:\n                actionStarted = logoutActions.actionStarted, actionSuccess = logoutActions.actionSuccess, actionFailure = logoutActions.actionFailure;\n                dispatch({\n                  type: actionStarted\n                });\n                _context3.prev = 2;\n                _context3.next = 5;\n                return _firebase.auth.logout();\n\n              case 5:\n                response = _context3.sent;\n                dispatch({\n                  type: actionSuccess,\n                  response: response\n                });\n                _context3.next = 12;\n                break;\n\n              case 9:\n                _context3.prev = 9;\n                _context3.t0 = _context3[\"catch\"](2);\n                dispatch({\n                  type: actionFailure,\n                  err: _context3.t0\n                });\n\n              case 12:\n              case \"end\":\n                return _context3.stop();\n            }\n          }\n        }, _callee3, null, [[2, 9]]);\n      }));\n\n      return function (_x3) {\n        return _ref3.apply(this, arguments);\n      };\n    }()\n  );\n};\n\nexports.logout = logout;\nvar getAuth = _firebase.auth.getAuth;\nexports.getAuth = getAuth;\nvar _default = {\n  FIREBASE_LOGIN_STARTED: FIREBASE_LOGIN_STARTED,\n  FIREBASE_LOGIN_SUCCESS: FIREBASE_LOGIN_SUCCESS,\n  FIREBASE_LOGIN_FAILURE: FIREBASE_LOGIN_FAILURE,\n  login: login,\n  FIREBASE_LOGOUT_STARTED: FIREBASE_LOGOUT_STARTED,\n  FIREBASE_LOGOUT_SUCCESS: FIREBASE_LOGOUT_SUCCESS,\n  FIREBASE_LOGOUT_FAILURE: FIREBASE_LOGOUT_FAILURE,\n  logout: logout,\n  REQUEST_USER_STARTED: REQUEST_USER_STARTED,\n  REQUEST_USER_SUCCESS: REQUEST_USER_SUCCESS,\n  REQUEST_USER_FAILURE: REQUEST_USER_FAILURE,\n  getUser: getUser,\n  getAuth: getAuth\n};\nexports[\"default\"] = _default;\n",
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = exports.getAuth = exports.logout = exports.FIREBASE_LOGOUT_FAILURE = exports.FIREBASE_LOGOUT_SUCCESS = exports.FIREBASE_LOGOUT_STARTED = exports.login = exports.FIREBASE_LOGIN_FAILURE = exports.FIREBASE_LOGIN_SUCCESS = exports.FIREBASE_LOGIN_STARTED = exports.getUser = exports.REQUEST_USER_FAILURE = exports.REQUEST_USER_SUCCESS = exports.REQUEST_USER_STARTED = exports.loginUser = exports.loginUserFailure = exports.loginUserSuccess = exports.loginUserStarted = void 0;\n\nvar _regenerator = _interopRequireDefault(require(\"@babel/runtime/regenerator\"));\n\nvar _asyncToGenerator2 = _interopRequireDefault(require(\"@babel/runtime/helpers/asyncToGenerator\"));\n\nvar _helpers = require(\"../helpers\");\n\nvar _firebase = require(\"../../firebase\");\n\nvar loginUserAction = (0, _helpers.createActions)('login');\nvar loginUserStarted = loginUserAction.actionStarted;\nexports.loginUserStarted = loginUserStarted;\nvar loginUserSuccess = loginUserAction.actionSuccess;\nexports.loginUserSuccess = loginUserSuccess;\nvar loginUserFailure = loginUserAction.actionFailure;\nexports.loginUserFailure = loginUserFailure;\n\nvar loginUser = function loginUser(email, password) {\n  return loginUserAction.handler('login', 'POST', {\n    email: email,\n    password: password\n  }, undefined, {\n    onSuccess: console.log\n  });\n};\n\nexports.loginUser = loginUser;\nvar getUserActions = (0, _helpers.createActionTypes)('request', 'user');\nvar REQUEST_USER_STARTED = getUserActions.actionStarted;\nexports.REQUEST_USER_STARTED = REQUEST_USER_STARTED;\nvar REQUEST_USER_SUCCESS = getUserActions.actionSuccess;\nexports.REQUEST_USER_SUCCESS = REQUEST_USER_SUCCESS;\nvar REQUEST_USER_FAILURE = getUserActions.actionFailure;\nexports.REQUEST_USER_FAILURE = REQUEST_USER_FAILURE;\n\nvar getUser = function getUser() {\n  return (\n    /*#__PURE__*/\n    function () {\n      var _ref = (0, _asyncToGenerator2[\"default\"])(\n      /*#__PURE__*/\n      _regenerator[\"default\"].mark(function _callee(dispatch) {\n        var actionStarted, actionSuccess, actionFailure, user;\n        return _regenerator[\"default\"].wrap(function _callee$(_context) {\n          while (1) {\n            switch (_context.prev = _context.next) {\n              case 0:\n                actionStarted = getUserActions.actionStarted, actionSuccess = getUserActions.actionSuccess, actionFailure = getUserActions.actionFailure;\n                dispatch({\n                  type: actionStarted\n                });\n                _context.prev = 2;\n                _context.next = 5;\n                return _firebase.auth.getUser();\n\n              case 5:\n                user = _context.sent;\n                dispatch({\n                  type: actionSuccess,\n                  response: user\n                });\n                _context.next = 12;\n                break;\n\n              case 9:\n                _context.prev = 9;\n                _context.t0 = _context[\"catch\"](2);\n                dispatch({\n                  type: actionFailure,\n                  err: _context.t0\n                });\n\n              case 12:\n              case \"end\":\n                return _context.stop();\n            }\n          }\n        }, _callee, null, [[2, 9]]);\n      }));\n\n      return function (_x) {\n        return _ref.apply(this, arguments);\n      };\n    }()\n  );\n};\n\nexports.getUser = getUser;\nvar loginActions = (0, _helpers.createActionTypes)('firebase', 'login');\nvar FIREBASE_LOGIN_STARTED = loginActions.actionStarted;\nexports.FIREBASE_LOGIN_STARTED = FIREBASE_LOGIN_STARTED;\nvar FIREBASE_LOGIN_SUCCESS = loginActions.actionSuccess;\nexports.FIREBASE_LOGIN_SUCCESS = FIREBASE_LOGIN_SUCCESS;\nvar FIREBASE_LOGIN_FAILURE = loginActions.actionFailure;\nexports.FIREBASE_LOGIN_FAILURE = FIREBASE_LOGIN_FAILURE;\n\nvar login = function login() {\n  var storageOnly = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;\n  return (\n    /*#__PURE__*/\n    function () {\n      var _ref2 = (0, _asyncToGenerator2[\"default\"])(\n      /*#__PURE__*/\n      _regenerator[\"default\"].mark(function _callee2(dispatch) {\n        var actionStarted, actionSuccess, actionFailure, response;\n        return _regenerator[\"default\"].wrap(function _callee2$(_context2) {\n          while (1) {\n            switch (_context2.prev = _context2.next) {\n              case 0:\n                actionStarted = loginActions.actionStarted, actionSuccess = loginActions.actionSuccess, actionFailure = loginActions.actionFailure;\n                dispatch({\n                  type: actionStarted\n                });\n                _context2.prev = 2;\n                _context2.next = 5;\n                return _firebase.auth.login(storageOnly);\n\n              case 5:\n                response = _context2.sent;\n                dispatch({\n                  type: actionSuccess,\n                  response: response\n                });\n                dispatch(getUser());\n                _context2.next = 13;\n                break;\n\n              case 10:\n                _context2.prev = 10;\n                _context2.t0 = _context2[\"catch\"](2);\n                dispatch({\n                  type: actionFailure,\n                  err: _context2.t0\n                });\n\n              case 13:\n              case \"end\":\n                return _context2.stop();\n            }\n          }\n        }, _callee2, null, [[2, 10]]);\n      }));\n\n      return function (_x2) {\n        return _ref2.apply(this, arguments);\n      };\n    }()\n  );\n};\n\nexports.login = login;\nvar logoutActions = (0, _helpers.createActionTypes)('firebase', 'logout');\nvar FIREBASE_LOGOUT_STARTED = logoutActions.actionStarted;\nexports.FIREBASE_LOGOUT_STARTED = FIREBASE_LOGOUT_STARTED;\nvar FIREBASE_LOGOUT_SUCCESS = logoutActions.actionSuccess;\nexports.FIREBASE_LOGOUT_SUCCESS = FIREBASE_LOGOUT_SUCCESS;\nvar FIREBASE_LOGOUT_FAILURE = logoutActions.actionFailure;\nexports.FIREBASE_LOGOUT_FAILURE = FIREBASE_LOGOUT_FAILURE;\n\nvar logout = function logout() {\n  return (\n    /*#__PURE__*/\n    function () {\n      var _ref3 = (0, _asyncToGenerator2[\"default\"])(\n      /*#__PURE__*/\n      _regenerator[\"default\"].mark(function _callee3(dispatch) {\n        var actionStarted, actionSuccess, actionFailure, response;\n        return _regenerator[\"default\"].wrap(function _callee3$(_context3) {\n          while (1) {\n            switch (_context3.prev = _context3.next) {\n              case 0:\n                actionStarted = logoutActions.actionStarted, actionSuccess = logoutActions.actionSuccess, actionFailure = logoutActions.actionFailure;\n                dispatch({\n                  type: actionStarted\n                });\n                _context3.prev = 2;\n                _context3.next = 5;\n                return _firebase.auth.logout();\n\n              case 5:\n                response = _context3.sent;\n                dispatch({\n                  type: actionSuccess,\n                  response: response\n                });\n                _context3.next = 12;\n                break;\n\n              case 9:\n                _context3.prev = 9;\n                _context3.t0 = _context3[\"catch\"](2);\n                dispatch({\n                  type: actionFailure,\n                  err: _context3.t0\n                });\n\n              case 12:\n              case \"end\":\n                return _context3.stop();\n            }\n          }\n        }, _callee3, null, [[2, 9]]);\n      }));\n\n      return function (_x3) {\n        return _ref3.apply(this, arguments);\n      };\n    }()\n  );\n};\n\nexports.logout = logout;\nvar getAuth = _firebase.auth.getAuth;\nexports.getAuth = getAuth;\nvar _default = {\n  FIREBASE_LOGIN_STARTED: FIREBASE_LOGIN_STARTED,\n  FIREBASE_LOGIN_SUCCESS: FIREBASE_LOGIN_SUCCESS,\n  FIREBASE_LOGIN_FAILURE: FIREBASE_LOGIN_FAILURE,\n  login: login,\n  FIREBASE_LOGOUT_STARTED: FIREBASE_LOGOUT_STARTED,\n  FIREBASE_LOGOUT_SUCCESS: FIREBASE_LOGOUT_SUCCESS,\n  FIREBASE_LOGOUT_FAILURE: FIREBASE_LOGOUT_FAILURE,\n  logout: logout,\n  REQUEST_USER_STARTED: REQUEST_USER_STARTED,\n  REQUEST_USER_SUCCESS: REQUEST_USER_SUCCESS,\n  REQUEST_USER_FAILURE: REQUEST_USER_FAILURE,\n  getUser: getUser,\n  getAuth: getAuth\n};\nexports[\"default\"] = _default;\n",
     {
       "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
       "@babel/runtime/helpers/asyncToGenerator": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/asyncToGenerator.js",
@@ -6757,9 +7584,9 @@
     },
     {
       "id": "/home/dustin/CS/recipes/src/lib/redux/actions/auth.js",
-      "hash": "AdzRRg",
-      "browserifyId": 471,
-      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF1dGguanM/dmVyc2lvbj1BZHpSUmciXSwibmFtZXMiOlsiZ2V0VXNlckFjdGlvbnMiLCJSRVFVRVNUX1VTRVJfU1RBUlRFRCIsImFjdGlvblN0YXJ0ZWQiLCJSRVFVRVNUX1VTRVJfU1VDQ0VTUyIsImFjdGlvblN1Y2Nlc3MiLCJSRVFVRVNUX1VTRVJfRkFJTFVSRSIsImFjdGlvbkZhaWx1cmUiLCJnZXRVc2VyIiwiZGlzcGF0Y2giLCJ0eXBlIiwiYXV0aCIsInVzZXIiLCJyZXNwb25zZSIsImVyciIsImxvZ2luQWN0aW9ucyIsIkZJUkVCQVNFX0xPR0lOX1NUQVJURUQiLCJGSVJFQkFTRV9MT0dJTl9TVUNDRVNTIiwiRklSRUJBU0VfTE9HSU5fRkFJTFVSRSIsImxvZ2luIiwic3RvcmFnZU9ubHkiLCJsb2dvdXRBY3Rpb25zIiwiRklSRUJBU0VfTE9HT1VUX1NUQVJURUQiLCJGSVJFQkFTRV9MT0dPVVRfU1VDQ0VTUyIsIkZJUkVCQVNFX0xPR09VVF9GQUlMVVJFIiwibG9nb3V0IiwiZ2V0QXV0aCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFFQSxJQUFNQSxjQUFjLEdBQUcsZ0NBQWtCLFNBQWxCLEVBQTZCLE1BQTdCLENBQXZCO0FBQ08sSUFBTUMsb0JBQW9CLEdBQUdELGNBQWMsQ0FBQ0UsYUFBNUM7O0FBQ0EsSUFBTUMsb0JBQW9CLEdBQUdILGNBQWMsQ0FBQ0ksYUFBNUM7O0FBQ0EsSUFBTUMsb0JBQW9CLEdBQUdMLGNBQWMsQ0FBQ00sYUFBNUM7OztBQUNBLElBQU1DLE9BQU8sR0FBRyxTQUFWQSxPQUFVO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLG1DQUFNLGlCQUFPQyxRQUFQO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNwQk4sZ0JBQUFBLGFBRG9CLEdBQzRCRixjQUQ1QixDQUNwQkUsYUFEb0IsRUFDTEUsYUFESyxHQUM0QkosY0FENUIsQ0FDTEksYUFESyxFQUNVRSxhQURWLEdBQzRCTixjQUQ1QixDQUNVTSxhQURWO0FBRzVCRSxnQkFBQUEsUUFBUSxDQUFDO0FBQUVDLGtCQUFBQSxJQUFJLEVBQUVQO0FBQVIsaUJBQUQsQ0FBUjtBQUg0QjtBQUFBO0FBQUEsdUJBTVJRLGVBQUtILE9BQUwsRUFOUTs7QUFBQTtBQU1yQkksZ0JBQUFBLElBTnFCO0FBUTNCSCxnQkFBQUEsUUFBUSxDQUFDO0FBQUVDLGtCQUFBQSxJQUFJLEVBQUVMLGFBQVI7QUFBdUJRLGtCQUFBQSxRQUFRLEVBQUVEO0FBQWpDLGlCQUFELENBQVI7QUFSMkI7QUFBQTs7QUFBQTtBQUFBO0FBQUE7QUFVM0JILGdCQUFBQSxRQUFRLENBQUM7QUFBRUMsa0JBQUFBLElBQUksRUFBRUgsYUFBUjtBQUF1Qk8sa0JBQUFBLEdBQUc7QUFBMUIsaUJBQUQsQ0FBUjs7QUFWMkI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsT0FBTjs7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsQ0FBaEI7OztBQWNQLElBQU1DLFlBQVksR0FBRyxnQ0FBa0IsVUFBbEIsRUFBOEIsT0FBOUIsQ0FBckI7QUFDTyxJQUFNQyxzQkFBc0IsR0FBR0QsWUFBWSxDQUFDWixhQUE1Qzs7QUFDQSxJQUFNYyxzQkFBc0IsR0FBR0YsWUFBWSxDQUFDVixhQUE1Qzs7QUFDQSxJQUFNYSxzQkFBc0IsR0FBR0gsWUFBWSxDQUFDUixhQUE1Qzs7O0FBQ0EsSUFBTVksS0FBSyxHQUFHLFNBQVJBLEtBQVE7QUFBQSxNQUFDQyxXQUFELHVFQUF3QixLQUF4QjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxtQ0FBa0Msa0JBQU9YLFFBQVA7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQzlDTixnQkFBQUEsYUFEOEMsR0FDRVksWUFERixDQUM5Q1osYUFEOEMsRUFDL0JFLGFBRCtCLEdBQ0VVLFlBREYsQ0FDL0JWLGFBRCtCLEVBQ2hCRSxhQURnQixHQUNFUSxZQURGLENBQ2hCUixhQURnQjtBQUd0REUsZ0JBQUFBLFFBQVEsQ0FBQztBQUFFQyxrQkFBQUEsSUFBSSxFQUFFUDtBQUFSLGlCQUFELENBQVI7QUFIc0Q7QUFBQTtBQUFBLHVCQU05QlEsZUFBS1EsS0FBTCxDQUFXQyxXQUFYLENBTjhCOztBQUFBO0FBTS9DUCxnQkFBQUEsUUFOK0M7QUFRckRKLGdCQUFBQSxRQUFRLENBQUM7QUFBRUMsa0JBQUFBLElBQUksRUFBRUwsYUFBUjtBQUF1QlEsa0JBQUFBLFFBQVEsRUFBUkE7QUFBdkIsaUJBQUQsQ0FBUjtBQUNBSixnQkFBQUEsUUFBUSxDQUFDRCxPQUFPLEVBQVIsQ0FBUjtBQVRxRDtBQUFBOztBQUFBO0FBQUE7QUFBQTtBQVdyREMsZ0JBQUFBLFFBQVEsQ0FBQztBQUFFQyxrQkFBQUEsSUFBSSxFQUFFSCxhQUFSO0FBQXVCTyxrQkFBQUEsR0FBRztBQUExQixpQkFBRCxDQUFSOztBQVhxRDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxPQUFsQzs7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsQ0FBZDs7O0FBZVAsSUFBTU8sYUFBYSxHQUFHLGdDQUFrQixVQUFsQixFQUE4QixRQUE5QixDQUF0QjtBQUNPLElBQU1DLHVCQUF1QixHQUFHRCxhQUFhLENBQUNsQixhQUE5Qzs7QUFDQSxJQUFNb0IsdUJBQXVCLEdBQUdGLGFBQWEsQ0FBQ2hCLGFBQTlDOztBQUNBLElBQU1tQix1QkFBdUIsR0FBR0gsYUFBYSxDQUFDZCxhQUE5Qzs7O0FBQ0EsSUFBTWtCLE1BQU0sR0FBRyxTQUFUQSxNQUFTO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLG1DQUFNLGtCQUFPaEIsUUFBUDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDbkJOLGdCQUFBQSxhQURtQixHQUM2QmtCLGFBRDdCLENBQ25CbEIsYUFEbUIsRUFDSkUsYUFESSxHQUM2QmdCLGFBRDdCLENBQ0poQixhQURJLEVBQ1dFLGFBRFgsR0FDNkJjLGFBRDdCLENBQ1dkLGFBRFg7QUFHM0JFLGdCQUFBQSxRQUFRLENBQUM7QUFBRUMsa0JBQUFBLElBQUksRUFBRVA7QUFBUixpQkFBRCxDQUFSO0FBSDJCO0FBQUE7QUFBQSx1QkFNSFEsZUFBS2MsTUFBTCxFQU5HOztBQUFBO0FBTXBCWixnQkFBQUEsUUFOb0I7QUFPMUJKLGdCQUFBQSxRQUFRLENBQUM7QUFBRUMsa0JBQUFBLElBQUksRUFBRUwsYUFBUjtBQUF1QlEsa0JBQUFBLFFBQVEsRUFBUkE7QUFBdkIsaUJBQUQsQ0FBUjtBQVAwQjtBQUFBOztBQUFBO0FBQUE7QUFBQTtBQVMxQkosZ0JBQUFBLFFBQVEsQ0FBQztBQUFFQyxrQkFBQUEsSUFBSSxFQUFFSCxhQUFSO0FBQXVCTyxrQkFBQUEsR0FBRztBQUExQixpQkFBRCxDQUFSOztBQVQwQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxPQUFOOztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxDQUFmOzs7QUFhQSxJQUFNWSxPQUFPLEdBQUdmLGVBQUtlLE9BQXJCOztlQUVRO0FBQ2RWLEVBQUFBLHNCQUFzQixFQUF0QkEsc0JBRGM7QUFFZEMsRUFBQUEsc0JBQXNCLEVBQXRCQSxzQkFGYztBQUdkQyxFQUFBQSxzQkFBc0IsRUFBdEJBLHNCQUhjO0FBSWRDLEVBQUFBLEtBQUssRUFBTEEsS0FKYztBQUtkRyxFQUFBQSx1QkFBdUIsRUFBdkJBLHVCQUxjO0FBTWRDLEVBQUFBLHVCQUF1QixFQUF2QkEsdUJBTmM7QUFPZEMsRUFBQUEsdUJBQXVCLEVBQXZCQSx1QkFQYztBQVFkQyxFQUFBQSxNQUFNLEVBQU5BLE1BUmM7QUFTZHZCLEVBQUFBLG9CQUFvQixFQUFwQkEsb0JBVGM7QUFVZEUsRUFBQUEsb0JBQW9CLEVBQXBCQSxvQkFWYztBQVdkRSxFQUFBQSxvQkFBb0IsRUFBcEJBLG9CQVhjO0FBWWRFLEVBQUFBLE9BQU8sRUFBUEEsT0FaYztBQWFka0IsRUFBQUEsT0FBTyxFQUFQQTtBQWJjIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlQWN0aW9uVHlwZXMgfSBmcm9tICcuLi9oZWxwZXJzJztcbmltcG9ydCB7IGF1dGggfSBmcm9tICcuLi8uLi9maXJlYmFzZSc7XG5cbmNvbnN0IGdldFVzZXJBY3Rpb25zID0gY3JlYXRlQWN0aW9uVHlwZXMoJ3JlcXVlc3QnLCAndXNlcicpO1xuZXhwb3J0IGNvbnN0IFJFUVVFU1RfVVNFUl9TVEFSVEVEID0gZ2V0VXNlckFjdGlvbnMuYWN0aW9uU3RhcnRlZDtcbmV4cG9ydCBjb25zdCBSRVFVRVNUX1VTRVJfU1VDQ0VTUyA9IGdldFVzZXJBY3Rpb25zLmFjdGlvblN1Y2Nlc3M7XG5leHBvcnQgY29uc3QgUkVRVUVTVF9VU0VSX0ZBSUxVUkUgPSBnZXRVc2VyQWN0aW9ucy5hY3Rpb25GYWlsdXJlO1xuZXhwb3J0IGNvbnN0IGdldFVzZXIgPSAoKSA9PiBhc3luYyAoZGlzcGF0Y2g6IERpc3BhdGNoKSA9PiB7XG5cdGNvbnN0IHsgYWN0aW9uU3RhcnRlZCwgYWN0aW9uU3VjY2VzcywgYWN0aW9uRmFpbHVyZSB9ID0gZ2V0VXNlckFjdGlvbnM7XG5cblx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25TdGFydGVkIH0pO1xuXG5cdHRyeSB7XG5cdFx0Y29uc3QgdXNlciA9IGF3YWl0IGF1dGguZ2V0VXNlcigpO1xuXG5cdFx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25TdWNjZXNzLCByZXNwb25zZTogdXNlciB9KTtcblx0fSBjYXRjaCAoZXJyKSB7XG5cdFx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25GYWlsdXJlLCBlcnIgfSk7XG5cdH1cbn07XG5cbmNvbnN0IGxvZ2luQWN0aW9ucyA9IGNyZWF0ZUFjdGlvblR5cGVzKCdmaXJlYmFzZScsICdsb2dpbicpO1xuZXhwb3J0IGNvbnN0IEZJUkVCQVNFX0xPR0lOX1NUQVJURUQgPSBsb2dpbkFjdGlvbnMuYWN0aW9uU3RhcnRlZDtcbmV4cG9ydCBjb25zdCBGSVJFQkFTRV9MT0dJTl9TVUNDRVNTID0gbG9naW5BY3Rpb25zLmFjdGlvblN1Y2Nlc3M7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HSU5fRkFJTFVSRSA9IGxvZ2luQWN0aW9ucy5hY3Rpb25GYWlsdXJlO1xuZXhwb3J0IGNvbnN0IGxvZ2luID0gKHN0b3JhZ2VPbmx5OiBib29sZWFuID0gZmFsc2UpID0+IGFzeW5jIChkaXNwYXRjaDogRGlzcGF0Y2gpID0+IHtcblx0Y29uc3QgeyBhY3Rpb25TdGFydGVkLCBhY3Rpb25TdWNjZXNzLCBhY3Rpb25GYWlsdXJlIH0gPSBsb2dpbkFjdGlvbnM7XG5cblx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25TdGFydGVkIH0pO1xuXG5cdHRyeSB7XG5cdFx0Y29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhdXRoLmxvZ2luKHN0b3JhZ2VPbmx5KTtcblxuXHRcdGRpc3BhdGNoKHsgdHlwZTogYWN0aW9uU3VjY2VzcywgcmVzcG9uc2UgfSk7XG5cdFx0ZGlzcGF0Y2goZ2V0VXNlcigpKTtcblx0fSBjYXRjaCAoZXJyKSB7XG5cdFx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25GYWlsdXJlLCBlcnIgfSk7XG5cdH1cbn07XG5cbmNvbnN0IGxvZ291dEFjdGlvbnMgPSBjcmVhdGVBY3Rpb25UeXBlcygnZmlyZWJhc2UnLCAnbG9nb3V0Jyk7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HT1VUX1NUQVJURUQgPSBsb2dvdXRBY3Rpb25zLmFjdGlvblN0YXJ0ZWQ7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HT1VUX1NVQ0NFU1MgPSBsb2dvdXRBY3Rpb25zLmFjdGlvblN1Y2Nlc3M7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HT1VUX0ZBSUxVUkUgPSBsb2dvdXRBY3Rpb25zLmFjdGlvbkZhaWx1cmU7XG5leHBvcnQgY29uc3QgbG9nb3V0ID0gKCkgPT4gYXN5bmMgKGRpc3BhdGNoOiBEaXNwYXRjaCkgPT4ge1xuXHRjb25zdCB7IGFjdGlvblN0YXJ0ZWQsIGFjdGlvblN1Y2Nlc3MsIGFjdGlvbkZhaWx1cmUgfSA9IGxvZ291dEFjdGlvbnM7XG5cblx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25TdGFydGVkIH0pO1xuXG5cdHRyeSB7XG5cdFx0Y29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhdXRoLmxvZ291dCgpO1xuXHRcdGRpc3BhdGNoKHsgdHlwZTogYWN0aW9uU3VjY2VzcywgcmVzcG9uc2UgfSk7XG5cdH0gY2F0Y2ggKGVycikge1xuXHRcdGRpc3BhdGNoKHsgdHlwZTogYWN0aW9uRmFpbHVyZSwgZXJyIH0pO1xuXHR9XG59O1xuXG5leHBvcnQgY29uc3QgZ2V0QXV0aCA9IGF1dGguZ2V0QXV0aDtcblxuZXhwb3J0IGRlZmF1bHQge1xuXHRGSVJFQkFTRV9MT0dJTl9TVEFSVEVELFxuXHRGSVJFQkFTRV9MT0dJTl9TVUNDRVNTLFxuXHRGSVJFQkFTRV9MT0dJTl9GQUlMVVJFLFxuXHRsb2dpbixcblx0RklSRUJBU0VfTE9HT1VUX1NUQVJURUQsXG5cdEZJUkVCQVNFX0xPR09VVF9TVUNDRVNTLFxuXHRGSVJFQkFTRV9MT0dPVVRfRkFJTFVSRSxcblx0bG9nb3V0LFxuXHRSRVFVRVNUX1VTRVJfU1RBUlRFRCxcblx0UkVRVUVTVF9VU0VSX1NVQ0NFU1MsXG5cdFJFUVVFU1RfVVNFUl9GQUlMVVJFLFxuXHRnZXRVc2VyLFxuXHRnZXRBdXRoLFxufTtcbiJdfQ=="
+      "hash": "yNEu+g",
+      "browserifyId": 514,
+      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF1dGguanM/dmVyc2lvbj15TkV1K2ciXSwibmFtZXMiOlsibG9naW5Vc2VyQWN0aW9uIiwibG9naW5Vc2VyU3RhcnRlZCIsImFjdGlvblN0YXJ0ZWQiLCJsb2dpblVzZXJTdWNjZXNzIiwiYWN0aW9uU3VjY2VzcyIsImxvZ2luVXNlckZhaWx1cmUiLCJhY3Rpb25GYWlsdXJlIiwibG9naW5Vc2VyIiwiZW1haWwiLCJwYXNzd29yZCIsImhhbmRsZXIiLCJ1bmRlZmluZWQiLCJvblN1Y2Nlc3MiLCJjb25zb2xlIiwibG9nIiwiZ2V0VXNlckFjdGlvbnMiLCJSRVFVRVNUX1VTRVJfU1RBUlRFRCIsIlJFUVVFU1RfVVNFUl9TVUNDRVNTIiwiUkVRVUVTVF9VU0VSX0ZBSUxVUkUiLCJnZXRVc2VyIiwiZGlzcGF0Y2giLCJ0eXBlIiwiYXV0aCIsInVzZXIiLCJyZXNwb25zZSIsImVyciIsImxvZ2luQWN0aW9ucyIsIkZJUkVCQVNFX0xPR0lOX1NUQVJURUQiLCJGSVJFQkFTRV9MT0dJTl9TVUNDRVNTIiwiRklSRUJBU0VfTE9HSU5fRkFJTFVSRSIsImxvZ2luIiwic3RvcmFnZU9ubHkiLCJsb2dvdXRBY3Rpb25zIiwiRklSRUJBU0VfTE9HT1VUX1NUQVJURUQiLCJGSVJFQkFTRV9MT0dPVVRfU1VDQ0VTUyIsIkZJUkVCQVNFX0xPR09VVF9GQUlMVVJFIiwibG9nb3V0IiwiZ2V0QXV0aCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFFQSxJQUFNQSxlQUFlLEdBQUcsNEJBQWMsT0FBZCxDQUF4QjtBQUNPLElBQU1DLGdCQUFnQixHQUFHRCxlQUFlLENBQUNFLGFBQXpDOztBQUNBLElBQU1DLGdCQUFnQixHQUFHSCxlQUFlLENBQUNJLGFBQXpDOztBQUNBLElBQU1DLGdCQUFnQixHQUFHTCxlQUFlLENBQUNNLGFBQXpDOzs7QUFDQSxJQUFNQyxTQUFTLEdBQUcsU0FBWkEsU0FBWSxDQUFDQyxLQUFELEVBQVFDLFFBQVI7QUFBQSxTQUN4QlQsZUFBZSxDQUFDVSxPQUFoQixDQUF3QixPQUF4QixFQUFpQyxNQUFqQyxFQUF5QztBQUFFRixJQUFBQSxLQUFLLEVBQUxBLEtBQUY7QUFBU0MsSUFBQUEsUUFBUSxFQUFSQTtBQUFULEdBQXpDLEVBQThERSxTQUE5RCxFQUF5RTtBQUFFQyxJQUFBQSxTQUFTLEVBQUVDLE9BQU8sQ0FBQ0M7QUFBckIsR0FBekUsQ0FEd0I7QUFBQSxDQUFsQjs7O0FBR1AsSUFBTUMsY0FBYyxHQUFHLGdDQUFrQixTQUFsQixFQUE2QixNQUE3QixDQUF2QjtBQUNPLElBQU1DLG9CQUFvQixHQUFHRCxjQUFjLENBQUNiLGFBQTVDOztBQUNBLElBQU1lLG9CQUFvQixHQUFHRixjQUFjLENBQUNYLGFBQTVDOztBQUNBLElBQU1jLG9CQUFvQixHQUFHSCxjQUFjLENBQUNULGFBQTVDOzs7QUFDQSxJQUFNYSxPQUFPLEdBQUcsU0FBVkEsT0FBVTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxtQ0FBTSxpQkFBT0MsUUFBUDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDcEJsQixnQkFBQUEsYUFEb0IsR0FDNEJhLGNBRDVCLENBQ3BCYixhQURvQixFQUNMRSxhQURLLEdBQzRCVyxjQUQ1QixDQUNMWCxhQURLLEVBQ1VFLGFBRFYsR0FDNEJTLGNBRDVCLENBQ1VULGFBRFY7QUFHNUJjLGdCQUFBQSxRQUFRLENBQUM7QUFBRUMsa0JBQUFBLElBQUksRUFBRW5CO0FBQVIsaUJBQUQsQ0FBUjtBQUg0QjtBQUFBO0FBQUEsdUJBTVJvQixlQUFLSCxPQUFMLEVBTlE7O0FBQUE7QUFNckJJLGdCQUFBQSxJQU5xQjtBQVEzQkgsZ0JBQUFBLFFBQVEsQ0FBQztBQUFFQyxrQkFBQUEsSUFBSSxFQUFFakIsYUFBUjtBQUF1Qm9CLGtCQUFBQSxRQUFRLEVBQUVEO0FBQWpDLGlCQUFELENBQVI7QUFSMkI7QUFBQTs7QUFBQTtBQUFBO0FBQUE7QUFVM0JILGdCQUFBQSxRQUFRLENBQUM7QUFBRUMsa0JBQUFBLElBQUksRUFBRWYsYUFBUjtBQUF1Qm1CLGtCQUFBQSxHQUFHO0FBQTFCLGlCQUFELENBQVI7O0FBVjJCO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE9BQU47O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLENBQWhCOzs7QUFjUCxJQUFNQyxZQUFZLEdBQUcsZ0NBQWtCLFVBQWxCLEVBQThCLE9BQTlCLENBQXJCO0FBQ08sSUFBTUMsc0JBQXNCLEdBQUdELFlBQVksQ0FBQ3hCLGFBQTVDOztBQUNBLElBQU0wQixzQkFBc0IsR0FBR0YsWUFBWSxDQUFDdEIsYUFBNUM7O0FBQ0EsSUFBTXlCLHNCQUFzQixHQUFHSCxZQUFZLENBQUNwQixhQUE1Qzs7O0FBQ0EsSUFBTXdCLEtBQUssR0FBRyxTQUFSQSxLQUFRO0FBQUEsTUFBQ0MsV0FBRCx1RUFBd0IsS0FBeEI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsbUNBQWtDLGtCQUFPWCxRQUFQO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUM5Q2xCLGdCQUFBQSxhQUQ4QyxHQUNFd0IsWUFERixDQUM5Q3hCLGFBRDhDLEVBQy9CRSxhQUQrQixHQUNFc0IsWUFERixDQUMvQnRCLGFBRCtCLEVBQ2hCRSxhQURnQixHQUNFb0IsWUFERixDQUNoQnBCLGFBRGdCO0FBR3REYyxnQkFBQUEsUUFBUSxDQUFDO0FBQUVDLGtCQUFBQSxJQUFJLEVBQUVuQjtBQUFSLGlCQUFELENBQVI7QUFIc0Q7QUFBQTtBQUFBLHVCQU05Qm9CLGVBQUtRLEtBQUwsQ0FBV0MsV0FBWCxDQU44Qjs7QUFBQTtBQU0vQ1AsZ0JBQUFBLFFBTitDO0FBUXJESixnQkFBQUEsUUFBUSxDQUFDO0FBQUVDLGtCQUFBQSxJQUFJLEVBQUVqQixhQUFSO0FBQXVCb0Isa0JBQUFBLFFBQVEsRUFBUkE7QUFBdkIsaUJBQUQsQ0FBUjtBQUNBSixnQkFBQUEsUUFBUSxDQUFDRCxPQUFPLEVBQVIsQ0FBUjtBQVRxRDtBQUFBOztBQUFBO0FBQUE7QUFBQTtBQVdyREMsZ0JBQUFBLFFBQVEsQ0FBQztBQUFFQyxrQkFBQUEsSUFBSSxFQUFFZixhQUFSO0FBQXVCbUIsa0JBQUFBLEdBQUc7QUFBMUIsaUJBQUQsQ0FBUjs7QUFYcUQ7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsT0FBbEM7O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLENBQWQ7OztBQWVQLElBQU1PLGFBQWEsR0FBRyxnQ0FBa0IsVUFBbEIsRUFBOEIsUUFBOUIsQ0FBdEI7QUFDTyxJQUFNQyx1QkFBdUIsR0FBR0QsYUFBYSxDQUFDOUIsYUFBOUM7O0FBQ0EsSUFBTWdDLHVCQUF1QixHQUFHRixhQUFhLENBQUM1QixhQUE5Qzs7QUFDQSxJQUFNK0IsdUJBQXVCLEdBQUdILGFBQWEsQ0FBQzFCLGFBQTlDOzs7QUFDQSxJQUFNOEIsTUFBTSxHQUFHLFNBQVRBLE1BQVM7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsbUNBQU0sa0JBQU9oQixRQUFQO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNuQmxCLGdCQUFBQSxhQURtQixHQUM2QjhCLGFBRDdCLENBQ25COUIsYUFEbUIsRUFDSkUsYUFESSxHQUM2QjRCLGFBRDdCLENBQ0o1QixhQURJLEVBQ1dFLGFBRFgsR0FDNkIwQixhQUQ3QixDQUNXMUIsYUFEWDtBQUczQmMsZ0JBQUFBLFFBQVEsQ0FBQztBQUFFQyxrQkFBQUEsSUFBSSxFQUFFbkI7QUFBUixpQkFBRCxDQUFSO0FBSDJCO0FBQUE7QUFBQSx1QkFNSG9CLGVBQUtjLE1BQUwsRUFORzs7QUFBQTtBQU1wQlosZ0JBQUFBLFFBTm9CO0FBTzFCSixnQkFBQUEsUUFBUSxDQUFDO0FBQUVDLGtCQUFBQSxJQUFJLEVBQUVqQixhQUFSO0FBQXVCb0Isa0JBQUFBLFFBQVEsRUFBUkE7QUFBdkIsaUJBQUQsQ0FBUjtBQVAwQjtBQUFBOztBQUFBO0FBQUE7QUFBQTtBQVMxQkosZ0JBQUFBLFFBQVEsQ0FBQztBQUFFQyxrQkFBQUEsSUFBSSxFQUFFZixhQUFSO0FBQXVCbUIsa0JBQUFBLEdBQUc7QUFBMUIsaUJBQUQsQ0FBUjs7QUFUMEI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsT0FBTjs7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsQ0FBZjs7O0FBYUEsSUFBTVksT0FBTyxHQUFHZixlQUFLZSxPQUFyQjs7ZUFFUTtBQUNkVixFQUFBQSxzQkFBc0IsRUFBdEJBLHNCQURjO0FBRWRDLEVBQUFBLHNCQUFzQixFQUF0QkEsc0JBRmM7QUFHZEMsRUFBQUEsc0JBQXNCLEVBQXRCQSxzQkFIYztBQUlkQyxFQUFBQSxLQUFLLEVBQUxBLEtBSmM7QUFLZEcsRUFBQUEsdUJBQXVCLEVBQXZCQSx1QkFMYztBQU1kQyxFQUFBQSx1QkFBdUIsRUFBdkJBLHVCQU5jO0FBT2RDLEVBQUFBLHVCQUF1QixFQUF2QkEsdUJBUGM7QUFRZEMsRUFBQUEsTUFBTSxFQUFOQSxNQVJjO0FBU2RwQixFQUFBQSxvQkFBb0IsRUFBcEJBLG9CQVRjO0FBVWRDLEVBQUFBLG9CQUFvQixFQUFwQkEsb0JBVmM7QUFXZEMsRUFBQUEsb0JBQW9CLEVBQXBCQSxvQkFYYztBQVlkQyxFQUFBQSxPQUFPLEVBQVBBLE9BWmM7QUFhZGtCLEVBQUFBLE9BQU8sRUFBUEE7QUFiYyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNyZWF0ZUFjdGlvblR5cGVzLCBjcmVhdGVBY3Rpb25zIH0gZnJvbSAnLi4vaGVscGVycyc7XG5pbXBvcnQgeyBhdXRoIH0gZnJvbSAnLi4vLi4vZmlyZWJhc2UnO1xuXG5jb25zdCBsb2dpblVzZXJBY3Rpb24gPSBjcmVhdGVBY3Rpb25zKCdsb2dpbicpO1xuZXhwb3J0IGNvbnN0IGxvZ2luVXNlclN0YXJ0ZWQgPSBsb2dpblVzZXJBY3Rpb24uYWN0aW9uU3RhcnRlZDtcbmV4cG9ydCBjb25zdCBsb2dpblVzZXJTdWNjZXNzID0gbG9naW5Vc2VyQWN0aW9uLmFjdGlvblN1Y2Nlc3M7XG5leHBvcnQgY29uc3QgbG9naW5Vc2VyRmFpbHVyZSA9IGxvZ2luVXNlckFjdGlvbi5hY3Rpb25GYWlsdXJlO1xuZXhwb3J0IGNvbnN0IGxvZ2luVXNlciA9IChlbWFpbCwgcGFzc3dvcmQpID0+XG5cdGxvZ2luVXNlckFjdGlvbi5oYW5kbGVyKCdsb2dpbicsICdQT1NUJywgeyBlbWFpbCwgcGFzc3dvcmQgfSwgdW5kZWZpbmVkLCB7IG9uU3VjY2VzczogY29uc29sZS5sb2cgfSk7XG5cbmNvbnN0IGdldFVzZXJBY3Rpb25zID0gY3JlYXRlQWN0aW9uVHlwZXMoJ3JlcXVlc3QnLCAndXNlcicpO1xuZXhwb3J0IGNvbnN0IFJFUVVFU1RfVVNFUl9TVEFSVEVEID0gZ2V0VXNlckFjdGlvbnMuYWN0aW9uU3RhcnRlZDtcbmV4cG9ydCBjb25zdCBSRVFVRVNUX1VTRVJfU1VDQ0VTUyA9IGdldFVzZXJBY3Rpb25zLmFjdGlvblN1Y2Nlc3M7XG5leHBvcnQgY29uc3QgUkVRVUVTVF9VU0VSX0ZBSUxVUkUgPSBnZXRVc2VyQWN0aW9ucy5hY3Rpb25GYWlsdXJlO1xuZXhwb3J0IGNvbnN0IGdldFVzZXIgPSAoKSA9PiBhc3luYyAoZGlzcGF0Y2g6IERpc3BhdGNoKSA9PiB7XG5cdGNvbnN0IHsgYWN0aW9uU3RhcnRlZCwgYWN0aW9uU3VjY2VzcywgYWN0aW9uRmFpbHVyZSB9ID0gZ2V0VXNlckFjdGlvbnM7XG5cblx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25TdGFydGVkIH0pO1xuXG5cdHRyeSB7XG5cdFx0Y29uc3QgdXNlciA9IGF3YWl0IGF1dGguZ2V0VXNlcigpO1xuXG5cdFx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25TdWNjZXNzLCByZXNwb25zZTogdXNlciB9KTtcblx0fSBjYXRjaCAoZXJyKSB7XG5cdFx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25GYWlsdXJlLCBlcnIgfSk7XG5cdH1cbn07XG5cbmNvbnN0IGxvZ2luQWN0aW9ucyA9IGNyZWF0ZUFjdGlvblR5cGVzKCdmaXJlYmFzZScsICdsb2dpbicpO1xuZXhwb3J0IGNvbnN0IEZJUkVCQVNFX0xPR0lOX1NUQVJURUQgPSBsb2dpbkFjdGlvbnMuYWN0aW9uU3RhcnRlZDtcbmV4cG9ydCBjb25zdCBGSVJFQkFTRV9MT0dJTl9TVUNDRVNTID0gbG9naW5BY3Rpb25zLmFjdGlvblN1Y2Nlc3M7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HSU5fRkFJTFVSRSA9IGxvZ2luQWN0aW9ucy5hY3Rpb25GYWlsdXJlO1xuZXhwb3J0IGNvbnN0IGxvZ2luID0gKHN0b3JhZ2VPbmx5OiBib29sZWFuID0gZmFsc2UpID0+IGFzeW5jIChkaXNwYXRjaDogRGlzcGF0Y2gpID0+IHtcblx0Y29uc3QgeyBhY3Rpb25TdGFydGVkLCBhY3Rpb25TdWNjZXNzLCBhY3Rpb25GYWlsdXJlIH0gPSBsb2dpbkFjdGlvbnM7XG5cblx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25TdGFydGVkIH0pO1xuXG5cdHRyeSB7XG5cdFx0Y29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhdXRoLmxvZ2luKHN0b3JhZ2VPbmx5KTtcblxuXHRcdGRpc3BhdGNoKHsgdHlwZTogYWN0aW9uU3VjY2VzcywgcmVzcG9uc2UgfSk7XG5cdFx0ZGlzcGF0Y2goZ2V0VXNlcigpKTtcblx0fSBjYXRjaCAoZXJyKSB7XG5cdFx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25GYWlsdXJlLCBlcnIgfSk7XG5cdH1cbn07XG5cbmNvbnN0IGxvZ291dEFjdGlvbnMgPSBjcmVhdGVBY3Rpb25UeXBlcygnZmlyZWJhc2UnLCAnbG9nb3V0Jyk7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HT1VUX1NUQVJURUQgPSBsb2dvdXRBY3Rpb25zLmFjdGlvblN0YXJ0ZWQ7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HT1VUX1NVQ0NFU1MgPSBsb2dvdXRBY3Rpb25zLmFjdGlvblN1Y2Nlc3M7XG5leHBvcnQgY29uc3QgRklSRUJBU0VfTE9HT1VUX0ZBSUxVUkUgPSBsb2dvdXRBY3Rpb25zLmFjdGlvbkZhaWx1cmU7XG5leHBvcnQgY29uc3QgbG9nb3V0ID0gKCkgPT4gYXN5bmMgKGRpc3BhdGNoOiBEaXNwYXRjaCkgPT4ge1xuXHRjb25zdCB7IGFjdGlvblN0YXJ0ZWQsIGFjdGlvblN1Y2Nlc3MsIGFjdGlvbkZhaWx1cmUgfSA9IGxvZ291dEFjdGlvbnM7XG5cblx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25TdGFydGVkIH0pO1xuXG5cdHRyeSB7XG5cdFx0Y29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhdXRoLmxvZ291dCgpO1xuXHRcdGRpc3BhdGNoKHsgdHlwZTogYWN0aW9uU3VjY2VzcywgcmVzcG9uc2UgfSk7XG5cdH0gY2F0Y2ggKGVycikge1xuXHRcdGRpc3BhdGNoKHsgdHlwZTogYWN0aW9uRmFpbHVyZSwgZXJyIH0pO1xuXHR9XG59O1xuXG5leHBvcnQgY29uc3QgZ2V0QXV0aCA9IGF1dGguZ2V0QXV0aDtcblxuZXhwb3J0IGRlZmF1bHQge1xuXHRGSVJFQkFTRV9MT0dJTl9TVEFSVEVELFxuXHRGSVJFQkFTRV9MT0dJTl9TVUNDRVNTLFxuXHRGSVJFQkFTRV9MT0dJTl9GQUlMVVJFLFxuXHRsb2dpbixcblx0RklSRUJBU0VfTE9HT1VUX1NUQVJURUQsXG5cdEZJUkVCQVNFX0xPR09VVF9TVUNDRVNTLFxuXHRGSVJFQkFTRV9MT0dPVVRfRkFJTFVSRSxcblx0bG9nb3V0LFxuXHRSRVFVRVNUX1VTRVJfU1RBUlRFRCxcblx0UkVRVUVTVF9VU0VSX1NVQ0NFU1MsXG5cdFJFUVVFU1RfVVNFUl9GQUlMVVJFLFxuXHRnZXRVc2VyLFxuXHRnZXRBdXRoLFxufTtcbiJdfQ=="
     }
   ],
   "/home/dustin/CS/recipes/src/lib/redux/actions/menu.js": [
@@ -6768,7 +7595,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/redux/actions/menu.js",
       "hash": "Ysip4w",
-      "browserifyId": 472,
+      "browserifyId": 515,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lbnUuanM/dmVyc2lvbj1Zc2lwNHciXSwibmFtZXMiOlsiVE9HR0xFX05BVl9NRU5VIiwidG9nZ2xlTmF2IiwidHlwZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLElBQU1BLGVBQWUsR0FBRyxpQkFBeEI7OztBQUVBLElBQU1DLFNBQVMsR0FBRyxTQUFaQSxTQUFZLEdBQU07QUFDOUIsU0FBTztBQUNOQyxJQUFBQSxJQUFJLEVBQUVGO0FBREEsR0FBUDtBQUdBLENBSk07OztlQU1RO0FBQUVBLEVBQUFBLGVBQWUsRUFBZkEsZUFBRjtBQUFtQkMsRUFBQUEsU0FBUyxFQUFUQTtBQUFuQiIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjb25zdCBUT0dHTEVfTkFWX01FTlUgPSAnVE9HR0xFX05BVl9NRU5VJztcblxuZXhwb3J0IGNvbnN0IHRvZ2dsZU5hdiA9ICgpID0+IHtcblx0cmV0dXJuIHtcblx0XHR0eXBlOiBUT0dHTEVfTkFWX01FTlUsXG5cdH07XG59O1xuXG5leHBvcnQgZGVmYXVsdCB7IFRPR0dMRV9OQVZfTUVOVSwgdG9nZ2xlTmF2IH07XG4iXX0="
     }
   ],
@@ -6785,7 +7612,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/redux/helpers.js",
       "hash": "xJaDiQ",
-      "browserifyId": 473,
+      "browserifyId": 516,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhlbHBlcnMuanM/dmVyc2lvbj14SmFEaVEiXSwibmFtZXMiOlsiYmFzZVVybCIsImFwaUNvbmZpZyIsImhvc3QiLCJnZXROb3RpZmljYXRpb25NZXNzYWdlIiwibXNnIiwibm90aWYiLCJjcmVhdGVBY3Rpb25UeXBlcyIsInByZWZpeCIsIm5hbWUiLCJhY3Rpb25TdGFydGVkIiwidG9VcHBlckNhc2UiLCJhY3Rpb25TdWNjZXNzIiwiYWN0aW9uRmFpbHVyZSIsImNyZWF0ZUFjdGlvbnMiLCJzdWNjZXNzTm90aWZpY2F0aW9uIiwiZXJyb3JOb3RpZmljYXRpb24iLCJhZG1pbkFjdGlvbnMiLCJhY3Rpb25UeXBlcyIsImhhbmRsZXIiLCJlbmRwb2ludCIsIm1ldGhvZCIsInBheWxvYWQiLCJwYXJhbXMiLCJvblN1Y2Nlc3MiLCJvbkVycm9yIiwiZGlzcGF0Y2giLCJ0eXBlIiwib3B0aW9ucyIsImhlYWRlcnMiLCJBY2NlcHQiLCJib2R5IiwiSlNPTiIsInN0cmluZ2lmeSIsImZldGNoIiwicmVzcG9uc2UiLCJqc29uIiwic3RhdHVzIiwibWVzc2FnZSIsInZhcmlhbnQiLCJlcnIiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFFQTs7QUFDQTs7Ozs7O0FBRUEsSUFBTUEsT0FBTyxHQUFHQyxnQkFBVUMsSUFBMUI7O0FBRUEsSUFBTUMsc0JBQXNCLEdBQUcsU0FBekJBLHNCQUF5QixDQUFDQyxHQUFELEVBQU1DLEtBQU47QUFBQSxTQUFpQixPQUFPRCxHQUFQLEtBQWUsVUFBZixHQUE0QkEsR0FBRyxDQUFDQyxLQUFELENBQS9CLEdBQXlDRCxHQUExRDtBQUFBLENBQS9COztBQUVPLElBQU1FLGlCQUFpQixHQUFHLFNBQXBCQSxpQkFBb0IsQ0FBQ0MsTUFBRCxFQUFpQkMsSUFBakIsRUFBa0M7QUFDbEUsTUFBTUMsYUFBYSxhQUFNRixNQUFNLENBQUNHLFdBQVAsRUFBTixjQUE4QkYsSUFBSSxDQUFDRSxXQUFMLEVBQTlCLGFBQW5CO0FBQ0EsTUFBTUMsYUFBYSxhQUFNSixNQUFNLENBQUNHLFdBQVAsRUFBTixjQUE4QkYsSUFBSSxDQUFDRSxXQUFMLEVBQTlCLGFBQW5CO0FBQ0EsTUFBTUUsYUFBYSxhQUFNTCxNQUFNLENBQUNHLFdBQVAsRUFBTixjQUE4QkYsSUFBSSxDQUFDRSxXQUFMLEVBQTlCLGFBQW5CO0FBRUEsU0FBTztBQUNORCxJQUFBQSxhQUFhLEVBQWJBLGFBRE07QUFFTkUsSUFBQUEsYUFBYSxFQUFiQSxhQUZNO0FBR05DLElBQUFBLGFBQWEsRUFBYkE7QUFITSxHQUFQO0FBS0EsQ0FWTTs7OztBQVlBLElBQU1DLGFBQWEsR0FBRyxTQUFoQkEsYUFBZ0IsQ0FBQ0wsSUFBRCxFQUF5RjtBQUFBLGlGQUFQLEVBQU87QUFBQSxNQUF4RU0sbUJBQXdFLFFBQXhFQSxtQkFBd0U7QUFBQSxNQUFuREMsaUJBQW1ELFFBQW5EQSxpQkFBbUQ7QUFBQSwrQkFBaENDLFlBQWdDO0FBQUEsTUFBaENBLFlBQWdDLGtDQUFqQixLQUFpQjs7QUFDckgsTUFBTUMsV0FBVyxHQUFHWCxpQkFBaUIsQ0FBQyxTQUFELEVBQVlFLElBQVosQ0FBckM7QUFFQSwyQkFDSVMsV0FESjtBQUVDQyxJQUFBQSxPQUFPLEVBQUUsaUJBQ1JDLFFBRFE7QUFBQSxVQUVSQyxNQUZRLHVFQUVDLEtBRkQ7QUFBQSxVQUdSQyxPQUhRO0FBQUEsVUFJUkMsTUFKUTs7QUFBQSxzRkFLdUMsRUFMdkM7QUFBQSxrQ0FLTkMsU0FMTTtBQUFBLFVBS05BLFNBTE0sZ0NBS00sWUFBTSxDQUFFLENBTGQ7QUFBQSxnQ0FLZ0JDLE9BTGhCO0FBQUEsVUFLZ0JBLE9BTGhCLDhCQUswQixZQUFNLENBQUUsQ0FMbEM7O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLHVDQU1KLGlCQUFPQztBQUFTO0FBQWhCO0FBQUE7O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDSkEsb0JBQUFBLFFBQVEsQ0FBQztBQUFFQyxzQkFBQUEsSUFBSSxFQUFFVCxXQUFXLENBQUNSO0FBQXBCLHFCQUFELENBQVI7QUFFTWtCLG9CQUFBQSxPQUhGLEdBR1k7QUFDZlAsc0JBQUFBLE1BQU0sRUFBTkEsTUFEZTtBQUVmUSxzQkFBQUEsT0FBTyxFQUFFO0FBQ1JDLHdCQUFBQSxNQUFNLEVBQUUsa0JBREE7QUFFUix3Q0FBZ0I7QUFGUjtBQUZNLHFCQUhaOztBQVdKLHdCQUFJUixPQUFKLEVBQWE7QUFDWk0sc0JBQUFBLE9BQU8sQ0FBQ0csSUFBUixHQUFlQyxJQUFJLENBQUNDLFNBQUwsQ0FBZVgsT0FBZixDQUFmO0FBQ0E7O0FBYkc7QUFBQTtBQUFBLDJCQWdCb0JZLEtBQUssV0FBSWpDLE9BQUosY0FBZWdCLFlBQVksR0FBRyxPQUFILEdBQWEsS0FBeEMsY0FBaURHLFFBQWpELEdBQTZEUSxPQUE3RCxDQWhCekI7O0FBQUE7QUFnQkdPLG9CQUFBQSxRQWhCSDtBQUFBO0FBQUEsMkJBaUJnQkEsUUFBUSxDQUFDQyxJQUFULEVBakJoQjs7QUFBQTtBQWlCR0Esb0JBQUFBLElBakJIO0FBbUJLQyxvQkFBQUEsTUFuQkwsR0FtQmdCRixRQW5CaEIsQ0FtQktFLE1BbkJMOztBQXFCSCx3QkFBSUEsTUFBTSxHQUFHLEdBQVQsSUFBZ0JBLE1BQU0sR0FBRyxHQUE3QixFQUFrQztBQUNqQywwQkFBSXJCLGlCQUFKLEVBQXVCO0FBQ2hCc0Isd0JBQUFBLE9BRGdCLEdBQ05sQyxzQkFBc0IsQ0FBQ1ksaUJBQUQsRUFBb0JvQixJQUFwQixDQURoQjtBQUV0Qiw0REFBaUI7QUFBRUUsMEJBQUFBLE9BQU8sRUFBUEEsT0FBRjtBQUFXQywwQkFBQUEsT0FBTyxFQUFFO0FBQXBCLHlCQUFqQjtBQUNBLHVCQUhELE1BR087QUFDTiw0REFBaUI7QUFBRUQsMEJBQUFBLE9BQU8sRUFBRUYsSUFBSSxDQUFDRSxPQUFoQjtBQUF5QkMsMEJBQUFBLE9BQU8sRUFBRTtBQUFsQyx5QkFBakI7QUFDQTs7QUFFRGIsc0JBQUFBLFFBQVEsQ0FBQztBQUFFQyx3QkFBQUEsSUFBSSxFQUFFVCxXQUFXLENBQUNMLGFBQXBCO0FBQW1DMkIsd0JBQUFBLEdBQUcsRUFBRUo7QUFBeEMsdUJBQUQsQ0FBUjtBQUVBWCxzQkFBQUEsT0FBTyxDQUFDVyxJQUFELENBQVA7QUFDQSxxQkFYRCxNQVdPO0FBQ04sMEJBQUlyQixtQkFBSixFQUF5QjtBQUNsQnVCLHdCQUFBQSxRQURrQixHQUNSbEMsc0JBQXNCLENBQUNXLG1CQUFELEVBQXNCcUIsSUFBdEIsQ0FEZDtBQUV4Qiw0REFBaUI7QUFBRUUsMEJBQUFBLE9BQU8sRUFBUEEsUUFBRjtBQUFXQywwQkFBQUEsT0FBTyxFQUFFO0FBQXBCLHlCQUFqQjtBQUNBOztBQUVEYixzQkFBQUEsUUFBUSxDQUFDO0FBQUVDLHdCQUFBQSxJQUFJLEVBQUVULFdBQVcsQ0FBQ04sYUFBcEI7QUFBbUN3Qix3QkFBQUEsSUFBSSxFQUFKQTtBQUFuQyx1QkFBRCxDQUFSO0FBRUFaLHNCQUFBQSxTQUFTLENBQUNZLElBQUQsQ0FBVDtBQUNBOztBQXpDRTtBQUFBOztBQUFBO0FBQUE7QUFBQTs7QUEyQ0gsd0JBQUlwQixpQkFBSixFQUF1QjtBQUNoQnNCLHNCQUFBQSxTQURnQixHQUNObEMsc0JBQXNCLENBQUNZLGlCQUFELGNBRGhCO0FBRXRCLDBEQUFpQjtBQUFFc0Isd0JBQUFBLE9BQU8sRUFBUEEsU0FBRjtBQUFXQyx3QkFBQUEsT0FBTyxFQUFFO0FBQXBCLHVCQUFqQjtBQUNBOztBQUVEYixvQkFBQUEsUUFBUSxDQUFDO0FBQUVDLHNCQUFBQSxJQUFJLEVBQUVULFdBQVcsQ0FBQ0wsYUFBcEI7QUFBbUMyQixzQkFBQUEsR0FBRztBQUF0QyxxQkFBRCxDQUFSO0FBRUFmLG9CQUFBQSxPQUFPLGFBQVA7O0FBbERHO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFdBTkk7O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBRlY7QUE4REEsQ0FqRU07OztlQW1FUTtBQUFFbEIsRUFBQUEsaUJBQWlCLEVBQWpCQSxpQkFBRjtBQUFxQk8sRUFBQUEsYUFBYSxFQUFiQTtBQUFyQiIsInNvdXJjZXNDb250ZW50IjpbIi8vIEBmbG93XG5cbmltcG9ydCBhcGlDb25maWcgZnJvbSAnLi4vLi4vLi4vY29uZmlnL2FwaSc7XG5pbXBvcnQgeyBzaG93Tm90aWZpY2F0aW9uIH0gZnJvbSAnLi4vbm90aWZpY2F0aW9uJztcblxuY29uc3QgYmFzZVVybCA9IGFwaUNvbmZpZy5ob3N0O1xuXG5jb25zdCBnZXROb3RpZmljYXRpb25NZXNzYWdlID0gKG1zZywgbm90aWYpID0+ICh0eXBlb2YgbXNnID09PSAnZnVuY3Rpb24nID8gbXNnKG5vdGlmKSA6IG1zZyk7XG5cbmV4cG9ydCBjb25zdCBjcmVhdGVBY3Rpb25UeXBlcyA9IChwcmVmaXg6IHN0cmluZywgbmFtZTogc3RyaW5nKSA9PiB7XG5cdGNvbnN0IGFjdGlvblN0YXJ0ZWQgPSBgJHtwcmVmaXgudG9VcHBlckNhc2UoKX1fJHtuYW1lLnRvVXBwZXJDYXNlKCl9X1NUQVJURURgO1xuXHRjb25zdCBhY3Rpb25TdWNjZXNzID0gYCR7cHJlZml4LnRvVXBwZXJDYXNlKCl9XyR7bmFtZS50b1VwcGVyQ2FzZSgpfV9TVUNDRVNTYDtcblx0Y29uc3QgYWN0aW9uRmFpbHVyZSA9IGAke3ByZWZpeC50b1VwcGVyQ2FzZSgpfV8ke25hbWUudG9VcHBlckNhc2UoKX1fRkFJTFVSRWA7XG5cblx0cmV0dXJuIHtcblx0XHRhY3Rpb25TdGFydGVkLFxuXHRcdGFjdGlvblN1Y2Nlc3MsXG5cdFx0YWN0aW9uRmFpbHVyZSxcblx0fTtcbn07XG5cbmV4cG9ydCBjb25zdCBjcmVhdGVBY3Rpb25zID0gKG5hbWU6IFN0cmluZywgeyBzdWNjZXNzTm90aWZpY2F0aW9uLCBlcnJvck5vdGlmaWNhdGlvbiwgYWRtaW5BY3Rpb25zID0gZmFsc2UgfSA9IHt9KSA9PiB7XG5cdGNvbnN0IGFjdGlvblR5cGVzID0gY3JlYXRlQWN0aW9uVHlwZXMoJ3JlcXVlc3QnLCBuYW1lKTtcblxuXHRyZXR1cm4ge1xuXHRcdC4uLmFjdGlvblR5cGVzLFxuXHRcdGhhbmRsZXI6IChcblx0XHRcdGVuZHBvaW50LFxuXHRcdFx0bWV0aG9kID0gJ0dFVCcsXG5cdFx0XHRwYXlsb2FkLFxuXHRcdFx0cGFyYW1zLFxuXHRcdFx0eyBvblN1Y2Nlc3MgPSAoKSA9PiB7fSwgb25FcnJvciA9ICgpID0+IHt9IH0gPSB7fVxuXHRcdCkgPT4gYXN5bmMgKGRpc3BhdGNoIC8qICwgZ2V0U3RhdGUgKi8pID0+IHtcblx0XHRcdGRpc3BhdGNoKHsgdHlwZTogYWN0aW9uVHlwZXMuYWN0aW9uU3RhcnRlZCB9KTtcblxuXHRcdFx0Y29uc3Qgb3B0aW9ucyA9IHtcblx0XHRcdFx0bWV0aG9kLFxuXHRcdFx0XHRoZWFkZXJzOiB7XG5cdFx0XHRcdFx0QWNjZXB0OiAnYXBwbGljYXRpb24vanNvbicsXG5cdFx0XHRcdFx0J0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyxcblx0XHRcdFx0fSxcblx0XHRcdH07XG5cblx0XHRcdGlmIChwYXlsb2FkKSB7XG5cdFx0XHRcdG9wdGlvbnMuYm9keSA9IEpTT04uc3RyaW5naWZ5KHBheWxvYWQpO1xuXHRcdFx0fVxuXG5cdFx0XHR0cnkge1xuXHRcdFx0XHRjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKGAke2Jhc2VVcmx9LyR7YWRtaW5BY3Rpb25zID8gJ2FkbWluJyA6ICd3ZWInfS8ke2VuZHBvaW50fWAsIG9wdGlvbnMpO1xuXHRcdFx0XHRjb25zdCBqc29uID0gYXdhaXQgcmVzcG9uc2UuanNvbigpO1xuXG5cdFx0XHRcdGNvbnN0IHsgc3RhdHVzIH0gPSByZXNwb25zZTtcblxuXHRcdFx0XHRpZiAoc3RhdHVzIDwgMjAwIHx8IHN0YXR1cyA+IDI5OSkge1xuXHRcdFx0XHRcdGlmIChlcnJvck5vdGlmaWNhdGlvbikge1xuXHRcdFx0XHRcdFx0Y29uc3QgbWVzc2FnZSA9IGdldE5vdGlmaWNhdGlvbk1lc3NhZ2UoZXJyb3JOb3RpZmljYXRpb24sIGpzb24pO1xuXHRcdFx0XHRcdFx0c2hvd05vdGlmaWNhdGlvbih7IG1lc3NhZ2UsIHZhcmlhbnQ6ICdlcnJvcicgfSk7XG5cdFx0XHRcdFx0fSBlbHNlIHtcblx0XHRcdFx0XHRcdHNob3dOb3RpZmljYXRpb24oeyBtZXNzYWdlOiBqc29uLm1lc3NhZ2UsIHZhcmlhbnQ6ICdlcnJvcicgfSk7XG5cdFx0XHRcdFx0fVxuXG5cdFx0XHRcdFx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25UeXBlcy5hY3Rpb25GYWlsdXJlLCBlcnI6IGpzb24gfSk7XG5cblx0XHRcdFx0XHRvbkVycm9yKGpzb24pO1xuXHRcdFx0XHR9IGVsc2Uge1xuXHRcdFx0XHRcdGlmIChzdWNjZXNzTm90aWZpY2F0aW9uKSB7XG5cdFx0XHRcdFx0XHRjb25zdCBtZXNzYWdlID0gZ2V0Tm90aWZpY2F0aW9uTWVzc2FnZShzdWNjZXNzTm90aWZpY2F0aW9uLCBqc29uKTtcblx0XHRcdFx0XHRcdHNob3dOb3RpZmljYXRpb24oeyBtZXNzYWdlLCB2YXJpYW50OiAnc3VjY2VzcycgfSk7XG5cdFx0XHRcdFx0fVxuXG5cdFx0XHRcdFx0ZGlzcGF0Y2goeyB0eXBlOiBhY3Rpb25UeXBlcy5hY3Rpb25TdWNjZXNzLCBqc29uIH0pO1xuXG5cdFx0XHRcdFx0b25TdWNjZXNzKGpzb24pO1xuXHRcdFx0XHR9XG5cdFx0XHR9IGNhdGNoIChlcnIpIHtcblx0XHRcdFx0aWYgKGVycm9yTm90aWZpY2F0aW9uKSB7XG5cdFx0XHRcdFx0Y29uc3QgbWVzc2FnZSA9IGdldE5vdGlmaWNhdGlvbk1lc3NhZ2UoZXJyb3JOb3RpZmljYXRpb24sIGVycik7XG5cdFx0XHRcdFx0c2hvd05vdGlmaWNhdGlvbih7IG1lc3NhZ2UsIHZhcmlhbnQ6ICdlcnJvcicgfSk7XG5cdFx0XHRcdH1cblxuXHRcdFx0XHRkaXNwYXRjaCh7IHR5cGU6IGFjdGlvblR5cGVzLmFjdGlvbkZhaWx1cmUsIGVyciB9KTtcblxuXHRcdFx0XHRvbkVycm9yKGVycik7XG5cdFx0XHR9XG5cdFx0fSxcblx0fTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IHsgY3JlYXRlQWN0aW9uVHlwZXMsIGNyZWF0ZUFjdGlvbnMgfTtcbiJdfQ=="
     }
   ],
@@ -6799,7 +7626,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/redux/reducers/auth.js",
       "hash": "RzFdUw",
-      "browserifyId": 474,
+      "browserifyId": 517,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF1dGguanM/dmVyc2lvbj1SekZkVXciXSwibmFtZXMiOlsiRklSRUJBU0VfTE9HSU5fU1RBUlRFRCIsImF1dGhBY3Rpb25zIiwiRklSRUJBU0VfTE9HSU5fU1VDQ0VTUyIsIkZJUkVCQVNFX0xPR0lOX0ZBSUxVUkUiLCJGSVJFQkFTRV9MT0dPVVRfU1RBUlRFRCIsIkZJUkVCQVNFX0xPR09VVF9TVUNDRVNTIiwiRklSRUJBU0VfTE9HT1VUX0ZBSUxVUkUiLCJSRVFVRVNUX1VTRVJfU1VDQ0VTUyIsIlJFUVVFU1RfVVNFUl9GQUlMVVJFIiwiaW5pdGlhbFN0YXRlIiwiYXV0aCIsInVzZXIiLCJpc0F1dGhvcml6ZWQiLCJsb2dnaW5nSW4iLCJsb2dnaW5nT3V0IiwiZXJyIiwic3RhdGUiLCJhY3Rpb24iLCJ0eXBlIiwicmVzcG9uc2UiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUVBOzs7Ozs7SUFHQ0EseUJBUUdDLGlCQVJIRDtJQUNBRSx5QkFPR0QsaUJBUEhDO0lBQ0FDLHlCQU1HRixpQkFOSEU7SUFDQUMsMEJBS0dILGlCQUxIRztJQUNBQywwQkFJR0osaUJBSkhJO0lBQ0FDLDBCQUdHTCxpQkFISEs7SUFDQUMsdUJBRUdOLGlCQUZITTtJQUNBQyx1QkFDR1AsaUJBREhPO0FBWUQsSUFBTUMsWUFBWSxHQUFHO0FBQ3BCQyxFQUFBQSxJQUFJLEVBQUUsSUFEYztBQUVwQkMsRUFBQUEsSUFBSSxFQUFFLElBRmM7QUFHcEJDLEVBQUFBLFlBQVksRUFBRSxLQUhNO0FBSXBCQyxFQUFBQSxTQUFTLEVBQUUsS0FKUztBQUtwQkMsRUFBQUEsVUFBVSxFQUFFLEtBTFE7QUFNcEJDLEVBQUFBLEdBQUcsRUFBRTtBQU5lLENBQXJCOztlQVNlLG9CQUF3RDtBQUFBLE1BQXZEQyxLQUF1RCx1RUFBakNQLFlBQWlDO0FBQUEsTUFBbkJRLE1BQW1COztBQUN0RSxVQUFRQSxNQUFNLENBQUNDLElBQWY7QUFDQyxTQUFLbEIsc0JBQUw7QUFDQ2dCLE1BQUFBLEtBQUsscUJBQ0RBLEtBREM7QUFFSkgsUUFBQUEsU0FBUyxFQUFFO0FBRlAsUUFBTDtBQUlBOztBQUNELFNBQUtYLHNCQUFMO0FBQ0NjLE1BQUFBLEtBQUsscUJBQ0RBLEtBREM7QUFFSkgsUUFBQUEsU0FBUyxFQUFFLEtBRlA7QUFHSkQsUUFBQUEsWUFBWSxFQUFFSyxNQUFNLENBQUNFLFFBQVAsS0FBb0IsSUFIOUI7QUFJSlQsUUFBQUEsSUFBSSxFQUFFTyxNQUFNLENBQUNFO0FBSlQsUUFBTDtBQU1BOztBQUNELFNBQUtoQixzQkFBTDtBQUNDYSxNQUFBQSxLQUFLLHFCQUNEQSxLQURDO0FBRUpILFFBQUFBLFNBQVMsRUFBRSxLQUZQO0FBR0pFLFFBQUFBLEdBQUcsRUFBRUUsTUFBTSxDQUFDRjtBQUhSLFFBQUw7QUFLQTs7QUFDRCxTQUFLWCx1QkFBTDtBQUNDWSxNQUFBQSxLQUFLLHFCQUNEQSxLQURDO0FBRUpGLFFBQUFBLFVBQVUsRUFBRTtBQUZSLFFBQUw7QUFJQTs7QUFDRCxTQUFLVCx1QkFBTDtBQUNDVyxNQUFBQSxLQUFLLHFCQUNEQSxLQURDO0FBRUpGLFFBQUFBLFVBQVUsRUFBRSxLQUZSO0FBR0pKLFFBQUFBLElBQUksRUFBRSxJQUhGO0FBSUpFLFFBQUFBLFlBQVksRUFBRTtBQUpWLFFBQUw7QUFNQTs7QUFDRCxTQUFLTix1QkFBTDtBQUNDVSxNQUFBQSxLQUFLLHFCQUNEQSxLQURDO0FBRUpGLFFBQUFBLFVBQVUsRUFBRSxLQUZSO0FBR0pDLFFBQUFBLEdBQUcsRUFBRUUsTUFBTSxDQUFDRjtBQUhSLFFBQUw7QUFLQTs7QUFDRCxTQUFLUixvQkFBTDtBQUNDUyxNQUFBQSxLQUFLLHFCQUNEQSxLQURDO0FBRUpMLFFBQUFBLElBQUksRUFBRU0sTUFBTSxDQUFDRTtBQUZULFFBQUw7QUFJQTs7QUFDRCxTQUFLWCxvQkFBTDtBQUNDUSxNQUFBQSxLQUFLLHFCQUNEQSxLQURDO0FBRUpELFFBQUFBLEdBQUcsRUFBRUUsTUFBTSxDQUFDRjtBQUZSLFFBQUw7QUFJQTtBQXRERjs7QUF5REEsU0FBT0MsS0FBUDtBQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLy8gQGZsb3dcblxuaW1wb3J0IGF1dGhBY3Rpb25zIGZyb20gJy4uL2FjdGlvbnMvYXV0aCc7XG5cbmNvbnN0IHtcblx0RklSRUJBU0VfTE9HSU5fU1RBUlRFRCxcblx0RklSRUJBU0VfTE9HSU5fU1VDQ0VTUyxcblx0RklSRUJBU0VfTE9HSU5fRkFJTFVSRSxcblx0RklSRUJBU0VfTE9HT1VUX1NUQVJURUQsXG5cdEZJUkVCQVNFX0xPR09VVF9TVUNDRVNTLFxuXHRGSVJFQkFTRV9MT0dPVVRfRkFJTFVSRSxcblx0UkVRVUVTVF9VU0VSX1NVQ0NFU1MsXG5cdFJFUVVFU1RfVVNFUl9GQUlMVVJFLFxufSA9IGF1dGhBY3Rpb25zO1xuXG50eXBlIEluaXRpYWxTdGF0ZSA9IHtcblx0YXV0aDogRmlyZWJhc2VBdXRoLFxuXHR1c2VyOiBPYmplY3QsXG5cdGlzQXV0aG9yaXplZDogYm9vbGVhbixcblx0bG9nZ2luZ0luOiBib29sZWFuLFxuXHRsb2dnaW5nT3V0OiBib29sZWFuLFxuXHRlcnI6IGFueSxcbn07XG5cbmNvbnN0IGluaXRpYWxTdGF0ZSA9IHtcblx0YXV0aDogbnVsbCxcblx0dXNlcjogbnVsbCxcblx0aXNBdXRob3JpemVkOiBmYWxzZSxcblx0bG9nZ2luZ0luOiBmYWxzZSxcblx0bG9nZ2luZ091dDogZmFsc2UsXG5cdGVycjogbnVsbCxcbn07XG5cbmV4cG9ydCBkZWZhdWx0IChzdGF0ZTogaW5pdGlhbFN0YXRlID0gaW5pdGlhbFN0YXRlLCBhY3Rpb246IEFjdGlvbikgPT4ge1xuXHRzd2l0Y2ggKGFjdGlvbi50eXBlKSB7XG5cdFx0Y2FzZSBGSVJFQkFTRV9MT0dJTl9TVEFSVEVEOlxuXHRcdFx0c3RhdGUgPSB7XG5cdFx0XHRcdC4uLnN0YXRlLFxuXHRcdFx0XHRsb2dnaW5nSW46IHRydWUsXG5cdFx0XHR9O1xuXHRcdFx0YnJlYWs7XG5cdFx0Y2FzZSBGSVJFQkFTRV9MT0dJTl9TVUNDRVNTOlxuXHRcdFx0c3RhdGUgPSB7XG5cdFx0XHRcdC4uLnN0YXRlLFxuXHRcdFx0XHRsb2dnaW5nSW46IGZhbHNlLFxuXHRcdFx0XHRpc0F1dGhvcml6ZWQ6IGFjdGlvbi5yZXNwb25zZSAhPT0gbnVsbCxcblx0XHRcdFx0YXV0aDogYWN0aW9uLnJlc3BvbnNlLFxuXHRcdFx0fTtcblx0XHRcdGJyZWFrO1xuXHRcdGNhc2UgRklSRUJBU0VfTE9HSU5fRkFJTFVSRTpcblx0XHRcdHN0YXRlID0ge1xuXHRcdFx0XHQuLi5zdGF0ZSxcblx0XHRcdFx0bG9nZ2luZ0luOiBmYWxzZSxcblx0XHRcdFx0ZXJyOiBhY3Rpb24uZXJyLFxuXHRcdFx0fTtcblx0XHRcdGJyZWFrO1xuXHRcdGNhc2UgRklSRUJBU0VfTE9HT1VUX1NUQVJURUQ6XG5cdFx0XHRzdGF0ZSA9IHtcblx0XHRcdFx0Li4uc3RhdGUsXG5cdFx0XHRcdGxvZ2dpbmdPdXQ6IHRydWUsXG5cdFx0XHR9O1xuXHRcdFx0YnJlYWs7XG5cdFx0Y2FzZSBGSVJFQkFTRV9MT0dPVVRfU1VDQ0VTUzpcblx0XHRcdHN0YXRlID0ge1xuXHRcdFx0XHQuLi5zdGF0ZSxcblx0XHRcdFx0bG9nZ2luZ091dDogZmFsc2UsXG5cdFx0XHRcdGF1dGg6IG51bGwsXG5cdFx0XHRcdGlzQXV0aG9yaXplZDogZmFsc2UsXG5cdFx0XHR9O1xuXHRcdFx0YnJlYWs7XG5cdFx0Y2FzZSBGSVJFQkFTRV9MT0dPVVRfRkFJTFVSRTpcblx0XHRcdHN0YXRlID0ge1xuXHRcdFx0XHQuLi5zdGF0ZSxcblx0XHRcdFx0bG9nZ2luZ091dDogZmFsc2UsXG5cdFx0XHRcdGVycjogYWN0aW9uLmVycixcblx0XHRcdH07XG5cdFx0XHRicmVhaztcblx0XHRjYXNlIFJFUVVFU1RfVVNFUl9TVUNDRVNTOlxuXHRcdFx0c3RhdGUgPSB7XG5cdFx0XHRcdC4uLnN0YXRlLFxuXHRcdFx0XHR1c2VyOiBhY3Rpb24ucmVzcG9uc2UsXG5cdFx0XHR9O1xuXHRcdFx0YnJlYWs7XG5cdFx0Y2FzZSBSRVFVRVNUX1VTRVJfRkFJTFVSRTpcblx0XHRcdHN0YXRlID0ge1xuXHRcdFx0XHQuLi5zdGF0ZSxcblx0XHRcdFx0ZXJyOiBhY3Rpb24uZXJyLFxuXHRcdFx0fTtcblx0XHRcdGJyZWFrO1xuXHR9XG5cblx0cmV0dXJuIHN0YXRlO1xufTtcbiJdfQ=="
     }
   ],
@@ -6814,7 +7641,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/redux/reducers/index.js",
       "hash": "+yz50g",
-      "browserifyId": 475,
+      "browserifyId": 518,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzP3ZlcnNpb249K3l6NTBnIl0sIm5hbWVzIjpbIm1lbnVSZWR1Y2VyIiwiYXV0aFJlZHVjZXIiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBQTs7QUFFQTs7QUFDQTs7ZUFFZSw0QkFBZ0I7QUFDOUJBLEVBQUFBLFdBQVcsRUFBWEEsZ0JBRDhCO0FBRTlCQyxFQUFBQSxXQUFXLEVBQVhBO0FBRjhCLENBQWhCIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY29tYmluZVJlZHVjZXJzIH0gZnJvbSAncmVkdXgnO1xuXG5pbXBvcnQgbWVudVJlZHVjZXIgZnJvbSAnLi9tZW51JztcbmltcG9ydCBhdXRoUmVkdWNlciBmcm9tICcuL2F1dGgnO1xuXG5leHBvcnQgZGVmYXVsdCBjb21iaW5lUmVkdWNlcnMoe1xuXHRtZW51UmVkdWNlcixcblx0YXV0aFJlZHVjZXIsXG59KTtcbiJdfQ=="
     }
   ],
@@ -6826,7 +7653,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/redux/reducers/menu.js",
       "hash": "of85Jg",
-      "browserifyId": 476,
+      "browserifyId": 519,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lbnUuanM/dmVyc2lvbj1vZjg1SmciXSwibmFtZXMiOlsiaW5pdGlhbFN0YXRlIiwib3BlbiIsInN0YXRlIiwiYWN0aW9uIiwidHlwZSIsIlRPR0dMRV9OQVZfTUVOVSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFFQTs7QUFNQSxJQUFNQSxZQUEwQixHQUFHO0FBQ2xDQyxFQUFBQSxJQUFJLEVBQUU7QUFENEIsQ0FBbkM7O2VBSWUsb0JBQTBDO0FBQUEsTUFBekNDLEtBQXlDLHVFQUFqQ0YsWUFBaUM7QUFBQSxNQUFuQkcsTUFBbUI7O0FBQ3hELFVBQVFBLE1BQU0sQ0FBQ0MsSUFBZjtBQUNDLFNBQUtDLHFCQUFMO0FBQ0NILE1BQUFBLEtBQUssR0FBRztBQUNQRCxRQUFBQSxJQUFJLEVBQUUsQ0FBQ0MsS0FBSyxDQUFDRDtBQUROLE9BQVI7QUFHQTtBQUxGOztBQVFBLFNBQU9DLEtBQVA7QUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi8vIEBmbG93XG5cbmltcG9ydCB7IFRPR0dMRV9OQVZfTUVOVSB9IGZyb20gJy4uL2FjdGlvbnMvbWVudSc7XG5cbnR5cGUgSW5pdGlhbFN0YXRlID0ge1xuXHRvcGVuOiBib29sZWFuLFxufTtcblxuY29uc3QgaW5pdGlhbFN0YXRlOiBJbml0aWFsU3RhdGUgPSB7XG5cdG9wZW46IGZhbHNlLFxufTtcblxuZXhwb3J0IGRlZmF1bHQgKHN0YXRlID0gaW5pdGlhbFN0YXRlLCBhY3Rpb246IEFjdGlvbikgPT4ge1xuXHRzd2l0Y2ggKGFjdGlvbi50eXBlKSB7XG5cdFx0Y2FzZSBUT0dHTEVfTkFWX01FTlU6XG5cdFx0XHRzdGF0ZSA9IHtcblx0XHRcdFx0b3BlbjogIXN0YXRlLm9wZW4sXG5cdFx0XHR9O1xuXHRcdFx0YnJlYWs7XG5cdH1cblxuXHRyZXR1cm4gc3RhdGU7XG59O1xuIl19"
     }
   ],
@@ -6843,7 +7670,7 @@
     {
       "id": "/home/dustin/CS/recipes/src/lib/redux/store.js",
       "hash": "4zKCyw",
-      "browserifyId": 477,
+      "browserifyId": 520,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0b3JlLmpzP3ZlcnNpb249NHpLQ3l3Il0sIm5hbWVzIjpbInByb2R1Y3Rpb24iLCJwcm9jZXNzIiwiZW52IiwiTk9ERV9FTlYiLCJtaWRkbGV3YXJlcyIsInRodW5rIiwicHVzaCIsImxvZ2dlciIsIm1pZGRsZXdhcmUiLCJhcHBseU1pZGRsZXdhcmUiLCJzdG9yZSIsInJlZHVjZXJzIiwiZGlzcGF0Y2giLCJnZXRTdGF0ZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBOztBQUVBOztBQUNBOztBQUVBOztBQUVBLElBQU1BLFVBQVUsR0FBR0MsT0FBTyxDQUFDQyxHQUFSLENBQVlDLFFBQVosS0FBeUIsWUFBNUM7QUFFQSxJQUFNQyxXQUFXLEdBQUcsQ0FBQ0Msc0JBQUQsQ0FBcEI7O0FBRUEsSUFBSSxDQUFDTCxVQUFMLEVBQWlCO0FBQ2hCSSxFQUFBQSxXQUFXLENBQUNFLElBQVosQ0FBaUJDLHVCQUFqQjtBQUNBOztBQUVELElBQU1DLFVBQVUsR0FBR0MscUNBQW1CTCxXQUFuQixDQUFuQjs7QUFFQSxJQUFNTSxLQUFLLEdBQUcsd0JBQVlDLG9CQUFaLEVBQXNCSCxVQUF0QixDQUFkO0FBRU8sSUFBTUksUUFBUSxHQUFHRixLQUFLLENBQUNFLFFBQXZCOztBQUVBLElBQU1DLFFBQVEsR0FBR0gsS0FBSyxDQUFDRyxRQUF2Qjs7ZUFFUUgiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBhcHBseU1pZGRsZXdhcmUsIGNyZWF0ZVN0b3JlIH0gZnJvbSAncmVkdXgnO1xuXG5pbXBvcnQgdGh1bmsgZnJvbSAncmVkdXgtdGh1bmsnO1xuaW1wb3J0IGxvZ2dlciBmcm9tICdyZWR1eC1sb2dnZXInO1xuXG5pbXBvcnQgcmVkdWNlcnMgZnJvbSAnLi9yZWR1Y2Vycyc7XG5cbmNvbnN0IHByb2R1Y3Rpb24gPSBwcm9jZXNzLmVudi5OT0RFX0VOViA9PT0gJ3Byb2R1Y3Rpb24nO1xuXG5jb25zdCBtaWRkbGV3YXJlcyA9IFt0aHVua107XG5cbmlmICghcHJvZHVjdGlvbikge1xuXHRtaWRkbGV3YXJlcy5wdXNoKGxvZ2dlcik7XG59XG5cbmNvbnN0IG1pZGRsZXdhcmUgPSBhcHBseU1pZGRsZXdhcmUoLi4ubWlkZGxld2FyZXMpO1xuXG5jb25zdCBzdG9yZSA9IGNyZWF0ZVN0b3JlKHJlZHVjZXJzLCBtaWRkbGV3YXJlKTtcblxuZXhwb3J0IGNvbnN0IGRpc3BhdGNoID0gc3RvcmUuZGlzcGF0Y2g7XG5cbmV4cG9ydCBjb25zdCBnZXRTdGF0ZSA9IHN0b3JlLmdldFN0YXRlO1xuXG5leHBvcnQgZGVmYXVsdCBzdG9yZTtcbiJdfQ=="
     }
   ],
@@ -6856,8 +7683,31 @@
     {
       "id": "/home/dustin/CS/recipes/src/pages/Home.js",
       "hash": "HHZg2A",
-      "browserifyId": 478,
+      "browserifyId": 521,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkhvbWUuanM/dmVyc2lvbj1ISFpnMkEiXSwibmFtZXMiOlsiSG9tZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUVBOztBQUVBLElBQU1BLElBQUksR0FBRyxTQUFQQSxJQUFPO0FBQUEsU0FDWiw2Q0FDQyx3REFERCxDQURZO0FBQUEsQ0FBYjs7ZUFNZUEiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBAZmxvd1xuXG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5jb25zdCBIb21lID0gKCkgPT4gKFxuXHQ8ZGl2PlxuXHRcdDxoMT5Ib21lIFBhZ2U8L2gxPlxuXHQ8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IEhvbWU7XG4iXX0="
+    }
+  ],
+  "/home/dustin/CS/recipes/src/pages/Login.js": [
+    "'use strict';\n\nvar _interopRequireWildcard = require(\"@babel/runtime/helpers/interopRequireWildcard\");\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = void 0;\n\nvar _slicedToArray2 = _interopRequireDefault(require(\"@babel/runtime/helpers/slicedToArray\"));\n\nvar _react = _interopRequireWildcard(require(\"react\"));\n\nvar _reactRedux = require(\"react-redux\");\n\nvar _Grid = _interopRequireDefault(require(\"@material-ui/core/Grid\"));\n\nvar _Card = _interopRequireDefault(require(\"@material-ui/core/Card\"));\n\nvar _CardContent = _interopRequireDefault(require(\"@material-ui/core/CardContent\"));\n\nvar _CardHeader = _interopRequireDefault(require(\"@material-ui/core/CardHeader\"));\n\nvar _TextField = _interopRequireDefault(require(\"@material-ui/core/TextField\"));\n\nvar _Button = _interopRequireDefault(require(\"@material-ui/core/Button\"));\n\nvar _auth = require(\"../lib/redux/actions/auth\");\n\nvar Login = function Login(_ref) {\n  var dispatch = _ref.dispatch;\n\n  var _useState = (0, _react.useState)(''),\n      _useState2 = (0, _slicedToArray2[\"default\"])(_useState, 2),\n      email = _useState2[0],\n      setEmail = _useState2[1];\n\n  var onEmailChanged = (0, _react.useCallback)(function (e) {\n    setEmail(e.target.value);\n  }, [setEmail]);\n\n  var _useState3 = (0, _react.useState)(''),\n      _useState4 = (0, _slicedToArray2[\"default\"])(_useState3, 2),\n      password = _useState4[0],\n      setPassword = _useState4[1];\n\n  var onPasswordChanged = (0, _react.useCallback)(function (e) {\n    setPassword(e.target.value);\n  }, [setPassword]);\n  var loginCb = (0, _react.useCallback)(function () {\n    return dispatch((0, _auth.loginUser)(email, password));\n  }, [dispatch]);\n  return _react[\"default\"].createElement(_Grid[\"default\"], {\n    container: true,\n    justify: \"center\",\n    alignItems: \"center\",\n    style: {\n      height: '100%'\n    }\n  }, _react[\"default\"].createElement(_Grid[\"default\"], {\n    item: true,\n    xs: 4\n  }, _react[\"default\"].createElement(_Card[\"default\"], null, _react[\"default\"].createElement(_CardHeader[\"default\"], {\n    title: \"Login\"\n  }), _react[\"default\"].createElement(_CardContent[\"default\"], null, _react[\"default\"].createElement(_TextField[\"default\"], {\n    required: true,\n    label: \"email\",\n    value: email,\n    onChange: onEmailChanged\n  }), _react[\"default\"].createElement(\"br\", null), _react[\"default\"].createElement(_TextField[\"default\"], {\n    required: true,\n    label: \"password\",\n    type: \"password\",\n    value: password,\n    onChange: onPasswordChanged\n  }), _react[\"default\"].createElement(_Button[\"default\"], {\n    onClick: loginCb\n  }, \"Login\")))));\n};\n\nvar _default = (0, _reactRedux.connect)()(Login);\n\nexports[\"default\"] = _default;\n",
+    {
+      "../lib/redux/actions/auth": "/home/dustin/CS/recipes/src/lib/redux/actions/auth.js",
+      "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
+      "react-redux": "/home/dustin/CS/recipes/node_modules/react-redux/lib/index.js",
+      "@material-ui/core/Grid": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Grid/index.js",
+      "@material-ui/core/Button": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Button/index.js",
+      "@babel/runtime/helpers/interopRequireWildcard": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+      "@babel/runtime/helpers/interopRequireDefault": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "@babel/runtime/helpers/slicedToArray": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/slicedToArray.js",
+      "@material-ui/core/Card": "/home/dustin/CS/recipes/node_modules/@material-ui/core/Card/index.js",
+      "@material-ui/core/CardContent": "/home/dustin/CS/recipes/node_modules/@material-ui/core/CardContent/index.js",
+      "@material-ui/core/CardHeader": "/home/dustin/CS/recipes/node_modules/@material-ui/core/CardHeader/index.js",
+      "@material-ui/core/TextField": "/home/dustin/CS/recipes/node_modules/@material-ui/core/TextField/index.js"
+    },
+    {
+      "id": "/home/dustin/CS/recipes/src/pages/Login.js",
+      "hash": "q1MXIw",
+      "browserifyId": 522,
+      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkxvZ2luLmpzP3ZlcnNpb249cTFNWEl3Il0sIm5hbWVzIjpbIkxvZ2luIiwiZGlzcGF0Y2giLCJlbWFpbCIsInNldEVtYWlsIiwib25FbWFpbENoYW5nZWQiLCJlIiwidGFyZ2V0IiwidmFsdWUiLCJwYXNzd29yZCIsInNldFBhc3N3b3JkIiwib25QYXNzd29yZENoYW5nZWQiLCJsb2dpbkNiIiwiaGVpZ2h0Il0sIm1hcHBpbmdzIjoiO0FBQUE7Ozs7Ozs7Ozs7Ozs7QUFFQTs7QUFDQTs7QUFFQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFFQTs7QUFFQSxJQUFNQSxLQUFLLEdBQUcsU0FBUkEsS0FBUSxPQUFrQjtBQUFBLE1BQWZDLFFBQWUsUUFBZkEsUUFBZTs7QUFBQSxrQkFDTCxxQkFBUyxFQUFULENBREs7QUFBQTtBQUFBLE1BQ3hCQyxLQUR3QjtBQUFBLE1BQ2pCQyxRQURpQjs7QUFHL0IsTUFBTUMsY0FBYyxHQUFHLHdCQUN0QixVQUFBQyxDQUFDLEVBQUk7QUFDSkYsSUFBQUEsUUFBUSxDQUFDRSxDQUFDLENBQUNDLE1BQUYsQ0FBU0MsS0FBVixDQUFSO0FBQ0EsR0FIcUIsRUFJdEIsQ0FBQ0osUUFBRCxDQUpzQixDQUF2Qjs7QUFIK0IsbUJBU0MscUJBQVMsRUFBVCxDQVREO0FBQUE7QUFBQSxNQVN4QkssUUFUd0I7QUFBQSxNQVNkQyxXQVRjOztBQVcvQixNQUFNQyxpQkFBaUIsR0FBRyx3QkFDekIsVUFBQUwsQ0FBQyxFQUFJO0FBQ0pJLElBQUFBLFdBQVcsQ0FBQ0osQ0FBQyxDQUFDQyxNQUFGLENBQVNDLEtBQVYsQ0FBWDtBQUNBLEdBSHdCLEVBSXpCLENBQUNFLFdBQUQsQ0FKeUIsQ0FBMUI7QUFPQSxNQUFNRSxPQUFPLEdBQUcsd0JBQVk7QUFBQSxXQUFNVixRQUFRLENBQUMscUJBQVVDLEtBQVYsRUFBaUJNLFFBQWpCLENBQUQsQ0FBZDtBQUFBLEdBQVosRUFBd0QsQ0FBQ1AsUUFBRCxDQUF4RCxDQUFoQjtBQUVBLFNBQ0MsZ0NBQUMsZ0JBQUQ7QUFBTSxJQUFBLFNBQVMsTUFBZjtBQUFnQixJQUFBLE9BQU8sRUFBQyxRQUF4QjtBQUFpQyxJQUFBLFVBQVUsRUFBQyxRQUE1QztBQUFxRCxJQUFBLEtBQUssRUFBRTtBQUFFVyxNQUFBQSxNQUFNLEVBQUU7QUFBVjtBQUE1RCxLQUNDLGdDQUFDLGdCQUFEO0FBQU0sSUFBQSxJQUFJLE1BQVY7QUFBVyxJQUFBLEVBQUUsRUFBRTtBQUFmLEtBQ0MsZ0NBQUMsZ0JBQUQsUUFDQyxnQ0FBQyxzQkFBRDtBQUFZLElBQUEsS0FBSyxFQUFDO0FBQWxCLElBREQsRUFFQyxnQ0FBQyx1QkFBRCxRQUNDLGdDQUFDLHFCQUFEO0FBQVcsSUFBQSxRQUFRLE1BQW5CO0FBQW9CLElBQUEsS0FBSyxFQUFDLE9BQTFCO0FBQWtDLElBQUEsS0FBSyxFQUFFVixLQUF6QztBQUFnRCxJQUFBLFFBQVEsRUFBRUU7QUFBMUQsSUFERCxFQUVDLDJDQUZELEVBR0MsZ0NBQUMscUJBQUQ7QUFDQyxJQUFBLFFBQVEsTUFEVDtBQUVDLElBQUEsS0FBSyxFQUFDLFVBRlA7QUFHQyxJQUFBLElBQUksRUFBQyxVQUhOO0FBSUMsSUFBQSxLQUFLLEVBQUVJLFFBSlI7QUFLQyxJQUFBLFFBQVEsRUFBRUU7QUFMWCxJQUhELEVBVUMsZ0NBQUMsa0JBQUQ7QUFBUSxJQUFBLE9BQU8sRUFBRUM7QUFBakIsYUFWRCxDQUZELENBREQsQ0FERCxDQUREO0FBcUJBLENBekNEOztlQTJDZSwyQkFBVVgsS0FBViIsInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0JztcblxuaW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlLCB1c2VDYWxsYmFjayB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IGNvbm5lY3QgfSBmcm9tICdyZWFjdC1yZWR1eCc7XG5cbmltcG9ydCBHcmlkIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0dyaWQnO1xuaW1wb3J0IENhcmQgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQ2FyZCc7XG5pbXBvcnQgQ2FyZENvbnRlbnQgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQ2FyZENvbnRlbnQnO1xuaW1wb3J0IENhcmRIZWFkZXIgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQ2FyZEhlYWRlcic7XG5pbXBvcnQgVGV4dEZpZWxkIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL1RleHRGaWVsZCc7XG5pbXBvcnQgQnV0dG9uIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0J1dHRvbic7XG5cbmltcG9ydCB7IGxvZ2luVXNlciB9IGZyb20gJy4uL2xpYi9yZWR1eC9hY3Rpb25zL2F1dGgnO1xuXG5jb25zdCBMb2dpbiA9ICh7IGRpc3BhdGNoIH0pID0+IHtcblx0Y29uc3QgW2VtYWlsLCBzZXRFbWFpbF0gPSB1c2VTdGF0ZSgnJyk7XG5cblx0Y29uc3Qgb25FbWFpbENoYW5nZWQgPSB1c2VDYWxsYmFjayhcblx0XHRlID0+IHtcblx0XHRcdHNldEVtYWlsKGUudGFyZ2V0LnZhbHVlKTtcblx0XHR9LFxuXHRcdFtzZXRFbWFpbF1cblx0KTtcblx0Y29uc3QgW3Bhc3N3b3JkLCBzZXRQYXNzd29yZF0gPSB1c2VTdGF0ZSgnJyk7XG5cblx0Y29uc3Qgb25QYXNzd29yZENoYW5nZWQgPSB1c2VDYWxsYmFjayhcblx0XHRlID0+IHtcblx0XHRcdHNldFBhc3N3b3JkKGUudGFyZ2V0LnZhbHVlKTtcblx0XHR9LFxuXHRcdFtzZXRQYXNzd29yZF1cblx0KTtcblxuXHRjb25zdCBsb2dpbkNiID0gdXNlQ2FsbGJhY2soKCkgPT4gZGlzcGF0Y2gobG9naW5Vc2VyKGVtYWlsLCBwYXNzd29yZCkpLCBbZGlzcGF0Y2hdKTtcblxuXHRyZXR1cm4gKFxuXHRcdDxHcmlkIGNvbnRhaW5lciBqdXN0aWZ5PVwiY2VudGVyXCIgYWxpZ25JdGVtcz1cImNlbnRlclwiIHN0eWxlPXt7IGhlaWdodDogJzEwMCUnIH19PlxuXHRcdFx0PEdyaWQgaXRlbSB4cz17NH0+XG5cdFx0XHRcdDxDYXJkPlxuXHRcdFx0XHRcdDxDYXJkSGVhZGVyIHRpdGxlPVwiTG9naW5cIiAvPlxuXHRcdFx0XHRcdDxDYXJkQ29udGVudD5cblx0XHRcdFx0XHRcdDxUZXh0RmllbGQgcmVxdWlyZWQgbGFiZWw9XCJlbWFpbFwiIHZhbHVlPXtlbWFpbH0gb25DaGFuZ2U9e29uRW1haWxDaGFuZ2VkfSAvPlxuXHRcdFx0XHRcdFx0PGJyIC8+XG5cdFx0XHRcdFx0XHQ8VGV4dEZpZWxkXG5cdFx0XHRcdFx0XHRcdHJlcXVpcmVkXG5cdFx0XHRcdFx0XHRcdGxhYmVsPVwicGFzc3dvcmRcIlxuXHRcdFx0XHRcdFx0XHR0eXBlPVwicGFzc3dvcmRcIlxuXHRcdFx0XHRcdFx0XHR2YWx1ZT17cGFzc3dvcmR9XG5cdFx0XHRcdFx0XHRcdG9uQ2hhbmdlPXtvblBhc3N3b3JkQ2hhbmdlZH1cblx0XHRcdFx0XHRcdC8+XG5cdFx0XHRcdFx0XHQ8QnV0dG9uIG9uQ2xpY2s9e2xvZ2luQ2J9PkxvZ2luPC9CdXR0b24+XG5cdFx0XHRcdFx0PC9DYXJkQ29udGVudD5cblx0XHRcdFx0PC9DYXJkPlxuXHRcdFx0PC9HcmlkPlxuXHRcdDwvR3JpZD5cblx0KTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IGNvbm5lY3QoKShMb2dpbik7XG4iXX0="
     }
   ],
   "/home/dustin/CS/recipes/src/routes/AdminRoute.js": [
@@ -6873,12 +7723,12 @@
     {
       "id": "/home/dustin/CS/recipes/src/routes/AdminRoute.js",
       "hash": "gKtxXw",
-      "browserifyId": 479,
+      "browserifyId": 523,
       "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFkbWluUm91dGUuanM/dmVyc2lvbj1nS3R4WHciXSwibmFtZXMiOlsiQWRtaW5Sb3V0ZSIsImlzQWRtaW4iLCJDb21wb25lbnQiLCJjb21wb25lbnQiLCJyZXN0IiwicHJvcHMiLCJzdGF0ZSIsInVzZXIiLCJhdXRoUmVkdWNlciJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFFQTs7QUFFQSxJQUFNQSxVQUFVLEdBQUcsU0FBYkEsVUFBYTtBQUFBLDBCQUFHQyxPQUFIO0FBQUEsTUFBR0EsT0FBSCw2QkFBYSxLQUFiO0FBQUEsTUFBK0JDLFNBQS9CLFFBQW9CQyxTQUFwQjtBQUFBLE1BQTZDQyxJQUE3QztBQUFBLFNBQ2xCLGdDQUFDLHFCQUFELGdDQUFXQSxJQUFYO0FBQWlCLElBQUEsUUFBUSxFQUFFLGtCQUFBQyxLQUFLO0FBQUEsYUFBS0osT0FBTyxHQUFHLGdDQUFDLFNBQUQsRUFBZUksS0FBZixDQUFILEdBQThCLGdDQUFDLHdCQUFEO0FBQVUsUUFBQSxFQUFFLEVBQUM7QUFBYixRQUExQztBQUFBO0FBQWhDLEtBRGtCO0FBQUEsQ0FBbkI7O2VBSWUseUJBQVEsVUFBQUMsS0FBSyxFQUFJO0FBQUEsTUFFZkMsSUFGZSxHQUczQkQsS0FIMkIsQ0FFOUJFLFdBRjhCLENBRWZELElBRmU7QUFLL0IsU0FBTztBQUFFTixJQUFBQSxPQUFPLEVBQUVNLElBQUksR0FBRyxDQUFDLENBQUNBLElBQUksQ0FBQ04sT0FBVixHQUFvQjtBQUFuQyxHQUFQO0FBQ0EsQ0FOYyxFQU1aRCxVQU5ZIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IGNvbm5lY3QgfSBmcm9tICdyZWFjdC1yZWR1eCc7XG5cbmltcG9ydCB7IFJvdXRlLCBSZWRpcmVjdCB9IGZyb20gJ3JlYWN0LXJvdXRlci1kb20nO1xuXG5jb25zdCBBZG1pblJvdXRlID0gKHsgaXNBZG1pbiA9IGZhbHNlLCBjb21wb25lbnQ6IENvbXBvbmVudCwgLi4ucmVzdCB9KSA9PiAoXG5cdDxSb3V0ZSB7Li4ucmVzdH0gY2hpbGRyZW49e3Byb3BzID0+IChpc0FkbWluID8gPENvbXBvbmVudCB7Li4ucHJvcHN9IC8+IDogPFJlZGlyZWN0IHRvPVwiL1wiIC8+KX0gLz5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IGNvbm5lY3Qoc3RhdGUgPT4ge1xuXHRjb25zdCB7XG5cdFx0YXV0aFJlZHVjZXI6IHsgdXNlciB9LFxuXHR9ID0gc3RhdGU7XG5cblx0cmV0dXJuIHsgaXNBZG1pbjogdXNlciA/ICEhdXNlci5pc0FkbWluIDogZmFsc2UgfTtcbn0pKEFkbWluUm91dGUpO1xuIl19"
     }
   ],
   "/home/dustin/CS/recipes/src/routes/index.js": [
-    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = exports.adminRoutes = exports.routes = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _reactRouterDom = require(\"react-router-dom\");\n\nvar _AdminRoute = _interopRequireDefault(require(\"./AdminRoute\"));\n\nvar _Home = _interopRequireDefault(require(\"../pages/Home\"));\n\n/* Pages */\nvar routes = [{\n  name: 'Home',\n  path: '/home',\n  exact: true,\n  icon: null,\n  component: _Home[\"default\"],\n  showInNav: true\n}];\nexports.routes = routes;\nvar adminRoutes = [];\nexports.adminRoutes = adminRoutes;\n\nvar _default = function _default() {\n  return _react[\"default\"].createElement(_reactRouterDom.Switch, null, routes.map(function (_ref) {\n    var path = _ref.path,\n        Component = _ref.component,\n        route = (0, _objectWithoutProperties2[\"default\"])(_ref, [\"path\", \"component\"]);\n    return _react[\"default\"].createElement(_reactRouterDom.Route, (0, _extends2[\"default\"])({\n      key: path,\n      path: path,\n      component: Component\n    }, route));\n  }), adminRoutes.map(function (_ref2) {\n    var path = _ref2.path,\n        Component = _ref2.component,\n        route = (0, _objectWithoutProperties2[\"default\"])(_ref2, [\"path\", \"component\"]);\n    return _react[\"default\"].createElement(_AdminRoute[\"default\"], (0, _extends2[\"default\"])({\n      key: path,\n      path: path,\n      component: Component\n    }, route));\n  }), _react[\"default\"].createElement(_reactRouterDom.Redirect, {\n    from: \"/\",\n    to: \"/home\",\n    exact: true\n  }));\n};\n\nexports[\"default\"] = _default;\n",
+    "\"use strict\";\n\nvar _interopRequireDefault = require(\"@babel/runtime/helpers/interopRequireDefault\");\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports[\"default\"] = exports.adminRoutes = exports.routes = void 0;\n\nvar _extends2 = _interopRequireDefault(require(\"@babel/runtime/helpers/extends\"));\n\nvar _objectWithoutProperties2 = _interopRequireDefault(require(\"@babel/runtime/helpers/objectWithoutProperties\"));\n\nvar _react = _interopRequireDefault(require(\"react\"));\n\nvar _reactRouterDom = require(\"react-router-dom\");\n\nvar _AdminRoute = _interopRequireDefault(require(\"./AdminRoute\"));\n\nvar _Home = _interopRequireDefault(require(\"../pages/Home\"));\n\nvar _Login = _interopRequireDefault(require(\"../pages/Login\"));\n\n/* Pages */\nvar routes = [{\n  name: 'Home',\n  path: '/home',\n  exact: true,\n  icon: null,\n  component: _Home[\"default\"],\n  showInNav: true\n}, {\n  name: 'Login',\n  path: '/login',\n  exact: true,\n  icon: null,\n  component: _Login[\"default\"],\n  showInNav: false\n}];\nexports.routes = routes;\nvar adminRoutes = [];\nexports.adminRoutes = adminRoutes;\n\nvar _default = function _default() {\n  return _react[\"default\"].createElement(_reactRouterDom.Switch, null, routes.map(function (_ref) {\n    var path = _ref.path,\n        Component = _ref.component,\n        route = (0, _objectWithoutProperties2[\"default\"])(_ref, [\"path\", \"component\"]);\n    return _react[\"default\"].createElement(_reactRouterDom.Route, (0, _extends2[\"default\"])({\n      key: path,\n      path: path,\n      component: Component\n    }, route));\n  }), adminRoutes.map(function (_ref2) {\n    var path = _ref2.path,\n        Component = _ref2.component,\n        route = (0, _objectWithoutProperties2[\"default\"])(_ref2, [\"path\", \"component\"]);\n    return _react[\"default\"].createElement(_AdminRoute[\"default\"], (0, _extends2[\"default\"])({\n      key: path,\n      path: path,\n      component: Component\n    }, route));\n  }), _react[\"default\"].createElement(_reactRouterDom.Redirect, {\n    from: \"/\",\n    to: \"/home\",\n    exact: true\n  }));\n};\n\nexports[\"default\"] = _default;\n",
     {
       "react": "/home/dustin/CS/recipes/node_modules/react/index.js",
       "react-router-dom": "/home/dustin/CS/recipes/node_modules/react-router-dom/index.js",
@@ -6886,13 +7736,14 @@
       "@babel/runtime/helpers/extends": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/extends.js",
       "@babel/runtime/helpers/objectWithoutProperties": "/home/dustin/CS/recipes/node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
       "./AdminRoute": "/home/dustin/CS/recipes/src/routes/AdminRoute.js",
-      "../pages/Home": "/home/dustin/CS/recipes/src/pages/Home.js"
+      "../pages/Home": "/home/dustin/CS/recipes/src/pages/Home.js",
+      "../pages/Login": "/home/dustin/CS/recipes/src/pages/Login.js"
     },
     {
       "id": "/home/dustin/CS/recipes/src/routes/index.js",
-      "hash": "PFPwYQ",
-      "browserifyId": 480,
-      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzP3ZlcnNpb249UEZQd1lRIl0sIm5hbWVzIjpbInJvdXRlcyIsIm5hbWUiLCJwYXRoIiwiZXhhY3QiLCJpY29uIiwiY29tcG9uZW50IiwiSG9tZSIsInNob3dJbk5hdiIsImFkbWluUm91dGVzIiwibWFwIiwiQ29tcG9uZW50Iiwicm91dGUiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBRUE7O0FBQ0E7O0FBRUE7O0FBR0E7O0FBREE7QUFXTyxJQUFNQSxNQUEyQixHQUFHLENBQzFDO0FBQ0NDLEVBQUFBLElBQUksRUFBRSxNQURQO0FBRUNDLEVBQUFBLElBQUksRUFBRSxPQUZQO0FBR0NDLEVBQUFBLEtBQUssRUFBRSxJQUhSO0FBSUNDLEVBQUFBLElBQUksRUFBRSxJQUpQO0FBS0NDLEVBQUFBLFNBQVMsRUFBRUMsZ0JBTFo7QUFNQ0MsRUFBQUEsU0FBUyxFQUFFO0FBTlosQ0FEMEMsQ0FBcEM7O0FBV0EsSUFBTUMsV0FBeUIsR0FBRyxFQUFsQzs7O2VBRVE7QUFBQSxTQUNkLGdDQUFDLHNCQUFELFFBQ0VSLE1BQU0sQ0FBQ1MsR0FBUCxDQUFXO0FBQUEsUUFBR1AsSUFBSCxRQUFHQSxJQUFIO0FBQUEsUUFBb0JRLFNBQXBCLFFBQVNMLFNBQVQ7QUFBQSxRQUFrQ00sS0FBbEM7QUFBQSxXQUNYLGdDQUFDLHFCQUFEO0FBQU8sTUFBQSxHQUFHLEVBQUVULElBQVo7QUFBa0IsTUFBQSxJQUFJLEVBQUVBLElBQXhCO0FBQThCLE1BQUEsU0FBUyxFQUFFUTtBQUF6QyxPQUF3REMsS0FBeEQsRUFEVztBQUFBLEdBQVgsQ0FERixFQUtFSCxXQUFXLENBQUNDLEdBQVosQ0FBZ0I7QUFBQSxRQUFHUCxJQUFILFNBQUdBLElBQUg7QUFBQSxRQUFvQlEsU0FBcEIsU0FBU0wsU0FBVDtBQUFBLFFBQWtDTSxLQUFsQztBQUFBLFdBQ2hCLGdDQUFDLHNCQUFEO0FBQVksTUFBQSxHQUFHLEVBQUVULElBQWpCO0FBQXVCLE1BQUEsSUFBSSxFQUFFQSxJQUE3QjtBQUFtQyxNQUFBLFNBQVMsRUFBRVE7QUFBOUMsT0FBNkRDLEtBQTdELEVBRGdCO0FBQUEsR0FBaEIsQ0FMRixFQVNDLGdDQUFDLHdCQUFEO0FBQVUsSUFBQSxJQUFJLEVBQUMsR0FBZjtBQUFtQixJQUFBLEVBQUUsRUFBQyxPQUF0QjtBQUE4QixJQUFBLEtBQUs7QUFBbkMsSUFURCxDQURjO0FBQUEiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBAZmxvd1xuXG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgU3dpdGNoLCBSb3V0ZSwgUmVkaXJlY3QgfSBmcm9tICdyZWFjdC1yb3V0ZXItZG9tJztcblxuaW1wb3J0IEFkbWluUm91dGUgZnJvbSAnLi9BZG1pblJvdXRlJztcblxuLyogUGFnZXMgKi9cbmltcG9ydCBIb21lIGZyb20gJy4uL3BhZ2VzL0hvbWUnO1xuXG50eXBlIFJlY2lwZXNSb3V0ZSA9IHtcblx0bmFtZTogc3RyaW5nLFxuXHRwYXRoOiBzdHJpbmcsXG5cdGV4YWN0OiBib29sZWFuLFxuXHRpY29uOiBzdHJpbmcsXG5cdGNvbXBvbmVudDogYW55LFxufTtcblxuZXhwb3J0IGNvbnN0IHJvdXRlczogQXJyYXk8UmVjaXBlc1JvdXRlPiA9IFtcblx0e1xuXHRcdG5hbWU6ICdIb21lJyxcblx0XHRwYXRoOiAnL2hvbWUnLFxuXHRcdGV4YWN0OiB0cnVlLFxuXHRcdGljb246IG51bGwsXG5cdFx0Y29tcG9uZW50OiBIb21lLFxuXHRcdHNob3dJbk5hdjogdHJ1ZSxcblx0fSxcbl07XG5cbmV4cG9ydCBjb25zdCBhZG1pblJvdXRlczogQXJyYXk8Um91dGU+ID0gW107XG5cbmV4cG9ydCBkZWZhdWx0ICgpID0+IChcblx0PFN3aXRjaD5cblx0XHR7cm91dGVzLm1hcCgoeyBwYXRoLCBjb21wb25lbnQ6IENvbXBvbmVudCwgLi4ucm91dGUgfSkgPT4gKFxuXHRcdFx0PFJvdXRlIGtleT17cGF0aH0gcGF0aD17cGF0aH0gY29tcG9uZW50PXtDb21wb25lbnR9IHsuLi5yb3V0ZX0gLz5cblx0XHQpKX1cblxuXHRcdHthZG1pblJvdXRlcy5tYXAoKHsgcGF0aCwgY29tcG9uZW50OiBDb21wb25lbnQsIC4uLnJvdXRlIH0pID0+IChcblx0XHRcdDxBZG1pblJvdXRlIGtleT17cGF0aH0gcGF0aD17cGF0aH0gY29tcG9uZW50PXtDb21wb25lbnR9IHsuLi5yb3V0ZX0gLz5cblx0XHQpKX1cblxuXHRcdDxSZWRpcmVjdCBmcm9tPVwiL1wiIHRvPVwiL2hvbWVcIiBleGFjdCAvPlxuXHQ8L1N3aXRjaD5cbik7XG4iXX0="
+      "hash": "bJJgpw",
+      "browserifyId": 524,
+      "sourcemap": "//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzP3ZlcnNpb249YkpKZ3B3Il0sIm5hbWVzIjpbInJvdXRlcyIsIm5hbWUiLCJwYXRoIiwiZXhhY3QiLCJpY29uIiwiY29tcG9uZW50IiwiSG9tZSIsInNob3dJbk5hdiIsIkxvZ2luIiwiYWRtaW5Sb3V0ZXMiLCJtYXAiLCJDb21wb25lbnQiLCJyb3V0ZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7QUFFQTs7QUFDQTs7QUFFQTs7QUFHQTs7QUFDQTs7QUFGQTtBQVlPLElBQU1BLE1BQTJCLEdBQUcsQ0FDMUM7QUFDQ0MsRUFBQUEsSUFBSSxFQUFFLE1BRFA7QUFFQ0MsRUFBQUEsSUFBSSxFQUFFLE9BRlA7QUFHQ0MsRUFBQUEsS0FBSyxFQUFFLElBSFI7QUFJQ0MsRUFBQUEsSUFBSSxFQUFFLElBSlA7QUFLQ0MsRUFBQUEsU0FBUyxFQUFFQyxnQkFMWjtBQU1DQyxFQUFBQSxTQUFTLEVBQUU7QUFOWixDQUQwQyxFQVMxQztBQUNDTixFQUFBQSxJQUFJLEVBQUUsT0FEUDtBQUVDQyxFQUFBQSxJQUFJLEVBQUUsUUFGUDtBQUdDQyxFQUFBQSxLQUFLLEVBQUUsSUFIUjtBQUlDQyxFQUFBQSxJQUFJLEVBQUUsSUFKUDtBQUtDQyxFQUFBQSxTQUFTLEVBQUVHLGlCQUxaO0FBTUNELEVBQUFBLFNBQVMsRUFBRTtBQU5aLENBVDBDLENBQXBDOztBQW1CQSxJQUFNRSxXQUF5QixHQUFHLEVBQWxDOzs7ZUFFUTtBQUFBLFNBQ2QsZ0NBQUMsc0JBQUQsUUFDRVQsTUFBTSxDQUFDVSxHQUFQLENBQVc7QUFBQSxRQUFHUixJQUFILFFBQUdBLElBQUg7QUFBQSxRQUFvQlMsU0FBcEIsUUFBU04sU0FBVDtBQUFBLFFBQWtDTyxLQUFsQztBQUFBLFdBQ1gsZ0NBQUMscUJBQUQ7QUFBTyxNQUFBLEdBQUcsRUFBRVYsSUFBWjtBQUFrQixNQUFBLElBQUksRUFBRUEsSUFBeEI7QUFBOEIsTUFBQSxTQUFTLEVBQUVTO0FBQXpDLE9BQXdEQyxLQUF4RCxFQURXO0FBQUEsR0FBWCxDQURGLEVBS0VILFdBQVcsQ0FBQ0MsR0FBWixDQUFnQjtBQUFBLFFBQUdSLElBQUgsU0FBR0EsSUFBSDtBQUFBLFFBQW9CUyxTQUFwQixTQUFTTixTQUFUO0FBQUEsUUFBa0NPLEtBQWxDO0FBQUEsV0FDaEIsZ0NBQUMsc0JBQUQ7QUFBWSxNQUFBLEdBQUcsRUFBRVYsSUFBakI7QUFBdUIsTUFBQSxJQUFJLEVBQUVBLElBQTdCO0FBQW1DLE1BQUEsU0FBUyxFQUFFUztBQUE5QyxPQUE2REMsS0FBN0QsRUFEZ0I7QUFBQSxHQUFoQixDQUxGLEVBU0MsZ0NBQUMsd0JBQUQ7QUFBVSxJQUFBLElBQUksRUFBQyxHQUFmO0FBQW1CLElBQUEsRUFBRSxFQUFDLE9BQXRCO0FBQThCLElBQUEsS0FBSztBQUFuQyxJQVRELENBRGM7QUFBQSIsInNvdXJjZXNDb250ZW50IjpbIi8vIEBmbG93XG5cbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgeyBTd2l0Y2gsIFJvdXRlLCBSZWRpcmVjdCB9IGZyb20gJ3JlYWN0LXJvdXRlci1kb20nO1xuXG5pbXBvcnQgQWRtaW5Sb3V0ZSBmcm9tICcuL0FkbWluUm91dGUnO1xuXG4vKiBQYWdlcyAqL1xuaW1wb3J0IEhvbWUgZnJvbSAnLi4vcGFnZXMvSG9tZSc7XG5pbXBvcnQgTG9naW4gZnJvbSAnLi4vcGFnZXMvTG9naW4nO1xuXG50eXBlIFJlY2lwZXNSb3V0ZSA9IHtcblx0bmFtZTogc3RyaW5nLFxuXHRwYXRoOiBzdHJpbmcsXG5cdGV4YWN0OiBib29sZWFuLFxuXHRpY29uOiBzdHJpbmcsXG5cdGNvbXBvbmVudDogYW55LFxufTtcblxuZXhwb3J0IGNvbnN0IHJvdXRlczogQXJyYXk8UmVjaXBlc1JvdXRlPiA9IFtcblx0e1xuXHRcdG5hbWU6ICdIb21lJyxcblx0XHRwYXRoOiAnL2hvbWUnLFxuXHRcdGV4YWN0OiB0cnVlLFxuXHRcdGljb246IG51bGwsXG5cdFx0Y29tcG9uZW50OiBIb21lLFxuXHRcdHNob3dJbk5hdjogdHJ1ZSxcblx0fSxcblx0e1xuXHRcdG5hbWU6ICdMb2dpbicsXG5cdFx0cGF0aDogJy9sb2dpbicsXG5cdFx0ZXhhY3Q6IHRydWUsXG5cdFx0aWNvbjogbnVsbCxcblx0XHRjb21wb25lbnQ6IExvZ2luLFxuXHRcdHNob3dJbk5hdjogZmFsc2UsXG5cdH0sXG5dO1xuXG5leHBvcnQgY29uc3QgYWRtaW5Sb3V0ZXM6IEFycmF5PFJvdXRlPiA9IFtdO1xuXG5leHBvcnQgZGVmYXVsdCAoKSA9PiAoXG5cdDxTd2l0Y2g+XG5cdFx0e3JvdXRlcy5tYXAoKHsgcGF0aCwgY29tcG9uZW50OiBDb21wb25lbnQsIC4uLnJvdXRlIH0pID0+IChcblx0XHRcdDxSb3V0ZSBrZXk9e3BhdGh9IHBhdGg9e3BhdGh9IGNvbXBvbmVudD17Q29tcG9uZW50fSB7Li4ucm91dGV9IC8+XG5cdFx0KSl9XG5cblx0XHR7YWRtaW5Sb3V0ZXMubWFwKCh7IHBhdGgsIGNvbXBvbmVudDogQ29tcG9uZW50LCAuLi5yb3V0ZSB9KSA9PiAoXG5cdFx0XHQ8QWRtaW5Sb3V0ZSBrZXk9e3BhdGh9IHBhdGg9e3BhdGh9IGNvbXBvbmVudD17Q29tcG9uZW50fSB7Li4ucm91dGV9IC8+XG5cdFx0KSl9XG5cblx0XHQ8UmVkaXJlY3QgZnJvbT1cIi9cIiB0bz1cIi9ob21lXCIgZXhhY3QgLz5cblx0PC9Td2l0Y2g+XG4pO1xuIl19"
     }
   ]
 }, [

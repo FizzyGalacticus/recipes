@@ -1,5 +1,12 @@
-import { createActionTypes } from '../helpers';
+import { createActionTypes, createActions } from '../helpers';
 import { auth } from '../../firebase';
+
+const loginUserAction = createActions('login');
+export const loginUserStarted = loginUserAction.actionStarted;
+export const loginUserSuccess = loginUserAction.actionSuccess;
+export const loginUserFailure = loginUserAction.actionFailure;
+export const loginUser = (email, password) =>
+	loginUserAction.handler('login', 'POST', { email, password }, undefined, { onSuccess: console.log });
 
 const getUserActions = createActionTypes('request', 'user');
 export const REQUEST_USER_STARTED = getUserActions.actionStarted;

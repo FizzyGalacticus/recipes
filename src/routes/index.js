@@ -7,6 +7,7 @@ import AdminRoute from './AdminRoute';
 
 /* Pages */
 import Home from '../pages/Home';
+import Login from '../pages/Login';
 
 type RecipesRoute = {
 	name: string,
@@ -24,6 +25,14 @@ export const routes: Array<RecipesRoute> = [
 		icon: null,
 		component: Home,
 		showInNav: true,
+	},
+	{
+		name: 'Login',
+		path: '/login',
+		exact: true,
+		icon: null,
+		component: Login,
+		showInNav: false,
 	},
 ];
 
