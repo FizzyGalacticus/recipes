@@ -1,13 +1,11 @@
 // @flow
 
-import React, { Fragment, useEffect } from 'react';
+import React, { Fragment } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
-
-import { login } from '../lib/redux/actions/auth';
 
 import Routes from '../routes';
 
@@ -20,11 +18,7 @@ type Props = {
 	dispatch: Dispatch,
 };
 
-const PageContainer = ({ dispatch, isAdmin }: Props) => {
-	useEffect(() => {
-		dispatch(login(true));
-	}, []);
-
+const PageContainer = ({ isAdmin }: Props) => {
 	return (
 		<Fragment>
 			<NavDrawer />
@@ -48,6 +42,6 @@ export default withRouter(
 			authReducer: { user },
 		} = store;
 
-		return { isAdmin: user ? !!user.isAdmin : false };
+		return { isAdmin: user && user.scope.includes('admin') };
 	})(PageContainer)
 );

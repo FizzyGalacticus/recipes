@@ -1,4 +1,4 @@
-declare type Action = { type: string, response: any, payload: any, auth: FirebaseAuth };
+declare type Action = { type: string };
 
 declare type Dispatch = (action: Action | ThunkAction) => any;
 

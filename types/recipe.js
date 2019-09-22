@@ -13,15 +13,15 @@ declare type IngredientMeasurement = {
 declare type RecipeIngredient = {
 	name: string,
 	isRecipe: boolean,
-	recipeId?: FirebaseId,
+	recipeId?: number,
 };
 
 declare type Recipe = {
 	name: string,
 	picture?: string,
 	ingredients: {
-		[FirebaseId]: {
-			measurementId: FirebaseId,
+		[number]: {
+			measurementId: number,
 			amount: number,
 		},
 	},
@@ -33,5 +33,5 @@ declare type Recipe = {
 	serves: number,
 	createdAt: date,
 	updatedAt: date,
-	author: FirebaseId,
+	author: number,
 };

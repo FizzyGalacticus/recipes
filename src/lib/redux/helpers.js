@@ -29,7 +29,7 @@ export const createActions = (name: String, { successNotification, errorNotifica
 			method = 'GET',
 			payload,
 			params,
-			{ onSuccess = () => {}, onError = () => {}, headers = {} } = {}
+			{ onSuccess = () => {}, onFailure = () => {}, headers = {} } = {}
 		) => async (dispatch /* , getState */) => {
 			dispatch({ type: actionTypes.actionStarted });
 
@@ -42,8 +42,6 @@ export const createActions = (name: String, { successNotification, errorNotifica
 					...headers,
 				},
 			};
-
-			console.log(options);
 
 			if (payload) {
 				options.body = JSON.stringify(payload);
@@ -65,7 +63,7 @@ export const createActions = (name: String, { successNotification, errorNotifica
 
 					dispatch({ type: actionTypes.actionFailure, err: json });
 
-					onError(json);
+					onFailure(json);
 				} else {
 					if (successNotification) {
 						const message = getNotificationMessage(successNotification, json);
@@ -84,7 +82,7 @@ export const createActions = (name: String, { successNotification, errorNotifica
 
 				dispatch({ type: actionTypes.actionFailure, err });
 
-				onError(err);
+				onFailure(err);
 			}
 		},
 	};

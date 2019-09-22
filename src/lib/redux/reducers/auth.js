@@ -1,16 +1,16 @@
 // @flow
 
 import authActions from '../actions/auth';
+import storage from '../../util/localStorage';
 
 const {
-	FIREBASE_LOGIN_STARTED,
-	FIREBASE_LOGIN_SUCCESS,
-	FIREBASE_LOGIN_FAILURE,
-	FIREBASE_LOGOUT_STARTED,
-	FIREBASE_LOGOUT_SUCCESS,
-	FIREBASE_LOGOUT_FAILURE,
-	REQUEST_USER_SUCCESS,
-	REQUEST_USER_FAILURE,
+	REQUEST_REGISTER_USER_STARTED,
+	REQUEST_REGISTER_USER_SUCCESS,
+	REQUEST_REGISTER_USER_FAILURE,
+	REQUEST_LOGIN_USER_STARTED,
+	REQUEST_LOGIN_USER_SUCCESS,
+	REQUEST_LOGIN_USER_FAILURE,
+	LOGOUT_USER_SUCCESS,
 } = authActions;
 
 type InitialState = {
@@ -23,71 +23,86 @@ type InitialState = {
 };
 
 const initialState = {
-	auth: null,
-	user: null,
-	isAuthorized: false,
+	registering: false,
 	loggingIn: false,
 	loggingOut: false,
+	token: null,
+	isAuthorized: false,
 	err: null,
+	auth: null,
+	user: null,
 };
 
-export default (state: initialState = initialState, action: Action) => {
+const initDefaultState = () => {
+	const oldState = storage.getItem('auth_state');
+
+	return oldState || initialState;
+};
+
+const persistState = state => storage.setItem('auth_state', state);
+
+const clearPersistedState = () => storage.removeItem('auth_state');
+
+export default (state: InitialState = initDefaultState(), action: Action) => {
 	switch (action.type) {
-		case FIREBASE_LOGIN_STARTED:
+		case REQUEST_REGISTER_USER_STARTED: {
+			state = {
+				...state,
+				registering: true,
+			};
+			break;
+		}
+		case REQUEST_REGISTER_USER_SUCCESS: {
+			state = {
+				...state,
+				registering: false,
+				token: action.json.token,
+				user: action.json.user,
+				isAuthorized: true,
+			};
+			break;
+		}
+		case REQUEST_REGISTER_USER_FAILURE: {
+			state = {
+				...state,
+				registering: false,
+				err: action.err,
+			};
+			break;
+		}
+		case REQUEST_LOGIN_USER_STARTED: {
 			state = {
 				...state,
 				loggingIn: true,
 			};
 			break;
-		case FIREBASE_LOGIN_SUCCESS:
+		}
+		case REQUEST_LOGIN_USER_SUCCESS: {
 			state = {
 				...state,
 				loggingIn: false,
-				isAuthorized: action.response !== null,
-				auth: action.response,
+				token: action.json.token,
+				user: action.json.user,
+				isAuthorized: true,
 			};
 			break;
-		case FIREBASE_LOGIN_FAILURE:
+		}
+		case REQUEST_LOGIN_USER_FAILURE: {
 			state = {
 				...state,
 				loggingIn: false,
 				err: action.err,
 			};
 			break;
-		case FIREBASE_LOGOUT_STARTED:
-			state = {
-				...state,
-				loggingOut: true,
-			};
+		}
+		case LOGOUT_USER_SUCCESS: {
+			clearPersistedState();
+			state = initialState;
 			break;
-		case FIREBASE_LOGOUT_SUCCESS:
-			state = {
-				...state,
-				loggingOut: false,
-				auth: null,
-				isAuthorized: false,
-			};
-			break;
-		case FIREBASE_LOGOUT_FAILURE:
-			state = {
-				...state,
-				loggingOut: false,
-				err: action.err,
-			};
-			break;
-		case REQUEST_USER_SUCCESS:
-			state = {
-				...state,
-				user: action.response,
-			};
-			break;
-		case REQUEST_USER_FAILURE:
-			state = {
-				...state,
-				err: action.err,
-			};
-			break;
+		}
 	}
+
+	persistState(state);
 
 	return state;
 };

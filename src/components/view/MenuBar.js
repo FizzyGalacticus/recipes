@@ -15,7 +15,7 @@ import authActions from '../../lib/redux/actions/auth';
 const MenuBar = ({ dispatch, menuOpen, isAuthorized, history }) => {
 	const toggleNavCb = useCallback(() => dispatch(toggleNav()), [dispatch, toggleNav]);
 	const loginCb = useCallback(() => history.push('/login'), [history]);
-	const logoutCb = useCallback(() => dispatch(authActions.logout()), [dispatch, authActions]);
+	const logoutCb = useCallback(() => dispatch(authActions.logoutUser()), [dispatch, authActions]);
 
 	return (
 		<AppBar position="static" style={{ zIndex: 250 }}>
@@ -46,9 +46,9 @@ export default withRouter(
 	connect(store => {
 		const {
 			menuReducer: { open: menuOpen },
-			authReducer: { isAuthorized, auth },
+			authReducer: { isAuthorized },
 		} = store;
 
-		return { menuOpen, isAuthorized, auth };
+		return { menuOpen, isAuthorized };
 	})(MenuBar)
 );

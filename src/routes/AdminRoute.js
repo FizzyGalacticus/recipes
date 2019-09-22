@@ -12,5 +12,5 @@ export default connect(state => {
 		authReducer: { user },
 	} = state;
 
-	return { isAdmin: user ? !!user.isAdmin : false };
+	return { isAdmin: user && user.scope.includes('admin') };
 })(AdminRoute);

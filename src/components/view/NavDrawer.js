@@ -68,5 +68,5 @@ export default connect(state => {
 		menuReducer: { open },
 	} = state;
 
-	return { open, isAdmin: user ? !!user.isAdmin : false };
+	return { open, isAdmin: user && user.scope.includes('admin') };
 })(withRouter(NavDrawer));

@@ -2,6 +2,7 @@
 
 import React, { useState, useCallback } from 'react';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 
 import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
@@ -12,7 +13,7 @@ import Button from '@material-ui/core/Button';
 
 import { loginUser, registerUser } from '../lib/redux/actions/auth';
 
-const Login = ({ dispatch }) => {
+const Login = ({ dispatch, history }) => {
 	const [email, setEmail] = useState('');
 
 	const onEmailChanged = useCallback(
@@ -30,8 +31,17 @@ const Login = ({ dispatch }) => {
 		[setPassword]
 	);
 
-	const loginCb = useCallback(() => dispatch(loginUser(email, password)), [dispatch, email, password]);
-	const registerCb = useCallback(() => dispatch(registerUser(email, password)), [dispatch, email, password]);
+	const loginCb = useCallback(() => dispatch(loginUser(email, password, { onSuccess: () => history.push('/') })), [
+		dispatch,
+		email,
+		password,
+		history,
+	]);
+
+	const registerCb = useCallback(
+		() => dispatch(registerUser(email, password, { onSuccess: () => history.push('/') })),
+		[dispatch, email, password, history]
+	);
 
 	return (
 		<Grid container justify="center" alignItems="center" style={{ height: '100%' }}>
@@ -57,4 +67,4 @@ const Login = ({ dispatch }) => {
 	);
 };
 
-export default connect()(Login);
+export default withRouter(connect()(Login));
