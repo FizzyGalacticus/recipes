@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -11,33 +12,43 @@ import Typography from '@material-ui/core/Typography';
 import { toggleNav } from '../../lib/redux/actions/menu';
 import authActions from '../../lib/redux/actions/auth';
 
-export default connect(store => {
-	const {
-		menuReducer: { open: menuOpen },
-		authReducer: { isAuthorized, auth },
-	} = store;
+const MenuBar = ({ dispatch, menuOpen, isAuthorized, history }) => {
+	const toggleNavCb = useCallback(() => dispatch(toggleNav()), [dispatch, toggleNav]);
+	const loginCb = useCallback(() => history.push('/login'), [history]);
+	const logoutCb = useCallback(() => dispatch(authActions.logoutUser()), [dispatch, authActions]);
 
-	return { menuOpen, isAuthorized, auth };
-})(({ dispatch, menuOpen, isAuthorized /* auth */ }) => (
-	<AppBar position="static" style={{ zIndex: 250 }}>
-		<Toolbar>
-			{menuOpen ? null : (
-				<IconButton color="inherit" aria-label="Menu" onClick={() => dispatch(toggleNav())}>
-					<MenuIcon />
-				</IconButton>
-			)}
-			<Typography variant="h6" color="inherit" style={{ flexGrow: 1 }}>
-				Recipes
-			</Typography>
-			{isAuthorized ? (
-				<Button color="inherit" onClick={() => dispatch(authActions.logout())}>
-					Logout
-				</Button>
-			) : (
-				<Button color="inherit" onClick={() => dispatch(authActions.login())}>
-					Login
-				</Button>
-			)}
-		</Toolbar>
-	</AppBar>
-));
+	return (
+		<AppBar position="static" style={{ zIndex: 250 }}>
+			<Toolbar>
+				{menuOpen ? null : (
+					<IconButton color="inherit" aria-label="Menu" onClick={toggleNavCb}>
+						<MenuIcon />
+					</IconButton>
+				)}
+				<Typography variant="h6" color="inherit" style={{ flexGrow: 1 }}>
+					Recipes
+				</Typography>
+				{isAuthorized ? (
+					<Button color="inherit" onClick={logoutCb}>
+						Logout
+					</Button>
+				) : (
+					<Button color="inherit" onClick={loginCb}>
+						Login
+					</Button>
+				)}
+			</Toolbar>
+		</AppBar>
+	);
+};
+
+export default withRouter(
+	connect(store => {
+		const {
+			menuReducer: { open: menuOpen },
+			authReducer: { isAuthorized },
+		} = store;
+
+		return { menuOpen, isAuthorized };
+	})(MenuBar)
+);

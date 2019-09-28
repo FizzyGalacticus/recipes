@@ -1,22 +1,13 @@
 // @flow
 
-import { firestore, auth } from '../firebase';
+import apiConfig from '../../../config/api';
 import { showNotification } from '../notification';
 
-type NotificationHandler = string | ((response: any) => string);
+const baseUrl = apiConfig.host;
 
-const cache: { [string]: { response: object, lastRetrieved: Date } } = {};
+const getNotificationMessage = (msg, notif) => (typeof msg === 'function' ? msg(notif) : msg);
 
-const withinTenMinutes = (date1: Date, date2: Date) => {
-	const timeOneMillis = date1.getTime();
-	const timeTwoMillis = date2.getTime();
-
-	const tenMins = 1000 * 60 * 10;
-
-	return Math.abs(timeOneMillis - timeTwoMillis) <= tenMins;
-};
-
-export const createActions = (prefix: string, name: string) => {
+export const createActionTypes = (prefix: string, name: string) => {
 	const actionStarted = `${prefix.toUpperCase()}_${name.toUpperCase()}_STARTED`;
 	const actionSuccess = `${prefix.toUpperCase()}_${name.toUpperCase()}_SUCCESS`;
 	const actionFailure = `${prefix.toUpperCase()}_${name.toUpperCase()}_FAILURE`;
@@ -28,131 +19,73 @@ export const createActions = (prefix: string, name: string) => {
 	};
 };
 
-const createFirestoreHelper = (
-	fn: (...params) => Promise<any> = Promise.resolve,
-	mode: string = 'get',
-	{
-		name = 'helper',
-		responseModifier = response => response,
-		useCache = false,
-	}: { name: string, responseModifier: (response: any) => any, useCache: boolean } = {}
-) => {
-	return (
-		collectionName: string,
-		{
-			successNotification,
-			errorNotification,
-			actionType,
-		}: {
-			successNotification?: NotificationHandler,
-			errorNotification?: NotificationHandler,
-			actionType?: string,
-		} = {}
-	) => {
-		const { actionStarted, actionSuccess, actionFailure } = createActions(
-			mode,
-			actionType ? actionType : collectionName
-		);
-
-		const helper = (...params) => {
-			return async (dispatch: Dispatch) => {
-				dispatch({ type: actionStarted, auth: auth.getAuth() });
-
-				let response;
-
-				try {
-					if (useCache) {
-						const key = `${collectionName}-${JSON.stringify(params)}`;
-
-						if (cache[key] && withinTenMinutes(cache[key].lastRetrieved, new Date())) {
-							response = cache[key].response;
-						} else {
-							response = await fn(collectionName, ...params);
-							cache[key] = {
-								response,
-								lastRetrieved: new Date(),
-							};
-						}
-					} else {
-						response = await fn(collectionName, ...params);
-					}
-
-					dispatch({
-						type: actionSuccess,
-						response: responseModifier(response, ...params),
-						auth: auth.getAuth(),
-					});
-
-					if (successNotification) {
-						let message;
-
-						if (typeof successNotification === 'function') {
-							message = successNotification(response);
-						} else {
-							message = successNotification;
-						}
-
-						showNotification({ message, variant: 'success' });
-					}
-				} catch (err) {
-					dispatch({
-						type: actionFailure,
-						auth: auth.getAuth(),
-						err,
-					});
-
-					if (errorNotification) {
-						let message;
-
-						if (typeof errorNotification === 'function') {
-							message = errorNotification(err);
-						} else {
-							message = errorNotification;
-						}
-
-						showNotification({ message, variant: 'error' });
-					}
-				}
-			};
-		};
-
-		return {
-			[actionStarted]: actionStarted,
-			[actionSuccess]: actionSuccess,
-			[actionFailure]: actionFailure,
-			[name]: helper,
-		};
-	};
-};
-
-export const createCreateDocumentAction = createFirestoreHelper(firestore.create, 'create', {
-	name: 'createDocument',
-	responseModifier: ({ id }, payload) => ({ ...payload, id }),
-});
-
-export const createGetCollectionAction = createFirestoreHelper(firestore.readCollection, 'get', {
-	name: 'getCollection',
-	useCache: true,
-});
-
-export const createGetDocumentAction = createFirestoreHelper(firestore.readDocument, 'get', {
-	name: 'getDocument',
-	useCache: true,
-	responseModifier: (response, key) => ({ ...response, data: () => ({ ...response.data(), id: key }) }),
-});
-
-export const createUpdateDocumentAction = createFirestoreHelper(firestore.updateDocument, 'update', {
-	name: 'updateDocument',
-	responseModifier: (response, key, payload) => ({ ...payload, id: key }),
-});
-
-export const createSetEditingDocumentAction = collectionName => {
-	const type = `SET_EDITING_${collectionName.toUpperCase()}`;
+export const createActions = (name: String, { successNotification, errorNotification, adminActions = false } = {}) => {
+	const actionTypes = createActionTypes('request', name);
 
 	return {
-		[type]: type,
-		setEditingDocument: (payload: any) => (dispatch: Dispatch) => dispatch({ type, payload }),
+		...actionTypes,
+		handler: (
+			endpoint,
+			method = 'GET',
+			payload,
+			params,
+			{ onSuccess = () => {}, onFailure = () => {}, headers = {} } = {}
+		) => async (dispatch /* , getState */) => {
+			dispatch({ type: actionTypes.actionStarted });
+
+			const options = {
+				method,
+				params,
+				headers: {
+					Accept: 'application/json',
+					'Content-Type': 'application/json',
+					...headers,
+				},
+			};
+
+			if (payload) {
+				options.body = JSON.stringify(payload);
+			}
+
+			try {
+				const response = await fetch(`${baseUrl}/${adminActions ? 'admin' : 'web'}/${endpoint}`, options);
+				const json = await response.json();
+
+				const { status } = response;
+
+				if (status < 200 || status > 299) {
+					if (errorNotification) {
+						const message = getNotificationMessage(errorNotification, json);
+						showNotification({ message, variant: 'error' });
+					} else {
+						showNotification({ message: json.message, variant: 'error' });
+					}
+
+					dispatch({ type: actionTypes.actionFailure, err: json });
+
+					onFailure(json);
+				} else {
+					if (successNotification) {
+						const message = getNotificationMessage(successNotification, json);
+						showNotification({ message, variant: 'success' });
+					}
+
+					dispatch({ type: actionTypes.actionSuccess, json });
+
+					onSuccess(json);
+				}
+			} catch (err) {
+				if (errorNotification) {
+					const message = getNotificationMessage(errorNotification, err);
+					showNotification({ message, variant: 'error' });
+				}
+
+				dispatch({ type: actionTypes.actionFailure, err });
+
+				onFailure(err);
+			}
+		},
 	};
 };
 
-export const emptyDispatch = () => (/* dispatch: Dispatch */) => {};
+export default { createActionTypes, createActions };

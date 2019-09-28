@@ -1,13 +1,11 @@
 // @flow
 
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
-
-import { login } from '../lib/redux/actions/auth';
 
 import Routes from '../routes';
 
@@ -20,33 +18,23 @@ type Props = {
 	dispatch: Dispatch,
 };
 
-class PageContainer extends Component<Props> {
-	constructor(props) {
-		super(props);
-	}
-
-	componentDidMount() {
-		this.props.dispatch(login(true));
-	}
-
-	render() {
-		return (
-			<Fragment>
-				<NavDrawer />
-				<Grid container>
-					<Grid item xs={12}>
-						<MenuBar />
-					</Grid>
-					<Grid item>
-						<CssBaseline />
-						<Routes isAdmin={this.props.isAdmin} />
-					</Grid>
-					<Snackbar />
+const PageContainer = ({ isAdmin }: Props) => {
+	return (
+		<Fragment>
+			<NavDrawer />
+			<Grid container style={{ height: '100%' }}>
+				<Grid item xs={12}>
+					<MenuBar />
 				</Grid>
-			</Fragment>
-		);
-	}
-}
+				<Grid item style={{ height: '100%', width: '100%' }}>
+					<CssBaseline />
+					<Routes isAdmin={isAdmin} />
+				</Grid>
+				<Snackbar />
+			</Grid>
+		</Fragment>
+	);
+};
 
 export default withRouter(
 	connect(store => {
@@ -54,6 +42,6 @@ export default withRouter(
 			authReducer: { user },
 		} = store;
 
-		return { isAdmin: user ? !!user.isAdmin : false };
+		return { isAdmin: user && user.scope.includes('admin') };
 	})(PageContainer)
 );

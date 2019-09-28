@@ -13,60 +13,60 @@ import Divider from '@material-ui/core/Divider';
 import { toggleNav } from '../../lib/redux/actions/menu';
 import { routes, adminRoutes } from '../../routes';
 
+const NavDrawer = ({ dispatch, open, isAdmin, history }) => (
+	<Drawer open={open} anchor="left" variant="persistent" style={{ zIndex: -1 }}>
+		<List>
+			<div style={{ display: 'flex', alignItems: 'center', padding: '0 8px', justifyContent: 'flex-end' }}>
+				<IconButton onClick={() => dispatch(toggleNav())}>
+					<ChevronLeftIcon />
+				</IconButton>
+			</div>
+			<Divider />
+			{routes.map(route =>
+				route.showInNav ? (
+					<ListItem
+						key={route.path}
+						onClick={() => {
+							history.push(route.path);
+							dispatch(toggleNav());
+						}}
+						button
+					>
+						{route.name}
+					</ListItem>
+				) : null
+			)}
+			{isAdmin ? (
+				<Fragment>
+					<Divider />
+					<ListItem>
+						<b>Admin</b>
+					</ListItem>
+					{adminRoutes.map(route =>
+						route.showInNav ? (
+							<ListItem
+								key={route.path}
+								onClick={() => {
+									history.push(route.path);
+									dispatch(toggleNav());
+								}}
+								button
+							>
+								{route.name}
+							</ListItem>
+						) : null
+					)}
+				</Fragment>
+			) : null}
+		</List>
+	</Drawer>
+);
+
 export default connect(state => {
 	const {
 		authReducer: { user },
 		menuReducer: { open },
 	} = state;
 
-	return { open, isAdmin: user ? !!user.isAdmin : false };
-})(
-	withRouter(({ dispatch, open, isAdmin, history }) => (
-		<Drawer open={open} anchor="left" variant="persistent" style={{ zIndex: -1 }}>
-			<List>
-				<div style={{ display: 'flex', alignItems: 'center', padding: '0 8px', justifyContent: 'flex-end' }}>
-					<IconButton onClick={() => dispatch(toggleNav())}>
-						<ChevronLeftIcon />
-					</IconButton>
-				</div>
-				<Divider />
-				{routes.map(route =>
-					route.showInNav ? (
-						<ListItem
-							key={route.path}
-							onClick={() => {
-								history.push(route.path);
-								dispatch(toggleNav());
-							}}
-							button
-						>
-							{route.name}
-						</ListItem>
-					) : null
-				)}
-				{isAdmin ? (
-					<Fragment>
-						<Divider />
-						<ListItem>
-							<b>Admin</b>
-						</ListItem>
-						{adminRoutes.map(route =>
-							route.showInNav ? (
-								<ListItem
-									key={route.path}
-									onClick={() => {
-										history.push(route.path);
-										dispatch(toggleNav());
-									}}
-									button
-								>
-									{route.name}
-								</ListItem>
-							) : null
-						)}
-					</Fragment>
-				) : null}
-			</List>
-		</Drawer>
-	))
-);
+	return { open, isAdmin: user && user.scope.includes('admin') };
+})(withRouter(NavDrawer));
