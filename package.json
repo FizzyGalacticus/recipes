@@ -63,6 +63,9 @@
 		"vinyl-source-stream": "^2.0.0",
 		"watchify": "^3.11.0"
 	},
+	"eslintignore": [
+		"docs/js/app.js"
+	],
 	"husky": {
 		"hooks": {
 			"pre-commit": "flow-node .githooks/pre-commit/index.js"

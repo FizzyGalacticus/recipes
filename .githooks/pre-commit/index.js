@@ -122,9 +122,9 @@ const prettier = (files: FileList = []) => {
 const lint = (files: FileList = []) => {
 	info('Linting...');
 
-	const jsFiles = getJavascriptFiles(files);
+	const jsFiles = getJavascriptFiles(files).filter(file => !file.startsWith('docs/'));
 
-	return exec(`yarn lint-files --no-ignore ${jsFiles.length ? jsFiles.join(' ') : 'src/**/*.js'}`, {
+	return exec(`yarn lint --no-ignore ${jsFiles.length ? jsFiles.join(' ') : 'src/**/*.js'}`, {
 		outputToConsole: true,
 	});
 };

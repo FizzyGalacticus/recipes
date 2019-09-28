@@ -14,7 +14,6 @@ const {
 } = authActions;
 
 type InitialState = {
-	auth: FirebaseAuth,
 	user: Object,
 	isAuthorized: boolean,
 	loggingIn: boolean,
