@@ -57,8 +57,8 @@ const Select = (props: Props) => {
 				fullWidth={fullWidth}
 				{...rest}
 			>
-				{items.map((item, idx) => (
-					<MenuItem key={`${instanceId}-item-${idx}`} value={item}>
+				{items.map(item => (
+					<MenuItem key={`${instanceId}-item-${item}`} value={item}>
 						{item}
 					</MenuItem>
 				))}

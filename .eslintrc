@@ -139,7 +139,7 @@
 		],
 		"flowtype/define-flow-type": 1
 	},
-	"plugins": ["react", "babel", "flowtype", "prettier"],
+	"plugins": ["react", "react-hooks", "babel", "flowtype", "prettier"],
 	"settings": {
 		"react": {
 			"version": "detect"

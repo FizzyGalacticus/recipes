@@ -1,8 +1,9 @@
 // @flow
 
 declare type RecipeInstruction = {
-	text: string,
-	number: number,
+	text: String,
+	approxTime: number,
+	timeUnit: String,
 };
 
 declare type IngredientMeasurement = {

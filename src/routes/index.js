@@ -8,6 +8,7 @@ import AdminRoute from './AdminRoute';
 /* Pages */
 import Home from '../pages/Home';
 import Login from '../pages/Login';
+import CreateRecipe from '../pages/CreateRecipe';
 
 type RecipesRoute = {
 	name: string,
@@ -34,6 +35,7 @@ export const routes: Array<RecipesRoute> = [
 		component: Login,
 		showInNav: false,
 	},
+	{ name: 'Create Recipe', path: '/recipes/new', exact: true, component: CreateRecipe, showInNav: true },
 ];
 
 export const adminRoutes: Array<Route> = [];
